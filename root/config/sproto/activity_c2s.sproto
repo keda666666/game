@@ -1,0 +1,18 @@
+#客户端->服务端
+#获取活动数据
+cs_activity_info_req 22001 {
+	request {
+	}
+}
+
+#进入活动
+cs_activity_enter 22002 {
+	request {
+		activity 			0 : integer #活动编号
+	}
+}
+
+#活动大厅
+cs_activity_hall 22003 {
+	request { }
+}

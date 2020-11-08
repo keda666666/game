@@ -1,0 +1,34 @@
+# 发送聊天信息
+cs_chat_send_info 3101 {
+	request {
+		type 		0 : integer 	#聊天类型 1=世界聊天，2=私聊
+		str			1 : string 		#内容
+		recId 		2 : integer		#私聊需传入接收方id
+	}
+}
+
+
+#私聊初始化
+cs_chat_private_send_init 3111 {
+	request {
+		targetId 		0 : integer  		#目标id
+	}
+}
+
+#查看在线
+cs_chat_check_online 3116 {
+	request {
+		playerIdArray 		0 : *integer  	 	#查看列表
+	}
+	response {
+		onlineStatus 		0 : *boolean 	#在线状态，位置与列表对应
+	}
+}
+
+#分享信息
+cs_chat_share_info 3120 {
+	request {
+		shareId 	0 : integer 			#分享Id
+		params 		1 : *client_chat_param 	#客户端参数
+	}
+}

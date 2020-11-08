@@ -1,0 +1,204 @@
+##barrierid说明 0=南天门，1=殿前，2=凌霄殿，3=神龙殿
+
+#玩家信息
+sc_guildwar_player_info 27001 {
+	request {
+		barrierId 		0 : integer	 				#关卡Id
+		through 		1 : boolean	 				#通关标识
+		reborntime		2 : integer	 				#复活时间
+		attacktime 		3 : integer  				#攻击时间
+		rankData 		4 : guildwar_rank_data 		#排行数据
+	}
+}
+
+#帮会信息
+sc_guildwar_guild_info 27002 {
+	request {
+		barrierId 		0 : integer 	#关卡id
+		playerNum 		1 : integer 	#帮会人数
+		throughNum		2 : integer		#通关人数
+		rankData 		3 : guildwar_rank_data #排行数据
+	}
+}
+
+#排行
+.guildwar_rank_data {
+	injure 			0 : integer #伤害
+	injureRank 		1 : integer	#伤害排行
+	holdtracks 		2 : integer #占领时长
+	holdtracksRank 	3 : integer #占领时长排行
+	score 			4 : integer #积分
+	scoreRank 		5 : integer #积分排行
+	kill 			6 : integer #击杀
+	killRank 		7 : integer #击杀排行
+}
+
+#帮会信息
+.guildwar_guild_info {
+	guildId 		0 : integer 			#帮会id
+	guildName 		1 : string 				#帮会名字
+	serverId 		2 : integer 			#服务id
+	score 			3 : integer 			#积分
+	throughNum 		4 : integer 			#进入人数
+	rankData 		5 : guildwar_rank_data 	#排行数据
+	leaderName 		6 : string 				#帮主名字
+}
+
+#帮会排行
+sc_guildwar_guild_rank 27003 {
+	request {
+		barrierId 		0 : integer 				#关卡id
+		guildinfos 		1 : *guildwar_guild_info 	#排名信息
+	}
+}
+
+#玩家数据
+.guildwar_player_data {
+	dbid 		0 : integer
+	name 		1 : string
+	job 		2 : integer
+	sex 		3 : integer
+	serverId 	4 : integer
+	guildName 	5 : string
+	rankData 	6 : guildwar_rank_data
+}
+
+#个人排行
+sc_guildwar_player_rank 27004 {
+	request {
+		barrierId 		0 : integer 				#关卡id
+		rankInfos 		1 : *guildwar_player_data 	#排行信息
+	}
+}
+
+#关卡信息
+sc_guildwar_barrier_info 27005 {
+	request {
+		barrierId 		0 : integer 	#关卡Id
+		playerNum 		1 : integer 	#关卡人数
+	}
+}
+
+#boss信息
+sc_guildwar_boss_info 27006 {
+	request {
+		barrierId 		0 : integer 	#关卡id
+		shield 			1 : integer		#护盾值百分比
+		hp 				2 : integer 	#hp百分比
+		recovertime 	3 : integer 	#护盾恢复时间		
+	}
+}
+
+.guildwar_guard_info {
+	name 		0 : string
+	job 		1 : integer
+	sex 		2 : integer
+	serverId 	3 : integer	#服务器Id
+	guildName 	4 : string
+}
+
+#守护者信息
+sc_guildwar_guard_info 27007 {
+	request {
+		guardtype 		0 : integer					# 0=怪物守护，1=玩家
+		holdtime 		1 : integer 				#占领时间
+		resistNum 		2 : integer 				#抵御人数
+		hp 				3 : integer					#hp百分比
+		guardinfos 		4 : *guildwar_guard_info
+		ownerGuildId 	5 : integer 				#占有帮会id
+	}
+}
+
+#四天王数据
+.guildwar_king_data {
+	bossid 			0 : integer
+	reborntime 		1 : integer
+}
+
+sc_guildwar_four_king_info 27008 {
+	request {
+		bossinfos 	0 : *guildwar_king_data
+	}
+}
+
+#玩家全局数据
+sc_guildwar_player_global_info 27009 {
+	request {
+		reborntime		0 : integer	 				#复活时间
+		score 			1 : integer 				#积分
+		scoreRank 		2 : integer 				#积分排行
+		kill 			3 : integer 				#击杀人数
+		killRank 		4 : integer  				#击杀排行
+		rewardMark 		5 : integer 				#领取奖励标识 对应位 0=领取过
+		endtime 		6 : integer 				#活动结束时间
+		worldlevel 		7 : integer  				#世界等级
+	}
+}
+
+#我的帮派全局数据
+sc_guildwar_myguild_global_info 27010 {
+	request {
+		playerNum 		0 : integer 				#帮派人数
+		score 			1 : integer 				#积分
+		scoreRank 		2 : integer 				#积分排行
+	}
+}
+
+
+#帮会排行榜
+sc_guildwar_all_guild_rank_info 27030 {
+	request {
+		rankinfos 		0 : *guildwar_guild_info
+	}
+}
+
+#个人排行榜
+sc_guildwar_all_player_rank_info 27031 {
+	request {
+		killrank 		0 :	*guildwar_player_data
+		injurerank		1 : *guildwar_player_data
+		scorerank 		2 : *guildwar_player_data
+	}
+}
+
+#进入神龙殿的帮会名单
+sc_guildwar_enter_dragon_guild 27035 {
+	request {
+		guildinfos 		0 : *guildwar_guild_info
+		countdown 		1 : integer
+	}
+}
+
+#神龙殿开启
+sc_guildwar_ultimate_attack 27036 {
+	request {
+		countdown 		0 : integer #开启时间
+	}
+}
+
+#本服参战帮会和上冠军
+sc_guildwar_enter_war_guild 27041 {
+	request {
+		championGuild 	0 : guildwar_guild_info 		#冠军帮会
+		guildinfos 		1 : *guildwar_guild_info 		#参战帮会
+	}
+}
+
+
+.guildwar_report_sharedata {
+	victory 	0 : string 		#胜利帮会名称
+	serverid 	1 : integer
+}
+
+.guildwar_report_guilddetail {
+	rank 		0 : integer 	#我的帮会排名
+}
+
+sc_guildwar_report 27042 {
+	request {
+		guilddetail 	0 : guildwar_report_guilddetail
+		rewards 		1 : *reward_data
+		auctionrewards 	2 : *reward_data
+		sharedata 		3 : guildwar_report_sharedata 		
+	}
+}

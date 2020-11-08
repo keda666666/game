@@ -1,0 +1,33 @@
+# 初始化
+#坐骑1 翅膀2 天仙3 神兵4 宠物兽魂5 宠物通灵6 仙侣仙位7 仙侣法阵8
+#天女9 天女灵气10 天女花辇11 灵童12
+sc_template_init_data 5001 {
+	request {
+		templateType	0 : integer
+		lv				1 : integer
+		upNum			2 : integer
+		drugNum			3 : integer
+		useClothes		4 : integer
+		clothesList		5 : *integer
+		skillList		6 : *integer
+		equipList		7 : *equip_item_data
+		reward			8 : integer
+		startUp			9 : integer
+	}
+}
+
+#数据更新
+sc_template_update_data 5002 {
+	request {
+		templateType	0 : integer
+		lv				1 : integer
+		upNum			2 : integer
+		drugNum			3 : integer
+		useClothes		4 : integer
+		clothesList		5 : *integer
+		skillList		6 : *integer
+		equipList		7 : *equip_item_data
+		reward			8 : integer
+		startUp			9 : integer
+	}
+}

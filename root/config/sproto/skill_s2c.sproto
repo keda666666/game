@@ -1,0 +1,15 @@
+# 技能升级结果
+sc_skill_upgrade_result 304 {
+	request {
+		skillID		0 : integer
+		level		1 : integer
+	}	
+}
+
+# 全部技能升级结果
+sc_skill_all_upgrade_result 305 {
+	request {
+		level		0 : *integer
+	}	
+}
+

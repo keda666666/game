@@ -1,0 +1,67 @@
+#客户端->服务端
+
+.qualifyingMgr_fight_data {
+	win 		0 : boolean #胜负
+	name1		1 : string #玩家名字
+	server1		2 : integer #服务器id
+	name2		3 : string #玩家名字
+	server2		4 : integer #服务器id
+}
+
+#获取信息
+cs_qualifyingMgr_info 22101 {
+	request {
+	}
+}
+#报名
+cs_qualifyingMgr_sign_up 22102 {
+	request {
+	}
+	response {
+		ret			0 : boolean #成功/已报名
+	}
+}
+#海选排行榜
+cs_qualifyingMgr_rank 22103 {
+	request {
+	}
+	response {
+		rank_data 		0 : *qualifyingMgr_rank_data #排行榜
+		fightRecord 	1 : *qualifyingMgr_fight_data #战斗记录
+		rankNo 			2 : integer #玩家排名,0则未进入排行榜
+		point 			3 : integer #积分
+	}
+}
+#下注
+cs_qualifyingMgr_gamble 22104 {
+	request {
+		field 		0 : integer #那个组
+		no 			1 : integer #对1下注还是2
+		typ 		2 : integer #赌注是啥123对应押注配置
+	}
+	response {
+		ret			0 : boolean #成功/重复下注
+	}
+}
+#观看录像
+cs_qualifyingMgr_video 22105 {
+	request {
+		the 		0 : integer #几强
+		field 		1 : integer #场次
+		round 		2 : integer #第几回合123
+	}
+}
+#获取场景数据,收到回复才能入场
+cs_qualifyingMgr_map_info 22106 {
+	request {
+		}
+}
+#16~2强
+cs_qualifyingMgr_timeout 22107 {
+	request {
+	}
+	response {
+		ret			0 : boolean #成功/失败
+		timeout 	1 : integer #下次战斗倒计时
+	}
+}

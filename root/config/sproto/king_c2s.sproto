@@ -1,0 +1,75 @@
+# 请求参加跨服争霸
+cs_king_join 24001 {
+	request {
+
+	} 
+	response {
+       ret 		0 : boolean
+    }
+}
+
+# 请求城池数据
+cs_king_city_data 24002 {
+	request {
+		camp 		0 : integer # 0主城 或边城：1人 2仙 3魔
+	}
+}
+
+# 参与守卫
+cs_king_city_guard 24003 {
+	request {
+		camp 		0 : integer # 0主城 或边城：1人 2仙 3魔
+	}
+}
+
+# 攻城
+cs_king_city_attack 24004 {
+	request {
+		camp 		0 : integer # 0主城 或边城：1人 2仙 3魔
+	}
+}
+
+# 自由pk
+cs_king_pk 24005 {
+	request {
+		targetid 		0 : integer
+	}
+}
+
+# 花钱复活
+cs_king_pay_revive 24006 {
+	request { }
+}
+
+# 退出游戏
+cs_king_leave 24007 {
+	request { }
+}
+
+#玩家领取积分奖励
+cs_king_get_point_reward 24008 {
+	request {
+		pointtype 			0 : integer 	# 积分类型 1王城积分 2个人积分
+		index				1 : integer		# 配置索引
+	}
+}
+
+#玩家积分数据
+cs_king_point_data 24009 {
+	request { }
+}
+
+#玩家变身
+cs_king_transform 24010 {
+	request { }
+}
+
+#我在守的城 
+cs_king_my_guard_city 24011 {
+	request { }
+}
+
+#组队招募 
+cs_king_team_recruit 24012 {
+	request { }
+}

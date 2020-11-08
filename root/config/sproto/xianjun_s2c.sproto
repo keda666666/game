@@ -1,0 +1,14 @@
+.xianjun_info {
+	id			0 : integer
+	exp			1 : integer
+	level		2 : integer
+	star		3 : integer
+}
+
+# 仙君
+sc_xianjun_init 801 {
+	request {
+		list		0 : *xianjun_info
+		outbound	1 : *integer
+	}
+}

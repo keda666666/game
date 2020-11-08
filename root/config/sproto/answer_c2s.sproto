@@ -1,0 +1,21 @@
+#客户端->服务端
+#答题
+cs_answer_answer 5801 {
+	request {
+	no			0 : integer #第几题
+	answer		1 : integer #第几个选项
+	}
+}
+#获取界面
+cs_answer_answer_ui 5802 {
+	request {
+	}
+	response {
+		ret			0 : boolean #活动是否开启
+	}
+}
+#获取排行榜
+cs_answer_answer_rank 5803 {
+	request {
+	}
+}

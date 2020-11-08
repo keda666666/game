@@ -1,0 +1,35 @@
+#服务端->客户端
+
+.tiannv_attrs_data {
+	type 		0 : integer #类型,1属性 2技能↓二选一
+	attrs		1 : integer
+	skillNo		2 : integer #技能No
+}
+.tiannv_equip_data {
+	washNum		0 : integer #洗练次数
+	attrData	1 : *tiannv_attrs_data #数据
+	washData	2 : *tiannv_attrs_data #洗练数据
+}
+
+sc_tiannv_equip 5301 {
+	request {
+		data			0 : *tiannv_equip_data #当前属性
+	}
+}
+
+sc_tiannv_wash_res 5302 {
+	request {
+		pos				0 : integer #洗练位置
+		washNum			1 : integer #洗练次数
+		attrData		2 : *tiannv_attrs_data #当前属性
+		washData		3 : *tiannv_attrs_data #洗练出来的属性
+	}
+}
+
+sc_tiannv_wash_replace_res 5303 {
+	request {
+		pos				0 : integer #位置
+		attrData		1 : *tiannv_attrs_data #当前属性
+		washData		2 : *tiannv_attrs_data #洗练出来的属性
+	}
+}

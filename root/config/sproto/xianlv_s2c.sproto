@@ -1,0 +1,14 @@
+.xianlv_info {
+	id			0 : integer
+	exp			1 : integer
+	level		2 : integer
+	star		3 : integer
+}
+
+# 仙侣
+sc_xianlv_init 701 {
+	request {
+		list		0 : *xianlv_info
+		outbound	1 : *integer
+	}
+}

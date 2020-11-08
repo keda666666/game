@@ -1,0 +1,44 @@
+# checkAccountRet 7651 {
+# 	request {
+# 		result 0 : integer
+# 	}
+# }
+
+# scRoleBase 7653 {
+# 	request {
+# 		roleNum 0 : integer
+		
+# 	}
+# }
+
+
+sc_base_game_time 7656 {
+	request {
+		time          0 : integer
+		serverRunDay  1 : integer
+	}
+}
+
+# 服务器开启数
+sc_base_open_day 7657 {
+	request {
+		day  1 : integer
+		loginDay 2 : integer
+		mergeDay 3 : integer
+	}
+}
+
+# 被顶号
+sc_base_replace_account 7658 {}
+
+# do_actor_info 101 {
+# 	request {}
+# }
+
+sc_error_code 7659 {
+	request {
+		code		0 : integer
+		msg			1 : string
+	}
+}
+

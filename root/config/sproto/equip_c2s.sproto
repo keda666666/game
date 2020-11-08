@@ -1,0 +1,47 @@
+# 穿戴装备
+cs_equip_wear 501 {
+	request {
+		itemHandle		0 : integer
+		pos 			1 : integer
+	}
+}
+
+# 装备升级
+cs_equip_upgrade 503 {
+	request {
+		pos			0 : integer
+		isgodequip	1 : boolean
+	}	
+}
+
+# 装备煅造
+cs_equip_forge 511 {
+	request {
+		forgeType	0 : integer			#煅造类型 0 强化， 1 精炼 ，2 煅炼， 3 宝石
+	}
+}
+
+# 红装注灵
+cs_equip_red_inject 521 {
+	request {
+		slot 			0 : integer
+		mode 			1 : integer 		#消耗类型 0=道具，1=道具、绑元，2=道具、绑元、元宝
+	}
+	response {
+		ret 			0 : boolean
+	}
+}
+
+# 红装合成并装备
+cs_equip_red_generate 522 {
+	request {
+		slot 			0 : integer
+	}
+}
+
+# 红装觉醒
+cs_equip_red_upgrade 523 {
+	request {
+		slot 			0 : integer
+	}
+}

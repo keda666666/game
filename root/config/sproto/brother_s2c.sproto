@@ -1,0 +1,8 @@
+#服务端->客户端
+
+#登录发送数据
+sc_brother_info 8001 {
+	request {
+		data		0 : *integer #激活了那些
+	}
+}

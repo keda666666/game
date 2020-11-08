@@ -1,0 +1,29 @@
+#客户端->服务端
+.holy_xinjun_msg {
+	name 		0 : string
+	id 			1 : integer #物品id
+}
+
+
+#获取抽奖信息
+cs_holy_xinjun_get_info 6602 {
+	request {
+	}
+	response {
+		data 		0 : *holy_xinjun_msg #抽奖信息
+		luckLog		1 : *integer #玩家抽取记录
+	}
+}
+
+
+#抽奖
+cs_holy_xinjun_luck_draw 6603 {
+	request {
+	}
+	response {
+		ret 	0 : boolean #
+		no 		1 : integer #抽到了啥
+		data 	2 : *holy_xinjun_msg #抽奖信息
+		luckLog	3 : *integer #玩家抽取记录
+	}
+}

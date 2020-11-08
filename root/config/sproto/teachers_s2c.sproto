@@ -1,0 +1,62 @@
+#服务端->客户端
+.teachers_act_data {
+	actNo 		0 : integer #任务编号
+	num 		1 : integer #完成情况
+}
+
+.teachers_data {
+	no 			0 : integer #师徒编号
+	teacher 	1 : integer #师傅dbid
+	tName 		2 : string #师傅名字
+	tLv 		3 : integer #师傅等级
+	tShows 		4 : entity_shows #师傅外观
+	student 	5 : integer #徒弟dbid
+	sName 		6 : string #徒弟名字
+	sLv 		7 : integer #徒弟等级
+	sShows 		8 : entity_shows #徒弟外观
+	exp 		9 : integer #传功 0师傅还没穿 1师傅已传徒弟未领取 2徒弟已领取
+	data 		10 : *teachers_act_data #玩家任务完成情况
+	rewards 	11 : integer #奖励领取情况,位运算
+	tLogin		12 : boolean #师傅是否在线
+	sLogin		13 : boolean #学生是否在线
+	day 		14 : integer #拜师第几天
+}
+
+.teachers_info {
+	dbid 		0 : integer #
+	name 		1 : string #名字
+	lv 			2 : integer #等级
+}
+
+#数据
+sc_teachers_info 29001 {
+	request {
+		teacherData 		0 : teachers_data#玩家师傅的数据
+		studentData			1 : *teachers_data#玩家徒弟的数据
+		messageData 		2 : *teachers_info#师徒邀请列表，跟teacherData互斥
+	}
+}
+
+#数据更新
+sc_teachers_update 29002 {
+	request {
+		teacherData 		0 : teachers_data#玩家师傅的数据
+		studentData			1 : teachers_data#玩家徒弟的数据
+	}
+}
+
+#出师，收到就清除数据
+sc_teachers_graduation 29003 {
+	request {
+		no 					0 : integer #师徒编号
+	}
+}
+
+#师徒邀请列表增加数据
+sc_teachers_message_add 29004 {
+	request {
+		dbid 		0 : integer #
+		name 		1 : string #名字
+		lv 			2 : integer #等级
+	}
+}

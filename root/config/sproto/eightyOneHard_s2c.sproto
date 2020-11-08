@@ -1,0 +1,25 @@
+#服务端->客户端
+
+.eightyOneHard_data {
+	key1		0 : integer #章
+	key2		1 : integer #通关、购买数据
+}
+
+#数据
+sc_fuben_eightyOneHard_info 28001 {
+	request {
+		clear			0 : integer #已通关的关卡
+		helpReward		1 : integer #已协助次数
+		buy				2 : *eightyOneHard_data #购买宝箱数据
+		todayClearlist	3 : *eightyOneHard_data #今天通关数据
+	}
+}
+#数据
+sc_fuben_eightyOneHard_info_update 28002 {
+	request {
+		clear			0 : integer #已通关的关卡
+		helpReward		1 : integer #已协助次数
+		buy				2 : *eightyOneHard_data #购买宝箱数据
+		todayClearlist	3 : *eightyOneHard_data #今天通关数据
+	}
+}

@@ -1,0 +1,84 @@
+#进入护送
+cs_escort_enter 20001 {
+	request {
+
+	}
+}
+
+#刷新品质
+cs_escort_refresh_quality 20002 {
+	request {
+		type 		0 : integer  #刷新类型 1=道具刷橙，2=货币刷橙，3=货币普通刷新
+	}
+}
+
+#护送完成
+cs_escort_quick_complete 20003 {
+	request {
+
+	}
+}
+
+.escort_info {
+	quality 		0 : integer		#品质
+	power 			1 : integer		#战力
+	playerName 		2 : string 		#玩家名字
+	playerid 		3 : integer 	#玩家ID
+	catchCount 		4 : integer 	#拦截次数
+	finishTime 		5 : integer 	#完成时间
+	guildName 		6 : string 		#帮会名字
+	robMark 		7 : boolean 	#拦截标记  true = 拦截过
+}
+
+#可拦截的列表
+cs_escort_rob_list 20004 {
+	request {
+
+	}
+	response {
+		escortList 		0 : *escort_info
+	}
+}
+
+#拦截
+cs_escort_rob_perform 20005 {
+	request {
+		playerId 		0 : integer  #拦截玩家id
+	}
+}
+
+#复仇
+cs_escort_avenge 20006 {
+	request {
+		recordId 		0 : integer  #记录Id
+	}
+}
+
+#领取奖励
+cs_escort_get_reward 20010 {
+	request {
+
+	}
+}
+
+#开始护送
+cs_escort_perform 20015 {
+	request {
+
+	}
+}
+
+
+#拦截信息
+cs_escort_catch_info 20016 {
+	request {
+		playerId 		0 : integer
+	}
+	response {
+		escortInfo 		0 : escort_info 		#玩家护送信息
+	}
+}
+
+
+
+

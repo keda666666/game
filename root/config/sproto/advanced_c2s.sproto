@@ -1,0 +1,29 @@
+# 领取累计充值奖励
+cs_advanced_charger_reward 5901 {
+	request {
+		id 			0 : integer	# 奖励编号
+	}
+}
+
+# 领取进阶排名奖励
+cs_advanced_lv_reward 5902 {
+	request {
+		typ 		0 : integer # 进阶类型
+		id 			1 : integer	# 奖励编号
+	}
+}
+
+# 获取活动排行榜
+cs_advanced_rank 5903 {
+	request {
+	}
+}
+
+# 购买商品
+cs_advanced_buy 5904 {
+	request {
+		id 			0 : integer	# 商品编号
+		num 		1 : integer # 购买数量
+		typ 		2 : integer # 进阶类型
+	}
+}

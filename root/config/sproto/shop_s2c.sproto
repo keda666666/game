@@ -1,0 +1,50 @@
+sc_shop_buy 1701 {
+	request {
+		shopType 	0 : integer		# 0：大雁商店 1：装备商店 2：帮会商店 3:元宝商店 4：绑元商店 5：材料商店 7：竞技商店
+		index 		1 : integer		#商索索引
+		count 		2 : integer		#购买计数
+	}
+}
+
+
+sc_shop_buy_update 1710 {
+	request {
+		shopdatas	0 : *shop_data		#商店数据
+	}
+}
+
+.mystical_shop_data {
+	id 			0 : integer 	#id
+	buycount 	1 : integer 	#购买次数
+}
+#神秘商店
+sc_shop_mystical_update 1711 {
+	request {
+		datas			0 : *mystical_shop_data		#商店数据
+		refreshcount 	1 : integer 	#刷新次数
+		refreshtime 	2 : integer 	#刷新时间
+	}
+}
+
+#商店解锁数据
+#Level = 1, 	--人物等级
+#Chapter = 2, 	--章节等级
+#GuildLevel = 3, 	--帮会等级
+#ArenaRank = 4, 	--竞技场排名
+#EscortCount = 5, 	--护送次数
+#AnswerCount = 6, 	--答题次数
+#MyBossCount = 7, 	--个人Boss次数
+#PublicBossCount = 8, 	--全民Boss次数
+#EightyOneHard = 9, 	--八十一难通关等级
+#Material = 10, 	--材料副本次数
+
+.shop_unlock_data{
+	type 		0 : integer
+	value 		1 : integer 
+}
+
+sc_shop_buy_unlockdata 1716 {
+	request {
+		records 		0 : *shop_unlock_data
+	}
+}

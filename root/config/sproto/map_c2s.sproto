@@ -1,0 +1,72 @@
+# 玩家进入地图
+cs_map_enter 23001 {
+	request {
+		mapid 		0 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 玩家主动退出地图
+cs_map_leave 23002 {
+	request {
+		mapid 		0 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 玩家移动
+cs_map_move 23003 {
+	request {
+		mapid 		0 : integer
+		x			1 : integer
+		y			2 : integer
+	}
+}
+
+# 玩家玩家瞬移
+cs_map_fly 23004 {
+	request {
+		mapid 		0 : integer
+		x			1 : integer
+		y			2 : integer
+	}
+}
+
+#线路信息
+.maincity_channel_data {
+	id 					0 : integer #id
+	count 				1 : integer #人数
+}
+
+cs_map_maincity_channel_info 23031 {
+	request {
+
+	}
+	response {
+		channels 		0 : *maincity_channel_data
+	}
+}
+
+# 玩家进入主城
+cs_map_maincity_enter 23032 {
+	request {
+		channelId 		0 : integer  #线路Id
+	}
+	response {
+		ret 			0 : boolean
+	}
+}
+
+# 玩家膜拜
+cs_map_maincity_worship 23033 {
+	request {
+		type 			0 : integer 	#1=普通，2=要钱
+	}
+	response {
+		ret 			0 : boolean
+	}
+}

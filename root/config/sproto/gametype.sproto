@@ -1,0 +1,263 @@
+.package {
+	type 0 : integer
+	session 1 : integer
+}
+
+###########################################################################################################
+
+.position {
+    x 0 : integer
+    y 1 : integer
+}
+
+# 奖励数据
+.reward_data {
+    type    0 : integer
+    id      1 : integer
+    count   2 : integer
+}
+
+.attribute_data {
+    type    0 : integer
+    value   1 : integer
+}
+
+.item_data {
+    handle      0 : integer
+    id          1 : integer
+    count       2 : integer
+    attrs       3 : *attribute_data
+    invalidtime 4 : integer
+}
+
+.equip_item_data {
+    id              0 : integer
+    attrs           1 : *attribute_data
+}
+
+.equip_red_data {
+    injectstage         0 : integer #注灵等级
+    injectcount         1 : integer #注灵次数
+}
+
+.equip_data {
+    strengthen   0 : integer # 强化
+	refine		 1 : integer # 精炼
+	anneal     	 2 : integer # 锻炼
+    gem          3 : integer # 宝石
+    item         4 : equip_item_data
+    reddata      5 : equip_red_data         #红装属性
+}
+
+.wings_data {
+    lv          0 : integer
+    star        1 : integer
+    exp         2 : integer
+    openStatus  3 : boolean
+    equipDatas  4 : *item_data
+    dressId     5 : integer
+}
+
+.jingmai_data {
+    level           0 : integer
+    stage           1 : integer   
+}
+
+.long_hun_data {
+    stage           0 : integer
+    level           1 : integer
+    exp             2 : integer
+}
+
+.rune_data {
+    id              0 : integer
+}
+
+.zhuzai_data {
+    id          0 : integer
+    rank        1 : integer
+    growupID    2 : integer  
+}
+
+.longzhuang_data {
+    id          0 : integer
+    lv          1 : integer
+    star        2 : integer
+    exp         3 : integer
+}
+
+.fuwen_data {
+    openStatus  0 : boolean
+    level       1 : integer
+    equipDatas  2 : *item_data
+}
+
+.title_data {
+    titleid         0 : integer
+    titleEndTime    1 : integer
+}
+
+.dress_time_info {
+    dressId         0 : integer
+    invalidtime     2 : integer 
+    dressLevel      3 : integer 
+    dressExp        4 : integer 
+}
+
+.ring_data {
+    id      0 : integer
+    level   1 : integer
+}
+
+.actor_base_data {
+    id              0 : integer
+    name            1 : string
+    level           2 : integer
+    vip             3 : integer
+    power           4 : integer
+}
+
+.rank_subrole {
+    job             0 : integer
+    sex             1 : integer
+    clothID         2 : integer
+    swordID         3 : integer
+    wingOpenStatus  4 : boolean
+    wingLevel       5 : integer
+    zhuangbei       6 : *integer
+    legendDress     7 : integer
+    exring          8 : integer
+    wingDress       9 : integer
+    godswordDress   10: integer
+}
+
+# 角色传奇装备
+.legend_data {
+    isActivate      0 : integer # 是否激活
+}
+
+# 星盘装备
+.star_data {
+    id              0 : integer
+    isOpen          1 : boolean
+}
+
+# 神剑数据
+.godswords_data {
+    lv          0 : integer
+    star        1 : integer
+    exp         2 : integer
+    openStatus  3 : boolean
+    dressId     4 : integer
+}
+
+
+# 角色数据
+.role_data {
+    power           0 : integer
+    skillDatas      1 : *integer
+    skillSortDatas  2 : *integer
+    equipsData      3 : *equip_data
+    attributeData   4 : *integer
+    attributeExData 5 : *integer
+}
+
+# 角色简单信息
+.actor_simple_data {
+    name        0 : string
+    job         1 : integer
+    sex         2 : integer
+    zsLv        3 : integer
+    lv          4 : integer
+}
+
+.shop_data {
+    type        0 : integer         #商店类型
+    datas       1 : *integer        #购买数据
+    limittime   2 : *integer        #限时购买商店  0=不限制, 其它值=限购时间戳
+}
+
+.arena_target_data {
+    id          0 : integer         #玩家id
+    iskill      1 : boolean         #是否秒杀
+    rank        2 : integer         #玩家排名
+    power       3 : integer         #玩家战力
+    name        4 : string          #玩家名字
+    job         5 : integer         #职业
+    sex         6 : integer         #性别
+    shows       7 : *integer        #展示
+
+    monId       8 : integer         # 怪物id
+}
+
+.rank_data {
+    id          0 : integer         #玩家id
+    name        1 : string          #玩家名字
+    rank        2 : integer         #玩家排名
+    value       3 : integer         #具体数值
+}
+
+
+# 仙道会排行数据
+.qualifyingMgr_rank_data {
+    name        0 : string #玩家名字
+    server      1 : integer #服务器id
+    point       2 : integer #积分
+}
+
+# 聊天的客户端数据
+.client_chat_param {
+    type        0 : integer # 类型
+    value       1 : integer # 值
+    strvalue    2 : string  # 字符值
+    valueEx     3 : integer #
+}
+
+#聊天数据
+.showInfo_data
+{
+  itemId            0 : integer
+  petId             1 : integer
+  treasureId        2 : integer
+  rideId            3 : integer
+  fubenId           4 : integer
+}
+
+#聊天分享人物信息
+.player_data
+{
+  name          0 : string
+  id            1 : integer
+  vip           2 : integer
+  guildid       3 : integer
+  guildName     4 : string
+}
+
+#聊天分享信息
+.share_date
+{
+  shareId   0 : integer
+  showInfo  1 : *client_chat_param #分享内容信息
+  player    2 : *player_data #分享内容玩家信息
+}
+
+#角色信息
+.player_whole_data {
+    name            0 : string
+    job             1 : integer
+    sex             2 : integer
+    vip             3 : integer
+    level           4 : integer
+    power           5 : integer
+    offlineTime     6 : integer
+    guildId         7 : integer
+    guildName       8 : string
+    dbid            9 : integer
+    headframe           10 : integer    #头像框
+}
+
+#灵童逆命
+.baby_star_msg {
+    name        0 : string
+    id          1 : integer #物品id
+}

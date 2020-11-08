@@ -1,0 +1,99 @@
+create process id,machind_id:1083060224,temp_handle:0,id:1083060224
+create process id,machind_id:1083060224,temp_handle:1,id:1083060225
+create process id,machind_id:1083060224,temp_handle:2,id:1083060226
+create process id,machind_id:1083060224,temp_handle:3,id:1083060227
+create process id,machind_id:1083060224,temp_handle:4,id:1083060228
+acceptor host:127.0.0.1,port:9999
+socket_api: bind failed:7
+[m[2019-05-06 21:41:01] [31m[ERROR  ][accept-1083060228]create accept error 127.0.0.1:9999[m
+[m[2019-05-06 21:41:01] [31m[ERROR  ][:ERROR-1083060224]boot.lua-17: launcher config:center fail
+stack traceback:
+	./../liblua/lua_app.lua:806: in function 'lua_app.log_error'
+	./../liblua/boot.lua:17: in function 'main'
+	[C]: in function 'xpcall'
+	./../liblua/lua_app.lua:207: in upvalue 'f'
+	./../liblua/lua_app.lua:136: in function <./../liblua/lua_app.lua:135>[m
+le:11,id:1083060235
+create process id,machind_id:1083060224,temp_handle:12,id:1083060236
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_connect_center)connect to center  127.0.0.1:9999
+create process id,machind_id:1083060224,temp_handle:13,id:1083060237
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777220 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_connect_socket)center connect 16777219:1083060236
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1057676
+create process id,machind_id:1083060224,temp_handle:14,id:1083060238
+create process id,machind_id:1083060224,temp_handle:15,id:1083060239
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_regist_router)connect to router 1057676 127.0.0.1:9998
+create process id,machind_id:1083060224,temp_handle:16,id:1083060240
+create process id,machind_id:1083060224,temp_handle:17,id:1083060241
+[m[2019-05-06 21:41:01] [.mysql:INFO-1083060238]mysql.lua-28: .mysql Start
+create process id,machind_id:1083060224,temp_handle:18,id:1083060242
+create process id,machind_id:1083060224,temp_handle:19,id:1083060243
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777222 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060240]mysql server connected
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060241]mysql server connected
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060242]mysql server connected
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060243]mysql server connected
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060242]mysql server auth sucess
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060243]mysql server auth sucess
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1083060224,temp_handle:20,id:1083060244
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060243]mysql server quit
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060242]mysql server quit
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060244]mysql server connected
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060244]mysql server auth sucess
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_connected_router) my router connect
+Blob:InitDBID: serverdbid, platdbid	0	0
+[m[2019-05-06 21:41:01] [INFO  ][mysql-1083060244]mysql server quit
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 world 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 war 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-13: ------------- DispatchCenter:Init start -------------
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 httpr 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 world 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 mainrecord 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 mainplat 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 war 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-16: 	 httpp 	 1 	 1
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]DispatchCenter.lua-18: ============== DispatchCenter:Init end ==============
+[m[2019-05-06 21:41:01] [center1:INFO-1083060237]center.lua-24: center1 Start
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_connect_socket)router 1057676 connect 16777221
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777229 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_regist_router)connect to router 1056686 127.0.0.1:8112
+send center name:center1:1083060237
+register name from center:cross1_8110:1082046478
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2019-05-06 21:41:01] [INFO  ][center-1083060227](on_connect_socket)router 1056686 connect 16777230
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777232 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][router-1083060231](on_connect_socket)router 1056686 connect 16777231
+[m[2019-05-06 21:41:06] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777233 127.0.0.1
+[m[2019-05-06 21:41:06] [INFO  ][center-1083060227](on_regist_router)connect to router 1048577 127.0.0.1:10201
+send center name:center1:1083060237
+[m[2019-05-06 21:41:06] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2019-05-06 21:41:06] [INFO  ][center-1083060227](on_connect_socket)router 1048577 connect 16777234
+[m[2019-05-06 21:41:06] [INFO  ][router-1083060231](on_regist_router)connect to router 1048577 127.0.0.1:10201
+[m[2019-05-06 21:41:06] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777235 127.0.0.1
+[m[2019-05-06 21:41:06] [INFO  ][router-1083060231](on_connect_socket)router 1048577 connect 16777236
+[m[2019-05-06 21:41:09] [center1:INFO-1083060237]NodeCenter.lua-91: NodeCenter::connect 127.0.0.1:8111 cross 8110 1082046478
+register name from center:war1_1:1082046480
+register name from center:world1_1:1082046487
+[m[2019-05-06 21:41:12] [center1:INFO-1083060237]ServerCenter.lua-114: ServerRegist:: connect logic 1 1073742857
+[m[2019-05-06 21:41:15] [center1:INFO-1083060237]ServerCenter.lua-114: ServerRegist:: connect war 1 1082046480
+[m[2019-05-06 21:41:15] [center1:INFO-1083060237]ServerCenter.lua-114: ServerRegist:: connect world 1 1082046487
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]DispatchCenter.lua-66: ------------- ReInitSvrdtb start -------------
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-84: table: 0xf52dac0
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: world	table: 0xf52ca40
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: mainrecord	table: 0xf52c980
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: httpp	table: 0xf52c800
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: mainplat	table: 0xf52c880
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: war	table: 0xf52c8c0
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-77: httpr	table: 0xf4c37c0
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]lua_util.lua-88: all value number: 6
+[m[2019-05-06 21:41:17] [center1:INFO-1083060237]DispatchCenter.lua-79: ============== ReInitSvrdtb end ==============
+[m[2019-05-06 21:41:51] [center1:INFO-1083060237]ServerCenter.lua-29: collect memory: 529.7451171875 331.486328125
+[m[2019-05-06 21:52:31] [center1:INFO-1083060237]ServerCenter.lua-29: collect memory: 436.1669921875 344.650390625
+[m[2019-05-06 22:02:32] [center1:INFO-1083060237]ServerCenter.lua-29: collect memory: 435.9873046875 344.001953125
+[m[2019-05-06 22:15:01] [center1:INFO-1083060237]ServerCenter.lua-29: collect memory: 455.2294921875 346.189453125
+[m[2019-05-06 22:28:01] [center1:INFO-1083060237]ServerCenter.lua-29: collect memory: 463.3076171875 346.626953125

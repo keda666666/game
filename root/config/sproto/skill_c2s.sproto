@@ -1,0 +1,20 @@
+# 请求升级技能
+cs_skill_upgrade 304 {
+	request {
+		skillID	0 : integer
+	}
+}
+
+# 请求技能一键升级
+cs_skill_upgrade_all 305 {
+	request {}
+}
+
+# 调整技能释放顺序
+cs_skill_sort_release 306 {
+	request {
+		skills 	0 : *integer
+	}
+}
+
+

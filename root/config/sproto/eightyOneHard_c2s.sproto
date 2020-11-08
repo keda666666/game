@@ -1,0 +1,40 @@
+#客户端->服务端
+#扫荡
+cs_eightyOneHard_sweep 28001 {
+	request {
+		id	0 : integer #
+	}
+}
+
+#一键扫荡
+cs_eightyOneHard_sweep_all 28002 {
+	request {
+
+	}
+}
+
+#购买宝箱
+cs_eightyOneHard_buy 28003 {
+	request {
+		id	0 : integer #
+	}
+}
+
+.eightyOneHard_clear_data {
+	name1	0 : string #名字
+	name2	1 : string
+	name3	2 : string
+	round	3 : integer #回合数
+	time	4 : integer #时间
+}
+
+#查看记录
+cs_eightyOneHard_record 28004 {
+	request {
+		id	0 : integer #
+	}
+	response {
+		first	0 : eightyOneHard_clear_data #
+		fast	1 : eightyOneHard_clear_data #
+	}
+}

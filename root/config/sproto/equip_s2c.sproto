@@ -1,0 +1,23 @@
+# 处理装备更新
+sc_equip_update_data 501 {
+	request {
+		roleID		0 : integer
+		equipPos	1 : integer
+		data 		2 : item_data
+		reddata 	3 : equip_red_data
+	}
+}
+
+sc_equip_update_suitlv 505 {
+	request {
+		suitlv 		0 : integer
+	}
+}
+
+# 装备强化
+sc_equip_forge 511 {
+	request {
+		forgeType	0 : integer			#煅造类型 0 强化， 1 精炼 ，2 煅炼， 3 宝石
+		forgeLevel 	1 : *integer
+	}
+}

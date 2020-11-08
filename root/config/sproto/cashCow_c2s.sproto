@@ -1,0 +1,14 @@
+#摇钱树
+
+#摇钱
+cs_cashCow_shake 2201 {
+	request {}
+}
+
+#摇钱树宝箱奖励
+cs_cashCow_box_rewards 2202 {
+	request {
+		boxid 		0 : integer 
+	}
+}
+

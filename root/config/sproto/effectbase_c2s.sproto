@@ -1,0 +1,29 @@
+# 激活称号
+cs_effect_title_activate 14001 {
+	request {
+		id			0 : integer
+	}
+}
+
+# 改变称号
+cs_effect_title_change 14002 {
+	request {
+		id			0 : integer
+	}
+}
+
+
+
+# 激活皮肤
+cs_effect_skin_activate 14011 {
+	request {
+		id			0 : integer
+	}
+}
+
+# 改变皮肤
+cs_effect_skin_change 14012 {
+	request {
+		id			0 : integer
+	}
+}

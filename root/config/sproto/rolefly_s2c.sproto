@@ -1,0 +1,19 @@
+# 人物飞升
+sc_rolefly_init 3000 {
+	request {
+		lv				1 : integer
+		xiuWei			2 : integer
+		skillList		3 : *integer
+		equipList		4 : *equip_item_data
+	}
+}
+
+#数据更新
+sc_rolefly_update_data 3001 {
+	request {
+		lv				1 : integer
+		xiuWei			2 : integer
+		skillList		3 : *integer
+		equipList		4 : *equip_item_data
+	}
+}

@@ -1,0 +1,42 @@
+sc_money_tree_info 3701 {
+	request {
+		playNum			0 : integer
+		boxOn			1 : integer
+		addCoefficient	2 : integer
+		exp				3 : integer
+		boxInfo			4 : integer
+	}
+}
+
+sc_money_tree_play_info 3702 {
+	request {
+		playNum			0 : integer
+		boxOn			1 : integer
+		addCoefficient	2 : integer
+		exp				3 : integer
+		baoji			4 : integer
+	}
+}
+
+sc_money_tree_reward_info 3703 {
+	request {
+		boxInfo			0 : integer
+	}
+}
+
+sc_money_recharge_gift_info 3704 {
+	request {
+		day			0 : integer 	# 充值天数
+		awards		1 : *integer	# 可以领取的天数
+	}
+}
+
+sc_qdday_reward_info 3705 {        #30天签到信息
+    request {
+	    qdday       0 : integer    #已经签到天数 （签到天数+补签天数）
+		bqday       1 : integer    #补签天数
+		drawBin 	2 : integer    #累计签到奖励标记
+        isqd        3 : integer	   #今日是否签到   1未签到  2签到	 
+	}
+}
+

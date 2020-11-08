@@ -1,0 +1,149 @@
+# type:
+# 0: 下一回合
+# 	id：回合数
+# 1：使用技能
+# 	id：技能id
+# 	src：释放者handler
+# 	targets：技能目标handlers
+#	actions: 技能触发的行为列表
+# 2：技能行为
+# 	id：行为id
+# 	src：行为者handler
+# 	targets：行为目标handlers
+#	actions: "改变血量"列表
+# 3：行为改变血量
+# 	id：行为id
+# 	src：行为者handler
+# 	target：改变的目标handler
+# 	args：{ 伤害类型(123代表暴击、闪避、正常)， 改变血量}
+# 4：行为添加buff
+# 	id：行为id
+# 	src：行为者handler
+# 	target：改变的目标handler
+# 	args：buffid列表
+# 5：buff改变血量
+# 	id：buffid
+# 	src：释放buff者handler
+# 	target：buff目标handler
+# 	arg：改变血量
+# 6：死亡
+# 	id：buffid
+# 	src：死亡者
+# 	target：击杀者
+# 7：出战
+# 	id：位置
+# 	src：替换者
+# 	target：出战者
+# 8：buff状态改变血量
+# 	id：buff groupid
+# 	src：行为者handler
+# 	target：改变的目标handler
+#	args：{ 部分类型(5反击 6反伤 8吸血 10连击 11回血 12中毒 17破防), 改变血量}
+# 9：buff状态生效
+# 	id：buff groupid
+# 	src：行为者handler
+#   target：触发的目标handler
+#	args：{ 部分类型(1昏迷 2封印 3冰冻 4沉睡 9吸收伤害 13净化 14复仇), 数值}
+# 10：复活
+# 	id：buff状态类型
+# 	src：复活者
+#   arg：血量
+# 11：移除buff
+# 	id：buffid
+# 	src：行为者handler
+# 	args：{ 部分类型(1正常移除 2净化移除)}
+.battle_event {
+	type 		0 : integer	
+	id			1 : integer
+	src			2 : integer
+	targets		3 : *integer
+	target		4 : integer
+	args		5 : *integer
+	arg 		6 : integer
+
+	actions		7 : *battle_event
+}
+# shows:
+#	角色： 1. 坐骑 2.翅膀 3.天仙 4.神兵 5.时装 6.称号
+#	仙侣： 1. 法阵 2.仙位
+#	宠物： 1. 通灵 2.兽魂
+#	天女： 
+#	天神： 
+.entity_shows {
+	shows		0 : *integer
+	job			1 : integer
+	sex			2 : integer
+	id 			3 : integer
+	name 		4 : string
+	serverid	5 : integer
+	guildid		6 : integer
+	guildname	7 : string
+	level 		8 : integer
+	pingji		9 : integer
+}
+
+#特殊属性
+#	satShield				= 1,	-- 护盾
+#	satMaxShield			= 2,	-- 最大护盾
+.spec_attr {
+	atttype 	0 : integer
+	value 		1 : integer
+}
+
+.entity_data {
+	ownerid		0 : integer
+	handler		1 : integer
+	type 		2 : integer
+	side		3 : integer
+	pos			4 : integer
+	attrs		5 : *integer
+	sattrs		6 : *spec_attr
+	shows 		7 : entity_shows
+	monid		8 : integer
+
+	skills		9 : *integer
+}
+
+sc_battle_action 7000 {
+	request {
+		events		0 : *battle_event
+	}
+}
+
+sc_battle_entitys 7001 {
+	request {
+		raidType		0 : integer
+		fbid			1 : integer
+		manual 			2 : integer
+		entitydatas 	3 : *entity_data
+	}
+}
+
+sc_battle_record 7002 {
+	request {
+		raidType		0 : integer
+		fbid			1 : integer
+		manual 			2 : integer
+		entitydatas 	3 : *entity_data
+		events			4 : *battle_event
+	}
+}
+
+.entity_skill {
+	handler		0 : integer
+	skills		1 : *integer
+}
+
+# 通知释放技能
+sc_battle_manual 7003 {
+	request {
+		time 		0 : integer
+		useskills 	1 : *entity_skill		#可以释放的技能列表
+	}
+}
+
+sc_battle_set_auto 7004 {
+	request {
+		isauto		0 : integer		#是否自动
+	}	
+}

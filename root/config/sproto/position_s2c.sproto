@@ -1,0 +1,12 @@
+# 登录初始化
+.position_data {
+	no 			0 : integer #编号
+	typ 		1 : integer #状态 0未完成，1完成未领取，2超时完成，3已领取奖励
+}
+
+sc_position_info 6501 {
+	request {
+		creatTime 	0 : integer #玩家创建时间
+		data 		1 : *position_data #完成情况
+	}
+}

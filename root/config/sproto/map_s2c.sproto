@@ -1,0 +1,105 @@
+.map_player {
+    	id              0 : integer
+    	x				1 : integer
+    	y				2 : integer
+        name            3 : string
+        level           4 : integer
+        job             5 : integer
+        sex             6 : integer
+        power           7 : integer
+        shows           8 : *integer
+    	status			9 : integer
+    	guildid			10 : integer
+    	guildname		11 : string
+    	serverid		12 : integer
+}
+
+# 玩家进入地图
+sc_map_enter 23001 {
+	request {
+		mapid 			0 : integer
+		x				1 : integer
+		y				2 : integer
+		myself 			3 : map_player
+		entitylist		4 : *map_player
+	}
+}
+
+# 通知有玩家进入地图
+sc_map_other_enter 23002 {
+	request {
+		entity		0 : map_player
+		mapid 		1 : integer
+	}
+}
+
+# 通知有玩家退出地图
+sc_map_other_leave 23003 {
+	request {
+		id 			0 : integer
+		mapid 		1 : integer
+	}
+}
+
+# 通知有玩家移动
+sc_map_other_move 23004 {
+	request {
+		id 			0 : integer
+		x			1 : integer
+		y			2 : integer
+		mapid 		3 : integer
+	}
+}
+
+# 通知有玩家瞬移
+sc_map_other_fly 23005 {
+	request {
+		id 			0 : integer
+		x			1 : integer
+		y			2 : integer
+		mapid 		3 : integer
+	}
+}
+
+# 通知有玩家状态改变
+sc_map_player_status 23006 {
+	request {
+		id 			0 : integer
+		status		1 : integer 		# 1 自由行动 2 战斗 3死亡
+		mapid 		2 : integer
+	}
+}
+
+# 通知玩家更新
+sc_map_player_update 23007 {
+	request {
+		id 			0 : integer
+		mapid 		1 : integer
+		player  	2 : map_player
+	}
+}
+
+
+.champion_shows {
+	shows		0 : *integer
+	job			1 : integer
+	sex			2 : integer
+	id 			3 : integer
+	name 		4 : string
+	serverid	5 : integer
+	guildid		6 : integer
+	guildname	7 : string
+	level 		8 : integer
+}
+
+#天下第一玩家
+sc_map_maincity_info 23035 {
+	request {
+		championid 			0 : integer #天下第一玩家id
+		charismaNum 		1 : integer #魅力
+		channelid 			2 : integer #当前线路id
+		worship 			3 : integer #0=可膜拜，1=普通膜拜过，2=要钱膜拜过
+		shows 				4 : champion_shows
+		people 				5 : integer #当前线路人数
+	}
+}

@@ -1,0 +1,32 @@
+# 充值请求
+cs_recharge_normal 1801 {
+	request {
+		rechargeid	0 : integer	# 充值套餐序号
+	}
+}
+
+# 获取订单号
+cs_recharge_get_order_number 1802 {
+	response {
+		order_number 	0 : integer
+	}
+}
+#领取首冲奖励
+cs_recharge_first_reward 1803 {
+	request {
+		id 				0 : integer #
+	}
+}
+
+# 获取每日充值奖励
+cs_recharge_get_dailyrecharge_reward 1806 {
+	request {
+		rewardid 			0 : integer #1=任意金额奖励，2=48元奖励
+	}
+}
+
+# 领取特惠充值奖励
+cs_recharge_get_choice_reward 1807 {
+	request {
+	}
+}

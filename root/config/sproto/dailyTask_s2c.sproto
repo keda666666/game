@@ -1,0 +1,52 @@
+#服务端->客户端
+.dailyTask_data {
+	no				0 : integer #编号
+	num				1 : integer #数量
+}
+
+.otherActivity_data {
+	num 		0 : integer#
+	reward 			1 : integer#位运算
+}
+
+.otherActivity_monster {
+	monsterList 		0 : *integer #怪物列表
+	num 				1 : integer #今天击杀数量
+	time 				2 : integer #下次刷新时间 0则为无
+	reward 				3 : integer#位运算
+}
+
+#登录发送数据
+sc_dailyTask_info 5701 {
+	request {
+		lv					0 : integer #等级
+		exp 				1 : integer #经验
+		today 				2 : *dailyTask_data #今天数据
+		yesterday 			3 : *dailyTask_data #昨天数据，没数据则表示昨天啥都没玩
+		findItem 			4 : *dailyTask_data #找回物品数据
+		findExp 			5 : *dailyTask_data #找回经验数据
+		active 				6 : integer #活跃点数
+		activeReward 		7 : integer #活跃领取情况，位运算[activeReward & (2 ^ N)]不为0则表示已经领取了N为位置
+		monster				8 : otherActivity_monster #师门
+		chapterWar 			9 : otherActivity_data #每日300数据
+		teamFB 				10 : otherActivity_data #组队历数据
+		find 				11 : integer #是否能找回 0不能  0表示玩家今天是刚开这个功能 不能找回昨天的东西
+	}
+}
+#只会发送需要更新的数据
+sc_dailyTask_update 5702 {
+	request {
+		lv					0 : integer #等级
+		exp 				1 : integer #经验
+		today 				2 : *dailyTask_data #今天数据
+		yesterday 			3 : *dailyTask_data #昨天数据，没数据则表示昨天啥都没玩
+		findItem 			4 : *dailyTask_data #找回物品数据
+		findExp 			5 : *dailyTask_data #找回经验数据
+		active 				6 : integer #活跃点数
+		activeReward 		7 : integer #活跃领取情况，位运算[activeReward & (2 ^ N)]不为0则表示已经领取了N为位置
+		monster				8 : otherActivity_monster #师门
+		chapterWar 			9 : otherActivity_data #每日300数据
+		teamFB 				10 : otherActivity_data #组队历数据
+		find 				11 : integer #是否能找回 1能0不能  0表示玩家今天是刚开这个功能 不能找回昨天的东西
+	}
+}

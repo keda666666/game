@@ -1,0 +1,23 @@
+.field_boss_info {
+	id				0 : integer
+	hp				1 : integer	# 百分比
+	status			2 : integer	# 1 已开放 2 已关闭 3 已击杀
+	ownerId			3 : integer
+	ownerName		4 : string
+	ownerSex		5 : integer
+	ownerJob		6 : integer
+	time			7 : integer # 剩余时间
+	ischallenge		8 : boolean
+}
+
+sc_field_boss_base_list 11002 {
+	request {
+		bossInfos		0 : *field_boss_info
+	}
+}
+
+sc_field_boss_update_one 11003 {
+	request {
+		bossInfo		0 : field_boss_info
+	}
+}

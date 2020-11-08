@@ -1,0 +1,18 @@
+#服务端->客户端
+.formation_data{
+	no				0 : integer #阵法编号
+	skillNo			1 : integer #技能
+	lv				2 : integer #等级
+	upNum			3 : integer #升级经验次数
+	soulLv			4 : integer #阵魂等级
+	soulUpNum		5 : integer #阵魂升级经验次数
+}
+
+#登录发送数据
+sc_formation_info 5601 {
+	request {
+		use 			0 : integer #使用中的阵型
+		infoList		1 : *formation_data #阵型列表
+		drugNum			2 : integer #使用了多少个属性丹
+	}
+}

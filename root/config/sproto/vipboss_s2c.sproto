@@ -1,0 +1,17 @@
+.vipboss_info {
+	id				0 : integer
+	count			1 : integer
+	daycount		2 : integer
+}
+
+sc_vipboss_base_list 6002 {
+	request {
+		bossInfos		0 : *vipboss_info
+	}
+}
+
+sc_vipboss_update_one 6003 {
+	request {
+		bossInfo		0 : vipboss_info
+	}
+}

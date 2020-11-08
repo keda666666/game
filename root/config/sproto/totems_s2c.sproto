@@ -1,0 +1,16 @@
+#服务端->客户端
+.totems_data {
+	id 			0 : integer #编号
+	lv 			1 : integer #等级
+	upNum 		2 : integer #升级次数
+	todayNum 	3 : integer #当天强化暴击阶段次数，配置num减当前参数则为下次必定暴击次数
+	todayId 	4 : integer #当天强化暴击阶段编号，在哪个暴击阶段
+	breach 		5 : integer #是否要突破，不需要为0，需要的话则为当前等级
+}
+
+#图腾数据
+sc_totems_info 6201 {
+	request {
+		data 			0 : *totems_data #数据
+	}
+}

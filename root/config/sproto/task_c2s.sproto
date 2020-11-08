@@ -1,0 +1,13 @@
+# 请求任务数据
+cs_task_info 18001 {
+	request {
+		type	0 : integer # 类型: 1主线
+	}
+}
+
+# 领取任务奖励
+cs_task_reward 18002 {
+	request {
+		id 		0 : integer
+	}
+}

@@ -1,0 +1,47 @@
+#服务端->客户端
+.answer_rank{
+	name				0 : string #名字
+	point				1 : integer #积分
+}
+
+#结算阶段
+
+#活动中发送数据
+sc_answer_info 5801 {
+	request {
+		type 			0 : integer #0活动没开1答题中，2等待中，等待中可以放答案出来
+		rank			1 : *answer_rank #答题排行榜
+		answerNum 		2 : integer #当前是第几题
+		answerNo 		3 : integer #题目编号
+		answerList		4 : *integer #答案列表，用于打乱选项{1:3,2;2,3:4,4:1},按照value打乱选项，玩家选择时发key回来
+		point			5 : integer #玩家分数
+		rankNo			6 : integer #玩家排名,0的话表示没进排行榜，如果大于排行榜上限也提示绑外
+		operation		7 : integer #玩家选了哪个，0表示没选
+		timeout			8 : integer #倒计时
+	}
+}
+sc_answer_update 5802 {
+	request {
+		type 			0 : integer #0活动没开1答题中，2等待中，等待中可以放答案出来
+		answerNum 		1 : integer #当前是第几题
+		answerNo 		2 : integer #题目编号
+		answerList		3 : *integer #答案列表
+		point			4 : integer #玩家分数
+		operation		5 : integer #玩家选了哪个，0表示没选
+		timeout			6 : integer #倒计时
+	}
+}
+#活动结算
+sc_answer_reward 5803 {
+	request {
+		point			0 : integer #玩家分数
+		rankNo			1 : integer #玩家排名
+		rewards			2 : *reward_data
+	}
+}
+#活动排行榜
+sc_answer_rank_res 5804 {
+	request {
+		rank			0 : *answer_rank #答题排行榜
+	}
+}

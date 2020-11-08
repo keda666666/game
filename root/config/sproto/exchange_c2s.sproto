@@ -1,0 +1,22 @@
+#银两兑换信息
+cs_exchange_gold_info 19001 {
+	request {
+
+	}
+	response {
+		exchangeCount 		0 : integer 	#兑换次数
+		goldnum 			1 : integer 	#可兑换银两
+	}
+}
+
+#银两兑换
+cs_exchange_gold_perform 19002 {
+	request {
+
+	}
+	response {
+		ret 			0 : boolean
+		exchangeCount 	1 : integer 		#兑换次数
+	}
+	
+}

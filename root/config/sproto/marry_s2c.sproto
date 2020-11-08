@@ -1,0 +1,149 @@
+.marry_object {
+	dbid			0 : integer
+	name            1 : string
+	level           2 : integer
+	job             3 : integer
+	sex				4 : integer
+	power           5 : integer
+	shows          	6 : *integer
+}
+
+sc_marry_info 8101 {
+	request {
+		marry 			0 : boolean			#已婚还是未婚
+		husband			1 : marry_object
+		wife			2 : marry_object
+		level			3 : integer
+		intimate		4 : integer			# 甜蜜
+		intimacy		5 : integer			# 亲密
+		grade			6 : integer			# 房屋和信件级别都是这个
+		houselv			7 : integer
+		houseup			8 : integer			# 点击升阶次数		
+		time			9 : integer			
+		today			10 : integer		# 今日已结婚次数
+	}
+}
+
+.marry_friend {
+	dbid		0 : integer
+	ispropose	1 : boolean
+	ismarry		2 : boolean
+}
+
+# 获得好友
+sc_marry_friends 8102 {
+	request {
+		friends 	0 : *marry_friend
+		today		1 : integer		# 今日已结婚次数
+	}
+}
+
+# 收到请求
+sc_marry_asked 8103 {
+	request {
+		fromid			0 : integer
+		name			1 : string
+		grade			2 : integer		# 婚礼等级
+		spouse			3 : integer 	# 1夫君 2妻子
+		power			4 : integer
+		level			5 : integer
+		job				6 : integer
+		sex				7 : integer
+	}
+}
+
+# 移除请求
+sc_marry_remove_asked 8104 {
+	request {
+		fromid			0 : integer
+	}
+}
+
+# 回应
+sc_marry_answer 8105 {
+	request {
+		dbid			0 : integer
+		name			1 : string
+		grade 			2 : integer
+		agree			3 : integer
+	}
+}
+
+# 喜帖
+sc_marry_invitation 8106 {
+	request {
+		husband			0 : marry_object
+		wife			1 : marry_object
+		dbid			2 : integer
+		effect			3 : integer
+	}
+}
+
+
+# 收到花
+sc_marry_recv_flower 8107 {
+	request {
+		name			0 : string
+		intimacy		1 : integer		# 亲密
+		flower			2 : string
+		count			3 : integer
+	}
+}
+
+# 送花广播
+sc_marry_flower_bro 8108 {
+	request {
+		quantity		0 : integer
+		effect			1 : integer
+	}
+}
+
+# 伴侣上线通知
+sc_marry_login_tip 8109 {
+	request {
+		partner			0 : marry_object
+	}
+}
+
+# 信物状态
+sc_marry_token_status 8110 {
+	request {
+		grade			0 : integer # 信物等级
+		isopen			1 : boolean
+	}
+}
+
+# 离婚广播
+sc_marry_divorce_bro 8111 {
+	request {
+		ids				0 : *integer
+	}
+}
+
+.marry_love {
+	lovetype		0 : integer
+	daycount		1 : integer
+	count			2 : integer
+	time			3 : integer		# 恢复倒计时
+}
+
+# 恩爱互动信息
+sc_marry_love_info 8112 {
+	request {
+		loves			0 : *marry_love
+	}
+}
+
+# 通知房屋共享升阶
+sc_marry_house_partner_up 8113 {
+	request {
+		upnum			0 : integer
+		times			1 : *integer
+	}
+}
+
+# 通知新婚
+sc_marry_new 8114 {
+	request {
+	}
+}

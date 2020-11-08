@@ -1,0 +1,25 @@
+# 请求排行榜数据
+cs_rank_req 1901 {
+	request {
+		type		0 : integer
+	}
+}
+
+# 请求膜拜数据
+cs_rank_worship_data_req 1902 {
+	request {
+		type		0 : integer
+	}
+}
+
+# 膜拜一次
+cs_rank_worship_once 1903 {
+	request {
+		type		0 : integer
+	}
+}
+
+# 请求所有膜拜次数
+cs_rank_worship_all_count 1904 {
+	request {}
+}

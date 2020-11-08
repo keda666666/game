@@ -1,0 +1,248 @@
+.raid_material_star {
+	fbId			0 : integer
+	star 			1 : integer
+}
+
+.raid_material_data {
+	kind			0 : integer
+	useCount		1 : integer
+	vipBuyCount		2 : integer
+	vipHoldCount	3 : integer
+	starRecord		4 : *raid_material_star
+}
+
+.raid_data {
+	fbId			0 : integer
+	useCount		1 : integer
+	vipBuyCount		2 : integer
+	vipHoldCount	3 : integer
+	totalCount		4 : integer
+}
+
+# 怪物掉落数据
+.wave_drop_data {
+	index			0 : integer
+	drops			1 : *reward_data
+}
+
+.offline_data {
+	type		0 : integer
+	exp			1 : integer
+	gold		2 : integer
+}
+
+# 角色死亡
+sc_raid_role_all_die 204 {
+	request {}
+}
+
+# 初始化副本信息
+sc_raid_info_init 210 {
+	request {
+		raidModel		0 : *raid_data
+		bossIndex		1 : integer
+	}
+}
+
+# 更新副本信息
+sc_raid_update_info 211 {
+	request {
+		raidData 0 : raid_data
+	}
+}
+
+# 处理副本剩余时间
+sc_raid_time 213 {
+	request {
+	}
+}
+
+# boss召唤的次数
+sc_raid_boss_box_num 214 {
+	request {
+		bossCallNum		0 : integer
+	}
+}
+
+# 关卡相关
+
+.sc_raid_chapter_mon_data {
+	hp			1 : integer
+	atk			2 : integer
+	def			3 : integer
+	res			4 : integer
+	crit		5 : integer
+	tough		6 : integer
+	ms			7 : integer
+	as			8 : integer
+}
+
+.sc_raid_chapter_mon_simple_data {
+	configId 	0 : integer
+	name 		1 : string
+	level 		2 : integer
+	avatar		3 : integer
+	talk 		4 : string
+}
+
+.chapter_mondata {
+	id			0 : integer
+	name		1 : string
+	type		2 : integer
+	level		3 : integer
+	hp			4 : integer
+	atk			5 : integer
+	def			6 : integer
+	speed		7 : integer
+	crit		8 : integer
+	tough		9 : integer
+	hitrate		10 : integer
+	evade		11 : integer
+	ms			12 : integer
+	avatar		13 : integer
+	head		14 : string
+	talk		15 : string
+}
+
+# 处理关卡初始化信息
+sc_raid_chapter_init_info 201 {
+	request {
+		cid 			0 : integer
+		chapterid 		1 : integer
+		sid 			2 : integer
+		minunm 			3 : integer
+		maxnum			4 : integer
+		waveMonsterId 	5 : *chapter_mondata
+		bossNeedWave	6 : integer
+		bossId 			7 : sc_raid_chapter_mon_simple_data
+		showAward		8 : *reward_data
+		desc 			9 : string
+		goldEff 		10: integer
+		expEff			11: integer
+
+		killMonsterCount 12 : integer
+		nextmap			13 : boolean
+		chapterreward 	14 : *integer
+	}
+}
+
+# 处理关卡波数信息
+sc_raid_chapter_wave_data 202 {
+	request {
+		wave			0 : integer
+		kills			1 : integer
+		count			2 : integer
+		rewards			3 : *wave_drop_data
+	}
+}
+
+# 处理挑战boss结果
+sc_raid_chapter_boss_result 203 {
+	request {
+		result			0 : integer
+		rewards			1 : *reward_data
+		star			2 : integer
+	}
+}
+
+# 扫荡
+sc_raid_sweep_reward 221 {
+	request {
+		result			0 : integer
+		rewards			1 : *reward_data
+	}
+}
+
+.fbcfg {
+	fbid 			0 : integer
+	manuallymode 	1 : integer
+	jbutton 		2 : integer
+	type 			3 : integer
+	totalTime		4 : integer
+	closeTime		5 : integer
+	scenes			6 : *integer
+	name			7 : string
+	desc			8 : string
+}
+
+# 发送怪物配置信息
+sc_raid_chapter_mondata 207 {
+	request {
+		mondata 		0 : *chapter_mondata
+		fbcfg			1 : fbcfg
+	}
+}
+
+# 处理关卡奖励领取状态
+sc_raid_chapter_reward 205 {
+	request {
+		result			0 : integer
+	}
+}
+
+# 地区奖励记录
+sc_raid_chapter_world_reward 206 {
+	request {
+		isReceive			0 : *integer
+	}
+}
+
+# 处理求助次数和协助次数
+sc_raid_chapter_collaborate 209 {
+	request {
+		appealtime 		0 : integer 	#求助次数
+		helptime 		1 : integer 	#协助次数
+	}
+}
+
+# 处理离线奖励
+sc_raid_chapter_offline_reward 212 {
+	request {
+		offlineTime			0 : integer
+		exp					1 : integer
+		money				2 : integer
+		equipNum1			3 : integer
+		equipNum2			4 : integer	# 背包满格
+		offlineData			5 : *offline_data
+	}
+}
+
+# 发送cd时间
+sc_raid_reborn_cd 215 {
+	request {
+		cdtime		0 : integer
+	}
+}
+
+# 个人boss最高记录
+sc_raid_myboss_top 216 {
+	request {
+		mybossTop 0 : integer
+	}
+}
+
+
+# 初始化材料副本信息
+sc_raid_material_info_init 218 {
+	request {
+		raidModel		0 : *raid_material_data
+		bossIndex		1 : integer
+	}
+}
+
+# 更新材料副本信息
+sc_raid_material_update_info 219 {
+	request {
+		raidData 0 : raid_material_data
+	}
+}
+
+# 材料副本结果(结算界面)
+sc_raid_material_result 220 {
+	request {
+		result			0 : integer
+		rewards			1 : *reward_data
+		star 			2 : integer
+		dead			3 : integer
+	}
+}

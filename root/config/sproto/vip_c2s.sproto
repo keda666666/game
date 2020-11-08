@@ -1,0 +1,13 @@
+# 领取VIP奖励
+cs_vip_get_awards 21001 {
+	request {
+		lv		0 : integer
+	}
+}
+
+# 领取VIP额外奖励
+cs_vip_get_other_awards 21002 {
+	request {
+		lv		0 : integer
+	}
+}

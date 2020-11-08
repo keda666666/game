@@ -1,0 +1,59 @@
+#签到
+cs_welfare_signin_req 31001 {
+	request {
+		rewardType 			0 : integer 	#1=每日普通，2=每日vip，3=每日首充, 4=累计登入
+	}
+	response {
+		ret 				0 : boolean
+		rewardType 			1 : integer
+	}
+}
+
+#系统红包
+cs_welfare_bonus_open 31006 {
+	request {
+		id 			0 : integer #红包id
+	}
+	response {
+		ret 				0 : boolean
+		bybNum 				1 : integer 	#绑元数量
+	}
+}
+
+#登入领取奖励
+cs_welfare_get_loginreward 31011 {
+	request {
+		indexDay 			0 : integer #领取奖励索引
+	}
+}
+
+
+#领取等级礼包
+cs_welfare_lv_reward 31051 {
+	request {
+		no 				0 : integer #第几个等级奖励
+	}
+	response {
+		ret 			0 : boolean #
+		lvReward 		1 : integer #位运算
+	}
+}
+#领取福利
+cs_welfare_reward 31052 {
+	request {
+		no 				0 : integer #领第几个福利1,2,3
+	}
+	response {
+		ret 			0 : boolean #
+		welfareReward 	1 : integer #位运算
+	}
+}
+#使用兑换码
+cs_welfare_redeemcode 31053 {
+	request {
+		redeemcode	0 : string
+	}
+	response {
+		ret 		0 : integer
+	}
+}

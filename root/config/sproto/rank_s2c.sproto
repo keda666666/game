@@ -1,0 +1,72 @@
+.rank_data_list {
+	pos				0 : integer
+	id				1 : integer
+	name			2 : string
+	level			3 : integer
+	serverid		4 : integer
+	job				5 : integer
+	sex				6 : integer
+	vip				7 : integer
+	skin			8 : integer			# 时装
+	power			9 : integer			# 各个战力
+	outpet			10 : integer		# 第一出战宠物id
+	outxianlv		11 : integer		# 第一出战仙侣id
+	outride			12 : integer		# 坐骑
+	outwing			13 : integer		# 翅膀
+	outfairy		14 : integer		# 天仙
+	outweapon		15 : integer		# 神兵
+	outtiannv		16 : integer		# 幻化天女
+	outtianshen		17 : integer		# 幻化天神
+	outcircle		18 : integer		# 法阵
+	outposition		19 : integer		# 仙位
+	outpsychic		20 : integer		# 兽魂
+	outsoul			21 : integer		# 通灵
+	outflower		22 : integer		# 花辇
+	outnimbus		23 : integer		# 灵气
+	chapterlevel	24 : integer		# 关卡等级
+	lv 				25 : integer		# 各种进阶等级
+	outbaby			26 : integer		# 灵童
+	outbabysex		27 : integer		# 灵童性别
+}
+
+.worship_count {
+	type			0 : integer
+	count			1 : integer
+}
+
+# 排行榜数据
+sc_rank_data 1901 {
+	request {
+		type		0 : integer
+		datas		1 : *rank_data_list
+		selfRank	2 : integer
+		value		3 : integer
+	}
+}
+
+# 返回膜拜数据
+sc_rank_worship_data 1902 {
+	request {
+		type			0 : integer
+		count			1 : integer
+        actorData       2 : actor_base_data
+		subRole			3 : *rank_subrole
+		hero			4 : integer
+		pet 			5 : integer
+	}
+}
+
+# 膜拜成功
+sc_rank_worship_success 1903 {
+	request {
+		type		0 : integer
+		count		1 : integer
+	}
+}
+
+# 返回所有膜拜次数
+sc_rank_worship_all_count_ret 1904 {
+	request {
+		worshipCount	0 : *worship_count
+	}
+}

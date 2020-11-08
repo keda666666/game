@@ -1,0 +1,59 @@
+#服务端->客户端
+#选择拍卖还是领取
+sc_auction_select 2801 {
+	request {
+		rewards			1 : *reward_data
+	}
+}
+
+# 拍卖的物品 1公示 2竞拍 3抢拍 4成交 5流拍
+.auction_item {
+	id 				0 : integer
+	itemid			1 : integer
+	count			2 : integer
+	price			3 : integer		# 当前价格 (单价)
+	playername		4 : string		# 拥有者
+	offername		5 : string		# 当前出价的人
+	status			6 : integer		# 状态
+	createtime		7 : integer		# 上架时间
+	dealtime		8 : integer		# 成交时间
+	isbuy			9 : integer		# 是否是一口价 1 或 0
+	dealprice 		10 : integer 	# 一口价
+	addprice 		11 : integer 	# 增加值
+	numerictype 	12 : integer 	#货币类型
+}
+
+sc_auction_list 2802 {
+	request {
+		ratio			0 : integer			# 我的额度(充值)
+		ratioAct		1 : integer			# 我的额度(拍卖)
+		lockratio		2 : integer			# 正在竞拍中的额度
+		guildid			3 : integer			# 0表示全服拍卖
+		items			4 : *auction_item
+	}
+}
+
+sc_auction_record 2803 {
+	request {
+		guildid			0 : integer			# 0表示全服拍卖
+		items			1 : *auction_item
+	}
+}
+
+sc_auction_update 2804 {
+	request {
+		guildid			1 : integer			# 0表示全服拍卖
+		item			2 : auction_item
+	}
+}
+
+sc_ratio_change 2805 {
+	request {
+		ratio			0 : integer			# 我的额度(充值)
+		ratioAct		1 : integer			# 我的额度(拍卖)
+		lockratio		2 : integer			# 正在竞拍中的额度
+	}
+}
+
+# 新上架通知 小红点
+sc_aution_notice 2806 {}

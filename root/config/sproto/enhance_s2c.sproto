@@ -1,0 +1,23 @@
+#服务端->客户端
+.enhance_data {
+	no 				0 : integer #编号
+	val 			1 : integer #完成情况
+}
+
+#登录或跨天数据
+sc_enhance_info 6301 {
+	request {
+		data 			0 : *enhance_data #完成进度
+		point 			1 : integer #积分
+		rewards 		2 : *integer #已领取那些奖励
+	}
+}
+
+#完成增加数据
+sc_enhance_add_info 6302 {
+	request {
+		no 				0 : integer #编号
+		val 			1 : integer #完成情况
+		point 			2 : integer #积分
+	}
+}

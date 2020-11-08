@@ -1,0 +1,203 @@
+#玩家阵营信息
+.king_player_info {
+	dbid 		0 : integer 		# 玩家id
+	camp		1 : integer 		# 1人 2仙 3魔
+	status		2 : integer 		# 1准备 2自由行动 3死亡 4守城
+}
+
+#守城者信息
+.king_guard_info {
+	dbid 		0 : integer # 玩家id
+	name        1 : string
+    level       2 : integer
+    job         3 : integer
+    sex         4 : integer
+    power       5 : integer
+    isdead		6 : boolean # 是否阵亡
+}
+
+#城市血量信息
+.king_city_info {
+	camp 		0 : integer 		# 0主城 或边城：1人 2仙 3魔
+	currcamp	1 : integer 		# 当前占领的种族 0中立 1人 2仙 3魔
+	currhp		2 : integer 		# 当前血量
+	maxhp		3 : integer 		# 最大血量
+	guards		4 : *king_guard_info 	# 守城者信息
+}
+
+
+#防御记录
+.king_guard_record {
+	camp 		0 : integer 		# 攻城方种族
+	changhp		1 : integer 		# 变化的血量 正数
+	names		2 : *string 		# 攻城者名字
+	time 		3 : integer 		# 攻城时间
+}
+
+#各阵营王城积分
+.king_camp_point {
+	camp		1 : integer 		# 1人 2仙 3魔
+	point		2 : integer 		
+}
+
+#跨服争霸数据
+sc_king_info 24001 {
+	request {
+		camp  			0 : integer 		#我的阵营 1人 2仙 3魔
+		status			1 : integer 		#我的状态 1准备 2自由行动 3死亡 4守城
+		reborncout 		2 : integer 		#复活倒计时 如果死亡状态的话
+		citypoint		3 : integer			#王城积分
+		commonpoint		4 : integer			#普通积分
+		players			5 : *king_player_info
+		citys			6 : *king_city_info
+		fighting		7 : *integer 		#战斗中的玩家
+		transform		8 : *integer 		#变身中的玩家
+		camppoint 		9 : *king_camp_point
+		actcountdown	10 : integer		#活动倒计时
+	}
+}
+
+#城池详细数据
+sc_king_city_data 24002 {
+	request {
+		camp 		0 : integer 			# 0主城 或边城：1人 2仙 3魔
+		currcamp	1 : integer 			# 当前占领的种族 0中立 1人 2仙 3魔
+		currhp		2 : integer 			# 当前血量
+		maxhp		3 : integer 			# 最大血量
+		guards		4 : *king_guard_info 	# 守城者信息
+		guardtime	5 : integer 			# 守城时间
+		point 		6 : integer 			# 累计王城积分
+		pointtime	7 : integer 			# 距离下次获得积分倒计时
+		record		8 : *king_guard_record 	# 守城记录
+	}
+}
+
+#活动正式开始，此时全体玩家状态变成 2自由行动
+sc_king_begin_act 24003 {
+	request { }
+}
+
+#玩家状态变更
+sc_king_status_change 24004 {
+	request {
+		dbid 		0 : integer 		# 玩家id
+		status		1 : integer 		# 1准备 2自由行动 3死亡 4守城
+	}
+}
+
+#玩家战斗状态变更
+sc_king_fighting_change 24005 {
+	request {
+		fighting		0 : *integer 		#战斗中的玩家
+	}
+}
+
+#有玩家进入游戏
+sc_king_player_enter 24006 {
+	request {
+		player 			0 : king_player_info
+	}
+}
+
+#有玩家离开
+sc_king_player_leave 24007 {
+	request {
+		dbid 			0 : integer 		# 玩家id
+	}
+}
+
+#面板积分数据
+sc_king_point_info 24008 {
+	request {
+		camppoint 			0 : *king_camp_point
+	}
+}
+
+#个人积分数据
+sc_king_point_data 24009 {
+	request {
+		citypoint			0 : integer 		# 王城积分
+		commonpoint			1 : integer 		# 个人积分
+		cityreward			2 : *integer		# 已经领取的王城积分奖励索引
+		commonreward		3 : *integer		# 已经领取的个人积分奖励索引
+	}
+}
+
+#城池被占领公告
+sc_king_city_occupy 24010 {
+	request {
+		camp 				0 : integer 			# 0主城 或边城：1人 2仙 3魔
+		occupycamp			1 : integer 			# 占领的阵营 1人 2仙 3魔
+		names				2 : *string				# 占领者
+	}
+}
+
+#玩家变身
+sc_king_transform_change 24011 {
+	request {
+		dbid 					0 : integer 		# 玩家id
+		istransform				1 : boolean 		
+	}
+}
+
+#攻城结果
+sc_king_attack_result 24012 {
+	request {
+		iswin 					0 : boolean
+		commonpoint				1 : integer 		# 个人积分	
+		camp 					2 : integer
+	}
+}
+
+#pk结果
+sc_king_pk_result 24013 {
+	request {
+		iswin 					0 : boolean
+		commonpoint				1 : integer 		# 个人积分	
+	}
+}
+
+#复活倒计时
+sc_king_reborn_countdown 24014 {
+	request {
+		reborncout 		0 : integer 		#复活倒计时 如果死亡状态的话
+	}
+}
+
+#更新城市信息
+sc_king_update_city 24015 {
+	request {
+		citys			0 : *king_city_info
+	}
+}
+
+#我在守的城 0主城 或边城：1人 2仙 3魔 99没在守
+sc_king_my_guard_city 24016 {
+	request {
+		city			0 : integer
+	}
+}
+
+#跨服争霸数据
+sc_king_info_update 24017 {
+	request {
+		citys			0 : king_city_info
+	}
+}
+
+
+#跨服争霸结算
+.king_report_persondetail {
+	camp 	0 : integer 	#我的阵营
+}
+
+.king_report_sharedata {
+	rank 	0 : *integer 	#排名 索引=排名, 值=camp
+}
+sc_king_report 27018 {
+	request {
+		persondetail 	0 : king_report_persondetail
+		rewards 		1 : *reward_data
+		sharedata 		2 : king_report_sharedata 		
+	}
+}

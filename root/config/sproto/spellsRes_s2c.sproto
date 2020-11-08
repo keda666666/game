@@ -1,0 +1,23 @@
+#服务端->客户端
+#登录数据
+.spellsAttr {
+	spellsNo		0 : integer #编号
+	lv				1 : integer #等级,配置具体数据根据编号和等级去表内找
+	skillList		2 : *integer #技能列表
+}
+
+.spellsData {
+	spellsId		0 : integer #对应操作时用的id
+	spellsNo		1 : integer #
+	lock 			2 : integer #0没锁 1锁了
+	skillList		3 : *integer #技能列表
+}
+
+sc_spellsRes_info 5401 {
+	request {
+	useSpells		0 : *spellsAttr #装备的
+	spellsList		1 : *spellsData #持有的
+	num				2 : integer #数量,持有上限300，超过不能合成新的
+	perfectNum		3 : integer #完美打造次数
+	}
+}

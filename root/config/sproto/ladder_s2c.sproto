@@ -1,0 +1,126 @@
+.rank_data_ladder {
+	id					0 : integer 	#玩家id
+	player				1 : string 		#玩家名字
+	grade 				2 : integer		#段位	
+	star 				3 : integer		#星级
+	winNum				4 : integer	 	#净胜场
+	job					5 : integer
+	sex					6 : integer
+	serverid 			7 : integer 	# 跨服、服务器id
+}
+
+# 天梯相关信息
+sc_ladder_info 3501 {
+	request {
+		isOpen			0 : boolean
+		grade			1 : integer		# 段位
+		star			2 : integer		# 星级
+		challgeNum		3 : integer		# 挑战次数
+		challgeCd		4 : integer		
+		winNum			5 : integer		# 净胜场
+		lianWin			6 : boolean		# 连胜
+		playUpTime		7 : boolean		# 上周数据		
+
+		# 如果 playUpTime == true，才需要赋值下面的数据
+		isCanReward		8 : boolean		# 可以领取奖励
+		upgrade			9 : integer		#上周段位
+		upstar			10 : integer 	#上周星级
+		upWin			11 : integer	# 净胜场
+		rank			12 : integer
+
+		ladderType		13 : integer 	# 0、本服	1、跨服
+
+		# 跨服数据
+		canJoin			14 : boolean 	# 能否加入跨服王者
+		csName			15 : string 	# 上周跨服冠军名字
+		csServerId		16 : integer 	# 服务器id
+		csjob 			17 : integer
+		cssex 			18 : integer 
+	}
+}
+
+# 获取到天梯天战对象
+sc_ladder_player_back 3502 {
+	request {
+		type			0 : boolean 	#匹配结果 true = 成功
+		id				1 : integer
+		name			2 : string
+		job				3 : integer
+		sex				4 : integer
+		grade			5 : integer     #段位
+		star			6 : integer		#星级
+
+		ladderType		7 : integer 	# 0、本服	1、跨服
+		serverid 		8 : integer 	# # 跨服、服务器id
+	}
+}
+
+# 天梯挑战结果
+sc_ladder_result 3503 {
+	request {
+		isWin			0 : boolean
+		rewardData		1 : *reward_data
+		grade 			2 : integer
+		star 			3 : integer
+		increasestar 	4 : integer
+		ladderType		5 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 获取排行榜列表
+sc_ladder_rank_list 3505 {
+	request {
+		rankData 		1 : *rank_data_ladder
+		upWeekRankList  2 : *rank_data_ladder
+		ladderType		3 : integer 	# 0、本服	1、跨服
+		rank 			4 : integer 	#我的排名
+		upWeekRank 		5 : integer 	#上周我的排名
+	}
+}
+
+# 获取已购买次数 
+sc_ladder_buy_count 3506 {
+	request {
+		todayBuyTime	0 : integer
+		ladderType		1 : integer 	# 0、本服	1、跨服
+	}
+}
+
+.ladder_shows {
+	shows		0 : *integer
+	job			1 : integer
+	sex			2 : integer
+	id 			3 : integer
+	name 		4 : string
+	serverid	5 : integer
+	guildid		6 : integer
+	guildname	7 : string
+	level 		8 : integer
+}
+
+# 跨服王者信息
+sc_ladder_winner_info 3507 {
+	request {
+		shows 	0 : ladder_shows
+		worship 	1 : boolean 	# true = 已膜拜过
+	}
+}
+
+.ladder_winner_records {
+	time 			0 : integer
+	serverid		1 : integer
+	guildname		2 : string
+	leadername		3 : string
+	job 			4 : integer
+	sex 			5 : integer
+	vip				6 : integer
+	power			7 : integer
+	win 			8 : integer # 净胜场
+}
+
+# 跨服王者记录
+sc_ladder_winner_records 3508 {
+	request {
+		records 	0 : *ladder_winner_records
+	}
+}

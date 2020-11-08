@@ -1,0 +1,45 @@
+# 人物飞升
+cs_rolefly_up 3000 {
+	request {
+	}
+	response {
+		ret 	0 : boolean
+		xiuWei			1 : integer
+		lv				2 : integer
+		skillList		3 : *integer
+	}
+}
+
+#升级技能
+cs_rolefly_up_skill 3001 {
+	request {
+		skillNo			1 : integer
+	}
+	response {
+		ret 			0 : boolean #
+		skillList		1 : *integer
+	}
+}
+
+#添加修为
+cs_rolefly_add_xiuwei 3002 {
+	request {
+		type			1 : integer #消耗物品类型
+		id				2 : integer #消耗物品id
+	}
+	response {
+		ret 			0 : boolean #
+		xiuWei			1 : integer
+	}
+}
+
+#获取添加修为次数
+cs_rolefly_get_addnum 3003 {
+	request {
+	}
+	response {
+		ret 			0 : boolean #
+		number			1 : integer
+	}
+}
+

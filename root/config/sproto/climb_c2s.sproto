@@ -1,0 +1,44 @@
+# 请求进入九重天
+cs_crimb_join 26001 {
+	request {
+
+	}
+	response {
+       ret 		0 : boolean
+    }
+}
+
+# pk targetid为0表示打怪物
+cs_crimb_pk 26002 {
+	request {
+		targetid	0 : integer
+	}
+}
+
+# 周排行榜
+cs_climb_all_rank 26003 {
+	request { }
+}
+
+# 当前排行榜
+cs_climb_curr_rank 26004 {
+	request { }
+}
+
+# 领取积分奖励
+cs_climb_get_reward 26005 {
+	request { }
+}
+
+# 离开
+cs_climb_leave 26006 {
+	request { }
+}
+
+# 上次离开的时间
+cs_climb_leave_time 26007 {
+	request { }
+	response {
+       time 		0 : integer
+    }
+}

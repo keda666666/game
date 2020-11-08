@@ -1,0 +1,69 @@
+#服务端->客户端
+.qualifying_player_data {
+	no 				0 : integer #玩家编号
+	name 			1 : string #玩家名字
+	server 			2 : integer #所在服
+	lv 				3 : integer #等级
+	power 			4 : integer #战力
+	shows 			5 : entity_shows #玩家外观
+	job				6 : integer #职业
+	sex				7 : integer #性别
+}
+
+.qualifying_rank_data {
+	field 			0 : integer #场次,
+	noA 			1 : integer #编号，根据编号去knockouttime16 内拿玩家信息即可
+	noB 			2 : integer #
+	winNo 			3 : integer #胜利玩家
+	fightRecord 	4 : *integer #战斗记录{1,2,2}1回合1赢，2回合2赢，3回合2赢
+}
+
+.qualifyingMgr_gamble_data {
+	field 			0 : integer #场次,
+	no 				1 : integer #被下注了的玩家1还是2
+	typ 			2 : integer #赌注是啥123对应押注配置
+}
+
+#活动数据
+sc_qualifyingMgr_info_res 22101 {
+	request {
+		sign 			0 : boolean #玩家是否已报名
+		type 			1 : integer # 状态0未开始 1报名 2报名完毕 3预选 4预选结束 5.16强 6.16强结束 7.8强 8.8强结束 9.4强 10.4强结束 11.2强 12.2强结束
+		rank 			2 : integer # 哪个场
+		ret 			3 : boolean # false人数不够活动开启失败后面没数据了
+		player_data 	4 : *qualifying_player_data #玩家数据,16个
+		knockouttime16 	5 : *qualifying_rank_data #16强 还没到的话则没数据
+		knockouttime8	6 : *qualifying_rank_data #8强 还没到的话则没数据
+		knockouttime4	7 : *qualifying_rank_data
+		knockouttime2	8 : *qualifying_rank_data
+		champion 		9 : integer #冠军编号
+		gamble 			10 : *qualifyingMgr_gamble_data #玩家下注信息
+	}
+}
+#地图数据
+sc_qualifyingMgr_map_info_res 22102 {
+	request {
+		ret				0 : integer #1继续留在场景，2活动结束退出，3失败3次退出
+		rank_data 		1 : *qualifyingMgr_rank_data #排行榜 3人
+		timeout 		2 : integer #下一场战斗的倒计时
+		rankNo 			3 : integer #玩家排名,0则未进入排行榜
+		point 			4 : integer #积分
+	}
+}
+
+.qualifyingMgr_role_data {
+	win 		0 : boolean #胜负
+	name 		1 : string #玩家名字
+	serverid 	2 : integer #服务器id
+	level 		3 : integer #等级
+	power 		4 : integer #战力
+	addpoint 	5 : integer #增加的积分
+}
+
+#战斗结算
+sc_qualifyingMgr_war_info 22103 {
+	request {
+		win 		0 : boolean #胜负
+		roleData	1 : *qualifyingMgr_role_data #玩家数据 
+	}
+}

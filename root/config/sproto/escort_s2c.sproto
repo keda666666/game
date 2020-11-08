@@ -1,0 +1,53 @@
+#西游护送信息
+sc_escort_info_update 20001 {
+	request {
+		escortCount 	0 : integer 		#护送次数
+		robCount 		1 : integer			#拦截次数
+		status			2 : integer			#状态 1=可接任务，2=护送中，3=完成
+		quality			3 : integer			#品质
+		finishTime 		4 : integer 		#完成时间			
+	}
+}
+
+.record_info {
+	recordId 		0 : integer 		#记录Id
+	type 			1 : integer 		#记录类型：1=拦截，2=复仇
+	quality 		2 : integer 		#品质
+	time 			3 : integer			#时间
+	playerId 		4 : integer			#玩家Id
+	name 			5 : string			#名字
+	isWin 			6 : boolean			#胜利标识
+	operate 		7 : boolean			#操作标记，复仇需要此项标记
+	power 			8 : integer			#玩家战力
+}
+
+#奖励信息
+.catch_escort_info {
+	robId 			0 : integer 	#拦截玩家id
+	name 			1 : string
+	isWin 			2 : boolean		#true = 成功
+	guildName 		3 : string
+}
+
+sc_escort_reward_show 20007 {
+	request {
+		quality 		0 : integer				#品质 		
+		record 			1 : *catch_escort_info 	#护送信息
+		reachReward 	2 :  *reward_data 		#护送奖励	
+		lossReward 		3 :  *reward_data		#损失奖励
+	}
+}
+
+#护送记录
+sc_escort_record_data 20030 {
+	request {
+		records 		0 : *record_info
+	}
+}
+
+#记录更新
+sc_escort_record_update 20031 {
+	request {
+		record 		0 : record_info
+	}
+}

@@ -1,0 +1,97 @@
+.climb_rank_data {
+	dbid		0 : integer
+	rank 		1 : integer
+	serverid	2 : integer
+	name 		3 : string
+	score		4 : integer
+}
+
+# 月排行榜
+sc_climb_all_rank 26001 {
+	request {
+		ranklist 	0 : *climb_rank_data
+		job			1 : integer				# 第一名玩家的职业
+		sex			2 : integer				# 第一名玩家的性别
+		shows       3 : *integer
+	} 
+}
+
+.climb_mon {
+	id			0 : integer
+	x			1 : integer			# 怪物坐标
+	y			2 : integer
+	monsterid	3 : integer			#怪物id
+}
+
+sc_climb_info 26002 {
+	request {
+		score 			0 : integer
+		rewardsocre		1 : integer			# 当前的分数奖励段
+		fighting		2 : *integer		# 战斗中的人的id
+		monsters		3 : *climb_mon
+		king 			4 : integer			#至尊的id
+	} 
+}
+
+# 当前排行榜
+sc_climb_curr_rank 26003 {
+	request {
+		ranklist 	0 : *climb_rank_data
+		king		1 : integer				#至尊的id
+	} 
+}
+
+# 怪物刷新
+sc_climb_refresh_mon 26004 {
+	request {
+		monsters		0 : *climb_mon
+		flag 			1 : integer 		#0表示死亡后刷新 1表示新增
+	}
+}
+
+sc_climb_score_info 26005 {
+	request {
+		score 			0 : integer
+		rewardsocre		1 : integer		#当前奖励分数段
+	} 
+}
+
+# 战斗状态改变
+sc_climb_fighting_change 26006 {
+	request {
+		dbid 			0 : integer 		# 玩家id
+		isfighting		1 : boolean 		
+	}
+}
+
+# 至尊变化
+sc_climb_king 26007 {
+	request {
+		dbid 			0 : integer 		# 玩家id
+	}
+}
+
+
+.climb_shows {
+	shows		0 : *integer
+	job			1 : integer
+	sex			2 : integer
+	id 			3 : integer
+	name 		4 : string
+	serverid	5 : integer
+	guildid		6 : integer
+	guildname	7 : string
+	level 		8 : integer
+}
+
+.climb_report_sharedata {
+	shows 	 	0 : climb_shows 		#至尊形象数据
+	serverid 	1 : integer
+}
+
+sc_climb_report 26008 {
+	request {
+		rewards 		0 : *reward_data
+		sharedata 		1 : climb_report_sharedata 		
+	}
+}

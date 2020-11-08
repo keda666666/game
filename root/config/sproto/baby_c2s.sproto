@@ -1,0 +1,125 @@
+# 灵童激活
+cs_baby_active 8201 {
+	request {
+		sex		0 : integer
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+# 升级天赋
+cs_baby_addgift 8202 {
+	request {
+	}
+	response {
+		ret 	0 : boolean
+		exp		1 : integer
+		level	2 : integer
+	}
+}
+
+cs_baby_rename 8203 {
+	request {
+		name 	1 : string
+	}
+	response {
+		ret 	0 : boolean
+		name 	1 : string
+	}
+}
+
+cs_baby_refreshskill 8204 {
+	request {
+		locklist 	1 : *integer
+		type 		2 : integer	 # 0、洗练		1、高级洗练
+		autoBuy		3 : integer  #0不自动购买道具1使用绑元宝2使用绑元宝和元宝
+	}
+	response {
+		ret 	0 : boolean
+		xilian 	1 : integer
+		xilianSkills 	2 : *integer
+	}
+}
+
+cs_baby_setskillin 8205 {
+	request {
+		id 		0 : integer
+	}
+	response {
+		ret 	0 : boolean
+		buffs 	1 : *integer
+	}
+}
+
+.baby_start_data {
+	id 				0 : integer #编号
+	count 			1 : integer #数量
+}
+
+#逆命
+cs_baby_start_get 8206 {
+	request {
+		num 		0 : integer #次数
+	}
+	response {
+		ret 		0 : boolean #
+		num 		1 : integer #次数
+		cost 		2 : integer #花费
+		star 		3 : integer #当前等级
+		data 		4 : *baby_start_data #命格列表
+		msgData 	5 : *baby_star_msg #灵童命格公告
+	}
+}
+
+#使用
+cs_baby_start_use 8207 {
+	request {
+		id 		0 : integer #道具id
+		pos 	1 : integer #装到第几个位置
+	}
+	response {
+		ret 	0 : boolean
+		pos 	1 : integer #装到第几个位置
+		no 		2 : integer #装上的no
+	}
+}
+
+#升级
+cs_baby_start_up_lv 8208 {
+	request {
+		pos 	1 : integer #升级第几个位置上的
+	}
+	response {
+		ret 	0 : boolean
+		pos 	1 : integer #装到第几个位置
+		no 		2 : integer #装上的no
+	}
+}
+
+.baby_start_smelt {
+	id 			0 : integer #道具id
+	num 		1 : integer #数量
+}
+
+#分解
+cs_baby_start_smelt 8209 {
+	request {
+		idList 	1 : *baby_start_smelt #需要分解的列表
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+#点亮混元
+cs_baby_start_light 8210 {
+	request {
+		
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+

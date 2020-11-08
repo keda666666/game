@@ -1,0 +1,140 @@
+create process id,machind_id:1082046464,temp_handle:0,id:1082046464
+create process id,machind_id:1082046464,temp_handle:1,id:1082046465
+create process id,machind_id:1082046464,temp_handle:2,id:1082046466
+create process id,machind_id:1082046464,temp_handle:3,id:1082046467
+create process id,machind_id:1082046464,temp_handle:4,id:1082046468
+acceptor host:127.0.0.1,port:8111
+socket_api: bind failed:7
+[m[2019-05-06 21:41:01] [31m[ERROR  ][accept-1082046468]create accept error 127.0.0.1:8111[m
+[m[2019-05-06 21:41:01] [31m[ERROR  ][:ERROR-1082046464]boot.lua-17: launcher config:center fail
+stack traceback:
+	./../liblua/lua_app.lua:806: in function 'lua_app.log_error'
+	./../liblua/boot.lua:17: in function 'main'
+	[C]: in function 'xpcall'
+	./../liblua/lua_app.lua:207: in upvalue 'f'
+	./../liblua/lua_app.lua:136: in function <./../liblua/lua_app.lua:135>[m
+le:11,id:1082046475
+create process id,machind_id:1082046464,temp_handle:12,id:1082046476
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:8111
+[m[2019-05-06 21:41:01] [INFO  ][center-1082046467](on_accept_socket)accept connect 16777220 127.0.0.1
+create process id,machind_id:1082046464,temp_handle:13,id:1082046477
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_connect_socket)center connect 16777219:1082046476
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+create process id,machind_id:1082046464,temp_handle:14,id:1082046478
+[m[2019-05-06 21:41:01] [cross1_8110:INFO-1082046478]CenterMgr.lua-12: CenterMgr:Init 127.0.0.1:9999
+create process id,machind_id:1082046464,temp_handle:15,id:1082046479
+[m[2019-05-06 21:41:01] [cross1_8110:INFO-1082046478]cross.lua-24: cross1_8110 Start
+[m[2019-05-06 21:41:01] [INFO  ][center-1082046467](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:9999
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777224 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][center-1082046467](on_connected_router) my router connect
+[m[2019-05-06 21:41:01] [INFO  ][center-1082046467](on_connect_socket)router 1056686 connect 16777221
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_connect_socket)center connect 16777223:1082046476
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777225 127.0.0.1
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_regist_router)connect to router 1057676 127.0.0.1:9998
+register name from center:center1:1083060237
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_connect_socket)router 1057676 connect 16777226
+[m[2019-05-06 21:41:01] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777227 127.0.0.1
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]CenterMgr.lua-43: CenterMgr:HeartBeat:: centerSource 1083060237 127.0.0.1:9999
+create process id,machind_id:1082046464,temp_handle:16,id:1082046480
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]CenterMgr.lua-114: CenterMgr:UpdateList
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]lua_util.lua-84: table: 0x106b6bc0
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]lua_util.lua-77: cross	table: 0x106b6b80
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]lua_util.lua-77: 	8110	127.0.0.1:8111
+[m[2019-05-06 21:41:09] [cross1_8110:INFO-1082046478]lua_util.lua-88: all value number: 2
+create process id,machind_id:1082046464,temp_handle:17,id:1082046481
+create process id,machind_id:1082046464,temp_handle:18,id:1082046482
+create process id,machind_id:1082046464,temp_handle:19,id:1082046483
+[m[2019-05-06 21:41:09] [.mysql:INFO-1082046481]mysql.lua-28: .mysql Start
+create process id,machind_id:1082046464,temp_handle:20,id:1082046484
+create process id,machind_id:1082046464,temp_handle:21,id:1082046485
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046482]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046483]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046484]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046485]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046484]mysql server auth sucess
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046483]mysql server auth sucess
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046482]mysql server auth sucess
+register name from center:war1_1:1082046480
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046485]mysql server auth sucess
+[m[2019-05-06 21:41:09] [war1_1:INFO-1082046480]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+register name from center:war1_1:1082046480
+create process id,machind_id:1082046464,temp_handle:22,id:1082046486
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046485]mysql server quit
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046484]mysql server quit
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046486]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046486]mysql server auth sucess
+[m[2019-05-06 21:41:09] [war1_1:INFO-1082046480]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046486]mysql server quit
+Blob:InitDBID:	war1_qualifying_player	0
+Blob:InitDBID: serverdbid, platdbid	0	0
+-----开启时间-------------:20: :0
+ClimbCenter:Init-----------
+[m[2019-05-06 21:41:09] [war1_1:INFO-1082046480]war.lua-27: war1_1 Start
+create process id,machind_id:1082046464,temp_handle:23,id:1082046487
+create process id,machind_id:1082046464,temp_handle:24,id:1082046488
+create process id,machind_id:1082046464,temp_handle:25,id:1082046489
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046488]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046489]mysql server connected
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046488]mysql server auth sucess
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046489]mysql server auth sucess
+[m[2019-05-06 21:41:09] [world1_1:INFO-1082046487]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1082046464,temp_handle:26,id:1082046490
+register name from center:world1_1:1082046487
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046489]mysql server quit
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046488]mysql server quit
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046490]mysql server connected
+register name from center:world1_1:1082046487
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046490]mysql server auth sucess
+[m[2019-05-06 21:41:09] [world1_1:INFO-1082046487]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-06 21:41:09] [INFO  ][mysql-1082046490]mysql server quit
+Blob:InitDBID:	world1_auctions	0
+Blob:InitDBID: serverdbid, platdbid	0	0
+Add activity failed.type handle not exist ! activity Id is:	1
+Add activity failed.type handle not exist ! activity Id is:	2
+Add activity failed.type handle not exist ! activity Id is:	3
+Add activity failed.type handle not exist ! activity Id is:	4
+Add activity failed.type handle not exist ! activity Id is:	5
+Add activity failed.type handle not exist ! activity Id is:	6
+Add activity failed.type handle not exist ! activity Id is:	7
+Add activity failed.type handle not exist ! activity Id is:	8
+Add activity failed.type handle not exist ! activity Id is:	9
+Add activity failed.type handle not exist ! activity Id is:	10
+Add activity failed.type handle not exist ! activity Id is:	11
+Add activity failed.type handle not exist ! activity Id is:	12
+Add activity failed.type handle not exist ! activity Id is:	13
+Add activity failed.type handle not exist ! activity Id is:	15
+Add activity failed.type handle not exist ! activity Id is:	16
+Add activity failed.type handle not exist ! activity Id is:	17
+Add activity failed.type handle not exist ! activity Id is:	18
+Add activity failed.type handle not exist ! activity Id is:	19
+Add activity failed.type handle not exist ! activity Id is:	20
+Add activity failed.type handle not exist ! activity Id is:	21
+Add activity failed.type handle not exist ! activity Id is:	22
+Add activity failed.type handle not exist ! activity Id is:	23
+Add activity failed.type handle not exist ! activity Id is:	24
+Add activity failed.type handle not exist ! activity Id is:	25
+Add activity failed.type handle not exist ! activity Id is:	26
+Add activity failed.type handle not exist ! activity Id is:	27
+Add activity failed.type handle not exist ! activity Id is:	28
+Add activity failed.type handle not exist ! activity Id is:	29
+[m[2019-05-06 21:41:09] [world1_1:INFO-1082046487]world.lua-33: world1_1 Start
+[m[2019-05-06 21:41:12] [INFO  ][center-1082046467](on_accept_socket)accept connect 16777236 127.0.0.1
+[m[2019-05-06 21:41:12] [INFO  ][center-1082046467](on_regist_router)connect to router 1048577 127.0.0.1:10201
+send center name:cross1_8110:1082046478
+send center name:war1_1:1082046480
+send center name:world1_1:1082046487
+[m[2019-05-06 21:41:12] [INFO  ][center-1082046467](on_connected_router) new router connect
+[m[2019-05-06 21:41:12] [INFO  ][center-1082046467](on_connect_socket)router 1048577 connect 16777237
+[m[2019-05-06 21:41:12] [INFO  ][router-1082046471](on_regist_router)connect to router 1048577 127.0.0.1:10201
+[m[2019-05-06 21:41:12] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777239 127.0.0.1
+[m[2019-05-06 21:41:12] [INFO  ][router-1082046471](on_connect_socket)router 1048577 connect 16777238
+[m[2019-05-06 21:41:39] [war1_1:INFO-1082046480]KingArenaCenter.lua-121: update fightdata-------------------
+[m[2019-05-06 21:41:39] [war1_1:INFO-1082046480]KingArenaCenter.lua-64: KingArenaCenter----------------------Resume
+Timer:HalfHour------------------
+QualifyingCenter:onHalfHour	1
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+QualifyingCenter:onHalfHour	1
+Timer:HalfHour------------------

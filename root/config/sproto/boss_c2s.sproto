@@ -1,0 +1,41 @@
+
+#购买挑战次数
+cs_public_boss_buy_challenge 12001 {}
+
+#请求BOSS信息
+cs_public_boss_info_list 12002 {}
+
+# 请求挑战
+cs_public_boss_challenge 12010 {
+	request {
+		id 	0 : integer
+	}
+}
+
+#复活挑战
+cs_public_boss_challenge_reborn 12011 {
+	request {
+		id 	0 : integer
+	}
+}
+
+#伤害记录
+cs_public_boss_record_attack 12015 {
+	request {
+		id 	0 : integer
+	}
+}
+
+#击杀记录
+cs_public_boss_record_kill 12016 {
+	request {
+		id 	0 : integer
+	}
+}
+
+#复活标记
+cs_public_boss_reborn_mark 12030 {
+	request {
+		rebornmark 	0 : integer
+	}
+}

@@ -1,0 +1,78 @@
+#客户端->服务端
+
+.teachers_student_data {
+	dbid 		0 : integer #
+	name 		1 : string #名字
+	lv 			2 : integer #等级
+	tag 		3 : boolean
+}
+
+#广播招师
+cs_teachers_message 29001 {
+	request {
+	}
+	response {
+		ret 				0 : boolean #
+	}
+}
+
+#获取徒弟列表
+cs_teachers_get_message 29002 {
+	request {
+	}
+	response {
+		data 				0 : *teachers_student_data #
+	}
+}
+
+#师傅招收徒弟
+cs_teachers_apply_teacher 29003 {
+	request {
+		sDbid 				0 : integer #学生dbid
+	}
+	response {
+		ret 				0 : integer #1徒弟不存在2师傅已发过邀请了3等级不符4道具不足5成功
+	}
+}
+
+#徒弟答应
+cs_teachers_apply_confirm 29004 {
+	request {
+		tDbid 				0 : integer #师傅dbid
+		res 				1 : boolean
+	}
+}
+
+#师傅传功
+cs_teachers_teach_exp 29005 {
+	request {
+		no 				0 : integer #师徒编号
+	}
+}
+
+#徒弟领取
+cs_teachers_get_exp 29006 {
+	request {
+		no 				0 : integer #师徒编号
+	}
+}
+
+#出师
+cs_teachers_graduation 29007 {
+	request {
+		no 				0 : integer #师徒编号
+		typ 			1 : integer #出师类型1,2
+	}
+}
+
+#领取任务奖励(经验)
+cs_teachers_force_get_reward 29009 {
+	request {
+		no 				0 : integer #师徒编号
+		act 			1 : integer #活动编号
+	}
+	response {
+		ret 			0 : boolean #
+		rewards 		1 : integer #奖励领取情况,位运算
+	}
+}

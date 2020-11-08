@@ -1,0 +1,42 @@
+#签到
+sc_welfare_signin_info 31001 {
+	request {
+		rewardMark 			0 : integer #领取标记 按位取 1=可领取， 索引1-4 对应每日普通，每日vip, 每日充值, 累计登入
+		dailyId 			1 : integer #当前奖励Id
+		totalDay 			2 : integer #累计登入次数
+	}
+}
+
+
+#系统红包添加
+sc_welfare_bonus_add 31006 {
+	request {
+		id 					0 : integer #红包id
+		name 				2 : string 	#玩家名字
+		endtime 	 		3 : integer #有效时间
+	}
+}
+
+
+#登入送元宝
+sc_welfare_login_gift_info 31011 {
+	request {
+		totalLoginday 		0 : integer #总登入天数
+		receivemark 		1 : integer #领奖标记，按位取 0=未领取
+	}
+}
+
+
+#数据,开通.登录.跨天
+sc_welfare_info 31050 {
+	request {
+		month 			0 : integer #剩余多少天 0没开通
+		week 			1 : integer #剩余多少天 0没开通
+		lvReward 		2 : integer #等级礼包，位运算
+		welfareReward 	3 : integer #福利奖励，位运算
+		rankData 		4 : *entity_shows #需要显示的玩家数据
+		avgLv 			5 : integer #平均等级
+		forever 		6 : integer #永久卡0未购买，1已领取
+		firstMonth 		7 : integer #是否购买过月卡 0没买过 1买过了
+	}
+}

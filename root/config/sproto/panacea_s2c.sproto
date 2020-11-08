@@ -1,0 +1,7 @@
+# 丹药更新
+sc_panacea_update 16001 {
+	request {
+		lvlist			0 : *integer		#等级列表 索引对应posId
+		attrs 			1 : *attribute_data	#总属性
+	}
+}

@@ -1,0 +1,79 @@
+.award_item {
+	type 			0 : integer
+	id				1 : integer
+	count			2 : integer
+}
+
+.award_one {
+	items			0 : *award_item
+	buycount		1 : integer			# 可购买次数
+}
+
+.rechargew_shit_info {
+	payType			0 : integer			# 101 或 102
+	gid				1 : integer			# 活动索引
+	gtype			2 : integer			# 推送活动类型	1 充值购买活动  2 元宝购买活动
+	startTime		3 : integer			# 活动开启时间
+	endTime			4 : integer			# 活动结束时间
+	headtext		5 : string			# 活动标题
+	content			6 : string			# 活动内容介绍
+	awards			7 : *award_one		# 活动奖励表
+	condType		8 : integer			# 条件类型		1 累计充值金额 2 累计消耗元宝 3 单笔充值(用steps)
+	targets			9 : *integer		# 活动目标表
+	prices			10: *integer		# 购买价格表
+	dayRefresh		11: integer			# 是否每日刷新  0 不刷 1 刷新获取次数 2 全刷新
+	showType		12: integer			# 显示类型		无或者0 正常显示	1 列表显示
+}
+
+.rechargew_my_info {
+	nopop			0 : boolean			# true则不弹出
+	step 			1 : integer			# 现在达成的目标值
+	getnum			2 : *integer		# 已经购买了哪些奖励
+	steps			3 : *integer		# 需要多个达成条件的
+}
+
+.rechargew_initinfo {
+	config 			0 : rechargew_shit_info		# 活动基本信息
+	info			1 : rechargew_my_info		# 活动自己的信息
+}
+
+sc_rechargew_shit 6401 {
+	request {
+		config 			0 : rechargew_shit_info		# 活动基本信息
+		info			1 : rechargew_my_info		# 活动自己的信息
+	}
+}
+
+sc_rechargew_shitstep 6402 {
+	request {
+		payType			0 : integer
+		gid				1 : integer
+		step 			2 : integer			# 现在达成的目标值
+		getnum			3 : *integer		# 已经领取的奖励信息
+		steps			4 : *integer		# 需要多个达成条件的
+	}
+}
+
+sc_rechargew_shitindex 6403 {
+	request {
+		payType			0 : integer
+		gid				1 : integer
+		index			2 : integer			# 商品索引
+		price 			3 : integer 		# 商品金额
+	}
+}
+
+# 后台强行关闭活动
+sc_rechargew_shitclose 6404 {
+	request {
+		payType			0 : integer
+		gid				1 : integer
+	}
+}
+
+# 登录初始化
+sc_rechargew_shitinit 6405 {
+	request {
+		initinfo 		0 : *rechargew_initinfo
+	}
+}

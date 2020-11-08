@@ -1,0 +1,7 @@
+# 丹药使用
+cs_panacea_use 16001 {
+	request {
+		posid			0 : integer			#请求id
+	}
+}
+

@@ -1,0 +1,74 @@
+local oo = require "class"
+
+local handlers = 
+{
+	"sproto.gamec2s",             -- 0
+	"sproto.default_c2s",         -- 1
+	"sproto.raid_c2s",            -- 2
+	"sproto.skill_c2s",           -- 3
+	"sproto.bag_c2s",             -- 4
+	"sproto.equip_c2s",           -- 5
+	"sproto.pet_c2s",             -- 6
+	"sproto.xianlv_c2s",          -- 7
+	"sproto.xianjun_c2s",          -- 8
+	"sproto.mail_c2s",            -- 9
+	"sproto.shop_c2s",            -- 17
+	"sproto.recharge_c2s",        -- 18
+	"sproto.rank_c2s",            -- 19
+	"sproto.kfboss_c2s",          -- 21
+	"sproto.cashCow_c2s",         -- 22
+	"sproto.wactivity_c2s",       -- 26
+	"sproto.luck_c2s",            -- 27
+	"sproto.auction_c2s",         -- 28
+	"sproto.rolefly_c2s",         -- 30
+	"sproto.chat_c2s",            -- 31
+	"sproto.ladder_c2s",          -- 35
+	"sproto.money_tree_c2s",      -- 37
+	"sproto.guild_c2s",           -- 38
+	"sproto.template_c2s",        -- 50
+	"sproto.wing_c2s",            -- 51
+	"sproto.fuben_c2s",           -- 52
+	"sproto.tiannv_c2s",          -- 53
+	"sproto.spellsRes_c2s",       -- 54
+	"sproto.tianshen_c2s",        -- 55
+	"sproto.formation_c2s",       -- 56
+	"sproto.dailyTask_c2s",       -- 57
+	"sproto.answer_c2s",          -- 58
+	"sproto.advanced_c2s",        -- 59
+	"sproto.vipboss_c2s",         -- 60
+	"sproto.holyPet_c2s",         -- 61
+	"sproto.totems_c2s",          -- 62
+	"sproto.enhance_c2s",         -- 63
+	"sproto.rechargew_c2s",       -- 64
+	"sproto.position_c2s",        -- 65
+	"sproto.holyXinJun_c2s",      -- 66
+	"sproto.battle_c2s",          -- 70
+	"sproto.brother_c2s",         -- 80
+	"sproto.marry_c2s",           -- 81
+	"sproto.baby_c2s",            -- 82
+	"sproto.field_c2s",           -- 110
+	"sproto.boss_c2s",            -- 120
+	"sproto.arena_c2s",           -- 130
+	"sproto.effectbase_c2s",      -- 140
+	"sproto.vein_c2s",            -- 150
+	"sproto.panacea_c2s",         -- 160
+	"sproto.team_c2s",            -- 170
+	"sproto.task_c2s",            -- 180
+	"sproto.exchange_c2s",        -- 190
+	"sproto.escort_c2s",          -- 200
+	"sproto.vip_c2s",             -- 210
+	"sproto.activity_c2s",        -- 220
+	"sproto.qualifyingMgr_c2s",   -- 221
+	"sproto.map_c2s",             -- 230
+	"sproto.king_c2s",            -- 240
+	"sproto.guildmine_c2s",       -- 250
+	"sproto.climb_c2s",           -- 260
+	"sproto.guildwar_c2s",        -- 270
+	"sproto.eightyOneHard_c2s",   -- 280
+	"sproto.teachers_c2s",        -- 290
+	"sproto.friend_c2s",          -- 300
+	"sproto.welfare_c2s",         -- 310
+	"sproto.guildboss_c2s",       -- 320
+}
+
+oo.require_handler(handlers)

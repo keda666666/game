@@ -1,0 +1,50 @@
+#添加关注
+cs_friend_add_follow 30001 {
+	request {
+		targetid 			0 : integer
+	}
+	response {
+		ret 			0 : boolean
+	}
+}
+
+#移除关注
+cs_friend_del_follow 30002 {
+	request {
+		targetid 			0 : integer
+	}
+}
+
+#添加黑名单
+cs_friend_add_blacklist 30005 {
+	request {
+		targetid 			0 : integer
+	}
+}
+
+#移除黑名单
+cs_friend_del_blacklist 30006 {
+	request {
+		targetid 			0 : integer
+	}
+}
+
+
+#赠送友情币
+cs_friend_gift_friendcoin 30011 {
+	request {
+		targetid 			0 : integer
+	}
+}
+
+#接收友情币
+cs_friend_receive_friendcoin 30012 {
+	request {
+		targetid 			0 : integer
+	}
+}
+
+#关注推荐
+cs_friend_follow_nominate 30016 {
+	request {}
+}

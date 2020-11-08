@@ -1,0 +1,5 @@
+#经脉升级
+cs_vein_Breakthrough 15001 {
+	request {}
+}
+

@@ -1,0 +1,10 @@
+# 请求boss列表数据
+cs_field_boss_boss_list 11001 {
+}
+
+# 请求挑战
+cs_field_boss_challenge 11004 {
+	request {
+		id 	0 : integer
+	}
+}

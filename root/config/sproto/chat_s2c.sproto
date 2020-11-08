@@ -1,0 +1,74 @@
+.chat_player_data {
+	name		0 : string
+	id			1 : integer
+	vip			2 : integer
+}
+
+.chat_role_data {
+	job			0 : integer
+	sex			1 : integer
+}
+
+.chat_need_infos {		# 是哪种就用哪个
+	player		0 : *chat_player_data
+	role		1 : *chat_role_data
+	equip 		2 : equip_data
+	pet 		3 : pet_info
+}
+
+.chat_data {
+	type 		0 : integer			# 1 世界聊天
+	id 			1 : integer
+	name 		2 : string
+	job 		4 : integer
+	sex 		5 : integer
+	vip 		6 : integer
+	str 		7 : string
+	serverid 	8 : integer
+	shareId 	9 : integer
+	share      	10 : share_date	#客户端参数，原样返回
+	time		11 : integer
+	headframe		12 : integer 	#头像框
+	# monthCard 	9 : integer
+	# monthcard_super 10: integer
+	# ladderLevel 11 : integer
+}
+
+sc_chat_new_msg 3101 {
+	request {
+		chatData 0 : chat_data
+	}
+}
+
+sc_chat_init_msg 3102 {
+	request {
+		chatDatas 0 : *chat_data
+	}
+}
+
+# 聊天信息发送成功
+sc_chat_is_send_success 3103 {
+	request {
+		success 	0 : boolean
+	}
+}
+
+sc_chat_private_new_msg 3131 {
+	request {
+		session 		0 : string 			#两个玩家的dbid从小到大组合，用:分隔
+		chatData 		1 : chat_data
+	}
+}
+
+sc_chat_private_init_msg 3132 {
+	request {
+		session 		0 : string
+		chatData 		1 : *chat_data
+	}
+}
+
+sc_chat_filte_list 3133 {
+	request {
+		filter 			0 : integer 	#过滤玩家
+	}
+}

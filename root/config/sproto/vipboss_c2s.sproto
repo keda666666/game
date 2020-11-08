@@ -1,0 +1,10 @@
+# 请求boss列表数据
+cs_vipboss_list 6001 {
+}
+
+# 请求挑战
+cs_vipboss_challenge 6004 {
+	request {
+		id 	0 : integer
+	}
+}

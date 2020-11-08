@@ -1,0 +1,122 @@
+.kfboss_boxinfo {
+	id 				0 : integer
+	x				1 : integer
+	y				2 : integer
+}
+
+.kfboss_rank {
+	name 			0 : string
+	serverid		1 : integer
+	damage			2 : integer
+	job				3 : integer
+	sex				4 : integer
+}
+
+.kfboss_firstinfo {
+	name 		0 : string
+	serverid	1 : integer
+	guildid		2 : integer
+	guildname	3 : string
+	damage		4 : integer
+}
+
+.kfboss_collect_info {
+	playerid		0 : integer
+	boxid			1 : integer
+	time			2 : integer	# 时间到了或者为空则没有采集，否则在采集
+}
+
+sc_kfboss_info 2101 {
+	request {
+		status			0 : integer	# 状态   0 关闭  1 等待boss  2 boss存在  3 boss被击杀
+		changetime		1 : integer # 到达这一状态的时间
+	}
+}
+
+sc_kfboss_update_info 2102 {
+	request {
+		shieldvalue		0 : integer
+		hp				1 : integer
+		hpperc			2 : integer	# 血量百分比
+	}
+}
+
+sc_kfboss_box_all 2103 {
+	request {
+		boxinfos		0 : *kfboss_boxinfo
+	}
+}
+
+sc_kfboss_box_one 2104 {
+	request {
+		boxinfo 		0 : kfboss_boxinfo
+	}
+}
+
+sc_kfboss_player_dead 2105 {
+	request {
+		# playerid		0 : integer
+		deadtime		1 : integer	# 0或空:正常  >0:死亡时间点
+	}
+}
+
+sc_kfboss_rank_now 2106 {
+	request {
+		playerranks			0 : *kfboss_rank
+		mydamage			1 : integer
+		myrank				2 : integer
+	}
+}
+
+sc_kfboss_rewards 2107 {
+	request {
+		result			0 : integer
+		rewards 		1 : *reward_data
+	}
+}
+
+sc_kfboss_rank_last 2108 {
+	request {
+		firstinfo			0 : kfboss_firstinfo
+		playerranks			1 : *kfboss_rank
+		mydamage			2 : integer
+		myrank				3 : integer
+		# guildranks			4 : *kfboss_rank
+		# myguilddamage		5 : integer
+		# myguildrank			6 : integer
+	}
+}
+
+sc_kfboss_collect_now 2109 {
+	request {
+		info 		0 : kfboss_collect_info
+	}
+}
+
+sc_kfboss_collect_all 2110 {
+	request {
+		infos 		0 : *kfboss_collect_info
+	}
+}
+
+
+.kfboss_report_sharedata {
+	victory 	0 : string 		#胜利帮会名称
+	first 		1 : string 		#伤害第一的玩家名字
+	serverid 	2 : integer
+	sex 		3 : integer
+	job 		4 : integer  	
+}
+
+.kfboss_report_persondetail {
+	rank 		0 : integer 	#我的伤害排名
+}
+
+sc_kfboss_report 2111 {
+	request {
+		persondetail 	0 : kfboss_report_persondetail
+		rewards 		1 : *reward_data
+		auctionrewards 	2 : *reward_data
+		sharedata 		3 : kfboss_report_sharedata 		
+	}
+}

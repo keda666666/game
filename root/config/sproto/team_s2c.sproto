@@ -1,0 +1,50 @@
+#队员数据
+.member_data {
+    dbid		0 : integer		#玩家id
+    power		1 : integer		#玩家战力
+    name		2 : string		#玩家名字
+    level		3 : integer		#等级
+    job			4 : integer		#职业
+    sex			5 : integer		#性别
+}
+
+#队伍数据
+.team_data {
+	leaderid	0 : integer		#队长id
+	count		1 : integer		#人数
+	members		2 : *member_data
+	needpower 	3 : integer
+}
+
+#我加入的队伍信息
+sc_team_info 17001 {
+	request {
+		members		0 : *member_data
+		leaderid	1 : integer	#队长id
+		raidtype	2 : integer
+		level		3 : integer
+		needpower 	4 : integer
+	}
+}
+
+#队伍列表
+sc_team_list 17002 {
+	request {
+		teamlist	0 : *team_data
+		raidtype	1 : integer
+		level		2 : integer
+	}
+}
+
+#更新其他的单个队伍
+sc_team_one 17003 {
+	request {
+		members		0 : *member_data
+		leaderid	1 : integer	#队长id
+		raidtype	2 : integer
+		level		3 : integer
+		needpower 	4 : integer
+	}
+}
+
+

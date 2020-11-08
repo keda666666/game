@@ -1,0 +1,99 @@
+# 获得结婚对象状态
+cs_marry_friends 8101 {}
+
+# 请求结婚
+cs_marry_propose 8102 {
+	request {
+		targetid		0 : integer
+		grade			1 : integer
+		spouse			2 : integer 	# 1夫君 2妻子
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 回应
+cs_marry_answer 8103 {
+	request {
+		agree		0 : integer		# 答应或拒绝 1 0
+		fromid		1 : integer		
+	}
+}
+
+# 贺礼
+cs_marry_greeting 8104 {
+	request {
+		dbid		0 : integer
+		quantity	1 : integer
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 升级
+cs_marry_levelup 8105 { }
+
+# 送花
+cs_marry_flower 8106 {
+	request {
+		quantity	0 : integer
+		count		1 : integer
+		autobuy		2 : integer		#0不自动购买道具 1使用绑元宝 2使用绑元宝和元宝
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 离婚
+cs_marry_divorce 8107 { }
+
+# 使用贺礼
+cs_use_gift 8108 {
+	request {
+		quantity	0 : integer
+		count 		1 : integer
+	}
+}
+
+# 获得恩爱信息
+cs_marry_love_info 8109 {}
+
+
+# 使用恩爱互动
+cs_marry_love_use 8110 {
+	request {
+		lovetype	0 : integer
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 恢复恩爱次数
+cs_marry_love_revert 8111 {
+	request {
+		lovetype	0 : integer
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 房屋升阶
+cs_marry_house_addexp 8112 {}
+
+# 房屋装修
+cs_marry_house_grade 8113 {
+	request {
+		grade			0 : integer
+	}
+	response {
+		ret 			0 : integer
+	}
+}
+
+# 使用伴侣的共享房屋升阶
+cs_marry_house_use_partner_up 8114 { }

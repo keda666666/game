@@ -1,0 +1,27 @@
+# 任务数据
+.task_data {
+    id    		0 : integer
+    status  	1 : integer
+    progress 	2 : task_progress_data
+}
+
+#任务进度数据
+.task_progress_data {
+	value 	0 : integer
+}
+
+#任务数据
+sc_task_info 18001 {
+	request {
+		type		0 : integer # 类型: 1主线
+		tasks		1 : *task_data
+	}
+}
+
+#更新任务
+sc_task_update 18002 {
+	request {
+		type		0 : integer # 类型: 1主线
+		data		1 : task_data
+	}
+}

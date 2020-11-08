@@ -1,0 +1,9 @@
+# 更新VIP数据
+sc_vip_update_data 21001 {
+	request {
+		lv				0 : integer
+		exp				1 : integer
+		state			2 : integer
+		otherreward		3 : integer
+	}
+}

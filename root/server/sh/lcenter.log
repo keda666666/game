@@ -1,0 +1,220 @@
+create process id,machind_id:1083060224,temp_handle:0,id:1083060224
+create process id,machind_id:1083060224,temp_handle:1,id:1083060225
+create process id,machind_id:1083060224,temp_handle:2,id:1083060226
+create process id,machind_id:1083060224,temp_handle:3,id:1083060227
+create process id,machind_id:1083060224,temp_handle:4,id:1083060228
+acceptor host:27.50.159.148,port:9999
+create process id,machind_id:1083060224,temp_handle:5,id:1083060229
+create process id,machind_id:1083060224,temp_handle:6,id:1083060230
+create process id,machind_id:1083060224,temp_handle:7,id:1083060231
+create process id,machind_id:1083060224,temp_handle:8,id:1083060232
+acceptor host:27.50.159.148,port:9998
+create process id,machind_id:1083060224,temp_handle:9,id:1083060233
+create process id,machind_id:1083060224,temp_handle:10,id:1083060234
+create process id,machind_id:1083060224,temp_handle:11,id:1083060235
+create process id,machind_id:1083060224,temp_handle:12,id:1083060236
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_connect_center)connect to center  27.50.159.148:9999
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777220 27.50.159.148
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_connect_socket)center connect 16777219:1083060236
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1057676
+create process id,machind_id:1083060224,temp_handle:13,id:1083060237
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_regist_router)connect to router 1057676 27.50.159.148:9998
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777222 27.50.159.148
+create process id,machind_id:1083060224,temp_handle:14,id:1083060238
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_connected_router) my router connect
+create process id,machind_id:1083060224,temp_handle:15,id:1083060239
+create process id,machind_id:1083060224,temp_handle:16,id:1083060240
+create process id,machind_id:1083060224,temp_handle:17,id:1083060241
+[m[2019-04-30 01:46:51] [.mysql:INFO-1083060239]mysql.lua-28: .mysql Start
+create process id,machind_id:1083060224,temp_handle:18,id:1083060242
+create process id,machind_id:1083060224,temp_handle:19,id:1083060243
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060240]mysql server connected
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060241]mysql server connected
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060242]mysql server connected
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060243]mysql server connected
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060242]mysql server auth sucess
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060243]mysql server auth sucess
+[m[2019-04-30 01:46:51] [SCRIPTS  ][center1:INFO-1083060238]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `version` (`server` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '服务名',`version` int(11) DEFAULT 0 COMMENT '版本号',`beforevs` int(11) DEFAULT 0 COMMENT '更新前的版本号',PRIMARY KEY (`server`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='版本号表';
+[m[2019-04-30 01:46:51] [center1:INFO-1083060238]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+[m[2019-04-30 01:46:51] [SCRIPTS  ][center1:INFO-1083060238]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `nodelist` (`name` varchar(16) COLLATE utf8mb4_bin DEFAULT '' COMMENT '服务名称',`area` int(11) DEFAULT 0 COMMENT '服务序号',`node` int(11) DEFAULT 0 COMMENT '跨服节点',PRIMARY KEY (`name`,`area`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='跨服节点列表';
+[m[2019-04-30 01:46:51] [SCRIPTS  ][center1:INFO-1083060238]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `dispatchlist` (`name` varchar(16) COLLATE utf8mb4_bin DEFAULT '' COMMENT '服务名称',`serverid` int(11) DEFAULT 0 COMMENT '服务器ID',`area` int(11) DEFAULT 0 COMMENT '所在分区',PRIMARY KEY (`name`,`serverid`),KEY `name` (`name`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='服务器分配表';
+create process id,machind_id:1083060224,temp_handle:20,id:1083060244
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060243]mysql server quit
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060242]mysql server quit
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060244]mysql server connected
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060244]mysql server auth sucess
+[m[2019-04-30 01:46:51] [center1:INFO-1083060238]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+Blob:InitDBID: serverdbid, platdbid	0	0
+[m[2019-04-30 01:46:51] [INFO  ][mysql-1083060244]mysql server quit
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_connect_socket)router 1057676 connect 16777221
+[m[2019-04-30 01:46:51] [center1:INFO-1083060238]DispatchCenter.lua-13: ------------- DispatchCenter:Init start -------------
+[m[2019-04-30 01:46:51] [center1:INFO-1083060238]DispatchCenter.lua-18: ============== DispatchCenter:Init end ==============
+[m[2019-04-30 01:46:51] [center1:INFO-1083060238]center.lua-24: center1 Start
+register name from center:center1:1083060238
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777229 27.50.159.148
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_regist_router)connect to router 1056686 27.50.159.148:8112
+register name from center:cross1_8110:1082046479
+send center name:center1:1083060238
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2019-04-30 01:46:51] [INFO  ][center-1083060227](on_connect_socket)router 1056686 connect 16777230
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_regist_router)connect to router 1056686 27.50.159.148:8112
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777232 27.50.159.148
+[m[2019-04-30 01:46:51] [INFO  ][router-1083060231](on_connect_socket)router 1056686 connect 16777231
+[m[2019-04-30 01:46:59] [center1:INFO-1083060238]NodeCenter.lua-91: NodeCenter::connect 27.50.159.148:8111 cross 8110 1082046479
+[m[2019-04-30 01:47:14] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777233 27.50.159.148
+[m[2019-04-30 01:47:14] [INFO  ][center-1083060227](on_regist_router)connect to router 1048577 27.50.159.148:10201
+send center name:center1:1083060238
+[m[2019-04-30 01:47:14] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2019-04-30 01:47:14] [INFO  ][center-1083060227](on_connect_socket)router 1048577 connect 16777234
+[m[2019-04-30 01:47:14] [INFO  ][router-1083060231](on_regist_router)connect to router 1048577 27.50.159.148:10201
+[m[2019-04-30 01:47:14] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777236 27.50.159.148
+[m[2019-04-30 01:47:14] [INFO  ][router-1083060231](on_connect_socket)router 1048577 connect 16777235
+[m[2019-04-30 01:47:20] [center1:INFO-1083060238]ServerCenter.lua-114: ServerRegist:: connect logic 1 1073742857
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]DispatchCenter.lua-66: ------------- ReInitSvrdtb start -------------
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-84: table: 0x108d94c0
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: httpp	table: 0x277ebc0
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: mainplat	table: 0x277ee40
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: httpr	table: 0x277eec0
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: mainrecord	table: 0x97b6a00
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: world	table: 0x238c580
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: war	table: 0x97b6a80
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-77: 	1	1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]lua_util.lua-88: all value number: 12
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]DispatchCenter.lua-79: ============== ReInitSvrdtb end ==============
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 world 1
+[m[2019-04-30 01:47:25] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 war 1
+register name from center:world1_1:1082046480
+register name from center:war1_1:1082046481
+[m[2019-04-30 01:47:31] [center1:INFO-1083060238]ServerCenter.lua-114: ServerRegist:: connect war 1 1082046481
+[m[2019-04-30 01:47:31] [center1:INFO-1083060238]ServerCenter.lua-114: ServerRegist:: connect world 1 1082046480
+[m[2019-04-30 01:47:41] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 541.54296875 335.8662109375
+[m[2019-04-30 02:01:20] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 465.8330078125 351.6552734375
+[m[2019-04-30 02:13:26] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 461.6513671875 350.0302734375
+[m[2019-04-30 02:25:27] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.9482421875 349.9208984375
+[m[2019-04-30 02:37:44] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 460.1044921875 350.2490234375
+[m[2019-04-30 02:51:41] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 475.3857421875 351.6708984375
+[m[2019-04-30 03:03:25] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.5732421875 349.5927734375
+[m[2019-04-30 03:17:38] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 476.7451171875 351.9990234375
+[m[2019-04-30 03:31:52] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 480.1123046875 351.7646484375
+[m[2019-04-30 03:42:49] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 450.1435546875 348.9365234375
+[m[2019-04-30 03:57:33] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 481.6201171875 352.5458984375
+[m[2019-04-30 04:12:19] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 483.7998046875 352.1083984375
+[m[2019-04-30 04:22:31] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.4248046875 348.6083984375
+[m[2019-04-30 04:37:25] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 481.4326171875 352.2021484375
+[m[2019-04-30 04:49:54] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 465.0654296875 350.3583984375
+[m[2019-04-30 05:03:37] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 473.4560546875 351.5615234375
+[m[2019-04-30 05:16:29] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 467.2294921875 350.4677734375
+[m[2019-04-30 05:29:44] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 469.3232421875 351.1240234375
+[m[2019-04-30 05:42:39] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 467.5888671875 350.7958984375
+[m[2019-04-30 05:49:55] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777237 80.82.70.187
+close socket in accepter
+[m[2019-04-30 05:50:35] [INFO  ][center-1083060227](on_close_socket)router 0 close 16777237 failed router = 0
+[m[2019-04-30 05:53:06] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.2373046875 348.6083984375
+[m[2019-04-30 06:03:36] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 444.7998046875 348.5927734375
+[m[2019-04-30 06:15:34] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.5576171875 349.9208984375
+[m[2019-04-30 06:29:02] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 471.2841796875 351.2333984375
+[m[2019-04-30 06:41:31] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 463.9248046875 350.3583984375
+[m[2019-04-30 06:52:13] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 447.0185546875 348.6083984375
+[m[2019-04-30 07:03:50] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 453.4716796875 349.4833984375
+[m[2019-04-30 07:15:04] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 452.2841796875 349.4677734375
+[m[2019-04-30 07:25:41] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 445.6435546875 348.6083984375
+[m[2019-04-30 07:38:37] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 465.7294921875 350.7958984375
+[m[2019-04-30 07:50:57] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 462.2216796875 350.0302734375
+[m[2019-04-30 08:05:21] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 477.9482421875 352.1083984375
+[m[2019-04-30 08:17:01] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.3544921875 349.5927734375
+[m[2019-04-30 08:28:00] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 449.5576171875 349.0458984375
+[m[2019-04-30 08:39:30] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 453.4404296875 349.4833984375
+[m[2019-04-30 08:53:11] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 472.0029296875 351.4521484375
+[m[2019-04-30 09:06:27] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 471.3623046875 350.9052734375
+[m[2019-04-30 09:16:53] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.1591796875 348.6083984375
+[m[2019-04-30 09:27:19] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 442.7607421875 348.4833984375
+[m[2019-04-30 09:39:48] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 461.3466796875 350.3583984375
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060241]mysql server disconected
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060241]mysql server connected
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060240]mysql server disconected
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060240]mysql server connected
+[m[2019-04-30 09:47:25] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2019-04-30 09:54:29] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 482.2451171875 352.2177734375
+[m[2019-04-30 10:05:51] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 454.4951171875 349.4833984375
+[m[2019-04-30 10:18:04] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 460.6591796875 350.2490234375
+[m[2019-04-30 10:32:31] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 479.4091796875 351.8896484375
+[m[2019-04-30 10:44:05] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.9716796875 349.6865234375
+[m[2019-04-30 10:56:11] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.5888671875 349.9208984375
+[m[2019-04-30 11:08:08] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.5576171875 349.9208984375
+[m[2019-04-30 11:18:25] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 443.9091796875 348.2802734375
+[m[2019-04-30 11:33:23] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 482.3701171875 352.5458984375
+[m[2019-04-30 11:43:35] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 445.4013671875 348.5927734375
+[m[2019-04-30 11:56:48] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 466.9169921875 350.7958984375
+[m[2019-04-30 12:07:12] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.0498046875 348.6083984375
+[m[2019-04-30 12:17:54] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.3701171875 348.7021484375
+[m[2019-04-30 12:28:05] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 441.4326171875 348.4990234375
+[m[2019-04-30 12:41:58] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 473.3076171875 351.3271484375
+[m[2019-04-30 12:55:08] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 469.6982421875 351.1240234375
+[m[2019-04-30 13:06:01] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 449.9326171875 348.8115234375
+[m[2019-04-30 13:16:31] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 444.5185546875 348.6083984375
+[m[2019-04-30 13:30:55] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 477.8779296875 351.9990234375
+[m[2019-04-30 13:42:26] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.2060546875 349.4833984375
+[m[2019-04-30 13:55:51] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 469.3857421875 351.2333984375
+[m[2019-04-30 14:07:36] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 458.1669921875 349.8115234375
+[m[2019-04-30 14:18:30] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 449.2763671875 348.8271484375
+[m[2019-04-30 14:28:34] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 440.9951171875 348.3896484375
+[m[2019-04-30 14:41:19] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 462.4873046875 350.3583984375
+[m[2019-04-30 14:53:42] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 462.7685546875 350.3427734375
+[m[2019-04-30 15:07:28] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 474.0107421875 351.3427734375
+[m[2019-04-30 15:18:29] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 451.6044921875 349.1552734375
+[m[2019-04-30 15:31:19] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 463.9404296875 350.5771484375
+[m[2019-04-30 15:45:30] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 478.3310546875 351.8896484375
+[m[2019-04-30 15:53:35] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777240 80.82.70.187
+close socket in accepter
+[m[2019-04-30 15:54:15] [INFO  ][center-1083060227](on_close_socket)router 0 close 16777240 failed router = 0
+[m[2019-04-30 15:59:00] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 473.2529296875 351.2333984375
+[m[2019-04-30 16:11:31] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 463.9248046875 350.3583984375
+[m[2019-04-30 16:22:04] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 446.7685546875 348.8271484375
+[m[2019-04-30 16:32:47] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 445.9560546875 348.6083984375
+[m[2019-04-30 16:44:45] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.7763671875 349.9208984375
+[m[2019-04-30 16:56:52] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 460.4091796875 350.0146484375
+[m[2019-04-30 17:09:42] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 464.6123046875 350.6865234375
+[m[2019-04-30 17:23:36] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 475.8232421875 351.6708984375
+[m[2019-04-30 17:36:01] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 463.6748046875 350.1240234375
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060240]mysql server disconected
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060240]mysql server connected
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060241]mysql server disconected
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060241]mysql server connected
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2019-04-30 17:47:25] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2019-04-30 17:48:48] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 465.0810546875 350.5771484375
+[m[2019-04-30 17:54:08] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777243 198.20.99.130
+close socket in accepter
+[m[2019-04-30 17:54:15] [INFO  ][center-1083060227](on_close_socket)router 0 close 16777243 failed router = 0
+[m[2019-04-30 18:02:53] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 477.5654296875 351.7802734375
+[m[2019-04-30 18:13:32] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 448.4873046875 348.9365234375
+[m[2019-04-30 18:26:44] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 467.2763671875 350.7958984375
+[m[2019-04-30 18:41:30] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 483.2607421875 352.3271484375
+[m[2019-04-30 18:52:20] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 450.1435546875 348.8271484375
+[m[2019-04-30 19:04:25] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 459.0341796875 350.0302734375
+[m[2019-04-30 19:17:22] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 466.4951171875 350.7958984375
+[m[2019-04-30 19:29:05] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.9248046875 349.7958984375
+[m[2019-04-30 19:41:39] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 462.9404296875 350.3583984375
+[m[2019-04-30 19:54:00] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 462.0810546875 350.1396484375
+[m[2019-04-30 20:07:13] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 468.6982421875 351.0146484375
+[m[2019-04-30 20:18:12] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 450.6982421875 349.0458984375
+[m[2019-04-30 20:32:19] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 475.4013671875 351.6708984375
+[m[2019-04-30 20:46:26] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 478.8466796875 351.7802734375
+[m[2019-04-30 20:57:30] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 452.3232421875 349.1552734375
+[m[2019-04-30 21:09:21] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.7451171875 349.8115234375
+[m[2019-04-30 21:20:51] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 454.0185546875 349.4833984375
+[m[2019-04-30 21:35:41] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 481.5341796875 352.4365234375
+[m[2019-04-30 21:48:33] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 469.0888671875 350.7958984375
+[m[2019-04-30 22:02:53] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 479.1904296875 351.7646484375
+[m[2019-04-30 22:16:54] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 477.3544921875 351.6708984375
+[m[2019-04-30 22:28:17] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 454.0263671875 349.3740234375
+[m[2019-04-30 22:40:07] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 456.8857421875 349.9052734375
+[m[2019-04-30 22:54:41] [center1:INFO-1083060238]ServerCenter.lua-29: collect memory: 480.2060546875 352.1083984375

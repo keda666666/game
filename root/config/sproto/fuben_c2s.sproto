@@ -1,0 +1,32 @@
+#客户端->服务端
+#进入副本
+cs_fuben_join 5201 {
+	request {
+		fubenType	0 : integer #1材料副本,2藏宝图,3大雁塔,4勇闯天庭
+		fubenNo		1 : integer #大雁塔不用发,勇闯天庭不用发
+	}
+}
+#扫荡
+cs_fuben_sweep 5202 {
+	request {
+		fubenType	0 : integer #1藏宝图,2勇闯天庭
+	}
+}
+#领取藏宝图星级奖励
+cs_fuben_star_reward 5203 {
+	request {
+		mapNo		0 : integer #哪页
+		reward		1 : integer #第几个奖励(1,2,3)
+	}
+}
+#大雁塔进入困难模式
+cs_fuben_wildgeeseFb_hard 5204 {
+	request {
+	}
+}
+#领取勇闯天庭关卡奖励
+cs_fuben_heaven_reward 5205 {
+	request {
+		fubenNo		0 : integer #哪个副本的
+	}
+}

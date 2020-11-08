@@ -1,0 +1,11 @@
+#服务端->客户端
+#活动数据
+sc_holy_pet_info 6101 {
+	request {
+		cash 			0 : integer #消费多少
+		reward 			1 : integer #已领取那些奖励位运算
+		sTime 			2 : integer #活动开始日期，对比服务器开服天数
+		eTime 			3 : integer #活动结束日期，当天还可以参加活动
+		day 			4 : integer #服务器当前日期
+	}
+}

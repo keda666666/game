@@ -1,0 +1,12 @@
+#竞技场pk结果
+sc_arena_pk_result 13001 {
+	request {
+		result			0 : integer
+		rewards			1 : *reward_data
+		iskill      	2 : boolean         #是否秒杀
+		maxrank			3 : integer 		#历史最高排名
+		lastmaxrank		4 : integer			#挑战前历史最高排名
+		rank			5 : integer			#当前排名
+		lastrank		6 : integer			#挑战前排名
+	}
+}

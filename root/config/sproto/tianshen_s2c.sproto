@@ -1,0 +1,33 @@
+#服务端->客户端
+.tianshen_data{
+	no				0 : integer #编号
+	lv				1 : integer #等级
+	upNum			2 : integer #升级经验次数
+	promotion		3 : integer #突破等级
+	flydata			4 : tianshen_fly_data
+}
+.tianshen_fly_data {
+	level 	0 : integer
+	exp 	1 : integer
+}
+
+#登录发送数据
+sc_tianshen_info 5501 {
+	request {
+		use 			0 : integer #出战id
+		infoList		1 : *tianshen_data #天神列表
+		drugNum			2 : integer #使用了多少个属性丹
+	}
+}
+
+.tianshen_spells {
+	upNum				0 : integer #经验次数
+	lv					1 : integer #等级
+}
+
+#宝器数据
+sc_tianshen_spells_info 5502 {
+	request {
+		data 			0 : *tianshen_spells #出战id
+	}
+}

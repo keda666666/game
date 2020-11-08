@@ -1,0 +1,62 @@
+#服务端->客户端
+
+.fuben_data {
+	fubenNo			0 : integer
+	clearanceNum	1 : integer	#每个副本的总通关次数
+	todayNum		2 : integer	#当天通关次数
+	buyNum			3 : integer	#当天购买次数
+}
+
+.treasuremapn_data {
+	fubenNo		0 : integer
+	todayNum	1 : integer	#当天通关次数
+	star		2 : integer	#星数
+}
+
+.star_reward_data {
+	no 			0 : integer #第几个图
+	reward 		1 : integer #奖励领取情况，位运算
+}
+
+#材料副本数据
+sc_fuben_material_info 5201 {
+	request {
+		fuben_data	0 : *fuben_data	#每个副本的总通关次数
+		
+	}
+}
+
+#藏宝图副本数据
+sc_fuben_treasuremap_info 5202 {
+	request {
+		data			0 : *treasuremapn_data	#副本数据
+		starReward		1 : *star_reward_data #藏宝图返回星级奖励信息
+	}
+}
+#领取星级奖励返回
+sc_fuben_treasuremap_star_reward 5203 {
+	request {
+		starReward		0 : *star_reward_data #藏宝图返回星级奖励信息
+	}
+}
+#大雁塔
+sc_fuben_wildgeeseFb_info 5204 {
+	request {
+		hard			0 : integer #1普通模式，2困难模式
+		layer			1 : integer #当前挑战到那一关
+	}
+}
+#勇闯天庭
+sc_fuben_heavenFb_info 5205 {
+	request {
+		layer			0 : integer #当前关卡
+		todayLayer		1 : integer #每日当前关卡
+		rewardNo		2 : *integer #勇闯天庭领取信息
+	}
+}
+#领取关卡奖励返回
+sc_fuben_heavenFb_reward 5206 {
+	request {
+		rewardNo		0 : *integer #勇闯天庭返回领取信息
+	}
+}

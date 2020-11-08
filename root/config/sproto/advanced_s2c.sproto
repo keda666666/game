@@ -1,0 +1,40 @@
+#当天玩家充值数据
+.advanced_shop {
+	id 			0 : integer #商品编号
+	num 		1 : integer #商品购买数量
+}
+
+.advanced_data {
+	typ 		0 : integer #进阶奖励类型
+	reward 		1 : *integer #奖励领取情况
+}
+
+#登录发送基本数据
+sc_advanced_info 5901 {
+	request {
+		dayCharger			0 : integer #当天充值数量
+		chargerReward 		1 : *integer #每日充值领取情况
+		shop 				2 : *advanced_shop #商店数据
+		advancedReward 		3 : *advanced_data #进阶奖励数据
+	}
+}
+
+#更新,只发送需要更新的数据
+sc_advanced_update 5902 {
+	request {
+		dayCharger			0 : integer #当天充值数量
+		chargerReward 		1 : *integer #每日充值领取情况
+		shop 				2 : *advanced_shop #商店数据
+		advancedReward 		3 : *advanced_data #进阶奖励数据
+	}
+}
+
+#活动排行榜数据
+sc_advanced_rank 5903 {
+	request {
+		typ 				0 : integer #排行榜类型
+		datas				1 : *rank_data_list #20位
+		selfRank			2 : integer
+		selfPower			3 : integer
+	}
+}

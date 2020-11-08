@@ -1,0 +1,64 @@
+#升阶
+cs_template_up_level 5001 {
+request {
+		templateType	0 : integer
+		autoBuy			1 : integer  #0不自动购买道具1使用绑元宝2使用绑元宝和元宝
+	}
+}
+
+#升级技能
+cs_template_up_skill 5002 {
+	request {
+		templateType	0 : integer
+		skillNo			1 : integer
+	}
+}
+
+#穿戴装备
+cs_template_equip 5003 {
+	request {
+		templateType	0 : integer
+		itemNo			1 : integer
+	}
+}
+
+#幻化
+cs_template_clothes 5004 {
+	request {
+		templateType	0 : integer
+		clothesNo 		1 : integer			#装扮编号
+	}
+}
+
+#购买服装
+cs_template_buy_clothes 5005 {
+	request {
+		templateType	0 : integer
+		clothesNo 		1 : integer			#装扮编号
+	}
+}
+
+#使用属性丹
+cs_template_drug 5006 {
+	request {
+		templateType	0 : integer
+		drugNum 		1 : integer			#属性丹数量
+	}
+}
+
+#领取进阶奖励
+cs_template_reward 5007 {
+	request {
+		templateType	0 : integer
+		no 				1 : integer			#哪阶的奖励
+	}
+}
+
+#直升丹升阶
+cs_template_up_stage 5008 {
+	request {
+		drugId 			0 : integer 	#丹药id
+	}
+}
+
+

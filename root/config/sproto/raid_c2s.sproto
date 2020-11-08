@@ -1,0 +1,114 @@
+# 清完一波请求
+cs_raid_wave_complete 201 {
+	request {
+		killCount 0 : integer
+	}
+}
+
+# 请求挑战boss
+cs_raid_pk_boss 202 {
+	request {}
+}
+
+# 请求领取boss奖励
+cs_raid_get_boss_reward 203 {
+	request {}
+}
+
+# 退出副本
+cs_raid_exit_raid 204 {
+	request {}
+}
+
+# 发送领取关卡奖励
+cs_raid_get_award 205 {
+	request {}
+}
+
+# 领取地区奖励
+cs_raid_get_world_award 206 {
+	request {
+		pass	0 : integer
+	}
+}
+
+# 请求关卡配置信息
+cs_raid_chapter_config 208 {
+	request {
+		fbid 		0 : integer
+	}
+	response {
+		fbid 			0 : integer
+		manuallymode 	1 : integer
+		jbutton 		2 : integer
+		type 			3 : integer
+		totalTime		4 : integer
+		closeTime		5 : integer
+		scenes			6 : *integer
+		name			7 : string
+		desc			8 : string
+	}
+}
+
+# 请求挑战副本
+cs_raid_challenget 210 {
+	request {
+		fbID 	0 : integer
+	}
+}
+
+# 发送添加副本挑战次数
+cs_raid_add_count 211 {
+	request {
+		fbID 	0 : integer
+	}
+}
+
+# 发送请求召唤boss
+cs_raid_call_boss_play 212 {
+	request {
+		id 		0 : integer
+	}
+}
+
+# 发送清除cd
+sc_raid_clear_cd 213 {
+	request {
+		index	0 : integer # 1转生 2全民 3精英 4跨服boss
+	}
+}
+
+# 发送直达第二关
+cs_raid_goto2 214 {}
+
+# 进入下一个地图
+cs_raid_next_map 215 {}
+
+# 领取章节奖励
+cs_raid_get_chapter_reward 216 {
+	request {
+		id 		0 : integer
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+# 开启自动挑战
+cs_raid_open_auto 217 {
+	request {
+		auto 	0 : boolean
+	}
+}
+
+# 协助挑战
+#返回说明 0=成功，1=助战自己，2=玩家通过此关，3=自己还没通关，4=助战次数已满, 5 = 正在战斗中不能协助, 6=玩家不在线
+cs_raid_assist_pkboss 218 {
+	request {
+		playerid 		0 : integer		#协助的id
+		chapterlevel 	1 : integer 	#章节等级
+	}
+	response {
+		ret 		0 : integer 
+	}
+}

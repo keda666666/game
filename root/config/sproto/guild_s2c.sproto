@@ -1,0 +1,347 @@
+.other_guild_info {
+	level			0 : integer
+	fund			1 : integer
+	notice			2 : string
+	autoJoin		3 : integer
+	needPower		4 : integer
+}
+
+# 发送公会信息
+sc_guild_info 3801 {
+	request {
+		id				0 : integer
+		name			1 : string
+		variable		2 : other_guild_info
+		summary 		3 : guild_summary
+	}
+}
+
+.member_info {
+	playerid		0 : integer
+	playername		1 : string
+	office			2 : integer
+	job				3 : integer
+	sex				4 : integer
+	vip				5 : integer
+	# monthcard		6 : integer
+	# monthcard_super	7 : integer
+	contribute		8 : integer
+	todayContri		9 : integer
+	curcontribute 	10 : integer
+	power 			11: integer
+	logouttime		12: integer
+}
+
+# 发送公会成员
+sc_guild_members 3802 {
+	request {
+		members 	0 : *member_info
+	}
+}
+
+.guild_summary {
+	id			0 : integer
+	level 		1 : integer
+	playercount 2 : integer
+	name		3 : string
+	leaderinfo	4 : member_info
+	needPower	5 : integer
+	totalpower	6 : integer
+}
+
+# 发送公会列表
+sc_guild_list 3803 {
+	request {
+		guilds 			0 : *guild_summary
+		receiveCount	1 : integer #领取奖励帮派数量
+	}
+}
+
+# 创建公会结果
+sc_guild_create_ret 3804 {
+	request {
+		result		0 : integer
+		id			1 : integer
+	}
+}
+
+# 通知有人申请加入公会
+sc_guild_join_info 3806 {}
+
+.guild_apply {
+	playerid		0 : integer
+	vip				1 : integer
+	job				2 : integer
+	sex				3 : integer
+	power 			4 : integer
+	playername		5 : string
+	level 			6 : integer
+	logouttime 		7 : integer
+	# monthcard		6 : integer
+	# monthcard_super	7 : integer
+}
+
+# 申请加入公会的玩家列表
+sc_guild_apply 3807 {
+	request {
+		applyinfo	0 : *guild_apply
+	}
+}
+
+# 通知申请玩家结果
+sc_guild_notice_apply 3808 {
+	request {
+		id			0 : integer
+		result		1 : integer		
+	}
+}
+
+# 通知玩家职位变化
+sc_guild_change_office_ret 3809 {
+	request {
+		playerid	0 : integer
+		office 		1 : integer
+	}
+}
+
+# 踢出公会结果
+sc_guild_kick_ret 3811 {
+	request {
+		playerid		0 : integer
+	}
+}
+
+# 资金变动
+sc_guild_fund 3813 {
+	request {
+		fund 		0 : integer
+	}
+}
+
+# 公告变更
+sc_guild_change_notice_ret 3814 {
+	request {
+		result		0 : integer
+		text		1 : string
+	}
+}
+
+.guild_history {
+	time	0 : integer
+	type 	1 : integer
+	param1	2 : integer
+	param2	3 : integer
+	param3	4 : integer
+	name1	5 : string
+	name2	6 : string
+}
+
+.guild_chat {
+	type 			0 : integer
+	content			1 : string
+	playerid		2 : integer
+	name 			3 : string
+	job				4 : integer
+	sex				5 : integer
+	vip				6 : integer
+	office 			7 : integer
+	time 			8 : integer
+	share 			9 : share_date 	#分享数据
+	headframe 		10 : integer
+}
+
+.guild_record {
+	type 				0 : integer
+	historyRecord 		1 : guild_history 		#帮会记录
+	chatRecord 			2 : guild_chat 			#聊天记录
+}
+
+sc_guild_record_add 3821 {
+	request {
+		record 		0 : guild_record
+	}
+}
+
+sc_guild_record_data 3822 {
+	request {
+		records 	0 : *guild_record
+	}
+}
+
+# 发送玩家公会数据
+sc_guild_playerinfo 3825 {
+	request {
+		contribute 		0 : integer
+		curcontribute	1 : integer
+		office 			2 : integer
+	}
+}
+
+
+
+# 设置自动加入公会结果
+sc_guild_autoadd_ret 3828 {
+	request {
+		autoJoin 	0 : integer
+		needPower 	1 : integer
+	}
+}
+
+sc_guild_rename 3829 {
+	request {
+		count 	0 : integer # 次数
+	}
+}
+
+sc_guild_rename_ret 3830 {
+	request {
+		newGuildName		0 : string # 新的帮会名
+		errorInfo			1 : string # 错误信息
+	}
+}
+
+# 发送申请列表
+sc_guild_apply_list 3831 {
+	request {
+		guilds 		0 : *guild_summary
+	}
+}
+
+#捐献结果
+sc_guild_donate_ret 3841 {
+	request {
+		result		0 : boolean			#true=成功
+		id			1 : integer			#索引Id
+		totalNum	2 : integer			#当天总次数
+	}
+}
+
+#捐献次数
+sc_guild_donate_info 3842 {
+	request {
+		totalNum	0 : integer			#当天总次数
+	}
+}
+
+#蟠桃会
+.peach_record {
+	time			0 : integer			#食用时间
+	peachId			1 : integer			#索引
+	playerName 		2 : string			#玩家名字
+}
+
+#蟠桃会信息
+sc_guild_peach_info 3846 {
+	request {
+		rewardMark		0 : integer		#奖励标记		默认值为0xffff 按奖励索引查看对应位，0领取过，1未领取
+		eatStatus		2 : boolean		#true=食用过
+	}
+}
+
+#蟠桃会总记录和经验
+sc_guild_peach_record 3847 {
+	request {
+		peachExp 			0 : integer		#蟠桃经验
+		eatRecord			1 : *peach_record	
+	}
+}
+
+#蟠桃会添加一条记录
+sc_guild_peach_record_add 3848 {
+	request {
+		peachExp 			0 : integer		#蟠桃经验
+		eatRecord			1 : peach_record	
+	}
+}
+
+#帮派守护信息
+sc_guild_protector_info 3851 {
+	request {
+		todayActive 		0 : integer		#当天活跃度
+		totalActive			1 : integer		#总活跃度
+		protectorLv 		2 : integer		#守护兽等级
+		rewardMark 			3 : integer		#每日奖励领取标记  默认值为0xffffffff 按奖励索引查看对应位，0领取过，1未领取
+	}
+}
+
+#守护任务完成次数
+.protector_task_info {
+	taskId 			0 : integer
+	count 			1 : integer
+}
+
+sc_guild_protector_task_info 3852 {
+	request {
+		taskinfos 		0 : *protector_task_info
+	}
+}
+
+#帮派技能
+.skill_info {
+	posId 		0 : integer
+	level 		1 : integer
+}
+
+#帮派技能信息
+sc_guild_skill_info 3856 {
+	request {
+		skillInfos 		0 : *skill_info
+	}
+}
+
+#帮派技能学习返回
+sc_guild_skill_learn_ret 3857 {
+	request {
+		skillInfo 		0 : skill_info 			#学习的技能更新
+		learnPos 		1 : integer 			#下次学习的技能
+	}
+}
+
+#帮会任务奖励
+sc_guild_map_reward 3861 {
+	request {
+		reward 			0 : *reward_data
+	}
+}
+
+#帮会地图任务更新
+sc_guild_map_one_update 3862 {
+	request {
+		id 					0 : integer	#任务id
+		count 				1 : integer	#完成次数
+		recount 			2 : integer	#重置次数
+		rewardStatus		3 : boolean	#奖励领取状态 true=领取过
+	}
+}
+
+
+#帮会boss数据
+sc_guild_boss_info 3863 {
+	request {
+		event			0 : integer #事件 0无 1开始 2结束 3击杀
+		status 			1 : integer #状态 1正在入侵 2成功击杀 3入侵成功
+		countdown		2 : integer #入侵倒计时
+		maxhp			3 : integer #总血量
+		hp				4 : integer #当前血量
+		canreward 		5 : boolean	#是否可以领奖
+	}
+}
+
+#帮会地图机器人数据
+.guild_map_shows {
+	shows		0 : *integer
+	job			1 : integer
+	sex			2 : integer
+	id 			3 : integer
+	name 		4 : string
+	serverid	5 : integer
+	guildid		6 : integer
+	guildname	7 : string
+	level 		8 : integer
+}
+
+sc_guild_robot_datas 3864 {
+	request {
+		robotlist 		0 : *guild_map_shows
+	}
+}

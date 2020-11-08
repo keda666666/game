@@ -1,0 +1,22 @@
+# 灵童
+sc_baby_init 8201 {
+	request {
+		name			0 : string
+		buffs			1 : *integer
+		giftexp			2 : integer
+		giftlv			3 : integer
+		xilian			4 : integer
+		xilianSkills 	5 : *integer
+		sex				6 : integer 	# 展示灵童id
+		open 			7 : integer #能否激活
+	}
+}
+
+# 灵童命格
+sc_baby_star_init 8202 {
+	request {
+		star 			0 : integer #当前命格等级
+		data 			1 : *integer #当前装备情况，0为未装备
+		msgData 		2 : *baby_star_msg #灵童命格公告
+	}
+}

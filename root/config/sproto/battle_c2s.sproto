@@ -1,0 +1,24 @@
+# 对目标使用技能
+.use_skill_data {
+    handler		0 : integer		#战场角色唯一id
+	skillid		1 : integer		#技能id
+	targets		2 : *integer	#释放对象
+}
+
+cs_battle_use_skill 7000 {
+	request {
+		use_skill_list		0 : *use_skill_data
+	}	
+}
+
+# 战斗动画播放结束
+cs_battle_play_finish 7001 {
+	request { }	
+}
+
+# 设置手动或自动
+cs_battle_set_auto 7002 {
+	request {
+		isauto		0 : integer		#是否自动
+	}	
+}

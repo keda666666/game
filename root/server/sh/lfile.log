@@ -1,0 +1,1387 @@
+create process id,machind_id:1073742848,temp_handle:0,id:1073742848
+create process id,machind_id:1073742848,temp_handle:1,id:1073742849
+create process id,machind_id:1073742848,temp_handle:2,id:1073742850
+create process id,machind_id:1073742848,temp_handle:3,id:1073742851
+create process id,machind_id:1073742848,temp_handle:4,id:1073742852
+acceptor host:27.50.159.148,port:10201
+create process id,machind_id:1073742848,temp_handle:5,id:1073742853
+create process id,machind_id:1073742848,temp_handle:6,id:1073742854
+create process id,machind_id:1073742848,temp_handle:7,id:1073742855
+create process id,machind_id:1073742848,temp_handle:8,id:1073742856
+create process id,machind_id:1073742848,temp_handle:9,id:1073742857
+create process id,machind_id:1073742848,temp_handle:10,id:1073742858
+create process id,machind_id:1073742848,temp_handle:11,id:1073742859
+create process id,machind_id:1073742848,temp_handle:12,id:1073742860
+create process id,machind_id:1073742848,temp_handle:13,id:1073742861
+create process id,machind_id:1073742848,temp_handle:14,id:1073742862
+create process id,machind_id:1073742848,temp_handle:15,id:1073742863
+create process id,machind_id:1073742848,temp_handle:16,id:1073742864
+[m[2019-04-30 01:47:14] [.mysql:INFO-1073742860]mysql.lua-28: .mysql Start
+create process id,machind_id:1073742848,temp_handle:17,id:1073742865
+create process id,machind_id:1073742848,temp_handle:18,id:1073742866
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742861]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742862]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742863]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742864]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742865]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742866]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742861]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742862]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742863]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742864]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742865]mysql server auth sucess
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `version` (`server` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '服务名',`version` int(11) DEFAULT 0 COMMENT '版本号',`beforevs` int(11) DEFAULT 0 COMMENT '更新前的版本号',PRIMARY KEY (`server`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='版本号表';
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742866]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 1
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `items` (`dbid` bigint(20) AUTO_INCREMENT,`playerid` bigint(20) DEFAULT 0 COMMENT '玩家账号ID',`bag_type` int(11) DEFAULT 0 COMMENT '背包类型',`id` bigint(20) DEFAULT 0 COMMENT '物品配置id',`count` bigint(20) DEFAULT 1 COMMENT '物品数量',`attrs` mediumblob COMMENT '物品属性',`invalidtime` int(11) DEFAULT 0 COMMENT '物品到期时间',PRIMARY KEY (`dbid`),KEY `playerid` (`playerid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='物品表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `players` (`dbid` bigint(20) DEFAULT 0 COMMENT '玩家账号ID',`account` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '玩家账号',`serverid` int(11) DEFAULT 0 COMMENT '创建服务器',`name` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '玩家名称',`sealed` int(11) DEFAULT 0 COMMENT '封号时间',`silent` int(11) DEFAULT 0 COMMENT '禁言时间',`createtime` int(11) DEFAULT 0 COMMENT '玩家创建时间',`lastonlinetime` int(11) DEFAULT 0 COMMENT '最后登录时间',`createip` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '创建账号的IP',`lastloginip` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '上次登录的IP',`job` tinyint(4) DEFAULT 0 COMMENT '职业',`sex` tinyint(4) DEFAULT 0 COMMENT '性别',`level` int(11) DEFAULT 1 COMMENT '玩家等级',`totalpower` bigint(20) DEFAULT 0 COMMENT '玩家战力',`exp` bigint(20) DEFAULT 0 COMMENT '经验值',`gold` bigint(20) DEFAULT 0 COMMENT '金钱',`yuanbao` bigint(20) DEFAULT 0 COMMENT '元宝',`byb` bigint(20) DEFAULT 0 COMMENT '绑定的元宝',`recharge` float DEFAULT 0 COMMENT '充值金额',`rechargenotice` mediumblob COMMENT '充值公告记录',`recharge_maxone` float DEFAULT 0 COMMENT '单笔最大充值金额',`recharge_lasttime` int(11) DEFAULT 0 COMMENT '最后充值时间',`vip` int(10) DEFAULT 0 COMMENT 'vip等级',`vipstate` int(10) DEFAULT 0 COMMENT 'vip领奖记录',`vipaddedreward` int(10) DEFAULT 0 COMMENT 'vip额外奖励',`bagnum` int(11) DEFAULT 0 COMMENT '背包的格子数量',`guildid` bigint(20) DEFAULT 0 COMMENT '公会ID',`contrib` bigint(20) DEFAULT 0 COMMENT '公会贡献',`clientvalue` int(11) DEFAULT 0 COMMENT '客户端保存的数据',`clientvaluelist` mediumblob COMMENT '客户端保存的数据列表',`global_mails` mediumblob COMMENT '已获取的全局邮件',`exchange_data` mediumblob COMMENT '玩家兑换数据',`escort_data` mediumblob COMMENT '玩家护送数据',`friend_data` mediumblob COMMENT '玩家好友数据',`welcome` int(11) DEFAULT 1 COMMENT '欢迎提示',`openfuncstate` int(11) DEFAULT 0 COMMENT '功能预告奖励状态',`rankworship` int(11) DEFAULT 0 COMMENT '排行榜膜拜',`renamecount` int(11) DEFAULT 0 COMMENT '改名次数',`head` mediumblob COMMENT '头像框',`marry` mediumblob COMMENT '结婚',`chapter` mediumblob COMMENT '章节关卡',`task` mediumblob COMMENT '任务数据',`catchpet` mediumblob COMMENT '宠物捕捉时间',`material` mediumblob COMMENT '材料副本数据',`treasuremap` mediumblob COMMENT '藏宝图副本数据',`wildgeeseFb` mediumblob COMMENT '大雁塔副本数据',`heavenFb` mediumblob COMMENT '勇闯天庭本数据',`publicboss` mediumblob COMMENT '全民Boss副本数据',`vipboss` mediumblob COMMENT '至尊Boss副本数据',`arena` mediumblob COMMENT '竞技场数据',`crossTeamFb` mediumblob COMMENT '跨服组队',`eightyOneHard` mediumblob COMMENT '八十一难',`totalloginday` int(11) DEFAULT 1 COMMENT '总登录天数',`lastloginday` int(11) DEFAULT 1 COMMENT '上次登录的天数',`xianlv` mediumblob COMMENT '仙侣',`xianjun` mediumblob COMMENT '仙君',`pet` mediumblob COMMENT '宠物',`tiannv` mediumblob COMMENT '天女',`tianshen` mediumblob COMMENT '神将',`formation` mediumblob COMMENT '阵型',`baby` mediumblob COMMENT '灵童',`daily_task` mediumblob COMMENT '日常任务',`welfare` mediumblob COMMENT '月卡周卡',`Advanced` mediumblob COMMENT '进阶奖励',`answer` mediumblob COMMENT '答题',`shop` mediumblob COMMENT '商店',`guild_data` mediumblob COMMENT '玩家帮派数据',`brother` mediumblob COMMENT '缘分配置',`welfare_data` mediumblob COMMENT '玩家福利数据',`recharger_data` mediumblob COMMENT '充值记录',`activity_record` mediumblob COMMENT '活动数据',`luck` mediumblob COMMENT '抽奖数据',`auction` mediumblob COMMENT '拍卖行',`totems` mediumblob COMMENT '图腾',`redeemcode` mediumblob COMMENT '激活码',`enhance` mediumblob COMMENT '我要变强',`cashCow` mediumblob COMMENT '摇钱树',`recharge_holyshit` mediumblob COMMENT '单人天降好礼',`recharge_godlike` mediumblob COMMENT '条件天降好礼',`position` mediumblob COMMENT '阵位系统',PRIMARY KEY (`dbid`),KEY `name` (`name`),KEY `account` (`account`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='玩家基础表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `records` (`dbid` bigint(20) AUTO_INCREMENT COMMENT '主键',`type` bigint(20) DEFAULT 0 COMMENT '记录类型',`id` bigint(20) DEFAULT 0 COMMENT '记录索引',`record` mediumblob COMMENT '记录内容',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='记录表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `global_mails` (`dbid` bigint(20) AUTO_INCREMENT COMMENT '全局邮件id',`sendtime` int(11) DEFAULT 0 COMMENT '邮件发送时间',`head` varchar(256) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件标题',`context` varchar(4096) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件内容',`award` mediumblob COMMENT '奖励的物品',`log_type` int(11) DEFAULT 0 COMMENT '邮件奖励记录类型',`log` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件奖励记录',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='全局邮件表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `guild` (`dbid` bigint(20) DEFAULT 0 COMMENT '公会id',`name` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '公会名称',`serverid` int(11) DEFAULT 0 COMMENT '公会创建所在服务器',`changename_count` int(11) DEFAULT 0 COMMENT '剩余改名次数',`players` mediumblob COMMENT '公会成员表',`variable` mediumblob COMMENT '公会其他数据',`records` mediumblob COMMENT '公会信息记录',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='公会表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `mails` (`dbid` bigint(20) AUTO_INCREMENT,`playerid` bigint(20) DEFAULT 0 COMMENT '玩家账号ID',`readstatus` int(11) DEFAULT 0 COMMENT '邮件读取状态',`sendtime` int(11) DEFAULT 0 COMMENT '邮件发送时间',`head` varchar(256) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件标题',`context` varchar(4096) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件内容',`award` mediumblob COMMENT '奖励的物品',`awardstatus` int(11) DEFAULT 0 COMMENT '奖励物品的领奖状态',`log_type` int(11) DEFAULT 0 COMMENT '邮件奖励记录类型',`log` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '邮件奖励记录',PRIMARY KEY (`dbid`),KEY `playerid` (`playerid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='邮件表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `roles` (`dbid` bigint(20) AUTO_INCREMENT,`playerid` bigint(20) DEFAULT 0 COMMENT '玩家账号ID',`totalpower` bigint(20) DEFAULT 0 COMMENT '战力',`skill` mediumblob COMMENT '技能数据',`ride_data` mediumblob COMMENT '坐骑数据',`wing_data` mediumblob COMMENT '翅膀数据',`fairy_data` mediumblob COMMENT '天仙数据',`weapon_data` mediumblob COMMENT '神兵数据',`equips_data` mediumblob COMMENT '装备数据',`title_data` mediumblob COMMENT '称号数据',`skin_data` mediumblob COMMENT '皮肤数据',`vein_data` mediumblob COMMENT '经脉数据',`panacea_data` mediumblob COMMENT '丹药数据',`spells_res` mediumblob COMMENT '法宝数据',`fly_data` mediumblob COMMENT '飞升数据',PRIMARY KEY (`dbid`),KEY `playerid` (`playerid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='角色基础表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `arena` (`rank` int(11) DEFAULT 0 COMMENT '排名',`playerid` bigint(20) DEFAULT 0 COMMENT '玩家id',`updatetime` int(11) DEFAULT 0 COMMENT '更新时间',PRIMARY KEY (`rank`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='竞技表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `pay` (`dbid` int(11) AUTO_INCREMENT COMMENT '索引',`playerid` bigint(20) DEFAULT 0 COMMENT '玩家id',`serverid` int(11) DEFAULT 0 COMMENT '服务器ID',`goodsid` int(11) DEFAULT 0 COMMENT '套餐ID',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='充值表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `gmcmd` (`dbid` int(11) AUTO_INCREMENT COMMENT '索引',`playerid` bigint(20) DEFAULT 0 COMMENT '玩家id',`serverid` int(11) DEFAULT 0 COMMENT '服务器ID',`cmd` varchar(255) DEFAULT 0 COMMENT '命令',`param1` varchar(255) DEFAULT 0 COMMENT '参数',`param2` varchar(255) DEFAULT 0 COMMENT '参数',`param3` varchar(255) DEFAULT 0 COMMENT '参数',`param4` varchar(255) DEFAULT 0 COMMENT '参数',`param5` varchar(255) DEFAULT 0 COMMENT '参数',`param6` varchar(255) DEFAULT 0 COMMENT '参数',`param7` varchar(255) DEFAULT 0 COMMENT '参数',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='GMCMD';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `log` (`id` int(11) AUTO_INCREMENT COMMENT '索引',`log_time` int(11) DEFAULT 0 COMMENT '记录时间',`value1` int(11) DEFAULT 0 COMMENT '值',`serverid` int(11) DEFAULT 0 COMMENT '服务器ID',`type` varchar(255) DEFAULT 0 COMMENT '类型',PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='登录日志';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.logic:INFO-1073742857]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `datalist` (`uniquevalue` int(11) DEFAULT 1 COMMENT '类型唯一',`timers` mediumblob COMMENT '时间值',`escort` mediumblob COMMENT '西游护送',`kfboss` mediumblob COMMENT '跨服Boss',`guildboss` mediumblob COMMENT '帮会Boss',`eightyonehard` mediumblob COMMENT '八十一难',`teachers` mediumblob COMMENT '师徒',`guildwar` mediumblob COMMENT '帮会战',`babystar` mediumblob COMMENT '灵童命格',`holyPetData` mediumblob COMMENT '神兽活动',`catchpet` mediumblob COMMENT '捉宠',`climb` mediumblob COMMENT '九重天',`kingarena` mediumblob COMMENT '王者争霸',`recharge_godlike` mediumblob COMMENT '天降好礼',PRIMARY KEY (`uniquevalue`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='其他数据表';
+create process id,machind_id:1073742848,temp_handle:19,id:1073742867
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742866]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742865]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742867]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742867]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 21
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742867]mysql server quit
+Blob:InitDBID:	items	0
+Blob:InitDBID:	records	0
+Blob:InitDBID:	global_mails	0
+Blob:InitDBID:	mails	0
+Blob:InitDBID:	roles	0
+Blob:InitDBID:	pay	0
+Blob:InitDBID:	gmcmd	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869184
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]CenterMgr.lua-12: CenterMgr:Init 27.50.159.148:9999
+create process id,machind_id:1073742848,temp_handle:20,id:1073742868
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_connect_center)connect to center  27.50.159.148:9999
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_connect_socket)center connect 16777225:1073742868
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048577
+Timer:SetServerTimer-------	1	1556560034
+Timer:SetServerTimer-------	1	1556560034
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777226 27.50.159.148
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_regist_router)connect to router 1057676 27.50.159.148:9998
+register name from center:center1:1083060238
+NoticeCenter:Notice------	53
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_connect_socket)router 1057676 connect 16777227
+[m[2019-04-30 01:47:14] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777228 27.50.159.148
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]logic.lua-31: .logic Start
+create process id,machind_id:1073742848,temp_handle:21,id:1073742869
+create process id,machind_id:1073742848,temp_handle:22,id:1073742870
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742869]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742870]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742869]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742870]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.world:INFO-1073742858]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.world:INFO-1073742858]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `ranks` (`type` int(11) DEFAULT 0 COMMENT '类型',`rank` int(11) DEFAULT 0 COMMENT '排名',`data` mediumblob COMMENT '数据',PRIMARY KEY (`type`,`rank`),KEY `type` (`type`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='排行榜表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.world:INFO-1073742858]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `worlddatas` (`uniquevalue` int(11) DEFAULT 1 COMMENT '类型唯一',`record_activity` mediumblob COMMENT '后台推送活动表',PRIMARY KEY (`uniquevalue`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='基础数据表';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.world:INFO-1073742858]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `auctions` (`dbid` int(11) AUTO_INCREMENT COMMENT '索引ID',`playerid` bigint(20) DEFAULT 0 COMMENT '玩家ID',`playername` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '玩家名字',`guildid` bigint(20) DEFAULT 0 COMMENT '公会ID',`itemid` int(11) DEFAULT 0 COMMENT '物品ID',`count` int(11) DEFAULT 0 COMMENT '物品数量',`createtime` int(11) DEFAULT 0 COMMENT '创建时间',`status` int(11) DEFAULT 0 COMMENT '阶段',`price` mediumblob COMMENT '当前价格',`offerid` bigint(20) DEFAULT 0 COMMENT '当前出价者',`offername` varchar(128) COLLATE utf8mb4_bin DEFAULT '' COMMENT '当前出价者',`offertime` int(11) DEFAULT 0 COMMENT '出价时间',`dealtime` int(11) DEFAULT 0 COMMENT '成交时间',`isbuy` int(11) DEFAULT 0 COMMENT '是否是一口价',`dealprice` int(11) DEFAULT 0 COMMENT '一口价',`addprice` int(11) DEFAULT 0 COMMENT '增加值',`numerictype` int(11) DEFAULT 0 COMMENT '货币类型',`record` mediumblob COMMENT '出价记录',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='拍卖行';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.world:INFO-1073742858]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `activitys` (`activity_id` int(11) DEFAULT 0 COMMENT '活动id',`activity_init_status` int(11) DEFAULT 0 COMMENT '开启标记',`activity_over_status` int(11) DEFAULT 0 COMMENT '结束标记',`activity_data` mediumblob COMMENT '活动数据',PRIMARY KEY (`activity_id`),KEY `type` (`activity_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='活动表';
+create process id,machind_id:1073742848,temp_handle:23,id:1073742871
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742870]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742869]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742871]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742871]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.world:INFO-1073742858]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742871]mysql server quit
+Blob:InitDBID:	auctions	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869184
+ActivityMgr:AddActivity---------------	21	1
+ActivityMgr:AddActivity---------------	22	2
+ActivityMgr:AddActivity---------------	1	3
+ActivityUpgrade Open --------------------------	3
+ActivityMgr:AddActivity---------------	20	4
+ActivityMgr:AddActivity---------------	26	5
+ActivityMgr:AddActivity---------------	3	6
+ActivityMgr:AddActivity---------------	16	7
+ActivityMgr:AddActivity---------------	18	8
+ActivityMgr:AddActivity---------------	19	9
+ActivityMgr:AddActivity---------------	23	10
+ActivityMgr:AddActivity---------------	24	11
+ActivityMgr:AddActivity---------------	8	12
+ActivityMgr:AddActivity---------------	25	13
+ActivityMgr:AddActivity---------------	17	15
+ActivityMgr:AddActivity---------------	2	16
+ActivityMgr:AddActivity---------------	2	17
+ActivityMgr:AddActivity---------------	2	18
+ActivityMgr:AddActivity---------------	2	19
+ActivityMgr:AddActivity---------------	2	20
+ActivityMgr:AddActivity---------------	2	21
+ActivityMgr:AddActivity---------------	2	22
+ActivityMgr:AddActivity---------------	6	23
+ActivityMgr:AddActivity---------------	6	24
+ActivityMgr:AddActivity---------------	26	25
+ActivityMgr:AddActivity---------------	27	26
+ActivityMgr:AddActivity---------------	22	27
+ActivityMgr:AddActivity---------------	28	28
+ActivityMgr:AddActivity---------------	7	29
+[m[2019-04-30 01:47:14] [.world:INFO-1073742858]world.lua-33: .world Start
+create process id,machind_id:1073742848,temp_handle:24,id:1073742872
+create process id,machind_id:1073742848,temp_handle:25,id:1073742873
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742872]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742873]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742872]mysql server auth sucess
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742873]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.war:INFO-1073742859]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.war:INFO-1073742859]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `qualifying_record` (`no` int(11) DEFAULT 0 COMMENT '录像编号',`data` mediumblob COMMENT '战斗录像',PRIMARY KEY (`no`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='仙道会战斗录像';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.war:INFO-1073742859]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `qualifying_player` (`dbid` bigint(20) DEFAULT 0 COMMENT '玩家id',`rank` int(2) DEFAULT 0 COMMENT '玩家赛场',`data` mediumblob COMMENT '玩家数据',PRIMARY KEY (`dbid`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='仙道会玩家数据';
+[m[2019-04-30 01:47:14] [SCRIPTS  ][.war:INFO-1073742859]MysqlBlob.lua-162: Blob:CheckTb:: CREATE TABLE IF NOT EXISTS `wardatas` (`uniquevalue` int(11) DEFAULT 1 COMMENT '类型唯一',`fieldboss` mediumblob COMMENT '野外boss',`publicboss` mediumblob COMMENT '全民boss',`guildboss` mediumblob COMMENT '帮会boss',`qualifying_audition` mediumblob COMMENT '仙道会_audition',`qualifying_auditionFight` mediumblob COMMENT '仙道会_auditionFight',`qualifying_rank` mediumblob COMMENT '仙道会_rank',`qualifying_key` mediumblob COMMENT '仙道会_key',`qualifying_last` mediumblob COMMENT '仙道会_last',`qualifying_the` mediumblob COMMENT '仙道会_the',`qualifying_bets` mediumblob COMMENT '仙道会bets',`climb` mediumblob COMMENT '九重天',`guildwar` mediumblob COMMENT '帮会战',`guildmine` mediumblob COMMENT '矿山争夺',`maincity` mediumblob COMMENT '主城地图',PRIMARY KEY (`uniquevalue`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin COMMENT='战斗数据表';
+create process id,machind_id:1073742848,temp_handle:26,id:1073742874
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742873]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742872]mysql server quit
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742874]mysql server connected
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742874]mysql server auth sucess
+[m[2019-04-30 01:47:14] [.war:INFO-1073742859]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-04-30 01:47:14] [INFO  ][mysql-1073742874]mysql server quit
+Blob:InitDBID:	qualifying_player	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869184
+shareid	--------------------------
+[m[2019-04-30 01:47:14] [.war:INFO-1073742859]war.lua-27: .war Start
+create process id,machind_id:1073742848,temp_handle:27,id:1073742875
+acceptor host:27.50.159.148,port:5201
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]Timer.lua-50: Timer:DayTimer 1 1
+Timer:SetServerTimer-------	1	1556560034
+Timer:SetServerTimer-------	1	1556560034
+create process id,machind_id:1073742848,temp_handle:28,id:1073742876
+create process id,machind_id:1073742848,temp_handle:29,id:1073742877
+create process id,machind_id:1073742848,temp_handle:30,id:1073742878
+create process id,machind_id:1073742848,temp_handle:31,id:1073742879
+create process id,machind_id:1073742848,temp_handle:32,id:1073742880
+create process id,machind_id:1073742848,temp_handle:49,id:1073742897
+create process id,machind_id:1073742848,temp_handle:50,id:1073742898
+create process id,machind_id:1073742848,temp_handle:51,id:1073742899
+create process id,machind_id:1073742848,temp_handle:53,id:1073742901
+create process id,machind_id:1073742848,temp_handle:54,id:1073742902
+[m[2019-04-30 01:47:14] [.logic:INFO-1073742857]logic.lua-38: .logic Open
+[m[2019-04-30 01:47:20] [.logic:INFO-1073742857]CenterMgr.lua-58: CenterMgr:UpdateList
+[m[2019-04-30 01:47:20] [.logic:INFO-1073742857]lua_util.lua-84: table: 0x1555dcc0
+[m[2019-04-30 01:47:20] [.logic:INFO-1073742857]lua_util.lua-77: cross	table: 0xada6600
+[m[2019-04-30 01:47:20] [.logic:INFO-1073742857]lua_util.lua-77: 	8110	27.50.159.148:8111
+[m[2019-04-30 01:47:20] [.logic:INFO-1073742857]lua_util.lua-88: all value number: 2
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_connect_center)connect to center  27.50.159.148:8111
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_connect_socket)center connect 16777237:1073742868
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048577
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777238 27.50.159.148
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_regist_router)connect to router 1056686 27.50.159.148:8112
+register name from center:cross1_8110:1082046479
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777239 27.50.159.148
+[m[2019-04-30 01:47:20] [INFO  ][router-1073742851](on_connect_socket)router 1056686 connect 16777240
+register name from center:world1_1:1082046480
+register name from center:world1_1:1082046480
+register name from center:war1_1:1082046481
+register name from center:war1_1:1082046481
+NoticeCenter:Notice------	58
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	53
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	53
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	55
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	55
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	57
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	58
+NoticeCenter:Notice------	55
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	56
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	54
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	56
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	55
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	58
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	53
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	58
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	57
+ContestBossBase:CheckOpen-------------
+NoticeCenter:Notice------	65
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 08:02:00] [.war:INFO-1073742859]ContestBossBase.lua-113: ================ ContestBossBase:Open
+NoticeCenter:Notice------	60
+[m[2019-04-30 08:04:00] [.war:INFO-1073742859]ContestBossBase.lua-128: ================ ContestBossBase:BossEnter
+NoticeCenter:Notice------	57
+[m[2019-04-30 08:12:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+[m[2019-04-30 08:26:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55
+[m[2019-04-30 08:41:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+[m[2019-04-30 08:55:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	54
+[m[2019-04-30 09:09:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+[m[2019-04-30 09:24:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	56
+[m[2019-04-30 09:38:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+[m[2019-04-30 09:52:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 10:07:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	54
+[m[2019-04-30 10:21:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 10:35:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	55
+[m[2019-04-30 10:50:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+shareid	--------------------------
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 11:04:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	58
+[m[2019-04-30 11:18:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 11:33:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+[m[2019-04-30 11:37:18] [.logic:INFO-1073742857]LoginCheck.lua-116: >>> new player regist 老九 老九 debug 118.79.182.40
+now player cache count	1
+[m[2019-04-30 11:37:53] [.logic:INFO-1073742857]Player.lua-47: Player:Create:: new player regist 17179869185 老九 老九 118.79.182.40
+[m[2019-04-30 11:37:53] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large CreateActor 10906.252929688
+cache player num:	1
+[m[2019-04-30 11:37:53] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 118.79.182.40
+[m[2019-04-30 11:37:55] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 20800
+[m[2019-04-30 11:37:56] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_arena_info 13218.104492188
+[m[2019-04-30 11:37:56] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_escort_enter 13231.758789062
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 11:37:57] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_welcome_confirm 5679.552734375
+[m[2019-04-30 11:37:58] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 34720
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 11:38:01] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 36300
+[m[2019-04-30 11:38:05] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_task_reward 5928.232421875
+ActivityUpgrade:UpdatePlayerLv----------------------	2
+[m[2019-04-30 11:38:06] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 37780
+[m[2019-04-30 11:38:08] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 37780
+ActivityUpgrade:UpdatePlayerLv----------------------	3
+[m[2019-04-30 11:38:09] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 39260
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	4
+[m[2019-04-30 11:38:15] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 40740
+ActivityUpgrade:UpdatePlayerLv----------------------	5
+[m[2019-04-30 11:38:18] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 42220
+[m[2019-04-30 11:38:20] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 42220
+ActivityUpgrade:UpdatePlayerLv----------------------	6
+[m[2019-04-30 11:38:22] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 43700
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	7
+[m[2019-04-30 11:38:29] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 45180
+ActivityUpgrade:UpdatePlayerLv----------------------	8
+[m[2019-04-30 11:38:32] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 46660
+[m[2019-04-30 11:38:34] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 48614
+[m[2019-04-30 11:38:38] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 50568
+ActivityUpgrade:UpdatePlayerLv----------------------	9
+[m[2019-04-30 11:38:40] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 52048
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 11:38:41] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 84896
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	10
+[m[2019-04-30 11:38:54] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 92776
+ActivityUpgrade:UpdatePlayerLv----------------------	11
+[m[2019-04-30 11:38:58] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 94256
+[m[2019-04-30 11:38:59] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_equip_forge 1116.98828125
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 11:39:00] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 95880
+ActivityUpgrade:UpdatePlayerLv----------------------	12
+ActivityUpgrade:UpdatePlayerLv----------------------	13
+[m[2019-04-30 11:39:02] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 98840
+ActivityArenaTarget:DoTarget-------------
+cache player num:	1
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 118.79.182.40
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 98840
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 1 23240
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+close socket in accepter
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 8 17828
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 26 38560
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 11:39:10] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+NoticeCenter:Notice------	53
+[m[2019-04-30 11:47:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	66
+[m[2019-04-30 12:01:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	22	虚位以待
+[m[2019-04-30 12:16:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+NoticeCenter:Notice------	55
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 12:30:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+[m[2019-04-30 12:44:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	57
+[m[2019-04-30 12:59:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	56
+[m[2019-04-30 13:13:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	57
+[m[2019-04-30 13:27:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	57
+[m[2019-04-30 13:42:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+[m[2019-04-30 13:56:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	54
+[m[2019-04-30 14:10:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+[m[2019-04-30 14:25:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	58
+[m[2019-04-30 14:39:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+[m[2019-04-30 14:53:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	58
+[m[2019-04-30 15:08:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+[m[2019-04-30 15:22:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 15:36:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+NoticeCenter:Notice------	54
+[m[2019-04-30 15:51:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------[m[2019-04-30 16:05:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+	66
+NoticeCenter:Notice------	54
+NoticeCenter:Notice------	54
+[m[2019-04-30 16:19:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 16:34:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	53
+[m[2019-04-30 16:48:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	66
+[m[2019-04-30 17:02:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	57
+[m[2019-04-30 17:17:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 17:31:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+[m[2019-04-30 17:45:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+[m[2019-04-30 17:47:12] [.logic:INFO-1073742857]LoginCheck.lua-116: >>> new player regist 请输入帐号 请输入帐号 debug 1.204.124.18
+NoticeCenter:Notice------	57
+now player cache count	2
+[m[2019-04-30 17:47:22] [.logic:INFO-1073742857]Player.lua-47: Player:Create:: new player regist 17179869186 请输入帐号 龙吟绍泽 1.204.124.18
+[m[2019-04-30 17:47:22] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large CreateActor 189.69140625
+cache player num:	2
+[m[2019-04-30 17:47:22] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 请输入帐号 17179869186 龙吟绍泽 1.204.124.18
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:47:23] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 20800
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:47:26] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 34720
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:47:40] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 36300
+ActivityUpgrade:UpdatePlayerLv----------------------	2
+[m[2019-04-30 17:47:50] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 37780
+[m[2019-04-30 17:47:51] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 37780
+ActivityUpgrade:UpdatePlayerLv----------------------	3
+[m[2019-04-30 17:48:03] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 39260
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	4
+[m[2019-04-30 17:48:11] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 40740
+[m[2019-04-30 17:48:16] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 42694
+ActivityUpgrade:UpdatePlayerLv----------------------	5
+[m[2019-04-30 17:48:27] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 44174
+[m[2019-04-30 17:48:29] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 44174
+ActivityUpgrade:UpdatePlayerLv----------------------	6
+[m[2019-04-30 17:48:31] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 45654
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	7
+[m[2019-04-30 17:48:37] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 47134
+ActivityUpgrade:UpdatePlayerLv----------------------	8
+[m[2019-04-30 17:48:40] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 48614
+[m[2019-04-30 17:48:42] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 52522
+[m[2019-04-30 17:48:43] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 56430
+ActivityUpgrade:UpdatePlayerLv----------------------	9
+[m[2019-04-30 17:48:46] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 57910
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:50:34] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 94632
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	10
+[m[2019-04-30 17:52:13] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 102512
+---------我去-------:5
+cache player num:	2
+[m[2019-04-30 17:54:59] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 183.203.148.220
+ActivityUpgrade:UpdatePlayerLv----------------------	15
+NoticeCenter:Notice------	87	老九
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:55:00] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 101800
+[m[2019-04-30 17:55:16] [.logic:INFO-1073742857]RecordMgr.lua-203: ------------- RecordMgr:Recharge: 17179869185 6
+Recharge:RechargeNormal--------	17179869185	6
+shareid	--------------------------
+>>BonusMgr:AddQueue..++++++++++++++	17179869185	0	0
+[m[2019-04-30 17:55:16] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 26
+[m[2019-04-30 17:55:16] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 27
+ActivityDayRecharge:AddRechargeCash---------	200
+[m[2019-04-30 17:55:17] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 132036
+Recharge:RechargeNormal--------	17179869185	11
+shareid	--------------------------
+[m[2019-04-30 17:55:33] [.logic:INFO-1073742857]RecordMgr.lua-203: ------------- RecordMgr:Recharge: 17179869185 11
+>>BonusMgr:AddQueue..++++++++++++++	17179869185	0	0
+[m[2019-04-30 17:55:33] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 26
+[m[2019-04-30 17:55:33] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 27
+ActivityDayRecharge:AddRechargeCash---------	1200
+ActivityUpgrade:UpdatePlayerLv----------------------	11
+[m[2019-04-30 17:55:54] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 103992
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:55:56] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 105616
+ActivityUpgrade:UpdatePlayerLv----------------------	12
+[m[2019-04-30 17:55:58] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 107096
+ActivityUpgrade:UpdatePlayerLv----------------------	13
+[m[2019-04-30 17:56:00] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 108576
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	14
+[m[2019-04-30 17:56:08] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 110056
+[m[2019-04-30 17:56:10] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_bag_smelt 828.1240234375
+ActivityUpgrade:UpdatePlayerLv----------------------	15
+[m[2019-04-30 17:56:12] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 111536
+[m[2019-04-30 17:56:14] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 112400
+[m[2019-04-30 17:56:15] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_mail_get_reward 888.23828125
+ActivityUpgrade:UpdatePlayerLv----------------------	80
+[m[2019-04-30 17:56:16] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 327672
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	16
+[m[2019-04-30 17:56:25] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 113880
+ActivityUpgrade:UpdatePlayerLv----------------------	17
+[m[2019-04-30 17:56:28] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 115360
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	81
+[m[2019-04-30 17:56:36] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_change_role_level 104.0546875
+ActivityUpgrade:UpdatePlayerLv----------------------	82
+ActivityUpgrade:UpdatePlayerLv----------------------	83
+ActivityUpgrade:UpdatePlayerLv----------------------	84
+ActivityUpgrade:UpdatePlayerLv----------------------	85
+[m[2019-04-30 17:56:37] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_change_role_level 105.283203125
+ActivityUpgrade:UpdatePlayerLv----------------------	86
+ActivityUpgrade:UpdatePlayerLv----------------------	87
+[m[2019-04-30 17:56:37] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 350832
+ActivityUpgrade:UpdatePlayerLv----------------------	88
+ActivityUpgrade:UpdatePlayerLv----------------------	89
+ActivityUpgrade:UpdatePlayerLv----------------------	90
+ActivityUpgrade:UpdatePlayerLv----------------------	91
+ActivityUpgrade:UpdatePlayerLv----------------------	92
+ActivityUpgrade:UpdatePlayerLv----------------------	93
+ActivityUpgrade:UpdatePlayerLv----------------------	94
+[m[2019-04-30 17:56:38] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 361192
+ActivityUpgrade:UpdatePlayerLv----------------------	95
+ActivityUpgrade:UpdatePlayerLv----------------------	96
+ActivityUpgrade:UpdatePlayerLv----------------------	97
+ActivityUpgrade:UpdatePlayerLv----------------------	98
+ActivityUpgrade:UpdatePlayerLv----------------------	99
+[m[2019-04-30 17:56:39] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_change_role_level 503.8330078125
+ActivityUpgrade:UpdatePlayerLv----------------------	100
+[m[2019-04-30 17:56:39] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 370312
+ActivityUpgrade:UpdatePlayerLv----------------------	18
+[m[2019-04-30 17:56:42] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 116840
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:56:44] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 382438
+ActivityUpgrade:UpdatePlayerLv----------------------	19
+[m[2019-04-30 17:56:49] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 118320
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:56:51] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 138240
+NoticeCenter:Notice------	58
+ActivityUpgrade:UpdatePlayerLv----------------------	20
+[m[2019-04-30 17:57:21] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 139720
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:57:25] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 141120
+[m[2019-04-30 17:57:29] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 142200
+ActivityArenaTarget:DoTarget-------------
+Recharge:RechargeNormal--------	17179869186	18
+[m[2019-04-30 17:57:37] [.logic:INFO-1073742857]RecordMgr.lua-203: ------------- RecordMgr:Recharge: 17179869186 18
+shareid	--------------------------
+>>BonusMgr:AddQueue..++++++++++++++	17179869186	0	0
+[m[2019-04-30 17:57:37] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 26
+[m[2019-04-30 17:57:37] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 27
+ActivityDayRecharge:AddRechargeCash---------	3000
+[m[2019-04-30 17:57:38] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 172436
+ActivityUpgrade:UpdatePlayerLv----------------------	21
+[m[2019-04-30 17:57:42] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 173916
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:57:46] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 213212
+ActivityUpgrade:UpdatePlayerLv----------------------	22
+[m[2019-04-30 17:57:49] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 214692
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	80
+[m[2019-04-30 17:58:05] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 399968
+[m[2019-04-30 17:58:14] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 386346
+[m[2019-04-30 17:58:16] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 390254
+[m[2019-04-30 17:58:17] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 394162
+[m[2019-04-30 17:58:18] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 398392
+[m[2019-04-30 17:58:20] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 402944
+[m[2019-04-30 17:58:22] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 405220
+[m[2019-04-30 17:58:23] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 409772
+[m[2019-04-30 17:58:25] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 414324
+[m[2019-04-30 17:58:27] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 418876
+[m[2019-04-30 17:58:29] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 422240
+[m[2019-04-30 17:58:30] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 425604
+[m[2019-04-30 17:58:31] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 428968
+[m[2019-04-30 17:58:32] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 435696
+[m[2019-04-30 17:58:34] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 442424
+[m[2019-04-30 17:58:35] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 445788
+[m[2019-04-30 17:58:36] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 449152
+[m[2019-04-30 17:58:38] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 452516
+[m[2019-04-30 17:58:39] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 457290
+[m[2019-04-30 17:58:41] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 462064
+[m[2019-04-30 17:58:43] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 466838
+EffectBase:DoActivatePart----------	1000
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 17:59:52] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 410768
+NoticeCenter:Notice------	66
+[m[2019-04-30 18:00:00] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 18:01:37] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 412100
+[m[2019-04-30 18:01:42] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_xianlv_addexp 145.53515625
+[m[2019-04-30 18:01:43] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 413396
+[m[2019-04-30 18:01:45] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 485396
+ActivityUpgrade:UpdatePlayerLv----------------------	81
+ActivityUpgrade:UpdatePlayerLv----------------------	82
+ActivityUpgrade:UpdatePlayerLv----------------------	83
+ActivityUpgrade:UpdatePlayerLv----------------------	84
+ActivityUpgrade:UpdatePlayerLv----------------------	85
+[m[2019-04-30 18:01:57] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 499196
+ActivityUpgrade:UpdatePlayerLv----------------------	86
+ActivityUpgrade:UpdatePlayerLv----------------------	87
+ActivityUpgrade:UpdatePlayerLv----------------------	88
+ActivityUpgrade:UpdatePlayerLv----------------------	89
+ActivityUpgrade:UpdatePlayerLv----------------------	90
+[m[2019-04-30 18:01:58] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 512996
+close socket in accepter
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 183.203.148.220
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 466838
+cache player num:	2
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 1 35366
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 8 102228
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 26 167320
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 18:02:00] [.logic:INFO-1073742857]Player.lua-570: power-- 31 240
+ActivityUpgrade:UpdatePlayerLv----------------------	91
+ActivityUpgrade:UpdatePlayerLv----------------------	92
+ActivityUpgrade:UpdatePlayerLv----------------------	93
+ActivityUpgrade:UpdatePlayerLv----------------------	94
+ActivityUpgrade:UpdatePlayerLv----------------------	95
+ActivityUpgrade:UpdatePlayerLv----------------------	96
+[m[2019-04-30 18:02:05] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 521876
+ActivityUpgrade:UpdatePlayerLv----------------------	97
+ActivityUpgrade:UpdatePlayerLv----------------------	98
+ActivityUpgrade:UpdatePlayerLv----------------------	99
+ActivityUpgrade:UpdatePlayerLv----------------------	100
+ActivityUpgrade:UpdatePlayerLv----------------------	101
+ActivityUpgrade:UpdatePlayerLv----------------------	102
+ActivityUpgrade:UpdatePlayerLv----------------------	103
+[m[2019-04-30 18:02:06] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 532476
+ActivityUpgrade:UpdatePlayerLv----------------------	104
+ActivityUpgrade:UpdatePlayerLv----------------------	105
+ActivityUpgrade:UpdatePlayerLv----------------------	106
+ActivityUpgrade:UpdatePlayerLv----------------------	107
+ActivityUpgrade:UpdatePlayerLv----------------------	108
+ActivityUpgrade:UpdatePlayerLv----------------------	109
+ActivityUpgrade:UpdatePlayerLv----------------------	110
+[m[2019-04-30 18:02:08] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 542836
+ActivityUpgrade:UpdatePlayerLv----------------------	111
+ActivityUpgrade:UpdatePlayerLv----------------------	112
+ActivityUpgrade:UpdatePlayerLv----------------------	113
+ActivityUpgrade:UpdatePlayerLv----------------------	114
+[m[2019-04-30 18:02:08] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_change_role_level 128.349609375
+ActivityUpgrade:UpdatePlayerLv----------------------	115
+ActivityUpgrade:UpdatePlayerLv----------------------	116
+ActivityUpgrade:UpdatePlayerLv----------------------	117
+[m[2019-04-30 18:02:09] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 553196
+ActivityUpgrade:UpdatePlayerLv----------------------	118
+ActivityUpgrade:UpdatePlayerLv----------------------	119
+ActivityUpgrade:UpdatePlayerLv----------------------	120
+ActivityUpgrade:UpdatePlayerLv----------------------	121
+ActivityUpgrade:UpdatePlayerLv----------------------	122
+ActivityUpgrade:UpdatePlayerLv----------------------	123
+ActivityUpgrade:UpdatePlayerLv----------------------	124
+[m[2019-04-30 18:02:10] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 563556
+ActivityUpgrade:UpdatePlayerLv----------------------	125
+ActivityUpgrade:UpdatePlayerLv----------------------	126
+ActivityUpgrade:UpdatePlayerLv----------------------	127
+ActivityUpgrade:UpdatePlayerLv----------------------	128
+ActivityUpgrade:UpdatePlayerLv----------------------	129
+ActivityUpgrade:UpdatePlayerLv----------------------	130
+[m[2019-04-30 18:02:11] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 572436
+ActivityUpgrade:UpdatePlayerLv----------------------	131
+ActivityUpgrade:UpdatePlayerLv----------------------	132
+ActivityUpgrade:UpdatePlayerLv----------------------	133
+ActivityUpgrade:UpdatePlayerLv----------------------	134
+ActivityUpgrade:UpdatePlayerLv----------------------	135
+ActivityUpgrade:UpdatePlayerLv----------------------	136
+[m[2019-04-30 18:02:12] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 581316
+ActivityUpgrade:UpdatePlayerLv----------------------	137
+ActivityUpgrade:UpdatePlayerLv----------------------	138
+ActivityUpgrade:UpdatePlayerLv----------------------	139
+ActivityUpgrade:UpdatePlayerLv----------------------	140
+ActivityUpgrade:UpdatePlayerLv----------------------	141
+ActivityUpgrade:UpdatePlayerLv----------------------	142
+[m[2019-04-30 18:02:13] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 590196
+ActivityUpgrade:UpdatePlayerLv----------------------	143
+ActivityUpgrade:UpdatePlayerLv----------------------	144
+ActivityUpgrade:UpdatePlayerLv----------------------	145
+ActivityUpgrade:UpdatePlayerLv----------------------	146
+ActivityUpgrade:UpdatePlayerLv----------------------	147
+ActivityUpgrade:UpdatePlayerLv----------------------	148
+[m[2019-04-30 18:02:14] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 599076
+ActivityUpgrade:UpdatePlayerLv----------------------	149
+ActivityUpgrade:UpdatePlayerLv----------------------	150
+ActivityUpgrade:UpdatePlayerLv----------------------	151
+ActivityUpgrade:UpdatePlayerLv----------------------	152
+ActivityUpgrade:UpdatePlayerLv----------------------	153
+ActivityUpgrade:UpdatePlayerLv----------------------	154
+[m[2019-04-30 18:02:15] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 608196
+ActivityUpgrade:UpdatePlayerLv----------------------	155
+ActivityUpgrade:UpdatePlayerLv----------------------	156
+ActivityUpgrade:UpdatePlayerLv----------------------	157
+ActivityUpgrade:UpdatePlayerLv----------------------	158
+ActivityUpgrade:UpdatePlayerLv----------------------	159
+[m[2019-04-30 18:02:16] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_change_role_level 104.6669921875
+ActivityUpgrade:UpdatePlayerLv----------------------	160
+[m[2019-04-30 18:02:16] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 623476
+ActivityUpgrade:UpdatePlayerLv----------------------	161
+ActivityUpgrade:UpdatePlayerLv----------------------	162
+ActivityUpgrade:UpdatePlayerLv----------------------	163
+ActivityUpgrade:UpdatePlayerLv----------------------	164
+[m[2019-04-30 18:02:17] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 629396
+---------我去-------:5
+cache player num:	2
+[m[2019-04-30 18:03:20] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 183.203.148.220
+NoticeCenter:Notice------	87	老九
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 18:03:27] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_tianshen_activation 100.6689453125
+[m[2019-04-30 18:03:28] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 3586838
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 18:04:57] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_tianshen_up_level 144.892578125
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 18:05:18] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_tianshen_fly_addexp 188.4775390625
+[m[2019-04-30 18:05:24] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_fuben_join 11833.840820312
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 18:05:49] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 5146838
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+close socket in accepter
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+close socket in accepter
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 183.203.148.220
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 5146838
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 1 35366
+cache player num:	2
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 33 1560000
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 8 102228
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 26 167320
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 30 3120000
+[m[2019-04-30 18:06:58] [.logic:INFO-1073742857]Player.lua-570: power-- 31 240
+NoticeCenter:Notice------	54
+[m[2019-04-30 18:14:20] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+NoticeCenter:Notice------	56
+[m[2019-04-30 18:28:40] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	56
+[m[2019-04-30 18:43:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+NoticeCenter:Notice------	56
+[m[2019-04-30 18:57:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:07:07] [.logic:INFO-1073742857]Chapter.lua-141: Chapter:NewChapterWave: 注意注意，这不是一个错误，只不过是时间出问题了! self.playerid, nowTime, self.currentWaveTime 17179869186 1556622427 1556618752.0
+ActivityArenaTarget:DoTarget-------------
+NoticeCenter:Notice------	57
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+shareid	--------------------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:09:46] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 633304
+[m[2019-04-30 19:09:47] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 637212
+[m[2019-04-30 19:10:04] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:04] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:04] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:04] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:05] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:05] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:06] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:06] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:07] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:07] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:07] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:07] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:07] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:07] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:07] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:07] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+[m[2019-04-30 19:10:07] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 11
+[m[2019-04-30 19:10:07] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 24
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:10:56] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 638412
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:11:15] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_dailyTask_otherActivity_complete 178.025390625
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:11:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:13:35] [.logic:INFO-1073742857]TeamMgr.lua-11: -------------------------999: Quick
+shareid	--------------------------
+[m[2019-04-30 19:13:36] [.logic:INFO-1073742857]TeamMgr.lua-11: -------------------------999: Fight
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 19:13:55] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 1207958
+EffectBase:DoActivatePart----------	1002
+[m[2019-04-30 19:13:59] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 2207958
+[m[2019-04-30 19:14:05] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 2303958
+[m[2019-04-30 19:14:09] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 2399958
+[m[2019-04-30 19:14:11] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 2432358
+[m[2019-04-30 19:14:20] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 2528358
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 请输入帐号 17179869186 龙吟绍泽 1.204.124.18
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869186
+cache player num:	2
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 龙吟绍泽 17179869186 2528358
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 1 399168
+close socket in accepter
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 3 4356
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 32 93216
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 7 216000
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 8 31506
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 15 10800
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 8344
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 230800
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 102400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 21 2400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 26 262040
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 19:16:35] [.logic:INFO-1073742857]Player.lua-570: power-- 31 480
+NoticeCenter:Notice------	53
+[m[2019-04-30 19:26:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55
+[m[2019-04-30 19:40:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+[m[2019-04-30 19:54:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+ClimbMgr:ServerInfo.............	0
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	54
+[m[2019-04-30 20:09:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+[m[2019-04-30 20:23:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 20:30:52] [.logic:INFO-1073742857]LoginCheck.lua-116: >>> new player regist 123321 123321 debug 111.10.135.75
+now player cache count	3
+[m[2019-04-30 20:30:56] [.logic:INFO-1073742857]Player.lua-47: Player:Create:: new player regist 17179869187 123321 范天风 111.10.135.75
+[m[2019-04-30 20:30:56] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large CreateActor 183.232421875
+cache player num:	3
+[m[2019-04-30 20:30:56] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 123321 17179869187 范天风 111.10.135.75
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 20:30:57] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869187 20800
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 20:31:01] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869187 34720
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 123321 17179869187 范天风 111.10.135.75
+cache player num:	3
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869187
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 范天风 17179869187 34720
+close socket in accepter
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 20:31:41] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+NoticeCenter:Notice------	58
+[m[2019-04-30 20:37:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+[m[2019-04-30 20:52:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	57
+ContestBossBase:CheckOpen-------------
+[m[2019-04-30 21:00:00] [.logic:INFO-1073742857]ArenaCenter.lua-190: ArenaCenter:RewardAllRank...
+[m[2019-04-30 21:00:00] [.war:INFO-1073742859]ContestBossBase.lua-113: ================ ContestBossBase:Open
+---------------------------跨服争霸
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 21:02:00] [.war:INFO-1073742859]ContestBossBase.lua-128: ================ ContestBossBase:BossEnter
+[m[2019-04-30 21:06:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+---------我去-------:5
+cache player num:	3
+[m[2019-04-30 21:07:17] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 183.203.148.220
+NoticeCenter:Notice------	87	老九
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+NoticeCenter:Notice------	53
+---------------------------跨服争霸
+[m[2019-04-30 21:20:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+[m[2019-04-30 21:22:00] [.war:INFO-1073742859]ContestBossBase.lua-172: ================ ContestBossBase:Close
+NoticeCenter:Notice------	53
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 21:30:22] [.logic:INFO-1073742857]Chapter.lua-141: Chapter:NewChapterWave: 注意注意，这不是一个错误，只不过是时间出问题了! self.playerid, nowTime, self.currentWaveTime 17179869185 1556631022 1556629862.0
+[m[2019-04-30 21:35:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	56
+NoticeCenter:Notice------	53
+[m[2019-04-30 21:49:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+[m[2019-04-30 21:54:17] [.logic:INFO-1073742857]Chapter.lua-141: Chapter:NewChapterWave: 注意注意，这不是一个错误，只不过是时间出问题了! self.playerid, nowTime, self.currentWaveTime 17179869185 1556632457 1556631022
+[m[2019-04-30 21:57:00] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_rank_worship 126.5068359375
+NoticeCenter:Notice------	57
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 21:58:40] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 5146838
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 22:03:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	54
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 183.203.148.220
+close socket in accepter
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 5146838
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 1 35366
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+cache player num:	3
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 33 1560000
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 8 102228
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 26 167320
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 30 3120000
+[m[2019-04-30 22:09:31] [.logic:INFO-1073742857]Player.lua-570: power-- 31 240
+cache player num:	3
+[m[2019-04-30 22:09:35] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 183.203.148.220
+NoticeCenter:Notice------	87	老九
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 22:11:48] [.logic:INFO-1073742857]LoginCheck.lua-116: >>> new player regist qq3366 qq3366 debug 113.247.144.194
+now player cache count	4
+[m[2019-04-30 22:11:53] [.logic:INFO-1073742857]Player.lua-47: Player:Create:: new player regist 17179869188 qq3366 袁于哲 113.247.144.194
+[m[2019-04-30 22:11:53] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large CreateActor 182.345703125
+cache player num:	4
+[m[2019-04-30 22:11:53] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 22:11:54] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869188 20800
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 22:11:57] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869188 34720
+cache player num:	4
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+close socket in accepter
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:13:30] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+cache player num:	4
+[m[2019-04-30 22:13:49] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+cache player num:	4
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+close socket in accepter
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:16:12] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+NoticeCenter:Notice------	57
+---------我去-------:1
+cache player num:	4
+[m[2019-04-30 22:17:23] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+cache player num:	4
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+close socket in accepter
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:17:47] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 22:18:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+---------我去-------:1
+cache player num:	4
+[m[2019-04-30 22:32:02] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+cache player num:	4
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+close socket in accepter
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:32:12] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 22:32:21] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+cache player num:	4
+[m[2019-04-30 22:32:59] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+cache player num:	4
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+close socket in accepter
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:33:06] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+---------我去-------:1
+cache player num:	4
+[m[2019-04-30 22:34:18] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+cache player num:	4
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+close socket in accepter
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:35:10] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+---------我去-------:1
+cache player num:	4
+[m[2019-04-30 22:37:01] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+NoticeCenter:Notice------	55
+cache player num:	4
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+close socket in accepter
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:37:18] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+cache player num:	4
+[m[2019-04-30 22:37:36] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Chapter.lua-141: Chapter:NewChapterWave: 注意注意，这不是一个错误，只不过是时间出问题了! self.playerid, nowTime, self.currentWaveTime 17179869185 1556635068 1556633405.0
+cache player num:	4
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq3366 17179869188 袁于哲 113.247.144.194
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869188
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 袁于哲 17179869188 34720
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+close socket in accepter
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-570: power-- 26 20800
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:37:48] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+cache player num:	4
+[m[2019-04-30 22:38:09] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq3366 17179869188 袁于哲 113.247.144.194
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+Recharge:RechargeNormal--------	17179869188	6
+[m[2019-04-30 22:41:44] [.logic:INFO-1073742857]RecordMgr.lua-203: ------------- RecordMgr:Recharge: 17179869188 6
+shareid	--------------------------
+>>BonusMgr:AddQueue..++++++++++++++	17179869188	0	0
+[m[2019-04-30 22:41:44] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 26
+[m[2019-04-30 22:41:44] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 27
+ActivityDayRecharge:AddRechargeCash---------	200
+[m[2019-04-30 22:41:45] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869188 64956
+close socket in accepter
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 183.203.148.220
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 5146838
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 1 35366
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 33 1560000
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 8 102228
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+cache player num:	4
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 26 167320
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 30 3120000
+[m[2019-04-30 22:44:55] [.logic:INFO-1073742857]Player.lua-570: power-- 31 240
+[m[2019-04-30 22:46:41] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66
+NoticeCenter:Notice------	53
+Recharge:RechargeNormal--------	17179869188	6
+>>BonusMgr:AddQueue..++++++++++++++	17179869188	0	0
+[m[2019-04-30 22:48:19] [.logic:INFO-1073742857]RecordMgr.lua-203: ------------- RecordMgr:Recharge: 17179869188 6
+[m[2019-04-30 22:48:19] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 26
+[m[2019-04-30 22:48:19] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 27
+ActivityDayRecharge:AddRechargeCash---------	400
+---------我去-------:10
+cache player num:	4
+[m[2019-04-30 22:55:55] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 老九 17179869185 老九 183.203.148.220
+NoticeCenter:Notice------	87	老九
+ActivityDayLogin:AddPlayer-----------	2
+ActivityArenaTarget:DoTarget-------------
+[m[2019-04-30 22:56:43] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 10
+[m[2019-04-30 22:56:43] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 23
+shareid	--------------------------
+NoticeCenter:Notice------	57
+close socket in accepter
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 老九 17179869185 老九 183.203.148.220
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+cache player num:	4
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 老九 17179869185 5146838
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 1 35366
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 33 1560000
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 8 102228
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 26 167320
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 30 3120000
+[m[2019-04-30 22:58:29] [.logic:INFO-1073742857]Player.lua-570: power-- 31 240
+shareid	--------------------------
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+[m[2019-04-30 23:01:01] [.war:INFO-1073742859]ContestBossBase.lua-359: ================ ContestBossBase:ShieldDec <= 0
+NoticeCenter:Notice------	66

@@ -1,0 +1,21 @@
+<root>
+	<logfile name="./../../log"/>
+	<logger name=".record" value="./../../log"/>
+	<lua_path value="./../lua/?.lua;./../liblua/?.lua;./../lua/common/?.lua;./../running/?.lua"/>
+	<lua_cpath value="./../libc++/?.so"/>
+	<boot value="LuaProxy boot"/>
+	<loader value="./../liblua/loader.lua"/>
+	<loaderc value="./../lublua/loader.luac"/>
+	<start value="game/main"/>
+	<proto addr="./../../config/sproto"/>
+	<randname addr="./../../config/randname"/>
+	<valueconfig addr="./../../config/data"/>
+	<environment value="debug"/>
+	<thread value="2"/>
+	<net value="1"/>
+	<node value="2"/>
+	<router value="127.0.0.1:10202"/>
+	<login addr="127.0.0.1:5202"/>
+	<cache ip="127.0.0.1" port="3306" user="root" pass="zxd520" num="2" dbname="xntg2"/>
+	<master platid="1" addr="127.0.0.1:9999"/>
+</root>

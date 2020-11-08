@@ -1,0 +1,68 @@
+#矿山争夺
+.guard_info {
+	name 			0 : string 	#玩家名字
+	level 			1 : integer #玩家等级
+	power 			2 : integer #玩家战力
+	hp 				3 : integer #玩家血条百分比
+	job 			4 : integer
+	sex 			5 : integer
+}
+
+.mine_info {
+	status 		 	0 : integer #1=怪物守护， 2=玩家守护者 ，3=怪物守护战斗中 ,4=玩家守护战斗中，5=玩家守护战斗过(不可加入)
+	guard 			1 : *guard_info #玩家守护信息
+	mineId 			2 : integer	#矿脉id
+	guildName 		3 : string 	#帮会名字
+}
+
+sc_guildmine_mine_info 25001 {
+	request {
+		mineinfos 		0 : *mine_info #全部
+	}
+}
+
+#单个信息
+sc_guildmine_mine_one_info 25002 {
+	request {
+		mineinfo 		0 : mine_info
+	}
+}
+
+#自己状态
+sc_guildmine_mine_mystatus 25003 {
+	request {
+		status 			0 : integer # 1=采矿中，2=空闲
+		mineId 			1 : integer #矿脉Id
+		gatherTime 		2 : integer #下次采集时间
+		chainrate 		3 : integer #连锁加成
+		attackTime 		4 : integer #下次进攻时间
+		guildRank 		5 : integer	#帮会排名
+		guildScore 		6 : integer	#帮会积分
+	}
+}
+
+#帮派积分排行榜
+.score_info {
+	guildId 		0 : integer #帮派Id
+	guildName 		1 : string 	#帮派名字
+	score 			2 : integer #积分
+	rank 			3 : integer #排名
+	serverId 		4 : integer #服务器id
+}
+
+sc_guildmine_score_rank_day 25016 {
+	request {
+		rankType 		0 : integer  #1=当天活动，2=月度排行
+		rankdatas		1 : *score_info
+	}
+}
+
+
+#矿脉被抢夺
+sc_guildmine_rob_info 25021 {
+	request {
+		name 			0 : string		#玩家名字
+		level 			1 : integer		#等级
+		serverId 		2 : integer		#服务器Id
+	}
+}

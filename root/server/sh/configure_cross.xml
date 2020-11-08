@@ -1,0 +1,18 @@
+<root>
+	<logfile name="./../../log"/>
+	<logger name=".cross" value="./../../log"/>
+	<lua_path value="./../lua/?.lua;./../liblua/?.lua;./../lua/common/?.lua;./../running/?.lua"/>
+	<lua_cpath value="./../libc++/?.so"/>
+	<boot value="LuaProxy boot"/>
+	<loader value="./../liblua/loader.lua"/>
+	<loaderc value="./../lublua/loader.luac"/>
+	<valueconfig addr="./../../config/data"/>
+	<start value="cross/main"/>
+	<thread value="2"/>
+	<net value="1"/>
+	<node value="8110"/>
+	<center value="127.0.0.1:8111"/>
+	<router value="127.0.0.1:8112"/>
+	<cache ip="127.0.0.1" port="3306" user="root" pass="471355795" num="2" dbname="cross"/>
+	<master platid="1" addr="127.0.0.1:9999"/>
+</root>

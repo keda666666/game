@@ -1,0 +1,332 @@
+.activity_base_type {
+	id				0 : integer
+	startTime		1 : integer
+	endTime			2 : integer
+	type			3 : integer
+	openState		4 : integer
+}
+
+# 开服活动-冲级奖励
+# 1 名额已满 2 名额未满未达成 3 已达成可领取未领取 4 已领取
+.activity_type01 {
+	baseData 		0 : activity_base_type
+	record			1 : *integer		# 领取状态
+}
+
+# 超值限购
+.activity_type02 {
+	baseData 		0 : activity_base_type
+	buyData			1 : *integer	# 购买数量
+}
+
+# 连续充值活动
+.activity_type03 {
+	baseData 		0 : activity_base_type
+	record			1 : *integer	# 领取状态
+	day				2 : integer		# 达标天数
+	rechargeCount	4 : integer 	# 充值总数
+}
+
+# 达标
+.activity_type04 {
+	baseData 		0 : activity_base_type
+}
+
+# 七天登录
+.activity_type05 {
+	baseData 		0 : activity_base_type
+	record			1 : integer		# 领取状态
+	logTime			2 : integer 	# 登录天数
+}
+
+# 幸运转盘
+.activity_type06 {
+	baseData 		0 : activity_base_type
+	reachindex 		1 : integer 	#达成的索引
+	value 			2 : integer
+	drawrecord 		3 : integer 	#抽奖记录
+	drawtime 		4 : integer 	#抽奖次数
+}
+
+# 开服累充
+.activity_type07 {
+	baseData 		0 : activity_base_type
+	record 			1 : *integer
+	recharge 		2 : integer 
+}
+
+# 投资
+.activity_type08 {
+	baseData 		0 : activity_base_type
+	status			1 : integer #0 没投资 1已投资了
+	day 			2 : integer # 已经返利的天数
+}
+
+.activity_type09 {
+	baseData 		0 : activity_base_type
+	buyData			1 : *integer	# 购买数量
+	day				2 : integer
+}
+
+
+# 羽翼暴击
+.activity_type10 {
+	baseData 		0 : activity_base_type
+}
+
+# 合服礼包
+.activity_type11 {
+	baseData 		0 : activity_base_type
+	reachBin		1 : integer   # 达成数据
+	drawBin			2 : integer   # 领取数据
+}
+
+# 合服累计充值
+.activity_type12 {
+	baseData 		0 : activity_base_type
+	recharge		1 : integer		# 活动期间元宝数
+	drawBin			2 : integer		# 领取数据
+}
+
+# 累计充值
+.activity_type13 {
+	baseData 		0 : activity_base_type
+	recharge		1 : integer		# 活动期间元宝数
+	drawBin			2 : integer		# 领取数据
+}
+
+# 充值重置
+.activity_type14 {
+	baseData 		0 : activity_base_type
+}
+
+.activity_type15_item {
+	times 		0 : integer # 可领次数
+	rewardTimes	1 : integer # 已领次数
+}
+
+# 单笔充值
+.activity_type15 {
+	baseData 		0 : activity_base_type
+	datas			1 : *activity_type15_item        # 每个档次数据
+}
+
+.activity_type16 {
+	baseData 		0 : activity_base_type
+	record			1 : integer		# 领取状态
+	logrecord		2 : integer 	# 登录天数状态
+
+}
+
+# 每日目标
+.activity_type17 {
+	baseData 		0 : activity_base_type
+	record			1 : *integer		# 领取状态
+	target			2 : *integer		# 目标状态
+}
+
+# 每日充值
+.activity_type18 {
+	baseData 		0 : activity_base_type
+	record			1 : *integer		# 领取状态
+	dayrecharge		2 : integer			# 今日充值
+}
+
+#人民币礼包
+.activity_type19 {
+	baseData 		0 : activity_base_type
+	runday 			1 : integer 	#活动开启天数
+	reachday 		2 : integer 	#达成天数
+	record 			3 : *integer
+}
+
+#战力目标
+.activity_type20 {
+	baseData 	0 : activity_base_type
+	record		1 : *integer
+}
+
+#首充团购
+.activity_type21 {
+	baseData 	0 : activity_base_type
+	record		1 : *integer
+	people    	2 : integer
+	rechargeNum 3 : integer
+}
+
+#橙宠目标
+.activity_type22 {
+	baseData 	0 : activity_base_type
+	gid			1 : integer
+	record		2 : *integer
+}
+
+#直升一阶
+.activity_type23 {
+	baseData 		0 : activity_base_type
+	record 			1 : integer
+	runday 			2 : integer #活动开启天数
+	rechargeNumber 	3 : integer #充值金额
+}
+
+.activity_type24 {
+	baseData 		0 : activity_base_type
+	status			1 : integer # 0没投资 1已投资了
+	reward 			2 : *integer # value 为已领取了的
+}
+
+.activity_type25 {
+	baseData 		0 : activity_base_type
+	RechargeNum		1 : integer # 这个是消费了多少元宝
+	reward 			2 : integer # 已领取了那些奖励，位运算
+}
+
+#折扣商店
+.activity_type26 {
+	baseData 	0 : activity_base_type
+	buynums		1 : *integer
+}
+
+#每日壕充
+.activity_type28 {
+	baseData 	0 : activity_base_type
+	runday 		1 : integer	#活动天数，活动开启日=1
+	record 		2 : *integer
+	recharge 	3 : integer #充值 
+}
+
+# 达标数据
+.activity_dabiao_data {
+	name 		0 : string
+	value		1 : integer			# 等级  1001 1转1级
+}
+
+#充值返利
+.activity_type27 {
+	baseData	0 : activity_base_type
+	data 		1 : *activity_rebate
+
+}
+#已获得的返利
+.activity_rebate {
+	no 			0 : integer #编号
+	num 		1 : integer #次数
+}
+
+.activity_base_config {
+	Id 				0 : integer
+	timeType		1 : integer
+	startTime		2 : string
+	endTime			3 : string
+	closetime		4 : integer
+	activityType	5 : integer
+	openLV			6 : integer
+	tabicon			7 : string
+	desc			8 : string
+	openType		9 : integer
+	source1			10 : string
+	source2			11 : string
+	notice			12 : string
+}
+
+.activity_data_collection {
+	type01	0 : activity_type01 	#冲级奖励
+	type02	1 : activity_type02
+	type03	2 : activity_type03 	#连续充值活动
+	type04	3 : activity_type04
+	type05	4 : activity_type05
+	type06	5 : activity_type06
+	type07	6 : activity_type07
+	type08	7 : activity_type08
+	type09	8 : activity_type09
+	type10	9 : activity_type10
+	type11	10 : activity_type11
+	type12	11 : activity_type12
+	type13	12 : activity_type13
+	type14	13 : activity_type14
+	type15	14 : activity_type15
+	type16  15 : activity_type16
+	type17  16 : activity_type17
+	type18  17 : activity_type18
+	type19 	19 : activity_type19 	#人民币礼包
+	type20 	20 : activity_type20 	#战力目标
+	type21 	21 : activity_type21 	#首充团购
+	type22 	22 : activity_type22	#橙宠目标
+	type23 	23 : activity_type23	#直升一阶
+	type24  24 : activity_type24
+	type25  25 : activity_type25
+	type26 	26 : activity_type26 	#折扣商店
+	type27 	27 : activity_type27 	#充值返利
+	basecfg 28 : activity_base_config # 活动总表
+	btncfg	29 : string				#按钮配置json
+	config	30 : string				#配置json
+	type28  31 : activity_type28 	#每日壕充
+}
+
+# 初始化信息
+sc_activity_init_info 2601 {
+	request {
+		datas	0 : *activity_data_collection
+	}
+}
+
+# 领取奖励结果
+sc_activity_reward_result 2602 {
+	request {
+		id 		0 : integer
+		data 	1 : activity_data_collection
+	}
+}
+
+sc_activity_dabiao_info 2603 {
+	request {
+		acId        1 : integer  #活动ID
+		index		2 : integer  #阶段数
+		draw		3 : integer	 #领取值位运算
+		value		4 : integer	 #具体值
+
+		rankInfo 		5 : *activity_dabiao_data
+	}
+}
+
+sc_activity_dabiao_reward 2604 {
+	request {
+		draw		0 : integer
+	}
+}
+
+sc_activity_update_info 2606 {
+	request {
+		index 		0 : integer
+		data 	1 : activity_data_collection
+	}
+}
+
+.race_history {
+	id 					0 : integer # 活动id
+	name 				1 : string  # 名称
+	value 				2 : integer # 达标数值
+	vip					3 : integer
+	monthCard 			4 : integer
+	monthcard_super		5 : integer
+	headId				6 : integer # 头像id
+}
+
+# 达标历史记录
+sc_activity_race_history 2607 {
+	request {
+		data 	0 : *race_history
+	}
+}
+
+
+# 关闭跨服活动
+sc_activity_close_cross 2608 {}
+
+#幸运转盘抽奖结果
+sc_activity_luckwheel_ret 2609 {
+	request {
+		activityid 		0 : integer
+		rewards 		1 : *reward_data
+	}
+}

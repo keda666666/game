@@ -1,0 +1,76 @@
+
+.friend_data {
+	friendInfo 		0 : player_whole_data
+	gift 			1 : boolean 	#赠送标记 true=赠送过
+}
+
+#关注列表
+sc_friend_follow_data 30001 {
+	request {
+		friendlist 			0 : *friend_data
+	}
+}
+
+#更新关注
+sc_friend_follow_update 30002 {
+	request {
+		friendinfo 			0 : friend_data
+	}
+}
+
+.funs_data {
+	funsInfo 		0 : player_whole_data
+	gift 			1 : boolean 	#赠送标记 
+	gifttime 		2 : integer 	#赠送时间
+	receive 		3 : boolean 	#接收标记 true=接收过
+	isfriend 		4 : boolean 	#是好友 true=添加过了
+}
+
+#粉丝列表
+sc_friend_funs_data 30006 {
+	request {
+		funslist 			0 : *funs_data
+	}
+}
+
+#更新粉丝
+sc_friend_funs_update 30007 {
+	request {
+		funsinfo 			0 : funs_data
+	}
+}
+
+#删除粉丝
+sc_friend_funs_remove 30008 {
+	request {
+		dbid 				0 : integer
+	}
+}
+
+#黑名单
+sc_friend_black_list 30011 {
+	request {
+		blacklist 			0 : *player_whole_data
+	}
+}
+
+sc_friend_blacklist_update 30012 {
+	request {
+		blackdata 			0 : player_whole_data
+	}
+}
+
+#赠送接收
+sc_friend_gift_receive_info 30016 {
+	request {
+		gifttime 		0 : integer 		#赠送次数
+		receivetime 	1 : integer 		#接收次数
+	}
+}
+
+
+sc_friend_follow_nominate_list 30021 {
+	request {
+		playerinfos 	0 : *player_whole_data
+	}
+}

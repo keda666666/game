@@ -1,0 +1,344 @@
+create process id,machind_id:1073743872,temp_handle:0,id:1073743872
+create process id,machind_id:1073743872,temp_handle:1,id:1073743873
+create process id,machind_id:1073743872,temp_handle:2,id:1073743874
+create process id,machind_id:1073743872,temp_handle:3,id:1073743875
+create process id,machind_id:1073743872,temp_handle:4,id:1073743876
+acceptor host:127.0.0.1,port:10202
+socket_api: bind failed:7
+[m[2019-05-05 13:45:42] [31m[ERROR  ][accept-1073743876]create accept error 127.0.0.1:10202[m
+[m[2019-05-05 13:45:42] [31m[ERROR  ][:ERROR-1073743872]boot.lua-24: launcher ccreate process id,machind_id:1073743872,temp_handle:8,id:1073743880
+create process id,machind_id:1073743872,temp_handle:9,id:1073743881
+create process id,machind_id:1073743872,temp_handle:10,id:1073743882
+create process id,machind_id:1073743872,temp_handle:11,id:1073743883
+create process id,machind_id:1073743872,temp_handle:12,id:1073743884
+create process id,machind_id:1073743872,temp_handle:13,id:1073743885
+create process id,machind_id:1073743872,temp_handle:14,id:1073743886
+create process id,machind_id:1073743872,temp_handle:15,id:1073743887
+create process id,machind_id:1073743872,temp_handle:16,id:1073743888
+[m[2019-05-05 13:45:46] [.mysql:INFO-1073743884]mysql.lua-28: .mysql Start
+create process id,machind_id:1073743872,temp_handle:17,id:1073743889
+create process id,machind_id:1073743872,temp_handle:18,id:1073743890
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743885]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743886]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743887]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743888]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743889]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743890]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743885]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743886]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743888]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743887]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743889]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743890]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 1
+create process id,machind_id:1073743872,temp_handle:19,id:1073743891
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743890]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743889]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743891]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743891]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 21
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743891]mysql server quit
+Blob:InitDBID:	pay	0
+Blob:InitDBID:	roles	3
+Blob:InitDBID:	records	102
+Blob:InitDBID:	items	790
+Blob:InitDBID:	mails	201
+Blob:InitDBID:	global_mails	0
+Blob:InitDBID:	gmcmd	0
+Blob:InitDBID: serverdbid, platdbid	0	34359738372
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]CenterMgr.lua-12: CenterMgr:Init 127.0.0.1:9999
+create process id,machind_id:1073743872,temp_handle:20,id:1073743892
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_connect_center)connect to center  127.0.0.1:9999
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_connect_socket)center connect 16777225:1073743892
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048578
+Timer:SetServerTimer-------	5	1556675037
+Timer:SetServerTimer-------	5	1556675037
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_accept_socket)accept connect 16777226 127.0.0.1
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_regist_router)connect to router 1057676 127.0.0.1:9998
+register name from center:center1:1083060237
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_connect_socket)router 1057676 connect 16777227
+NoticeCenter:Notice------	58
+[m[2019-05-05 13:45:46] [INFO  ][router-1073743875](on_accept_socket)accept connect 16777228 127.0.0.1
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]logic.lua-31: .logic Start
+create process id,machind_id:1073743872,temp_handle:21,id:1073743893
+create process id,machind_id:1073743872,temp_handle:22,id:1073743894
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743893]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743894]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743893]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743894]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.world:INFO-1073743882]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1073743872,temp_handle:23,id:1073743895
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743894]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743893]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743895]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743895]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.world:INFO-1073743882]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743895]mysql server quit
+Blob:InitDBID:	auctions	2
+Blob:InitDBID: serverdbid, platdbid	0	34359738368
+ActivityMgr:AddActivity---------------	21	1
+ActivityMgr:AddActivity---------------	22	2
+ActivityMgr:AddActivity---------------	1	3
+ActivityUpgrade Open --------------------------	3
+ActivityMgr:AddActivity---------------	20	4
+ActivityMgr:AddActivity---------------	26	5
+ActivityMgr:AddActivity---------------	3	6
+ActivityMgr:AddActivity---------------	16	7
+ActivityMgr:AddActivity---------------	18	8
+ActivityMgr:AddActivity---------------	19	9
+ActivityMgr:AddActivity---------------	23	10
+ActivityMgr:AddActivity---------------	24	11
+ActivityMgr:AddActivity---------------	8	12
+ActivityMgr:AddActivity---------------	25	13
+ActivityMgr:AddActivity---------------	17	15
+ActivityMgr:AddActivity---------------	2	16
+ActivityMgr:AddActivity---------------	2	17
+ActivityMgr:AddActivity---------------	2	18
+ActivityMgr:AddActivity---------------	2	19
+ActivityMgr:AddActivity---------------	2	20
+ActivityMgr:AddActivity---------------	2	21
+ActivityMgr:AddActivity---------------	2	22
+ActivityMgr:AddActivity---------------	6	23
+ActivityMgr:AddActivity---------------	6	24
+ActivityMgr:AddActivity---------------	26	25
+ActivityMgr:AddActivity---------------	27	26
+ActivityMgr:AddActivity---------------	22	27
+ActivityMgr:AddActivity---------------	28	28
+ActivityMgr:AddActivity---------------	7	29
+[m[2019-05-05 13:45:46] [.world:INFO-1073743882]world.lua-33: .world Start
+create process id,machind_id:1073743872,temp_handle:24,id:1073743896
+create process id,machind_id:1073743872,temp_handle:25,id:1073743897
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743896]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743897]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743896]mysql server auth sucess
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743897]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.war:INFO-1073743883]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1073743872,temp_handle:26,id:1073743898
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743897]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743896]mysql server quit
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743898]mysql server connected
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743898]mysql server auth sucess
+[m[2019-05-05 13:45:46] [.war:INFO-1073743883]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-05 13:45:46] [INFO  ][mysql-1073743898]mysql server quit
+Blob:InitDBID:	qualifying_player	0
+Blob:InitDBID: serverdbid, platdbid	0	34359738368
+[m[2019-05-05 13:45:46] [.war:INFO-1073743883]war.lua-27: .war Start
+create process id,machind_id:1073743872,temp_handle:27,id:1073743899
+acceptor host:127.0.0.1,port:5202
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]Timer.lua-50: Timer:DayTimer 5 5
+Timer:SetServerTimer-------	5	1556675037
+Timer:SetServerTimer-------	5	1556675037
+create process id,machind_id:1073743872,temp_handle:28,id:1073743900
+create process id,machind_id:1073743872,temp_handle:29,id:1073743901
+create process id,machind_id:1073743872,temp_handle:30,id:1073743902
+create process id,machind_id:1073743872,temp_handle:31,id:1073743903
+create process id,machind_id:1073743872,temp_handle:32,id:1073743904
+create process id,machind_id:1073743872,temp_handle:49,id:1073743921
+create process id,machind_id:1073743872,temp_handle:50,id:1073743922
+create process id,machind_id:1073743872,temp_handle:51,id:1073743923
+create process id,machind_id:1073743872,temp_handle:53,id:1073743925
+create process id,machind_id:1073743872,temp_handle:54,id:1073743926
+[m[2019-05-05 13:45:46] [.logic:INFO-1073743881]logic.lua-38: .logic Open
+[m[2019-05-05 13:45:52] [.logic:INFO-1073743881]CenterMgr.lua-58: CenterMgr:UpdateList
+[m[2019-05-05 13:45:52] [.logic:INFO-1073743881]lua_util.lua-84: table: 0x9ec6100
+[m[2019-05-05 13:45:52] [.logic:INFO-1073743881]lua_util.lua-77: cross	table: 0x9ec6cc0
+[m[2019-05-05 13:45:52] [.logic:INFO-1073743881]lua_util.lua-77: 	8110	127.0.0.1:8111
+[m[2019-05-05 13:45:52] [.logic:INFO-1073743881]lua_util.lua-88: all value number: 2
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_connect_center)connect to center  127.0.0.1:8111
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_connect_socket)center connect 16777237:1073743892
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048578
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_accept_socket)accept connect 16777238 127.0.0.1
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_regist_router)connect to router 1056686 127.0.0.1:8112
+register name from center:cross1_8110:1082046479
+register name from center:war1_1:1082046487
+register name from center:world1_1:1082046480
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_accept_socket)accept connect 16777240 127.0.0.1
+[m[2019-05-05 13:45:52] [INFO  ][router-1073743875](on_connect_socket)router 1056686 connect 16777239
+NoticeCenter:Notice------	57
+now player cache count	1
+---------我去-------:14
+cache player num:	1
+[m[2019-05-05 13:57:23] [.logic:INFO-1073743881]ClientMsg.lua-112: Cost Mem Too Large EnterGame 44837.93359375
+[m[2019-05-05 13:57:23] [.logic:INFO-1073743881]Player.lua-167: Player:Login 2 cheng4651 34359738371 申易 114.226.181.166
+now player cache count	2
+now player cache count	3
+ActivityDayLogin:AddPlayer-----------	62
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	27
+[m[2019-05-05 13:57:24] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 214126
+[m[2019-05-05 13:57:24] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738369 193602460
+[m[2019-05-05 13:57:24] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 36200
+[m[2019-05-05 13:57:25] [.logic:INFO-1073743881]ClientMsg.lua-112: Cost Mem Too Large cs_arena_info 5184.3515625
+---------我去-------:1
+cache player num:	3
+[m[2019-05-05 13:57:36] [.logic:INFO-1073743881]Player.lua-167: Player:Login 2 qq8899 34359738372 风间丹 113.247.158.243
+ActivityDayLogin:AddPlayer-----------	62
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	3
+[m[2019-05-05 13:57:37] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 37680
+close socket in accepter
+cache player num:	3
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-309: Player:Logout 2 qq8899 34359738372 风间丹 113.247.158.243
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]RaidMgr.lua-77: RaidMgr:Exit Invalid 34359738372
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-560: Player:PrintPower---- 风间丹 34359738372 37680
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 8 13920
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 9 0
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 26 23760
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 35 0
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 13 0
+[m[2019-05-05 13:58:15] [.logic:INFO-1073743881]Player.lua-570: power-- 11 0
+ActivityUpgrade:UpdatePlayerLv----------------------	28
+[m[2019-05-05 13:58:44] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 215606
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 13:59:18] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 219872
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 13:59:32] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 219872
+[m[2019-05-05 13:59:34] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 232682
+ActivityArenaTarget:DoTarget-------------
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	29
+[m[2019-05-05 14:00:20] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 234162
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 14:00:24] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738371 245044
+ActivityArenaTarget:DoTarget-------------
+cache player num:	3
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-309: Player:Logout 2 cheng4651 34359738371 申易 114.226.181.166
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-560: Player:PrintPower---- 申易 34359738371 245044
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 1 91516
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 2 11188
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 3 3024
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 32 21432
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 2801 21154
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 35 0
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 8 23690
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 9 0
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 26 62240
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 11 0
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 13 0
+[m[2019-05-05 14:00:37] [.logic:INFO-1073743881]Player.lua-570: power-- 15 10800
+close socket in accepter
+---------我去-------:1
+cache player num:	3
+[m[2019-05-05 14:03:14] [.logic:INFO-1073743881]Player.lua-167: Player:Login 2 qq8899 34359738372 风间丹 183.94.90.41
+ActivityDayLogin:AddPlayer-----------	62
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 14:04:54] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 69750
+ActivityUpgrade:UpdatePlayerLv----------------------	4
+[m[2019-05-05 14:04:57] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 71230
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	5
+[m[2019-05-05 14:05:05] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 72710
+ActivityUpgrade:UpdatePlayerLv----------------------	6
+[m[2019-05-05 14:05:15] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 74190
+[m[2019-05-05 14:05:17] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 78098
+[m[2019-05-05 14:05:18] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 80052
+[m[2019-05-05 14:05:23] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 80052
+NoticeCenter:Notice------	56
+ActivityUpgrade:UpdatePlayerLv----------------------	7
+[m[2019-05-05 14:05:48] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 81532
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	8
+[m[2019-05-05 14:05:54] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 83012
+ActivityUpgrade:UpdatePlayerLv----------------------	9
+ActivityUpgrade:UpdatePlayerLv----------------------	10
+[m[2019-05-05 14:05:59] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 92372
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	11
+[m[2019-05-05 14:06:09] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 93852
+ActivityUpgrade:UpdatePlayerLv----------------------	12
+[m[2019-05-05 14:06:21] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 95332
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 14:06:23] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 96956
+ActivityUpgrade:UpdatePlayerLv----------------------	13
+[m[2019-05-05 14:06:27] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 98436
+ActivityArenaTarget:DoTarget-------------
+ActivityUpgrade:UpdatePlayerLv----------------------	14
+[m[2019-05-05 14:06:35] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 99916
+ActivityUpgrade:UpdatePlayerLv----------------------	15
+[m[2019-05-05 14:06:44] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 101396
+[m[2019-05-05 14:06:45] [.logic:INFO-1073743881]ClientMsg.lua-112: Cost Mem Too Large cs_bag_smelt 827.791015625
+[m[2019-05-05 14:06:54] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 102692
+[m[2019-05-05 14:06:55] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 102908
+cache player num:	3
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-309: Player:Logout 2 qq8899 34359738372 风间丹 183.94.90.41
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]RaidMgr.lua-91: RaidMgr:Exit Invalid 34359738372
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-560: Player:PrintPower---- 风间丹 34359738372 102908
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 1 20882
+close socket in accepter
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 2 11188
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 8 19782
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 9 0
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 26 41520
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 11 0
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 3 1624
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 13 0
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 2801 7912
+[m[2019-05-05 14:06:57] [.logic:INFO-1073743881]Player.lua-570: power-- 35 0
+NoticeCenter:Notice------	53
+---------我去-------:5
+cache player num:	3
+[m[2019-05-05 14:20:26] [.logic:INFO-1073743881]Player.lua-167: Player:Login 2 qq8899 34359738372 风间丹 113.247.158.243
+ActivityDayLogin:AddPlayer-----------	62
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-05 14:20:58] [.logic:INFO-1073743881]ClientMsg.lua-112: Cost Mem Too Large cs_mail_get_reward 511.1259765625
+ActivityUpgrade:UpdatePlayerLv----------------------	80
+[m[2019-05-05 14:20:59] [.logic:INFO-1073743881]Player.lua-547: Player:ReCalcPower 34359738372 298544
+close socket in accepter
+ActivityDayLogin:AddPlayer-----------	62
+ActivityArenaTarget:DoTarget-------------
+NoticeCenter:Notice------	58
+[m[2019-05-05 14:27:11] [.logic:INFO-1073743881]TeamMgr.lua-74: --------3-------： 34359738372 80
+[m[2019-05-05 14:27:11] [.logic:INFO-1073743881]TeamMgr.lua-81: --------33-------： 34359738372 80
+[m[2019-05-05 14:27:11] [.logic:INFO-1073743881]TeamMgr.lua-11: -------------------------999: Create
+shareid	--------------------------
+close socket in accepter
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55
+NoticeCenter:Notice------	58
+[m[2019-05-05 14:47:40] [31m[ERROR  ][net-0]receive signal quit
+[m
+[m[2019-05-05 14:47:40] [.war:INFO-1073743883]war.lua-44: .war Stop
+[m[2019-05-05 14:47:40] [.world:INFO-1073743882]world.lua-50: .world Stop
+cache player num:	3
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]ClientMsg.lua-177: server.CloseClient KickOffAll start
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-309: Player:Logout 2 qq8899 34359738372 风间丹 113.247.158.243
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]RaidMgr.lua-91: RaidMgr:Exit Invalid 34359738372
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-560: Player:PrintPower---- 风间丹 34359738372 298544
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 1 20882
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2 11188
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 3 1624
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2801 7912
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2802 6400
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 35 0
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2804 6400
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 21 1200
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2807 6400
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 8 19782
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 9 0
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 26 137720
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 11 0
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2812 66236
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 13 0
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2808 6400
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]Player.lua-570: power-- 2803 6400
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]ClientMsg.lua-179: server.CloseClient KickOffAll end
+close socket in accepter
+[m[2019-05-05 14:47:40] [.mysql:INFO-1073743884]mysql.lua-49: .mysql Stop
+[m[2019-05-05 14:47:40] [.logic:INFO-1073743881]logic.lua-53: .logic Stop
+stop server sucess

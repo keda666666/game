@@ -1,0 +1,23 @@
+# 翅膀升级回调
+sc_wing_upgrade_level 5101 {
+	request {
+		lv 			0 : integer
+		exp			1 : integer
+		upexp		2 : integer
+	}
+}
+
+#翅膀技能升级回调
+sc_wing_upgrade_skill 5102 {
+	request {
+		skillId		0 : integer
+		lv			1 : integer		#技能等级
+	}
+}
+
+#翅膀穿戴装备回调
+sc_wing_equip 5103 {
+	request {
+		equipDatas	0 : item_data	#装备
+	}
+}

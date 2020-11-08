@@ -1,0 +1,21 @@
+
+.effect_item {
+	id 		0 : integer
+	term 	1 : integer  	#0=永久, 非0=到期时间戳
+}
+# 称号
+sc_effect_title_update 14001 {
+	request {
+		wearid			0 : integer			#穿戴id
+		ownlist			1 : *effect_item		#持有列表
+	}
+}
+
+# 皮肤
+sc_effect_skin_update 14011 {
+	request {
+		wearid			0 : integer			#穿戴id
+		ownlist			1 : *effect_item		#持有列表
+	}
+}
+

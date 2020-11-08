@@ -1,0 +1,104 @@
+#进入帮会战
+cs_guildwar_enter 27001 {
+	request {
+
+	}
+	response {
+       ret 		0 : boolean
+    }
+}
+
+#进入下一关
+cs_guildwar_next_barrier 27002 {
+	request {
+
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+#返回上一关
+cs_guildwar_last_barrier 27003 {
+	request {
+
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+
+#攻击玩家
+cs_guildwar_attack_player 27005 {
+	request {
+		targetid 		0 : integer
+	}
+	response {
+		ret 		0 : integer   #0=成功，1=同帮玩家，2=玩家等待复活，3=不是队长
+	}
+}
+
+#攻击boss
+cs_guildwar_attack_boss 27006 {
+	request {
+		bossid 		0 : integer #只有第二关需传入
+	}
+}
+
+
+#清除攻击cd
+cs_guildwar_clear_attackcd 27011 {
+	request {
+
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+#清除复活cd
+cs_guildwar_clear_reborncd 27012 {
+	request {
+
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+
+#查看帮派排行榜
+cs_guildwar_all_guild_rank_info 27030 {
+	request {
+
+	}
+}
+
+#查看个人排行
+cs_guildwar_all_player_rank_info 27031 {
+	request {
+
+	}
+}
+
+#退出副本
+cs_guildwar_exit_barrier 27036 {
+	request {
+
+	}
+}
+
+#领取奖励
+cs_guildwar_get_score_reward 27041 {
+	request {
+		rewardid 		0 : integer 		#奖励id
+	}
+}
+
+#组队招募
+cs_guildwar_team_recruit 27042 {
+	request {
+	}
+}
+

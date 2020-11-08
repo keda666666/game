@@ -1,0 +1,11 @@
+#客户端->服务端
+#激活
+cs_brother_activation 8001 {
+	request {
+		no				0 : integer #激活的编号
+	}
+	response {
+		ret				0 : boolean #
+		no 				1 : integer
+	}
+}

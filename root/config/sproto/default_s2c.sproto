@@ -1,0 +1,318 @@
+
+.entity_model_base {
+    type            0 : integer
+    handle          1 : integer
+    configID        2 : integer
+    masterHandle    3 : integer
+    x               4 : integer
+    y               5 : integer
+}
+
+##############################################################################################################################
+
+# 处理个人信息
+sc_actor_base 101 {
+	request {
+		handle              0 : integer
+		actorid             1 : integer
+		serverid            2 : integer
+        actorname           3 : string
+        job                 4 : integer
+		sex                 5 : integer
+		level               6 : integer
+		exp                 7 : integer
+		power               8 : integer
+		gold                9 : integer
+        yuanbao             10 : integer
+        byb                 11 : integer
+		contrib             12 : integer
+		vip                 13 : integer
+		bagnum              14 : integer
+        clientvalue         15 : integer
+        clientvaluelist     16 : *integer
+        guildid             17 : integer
+        guildname           18 : string
+        friendcoin          19 : integer
+		pingji           	20 : integer
+	}
+}
+
+
+# 子角色列表
+sub_roles 102 {
+    request {
+        roleList 1 : role_data
+    }
+}
+
+# 处理货币变化
+gold_change 106 {
+    request {
+        type    0 : integer
+        value   1 : integer
+    }
+}
+
+# 处理经验变化
+exp_change 107 {
+    request {
+        level 0 : integer
+        exp   1 : integer
+        upexp 2 : integer
+    }
+}
+
+# 处理属性变化
+sub_role_att_change 108 {
+    request {
+        roleID          0 : integer
+        attributeData   1 : *integer
+        power           2 : integer
+    }
+}
+
+# 处理血量更新
+blood_update 109 {
+    request {
+        handle          0 : integer
+        hp              1 : integer
+        dhp             2 : integer
+        showType        3 : integer
+    }
+}
+
+# 移除实体
+remove_entity 110 {
+    request {
+        handle          0 : integer
+        type            1 : integer   #0正常移除1死亡移除
+    }
+}
+
+# 实体移动
+move_entity 111 {
+    request {
+        handle          0 : integer
+        endX            1 : integer
+        endY            2 : integer
+    }
+}
+
+# 停止实体移动
+stop_move_entity 112 {
+    request {
+        handle          0 : integer
+        endX            1 : integer
+        endY            2 : integer
+    }
+}
+
+# 同步实体坐标
+sync_entity_pos 113 {
+    request {
+        handle          0 : integer
+        # 0 瞬移
+        # 1 野蛮冲撞
+        # 2 被击退
+        type            1 : integer
+        x               2 : integer
+        y               3 : integer
+        # 瞬移不需要这个参数
+        arg1            4 : integer
+    }
+}
+
+# 处理MP
+entity_mp_update 114 {
+    request {
+        handle          0 : integer
+        mp              1 : integer
+        playEff         3 : boolean
+    }
+}
+
+# shows:
+#   角色： 1. 坐骑 2.翅膀 3.天仙 4.神兵
+#   仙侣： 1. 法阵 2.仙位
+#   宠物： 1. 通灵 2.兽魂
+# 查看其它玩家
+sc_show_other_player 116 {
+    request {
+        id              0 : integer
+        name            1 : string
+        level           2 : integer
+        job             3 : integer
+        sex             4 : integer
+        power           5 : integer
+        vip             6 : integer
+        guildName       7 : string  # 帮会
+        partner         8 : string  # 伴侣
+        petList         9 : *integer
+        xianlvList      10 : *integer
+        shows           11 : *integer
+        attributeData   12 : *integer
+        equipsData      13 : *equip_data
+        headframe       14 : integer    #头像框
+    }
+}
+
+# 显示服务器提示
+show_server_tip 117 {
+    request {
+        type    0 : integer
+    }
+}
+
+# 第一次登陆
+first_register 118 {
+    request {}
+}
+
+# 处理玩家死亡提示
+actor_die_notice 120 {
+    request {}
+}
+
+# 处理玩家工会变化
+player_guild_change 121 {
+    request {
+        guildID          0 : integer
+        guildName        1 : string
+    }
+}
+
+# 改名结果
+sc_rename_result 122 {
+    request {
+        result          0 : integer
+        name            1 : string
+    }
+}
+
+.record_data {
+    name        0 : string
+    itemid      1 : integer
+    count       2 : integer
+    type        3 : integer
+    str         4 : string
+    time        5 : integer
+    id          6 : integer
+    serverid    7 : integer
+    job         8 : integer
+    sex         9 : integer
+    vip         10: integer
+}
+
+# 寻宝记录通用消息
+sc_record_datas 125 {
+    request {
+        type        0 : integer     # 1 公告 2 聊天
+        record      1 : *record_data
+    }
+}
+
+sc_record_add 126 {
+    request {
+        type        0 : integer
+        record      1 : record_data
+    }
+}
+
+# 排行榜 查看其它玩家
+sc_show_rank_player 127 {
+    request {
+        playerData      0 : actor_base_data
+        roleList        1 : *role_data
+    }
+}
+
+.fb_clear_count {
+    level       0 : integer
+    count       1 : integer
+}
+
+# 跨服组队剩余奖励次数
+sc_cross_team_reward_count 130 {
+    request {
+        count       0 : integer
+        clear       1 : *fb_clear_count
+    }
+}
+
+# 新号欢迎界面
+sc_welcome 131 {
+    request {
+    }
+}
+
+# 送十万元宝
+sc_accu_login 132 {
+    request {
+        count       0 : integer     # 累计登陆的天数
+        record      1 : integer     # 已经领取的index
+    }
+}   
+
+# 充值数
+sc_recharge_count 133 {
+    request {
+        total        0 : integer     # 累计充值
+        today       1 : integer     # 今天充值
+    }
+}
+
+# 排行榜膜拜
+sc_rank_worship 134 {
+    request {
+        status      0 : integer     # 0 没膜拜过 1 已经膜拜过
+    }
+}
+
+# 改名次数
+sc_rename_count 135 {
+    request {
+        count      0 : integer     
+    }
+}
+
+# 查看其它玩家的法宝
+sc_show_other_spellsRes 136 {
+    request {
+        spellsNo        0 : integer #编号
+        lv              1 : integer #等级,配置具体数据根据编号和等级去表内找
+
+    }
+}
+
+# 其他人的宠物数据
+sc_show_other_pet 137 {
+    request {
+        pet        0 : pet_info
+        petid      1 : integer
+    }
+}
+
+# 其他人的物品数据
+sc_other_item 138 {
+    request {
+        data        0 : item_data
+        itemhandle  1 : integer
+    }
+}
+
+# 其他人的武器数据
+sc_other_equip 139 {
+    request {
+        data        0 : equip_data
+        slot        1 : integer
+    }
+}
+
+# 其他人的仙侣数据
+sc_other_xianlv 140 {
+    request {
+        id          0 : integer
+        level       1 : integer
+        star        2 : integer
+    }
+}

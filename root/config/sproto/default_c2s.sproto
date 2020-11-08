@@ -1,0 +1,154 @@
+# 发送GM命令
+cs_sene_gm_command 100 {
+    request {
+        cmd       0 : string
+    }
+}
+
+# 发送创建子角色
+cs_create_new_sub_role 102 {
+	request {
+		job       0 : integer
+		sex       1 : integer
+	}
+}
+
+# 请求升级
+cs_change_role_level 107 {}
+
+# 请求服务器时间
+cs_get_server_time 114 {
+    request { }
+}
+
+# 查看其它玩家信息
+cs_get_other_actor_info 116 {
+    request {
+        otherid     0 : integer
+    }
+}
+
+# 查看法宝信息
+cs_get_other_actor_spellsRes 117 {
+    request {
+        otherid     0 : integer
+        pos         1 : integer #法宝位置
+    }
+}
+
+# 查看他人宠物
+cs_get_other_actor_pet 118 {
+    request {
+        otherid     0 : integer
+        petid       1 : integer
+    }
+}
+
+#查看其他人装备或物品信息
+cs_get_other_actor_item 119 {
+    request {
+        otherid     0 : integer
+        itemhandle  1 : integer     #背包位置
+    }
+}
+
+#查看其他人装备或物品信息
+cs_get_other_actor_equip 120 {
+    request {
+        otherid     0 : integer
+        slot        1 : integer     #身上位置
+    }
+}
+
+#查看他人仙侣
+cs_get_other_actor_xianlv 121 {
+    request {
+        otherid     0 : integer
+        id          1 : integer     #仙侣id
+    }
+}
+
+# 请求改名
+cs_change_player_name 122 {
+    request {
+        name       0 : string
+    }
+}
+
+# 请求功能预告奖励
+cs_get_gongnengyugao_reward 123 {
+    request {
+        index       0 : integer
+    }
+    response {
+        index       0 : integer
+    }
+}
+
+# 客户端设置
+cs_set_clientvalue 124 {
+    request {
+        value       0 : integer
+        list        1 : *integer
+    }
+}
+
+# 发送心跳
+cs_send_heart_beat 199 {
+    request {}
+}
+
+# 请求记录
+cs_baserecord_info 125 {
+    request {
+        type    0 : integer
+    }
+}
+
+# 请求客服QQ
+cs_get_kefu_qq 126 {
+    response {
+        qq      0 : string
+    }
+}
+
+# 发送客服留言
+cs_send_kefu_msg 127 {
+    request {
+        msg     0 : string
+    }
+}
+
+# 客户端打点
+cs_send_client_point 128 {
+    request {
+        point   0 : integer
+    }
+}
+
+# 排行榜 查看其它玩家
+cs_show_rank_player 129 {
+    request {
+        otherid     0 : integer
+    }
+}
+
+# 跨服组队剩余奖励次数
+cs_cross_team_reward_count 130 {
+    request { }
+}
+
+# 欢迎确认
+cs_welcome_confirm 131 {}
+
+# 领取十万元宝的
+cs_accu_login_get 132 {
+    request {
+        index     0 : integer
+    }
+}
+
+# 排行榜膜拜
+cs_rank_worship 133 {
+    request { }
+}

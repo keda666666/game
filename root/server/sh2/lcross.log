@@ -1,0 +1,15 @@
+create process id,machind_id:1082046464,temp_handle:0,id:1082046464
+create process id,machind_id:1082046464,temp_handle:1,id:1082046465
+create process id,machind_id:1082046464,temp_handle:2,id:1082046466
+create process id,machind_id:1082046464,temp_handle:3,id:1082046467
+create process id,machind_id:1082046464,temp_handle:4,id:1082046468
+acceptor host:127.0.0.1,port:8111
+socket_api: bind failed:7
+[m[2019-05-05 13:45:42] [31m[ERROR  ][accept-1082046468]create accept error 127.0.0.1:8111[m
+[m[2019-05-05 13:45:42] [31m[ERROR  ][:ERROR-1082046464]boot.lua-17: launcher config:center fail
+stack traceback:
+	./../liblua/lua_app.lua:806: in function 'lua_app.log_error'
+	./../liblua/boot.lua:17: in function 'main'
+	[C]: in function 'xpcall'
+	./../liblua/lua_app.lua:207: in upvalue 'f'
+	./../liblua/lua_app.lua:136: in function <./../liblua/lua_app.lua:135>[m

@@ -1,0 +1,12 @@
+#摇钱树
+
+sc_cashCow_info 2201 {
+	request {
+		level 		0 : integer
+		exp 		1 : integer
+		odds 		2 : integer #暴击
+		shake 		3 : integer #当天摇钱次数
+		drawBin 	4 : *integer #索引=boxid, 值=1 名额已满 2 名额未满未达成 3 已达成可领取未领取 4 已领取
+		amplitude 	5 : integer #加成
+	}
+}

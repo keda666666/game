@@ -1,0 +1,7 @@
+#经脉等级更新
+sc_vein_update 15001 {
+	request {
+		totalattr 		0 : *attribute_data		#总属性
+		level			1 : integer				#当前等级
+	}
+}

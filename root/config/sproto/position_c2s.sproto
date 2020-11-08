@@ -1,0 +1,8 @@
+cs_position_getawards 6501 {
+	request {
+		no			0 : integer
+	}
+	response {
+		ret 		0 : boolean
+	}
+}

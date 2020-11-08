@@ -1,0 +1,25 @@
+#已获取那些首冲双倍
+sc_recharge_double 1801 {
+	request {
+		reward				0 : *integer	
+		choicerechare 		1 : integer 	#0 没充，其他数字对应配置表充值了啥，负数表示已领取了
+		finish				2 : *integer  	#已经充值过的套餐列表
+	}
+}
+#首充活动
+sc_recharge_first_info 1802 {
+	request {
+		rechargeNum		0 : integer	#已充值金额
+		reward 			1 : *integer #已领取奖励
+		firsttime		2 : integer	#首充时间
+	}
+}
+
+#每日充值
+sc_recharge_dailyrechare 1806 {
+	request {
+		dailyrechare 		0 : integer #每日充值数
+		rewardmark 			1 : integer #奖励按位算 0=未领取，1=领取
+		dailyid 			2 : integer #每日奖励id
+	}
+}

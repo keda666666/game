@@ -1,0 +1,11 @@
+cs_mail_get_content 901 {
+	request {
+		handle 	0 : integer
+	}
+}
+
+cs_mail_get_reward 902 {
+	request {
+		handle 	0 : *integer
+	}
+}

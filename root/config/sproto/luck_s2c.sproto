@@ -1,0 +1,39 @@
+#服务端->客户端
+
+.luck_record {
+	name			0 : string
+	reward 			1 : reward_data
+	time			2 : integer		
+}
+
+sc_luck_info 2701 {
+	request {
+		counts			0 : *integer # 各类抽奖次数
+		records			1 : *luck_record
+		tenNum			2 : integer #天神抽奖10连次数
+		lucky			3 : integer #幸运值
+		equipcounts		4 : *integer #神装抽奖次数
+		equiplucky		5 : integer #神装抽奖幸运值
+		equiprecords	6 : *luck_record #神装抽奖
+		daylist			7 : *integer #
+		equipdaylist	8 : *integer #
+		round			9 : integer #
+		equipround		10 : integer #
+
+		totemscounts	11 : *integer #图腾抽奖次数
+		totemslucky		12 : integer #图腾抽奖幸运值
+		totemsrecords	13 : *luck_record #图腾抽奖
+		totemsdaylist	14 : *integer #
+		totemsround		15 : integer #
+	}
+}
+
+#抽奖结果
+sc_luck_ret 2702 {
+	request {
+		type 			0 : integer #抽奖类型 1,转盘 2,神装抽奖 3,图腾抽奖
+		index			1 : integer
+		rewards			2 : *reward_data
+	}
+}
+

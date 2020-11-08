@@ -1,0 +1,47 @@
+.pet_fly_data {
+	level 	0 : integer
+	exp 	1 : integer
+}
+
+.pet_info {
+	petid		0 : integer
+	exp			1 : integer
+	level		2 : integer
+	name		3 : string
+	buffs		4 : *integer
+	giftexp		5 : integer
+	giftlv		6 : integer
+	xilian		7 : integer
+	xilianSkills 8 : *integer
+	flydata 	9 : pet_fly_data
+}
+
+# 宠物
+sc_pet_init 601 {
+	request {
+		list		0 : *pet_info
+		outbound	1 : *integer
+		showid		2 : integer 	# 展示宠物id
+	}
+}
+
+#宠物更新
+sc_pet_update 606 {
+	request {
+		petinfo 	0 : pet_info
+	}
+}
+
+sc_pet_catch 621 {
+	request {
+		monsterid 	0 : integer 	#怪物ID
+		catchtime 	1 : integer		#捕捉时间
+	}
+}
+
+sc_pet_catch_result 622 {
+	request {
+		result 		0 : boolean 	# true为成功
+	}
+}
+

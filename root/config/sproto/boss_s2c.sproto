@@ -1,0 +1,69 @@
+
+.public_attack_info{
+	name			0 : string
+	injure			1 : integer		#伤害
+}
+
+.public_kill_info{
+	name			0 : string
+	power			1 : integer		#战力
+	killtime		2 : integer
+}
+
+.public_boss_info {
+	id				0 : integer
+	hp				1 : integer					# 百分比
+	iskill			2 : boolean 				# true 被击杀 
+	reborntime		3 : integer 				# 复活时间
+	fightnum		4 : integer					# 争夺人数
+	reborn 			5 : boolean 				# 复活
+}
+
+# 错误的挑战，boss已被击杀	
+sc_public_boss_challenge_fail 12010 {
+	request {}
+}   		
+
+sc_public_boss_base_list 12011 {
+	request {
+		bossInfos		0 : *public_boss_info
+	}
+}
+
+sc_public_boss_update_one 12012 {
+	request {
+		bossInfo		0 : public_boss_info
+	}
+}
+
+sc_public_boss_update_challenge 12020 {
+	request {
+		challengenum	0 : integer		#挑战次数
+		recovertiem		1 : integer		#恢复时间
+		purchasecount	2 : integer		#购买挑战次数
+		reborncount		3 : integer		#复活次数
+		rebornmark		4 : integer		#复活标记	
+	}
+}
+
+sc_public_boss_update_attack  12021 {
+	request {
+		attackinfos 		0 : *public_attack_info		#所有玩家伤害
+		myattackinfo		1 :	public_attack_info		#自己的伤害
+	}
+}
+
+
+sc_public_boss_record_attack  12030 {
+	request {
+		attackinfos 		0 : *public_attack_info
+		rank				1 : integer   				 # 0表示没参与
+	}
+}
+
+sc_public_boss_record_kill  12031 {
+	request {
+		killinfos		0 : *public_kill_info
+	}
+}
+

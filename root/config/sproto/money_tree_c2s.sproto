@@ -1,0 +1,27 @@
+cs_money_tree_play 3702 {}
+
+cs_money_tree_reward 3703 {
+	request {
+		id			0 : integer
+	}
+}
+
+cs_money_recharge_get 3704 {
+	request {
+		day			0 : integer 	# 天数
+	}
+}
+
+cs_qd_recharge_info 3705 {       #30天签到数据
+}
+
+cs_qd_recharge_get 3706 {        #30天签到
+    request {
+	    day         0 : integer      # 签到第天数
+	}
+}
+cs_qd_get_reward 3707 {			#累计签到奖励
+	request {
+		index 		0 : integer
+	}
+}

@@ -1,0 +1,654 @@
+create process id,machind_id:1073742848,temp_handle:0,id:1073742848
+create process id,machind_id:1073742848,temp_handle:1,id:1073742849
+create process id,machind_id:1073742848,temp_handle:2,id:1073742850
+create process id,machind_id:1073742848,temp_handle:3,id:1073742851
+create process id,machind_id:1073742848,temp_handle:4,id:1073742852
+acceptor host:127.0.0.1,port:10201
+socket_api: bind failed:7
+[m[2019-05-06 21:41:01] [31m[ERROR  ][accept-1073742852]create accept error 127.0.0.1:10201[m
+[m[2019-05-06 21:41:01] [31m[ERROR  ][:ERROR-1073742848]boot.lua-24: launcher ccreate process id,machind_id:1073742848,temp_handle:8,id:1073742856
+create process id,machind_id:1073742848,temp_handle:9,id:1073742857
+create process id,machind_id:1073742848,temp_handle:10,id:1073742858
+create process id,machind_id:1073742848,temp_handle:11,id:1073742859
+create process id,machind_id:1073742848,temp_handle:12,id:1073742860
+create process id,machind_id:1073742848,temp_handle:13,id:1073742861
+create process id,machind_id:1073742848,temp_handle:14,id:1073742862
+create process id,machind_id:1073742848,temp_handle:15,id:1073742863
+create process id,machind_id:1073742848,temp_handle:16,id:1073742864
+[m[2019-05-06 21:41:06] [.mysql:INFO-1073742860]mysql.lua-28: .mysql Start
+create process id,machind_id:1073742848,temp_handle:17,id:1073742865
+create process id,machind_id:1073742848,temp_handle:18,id:1073742866
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742861]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742862]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742863]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742864]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742865]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742866]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742862]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742864]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742865]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742866]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742863]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742861]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 1
+create process id,machind_id:1073742848,temp_handle:19,id:1073742867
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742866]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742865]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742867]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742867]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 21
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742867]mysql server quit
+Blob:InitDBID:	roles	10
+Blob:InitDBID:	records	102
+Blob:InitDBID:	items	2318
+Blob:InitDBID:	gmcmd	0
+Blob:InitDBID:	pay	0
+Blob:InitDBID:	mails	103
+Blob:InitDBID:	global_mails	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869195
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]CenterMgr.lua-12: CenterMgr:Init 127.0.0.1:9999
+create process id,machind_id:1073742848,temp_handle:20,id:1073742868
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_connect_center)connect to center  127.0.0.1:9999
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_connect_socket)center connect 16777225:1073742868
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048577
+Timer:SetServerTimer-------	2	1557039251
+Timer:SetServerTimer-------	2	1557039251
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777226 127.0.0.1
+NoticeCenter:Notice------	54
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_regist_router)connect to router 1057676 127.0.0.1:9998
+register name from center:center1:1083060237
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_connect_socket)router 1057676 connect 16777227
+[m[2019-05-06 21:41:06] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777228 127.0.0.1
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]logic.lua-31: .logic Start
+create process id,machind_id:1073742848,temp_handle:21,id:1073742869
+create process id,machind_id:1073742848,temp_handle:22,id:1073742870
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742869]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742870]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742870]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742869]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.world:INFO-1073742858]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1073742848,temp_handle:23,id:1073742871
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742870]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742869]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742871]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742871]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.world:INFO-1073742858]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742871]mysql server quit
+Blob:InitDBID:	auctions	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869184
+ActivityMgr:AddActivity---------------	21	1
+ActivityMgr:AddActivity---------------	22	2
+ActivityMgr:AddActivity---------------	1	3
+ActivityUpgrade Open --------------------------	3
+ActivityMgr:AddActivity---------------	20	4
+ActivityMgr:AddActivity---------------	26	5
+ActivityMgr:AddActivity---------------	3	6
+ActivityMgr:AddActivity---------------	16	7
+ActivityMgr:AddActivity---------------	18	8
+ActivityMgr:AddActivity---------------	19	9
+ActivityMgr:AddActivity---------------	23	10
+ActivityMgr:AddActivity---------------	24	11
+ActivityMgr:AddActivity---------------	8	12
+ActivityMgr:AddActivity---------------	25	13
+ActivityMgr:AddActivity---------------	17	15
+ActivityMgr:AddActivity---------------	2	16
+ActivityMgr:AddActivity---------------	2	17
+ActivityMgr:AddActivity---------------	2	18
+ActivityMgr:AddActivity---------------	2	19
+ActivityMgr:AddActivity---------------	2	20
+ActivityMgr:AddActivity---------------	2	21
+ActivityMgr:AddActivity---------------	2	22
+ActivityMgr:AddActivity---------------	6	23
+ActivityMgr:AddActivity---------------	6	24
+ActivityMgr:AddActivity---------------	26	25
+ActivityMgr:AddActivity---------------	27	26
+ActivityMgr:AddActivity---------------	22	27
+ActivityMgr:AddActivity---------------	28	28
+ActivityMgr:AddActivity---------------	7	29
+[m[2019-05-06 21:41:06] [.world:INFO-1073742858]world.lua-33: .world Start
+create process id,machind_id:1073742848,temp_handle:24,id:1073742872
+create process id,machind_id:1073742848,temp_handle:25,id:1073742873
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742872]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742873]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742872]mysql server auth sucess
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742873]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.war:INFO-1073742859]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1073742848,temp_handle:26,id:1073742874
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742873]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742872]mysql server quit
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742874]mysql server connected
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742874]mysql server auth sucess
+[m[2019-05-06 21:41:06] [.war:INFO-1073742859]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2019-05-06 21:41:06] [INFO  ][mysql-1073742874]mysql server quit
+Blob:InitDBID:	qualifying_player	0
+Blob:InitDBID: serverdbid, platdbid	0	17179869184
+[m[2019-05-06 21:41:06] [.war:INFO-1073742859]war.lua-27: .war Start
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]Timer.lua-50: Timer:DayTimer 2 2
+Timer:SetServerTimer-------	2	1557039251
+Timer:SetServerTimer-------	2	1557039251
+1
+1
+2
+1
+3
+1
+4
+1
+now player cache count	1
+create process id,machind_id:1073742848,temp_handle:27,id:1073742875
+acceptor host:127.0.0.1,port:5201
+create process id,machind_id:1073742848,temp_handle:28,id:1073742876
+create process id,machind_id:1073742848,temp_handle:29,id:1073742877
+create process id,machind_id:1073742848,temp_handle:30,id:1073742878
+create process id,machind_id:1073742848,temp_handle:31,id:1073742879
+create process id,machind_id:1073742848,temp_handle:32,id:1073742880
+create process id,machind_id:1073742848,temp_handle:49,id:1073742897
+create process id,machind_id:1073742848,temp_handle:50,id:1073742898
+create process id,machind_id:1073742848,temp_handle:51,id:1073742899
+create process id,machind_id:1073742848,temp_handle:53,id:1073742901
+create process id,machind_id:1073742848,temp_handle:54,id:1073742902
+[m[2019-05-06 21:41:06] [.logic:INFO-1073742857]logic.lua-38: .logic Open
+Player:ReCalcPower---- Check Power!!!!!!!!!!!!!!	晓晓	17179869189	1208340516	1209769520	1429004
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 晓晓 17179869189 1209769520
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 1 889986
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 3 72888
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 4 44080
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 8 65989696
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 9 1069675520
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 10 5208000
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 15 10800
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 32 354904
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 34 12500800
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 26749002
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 24463600
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 306400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 26 583200
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 30 952232
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-570: power-- 31 960
+[m[2019-05-06 21:41:07] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869189 1209769520
+1
+1
+2
+1
+now player cache count	2
+cache player num:	2
+[m[2019-05-06 21:41:09] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large EnterGame 436.0615234375
+[m[2019-05-06 21:41:09] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq9988 17179869192 安绚 106.16.139.4
+1
+100
+2
+1
+3
+1
+4
+1
+now player cache count	3
+1
+68
+2
+1
+3
+1
+4
+1
+now player cache count	4
+register name from center:war1_1:1082046480
+register name from center:world1_1:1082046487
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869192 4137246
+Player:ReCalcPower---- Check Power!!!!!!!!!!!!!!	3	17179869185	10513350616	10513483288	132672
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 3 17179869185 10513483288
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 1 1041948
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 3 24356
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 4 6080
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 8 53877520
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 9 646400000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 12 2398000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 13 527200
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 15 510800
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 32 3886440
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 34 10351600
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 0 278400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 21 9600
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 9602674744
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 712000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 9752408
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 222400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 21154
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 21154
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 26 611320
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 30 178144104
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 31 361340
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513483288
+Player:ReCalcPower---- Check Power!!!!!!!!!!!!!!	明文乐	17179869187	1251240	1260628	9388
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 明文乐 17179869187 1260628
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 1 77184
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 3 1624
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 8 297616
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 9 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 7912
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 7048
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 26 572840
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-570: power-- 31 126956
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869187 1260628
+[m[2019-05-06 21:41:10] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_arena_info 5186.7275390625
+cache player num:	4
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq9988 17179869192 安绚 106.16.139.4
+close socket in accepter
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869192
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 安绚 17179869192 4137246
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 1 62906
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 9 0
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 1818400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 766000
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 26 244280
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-05-06 21:41:11] [.logic:INFO-1073742857]Player.lua-570: power-- 31 480
+[m[2019-05-06 21:41:12] [.logic:INFO-1073742857]CenterMgr.lua-58: CenterMgr:UpdateList
+[m[2019-05-06 21:41:12] [.logic:INFO-1073742857]lua_util.lua-84: table: 0x20de4400
+[m[2019-05-06 21:41:12] [.logic:INFO-1073742857]lua_util.lua-77: cross	table: 0x20de5980
+[m[2019-05-06 21:41:12] [.logic:INFO-1073742857]lua_util.lua-77: 	8110	127.0.0.1:8111
+[m[2019-05-06 21:41:12] [.logic:INFO-1073742857]lua_util.lua-88: all value number: 2
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_connect_center)connect to center  127.0.0.1:8111
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_connect_socket)center connect 16777238:1073742868
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1048577
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777239 127.0.0.1
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_regist_router)connect to router 1056686 127.0.0.1:8112
+register name from center:cross1_8110:1082046478
+register name from center:war1_1:1082046480
+register name from center:world1_1:1082046487
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_connect_socket)router 1056686 connect 16777240
+[m[2019-05-06 21:41:12] [INFO  ][router-1073742851](on_accept_socket)accept connect 16777241 127.0.0.1
+now player cache count	5
+[m[2019-05-06 21:41:40] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869186 255122
+cache player num:	5
+[m[2019-05-06 21:41:45] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq9988 17179869192 安绚 106.16.139.4
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-06 21:42:16] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_raid_wave_complete 5912.0205078125
+close socket in accepter
+---------我去-------:24
+cache player num:	5
+[m[2019-05-06 21:42:29] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq8899 17179869185 3 123.181.205.66
+NoticeCenter:Notice------	87	3
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-06 21:42:52] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869192 4168826
+[m[2019-05-06 21:43:46] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513485808
+[m[2019-05-06 21:43:47] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513488748
+[m[2019-05-06 21:43:49] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513491688
+[m[2019-05-06 21:43:50] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513494208
+[m[2019-05-06 21:43:51] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513496728
+[m[2019-05-06 21:43:52] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513499248
+[m[2019-05-06 21:43:53] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513500928
+cache player num:	5
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq8899 17179869185 3 123.181.205.66
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869185
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 3 17179869185 10513500928
+close socket in accepter
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 1 1041948
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 3 24356
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 4 6080
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 8 53877520
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 9 646400000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 12 2398000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 13 527200
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 15 510800
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 32 3886440
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 34 10351600
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 22 17640
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 0 278400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 21 9600
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 9602674744
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 712000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 9752408
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 222400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 21154
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 21154
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 26 611320
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 30 178144104
+[m[2019-05-06 21:44:12] [.logic:INFO-1073742857]Player.lua-570: power-- 31 361340
+cache player num:	5
+[m[2019-05-06 21:44:20] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq8899 17179869185 3 123.181.205.66
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513501768
+cache player num:	5
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq8899 17179869185 3 123.181.205.66
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869185
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 3 17179869185 10513501768
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 1 1041948
+close socket in accepter
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 3 24356
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 4 6080
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 8 53877520
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 9 646400000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 12 2398000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 13 527200
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 15 510800
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 32 3886440
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 34 10351600
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 22 18480
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 0 278400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 21 9600
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 9602674744
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 712000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 9752408
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 222400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 21154
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 21154
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 26 611320
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 30 178144104
+[m[2019-05-06 21:44:42] [.logic:INFO-1073742857]Player.lua-570: power-- 31 361340
+cache player num:	5
+[m[2019-05-06 21:44:51] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq8899 17179869185 3 123.181.205.66
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+[m[2019-05-06 21:45:51] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10513501984
+close socket in accepter
+cache player num:	5
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq9988 17179869192 安绚 106.16.139.4
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869192
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 安绚 17179869192 4168826
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 1 94486
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 9 0
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 1818400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 766000
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 26 244280
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-05-06 21:46:00] [.logic:INFO-1073742857]Player.lua-570: power-- 31 480
+[m[2019-05-06 21:48:01] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10514209984
+[m[2019-05-06 21:48:03] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10514917984
+[m[2019-05-06 21:48:27] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10514977984
+---------我去-------:1
+cache player num:	5
+[m[2019-05-06 21:49:45] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq9988 17179869192 安绚 106.16.139.4
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+NoticeCenter:Notice------	56
+ActivityArenaTarget:DoTarget-------------
+ActivityArenaTarget:DoTarget-------------
+cache player num:	5
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq8899 17179869185 3 123.181.205.66
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 3 17179869185 10514977984
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 1 1041948
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 3 24356
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 4 6080
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 8 53877520
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 9 646400000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 12 2398000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 13 527200
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 15 510800
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 32 3886440
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 34 11827600
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 22 18480
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 0 278400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 21 9600
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 9602674744
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 712000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 9752624
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 222400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 21154
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 21154
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 26 611320
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 30 178144104
+[m[2019-05-06 21:55:00] [.logic:INFO-1073742857]Player.lua-570: power-- 31 361340
+close socket in accepter
+cache player num:	5
+[m[2019-05-06 21:55:10] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq8899 17179869185 3 123.181.205.66
+NoticeCenter:Notice------	87	3
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+cache player num:	5
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq9988 17179869192 安绚 106.16.139.4
+close socket in accepter
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]RaidMgr.lua-77: RaidMgr:Exit Invalid 17179869192
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 安绚 17179869192 4168826
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 1 94486
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2 11188
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 8 13920
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 9 0
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 13 0
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 1818400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 766000
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 6400
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 26 244280
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 21 1200
+[m[2019-05-06 21:57:50] [.logic:INFO-1073742857]Player.lua-570: power-- 31 480
+cache player num:	5
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-309: Player:Logout 1 qq8899 17179869185 3 123.181.205.66
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]RaidMgr.lua-91: RaidMgr:Exit Invalid 17179869185
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-560: Player:PrintPower---- 3 17179869185 10514977984
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 1 1041948
+close socket in accepter
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2 31976
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 3 24356
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 4 6080
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 7 280000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 8 53877520
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 9 646400000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 11 0
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 12 2398000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 13 527200
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 14 1000000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 15 510800
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 32 3886440
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 34 11827600
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 35 0
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 22 18480
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 20 84000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 0 278400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2810 6400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 21 9600
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2801 9602674744
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2802 712000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2803 9752624
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2804 222400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2805 6400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2806 6400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2807 21154
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2808 21154
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2809 6236
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 26 611320
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2811 6400
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 2812 66236
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 29 24000
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 30 178144104
+[m[2019-05-06 21:59:24] [.logic:INFO-1073742857]Player.lua-570: power-- 31 361340
+cache player num:	5
+[m[2019-05-06 21:59:33] [.logic:INFO-1073742857]Player.lua-167: Player:Login 1 qq8899 17179869185 3 123.181.205.66
+ActivityDayLogin:AddPlayer-----------	6
+ActivityArenaTarget:DoTarget-------------
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	53
+[m[2019-05-06 22:02:46] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 15
+[m[2019-05-06 22:02:46] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 17
+[m[2019-05-06 22:02:47] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 1
+[m[2019-05-06 22:02:47] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 21
+[m[2019-05-06 22:02:48] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 1
+[m[2019-05-06 22:02:48] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 21
+[m[2019-05-06 22:02:48] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 1
+[m[2019-05-06 22:02:48] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 21
+[m[2019-05-06 22:02:50] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:50] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:50] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:50] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:50] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:50] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:50] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:50] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:50] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:50] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:51] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:51] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:52] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:52] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:52] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:52] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:02:52] [.logic:INFO-1073742857]ActivityPlug.lua-67: ----------------------------777: 3
+[m[2019-05-06 22:02:52] [.world:INFO-1073742858]ActivityMgr.lua-278: ----------------------------8888: 1
+[m[2019-05-06 22:05:29] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10518517984
+[m[2019-05-06 22:05:30] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10522765984
+[m[2019-05-06 22:05:31] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10527013984
+[m[2019-05-06 22:05:32] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10531261984
+[m[2019-05-06 22:05:33] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10514309584
+[m[2019-05-06 22:05:34] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10518579184
+[m[2019-05-06 22:05:35] [.logic:INFO-1073742857]Player.lua-547: Player:ReCalcPower 17179869185 10520713984
+NoticeCenter:Notice------	53
+[m[2019-05-06 22:18:53] [.logic:INFO-1073742857]ClientMsg.lua-112: Cost Mem Too Large cs_bag_smelt 836.3203125
+NoticeCenter:Notice------	58
+shareid	--------------------------
+Timer:HalfHour------------------
+Timer:HalfHour------------------
+NoticeCenter:Notice------	55

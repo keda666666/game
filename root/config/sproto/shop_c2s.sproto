@@ -1,0 +1,27 @@
+cs_shop_buy 1701 {
+	request {
+		shopType 	0 : integer
+		index 		1 : integer
+		buynum		2 : integer
+	}
+}
+
+cs_shop_mystical_buy 1706 {
+	request {
+		index 		0 : integer
+		buynum		1 : integer
+	}
+	
+	response {
+		ret 		0 : boolean
+	}
+}
+
+cs_shop_mystical_refresh 1707 {
+	request {
+	}
+
+	response {
+		ret 		0 : boolean
+	}
+}

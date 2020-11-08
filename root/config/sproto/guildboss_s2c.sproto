@@ -1,0 +1,100 @@
+.guildboss_boxinfo {
+	id 				0 : integer
+	x				1 : integer
+	y				2 : integer
+}
+
+.guildboss_rank {
+	name 			0 : string
+	serverid		1 : integer
+	damage			2 : integer
+	job				3 : integer
+	sex				4 : integer
+}
+
+.guildboss_firstinfo {
+	name 		0 : string
+	serverid	1 : integer
+	guildid		2 : integer
+	guildname	3 : string
+	damage		4 : integer
+}
+
+.guildboss_collect_info {
+	playerid		0 : integer
+	boxid			1 : integer
+	time			2 : integer	# 时间到了或者为空则没有采集，否则在采集
+}
+
+sc_guildboss_info 32001 {
+	request {
+		status			0 : integer	# 状态   0 关闭  1 等待boss  2 boss存在  3 boss被击杀
+		changetime		1 : integer # 到达这一状态的时间
+	}
+}
+
+sc_guildboss_update_info 32002 {
+	request {
+		shieldvalue		0 : integer
+		hp				1 : integer
+		hpperc			2 : integer	# 血量百分比
+	}
+}
+
+sc_guildboss_box_all 32003 {
+	request {
+		boxinfos		0 : *guildboss_boxinfo
+	}
+}
+
+sc_guildboss_box_one 32004 {
+	request {
+		boxinfo 		0 : guildboss_boxinfo
+	}
+}
+
+sc_guildboss_player_dead 32005 {
+	request {
+		# playerid		0 : integer
+		deadtime		1 : integer	# 0或空:正常  >0:死亡时间点
+	}
+}
+
+sc_guildboss_rank_now 32006 {
+	request {
+		playerranks			0 : *guildboss_rank
+		mydamage			1 : integer
+		myrank				2 : integer
+	}
+}
+
+sc_guildboss_rewards 32007 {
+	request {
+		result			0 : integer
+		rewards 		1 : *reward_data
+	}
+}
+
+sc_guildboss_rank_last 32008 {
+	request {
+		firstinfo			0 : guildboss_firstinfo
+		playerranks			1 : *guildboss_rank
+		mydamage			2 : integer
+		myrank				3 : integer
+		# guildranks			4 : *guildboss_rank
+		# myguilddamage		5 : integer
+		# myguildrank			6 : integer
+	}
+}
+
+sc_guildboss_collect_now 32009 {
+	request {
+		info 		0 : guildboss_collect_info
+	}
+}
+
+sc_guildboss_collect_all 32010 {
+	request {
+		infos 		0 : *guildboss_collect_info
+	}
+}

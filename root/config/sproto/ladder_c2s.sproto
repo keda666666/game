@@ -1,0 +1,57 @@
+#跨服王者争霸
+
+# 跨服王者信息
+cs_ladder_info 3501 {
+	request {}
+}
+
+# 请求匹配玩家
+cs_ladder_get_some_one 3502 {
+	request {
+		ladderType		0 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 开始挑战
+cs_ladder_start_play 3503 {
+	request {
+		type 		0 : integer
+		ladderType	1 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 领取上周奖励
+cs_ladder_get_week_reward 3504 {
+	request {
+		ladderType		0 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 获取排行榜数据 
+cs_ladder_get_rank_info 3505 {
+	request {
+		ladderType		0 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 购买次数
+cs_ladder_buy_count 3506 {
+	request {
+		ladderType		0 : integer 	# 0、本服	1、跨服
+	}
+}
+
+cs_ladder_worship 3507 {
+	request {
+		ladderType		0 : integer 	# 0、本服	1、跨服
+	}
+}
+
+# 获取跨服王者信息
+cs_ladder_get_winner_info 3508 {}
+
+# 获取跨服王者记录
+cs_ladder_get_winner_records 3509 {}
+
+
+

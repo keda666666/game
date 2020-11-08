@@ -1,0 +1,15 @@
+cs_rechargew_setpop 6401 {
+	request {
+		payType			0 : integer
+		gid				1 : integer
+		nopop			2 : boolean
+	}
+}
+
+cs_rechargew_getawards 6402 {
+	request {
+		payType			0 : integer
+		gid				1 : integer
+		index			2 : integer
+	}
+}

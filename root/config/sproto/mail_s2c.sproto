@@ -1,0 +1,46 @@
+.mail_data {
+	handle		0 : integer
+	title		1 : string
+	times		2 : integer
+	type		3 : integer		# 读取状态  0 未读 1 已读
+	receive		4 : integer		# 领取状态  0 未领取 1 领取
+}
+
+.mail_update_data {
+	handle		0 : integer
+	type		1 : integer
+	receive		2 : integer	
+}
+
+sc_mail_init_info 901 {
+	request {
+		mailData 	0 : *mail_data
+	}
+}
+
+sc_mail_detailed_info 902 {
+	request {
+		mailData 	0 : mail_data
+		text		1 : string
+		rewardData	2 : *reward_data
+	}
+}
+
+sc_mail_delete 903 {
+	request {
+		handle 	0 : integer
+	}
+}
+
+sc_mail_update_info 904 {
+	request {
+		updateData 			0 : *mail_update_data
+		showWarnBagSpace	1 : boolean
+	}
+}
+
+sc_mail_add_info 905 {
+	request {
+		mailData 	0 : mail_data
+	}
+}

@@ -1,0 +1,40 @@
+# 仙君激活
+cs_xianjun_active 801 {
+	request {
+		id 		0 : integer
+	}
+	response {
+		ret 	0 : boolean
+	}
+}
+
+cs_xianjun_outbound 802 {
+	request {
+		first	0 : integer
+		second	1 : integer
+		third   2 : integer
+		four	3 : integer
+	}
+}
+
+cs_xianjun_addexp 803 {
+	request {
+		id 		0 : integer
+		autoBuy	1 : integer
+	}
+	response {
+		ret 	0 : boolean
+		exp		1 : integer
+		level	2 : integer
+	}
+}
+
+cs_xianjun_upstar 804 {
+	request {
+		id 		0 : integer
+	}
+	response {
+		ret 	0 : boolean
+		star	1 : integer
+	}
+}

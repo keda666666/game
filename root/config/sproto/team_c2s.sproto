@@ -1,0 +1,109 @@
+#获取我加入的队伍信息
+cs_team_info 17001 {
+	request { }
+}
+
+#获取队伍列表
+cs_team_list 17002 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+	}
+}
+
+# 创建队伍
+cs_team_create 17003 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 快速加入队伍
+#cs_team_quick_join 17004 {
+#	request {
+#		raidtype	0 : integer
+#		level		1 : integer
+#	}
+#	response {
+#        ret 		0 : boolean
+#    }
+#}
+
+# 加入队伍
+cs_team_join 17005 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+		leaderid	2 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 离开队伍
+cs_team_leave 17006 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 踢人
+cs_team_kick 17008 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+		memberid	2 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 快速加入队伍(如果没有就创建)
+cs_team_quick 17009 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 战斗
+cs_team_fight 17010 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+		ext			2 : integer 	#额外参数 
+	}
+	response {
+        ret 		0 : boolean
+    }
+}
+
+# 呼叫机器人
+cs_team_call_robot 17011 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+	}
+}
+
+#设置加入条件
+cs_team_condition 17012 {
+	request {
+		raidtype	0 : integer
+		level		1 : integer
+		needpower	2 : integer
+	}
+}

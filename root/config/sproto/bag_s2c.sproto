@@ -1,0 +1,78 @@
+.item_count_base {
+	id		0 : integer
+	count 	1 : integer
+}
+
+# 处理背包数据初始化
+sc_bag_init_data 401 {
+	request {
+		code	0 : integer
+		type	1 : integer # 0是其他物品 1是装备
+		datas 	2 : *item_data
+	}
+}
+
+# 处理添加背包格子数
+sc_bag_deal_valumn_add 402 {
+	request {
+		bagNum	0 : integer
+	}	
+}
+
+# 处理删除背包数据
+sc_bag_deal_delete_item 403 {
+	request {
+		type	0 : integer
+		handle	1 : integer
+	}	
+}
+
+# 处理添加背包数据
+sc_bag_deal_add_item 404 {
+	request {
+		type	0 : integer
+		data 	1 : item_data
+		showTip 2 : integer
+	}	
+}
+
+# 处理物品更新
+sc_bag_update_item_data 405 {
+	request {
+		type	0 : integer
+		handle	1 : integer
+		num 	2 : integer
+		showTip 3 : integer
+	}
+}
+
+sc_bag_user_item_back 406 {
+	request {
+		tipIndex	0 : integer
+	}	
+}
+
+# 取出仓库的装被
+sc_bag_get_treasure_equip 408 {
+	request {
+		handle		0 : *integer
+	}
+}
+
+# 处理装备熔炼返回结果
+sc_bag_deal_smelt_result 409 {
+	request {
+		state		0 : integer				
+		goldCount	1 : integer			
+		len			2 : integer	
+	}	
+}
+
+# 处理物品回收返回结果
+sc_bag_deal_recycle_result 410 {
+	request {
+		state		0 : integer				
+		goldCount	1 : integer			
+		len			2 : integer	
+	}	
+}
