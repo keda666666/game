@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShowPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="273">
+	<e:Group x="0" y="0">
+		<e:Image id="bGImage" source="ui_boss_bm_taizi" y="38" horizontalCenter="0" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="tianXiaDiYiImage" y="-6" source="" horizontalCenter="0"/>
+		<ns1:PetShowPanel id="zhengFaPanel" width="20" height="20" y="171" horizontalCenter="0"/>
+		<ns1:PetShowPanel id="tianXianPanel" width="0" height="0" y="44" x="-21"/>
+		<ns1:PetShowPanel id="weaponPanel" width="0" height="0" y="39" x="0"/>
+		<ns1:PetShowPanel id="petPanel" width="20" height="20" x="80" y="191"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="180" width="4" x="78" scaleX="1" scaleY="1"/>
+		<e:Label id="nameTxt" text="" y="221" style="l_yellow_1" size="26" textColor="0xAF2BB7" anchorOffsetX="0" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="lvTxt" text="" y="246" style="l_yellow_1" size="26" textColor="0xAF2BB7" anchorOffsetX="0" textAlign="center" horizontalCenter="0.5"/>
+		<e:Image id="xianWeiImage" y="142" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="soul" x="-23" y="20" scaleX="2.5" scaleY="2.5"/>
+</e:Skin>

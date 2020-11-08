@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingEscortItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="680"  height="200">
+	<e:Group id="item" x="0" y="0" height="200">
+		<e:Label id="labName" text="名字" size="22" horizontalCenter="12" top="7"/>
+		<e:Image id="imgIcon" source="ui_qj_bm_shashidi" bottom="26" horizontalCenter="0"/>
+		<ns1:DurationLabel id="durationLab" y="176" skinName="DurationLabelSkin" horizontalCenter="7"/>
+		<e:Label id="labPower" text="战力:33333" size="22" horizontalCenter="7" style="l_green" y="201"/>
+	</e:Group>
+</e:Skin>

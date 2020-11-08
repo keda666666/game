@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunupAttrSkin" currentState="full" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="273">
+	<w:Config id="1629529c48b"/>
+	<e:Group width="236" height="291" x="81.67" y="-18.34" anchorOffsetX="0" anchorOffsetY="0" x.full="242">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_star022" y="25" horizontalCenter="7.5" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="59" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="96" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="133" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="170" scaleX="1" scaleY="1" x="14" visible="false"/>
+		<e:Label id="starLv0" text="5" x="90" y="30" style="l_yellow_3" textColor="0xd54dc1" visible="false"/>
+		<e:Label id="text0" text="5" y="63" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" style="l_yellow_3" textColor="0x7ef9fa" verticalAlign="middle" horizontalCenter="0"/>
+		<e:Label id="text1" text="5" y="100.33" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0" textColor="0x7ef9fa"/>
+		<e:Label id="text2" text="5" y="138.01" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0" textColor="0x7ef9fa"/>
+		<e:Label id="skilltext0" text="5" y="174.35" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" textColor="0xf4fd02" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0" visible="false"/>
+		<e:Image id="skill0" width="20" height="20" x="18.67" y="177.33" visible="false"/>
+		<e:Label id="say0" text="5" y="210.35" anchorOffsetY="0" height="71" anchorOffsetX="0" width="204" textAlign="left" x="15" style="l_yellow_3" textColor="0x8a6747" visible="false"/>
+	</e:Group>
+	<e:Group width="236" height="291" x="394.67" y="-19" anchorOffsetX="0" visible.full="false" anchorOffsetY="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_star022" y="25" scaleX="0.8" scaleY="0.8" horizontalCenter="10.5" visible="false"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="59" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="96" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="133" scaleX="1" scaleY="1" x="14"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="33.33" width="208" source="ui_bm_jingyantiaobg" y="170" scaleX="1" scaleY="1" x="14" visible="false"/>
+		<e:Label id="starLv1" text="5" x="94" y="30" style="l_yellow_3" textColor="0xfb342f" visible="false"/>
+		<e:Label id="newtext0" text="5" y="63" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" style="l_yellow_3" textColor="0x7ef9fa" verticalAlign="middle" horizontalCenter="0"/>
+		<e:Label id="newtext1" text="5" y="100.33" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" textColor="0x7ef9fa" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0"/>
+		<e:Label id="newtext2" text="5" y="138.01" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0" textColor="0x7ef9fa"/>
+		<e:Label id="skilltext1" text="5" y="174.35" anchorOffsetY="0" height="24" anchorOffsetX="0" width="126" textAlign="center" textColor="0xf4fd02" style="l_yellow_3" verticalAlign="middle" horizontalCenter="0" visible="false"/>
+		<e:Image width="20" height="20" x="18.67" y="177.33" id="skill1" visible="false"/>
+		<e:Label id="say1" text="5" y="210.35" anchorOffsetY="0" height="71" anchorOffsetX="0" width="204" textAlign="left" x="15" style="l_yellow_3" textColor="0x8a6747" visible="false"/>
+	</e:Group>
+	<e:Label id="zdl" text="战斗力：+52622" y="49.33" visible.full="false" textColor="0x438529" style="l_yellow_3" x="283" visible="false"/>
+	<e:Image y="78.67" source="ui_bm_xianlvjiantou" visible.full="false" horizontalCenter="-1.5"/>
+</e:Skin>

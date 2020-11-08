@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MiniMapCityInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="117" height="91">
+	<w:Config id="1633e92cf14"/>
+	<e:Image id="cityName" source="ui_hddt_bm_wangcheng" scaleX="0.2" scaleY="0.2" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="typeImg" x="11" y="16" source=""/>
+	<e:ProgressBar id="pro" y="69" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2.5" skinName="bar0Skin" slideDuration="0"/>
+</e:Skin>

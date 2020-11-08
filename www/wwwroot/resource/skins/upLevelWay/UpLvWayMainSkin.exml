@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpLvWayMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164acf6e57d"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="6.06" y="96" anchorOffsetY="0" height="1180" anchorOffsetX="0" width="710.91" skinName="CommonWindowBg3Skin" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" height="721.67" title="提  示" anchorOffsetY="0" x="0" y="247" anchorOffsetX="0" width="720" touchEnabled="false" skinName="CommonDialog2Skin"/>
+	<e:Image source="ui_dt_bm_mingciBG" x="265" y="241" visible="false"/>
+	<e:BitmapLabel id="lbSort" y="301" font="font_ui_dati_fnt" text="" horizontalCenter="4.5" visible="false"/>
+	<e:Image y="384.66" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="472.34" width="602" x="57"/>
+	<e:Label text="等级不足,  可通过以下途径提升等级" x="155" y="341" fontFamily="Microsoft YaHei" size="26" textColor="0x6e330b" anchorOffsetX="0" width="423"/>
+	<e:Scroller id="scroller" width="590" height="458.9" anchorOffsetY="0" y="391.39" anchorOffsetX="0" horizontalCenter="-2" scrollPolicyH="off">
+		<e:List id="list" left="-1" right="1" top="0" bottom="-0.10000000000002274" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="UpLvWayItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

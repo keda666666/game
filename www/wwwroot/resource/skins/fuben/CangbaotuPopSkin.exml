@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CangbaotuPopSkin" width="130" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="2" y="2">
+		<e:Image id="imgReward" source="ui_fb_bm_baoxiang02" x="0" y="0"/>
+		<e:Group id="groupStar" y="118" x="24">
+			<e:Image id="imgStar1" source="ui_fb_bm_xingxing" x="0" y="0"/>
+			<e:Image id="imgStar2" source="ui_fb_bm_xingxing" y="0" x="27"/>
+			<e:Image id="imgStar3" source="ui_fb_bm_xingxing" x="54" y="0"/>
+		</e:Group>
+		<e:Image id="imgGet" source="ui_fb_bm_yilingqu" x="1" y="21" visible="false"/>
+		<e:Image id="imgSelect" source="ui_bm_xuanzhongkuang" x="0" y="3" visible="false"/>
+	</e:Group>
+</e:Skin>

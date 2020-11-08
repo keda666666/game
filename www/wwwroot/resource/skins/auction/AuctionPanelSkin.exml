@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AuctionPanelSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280" >
+	<w:Config id="1586b1383e3" />
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="650" source="ui_sbm_002" x="35" y="150" height="758"/>
+
+	<e:Group id="conGroup" x="38" y="164">
+		<e:Group x="25" y="4">
+			<e:Label text="拍卖商品" x="40" y="0" size="22" style="l_brown_1"/>
+			<e:Label text="当前竞价" x="252" y="0" size="22" style="l_brown_1"/>
+			<e:Label text="竞价" x="504" y="0" size="22" style="l_brown_1"/>
+		</e:Group>
+		<e:Scroller id="scroller" height="708" x="0" y="36" anchorOffsetY="0" scrollPolicyH="off">
+			<e:List id="auctionList" anchorOffsetY="0" x="-1" y="1" itemRendererSkinName="AuctionItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="selectGroup" x="37" y="961">
+		<e:Image scaleX="1" scaleY="1" y="3" source="ui_bm_jingyantiaobg" width="144" height="32"/>
+		<e:Label id="selectTxt" text="全 部" y="8" size="22" textAlign="center" horizontalCenter="-15" style="l_yellow_1"/>
+		<e:Image scaleX="1" scaleY="1" y="0" x="110" source="ui_pmh_bt_shang"/>
+	</e:Group>
+	<e:Group id="qualityGroup" x="37" y="714">
+		<e:Image scaleX="1" scaleY="1" y="0" source="ui_bm_jingyantiaobg" width="112" height="246" x="0"/>
+
+		<e:Group x="0" y="8">
+			<e:Label id="quality2Txt" text="蓝品质" size="24" name="2" height="36" width="112" textAlign="center" style="l_blue" textColor="0x6183f3"/>
+			<e:Image scaleX="1" scaleY="1" y="30" source="ui_pmh_bm_xian" x="10"/>
+		</e:Group>
+
+		<e:Group x="0" y="48">
+			<e:Label id="quality3Txt" text="紫品质" style="l_white" size="24" name="3" height="36" width="112" textAlign="center" textColor="0xc400fd"/>
+			<e:Image scaleX="1" scaleY="1" y="30" source="ui_pmh_bm_xian" x="10"/>
+		</e:Group>
+
+		<e:Group x="0" y="88">
+			<e:Label id="quality4Txt" text="橙品质" style="l_white" size="24" name="4" height="36" width="112" textAlign="center" textColor="0xd27701"/>
+			<e:Image scaleX="1" scaleY="1" y="30" source="ui_pmh_bm_xian" x="10"/>
+		</e:Group>
+
+		<e:Group x="0" y="128">
+			<e:Label id="quality5Txt" text="红品质" style="l_white" size="24" name="5" height="36" width="112" textAlign="center" textColor="0xdb0000"/>
+			<e:Image scaleX="1" scaleY="1" y="30" source="ui_pmh_bm_xian" x="10"/>
+		</e:Group>
+
+		<e:Group x="0" y="168">
+			<e:Label id="quality6Txt" text="我的竞价" y="0" size="24" name="6" height="36" width="112" textAlign="center" x="0" style="l_yellow_1"/>
+			<e:Image scaleX="1" scaleY="1" y="30" source="ui_pmh_bm_xian" x="10"/>
+		</e:Group>
+		<e:Group x="0" y="208">
+			<e:Label id="quality0Txt" text="全 部" y="0" size="24" name="0" height="36" width="112" textAlign="center" x="0" style="l_yellow_1"/>
+		</e:Group>
+	</e:Group>
+	<ns1:PageButton id="pageBtn" y="962" skinName="PageButtonSkin" x="268"/>
+	<e:Label id="recordTxt" text="成交记录" size="24" y="966" x="580" style="l_orange"/>
+	<e:Label id="tipTxt" text="暂无拍卖商品信息" y="500" size="36" style="l_brown_1" horizontalCenter="0"/>
+	<e:Label id="ratioTxt" text="我的额度：" size="25" y="920" style="l_orange" horizontalCenter="-1.5"/>
+	<e:Button id="helpBtn" label="Button" x="38" y="82" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

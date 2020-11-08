@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SmeltMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3b34b9"/>
+	<e:Image y="138" horizontalCenter="0.5" source="ui_sbm_002" width="651" anchorOffsetY="0" height="873.03"/>
+	<e:Image y="152" horizontalCenter="0" source="ui_bm_shuoming"/>
+
+
+
+	<e:List id="itemList" width="553" y="512" itemRendererSkinName="ItemSkin" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="数据1"/>
+				<e:Object label="数据2"/>
+				<e:Object label="数据3"/>
+				<e:Object label="数据4"/>
+				<e:Object label="数据5"/>
+				<e:Object label="数据6"/>
+				<e:Object label="数据7"/>
+				<e:Object label="数据8"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4"  horizontalGap="41" orientation="rows" rowHeight="90" verticalGap="47"/>
+		</e:layout>
+	</e:List>
+
+	<e:Group id="group" y="1025" anchorOffsetX="0" width="119" anchorOffsetY="0" height="37" x="270">
+		<e:CheckBox id="autocheck" label="自动熔炼" skinName="CheckBox0" x="-226" y="-586" scaleX="1" scaleY="1" anchorOffsetX="0" width="119"/>
+
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Button id="smeltBtn2" y="933" label="熔炼50件" x="430" skinName="BtnN2Skin"/>
+	<e:Button id="smeltBtn" y="933" label="熔炼" x="133" icon="ui_bt_03" skinName="BtnN3Skin"/>
+	<e:Label id="lbTips" text="容量超过上限百分之八十自动熔炼" y="1078" style="l_red" horizontalCenter="0" width="461" textAlign="center"/>
+
+	
+</e:Skin>

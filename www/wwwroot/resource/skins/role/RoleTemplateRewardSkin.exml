@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleTemplateRewardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163b5362f48"/>
+	<ns1:CommonWindowBg skinName="CommonWindowBg2Skin" title="进阶奖励"/>
+
+	<e:Image source="ui_jjjl_bg" y="146" horizontalCenter="0"/>
+	<e:Image y="309" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="690.67" width="529" x="158"/>
+	<e:Scroller height="690" x="22" y="310" width="135" anchorOffsetY="0">
+	<e:TabBar id="bar" x="49" y="1001" itemRendererSkinName="BtnTab2Skin" useVirtualLayout="false">
+		
+		<e:layout>
+			<e:VerticalLayout paddingLeft="4" gap="4" paddingTop="4"/>
+		</e:layout>
+	</e:TabBar>
+	</e:Scroller>
+	<e:Scroller height="681" x="158" y="313" width="538" anchorOffsetY="0">
+		<e:List id="list" x="49" y="1001" itemRendererSkinName="RoleTemplateRewardItemSkin">
+		
+		<e:layout>
+			<e:VerticalLayout paddingLeft="4" gap="1"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ArenaInfoSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<w:Config id="1586b1383e3" />
+	<e:Image scaleX="1" scaleY="1" source="ui_jjc_bm_ditu" y="150" x="36" locked="true"/>
+	<e:Group x="45" y="170" touchChildren="true" touchEnabled="false">
+		<ns1:ArenaRoleItem x="63" y="0" skinName="ArenaRoleItemSkin" id="role0"/>
+		<ns1:ArenaRoleItem id="role1" x="0" y="252" skinName="ArenaRoleItemSkin"/>
+		<ns1:ArenaRoleItem x="351" y="0" skinName="ArenaRoleItemSkin" id="role2"/>
+		<ns1:ArenaRoleItem x="409" y="252" skinName="ArenaRoleItemSkin" id="role3"/>
+		<ns1:ArenaRoleItem x="211" y="386" skinName="ArenaRoleItemSkin" id="role4"/>
+	</e:Group>
+
+	<e:Group x="441" y="884" width="192">
+		<e:Image x="0" y="0" source="ui_jjc_bm_gerenpaimingbg"/>
+		<e:Label text="第" x="50" y="20" style="l_white" size="22"/>
+		<e:BitmapLabel id="rankTxt" y="22" text="1123" letterSpacing="-2" font="font_ui_vip_fnt" horizontalCenter="1.5"/>
+		<e:Label text="名" x="125" y="20" size="22" style="l_white"/>
+		<ns1:PowerLabel id="myPower" text="战 0" y="60" skinName="PowerLabelSkin" horizontalCenter="-2"/>
+	</e:Group>
+	<e:Group x="450" y="806">
+		<e:Label text="剩余挑战次数：" x="0" y="4" style="l_white" size="22"/>
+		<e:Label id="countTxt" text="10" x="153" y="4" size="20" style="l_yellow_4"/>
+		<e:Label id="timeTxt" text="00:20:50" x="34" y="35" size="20" style="l_yellow_4"/>
+		<e:Button id="buyBtn" label="Button" x="186" y="0" skinName="Btn0Skin" icon="ui_bt_plue2"/>
+	</e:Group>
+	<e:Group x="44" y="881">
+		<e:Label id="cleanTxt" text="每天21点结算" x="0" y="42" style="l_yellow_4"/>
+		<e:List id="itemList" width="220" x="147" y="0" itemRendererSkinName="ItemSkin" anchorOffsetY="0" anchorOffsetX="0">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="数据1"/>
+				<e:Object label="数据2"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Button id="rankBtn" label="Button" x="59" y="783" skinName="Btn0Skin" icon="ui_jjc_bt_paiming"/>
+	<e:Button id="mallBtn" label="Button" x="148" y="784" skinName="Btn0Skin" icon="ui_jjc_bt_jingjishangdian"/>
+
+</e:Skin>

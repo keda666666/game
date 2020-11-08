@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnChatTypeSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="45" height="69">
+	<e:Image source="ui_bt_anniubg3" source.down="ui_bt_anniubg2" source.disabled="ui_bt_anniubg3" horizontalCenter="0" verticalCenter="-0.5" width="43"/>
+	<e:Label id="labelDisplay" text="{data.name}" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" size="22" textColor="0x805813" width="33" />
+</e:Skin>

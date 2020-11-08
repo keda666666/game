@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuQiTianAwardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="149" >
+	<e:Image width="640" height="151.67" x="0" y="0" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="tipsTxt" text="翅膀达到10阶" x="17" y="12" style="l_brown_1" size="22"/>
+	<e:Label id="tip2" text="明日开启" y="67" style="l_brown_1" size="22" horizontalCenter="232"/>
+	<e:List id="list" anchorOffsetY="0" itemRendererSkinName="ItemSkin" y="39" anchorOffsetX="0" width="432" height="130" x="4">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btn" label="领取" x="485.01" y="44.65" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN2Skin" width="131" height="60" visible="false"/>
+	<e:Image id="getted_img" source="ui_fb_bm_yilingqu" x="489" y="34" visible="false"/>
+
+</e:Skin>

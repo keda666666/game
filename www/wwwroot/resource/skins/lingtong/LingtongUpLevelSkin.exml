@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingtongUpLevelSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full,none" >
+	<w:Config id="163dd68bb83" source="ui_bm_jsbg"/>
+	<e:Image y="173" x="34" source="ui_bm_jsbg"/>
+    <ns1:PowerLabel id="powerLabel" skinName="PowerLabel3Skin" y="140" x="164"/>
+	<e:Image id="nameBg" y="218" anchorOffsetX="0" anchorOffsetY="0"  source="ui_bm_zuoqimingzibg" horizontalCenter="0" width="230" scale9Grid="45,5,55,30"/>
+	<e:Image x="492" y="332"  anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Image y="769" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" horizontalCenter="0" height="233" width="650"/>
+	<e:Group x="221" y="292">
+		<ns1:RoleShowPanel id="showPanel" width="0" height="0" y="230" x="139"/>
+	</e:Group>
+    			<e:ProgressBar id="bar" y="824" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" horizontalCenter="0" visible.full="false" visible.none="false">
+			<e:Skin>
+				<e:Image x="0" y="0"  width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2"  width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="479" text="0" x="63"/>
+			</e:Skin>
+			</e:ProgressBar>
+	<e:Label id="lbName" text="青龙" y="227" size="24"  width="176" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" horizontalCenter="0"/>
+	<e:Label id="lbLev" text="20" x="486" y="320" size="20"  lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xaa6a31"/>
+	<e:Group x="212" y="785" visible.full="false" visible.none="false">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+		<e:Label text="进阶进度" y="0" size="24" textAlign="center" x="100" style="l_brown_2"/>
+	</e:Group>
+	<e:Label id="lbFull" text="已满阶" y="861" size="30" bold="true"  horizontalCenter="0" includeIn="full,none" textColor="0xcc0000" text.none="未激活"/>
+	<e:Button id="btnSkin" x="48" y="229" icon="ui_bt_pifu" skinName="Btn0TipSkin" visible="false"/>
+	<e:Button id="btnAttrDrug" x="48" y="128" icon="ui_bt_shuxingdan" skinName="Btn0TipSkin"/>
+	<e:Button id="btn_juexing" x="585" y="613" icon="ui_bt_jinjiejuli" skinName="Btn0TipSkin" visible="false"/>
+	<e:Button id="btnCulture" x="109" y="915"    label="升阶" includeIn="normal"  skinName="BtnN3Skin"/>
+	<e:Button id="btnAuto" x="445" y="915" icon=""  label="自动升阶" includeIn="normal"  skinName="BtnN2Skin"/>
+	<e:CheckBox id="checkBox" x="450" y="861"   label="自动购买"  skinName="CheckBox0" visible.full="false" visible.none="false"/>
+	<ns1:ConsumeTwoLabel id="consumeLabel" x="54" y="864" visible.full="false" visible.none="false"/>
+	<e:Button id="btnRename" x="489" y="222" skinName="Btn0Skin" icon="ui_bt_gaiming" scaleX="1" scaleY="1" width="32" height="37"/>
+	<e:Group x="18" y="426" visible="false">
+		<e:Button id="btnShow" y="6" icon="ui_bt_zhanshi" x="0" skinName="Btn0TipSkin" width="82"/>
+		<e:Component id="skillComp" y="0" x="56" skinName="PetSkillIcon2Skin"/>
+	</e:Group>
+	<e:Scroller y="644" horizontalCenter="-0.5" maxWidth="593">
+	<e:List id="skillList"  itemRendererSkinName="PetSkillIcon2Skin">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="19" paddingTop="5"/>
+		</e:layout>
+	</e:List>
+	</e:Scroller>
+	<e:Group id="itemGroup" y="220" horizontalCenter="-2" visible="false">
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<ns1:DestinySItem skinName="DestinyItemSkin"/>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="2" horizontalGap="350" verticalGap="-13"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FormationDetailSkin" width="720" height="1280" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="active,normal" >
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" />
+	<e:Image y="173" source="ui_bm_jsbg" x="34" touchEnabled="false"/>
+	<ns1:PowerLabel id="powerLabel" y="240" x="164" skinName="PowerLabel2Skin"/>
+	<e:Group x="61" y="630">
+		<e:Image y="0" source="ui_bm_fengexian" width="598" x="0"/>
+		<e:Group width="100%" x="0" y="25">
+			<ns1:CmLabel y="0" text="进阶属性加成" text.active="激活属性加成" width="265" skinName="CmLabel2Skin" x="167"/>
+			<e:Label id="levelAttr" text="" y="40" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="0" y="110" visible.active="false">
+			<ns1:CmLabel y="0" text="阵魂属性加成"  width="265" skinName="CmLabel2Skin" x="167"/>
+			<e:Label id="soulAttr" text="" y="40" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="0" y="195" visible.active="false">
+			<ns1:CmLabel y="0" text="丹药属性加成"  width="265" skinName="CmLabel2Skin" x="167"/>
+			<e:Label id="medicineAttr" text="" y="40" horizontalCenter="0" size="22"/>
+		</e:Group>
+	</e:Group>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="421" x="358"/>
+</e:Skin>

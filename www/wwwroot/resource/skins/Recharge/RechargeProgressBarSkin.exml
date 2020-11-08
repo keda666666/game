@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeProgressBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="386" height="24" verticalCenter="0" source="ui_bm_jingyantiaobg"  x="0"/>
+	<e:Image id="thumb" source="ui_bm_zuoqijingyantiao" width="385" anchorOffsetX="0" height="24" verticalCenter="0" x="0"/>
+	<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" style="label01" textColor="0xe6f7e5"/>
+</e:Skin>

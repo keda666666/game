@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetInactiveSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280">
+	<w:Config id="162905526a9"/>
+	<e:Image y="270" x="34" source="ui_bm_jsbg"/>
+	<e:Image y="514" x="495" source="ui_cw_bm_weijihuo"/>
+	<e:Image y="811" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" horizontalCenter="0" height="191" width="650"/>
+	<e:Group y="393" horizontalCenter="0" height="37">
+		<e:Component id="lbName" skinName="PetNameSkin" horizontalCenter="0" x="-2" y="391" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lbPower" text="宠物总战力：999" x="41" y="780" size="24" fontFamily="Microsoft YaHei" textColor="0x835325"/>
+	<e:Label id="lbActive" text="已激活：9" x="499" y="780" size="24" fontFamily="Microsoft YaHei" textColor="0x835325" textAlign="right" width="185"/>
+	<e:Button id="btnSC" x="83" y="363" icon="ui_bt_tujian"  skinName="Btn0Skin"/>
+	<e:Button id="btnYuanfen" x="83" y="463" icon="ui_sj_bt_yuanfen" skinName="Btn0Skin"/>
+	<e:Image id="wuxingImg" x="494" y="441" source="ui_bm_huo"/>
+	<ns1:PowerLabel id="powerLabel" y="321" x="164" skinName="PowerLabel2Skin"/>
+	<e:Group x="212" y="822">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+		<e:Label text="宠物激活消耗" y="0" size="24" textAlign="center" style="l_brown_2" horizontalCenter="0.5" width="174"/>
+	</e:Group>
+	<ns1:GainLabel id="getwayLabel"  y="920"  x="342"/>
+	<e:Group id="startGroup" x="45" y="968" height="29">
+		<e:Label id="startLabel" text="洗练初始星级   5" y="5" size="20" textAlign="left" style="l_brown_2" x="0"/>
+		<e:Image width="25" height="25" x="153" y="0" source="ui_bm_star022"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="actBtn" label="激 活" x="404" y="866" skinName="BtnN2Skin" visible="false"/>
+	
+	<e:Scroller y="668" horizontalCenter="0.5" maxWidth="593">
+		<e:List id="skillList" itemRendererSkinName="PetSkillIconSkin">
+		
+		<e:layout>
+			<e:HorizontalLayout gap="7" paddingLeft="15" paddingRight="15" paddingTop="15"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+	</e:List>
+	</e:Scroller>
+	<e:Group width="0" height="0" y="631" horizontalCenter="13.5">
+			<ns1:PetShowPanel id="petShowPanel"/>
+		</e:Group>
+	<ns1:NeedItemView id="needItemView" x="125" y="852" scaleX="1" scaleY="1"/>
+	<e:Image id="imgShen" source="ui_tj_bm_shenchong" x="171" y="505"/>
+</e:Skin>

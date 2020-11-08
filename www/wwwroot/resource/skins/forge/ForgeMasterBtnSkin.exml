@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeMasterBtnSkin" width="103" height="126.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="masterBtn" skinName="Btn0Skin" anchorOffsetY="0" icon="ui_bt_qhds" y="13" x="9"/>
+	<e:Label id="masterLabel" text="(1/100)" size="18" textAlign="center" lineSpacing="24" anchorOffsetY="0" verticalAlign="middle" y="102" width="107" x="-1" style="l_green_2" textColor="0x4fcd4c"/>
+	<e:BitmapLabel id="rankLabel" height="20" x="-10" y="14" font="font_ui_dashi_fnt" text="0阶" width="58" textAlign="center"/>
+</e:Skin>

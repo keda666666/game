@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="1"/>
+	<e:Image width="642" height="313" y="330" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0"  horizontalCenter="0" visible="false"/>
+	<e:Image source="ui_cz_bm_ditu" y="150.32" horizontalCenter="0"/>
+	<e:Image x="38.96" y="160.33" source="ui_vip_bm_jidengBG"/>
+	<e:BitmapLabel id="vipLabel" y="180.01" font="font_ui_dati_fnt" text="4" scaleX="0.5" scaleY="0.5" horizontalCenter="-257.5" anchorOffsetX="0"/>
+	<e:Button id="btnRecharge" label="充值" x="547.01" y="176.31" skinName="Btn2Skin"/>
+	<e:Label id="tipLabel" text="再充值40元可成为VIP5" y="173.33" style="l_gray" borderColor="0x460009" border="false" strokeColor="0x460009" stroke="1" horizontalCenter="0" textColor="0x3bd3d3"/>
+	<e:ProgressBar id="bar" y="214" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="368" horizontalCenter="-6">
+		<e:Skin>
+		<e:Image x="0" y="0" width="368" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+		<e:Image id="thumb" x="2" y="2" width="364" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+		<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0"/>
+		</e:Skin>
+	</e:ProgressBar>
+	<e:Group y="287.6" horizontalCenter="0">
+		<e:Image y="12.4" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="12.4" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" scaleX="-1" x="322"/>
+		<e:Label id="vipLabel2" text="VIP1特权" y="0" style="l_brown_1" size="30" bold="true" anchorOffsetX="0" width="171" textAlign="center" x="76"/>
+	</e:Group>
+	<e:Image id="received" y="922.32" source="ui_vip_bm_yilingqu" horizontalCenter="0" visible="false"/>
+	<e:Button id="btnReceived" label="领取" y="1025.38" skinName="BtnN2Skin" horizontalCenter="0"/>
+	<e:Group y="320.54" anchorOffsetY="0" height="337" horizontalCenter="0">
+		<e:Label id="vipDes" text="1.神将商店，每日可刷新30 次\n1.神将商店，每日可刷新30 次aaaaa" anchorOffsetX="0" anchorOffsetY="0" lineSpacing="20" size="24" style="l_blue_2" textColor="0x6e330b" verticalCenter="0" horizontalCenter="0"/>
+		<e:Group x="0" verticalCenter="0">
+			<e:Button id="btnNext" y="8.34" x="599" skinName="BtnNextSkin" scaleX="-1"/>
+			<e:Button id="btnPrev" x="0" y="8.34" skinName="BtnNextSkin"/>
+			<e:Image id="redPoint1Img" source="ui_bm_reddot" x="0.33" y="0.01" touchEnabled="false"/>
+			<e:Image id="redPoint2Img" source="ui_bm_reddot" x="571.33" y="0" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="658" horizontalCenter="0">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_vip_bm_banner" x="2"/>
+		<e:Image y="0" source="ui_vip_bm_qizi" x="8"/>
+		<e:Label id="vipLabel3" text="vip1礼包" y="15" bold="true" size="30" textColor="0xfcf4db" style="l_brown_down" horizontalCenter="0"/>
+		<e:Group x="185" y="195">
+			<e:Image y="7" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="-4"/>
+			<e:Image y="5" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="294" scaleX="-1"/>
+			<e:Label text="礼包详情" y="2" horizontalCenter="-4" style="l_brown_1" textColor="0x6e330b" size="25" bold="true"/>
+		</e:Group>
+		<e:Group y="231.15" x="29">
+			<e:Scroller id="listScroll" y="0" anchorOffsetX="0" height="112" scrollPolicyV="off" horizontalCenter="0">
+			<e:List id="list0" y="-25.76" x="1.52" itemRendererSkinName="ItemSkin" maxWidth="500">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="5" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="rightBtn" x="599" y="26.85" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1"/>
+			<e:Button id="leftBtn" x="0" y="26.85" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+		</e:Group>
+		<e:Image id="giftImg" x="0" y="40" source="ui_vip_bm_mengdiechibang"/>
+		<e:Image id="tipsImg" x="204" y="64" source="ui_vip_bm_wenben_nvwo"/>
+	</e:Group>
+</e:Skin>

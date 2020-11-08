@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodPetActiveLotteryItemSkin" width="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="30">
+	<w:Config id="1586b1383e3" />
+
+
+
+	<e:Label id="labText" text="玩家名字六字 获得 特级技能石*1" y="4" style="l_orange" size="22" textColor="0x6e330b" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

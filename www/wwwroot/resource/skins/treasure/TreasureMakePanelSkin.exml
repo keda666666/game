@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureMakePanelSkin" width="720" height="870" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="gpHave" x="35" y="529">
+		<e:Image width="650" height="300" source="ui_sbm_002" x="0" y="35"/>
+		<e:Label id="lbAccount1" text="累计打造" x="7" y="6" style="l_brown_1" size="22"/>
+		<e:Label text="法宝图鉴" y="6" id="lbAccount2" textAlign="right" style="l_green" x="557" size="22" bold="true"/>
+		<e:Scroller width="640" height="297" y="35" x="6" maxWidth="650" scaleX="1" scaleY="1">
+		<e:List id="listView" itemRendererSkinName="TreasureHoldIconSkin" y="-1" x="1">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalAlign="center" horizontalGap="45"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<ns1:TreaMakeRect id="pMakeRect0" x="35" y="9" skinName="TreasureMakeRectSkin"/>
+	<ns1:TreaMakeRect id="pMakeRect1" x="383" y="9" skinName="TreasureMakeRectSkin"/>
+</e:Skin>

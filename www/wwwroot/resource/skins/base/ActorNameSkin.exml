@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActorNameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="23">
+	<e:Group id="title" anchorOffsetX="0" scaleX="1" scaleY="1" x="0" y="0">
+		<e:BitmapLabel id="lv" x="66" y="6" text="尊月V10" anchorOffsetX="0" verticalAlign="bottom" font="" letterSpacing="-6"/>
+		<e:Label id="label" text="玩家名字长度" x="110" scaleX="1" scaleY="1" style="l_white" verticalCenter="0" height="23" verticalAlign="middle" textAlign="center"/>
+		<e:layout>
+		<e:HorizontalLayout gap="2" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

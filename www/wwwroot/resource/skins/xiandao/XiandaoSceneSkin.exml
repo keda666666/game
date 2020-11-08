@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16369412bb8"/>
+	<ns1:CmLabel id="titleLabel" y="70" text="预选赛" skinName="CmLabel3Skin" horizontalCenter="0" width="178"/>
+	<e:Group id="rankGroup" x="1" y="122.68" width="260" height="253">
+		<e:Group id="infoGroup" x="0" y="1">
+			<e:Image x="0" y="12" width="260" height="240" source="ui_bm_xiangqing"  anchorOffsetY="0"/>
+			<e:Label text="积分排名" x="82" y="8" size="22" textColor="0xFAE9BF"/>
+			<e:Label text="排名        名称        积分" y="56" size="22" textColor="0xFAE9BF" x="18"/>
+			<e:Label id="rankLabel" text="1 暂\n	1 暂无\n	1 暂无" x="17" y="88" size="22" textColor="0xE1BC88" lineSpacing="9"/>
+			<e:Label id="rankValue" text="0\n	0\n	0" x="104" y="88" size="22" lineSpacing="9" width="133" textAlign="right" textColor="0x06FD28"/>
+			<e:Label id="myRank" text="未上榜" x="5" y="223" size="20" textColor="0xE1BC88" lineSpacing="4" width="254" textAlign="center"/>
+			<e:Label id="look" text="查看完整排名" x="64" y="183" size="22" textColor="0x06fd28"/>
+		</e:Group>
+		<e:Button id="arrBtn" skinName="Btn0Skin" icon="ui_zd_bt_shousuo" x="2" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group" width="100%" height="0" x="0" y="1005">
+		<e:Group width="100%" height="0" x="0" y="0">
+			<e:Image source="ui_bh_bm_zhaojiwenbenBG" scale9Grid="10,0,45,68" y="-61" scaleX="1" scaleY="1" left="-8" right="-6"/>
+			<e:Label id="timeLabel" text="下一场预计在秒后进行" y="-40" textColor="0xfdfdfd" borderColor="0x000000" strokeColor="0x6a3d27" stroke="2" size="22" width="461" textAlign="center" x="130"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

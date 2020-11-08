@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GainGoodsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="getway,shop" >
+	<w:Config id="1586bddbcf0"/>
+
+
+
+<ns1:CommonDialog id="commonDialog" height="580" title="获取材料" skinName="CommonDialogSkin" height.getway="417" anchorOffsetY="0" scaleX.getway="1" scaleY.getway="1" y.getway="330" x.getway="-1" horizontalCenter="0" verticalCenter="1"/>
+	<e:Image source="ui_sbm_002" y="436" width="607" height="266" horizontalCenter="0.5" horizontalCenter.getway="0.5" y.getway="513"/>
+
+
+
+
+	<e:Label id="nameTxt" text="强化石啊啊" y="470" textAlign="center" y.getway="540" textAlign.getway="center" x.getway="335" x="341" style="l_brown_1"/>
+	<ns1:ItemIcon id="itemIcon" y="464" skinName="ItemIconSkin" y.getway="536" x.getway="319" horizontalCenter="-88" horizontalCenter.getway="-88"/>
+	<ns1:PriceIcon id="price" y="517" skinName="PriceIconSkin" x="412" visible.getway="false"/>
+	<e:Label y="636" text="总价：" x="258" style="l_brown_1" visible.getway="false"/>
+	<e:Group x="279" y="577">
+		<e:TextInput id="countTxt" textColor="0x6e330b" text="1" maxChars="6" y="2" width="98" skinName="TextInputSkin2" x="33" visible.getway="false"/>
+		<e:Button id="decBtn" label="按钮" x="0" y="0" icon="ui_bt_jian" skinName="Btn0Skin" visible.getway="false"/>
+		<e:Button id="addBtn" label="按钮" x="123" y="0" skinName="Btn0Skin" icon="ui_bt_plue" visible.getway="false"/>
+	</e:Group>
+	<e:Button id="add10Btn" x="460" y="578" icon="ui_bt_jiashi" skinName="Btn0Skin" visible.getway="false"/>
+	<e:Button id="dec10Btn" x="199" y="578" icon="ui_bt_jianshi" skinName="Btn0Skin" visible.getway="false"/>
+	<ns1:PriceIcon id="totalPrice" x="332" y="634" skinName="PriceIconSkin" visible.getway="false"/>
+	<e:Button id="buyBtn" label="购  买" y="718" x="290" skinName="BtnN1Skin" visible.getway="false"/>
+	<e:Button id="dialogReturnBtn" label="Button" skinName="ReturnBtn" x="604" y="822" y.getway="639" x.getway="611" visible="false"/>
+	<e:Label text="单价:" x="341" y="517" style="l_brown_1" visible.getway="false"/>
+	<ns1:CmLabel id="lbAccount" text="其他获取途径" y="807"  horizontalCenter="0" horizontalCenter.getway="0" y.getway="669" skinName="CmLabel2Skin"/>
+	<e:Label id="recharge" text="前往充值" x="459" y="741" style="l_green" visible.getway="false"/>
+	<e:Label id="lbGo1" y="857" style="l_green" y.getway="733"  text=""   x="133"/>
+	<e:Label id="lbGo0" y="857" style="l_green" y.getway="733"  />
+	<e:Label id="lbGo2" y="857" style="l_green" y.getway="733"  text=""  />
+
+	
+
+</e:Skin>

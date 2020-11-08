@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CloudNineRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="164">
+	<w:Config id="16380ba1ada" />
+	<e:Group>
+		<e:Image source="ui_sbm_005" width="636" height="168" x="0" y="0"/>
+		<e:Group scaleX="1" scaleY="1" y="15" x="171">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="296" scaleX="-1"/>
+			<e:Label id="trank" text="第1名" y="-2" size="25" textAlign="center" x="71" style="l_brown_2" anchorOffsetX="0" width="152"/>
+		</e:Group>
+		<e:Label id="tname" text="帮派名六个字.S999" size="20" x="21" y="73" style="l_brown_1" textAlign="center" width="180"/>
+		<e:Label id="tscore" text="9999分" size="20" textAlign="center" x="50" y="110" style="l_brown_1" width="120"/>
+		<e:List id="list" anchorOffsetY="0" x="212" itemRendererSkinName="ItemSkin" y="48">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-9"/>
+			</e:layout>
+		</e:List>
+		<e:Image id="chenghaoImg" x="9" y="7" source="ui_ch_bm_xiandaozhizun" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

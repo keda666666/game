@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleJoinTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="470" title="提  示" anchorOffsetY="0" x="0" y="387" skinName="CommonDialog2Skin"/>
+	<e:Image y="480" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="260" width="520" x="100"/>
+	<e:Button id="btnConfirm" x="290" y="760"   label="确 定" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" width="140" anchorOffsetY="0" height="70"/>
+	<e:Group id="group1" x="154" y="520">
+		<e:Image source="ui_bh_bm_qizi" x="0" y="0"/>
+		<e:Label id="labAbbreviated1" text="名" size="58" horizontalCenter="-2" verticalCenter="-21.5"/>
+		<e:Label id="labGangName1" text="帮会名字六字" size="26" horizontalCenter="0" style="l_brown_1" y="160"/>
+	</e:Group>
+	<e:Group id="group2" x="410" y="520">
+		<e:Image source="ui_bh_bm_qizi" x="0" y="0"/>
+		<e:Label id="labAbbreviated2" text="名" size="58" horizontalCenter="-2" verticalCenter="-21.5"/>
+		<e:Label id="labGangName2" text="帮会名字六字" size="26" horizontalCenter="0" style="l_brown_1" y="160"/>
+	</e:Group>
+</e:Skin>

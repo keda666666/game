@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureLabelSkin" width="350" height="34" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label" text="xxx 获得 宠物进阶丹x200" x="13" size="24" style="l_brown_1" y="4"/>
+</e:Skin>

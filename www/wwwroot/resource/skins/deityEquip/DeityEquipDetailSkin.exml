@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeityEquipDetailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16482f6ecb7"/>
+	<e:Component skinName="BG2"/>
+	<e:Group verticalCenter="-17" horizontalCenter="1">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="ui_bm_tipsbg" top="0" bottom="-20" left="0" right="-20"/>
+		<e:Group y="19" horizontalCenter="11.5">
+			<e:Label text="神装注灵共鸣属性" x="106" y="0" style="l_yellow_4" size="26"/>
+			<e:Image y="39" source="ui_bm_shuomingfengexian" x="23"/>
+			<e:Group x="0" y="52">
+			<e:Label id="labAttrTotal" text="注灵总等级：100级（未激活）" x="0" y="0" style="label01" size="21"/>
+			<e:Label id="labInjectAttr0" text="生命：300" x="0" y="30" style="label01" size="21"/>
+			<e:Label id="labInjectAttr1" text="速度：10" x="0" y="60" style="label01" size="21"/>
+			<e:Label id="labInjectAttr2" text="无视防御：1000" x="230" y="31" style="label01" size="21"/>
+			<e:Label id="labInjectAttr3" text="减免防御：10" x="230" y="62" style="label01" size="21"/>
+			</e:Group>
+			<e:Group id="groupNext" x="0" y="150">
+			<e:Label id="labNextTotalAttr" text="下级：100级（未激活）" x="0" y="0" size="21" style="l_gray"/>
+			<e:Label id="labInjectNextAttr0" text="生命：300" x="0" y="30" size="21" style="l_gray"/>
+			<e:Label id="labInjectNextAttr1" text="速度：10" x="0" y="60" size="21" style="l_gray"/>
+			<e:Label id="labInjectNextAttr2" text="无视防御：1000" x="230" y="31" size="21" style="l_gray"/>
+			<e:Label id="labInjectNextAttr3" text="减免防御：10" x="230" y="62" size="21" style="l_gray"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="groupNum" x="30" y="274">
+			<e:Label text="神装连锁共鸣属性" y="0" style="l_yellow_4" size="26" horizontalCenter="9.5"/>
+			<e:Image y="37" source="ui_bm_shuomingfengexian" horizontalCenter="8"/>
+			<e:Label text="穿戴相应数量的神装可激活以下属性" x="0" y="44" style="label01" size="21"/>
+			<e:Label id="labAwake0" text="生命：2350" x="0" y="84" style="label01" size="21"/>
+			<e:Label text="防御：11351" x="0" y="124" style="label01" size="21" id="labAwake1"/>
+			<e:Label text="生命：2350" x="0" y="158" style="label01" size="21" id="labAwake2"/>
+			<e:Label text="防御：11351" x="0" y="195" style="label01" size="21" id="labAwake3"/>
+			<e:Label text="生命：2350" x="0" y="232" style="label01" size="21" id="labAwake4"/>
+			<e:Label text="防御：11351" x="0" y="272" style="label01" size="21" id="labAwake5"/>
+			<e:Label text="生命：2350" x="0" y="306" style="label01" size="21" id="labAwake6"/>
+			<e:Label text="防御：11351" x="0" y="343" style="label01" size="21" id="labAwake7"/>
+			<e:Label text="生命：2350" x="0" y="379" style="label01" size="21" id="labAwake8"/>
+			<e:Label text="防御：11351" x="0" y="416" style="label01" size="21" id="labAwake9"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

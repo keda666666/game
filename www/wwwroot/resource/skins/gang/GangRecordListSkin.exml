@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangRecordListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1634939a91c"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image width="650" height="853" x="36" y="147" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="644" height="846" x="38" y="148" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="recordlist" itemRendererSkinName="GangRecordListItemSkin" anchorOffsetX="0" anchorOffsetY="0" x="-1" y="-1">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="-6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureHoldIconSkin" width="126" height="145" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="dress,have" >
+	<e:Group x="-1" y="0">
+		<ns1:BaseCricleIcon id="baseCricle" x="16" y="15" skinName="TreasureBaseIconSkin"/>
+		<e:Image id="imgCover" source="ui_bm_weikaifang" x="16" y="15" visible.have="false"/>
+		<e:Image id="imgLock" source="ui_bt_suo" x="72" y="15" visible.dress="false"/>
+		<e:Group id="gpLv" x="72" y="71" visible.have="false">
+			<e:Image id="imgLvBg" source="ui_jn_bm_shuzhiBG" x="0" y="0"/>
+			<e:Label id="lbLv" text="10" y="10" size="22" textAlign="center" horizontalCenter.have="-1.5" horizontalCenter="-1.5"/>
+		</e:Group>
+		<e:Image source="ui_bm_jinengmingchenbg01" x="0" y="107"/>
+		<e:Label id="lbName" text="15级或v9" y="115" style="l_brown_1" textAlign="center" size="20" horizontalCenter="0" size.dress="18" horizontalCenter.dress="0.5" y.dress="118"/>
+		<e:Image id="imgSelect" source="ui_bm_jinengxuanzhekuang" visible.have="false" x="1" y="-1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingRevengeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" height="510" title="提  示" anchorOffsetY="0" x="0" y="375" skinName="CommonDialogSkin"/>
+	<e:Group x="50" y="467">
+		<e:Image width="620" height="280" x="0" y="0" source="ui_sbm_002"/>
+		<e:Group x="171" y="15" scaleX="1" scaleY="1">
+			<e:Image source="ui_bm_icon001" x="0" y="0"/>
+			<e:Image id="imgFace" x="5" y="6" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+		</e:Group>
+		<e:Group x="70" y="288">
+			<e:Button id="btnCancel" x="5" y="44"   label="取  消" scaleX="1" scaleY="1" height="60" width="150" skinName="BtnN3Skin"/>
+			<e:Button id="btnConfirm" x="315" y="44"   label="确  认" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+			<e:Label id="labTip" text="复仇成功可双倍取回奖励并全服公告" x="48" y="0" style="l_green" size="24"/>
+		</e:Group>
+		<e:Label id="labName" text="名称：玩家名字六字" x="275" y="15" style="l_brown_1" size="24"/>
+		<e:Label id="labPower" text="战力：123456789" x="275" y="50" style="l_brown_1" size="24"/>
+		<e:Label id="labGangName" text="帮会：库拉" x="275" y="85" style="l_brown_1" size="24"/>
+		<e:Group x="217.5" y="130">
+			<ns1:CmLabel id="labAwardTitle" text="取经奖励" x="-34" y="0"  skinName="CmLabel2Skin"  />
+		</e:Group>
+		<e:List id="list" y="170" anchorOffsetY="0" itemRendererSkinName="ItemSkin" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-3"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

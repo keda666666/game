@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HelpTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<e:Component skinName="BG2" />
+	<e:Group id="group" width="566" x="77" verticalCenter="-196">
+		<e:Component id="background" width="566" skinName="LittleBg3" x="0" top="0" bottom="0" height="200"/>
+		<e:Group x="11" y="28">
+			<e:Group width="545" y="0" x="0">
+				<e:Label id="txtTitle" y="-3" text="玩法说明" size="28" textColor="0xffddab" horizontalCenter="0.5"/>
+				<e:Image y="4" source="ui_bm_wenli" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group width="100%" x="274" y="222">
+				<e:Label id="textInfo" text="1. 这是玩法说明\n2. 这是玩法说明\n3. 这是玩法说明\n4. 这是玩法说明\n5. 这是玩法说明" size="22" lineSpacing="3" width="518" textColor="0xffddab" scaleX="1" scaleY="1" x="14"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="11" paddingBottom="30"/>
+			</e:layout>
+		</e:Group>
+
+
+	</e:Group>
+</e:Skin>

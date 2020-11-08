@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMinePanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="144" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="858" width="652" x="34"/>
+	<e:Image y="147" anchorOffsetX="0" anchorOffsetY="0" x="36" source="ui_hddt_bm_wakuangBG"/>
+	<e:Group y="155" x="258">
+		<e:Image y="0" source="ui_fb_bm_cangbaotuchengshubg" horizontalCenter="0"/>
+		<e:Label id="titleTxt" text="1号矿山" textAlign="center" y="5" style="l_red" size="26" horizontalCenter="5.5"/>
+	</e:Group>
+	<e:Group x="38" y="1010">
+		<e:Label text="本帮积分：" size="20" textAlign="center" x="0" y="0" style="l_brown_1"/>
+		<e:Label id="tscore" text="2000" size="20" textAlign="center" x="100" y="0" style="l_orange"/>
+		<e:Label text="本帮排名：" size="20" textAlign="center" x="236" style="l_brown_1" y="0"/>
+		<e:Label id="trank" text="99" size="20" textAlign="center" x="336" y="0" style="l_orange"/>
+	</e:Group>
+	<e:Group x="44" y="737">
+		<e:Button id="teamBtn" label="Button" x="0" y="0" skinName="Btn0Skin" icon="ui_hddt_bt_zudui"/>
+		<e:Button id="ranKBtn" label="Button" x="0" y="104" skinName="Btn0Skin" icon="ui_hddt_bt_paihang"/>
+		<e:Label text="连锁加成：" size="20" textAlign="center" x="4" y="202" stroke="2" style="label01"/>
+		<e:Label id="tliansou" text="20%" size="20" textAlign="center" x="108" y="202" stroke="2" style="l_yellow_1"/>
+		<e:Label text="挑战CD：" size="20" textAlign="center" x="4" y="230" stroke="2" style="label01"/>
+		<e:Label id="tcd" text="10秒" size="20" textAlign="center" x="96" y="230" stroke="2" style="l_yellow_1"/>
+	</e:Group>
+	<e:Group id="kuangGroup" x="142" y="274">
+		<ns1:GangMineKuangItem id="kuang0" x="173" y="328" skinName="GangMineKuangItemSkin"/>
+		<ns1:GangMineKuangItem x="71" y="202" skinName="GangMineKuangItemSkin" id="kuang1"/>
+		<ns1:GangMineKuangItem x="279" y="202" skinName="GangMineKuangItemSkin" id="kuang2"/>
+		<ns1:GangMineKuangItem x="71" y="442" skinName="GangMineKuangItemSkin" id="kuang3"/>
+		<ns1:GangMineKuangItem x="277" y="442" skinName="GangMineKuangItemSkin" id="kuang4"/>
+		<ns1:GangMineKuangItem x="179" y="582" skinName="GangMineKuangItemSkin" id="kuang5"/>
+		<ns1:GangMineKuangItem x="0" y="54" skinName="GangMineKuangItemSkin" id="kuang6"/>
+		<ns1:GangMineKuangItem x="179" y="0" skinName="GangMineKuangItemSkin" id="kuang7"/>
+		<ns1:GangMineKuangItem x="342" y="54" skinName="GangMineKuangItemSkin" id="kuang8"/>
+		<ns1:GangMineKuangItem x="360" y="596" skinName="GangMineKuangItemSkin" id="kuang9"/>
+	</e:Group>
+	<e:Group id="roleGroup" x="84" y="196">
+		<ns1:GangMineRoleItem id="role0" x="174" y="326" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role1" x="70" y="200" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role2" x="280" y="200" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role3" x="70" y="442" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role4" x="278" y="442" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role5" x="179" y="581" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role6" x="0" y="52" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role7" x="179" y="0" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role8" x="344" y="53" skinName="GangMineRoleItemSkin"/>
+		<ns1:GangMineRoleItem id="role9" x="360" y="596" skinName="GangMineRoleItemSkin"/>
+	</e:Group>
+	<ns1:PageButton id="pageBtn" y="1051" skinName="PageButtonSkin" horizontalCenter="13.5"/>
+</e:Skin>

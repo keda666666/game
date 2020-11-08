@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainChapterInfoSkin" width="245" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Group id="chapterInfo" width="212" height="110">
+		<e:Image source="ui_bm_text_bg2" x="0" y="0"/>
+		<e:Image id="imgMap" source="ui_bm_text_icom1" x="146" y="9" width="90" height="90"/>
+		<e:Image id="imgRed" source="ui_bm_reddot" x="217.02" y="0"/>
+		<e:Label id="lbMap" text="九幽峡谷" y="18" size="22" textColor="0x59462e" textAlign="center" horizontalCenter="-37"/>
+		<e:Label id="lbSeat" text="(168,188)" y="56" size="22" textColor="0xfffffe" textAlign="center" horizontalCenter="-32.5"/>
+		<e:Group id="groupLine" x="15" y="53" width="120" visible="false">
+			<e:Label id="labLinerNo" text="5线" x="53" y="0" style="l_white"/>
+			<e:Image id="imgPoint" source="ui_zc_bm_xian_hong" x="24" y="4" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GrowUpPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Group x="35" y="152">
+		<e:Image x="0" y="0" source="ui_yyhd_bm_chengzhangjijinBG"/>
+		<e:Button id="touziBtn" y="44"   label="投资元宝" skinName="BtnN2Skin" x="462"/>
+		<e:Label id="timeTxt" text="活动倒计时：12:50" y="134" size="22" style="label01" stroke="2" textAlign="right" right="9"/>
+		<e:Image id="flagImg" y="50" anchorOffsetX="0" anchorOffsetY="0" x="486" source="ui_yyhd_bm_yitouzi" scaleX="1" scaleY="1"/>
+		<e:Image y="168" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="680" width="652" x="0"/>
+		<e:Scroller x="4" anchorOffsetX="0" anchorOffsetY="0" y="172" height="672" scrollPolicyH="off">
+			<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" y="0" x="1" itemRendererSkinName="GrowUpItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

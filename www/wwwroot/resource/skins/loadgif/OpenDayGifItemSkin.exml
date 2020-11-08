@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenDayGifItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="149" >
+	<e:Image width="640" height="151.67" x="0" y="0" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="tip2" text="" y="89" style="l_brown_1" size="22" x="502" textAlign="center"/>
+	<e:List id="list" anchorOffsetY="0" itemRendererSkinName="ItemSkin" y="11" anchorOffsetX="0" width="315" height="130" x="133">
+		<e:ArrayCollection>
+
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btn" label="领取" x="485.01" y="71.65" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN2Skin" width="131" height="60"/>
+	<e:Image id="getted_img" source="ui_fb_bm_yilingqu" x="490" y="52" visible="false"/>
+	<e:Image id="mtzl" x="492" y="89" source="ui_dlsyb_bm_mingtianzailai" visible="false"/>
+	<ns1:ItemBase id="item" x="9" y="10"/>
+	<e:BitmapLabel id="tipsTxt" x="501" y="32" font="font_ui_denglvsongyuanbao_fnt"/>
+
+</e:Skin>

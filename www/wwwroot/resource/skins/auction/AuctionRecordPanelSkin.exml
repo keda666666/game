@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AuctionRecordPanelSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280" >
+	<w:Config id="1586b1383e3" />
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" title="活动"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="650" source="ui_sbm_002" x="35" y="150" height="850"/>
+
+	<e:Group id="conGroup" x="38" y="163">
+		<e:Group x="25" y="0">
+			<e:Label text="拍卖商品" x="0" y="0" size="22" style="l_brown_1"/>
+			<e:Label text="成交者" x="163" y="0" size="22" style="l_brown_1"/>
+			<e:Label text="成交价" x="327" y="0" size="22" style="l_brown_1"/>
+			<e:Label text="成交时间" x="489" y="0" size="22" style="l_brown_1"/>
+		</e:Group>
+		<e:Scroller height="799" x="0" y="33" anchorOffsetY="0" scrollPolicyH="off">
+			<e:List id="recordList" anchorOffsetY="0" x="1" itemRendererSkinName="AuctionRecordItemSkin" y="-1">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="tipTxt" text="暂无交易商品信息" y="500" size="36" style="l_brown_1" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+</e:Skin>

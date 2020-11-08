@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetTuJianSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16381a70d33"/>
+	<e:Image width="651" height="852.03" x="35" y="151" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="645.45" height="834.34" anchorOffsetY="0" y="158.59" anchorOffsetX="0" horizontalCenter="-0.5" scrollPolicyH="off">
+		<e:List id="List" left="0" right="0.4500000000000455" top="-174" bottom="174.34000000000003" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="PetTuJianItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="数据3"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="13"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

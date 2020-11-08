@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkillSetPanelSkin" width="650" height="860" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_sbm_002" width="650" height="860" x="0" y="0"/>
+		<e:Scroller width="640" height="840" y="10" x="5">
+		<e:List id="listView" itemRendererSkinName="RoleSkillSetSkinItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+					<e:Object dd="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

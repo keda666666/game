@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyChargeGiftSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f2b25cf9"/>
+	<ns1:CommonDialog id="commonDialog" height="766" title="提  示" anchorOffsetY="0" x="0" y="233" skinName="CommonDialog2Skin" scaleX="1"/>
+	<e:Image source="ui_mrhl_bm_bj" x="51" y="295" scaleX="0.99" scaleY="1"/>
+	<e:List id="list" anchorOffsetX="0" anchorOffsetY="0" y="569" x="333" itemRendererSkinName="ItemSkin" scaleX="0.95" scaleY="0.95" width="340">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:TileLayout orientation="rows" horizontalGap="2" verticalGap="-15"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btnBuy" x="417" y="832"   label="点击领取" skinName="BtnN2Skin"/>
+	<e:Label id="labChargeTip" text="今日已充值：99元" y="918" size="24" stroke="2" style="l_yellow_1" horizontalCenter="140.5"/>
+</e:Skin>

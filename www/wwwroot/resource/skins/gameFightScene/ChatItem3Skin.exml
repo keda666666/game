@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatItem3Skin" currentState="info" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="546"  >
+	<e:Label text="[呵][人名]这是一段聊天内容这是一段聊" size="26"  touchEnabled="false" textAlign="left" width="464" x="75" wordWrap="false" multiline="false" anchorOffsetX="0" anchorOffsetY="0" lineSpacing="5"  style="l_brown_1" y="3" visible="false"/>
+	<e:Image y="0" id="flagImg" x="0" source="ui_lt_bm_xitong"/>
+	<ns1:ChatLabel id="roleNameTxt" top="10" bottom="10" maxWidth="400" x="79"/>
+</e:Skin>

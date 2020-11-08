@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyShowInfoSkin" width="560" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image width="560" height="80" source="ui_sbm_005" x="0" y="0"/>
+		<e:Label id="lbFight" text="战力+99999" y="10.56" verticalAlign="middle" textAlign="center" style="l_brown_1" x="299" size="26"/>
+		<e:Label id="nameLabel" text="羽毛" y="9" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="26" left="15" style="l_brown_1"/>
+		<e:Label id="lbInfo0" text="属性" style="l_brown_1" x="10" bottom="10" left="15"/>
+		<e:Label id="lbInfo1" text="属性" x="299" style="l_brown_1" y="44"/>
+	</e:Group>
+</e:Skin>

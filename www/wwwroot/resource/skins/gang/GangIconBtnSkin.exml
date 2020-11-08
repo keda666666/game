@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangIconBtnSkin" states="up,down,disabled" width="117" height="107"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" source=""/>
+	<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" fontFamily="Tahoma 'Microsoft Yahei'" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center"/>
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="redPoint" horizontalCenter="40.5" verticalCenter="-35.5" source="ui_bm_reddot" visible="false"/>
+	
+</e:Skin>

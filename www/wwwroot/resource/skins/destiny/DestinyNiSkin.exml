@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyNiSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164822bd81b"/>
+	<e:Group id="gMain" y="169.68" horizontalCenter="0" width="650">
+		<e:Image id="uiBg1" source="ui_sbm_002" y="0" width="650" height="160" x="0"/>
+		<e:Label text="逆命概率获得:" x="10" y="11" style="l_brown_1"/>
+		<e:Label id="lbMore" text="更多奖励" x="185" y="11" style="l_green_1"/>
+		<e:List id="listView" height="141" y="42" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" x="6">
+		<e:layout>
+			<e:HorizontalLayout gap="-2"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+		<e:Label id="lb0" text="玩家名6个字获得命格名称" y="7" style="l_brown_1" size="20" right="12" x="406" scaleX="1" scaleY="1"/>
+		<e:Label text="玩家名6个字获得命格名称" y="37.900000000000006" style="l_brown_1" id="lb1" size="20" right="12" x="406" scaleX="1" scaleY="1"/>
+		<e:Label text="玩家名6个字获得命格名称" y="67.8" style="l_brown_1" id="lb2" size="20" right="12" x="406" scaleX="1" scaleY="1"/>
+		<e:Label text="玩家名6个字获得命格名称" y="98.69999999999999" style="l_brown_1" id="lb3" size="20" right="12"/>
+		<e:Label text="玩家名6个字获得命格名称" y="129.3" style="l_brown_1" id="lb4" size="20" right="12"/>
+		<e:Image y="174" horizontalCenter="0" source="ui_lt_bm_db" x="0" scaleX="1" scaleY="1"/>
+		<e:Scroller width="617" height="366" x="15" y="216" scrollPolicyH="off" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="ItemSkin">
+				
+				<e:layout>
+					<e:TileLayout requestedColumnCount="5" horizontalGap="17"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="gInfoLabel" text="逆命0次" y="189" style="l_white" stroke="2" size="20" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnBuy1" label="逆命50次" y="883.78" skinName="BtnN2Skin" horizontalCenter="0"/>
+	<e:Button id="btnBuy2" label="点亮混元" y="883.78" skinName="BtnN2Skin" x="527"/>
+	<e:Button id="btnBuy0" label="逆命1次" y="882.78" skinName="BtnN3Skin" x="31"/>
+	<e:Group x="30" y="775" width="680">
+		<e:Group y="0" x="0">
+			<e:Image id="imgBg" source="ui_bm_icon001" y="0" x="0"/>
+			<e:Image source="ui_mg_bm_jiantou" x="95" y="34"/>
+			<e:Image id="imgGet0" source="ui_mg_bm_daluo" x="4.6" y="8.7"/>
+		</e:Group>
+		<e:Group x="141.7" y="0">
+			<e:Image id="imgBg0" source="ui_bm_icon001" y="0" x="0"/>
+			<e:Image source="ui_mg_bm_jiantou" x="95" y="34"/>
+			<e:Image id="imgGet1" source="ui_mg_bm_daluo" x="4.6" y="8.7"/>
+		</e:Group>
+		<e:Group x="283.4" y="0">
+			<e:Image id="imgBg1" source="ui_bm_icon001" y="0" x="0"/>
+			<e:Image source="ui_mg_bm_jiantou" x="95" y="34"/>
+			<e:Image id="imgGet2" source="ui_mg_bm_daluo" x="4.6" y="8.7"/>
+		</e:Group>
+		<e:Group x="424.1" y="0">
+			<e:Image id="imgBg2" source="ui_bm_icon001" y="0" x="0"/>
+			<e:Image source="ui_mg_bm_jiantou" x="95" y="34"/>
+			<e:Image id="imgGet3" source="ui_mg_bm_daluo" x="4.6" y="8.7"/>
+		</e:Group>
+		<e:Group y="0" x="566">
+			<e:Image id="imgBg3" source="ui_bm_icon001" y="0" x="0"/>
+			<e:Image id="imgGet4" source="ui_mg_bm_daluo" x="4.6" y="8.7"/>
+		</e:Group>
+		<e:Group y="0" x="680"/>
+	</e:Group>
+	<ns1:PriceIcon id="priceIcon1" y="964.78" anchorOffsetY="0" height="30" horizontalCenter="-250"/>
+	<ns1:PriceIcon y="964.78" anchorOffsetY="0" height="30" id="priceIcon0" horizontalCenter="250"/>
+	<e:Image width="1" height="20" y="1098" horizontalCenter="0"/>
+	<e:Group id="effGroup" width="0" height="0" x="643" y="822"/>
+</e:Skin>

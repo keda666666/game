@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonFuHuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Component width="100%" horizontalCenter="0" skinName="BG2" height="100%"/>
+	<e:Group id="fuhuo" width="100%" height="100%">
+		<e:Group width="365" height="136" y="468.7" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-7.5">
+		<e:Label id="fuhuoTime" text="复活倒计时：" y="-14" style="label01" size="24" horizontalCenter="0"/>
+		<ns1:PriceIcon id="fuhuoPrice" xmlns:ns1="*" y="23" horizontalCenter="0"/>
+		<e:Button id="fuhuoBnt" label="立即复活" y="66" skinName="BtnN2Skin" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group> 
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianlvInactiveSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="162952cb17a"/>
+	<e:Group id="group" x="0" y="305" width="720">
+		<e:Component id="baseView" skinName="XianlvBaseSkin"/>
+		<e:Group x="212" y="517">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+			<e:Label text="仙侣激活消耗" y="0" size="24" textAlign="center" style="l_brown_2" horizontalCenter="0.5" width="174"/>
+		</e:Group>
+		<ns1:GainLabel id="getwayLabel" y="635" horizontalCenter="125.5"/>
+		<ns1:NeedItemView id="needItemView" x="130" y="566" scaleX="1" scaleY="1"/>
+		<e:Button id="btnYuanfen" x="82" y="153" icon="ui_sj_bt_yuanfen" skinName="Btn0Skin" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="actBtn" label="激 活" x="404" y="881" skinName="BtnN2Skin"/>
+</e:Skin>

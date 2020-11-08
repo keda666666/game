@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliMonthlyCardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163c9a5a7c8"/>
+	<e:Image id="logo" source="ui_fldt_bm_yuekaBanner" x="34" y="273"/>
+	<e:Image id="bg" width="651" height="560" x="35" y="440" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="660.62" height="576.11" x="38.92" y="438.31" anchorOffsetX="0" anchorOffsetY="0" rotation="359.87">
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" height="559.32" y="-4.55" rotation="359.99">
+			<e:Group id="l0" x="-0.04" y="164" scaleX="1" scaleY="1" anchorOffsetX="0">
+				<e:Image id="bg2" source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="29" anchorOffsetX="0" width="643" anchorOffsetY="0" height="182"/>
+				<e:Image source="ui_fldt_bm_yuanbao" x="21" y="0"/>
+				<e:Label text="元宝领不停" x="19" y="42" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei"/>
+				<e:Group x="321" y="52.8">
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="0"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="48.6"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="98.4"/>
+				<e:Label id="lab0" text="购买立即获得" y="8.7" size="22" textColor="0x6e330b" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+				<e:Label id="lab1" text="购买立即获得" y="57.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+				<e:Label id="lab2" text="购买立即获得" y="107.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group x="-0.04" y="349" id="l1" scaleX="1" scaleY="1">
+				<e:Image id="bg0" source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="29" anchorOffsetX="0" width="643" anchorOffsetY="0" height="182"/>
+				<e:Image x="21" y="0" source="ui_fldt_bm_yinliangtisheng"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="333" y="151.2" visible="false"/>
+				<e:Label text="成长加速" x="19" y="42" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+				<e:Group x="322" y="72.75">
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="0"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="48.6"/>
+				<e:Label text="购买立即获得" y="9.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" id="lab3" horizontalCenter="0"/>
+				<e:Label text="购买立即获得" y="59.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" id="lab4" horizontalCenter="0"/>
+				</e:Group>
+				<e:Label id="lab9" text="购买立即获得" x="329" y="156.5" size="22" textColor="0x6E330B" anchorOffsetX="0" width="283.5" textAlign="right" visible="false"/>
+			</e:Group>
+			<e:Group x="0.07" y="356" id="l2" scaleX="1" scaleY="1">
+				<e:Image id="bg1" source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="29" anchorOffsetX="0" width="643" anchorOffsetY="0" height="182"/>
+				<e:Image x="21" y="0" source="ui_fldt_bm_beibaokuozhan"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="333" y="151.2" visible="false"/>
+				<e:Label text="背包扩展" x="19" y="42" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+				<e:Group x="322" y="71.42">
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="0"/>
+				<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="48.6"/>
+				<e:Label id="lab5" text="购买立即获得" y="9.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+				<e:Label id="lab6" text="购买立即获得" y="58.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+				</e:Group>
+				<e:Label text="购买立即获得" x="329" y="156.5" size="22" textColor="0x6E330B" anchorOffsetX="0" width="283.5" textAlign="right" id="lab8" visible="false"/>
+			</e:Group>
+			<e:Group x="0" y="-21" id="l3" scaleX="1" scaleY="1">
+				<e:Image id="bg3" source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="29" anchorOffsetX="0" width="643" anchorOffsetY="0" height="182"/>
+				<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="87.98" height="87.33" itemRendererSkinName="GangFuBenAwardItemSkin" horizontalCenter="2">
+					<e:layout>
+					<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+					</e:layout>
+				</e:List>
+				<e:Label text="首次购买月卡可额外获得豪华大礼" x="19" y="42.95" size="22" textColor="0x6e330b" fontFamily="Microsoft YaHei"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Group x="38" y="415">
+	</e:Group>
+	<e:Button id="buyBtn" x="277.66" y="1028.01"   label="购买" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+	<e:Label id="dayLabel" text="剩余有效期" x="251" y="1048" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="27" anchorOffsetX="0" width="292"/>
+</e:Skin>

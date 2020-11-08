@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1628b2b543e"/>
+	<e:Group id="group" x="35" y="312">
+		<e:Image y="300" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="400" width="650" x="0"/>
+		<e:Button id="btnInfo" label="Button" x="439" y="590" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+		<e:Image y="314" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="172"/>
+		<e:Image y="314" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="480" scaleX="-1"/>
+		<e:Image y="64" anchorOffsetX="0" anchorOffsetY="0" x="40" source="ui_cw_bm_wenli"/>
+		<e:Label text="宠物被动技能" y="308" style="l_brown_2" x="247"/>
+		<e:Component id="skillIcon" x="424" y="117" skinName="PetSkillIcon2Skin"/>
+		<e:Image y="173" anchorOffsetX="0" anchorOffsetY="0" x="418" source="ui_bm_zhu"/>
+		<e:Image id="img01" y="56" anchorOffsetX="0" anchorOffsetY="0" x="22" source="ui_bm_huo"/>
+		<e:Label id="label01" text="100" x="79" y="72" style="l_brown_2" visible="false"/>
+		<e:Label id="skillDesc" text="100" x="314" y="248" style="l_brown_2" size="22" width="315" textAlign="center"/>
+		<ns1:PowerLabel id="powerLabel" y="0" x="129" skinName="PowerLabel2Skin"/>
+		<e:Group id="starGroup" y="604" x="214">
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="30" y="30" source="ui_bm_star022" width="30" height="30"/>
+			<e:layout>
+			<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="goBtn" label="洗练" y="636" skinName="BtnN2Skin" scaleX="0.9" scaleY="0.9" horizontalCenter="0"/>
+		<e:List id="skillGroup" width="200" height="200" x="50" y="345" itemRendererSkinName="PetSkillIcon2Skin" scaleX="1" scaleY="1">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalGap="120" verticalGap="5"/>
+			</e:layout>
+		</e:List>
+		<e:Component id="lbName" skinName="PetNameSkin" horizontalCenter="-184" x="-2" y="265" scaleX="1" scaleY="1"/>
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="144" y="261"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseBuildSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163ee545dae"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<ns1:CmLabel id="cmLabName" x="269" y="174" skinName="CmLabel3Skin" width="180" scaleX="1" scaleY="1"/>
+	<e:Image id="imgIcon" source="ui_fw_bm_fangzi05" scaleX="1" scaleY="1" horizontalCenter="-7" bottom="709"/>
+	<e:Group x="35" y="650">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="282" width="650" x="0" scaleX="1" scaleY="1"/>
+		<e:Group id="groupBuild" x="50" y="20">
+			<e:Label text="请选择装修档次" x="38" y="8" style="l_brown_1"/>
+			<ns1:ConsumeTwoLabel id="consumeLabel" x="328" y="0"/>
+			<e:Label id="labName" text="四合大院" y="65" size="30" style="l_orange" bold="true" x="69"/>
+			<e:Button id="btnNext" y="59" x="257" skinName="BtnNextSkin" scaleX="-1"/>
+			<e:Button id="btnPrev" x="0" y="59" skinName="BtnNextSkin" scaleX="1" scaleY="1"/>
+			<e:Label text="战力直升：" x="11" y="124" style="l_brown_1"/>
+			<e:Label id="labPower" text="8899" x="140" y="124" style="l_green_1"/>
+			<e:Button id="btnBuild" x="195" y="179"   label="装  修" skinName="BtnN2Skin"/>
+			<ns1:ItemBaseNotName id="item1" x="325" y="43" scaleX="1" scaleY="1"/>
+			<ns1:ItemBaseNotName id="item2" x="441" y="43" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="labMaxGrade" text="房屋已是最高档" horizontalCenter="-6" verticalCenter="0" style="l_red" size="30" visible="false"/>
+	</e:Group>
+	<e:Label text="温馨提示：" x="35" y="947" style="l_brown_1" size="22"/>
+	<e:Label text="装修后阶数保留，伴侣的房屋品质若是低于该档，则提升至该档" x="138" y="947" style="l_brown_1" size="22" width="540" textColor="0x693424"/>
+</e:Skin>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunupStarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="1629529c48b"/>
+
+
+	<e:Group id="group" x="0" y="305" width="720">
+		<e:Image source="ui_xj_bm_beijing01_png" y="440.67" anchorOffsetY="0" height="265" x="34"/>
+		<e:Component id="baseView" skinName="XianJunupStarBaseSkin" locked="true"/>
+		<ns1:XianlvupAttr id="XianJunupAttr" y="290" x="0" skinName="XianJunupAttrSkin" locked="true"/>
+		<e:Label text="星君已满星" y="627.66" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" visible.normal="false" x="285.97"/>
+		<e:Group y="585" visible.full="false" x="58" anchorOffsetY="0" height="135" locked="true">
+			<e:Button id="btnCulture" y="60.34"   label="提升" skinName="BtnN4Skin" x="244"/>
+			<ns1:NeedItemView id="needItemView" x="-0.66" y="5.3" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image x="451" y="23" source="ui_bm_xianlvjiantou" visible="false"/>
+			<e:Group width="94" height="94" x="350" y="-1" visible="false">
+				<e:Component id="curSkill" x="0" y="0" skinName="PetSkillIconSkin" scaleX="1" scaleY="1"/>
+				<e:Label id="curStarNum" text="3" x="31" y="-7" size="22" style="l_white" textColor="0xFFFFFF" scaleX="1" scaleY="1" stroke="3" strokeColor="0x350909"/>
+				<e:Image x="44" y="-9" source="ui_bm_star022" width="22" height="22" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="94" height="94" x="526" y="-1" locked="true" visible="false">
+				<e:Component id="nextSkill" x="0" y="0" skinName="PetSkillIconSkin" scaleX="1" scaleY="1"/>
+				<e:Label id="nextStarNum" text="3" x="31" y="-7" size="22" style="l_white" textColor="0xFFFFFF" scaleX="1" scaleY="1" stroke="3" strokeColor="0x350909"/>
+				<e:Image x="44" y="-9" source="ui_bm_star022" width="22" height="22" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="ui_jm_bm_tupo01" x="317" y="448"/>
+		<e:Image source="ui_jm_bm_tupo01" x="435" y="456"/>
+		<e:Image source="ui_jm_bm_tupo01" x="528" y="479"/>
+		<e:Image source="ui_jm_bm_tupo01" x="573" y="528"/>
+		<e:Image source="ui_jm_bm_tupo01" x="471" y="573"/>
+		<e:Image source="ui_jm_bm_tupo01" x="330" y="572"/>
+		<e:Image source="ui_jm_bm_tupo01" x="195" y="551"/>
+		<e:Image source="ui_jm_bm_tupo01" x="125" y="507"/>
+		<e:Image source="xingjun_json.ui_xj_bm_xingxing" x="154" y="439"/>
+	</e:Group>
+	<e:Group id="consume" width="200" height="200" x="236" y="598">
+		<e:Image source="xingjun_json.ui_xj_bm_db02" y="312" x="-69"/>
+		<ns1:ConsumeTwoLabel id="consumeLabel" y="311.33000000000004" skinName="ConsumeThreeLabelSkin" x="15" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

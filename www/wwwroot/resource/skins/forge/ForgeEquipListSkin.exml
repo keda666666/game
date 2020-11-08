@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeEquipListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16271c48fd2" x="67"/>
+	<e:Image y="185" horizontalCenter="0.5" anchorOffsetY="0" source="ui_bm_duanzaowenli"/>
+	<e:Group id="itemGroup" x="73" y="167">
+		<e:Component x="245" y="0" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="397" y="48" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="490" y="177" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="490" y="337" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="397" y="466" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="245" y="515" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="93" y="466" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="0" y="337" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="0" y="177" skinName="ForgeEquipItemSkin"/>
+		<e:Component x="93" y="48" skinName="ForgeEquipItemSkin"/>
+	</e:Group>
+
+	<e:Image y="439" horizontalCenter="0.5" source="ui_bm_shujubg" anchorOffsetY="0" height="153"/>
+	<e:Image y="839" horizontalCenter="0.5" anchorOffsetY="0" height="162" source="ui_sbm_002" width="649"/>
+	<e:Group id="upGroup" x="233" y="867" width="370">
+		<e:Label id="getwayLabel" text="获取方式" x="264" y="67" size="24" textAlign="left" lineSpacing="24" anchorOffsetY="0" verticalAlign="middle" style="l_green" />
+		<e:Button id="onKeyBtn" label="一键强化" y="47" skinName="BtnN2Skin" x="46"/>
+		<ns1:ConsumeLabel id="consumeLabel" y="0" horizontalCenter="-58"/>
+	</e:Group>
+	<e:Label id="fullLabel" text="已经升至满级" y="905" size="28" textColor="0x52361A" bold="true" horizontalCenter="0" visible="false"/>
+	<ns1:PowerLabel id="powerLabel" skinName="PowerLabel2Skin" horizontalCenter="0" y="351"/>
+	<e:Component id="masterBtn" skinName="ForgeMasterBtnSkin" y="144" horizontalCenter="262" anchorOffsetY="0" />
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamBaseMemberSkin" width="632" height="368" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="teamInfoGroup"  touchChildren="true" touchEnabled="false">
+		<e:Label id="noneLabel" text="暂无队伍信息" x="15" y="105" anchorOffsetX="0" width="617" size="26" textAlign="center" style="l_brown_1"/>
+		<e:List id="myTeamList" anchorOffsetY="0" itemRendererSkinName="TeamMemberItemSkin" anchorOffsetX="0" y="0" x="0">
+			<e:layout>
+			<e:HorizontalLayout paddingRight="0" gap="11" paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+		<e:List id="teamList" anchorOffsetY="0" itemRendererSkinName="TeamDataItemSkin" anchorOffsetX="0" y="0" x="0">
+			<e:layout>
+			<e:HorizontalLayout paddingRight="0" gap="11" paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+		<e:Group x="60" y="250" touchChildren="true" touchEnabled="false" width="571">
+			<e:Button id="btnCulture" x="0" y="44"   label="退出房间" skinName="BtnN3Skin"/>
+			<e:Button id="btnAuto" x="363" y="44" icon="" label="开始挑战" skinName="BtnN2Skin"/>
+			<e:CheckBox id="checkBox1" y="-2" label="60秒自动开启副本" skinName="CheckBox0" x="320"/>
+			<e:Label id="count_label" text="剩余收益次数" y="59" size="20" style="l_brown_1" width="175" textAlign="center" x="176"/>
+			<e:CheckBox id="checkBox0" x="-43" y="-3" label="满员自动开启副本" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="noneInfoLabel" text="" y="141" anchorOffsetX="0" width="617" size="28" textAlign="center" horizontalCenter="0" style="l_red"/>>
+</e:Skin>

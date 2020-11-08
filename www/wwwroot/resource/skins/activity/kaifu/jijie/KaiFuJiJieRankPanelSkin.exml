@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuJiJieRankPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163edd3449f"/>
+	<e:Group y="271" width="652" horizontalCenter="0" height="729">
+		<e:Image width="100%" height="100%" x="0" y="0" source="ui_sbm_002"/>
+		<e:Image width="327" height="291" x="318" y="51" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image y="43" source="ui_jjkh_bm_fengexian" width="608" horizontalCenter="0"/>
+		<e:Image x="318" y="87" source="ui_jjkh_bm_fengexian"/>
+		<e:Image id="title_img" horizontalCenter="208" bottom="437" source=""/>
+		<e:Image x="318" y="229" source="ui_jjkh_bm_fengexian"/>
+		<e:Label text="基础奖励" x="436" y="60.66" style="l_brown_1" size="22"/>
+		<e:Label id="time_txt" text="活动倒计时：12：25：01" x="12" y="11" size="22" style="l_brown_1"/>
+		<e:List id="list0" anchorOffsetY="0" itemRendererSkinName="ItemSkin" y="94" width="358" height="130" x="329" scaleX="0.92" scaleY="0.92">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="1"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="lv_txt" text="当前翅膀阶数：7 阶" y="11" style="l_brown_1" size="22" x="290"/>
+		<ns1:GetwayLabel id="getwayLabel" text="前往升阶" x="542" y="10"  enabled="true" skinName="GetwayLabelSkin"/>
+		<ns1:ItemBaseNotName id="item" x="329" y="237" scaleX="0.92" scaleY="0.92"/>
+		<e:Label id="ranktips_txt" text="排名第一且达到8阶" y="199" style="l_brown_1" size="22" horizontalCenter="157.5"/>
+		<e:Label id="rankAward_txt" text="翅膀进阶属性+10%" y="307" style="l_brown_1" size="22" x="439"/>
+		<ns1:PHBShowPanel id="roleShowPanel" skinName="ShowPanelSkin" horizontalCenter="-165.5" y="59"/>
+		<ns1:PowerLabel id="powerLabel" y="285" x="-28" skinName="PowerLabel2Skin"/>
+		<e:Label text="第一名" y="51" size="22" style="l_orange" x="125"/>
+		<e:Label id="name_txt" text="名字名字" y="78" style="l_brown_1" size="22" horizontalCenter="-168"/>
+	</e:Group>
+	<e:Scroller height="381" y="614" horizontalCenter="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" itemRendererSkinName="KaiFuJiJieRankPanelItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="6" paddingTop="3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

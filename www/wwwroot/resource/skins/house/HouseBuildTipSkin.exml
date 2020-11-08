@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseBuildTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="163ee08c25d"/>
+	<ns1:CommonDialog id="commonDialog" height="489" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin"  y="358"/>
+	<e:Image y="445" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="262" width="572" x="73"/>
+	<ns1:ConsumeTwoLabel id="consumeLabel" x="262" y="608"/>
+	<e:Label text="战力直升：" x="259" y="462" style="l_brown_1"/>
+	<e:Label id="labPower" text="8899" x="387" y="462" style="l_green_1"/>
+	<ns1:ItemBaseNotName id="item1" x="245" y="495" scaleX="1" scaleY="1"/>
+	<ns1:ItemBaseNotName id="item2" x="361" y="495" scaleX="1" scaleY="1"/>
+	<e:Label text="是否确认消耗元宝装修提升房屋档次？" x="148" y="665" style="l_brown_1"/>
+	<e:Button id="btnConfirm" x="433" y="736"   label="确  定" skinName="BtnN2Skin"/>
+	<e:Button id="btnCancel" x="125" y="738"   label="取  消" skinName="BtnN3Skin"/>
+</e:Skin>

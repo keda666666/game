@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleFlyPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group x="0" y="-138" height="997">
+		<e:Image y="780" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="220" width="650" x="34" scaleX="1" scaleY="1"/>
+		<e:Label id="tdesc" text="飞升已满阶" y="886" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" horizontalCenter="15.5"/>
+		<e:Group id="exp" y="824" x="35" anchorOffsetX="0" width="647">
+			<e:Label text="消耗修为:" y="15" size="24" textAlign="center" style="l_brown_2" width="132" anchorOffsetX="0" x="205" visible="false"/>
+			<e:Label id="needExp" text="消耗修为:" y="16" size="24" textAlign="left" style="l_brown_2" width="425" anchorOffsetX="0" horizontalCenter="108.5"/>
+			<e:Label id="getXiuWei" text="获得修为" y="115" size="24" textAlign="center" width="132" anchorOffsetX="0" x="458" style="l_green_1" verticalAlign="justify"/>
+			<e:Label id="haveExp" text="拥有修为:" y="62" size="24" textAlign="left" style="l_brown_2" width="425" anchorOffsetX="0" horizontalCenter="109"/>
+		<e:Button id="btnFly" y="92" label="飞升" skinName="BtnN2Skin" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="788" scaleX="1" scaleY="1" horizontalCenter="30.5">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+		<e:Label text="飞升消耗" y="0" size="24" textAlign="center" x="100" style="l_brown_2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="3" horizontalCenter="0">
+		<e:Image y="30" source="ui_bm_jsbg" horizontalCenter="0"/>
+		<e:Image x="462" y="157" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="lbLev" text="1" x="456" y="144" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xAA6A31"/>
+		<ns1:PowerLabel id="powerLabel" y="4" horizontalCenter="0.5" skinName="PowerLabel3Skin"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="380" horizontalCenter="0"/>
+
+
+
+
+	</e:Group>
+
+	<e:Group y="545" horizontalCenter="0" anchorOffsetY="0" height="95">
+		<e:Component id="skill0" x="80" y="0" skinName="RideMiniItem1Skin"/>
+		<e:Component id="skill1" x="160" y="0" skinName="RideMiniItem1Skin"/>
+		<e:Component id="skill2" x="240" y="0" skinName="RideMiniItem1Skin"/>
+		<e:Component id="skill3" x="10" y="12" skinName="RideMiniItem1Skin"/>
+		<e:Component id="skill4" x="0" y="2" skinName="RideMiniItem1Skin"/>
+		<e:layout>
+		<e:HorizontalLayout gap="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Group width="100%" y="510" anchorOffsetY="0" height="31">
+		<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+		<e:Label text="飞升技能" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+	</e:Group>
+</e:Skin>

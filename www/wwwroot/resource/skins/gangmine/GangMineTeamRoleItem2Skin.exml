@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineTeamRoleItem2Skin" width="166" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  states="state1,state2,state3" >
+	<e:Group x="45">
+		<e:Image id="iconImg" x="5" y="6" source="ui_head_icon_10" source.state3="ui_bm_touxiangkuang02" x.state3="2" y.state3="2" width="81" height="81"/>
+		<e:Image x="0" y="0" source="ui_bm_touxiangkuang"/>
+		<e:Image x="21" y="21" includeIn="state3" source="ui_bt_plue3"/>
+	</e:Group>
+	<e:Image id="teamImg" y="2" source="ui_bh_bm_duizhang" visible.state2="false" visible.state3="false"/>
+	<e:Label id="tname" text="玩家名六个字" y="98" size="20" width="150" textAlign="center" style="l_brown_2" x="16" visible.state3="false"/>
+	<e:Label id="tserviceID" text="S999" y="124" size="20" x="16" width="150" textAlign="center" style="l_brown_2" visible.state3="false"/>
+	<e:Label id="tlevel" text="Lv.999" y="8" size="20" x="52" style="l_white" visible.state3="false"/>
+</e:Skin>

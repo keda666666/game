@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkillItemSkin" width="124" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="open,lock" >
+	<w:Config id="15e5a38ef42" ></w:Config>
+	<e:Group id="nameGroup" x="-2" y="113.25">
+		<e:Image id="imgNameBg" y="0" source="ui_bm_jinengmingchenbg01" x="0"/>
+		<e:Label id="lb_name" text="120级开启" y="9" fontFamily="Microsoft YaHei" text.lock="未开放" textAlign="center" width="120" style="l_brown_1" size="20" textColor="0xeacdab" x="4"/>
+	</e:Group>
+	<e:Group id="iconGroup" x="14.25" y="9.5">
+		<e:Image y="5.25" includeIn="lock" source="ui_icon_jineng00" x="6.75"/>
+		<e:Image id="img_icon" y="5.25" includeIn="open" source="ui_icon_jineng01" blendMode="normal" horizontalCenter="0"/>
+		<e:Image id="img_lv_bg" y="66.5" anchorOffsetX="0" anchorOffsetY="0" height="22" alpha="0.7" includeIn="open" source="ui_bm_jinengdengjibg" x="6.75"/>
+		<e:Label id="lb_level" text="100" y="66.5" size="20" fontFamily="Microsoft YaHei" bold="true" includeIn="open" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+		<e:Image source="ui_bm_jinengkuang" y="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="img_select" y="-5.75" includeIn="open" source="ui_bm_jinengxuanzhekuang" horizontalCenter="0" visible="false"/>
+	<e:Image id="redPoint" source="ui_bm_reddot" x="81" y="10" visible="false"/>
+</e:Skin>

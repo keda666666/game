@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherThird" width="650" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="uiBg1" source="ui_sbm_002" y="0" width="650" height="550" x="0"/>
+	<e:Scroller id="scroller" width="650" height="540" horizontalCenter="0" top="0">
+		<e:List id="listView" itemRendererSkinName="TeacherInvItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

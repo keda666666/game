@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineTeamItemSkin" width="638" height="234" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image x="0" y="0" source="ui_sj_bm_diban" height="234" width="638"/>
+	<e:Image source="ui_hddt_bm_duiwumingchengBG"/>
+	<e:Label id="tname" text="青出于蓝哈哈" y="16" size="20" style="l_blue" textAlign="right" x="6"/>
+	<e:Label text="的队伍" size="20" style="l_brown_2" y="16" x="128"/>
+	<e:Label id="tnum" text="(1/3)" y="15" size="20" x="194" style="l_orange"/>
+	<e:Button id="joinBtn" label="加 入" x="460" skinName="BtnN2Skin" y="81"/>
+	<e:Label id="tpower" text="需战力30万" size="20" style="l_brown_2" y="56" x="490"/>
+	<ns1:GangMineTeamRoleItem2 id="role0" x="8" y="70" skinName="GangMineTeamRoleItem2Skin"/>
+	<ns1:GangMineTeamRoleItem2 x="154" y="70" skinName="GangMineTeamRoleItem2Skin" id="role1"/>
+	<ns1:GangMineTeamRoleItem2 x="300" y="70" skinName="GangMineTeamRoleItem2Skin" id="role2"/>
+</e:Skin>

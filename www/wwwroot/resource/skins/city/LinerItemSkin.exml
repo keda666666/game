@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LinerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="160"  height="80">
+	<e:Button id="btn" x="5" y="7"   label="3线" scaleX="1" scaleY="1" skinName="BtnN6Skin" width="150" height="66"/>
+	<e:Image id="imgPoint" source="ui_zc_bm_xian_hong" x="31" y="31"/>
+</e:Skin>

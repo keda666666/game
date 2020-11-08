@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossGuildSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" x="2" y="146">
+		<e:Image y="0" touchEnabled="false" scaleX="1" scaleY="1" height="882" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="717" x="0"/>
+		<e:Group x="18" y="558">
+			<e:Image width="679" height="305" x="0" y="0" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="btnGo" label="参与活动" y="228" skinName="BtnN2Skin" x="256"/>
+			<e:Label text="活动时间：" x="154" y="31" style="l_purple_1"/>
+			<e:Label id="timeTxt" text="每天10：00 - 21：00 开启" x="290" y="31" style="l_orange"/>
+			<e:List id="itemList" height="130" y="87" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ItemSkin" x="20">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="-4"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Button id="btnHelp" label="Button" x="16" y="8" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+	</e:Group>
+</e:Skin>

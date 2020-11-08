@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseUpgradeTipItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="560"  height="70">
+	<e:Image id="imgBg" scale9Grid="20,20,28,28" x="0" y="0" width="560" height="70" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+	<e:Label id="labTime" text="2018-08-11 13:59" x="10" y="6" style="l_brown_1" size="24"/>
+	<e:Label id="labText" text="您的伴侣升阶房屋，您可领取等同进阶进度10点" x="10" y="40" style="l_brown_1" size="24"/>
+</e:Skin>

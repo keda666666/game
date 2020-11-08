@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="AcitivityAdvanceBtnSkin" width="70" height="70">
+	<e:Group width="101" height="63" x="-15" y="-8">
+		<e:Image id="iconDisplay" pixelHitTest="true" source="" horizontalCenter="-0.5" verticalCenter="11.5"/>
+		<e:Group id="timeGroup" y="40" x="13">
+			<e:Image horizontalCenter="0" source="ui_bm_db" width="73" height="25" y="-6"/>
+			<e:Label id="tipsLabel" text="进行中" style="l_white" size="18" horizontalCenter="0" y="-3"/>
+		</e:Group>
+		<e:Image id="redPoint" source="ui_bm_reddot" x="63" y="0" visible="false"/>
+		<e:Image id="runImg" y="36" source="ui_bm_jxz" x="15" visible="false"/>
+	</e:Group>
+</e:Skin>

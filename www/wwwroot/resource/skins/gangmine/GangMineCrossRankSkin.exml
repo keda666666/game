@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineCrossRankSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="144" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="858" width="652" x="34"/>
+	<e:Image y="152" anchorOffsetX="0" anchorOffsetY="0" x="45" source="ui_hddt_bm_kszdpaimingBG"/>
+	<e:Scroller x="41" y="346" anchorOffsetY="0" scrollPolicyH="off" height="648">
+		<e:List id="list" anchorOffsetY="0" x="1" itemRendererSkinName="GangMineRankItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="38" y="1010">
+		<e:Label text="本帮积分：" size="20" textAlign="center" x="0" y="0" style="l_brown_1"/>
+		<e:Label id="tscore" text="2000" size="20" textAlign="center" x="100" y="0" style="l_orange"/>
+		<e:Label text="本帮排名：" size="20" textAlign="center" x="236" style="l_brown_1" y="0"/>
+		<e:Label id="trank" text="99" size="20" textAlign="center" x="336" y="0" style="l_orange"/>
+	</e:Group>
+	<ns1:PageButton id="pageBtn" y="1051" skinName="PageButtonSkin" horizontalCenter="-0.5"/>
+</e:Skin>

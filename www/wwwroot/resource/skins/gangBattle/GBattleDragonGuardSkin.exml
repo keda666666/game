@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleDragonGuardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="470" title="提  示" anchorOffsetY="0" x="0" y="387" skinName="CommonDialog2Skin"/>
+	<e:Image y="480" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="260" width="540" x="90"/>
+	<e:Button id="btnConfirm" x="290" y="760"   label="确 定" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" width="140" anchorOffsetY="0" height="70"/>
+	<e:Group x="120" y="495">
+		<ns1:GBattleDragonItem id="item1" x="0" y="0" skinName="GBattleDragonItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:GBattleDragonItem id="item2" x="180" y="0" skinName="GBattleDragonItemSkin" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:GBattleDragonItem id="item3" x="360" y="0" skinName="GBattleDragonItemSkin" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Group x="106" y="664">
+		<e:ProgressBar id="bar" y="0" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="500" x="0">
+			<e:Skin width="500">
+			<e:Image x="0" y="0" width="500" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="496" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Label id="labProgNum" text="50%" y="0" style="l_white" size="20" horizontalCenter="-2"/>
+	</e:Group>
+	<e:Label id="labDurationTip" text="已占领时长：33s" x="106" y="692" style="l_brown_1" size="22" visible="false"/>
+</e:Skin>

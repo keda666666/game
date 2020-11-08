@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanHeliSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" anchorOffsetY="0"  x="0" skinName="CommonDialog3Skin" y="0"/>
+	<e:Label text="温馨提示：赠送新人贺礼可获得对应的回礼奖励，可在邮件处理领取" y="891" style="l_orange_2" size="20" anchorOffsetY="0" height="44" anchorOffsetX="0" width="578" x="78" textColor="0x6e330b"/>
+	<e:Button id="bnt" label="确定" y="949.24" skinName="BtnN2Skin" x="152.33"/>
+	<e:Button id="bnt0" label="取消" y="947.24" x="397" skinName="BtnN3Skin"/>
+	<e:List id="list" y="309.66" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" height="118" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="70"/>
+		</e:layout>
+	</e:List>
+	<e:List id="list1" width="602.79" height="255.21" y="464.06" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="YingYuanHeLiItemSkin" horizontalCenter="0.5">
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:List id="list2" itemRendererSkinName="ItemSkin" y="750.89" anchorOffsetX="0" horizontalCenter="0.5">
+			<e:layout>
+				<e:HorizontalLayout gap="15"/>
+			</e:layout>
+			</e:List>
+	<e:Image y="459.66" source="ui_bm_fengexian" horizontalCenter="0.5"/>
+	<e:Image y="719.68" source="ui_bm_fengexian" horizontalCenter="0.5"/>
+	<e:Image y="731.02" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="213.33" visible="false"/>
+	<e:Image y="731.02" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="508.33" scaleX="-1" visible="false"/>
+	<e:Label text="回礼奖励" y="726.68" style="l_blue_1" textColor="0x6e330b" horizontalCenter="0" visible="false"/>
+</e:Skin>

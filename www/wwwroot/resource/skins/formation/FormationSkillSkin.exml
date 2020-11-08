@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FormationSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1627603db56" width="720"/>
+	<ns1:CommonDialog id="commonDialog"  verticalCenter="-55.5" height="823" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin"/>
+	<e:Group height="0" y="239" width="634" x="43">
+		<e:Group x="270" y="40">
+			<e:Component id="skillComp" x="0" y="0" skinName="PetSkillIconSkin" scaleX="1" scaleY="1"/>
+			<e:Image x="18.5" y="70" source="ui_bm_jineng"/>
+		</e:Group>
+		<e:Image x="193" y="192" source="ui_bm_title1"/>
+		<e:Image y="442" horizontalCenter="0" source="ui_bm_fengexian" width="488"/>
+		<e:Label id="skillName" text="技能名字" y="195" size="24" textAlign="center" style="l_brown_2" width="190" horizontalCenter="0"/>
+		<e:Label id="curLabel" text="当前效果" y="240" size="24" textAlign="center" style="l_brown_2" width="137" horizontalCenter="0.5"/>
+		<e:Label id="curDesc" text="下级效果" y="268" textAlign="center" horizontalCenter="0" size="24" width="400" style="l_brown_1" verticalAlign="middle" height="60"/>
+		<e:Group id="groupNextDesc" x="117" y="333">
+			<e:Label id="nextLabel" text="下级效果" y="0" size="24" textAlign="center" style="l_brown_2" width="137" x="132"/>
+			<e:Label id="nextDesc" text="下级效果" y="34" size="24" textAlign="center" verticalAlign="middle" width="400" height="60" style="l_gray" x="0"/>
+		</e:Group>
+
+		<e:Group id="upGroup" x="190" y="482">
+			<e:Button id="upBtn" label="升级" x="47" y="150" skinName="BtnN2Skin"/>
+			<ns1:NeedItemView id="needItemView" x="-5.5" y="-5" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupMaxLv" x="232.5" y="800" visible="false">
+		<e:Label text="已满级" x="82" y="0" size="22" style="l_brown_1" bold="true"/>
+		<e:Image source="ui_guankia_wenli" x="-20" y="3"/>
+		<e:Image source="ui_guankia_wenli" x="255" y="3" scaleY="1" scaleX="-1"/>
+	</e:Group>
+	<e:Image id="unActiveImg" y="720" source="ui_bm_weijihuo" x="247.5" visible="false"/>
+    
+</e:Skin>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyFomalhautMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<e:Group x="26" y="129">
+		<e:Group x="0" y="0">
+			<e:Image source="ui_smrw_bm_yuanhua" x="-0.21" y="27.08"/>
+			<e:Group x="6" y="560">
+			<e:Label text="地图剩余妖魔：" x="-3.04" y="-16.7" size="22" style="l_white" stroke="2" strokeColor="0x4c4141"/>
+			<e:Label id="monstersCountLabel" text="30/30" x="146.1" y="-16.19" style="l_green" size="22" stroke="1.5"/>
+				<e:Label text="下一次刷新时间：" x="402.39" y="-17.27" size="22" style="l_white" stroke="2" strokeColor="0x4C4141"/>
+				<e:Label id="refreshTimeLabel" text="" x="571.24" y="-15.24" style="l_green" size="22" stroke="1.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="57" y="601" touchChildren="true">
+			<e:Label id="labAmbitionTip" text="完成10环师门任务可获得以下奖励" y="-10.61" style="l_brown_1" size="22" x="68.52"/>
+			<e:ProgressBar id="progressBar" y="26.54" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="500" x="25.67">
+			<e:Skin>
+				<e:Image x="0" y="0" width="500" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="500" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="72.91" height="87.33" itemRendererSkinName="GangFuBenAwardItemSkin" horizontalCenter="8">
+				<e:layout>
+				<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+				</e:layout>
+			</e:List>
+			<e:Label id="tabLab" text="完成次数：" x="25.71" y="28.34" size="19" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="498" anchorOffsetY="0" height="23" textAlign="center"/>
+			<e:Button id="oneKeyBtn" x="33.84" y="187.68"   label="一键完成" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="74" width="164" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="taskBtn" x="352.96" y="187.65"   label="领取任务" scaleX="1" scaleY="1" height="74" width="164" skinName="BtnN3Skin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="labBtn" text="" x="352" y="185" anchorOffsetX="0" width="166" anchorOffsetY="0" height="74"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

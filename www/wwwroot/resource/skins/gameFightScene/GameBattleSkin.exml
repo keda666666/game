@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBattleSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16262790504"/>
+
+
+	<e:Group id="battleInfo" y="66" right="0" width="341">
+		<e:Group id="treasureInfo"  x="50" y="0">
+			<e:Image  x="0" y="0" alpha="0.35"  scaleX="1" scaleY="1" source="ui_bm_xiangqing" width="270" height="101"/>
+			<e:Label text="通关星级" x="97" y="0" size="20"  stroke="2" strokeColor="0x1F1811" textColor="0xFFF5E0"  scaleX="1" scaleY="1"/>
+			<e:Group x="32" y="51">
+				<e:ProgressBar id="progress" width="214" height="20" x="7" y="2" scaleX="1" scaleY="1" skinName="bar0Skin" value="10"/>
+				<e:Image x="67" y="0" scaleX="1" scaleY="1" source="ui_fb_bm_jingyantiaojiedian"/>
+				<e:Image x="130" y="0" scaleX="1" scaleY="1" source="ui_fb_bm_jingyantiaojiedian"/>
+				<e:Image source="ui_ico_staron" x="0" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Image source="ui_ico_staron" x="52" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Image source="ui_ico_staron" x="74" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Image source="ui_ico_staron" x="104" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Image source="ui_ico_staron" x="126" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Image source="ui_ico_staron" x="148" y="23" scaleX="0.8" scaleY="0.8"/>
+				<e:Label id="lbMax" text="10" x="-3" y="-24" textColor="0xfff5e0" size="20"/>
+				<e:Label id="lbMid" text="10" x="67" y="-24" textColor="0xFFF5E0" size="20"/>
+				<e:Label id="lbMin" text="10" x="129" y="-24" textColor="0xFFF5E0" size="20"/>
+			</e:Group>
+			<e:Label text="通关奖励：绑定元宝、银两、                         宠物进阶丹、经验" x="18" y="130" size="18"  stroke="2" strokeColor="0x1F1811" textColor="0xFFF5E0" anchorOffsetX="0" width="238"  scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="bossInfo" x="41" y="7" width="300">
+			<e:Image x="21" y="9" anchorOffsetY="0" width="270" height="101" scaleX="1" scaleY="1"  source="ui_bm_xiangqing"/>
+			<e:Label id="lbDes" text="奖励多多"  size="20" anchorOffsetY="0" verticalAlign="top" textColor="0xFFFF00" anchorOffsetX="0" width="233" lineSpacing="8"  y="48" horizontalCenter="3"/>
+			<e:Label id="caName" text="枫叶山3-30" x="90" y="3" size="20" anchorOffsetY="0" verticalAlign="middle" height="25" textColor="0xffc993" width="123" textAlign="center"/>
+		</e:Group>
+		<e:Button id="speedBtn" x="171" y="135" icon="ui_bm_sp_1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="iconDisplay" source="ui_bm_sp_1" scaleX.down="1.2" scaleY.down="1.2" width="144" height="44" anchorOffsetX="72" anchorOffsetY="22" y="22" x="72"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group width="0" height="0" y="175" horizontalCenter="0">
+		<e:BitmapLabel id="turnLabel" text="10/50" font="font_ui_huihe_fnt" y="2" width="316" textAlign="center" letterSpacing="-2" horizontalCenter="0"/>
+		<e:BitmapLabel id="timeLabel" text="2" y="-31" font="font_ui_daoshu_fnt" width="155" textAlign="center" x="-77"/>
+	</e:Group>
+	<e:Group id="selGroup" width="0" height="0" x="0" y="0"/>
+	<e:Group id="groupAdaptation" width="100%" height="0" y="838" horizontalCenter="0" touchEnabled="false">
+		<e:Button id="finishBtn" label="跳过" y="-78" skinName="BtnN1Skin" scaleX="1" scaleY="1" right="4" visible="false"/>
+	</e:Group>
+</e:Skin>

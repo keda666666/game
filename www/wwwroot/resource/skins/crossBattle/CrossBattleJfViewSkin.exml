@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleJfViewSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<w:Config id="1586b1383e3" />
+	<e:Image y="170" source="ui_sbm_002" anchorOffsetX="0" width="671" anchorOffsetY="0" height="846" x="25"/>
+
+	<e:Group width="660" y="176.67" touchEnabled="false" touchChildren="true" anchorOffsetY="0" height="558" anchorOffsetX="0" horizontalCenter="0">
+
+		<e:Scroller anchorOffsetY="0" height="837">
+				<e:List id="list" width="660" height="674" y="3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="CrossBattleJfItemSkin" horizontalCenter="0">
+	     	    </e:List>
+		</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TestSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui">
+	<e:Group x="57" y="67">
+		<e:BitmapLabel x="0" y="0" font="font_ui_baoji_fnt" text="暴击12346" letterSpacing="-10"/>
+		<e:BitmapLabel x="10" y="139" text="暴击12346" font="font_pth_fnt" letterSpacing="-5"/>
+		<e:BitmapLabel x="10" y="139" font="font_ui_gongjizhe02_fnt" text="12346"/>
+		<e:BitmapLabel x="20" y="149" font="font_ui_beigongjizhe_fnt" text="12346"/>
+		<e:BitmapLabel x="30" y="159" font="font_ui_gongjizhe01_fnt" text="12346" letterSpacing="-5"/>
+		<e:BitmapLabel x="40" y="169" font="font_ui_lvseshanghai_fnt" text="12346"/>
+		<e:BitmapLabel x="50" y="179" font="font_ui_putongshanghai_fnt" text="12346"/>
+		<e:BitmapLabel x="60" y="189" font="font_ui_jinengmingcheng_fnt" text="12346"/>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller width="602" height="816" x="132" y="412" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List itemRendererSkinName="FormationItemSkin" height="816" anchorOffsetX="0" width="785">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout verticalAlign="bottom" requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="200" height="200" x="474" y="222">
+		<e:Group/>
+	</e:Scroller>
+	
+</e:Skin>

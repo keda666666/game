@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleInfoItemSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" y.disabled="0" y.up="0" width="100%" height="100%" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" width.down="98%" height.down="98%" source="ui_bt_shenbing"/>
+	<e:Image id="redPoint" source="ui_bm_reddot" right="-5" top="-5" touchEnabled="false" visible="false"/>
+	<e:Image id="jjkh_img" source="ui_jjkh_bm_kuanghuan" touchEnabled="false" x="1.2" y="3.2" visible="false"/>
+</e:Skin>

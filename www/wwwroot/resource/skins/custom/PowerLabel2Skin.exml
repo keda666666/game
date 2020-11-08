@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PowerLabel2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15b6cf3fa10" ></w:Config>
+	<e:Image scaleX="1" scaleY="1" source="ui_bm_zhanlibg" horizontalCenter="0" height="63"/>
+	<e:Group horizontalCenter="0" y="16">
+		<e:Image id="bg" y="0" anchorOffsetY="0" anchorOffsetX="0"  source="ui_bm_zhan" x="0"/>
+		<e:BitmapLabel id="label" y="49.8" text=" 123" font="font_ui_zl_fnt" x="133"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

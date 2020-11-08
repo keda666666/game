@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpLvWayItemSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="149"  width="640">
+	<e:Image width="640" height="151.67" x="0" y="0" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btn" label="前往挑战" x="474" y="62" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN2Skin" width="131" height="60"/>
+	<e:Image id="okImg" x="477" y="34" source="ui_sjtj_bm_yiwancheng" visible="false"/>
+	<e:Label id="countLabel" text="(0/10)" y="29" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="25" horizontalCenter="219"/>
+	<e:Image id="logoImg" width="112" height="107" x="25" y="19" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="titleNameLabel" text="" x="157" y="16" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label text="推荐:" x="157" y="47" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="describeLabel" text="XXXXX" x="157" y="81.88" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="310.33" anchorOffsetY="0" height="50.33"/>
+	<e:Group id="starGroup" y="43.01" x="221" anchorOffsetX="0" width="205">
+		<e:Image id="starImg0" x="47.67" y="0" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image id="starImg1" x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image id="starImg2" x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image id="starImg3" x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image id="starImg4" x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0.5"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="rewardScore" text="奖励积分:14" x="157" y="113.83"  fontFamily="Microsoft YaHei" style="l_green" size="22"/>
+	<w:Config id="163c9d46632"/>
+</e:Skin>

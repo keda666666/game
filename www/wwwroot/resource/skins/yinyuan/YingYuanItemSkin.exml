@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanItemSkin" width="553" height="61" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<e:Image id="bg" width="100%" height="100%" x="0" y="0" source="ui_sbm_005"/>
+	<e:Button id="bnt" label="选 择" skinName="BtnN4Skin" x="444" verticalCenter="-1" scaleX="0.8" scaleY="0.8"/>
+	<e:Label id="jsname" text="大大红龙盔甲" x="39" style="l_yellow_4" textColor="0x6e330b" verticalCenter="0.5"/>
+	<e:Label id="lv" text="999" x="201.33" style="l_yellow_3" textColor="0x6e330b" verticalCenter="0.5"/>
+	<e:Label id="zdl" text="1000.5万" x="295.65" style="l_orange_2" verticalCenter="0.5" size="20"/>
+</e:Skin>

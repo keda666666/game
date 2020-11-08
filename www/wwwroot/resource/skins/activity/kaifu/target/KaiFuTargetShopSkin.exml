@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetShopSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Image x="34" y="273" source="ui_kfhd_bm_zhekouBanner"/>
+	<e:Image width="651" height="519" x="35" y="479" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="scroller" width="645.45" height="508.33" anchorOffsetY="0" y="485.08" anchorOffsetX="0" horizontalCenter="1.5" scrollPolicyH="off">
+		<e:List id="list" left="0" right="0." top="0" bottom="4." scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="KaiFuTargetShopItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="2" horizontalGap="2" verticalGap="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="attrs_label" text="" x="518" y="331" anchorOffsetX="0" width="133" anchorOffsetY="0" height="70" size="20" lineSpacing="18" style="l_white"/>
+	<ns1:RoleShowPanel id="roleShowPanel" y="433" horizontalCenter="-27"/>
+	<e:Image id="imageShow_img" y="336" horizontalCenter="0.5" anchorOffsetX="0"/>
+	<e:Label id="time_txt" text="活动倒计时：12：25：01" y="438" size="22" stroke="1" style="l_white" left="44"/>
+</e:Skin>

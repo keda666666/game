@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopActivitySkin" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720">
+	<e:Button id="btnArrow" icon="ui_zjm_bt_zhankai" skinName="Btn0Skin" y="7" horizontalCenter="-343" scaleX="-1"/>
+	<e:Scroller id="scroller" width="682" height="112" x="30" y="3">
+		<e:Group id="group">
+			<e:Button id="fuliBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bt_fuli" width="70" height="70" x="19" y="535" scaleX="1" scaleY="1"/>
+			<e:Button id="kaifuBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_kaifuhuodong" width="70" height="70" x="517" y="545" scaleX="1" scaleY="1"/>
+			<e:Button id="discountBtn" icon="ui_bm_tehuichongzhi" width="70" height="70" x="89" y="632" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin"/>
+			<e:Button id="dailyChargeBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_meirishouchong" width="70" height="70" x="39" y="555" scaleX="1" scaleY="1"/>
+			<e:Button id="sevenDayBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_qitianzunxiang" width="70" height="70" x="49" y="565" scaleX="1" scaleY="1"/>
+			<e:Button id="fightPetFBBtn" width="70" height="70" x="351" y="60" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="shootUpBtn" icon="ui_zc_bm_zhishengyijie" width="70" height="70" x="49" y="565" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="rebateBtn" icon="ui_zc_bm_chongzhifanli" width="70" height="70" x="578" y="575" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="godPetAwardBtn" icon="ui_bm_shenshoujianglin_zc" width="70" height="70" x="59" y="575" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="godPetLotteryBtn" icon="ui_bm_xiangfushenshou_zc" width="70" height="70" x="69" y="585" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin"/>
+			<e:Button id="godLotteryBtn" icon="ui_zc_bm_tianshenjianglin" width="70" height="70" x="79" y="595" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin"/>
+			<e:Button id="growupBtn" icon="ui_zc_bm_chengzhangjijin" width="70" height="70" x="79" y="595" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="investmentBtn" icon="ui_zc_bm_touzijihua" width="70" height="70" x="89" y="605" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin2"/>
+			<e:Button id="jingCaiBtn" icon="ui_zc_bm_jingcaihuodong" width="70" height="70" x="99" y="615" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin"/>
+			<e:Button id="xuannvBtn" icon="ui_bm_xuannvxiafan" width="70" height="70" x="79" y="622" scaleX="1" scaleY="1" skinName="MainFuncBtnSkin"/>
+			<e:Button id="treasureBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_xunbao" x="291.67" y="198" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70"/>
+			<e:layout>
+				<e:HorizontalLayout gap="20" paddingLeft="17" paddingTop="15"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

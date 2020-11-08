@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainPlayFunViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="160b67b7861"/>
+	<e:Group id="tGroup" scaleX="1" scaleY="1" x="0" top="235" touchEnabled="false" touchChildren="true" width="100%">
+
+		<ns1:MainChapterInfoView id="chapterInfo" skinName="MainChapterInfoSkin" right="0" y="-182"/>
+		<ns1:FateItemView id="fateInfo" width="173.33" y="-73.64" anchorOffsetX="0" anchorOffsetY="0" skinName="FateItemViewSkin" right="9" scaleX="0.9" scaleY="0.9"/>
+
+	</e:Group>
+	<ns1:CImage id="preShowPng" y="236" source="" x="89" scaleX="1" scaleY="1" name="taskCImage"/>
+	<e:Group id="bGroup" width="100%" horizontalCenter="0" bottom="540" top="296" touchEnabled="false" touchChildren="true">
+		<e:Group id="verticalGroup" touchEnabled="false" touchChildren="true" y="0" x="0" scaleX="1" scaleY="1" height="100%" width="86">
+			<e:Button id="bagBtn" label="Button" skinName="MainFuncBtnSkin" icon="ui_bm_beibao" scaleX="1" scaleY="1" x="20" y="20"/>
+			<e:Button id="dailyBtn" label="Button" skinName="MainFuncBtnSkin" icon="ui_bm_richang" scaleX="1" scaleY="1"/>
+			<e:Button id="monthBtn" label="Button" skinName="MainFuncBtnSkin" icon="" scaleX="1" scaleY="1" x="30" y="30"/>
+			<e:Button id="rmbGiftBtn" label="Button" skinName="MainFuncBtnSkin" icon="" scaleX="1" scaleY="1" x="20" y="20"/>
+			<e:Button id="firstRechargeBtn" name="btn" skinName="MainFuncBtnSkin" icon="ui_bm_shouchong" touchEnabled="false" touchChildren="true" x="0" y="-21"/>
+			<e:Button id="openDayGif" label="Button" skinName="MainFuncBtnSkin" icon="ui_bm_songyuanbao" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-74.5"/>
+			<e:Button id="discountBtn" icon="ui_bm_tehuichongzhi_small" x="89" y="632" skinName="MainFuncBtnSkin"/>
+			<e:Button id="xuannvBtn" icon="ui_bm_xuannvxiafan" width="27" height="94" x="109" y="329" skinName="MainFuncBtnSkin" scaleX="0.85" scaleY="0.85"/>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1" verticalAlign="bottom" verticalGap="-4" paddingBottom="6"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="sevenDayBtn" skinName="MainFuncBtnSkin" width="70" height="70" y="104" scaleX="0.85" scaleY="0.85" right="21" visible="false"/>
+		<e:Button id="JinJieRankBtn" skinName="MainFuncBtnSkin" width="70" height="70" y="135" right="21" scaleX="0.9" scaleY="0.9"/>
+		<e:Button id="upLvBtn" skinName="MainFuncBtnSkin" icon="ui_gq_bt_wybq" width="70" height="70" y="235" right="19" x="638"/>
+	</e:Group>
+
+	<e:Group id="groupAdaptation" width="100%" height="0" y="838" horizontalCenter="0" touchEnabled="false">
+		<e:Group id="g1" width="304" y="-200" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="7" x="260" scaleX="1" scaleY="1">
+			<e:Group id="xiTie" width="111" height="108" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Button id="xiTieBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_xitie" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="109" y="7"/>
+			<e:Image x="63" y="0" source="ui_bm_bagfull"/>
+			<e:Label id="xiTieText" text="9" x="78" y="6"/>
+			</e:Group>
+			<e:Group id="qiuHun" width="111" height="108" x="10" y="10" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Button id="qiuHunBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_qiuhuen" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="109" y="7"/>
+			<e:Image x="63" y="0" source="ui_bm_bagfull"/>
+			<e:Label id="qiuHunText" text="9" x="78" y="6"/>
+			</e:Group>
+			<e:Group id="xianHuan" width="111" height="108" x="20" y="20" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Button id="xianHuanBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_xianhua" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="109" y="7"/>
+			<e:Image x="63" y="0" source="ui_bm_bagfull"/>
+			<e:Label id="xianHuanText" text="9" x="78" y="6"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="g2"  x="0" y="-204" height="201" touchEnabled="false" width="100%">
+			<e:Component id="guanqiaBtn" width="184" height="201" skinName="MainGuanqiaBtnSkin" scaleX="1" scaleY="1" y="-5" right="0"/>
+			<e:Group id="taskTraceBtn" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="true" width="333" x="0" scaleX="1" scaleY="1" y="107" height="94">
+				<e:Image touchEnabled="false" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_renwu"/>
+				<e:Label text="击败妖怪（0/999）" x="104" y="18" size="24" scaleX="1" scaleY="1" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" style="l_yellow_2" name="taskTraceName"/>
+				<ns1:PriceIcon x="104" y="50" scaleX="1" scaleY="1" name="priceicon0"/>
+				<ns1:PriceIcon x="206" y="50" scaleX="1" scaleY="1" name="priceicon1"/>
+			</e:Group>
+			<e:Image id="imgGoto" y="35" source="ui_bm_icombg2" scaleX="1" scaleY="1" right="30" visible="false"/>
+			<e:Button id="btnHouseBuild" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_fangwu" scaleX="1" scaleY="1" horizontalCenter="66" verticalCenter="-45" x="273" y="12"/>
+		</e:Group>
+		<e:Group id="tipIconGroup" width="0" height="0" scaleX="1" scaleY="1" x="360" y="40">
+			<e:DataGroup id="tipIconList" itemRendererSkinName="MainFunTimeBtnSkin" y="-89" x="0" touchEnabled="false" touchChildren="true">
+				<e:layout>
+					<e:HorizontalLayout gap="-12"/>
+				</e:layout>
+			</e:DataGroup>
+		</e:Group>
+		<e:Group id="gameNoticeGroup" scaleX="1" scaleY="1" top="16" horizontalCenter="274"/>
+	</e:Group>
+	<e:Group id="gAnswer" y="1024" horizontalCenter="167" visible="false">
+		<e:Image id="imgAsBg" source="ui_dt_bm_tishiBG" scale9Grid="30,0,8,117" y="0" width="100%" x="0"/>
+		<e:Image id="imgAsIcon" x="22" y="18" touchEnabled="false" source="ui_dt_bt_keju"/>
+		<e:Label text="科举比赛活动" x="114" y="25" style="l_brown_1" touchEnabled="false"/>
+		<e:Label id="lbAnswerInfo" text="将在30s开始" y="65" style="l_brown_1" x="122" touchEnabled="false"/>
+		<e:Button id="btnAnswerClose" label="" x="277" y="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_bt_008_up"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="XinWu" x="0" y="157" anchorOffsetY="0" anchorOffsetX="0" width="110" height="130" scaleX="0.5" scaleY="0.5">
+		<e:List id="XinWulist" itemRendererSkinName="ItemSkin" verticalCenter="0"/>
+	</e:Group>
+	<e:Component id="xuannvCard" x="0" y="142" skinName="HavingCard" visible="false"/>
+	<e:Group id="horizontalGroup" x="22" y="187" anchorOffsetY="0" anchorOffsetX="0" maxWidth="685">
+		<e:layout>
+			<e:HorizontalLayout gap="30"/>
+		</e:layout>
+		<e:Button id="positionBtn" icon="" x="97" y="152" skinName="MainFuncBtnSkin"/>
+	</e:Group>
+</e:Skin>

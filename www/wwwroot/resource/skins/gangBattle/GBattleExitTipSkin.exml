@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleExitTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="22" height="360" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialogSkin"/>
+	<e:Group width="100%" height="330" x="0" verticalCenter="18" touchChildren="true" touchEnabled="false">
+		<e:Button id="btnPrev" label="上一关" x="118" scaleX="1" scaleY="1" bottom="0" horizontalCenter="-153.5" skinName="BtnN1Skin"/>
+		<e:Button id="btnExit" label="退 出" x="436" scaleX="1" scaleY="1" bottom="0" horizontalCenter="153.5" skinName="BtnN1Skin"/>
+		<e:Image anchorOffsetX="0" width="610" anchorOffsetY="0" scaleX="1" scaleY="1" x="53" top="90" bottom="89" source="ui_sbm_002" height="153" y="69"/>
+		<e:Label text="是否要退出或返回上一关？" width="534" textAlign="center" verticalAlign="middle" lineSpacing="5" anchorOffsetY="0" anchorOffsetX="0" size="23" x="91" scaleX="1" scaleY="1" verticalCenter="0.5" style="l_brown_1"/>
+	</e:Group>
+</e:Skin>

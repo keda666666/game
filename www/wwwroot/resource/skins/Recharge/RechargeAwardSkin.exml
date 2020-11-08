@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9b90924" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" x="0" y="166" skinName="CommonDialog2Skin" height="897.99" anchorOffsetY="0" touchEnabled="false" locked="true"/>
+	<e:Image x="74.09" y="503.22" anchorOffsetX="0" anchorOffsetY="0" rotation="359.83" source="ui_czth_bm_tupian02"/>
+	<e:Group id="btnGroup" y="747" horizontalCenter="0">
+		<e:Component id="btn0" x="0" y="0" skinName="RechargeAwardBtnSkin"/>
+		<e:Component id="btn1" x="0" y="123" skinName="RechargeAwardBtnSkin"/>
+		<e:Component id="btn2" x="297" y="0" skinName="RechargeAwardBtnSkin"/>
+		<e:Component id="btn3" x="297" y="122" skinName="RechargeAwardBtnSkin"/>
+	</e:Group>
+	<e:Image x="74.45" y="263.92" source="ui_czth_bm_tupian01"/>
+	<e:Image x="46.66" y="95.52" source="ui_czth_bm_biaotou" touchEnabled="false"/>
+	<e:Image x="8.11" y="156.96" source="ui_czth_bm_zuoshipin"/>
+	<e:Image x="620.73" y="239.64" source="ui_czth_bm_youshipin" touchEnabled="false"/>
+	<e:Group width="200" height="200" x="86.27" y="525.43">
+		<e:Image id="titelImg" source="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="12"/>
+		<ns1:PetShowPanel id="petShowpanel" width="20" height="20" x="101" y="119"/>
+	</e:Group>
+	<e:Label text="  (机会仅一次，仅可选一个充值档获得五倍元宝)" y="993" style="l_red" size="21" horizontalCenter="0"/>
+	<e:List id="list" itemRendererSkinName="RechargeAwardItemSkin" anchorOffsetY="0" height="204.03" anchorOffsetX="0" width="339.85" x="303" y="516">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+			<e:Object a="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="3" horizontalGap="22" verticalGap="4"/>
+		</e:layout>
+	</e:List>
+	<e:Group y="817" horizontalCenter="0.5">
+		<e:Button id="giftBtn" label="领取" y="7.22" icon="ui_thcz_bt_btn" scaleX="1" scaleY="1" x="0" anchorOffsetX="0" width="177" skinName="BtnN7Skin"/>
+		<e:Image id="getImg" source="ui_xyll_bm_yilingqu" y="1" x="33" visible="false"/>
+	</e:Group>
+
+</e:Skin>

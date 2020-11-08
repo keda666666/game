@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyResolveHandleItemSkin" width="580" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image width="580" height="120" source="ui_sbm_005" x="0" y="0"/>
+		<e:Label id="lbFight" text="战力+99999" y="15.56" size="20" verticalAlign="middle" textAlign="center" style="l_brown_1" horizontalCenter="49"/>
+		<e:Label id="nameLabel" text="羽毛" y="9" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_yellow_3" size="26" x="114"/>
+		<ns1:ItemBaseNotName id="itemIcon" xmlns:ns1="*" y="6" x="0"/>
+		<e:Label id="lbInfo0" text="属性" x="114" y="46" style="l_brown_1"/>
+		<e:Label id="lbInfo1" text="属性" x="114" y="81.77" style="l_brown_1"/>
+		<e:CheckBox id="checkBox1" label="" skinName="CheckBox0" y="9.6" x="455.68"/>
+	</e:Group>
+	<e:Group y="64.33" right="15">
+		<e:TextInput id="countTxt" textColor="0x6e330b" text="1" maxChars="6" y="2" width="98" skinName="TextInputSkin2" x="33"/>
+		<e:Button id="decBtn" label="按钮" x="0" y="0" icon="ui_bt_jian" skinName="Btn0Skin"/>
+		<e:Button id="addBtn" label="按钮" x="123" y="0" skinName="Btn0Skin" icon="ui_bt_plue"/>
+	</e:Group>
+</e:Skin>

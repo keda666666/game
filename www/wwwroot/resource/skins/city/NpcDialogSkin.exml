@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NpcDialogSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Component skinName="BG2" alpha="0"/>
+	<e:Group x="61" y="800" height="140">
+		<e:Image width="600" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="140" y="0"  x="0"/>
+		<e:Image id="imgIcon" source="npc_800001" bottom="5" left="7"/>
+		<ns1:CmLabel id="cmlabName" x="1" y="93" skinName="CmLabel3Skin"/>
+		<e:Label id="labDesc" text="是非得失奇" size="24" style="l_white" width="360" x="175" verticalCenter="2"/>
+	</e:Group>
+</e:Skin>

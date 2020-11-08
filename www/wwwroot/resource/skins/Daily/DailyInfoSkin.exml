@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<e:Group x="30" y="145">
+		<e:Image source="ui_xyll_bm_wenli" x="282" y="12"/>
+		<e:Group x="281" y="0">
+			<ns1:PowerLabel id="powerLabel" y="0" x="0" skinName="PowerLabel2Skin"/>
+			<e:Group x="72" y="70">
+			<e:Label id="labPropName1" text="攻  击：" y="2" style="l_brown_1" size="24" right="133"/>
+			<e:Image width="140" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+			<e:Label id="labPropNum1" text="88888" y="4" style="l_brown_1" size="22" horizontalCenter="53"/>
+			</e:Group>
+			<e:Group x="72" y="120">
+			<e:Label id="labPropName2" text="防  御：" y="2" style="l_brown_1" size="24" right="133"/>
+			<e:Image width="140" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+			<e:Label id="labPropNum2" text="99999" y="4" style="l_brown_1" size="22" horizontalCenter="53"/>
+			</e:Group>
+			<e:Group x="72" y="170">
+			<e:Label id="labPropName3" text="生  命：" y="2" style="l_brown_1" size="24" right="133"/>
+			<e:Image width="140" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+			<e:Label id="labPropNum3" text="99999" y="4" style="l_brown_1" size="22" horizontalCenter="53"/>
+			</e:Group>
+			<e:Label id="labLevel" text="Lv.165" x="26" y="222" style="l_brown_1" size="20"/>
+			<e:Button id="btnUpgrade" x="236" y="217"   label="升 级" skinName="BtnN2Skin" width="129.6" height="57.6"/>
+			<e:ProgressBar id="progExp" y="246" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="203" x="24">
+			<e:Skin>
+				<e:Image x="0" y="0" width="204" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="200" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<e:Label id="labLvExp" text="5/10" y="247" size="20" textColor="0xffffff" horizontalCenter="-68"/>
+		</e:Group>
+		<e:Group x="5" y="9">
+			<e:Image id="imgIcon" source="ui_xyll_bm_qinglong" x="75" y="0"/>
+			<e:Image id="imgQuality" source="ui_xyll_bm_a" x="171" y="69"/>
+			<e:Button id="btnPrev" x="3" y="42" skinName="BtnNextSkin" scaleX="1" scaleY="1"/>
+			<e:Button id="btnNext" y="42" x="265" skinName="BtnNextSkin" scaleX="-1"/>
+			<e:Label id="labUpgradeTip" text="100级激活(约100天后)" y="125" size="20" horizontalCenter="-4" style="l_brown_1"/>
+			<e:Group id="upgradeGroup" x="0" y="154">
+				<ns1:CmLabel x="2" y="0" text="升级奖励" width="265" skinName="CmLabel2Skin"/>
+				<ns1:ItemBaseNotName id="item1" x="0" y="34" scaleX="0.8" scaleY="0.8"/>
+				<ns1:ItemBaseNotName id="item2" x="90" y="34" scaleX="0.8" scaleY="0.8" visible="false"/>
+				<ns1:ItemBaseNotName id="item3" x="180" y="34" scaleX="0.8" scaleY="0.8" visible="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="9" y="305">
+			<e:Image source="ui_xyll_bm_huoyuedu" x="0" y="0"/>
+			<e:Label id="labActiveNum" text="60" y="17" size="26" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group x="135" y="317">
+			<e:ProgressBar id="progActive" y="25" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="500" x="4">
+			<e:Skin>
+				<e:Image x="0" y="0" width="500" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="500" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" left="5" visible="false"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<ns1:DailyBoxItem id="boxItem1" x="0" y="0" skinName="DailyBoxSkin"/>
+			<ns1:DailyBoxItem id="boxItem2" x="110" y="0" skinName="DailyBoxSkin" visible="false"/>
+			<ns1:DailyBoxItem id="boxItem3" x="220" y="0" skinName="DailyBoxSkin" visible="false"/>
+			<ns1:DailyBoxItem id="boxItem4" x="330" y="0" skinName="DailyBoxSkin" visible="false"/>
+			<ns1:DailyBoxItem id="boxItem5" x="440" y="0" skinName="DailyBoxSkin" visible="false"/>
+		</e:Group>
+		<e:Group x="85" y="798">
+			<e:Button id="btnResRetrieve" x="0" y="0"   label="资源找回" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+			<e:Button id="btnExpRetrieve" x="310" y="0"   label="历练找回" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+		</e:Group>
+		<e:Group x="0" y="410">
+			<e:Image width="660" height="380" x="0" y="0" source="ui_sbm_002"/>
+			<e:Group x="49" y="9">
+			<e:Label text="名称" x="0" y="0" style="l_brown_1"/>
+			<e:Label text="次数" x="137" y="0" style="l_brown_1"/>
+			<e:Label text="单次历练经验" x="257" y="0" style="l_brown_1"/>
+			</e:Group>
+		</e:Group>
+		<e:Scroller width="660" height="330" x="0" y="454" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="DailyTaskItemSkin" y="1">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangProtectorAwarkListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="646" states="up,down"  height="150">
+	<e:Group x="3" y="1" anchorOffsetY="0" height="150">
+		<e:Image source="ui_sbm_005"  x="0" y="0" width="637" height="150" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Scroller width="308" height="100" y="37" anchorOffsetX="0" anchorOffsetY="0" left="28" scrollPolicyV="off" bounces="false">
+		<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" x="1" y="-1">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-8"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Label id="desc_label" text="今日活跃达到xxxx" x="33" y="10" style="l_brown_1" size="20"/>
+		<e:Button id="btnApply" x="467" y="41.6" icon="ui_bt_qiuzhubtn" label="领取" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnN2Skin"/>
+	</e:Group>
+</e:Skin>

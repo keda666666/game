@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderInfoHeadItemSkin" width="196" height="284" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img" anchorOffsetX="0" anchorOffsetY="0" source="ui_pp_tx_10" width="196" height="284" horizontalCenter="0"/>
+</e:Skin>

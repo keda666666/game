@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleGangRankItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660" states="up,down"  height="40">
+	<e:Image id="imgBg" scale9Grid="20,20,28,28" x="0" y="0" width="100%" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" height="100%"/>
+	<e:Group x="40" y="8" width="580">
+		<e:Label id="labNo" text="1" y="0" style="l_brown_1" size="24" x="0"/>
+		<e:Label id="labGangName" text="帮会名字六字" y="0" style="l_brown_1" size="24" horizontalCenter="-47"/>
+		<e:Label id="labData" text="13212" y="0" style="l_brown_1" size="24" horizontalCenter="210.5"/>
+	</e:Group>
+</e:Skin>

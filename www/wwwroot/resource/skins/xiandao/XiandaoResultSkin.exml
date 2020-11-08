@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoResultSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<e:Image source="ui_bm_fuwuqibg" x="41" y="467" height="145" scale9Grid="60,55,54,6" width="642"/>
+	<e:Image id="retImg" x="24" y="296" source=""/>
+	<e:Component id="head1" width="20" height="20" x="53" y="479" skinName="HeadSkin"/>
+	<e:Component id="head2" width="20" height="20" x="575" y="479" skinName="HeadSkin"/>
+	<e:Image source="ui_xdh_bm_duizhan" x="296" y="487"/>
+	<e:Label id="levelLabel1" text="Lv.10" y="579" style="l_brown_1" size="20" horizontalCenter="-258" width="103" textAlign="center"/>
+	<e:Label id="nameLabel1" text="name\nname" y="510" style="l_brown_1" size="22" textAlign="left" x="157" lineSpacing="6"/>
+	<e:Label id="nameLabel2" text="name
+	name" y="510" style="l_brown_1" size="22" textAlign="left" x="426" lineSpacing="6"/>
+	<e:Label id="levelLabel2" text="Lv.10" y="579" style="l_brown_1" size="20" horizontalCenter="261.5" width="103" textAlign="center"/>
+	<w:Config id="163729ebb8d"/>
+	<e:Image id="ret1" source="ui_xdh_bm_sheng" x="50" y="476"/>
+	<e:Image id="ret2" source="ui_xdh_bm_sheng" x="571" y="476"/>
+</e:Skin>

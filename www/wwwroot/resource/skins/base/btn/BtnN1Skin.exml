@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnN1Skin" states="up,down,disabled"  currentState="up" xmlns:e="http://ns.egret.com/eui" width="140" height="72">
+
+	<e:Image x.disabled="0" x.up="0" y.disabled="0" y.up="0"
+	         horizontalCenter="0" verticalCenter="0"  width="100%" height="100%" verticalCenter.down="2" horizontalCenter.down="2"  source="ui_bt_01" source.disabled="ui_bt_04"/>
+	<e:Label id="labelDisplay" verticalAlign="middle"
+	         textAlign="center" horizontalCenter.down="2"
+	         verticalCenter.down="2" text="确定" size="26" verticalCenter="0" width="100%" horizontalCenter="0.5"  textColor.disabled="0xf7ece6" style="l_brown_1"/>
+			<e:Image id="redPoint" source="ui_bm_reddot" right="-6" top="-8" touchEnabled="false" visible="false"/>
+</e:Skin>

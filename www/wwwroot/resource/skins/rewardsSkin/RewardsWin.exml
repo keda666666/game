@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardsWin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162f6cd7f34"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" height="500" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="650" y="0" x="0"/>
+			<e:Image scaleX="1" scaleY="1"  source="ui_sbm_003" anchorOffsetX="0" width="629" x="11" y="0"/>
+			<e:Image id="uiBg1" source="ui_sbm_002" y="143" width="560" height="210" anchorOffsetY="0" x="44"/>
+		</e:Group>
+		<e:Group x="0" y="0">
+			<e:Label id="tipsTxt" text="通关宝藏图" x="50" y="111" anchorOffsetX="0" width="547" anchorOffsetY="0" height="33" style="l_brown_1" textColor="0x43ff00"/>
+			<e:List width="451" height="143" y="187" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="60"/>
+			</e:layout>
+			</e:List>
+			<e:BitmapLabel id="titleName" scaleX="1" scaleY="1" text="通关奖励" font="font_ui_biaoti_fnt" textAlign="center" width="258" anchorOffsetY="0" height="46" anchorOffsetX="0" x="196" y="20"/>
+		</e:Group>
+		<e:Group x="246" y="0">
+			<e:Button id="returnBtn" touchEnabled="true" skinName="ReturnBtn" scaleX="1" scaleY="1" x="310" y="406"/>
+			<e:Button id="closeBtn" icon="ui_btn_guanbi" touchEnabled="true" skinName="CloseBtn" scaleX="1" scaleY="1" x="325" y="0"/>
+			<e:Button label="领取奖励" y="387" skinName="BtnN1Skin" anchorOffsetX="0" width="158" x="0"/>
+		</e:Group>
+	</e:Group>
+	<ns1:CommonDialog skinName="CommonDialog2Skin" horizontalCenter="0" height="596" verticalCenter="0" visible="false"/>
+</e:Skin>

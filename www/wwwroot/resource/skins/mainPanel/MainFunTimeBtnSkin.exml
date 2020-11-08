@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainFunTimeBtnSkin" states="up,down,disabled" width="86" height="87"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image id="iconDisplay" y="6" x="8" x.down="10" y.down="8" source=""/>
+	<e:Image id="redPoint"  source="ui_bm_reddot" x="55" visible="false"/>
+	<e:Label id="time" text="00:00" y="35" horizontalCenter="0" stroke="2" style="l_white" size="22" visible="false"/>
+</e:Skin>

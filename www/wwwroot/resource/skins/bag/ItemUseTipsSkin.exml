@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemUseTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b37c599"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Component skinName="BG2" id="dialogMask" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group touchEnabled="false" touchThrough="true" verticalCenter="8" horizontalCenter="0">
+		<e:Image source="ui_cm_bm_bg" top="-16" bottom="-10" left="1" right="-42"/>
+		<e:Group id="group1" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchThrough="true" top="0" bottom="0" left="20" right="-35">
+		<e:Group scaleX="1" scaleY="1" x="0" y="93.32" anchorOffsetY="0" height="118" width="100%" touchEnabled="false" touchThrough="true">
+			<ns1:ItemIcon id="itemIcon" x="2" y="10.36" skinName="ItemIconSkin" scaleX="1" scaleY="1"/>
+			<e:Label id="nameLabel" text="羽毛" y="19.69" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_yellow_3" size="26" x="109"/>
+			<e:Label id="num" y="64.69" text="数量：9" x="109" scaleX="1" scaleY="1" size="20" style="l_yellow_3"/>
+			<e:Label id="lv" y="80" text="等级：1级" x="109" scaleX="1" scaleY="1" size="20" style="l_yellow_3" visible="false"/>
+			<e:Image source="ui_bm_fengexian" horizontalCenter="0" bottom="0" width="392"/>
+		</e:Group>
+		<e:Group id="group2" scaleX="1" scaleY="1" x="0" y="259.33" width="100%">
+			<e:Label id="description" text="1000万角色经验值验值验值使用后获得1000万角色经验值验值验值使用后获得1000万角色经验值验1000万角色经验值验值使用后获得1000万角色经验值验值" anchorOffsetY="0" y="6" scaleX="1" scaleY="1" lineSpacing="8" style="l_yellow_3" size="20" width="380" verticalAlign="middle" x="0"/>
+		</e:Group>
+		<e:Group scaleX="1" scaleY="1" x="0" y="373.01" width="100%">
+
+			<e:Image source="ui_bm_fengexian" horizontalCenter="0" width="392" y="2" visible="false"/>
+			<e:Group id="add" height="40" scaleX="1" scaleY="1" horizontalCenter="0" width="100%" y="10">
+				<e:TextInput id="numLabel" text="1" maxChars="6" width="105" height="35" skinName="TextInputSkin2" anchorOffsetX="0" y="2" horizontalCenter="0"/>
+			<e:Button id="minBtn" label="最小" x="110.99" y="-1.33" skinName="Btn0Skin" icon="ui_bt_jian"/>
+			<e:Image id="sub1Btn" x="71" y="3" source="ui_cm_jian"/>
+
+			<e:Image id="add1Btn" x="196" y="3" source="ui_cm_jia"/>
+			<e:Button id="maxBtn" label="最大" x="237.68" y="-1" skinName="Btn0Skin" icon="ui_bt_plue"/>
+				<e:Button id="btnLessTen" label="Button" x="30.01" y="-1" skinName="Btn0Skin" icon="ui_bt_zuixiao"/>
+				<e:Button id="btnAddTen" label="Button" x="296.34" y="-2" skinName="Btn0Skin" icon="ui_bt_zuida"/>
+
+
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group scaleX="1" scaleY="1" x="0" y="296.33" width="100%" touchThrough="true">
+			<e:Button id="useBtn" label="使 用" scaleX="1" scaleY="1" skinName="BtnN1Skin" horizontalCenter="0" y="8"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

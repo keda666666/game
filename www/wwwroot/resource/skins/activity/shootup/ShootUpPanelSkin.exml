@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShootUpPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f2b25cf9"/>
+	<e:Component skinName="BG2" id="dialogMask" verticalCenter="0" height="1767" horizontalCenter="0"/>
+	<e:Group x="0" y="163">
+		<e:Image y="3" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="652" height="700" x="35"/>
+		<e:Image y="66" x="50" source="ui_yyhd_bm_zhishengyijieBG"/>
+		<e:Image id="imgIcon" y="312" x="102" source="2006709_s"/>
+		<e:Group touchChildren="false" touchEnabled="false" x="46" y="1">
+			<e:Image scaleX="1" scaleY="1" y="0"  source="ui_sbm_003" x="4"/>
+			<e:BitmapLabel y="19" scaleX="1" scaleY="1" text="直升一阶" font="font_ui_biaoti_fnt" textAlign="center" width="270" x="180"/>
+		</e:Group>
+		<e:Button id="dialogCloseBtn" icon="ui_common_gb02_btn_n" x="600" skinName="CloseBtn" y="0" scaleX="1" scaleY="1"/>
+		<e:Group x="54" y="276">
+			<e:Image x="0" y="0" source="ui_yyhd_bm_wenbenBG"/>
+			<e:Label id="nameTxt" text="神兵直升丹" y="20" size="20" x="10" style="l_yellow_1" width="22" lineSpacing="2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="73" y="656">
+		<e:Label text="剩余时间：" y="0" size="20" x="0" style="label01" stroke="2"/>
+		<e:Label id="timeTxt" text="23:59:59" y="0" size="20" x="100" style="l_yellow_1" stroke="2"/>
+	</e:Group>
+	<e:Image id="titleImg" x="124" y="254" source="ui_yyhd_bm_zhishengyijiewenben0"/>
+	<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" y="463" x="300" itemRendererSkinName="ItemSkin" width="350">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout horizontalGap="8" verticalGap="-24" orientation="rows"/>
+		</e:layout>
+	</e:List>
+	<e:Image x="304" y="466" source="ui_yyhd_bm_xianshi"/>
+	<e:Button id="chargeBtn" x="280" y="735"   label="充点小钱" skinName="BtnN2Skin"/>
+	<e:Label id="chargeTxt" text="今日已充值：99元" y="814" size="24" stroke="2" horizontalCenter="1" style="l_green_2"/>
+	<e:Label text="直升一阶丹获得后会在当天24点过期" y="698" size="22" stroke="2" horizontalCenter="1.5" style="l_green_2"/>
+</e:Skin>

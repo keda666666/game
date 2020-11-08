@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ItemIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" width="96" height="96">
+	<w:Config id="1586b29e830"/>
+
+	<e:Image id="imgBg" left="-2" right="-2" top="-2" bottom="-2" source="ui_bm_icon001"/>
+	<e:Image id="imgIcon" left="6" right="6" top="6" bottom="6" x="2" y="2" scaleX="1" scaleY="1" source=""/>
+
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163a5ecf475" />
+	<ns1:CommonWindowBg id="commonWindowBg" title="好友" />
+	<e:Button id="btnShop" label="Button" x="10" y="74" skinName="Btn0Skin" icon="ui_bm_youqingshop" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

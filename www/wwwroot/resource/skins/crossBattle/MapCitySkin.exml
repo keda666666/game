@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapCitySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="450" height="450">
+	<w:Config id="1633e92cf14"/>
+	<e:Image id="cityName" source="ui_hddt_bm_wangcheng" horizontalCenter="0" verticalCenter="0"/>
+	<e:List id="list" y="0" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" x="0" width="448">
+		<e:layout>
+		<e:HorizontalLayout gap="-60"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BG" width="720" height="1280" xmlns:e="http://ns.egret.com/eui">
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" source="ui_bm_back4" bottom="142" top="62" left="0" right="0"/>
+</e:Skin>

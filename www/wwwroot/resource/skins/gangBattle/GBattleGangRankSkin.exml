@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleGangRankSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="664" height="830" x="28" y="150" source="ui_sbm_002"/>
+	<e:Scroller width="660" height="790" x="30" y="184">
+		<e:List id="list" itemRendererSkinName="GBattleGangRankItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="52" y="985">
+		<e:Label text="本帮排名：" x="0" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="labMyRank" text="11" x="108" y="0" size="22" style="l_green"/>
+		<e:Label text="伤害：" x="283" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="labMyData" text="100" x="351" y="0" size="22" style="l_green"/>
+	</e:Group>
+	<e:Group x="33" y="156">
+		<e:Label text="排名" x="24" y="0" style="l_brown_1" size="24"/>
+		<e:Label text="帮会" x="257" y="0" style="l_brown_1" size="24"/>
+		<e:Label text="伤害" x="522" y="0" style="l_brown_1" size="24"/>
+	</e:Group>
+</e:Skin>

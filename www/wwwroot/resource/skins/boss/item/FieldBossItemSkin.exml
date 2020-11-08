@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FieldBossItemSkin" width="640" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162a9e5f3e8" style="l_blue" size="24" width="181" textAlign="center"/>
+	<e:Image width="637" height="208" source="ui_sbm_005" anchorOffsetY="0" anchorOffsetX="0" x="0" y="1"/>
+	<e:Image x="16" y="14" source="ui_boss_bm_taizi"/>
+	<e:Image x="6" y="12" source="ui_fb_bm_cengshubg" scale9Grid="42,5,65,30" width="181"/>
+	<e:Label id="bossName" text="BOSS" x="4" y="19" style="l_brown_2" width="187" textAlign="center" size="24"/>
+	<e:Label text="刷新时间:" x="212" y="14" style="l_brown_2" size="22"/>
+	<e:Image width="310" height="58" x="316" y="8" source="ui_boss_bm_wenbenbg"/>
+	<e:Image width="310" height="30" x="316" y="68" source="ui_boss_bm_wenbenbg"/>
+	<e:Image width="310" height="30" x="316" y="99" source="ui_boss_bm_wenbenbg"/>
+	<e:Label text="每天早上8点-凌晨2点每30分钟刷新一次" x="322" y="14" size="22" style="l_brown_2" width="293"/>
+	<e:Label text="逃跑时间:" x="212" y="71" size="22" style="l_brown_2"/>
+	<e:Label id="runTime" text="Boss刷新25分钟后" x="322" y="73" size="20" style="l_brown_2" height="20"/>
+	<e:Label text="下次刷新:" x="212" y="102" size="22" style="l_brown_2"/>
+	<e:Label id="nextTimeLabel" text="00:00" x="322" y="104" size="20" style="l_green"/>
+	<e:Label id="enterInfoLabel" text="主角100级可进入" x="360" y="152" style="l_red"/>
+	<e:Button id="goBtn" label="进  入" x="390" y="131" skinName="BtnN1Skin"/>
+	<e:Image id="freshImg" x="189" y="138" source="ui_boss_bm_yishuaxin"/>
+	<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="90" y="176"/>
+	<e:ProgressBar id="bar" x="23" y="179" width="143" slideDuration="0">
+		<e:Skin >
+		<e:Image source="ui_boss_bm_jingyantiao02" verticalCenter="0" width="100%"/>
+		<e:Image id="thumb" source="ui_boss_bm_jingyantiao01" left="1" right="1" y="1"/>
+		<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" stroke="1"/>
+		</e:Skin>
+	</e:ProgressBar>
+</e:Skin>

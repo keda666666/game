@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameCityBtnSkin" states="up,down,disabled" minHeight="25" minWidth="25" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="iconDisplay"  alpha.disabled="0.5"
+	           pixelHitTest="true"  horizontalCenter="0" verticalCenter="0" source="ui_bm_act" verticalCenter.down="3"/>
+</e:Skin>

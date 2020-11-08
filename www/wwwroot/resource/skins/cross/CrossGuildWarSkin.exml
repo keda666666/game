@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossGuildWarSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="20" y="160">
+		<e:Image width="679" height="305" x="0" y="0" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="tstate" text="开战中" x="289" y="243" style="l_purple_1"/>
+		<e:Label text="活动时间：" x="154" y="31" style="l_purple_1"/>
+		<e:Label id="timeTxt" text="每天10：00 - 21：00 开启" x="290" y="31" style="l_orange"/>
+		<e:List id="itemList" height="130" y="87" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ItemSkin" x="20">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Component id="item0" x="59" y="504" skinName="CrossGuildCityItemSkin"/>
+	<e:Component x="275" y="644" skinName="CrossGuildCityItemSkin" id="item1"/>
+	<e:Component x="48" y="818" skinName="CrossGuildCityItemSkin" id="item2"/>
+	<e:Component x="475" y="489" skinName="CrossGuildCityItemSkin" id="item3"/>
+	<e:Component x="454" y="821" skinName="CrossGuildCityItemSkin" id="item4"/>
+	<e:Label id="tcount" text="剩余进攻次数：2" x="260" y="474" style="l_purple_1"/>
+</e:Skin>

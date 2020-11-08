@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ArenaRoleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="224" height="244">
+	<e:Group x="0" y="0" width="224">
+		<e:Image y="192" source="ui_jjc_bm_guanghuan" x="64"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="220" width="4" x="110" skinName="RoleShowPanelSkin" touchEnabled="true"/>
+		<e:Image id="bg" x="0" y="0" source="ui_jjc_bm_paimingbg"/>
+
+
+		<e:Label text="第" x="60" y="11" style="l_white"/>
+		<e:BitmapLabel id="rankTxt" y="12" font="font_ui_zl_fnt" text="1806" letterSpacing="-2" horizontalCenter="9.5"/>
+		<e:Label text="名" x="158" y="11" style="l_white"/>
+		<ns1:PowerLabel id="totalPower" text="0" y="43" skinName="PowerLabelSkin" horizontalCenter="0"/>
+		<e:Image id="mkillImg" x="104" y="172" source="ui_jjc_bm_miaosha"/>
+		<e:Image id="challengeImg" y="215" source="ui_jjc_bm_tiaozhanzhe" x="79"/>
+		<e:Label id="nameTxt" text="挑战者" y="222" style="l_yellow_4" size="20" stroke="2" textColor="0xf1ecdb" strokeColor="0x502512" horizontalCenter="2"/>
+	</e:Group>
+</e:Skin>

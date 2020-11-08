@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameCityPanelSkin" width="960" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="gGroup" width="720" height="1280" horizontalCenter="0" verticalCenter="-70" touchEnabled="false" touchChildren="true">
+		<e:Image scaleX="1" scaleY="1" source="ui_zc_jz_ditu" x="-120" y="-81.52" locked="true"/>
+		<e:Button id="gangBtn" x="-351.97" y="413.35" locked="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Group width="476" height="335" x="40" y="97" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image scaleX.down="1.004" scaleY.down="1.004" pixelHitTest="true" source="ui_zc_jz_banghui" x="233" y="227"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="535" y="265"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnActive" x="179.32" y="369.5"  locked="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image name="icon" scaleX.down="0.724" scaleX="0.72" scaleY="0.78" scaleY.down="0.784" pixelHitTest="true" source="ui_zc_jz_huodong" width="461" height="369" x="-120" y="34"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="6" y="145"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnBoss" x="17.33" y="1009.67" anchorOffsetX="0" width="224.92" anchorOffsetY="0" height="285" locked="true"><e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image name="icon" source="ui_zc_jz_boss" scaleX="0.92" scaleY="0.97" scaleX.down="0.924" scaleY.down="0.974" pixelHitTest="true" x="-70" y="-30" width="296" height="355"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="52" y="-42"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnFuBen" x="435" y="505"  anchorOffsetX="0" width="282" anchorOffsetY="0" height="290"><e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image name="icon" source="ui_zc_jz_fuben" scaleX="0.66" scaleY="0.98" scaleX.down="0.664" scaleY.down="0.984" pixelHitTest="true" width="474" height="325" x="-23" y="0"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="34" y="76"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnArena" x="220.33" y="873.99"  anchorOffsetY="0" height="297.09" anchorOffsetX="0" width="286.44" locked="true"><e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image name="icon" source="ui_zc_jz_jingji"  scaleX="0.72" scaleY="0.84" scaleX.down="0.724" scaleY.down="0.844" pixelHitTest="true" width="418" height="286" y="28" x="-24"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="22" y="38"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnKuaFu" x="385.88" y="937.49"  anchorOffsetX="0" width="319"  anchorOffsetY="0" height="343" locked="true"><e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image name="icon" source="ui_zc_jz_kuafu" scaleX.down="1.604"  scaleX="1.6" scaleY="1.2" scaleY.down="1.204" pixelHitTest="true" x="-23" y="-6" width="296" height="355"/>
+				<e:Image name="redPoint" source="ui_bm_reddot" x="162" y="38"/>
+				<e:Image source="ui_qj_bm_shuangbei" x="44" y="-3" name="imgDouble" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+    <e:Group id="topGp" y="187" touchThrough="true" width="700" x="22" anchorOffsetY="0" height="310" locked="true">
+			<e:Button id="fuliBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bt_fuli" width="70" height="70" x="19" y="535" />
+			<e:Button id="kaifuBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_kaifuhuodong" width="70" height="70" x="517" y="545" />
+			<e:Button id="discountBtn" icon="ui_bm_tehuichongzhi" width="70" height="70" x="89" y="632"  skinName="MainFuncBtnSkin"/>
+			<e:Button id="dailyChargeBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_meirishouchong" width="70" height="70" x="39" y="555" />
+			<e:Button id="sevenDayBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_qitianzunxiang" width="70" height="70" x="49" y="565" />
+			<e:Button id="fightPetFBBtn" width="70" height="70" x="351" y="60"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="shootUpBtn" icon="ui_zc_bm_zhishengyijie" width="70" height="70" x="49" y="565"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="rebateBtn" icon="ui_zc_bm_chongzhifanli" width="70" height="70" x="578" y="575"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="godPetAwardBtn" icon="ui_bm_shenshoujianglin_zc" width="70" height="70" x="59" y="575"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="godPetLotteryBtn" icon="ui_bm_xiangfushenshou_zc" width="70" height="70" x="69" y="585"  skinName="MainFuncBtnSkin"/>
+			<e:Button id="godLotteryBtn" icon="ui_zc_bm_tianshenjianglin" width="70" height="70" x="79" y="595"  skinName="MainFuncBtnSkin"/>
+			<!--<e:Button id="spiritualismBtn" icon="zhucheng_json.ui_zjm_bt_zhlt" width="70" height="70" x="89" y="605" skinName="MainFuncBtnSkin"/>-->
+			<e:Button id="godXinJunLotteryBtn" icon="zhucheng_json.ui_zc_bt_xjls" width="70" height="70" x="89" y="605" skinName="MainFuncBtnSkin"/>
+			<e:Button id="growupBtn" icon="ui_zc_bm_chengzhangjijin" width="70" height="70" x="79" y="595"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="investmentBtn" icon="ui_zc_bm_touzijihua" width="70" height="70" x="89" y="605"  skinName="MainFuncBtnSkin2"/>
+			<e:Button id="jingCaiBtn" icon="ui_zc_bm_jingcaihuodong" width="70" height="70" x="99" y="615"  skinName="MainFuncBtnSkin"/>
+			<e:Button id="xuannvBtn" icon="ui_bm_xuannvxiafan" width="70" height="70" x="109" y="625"  skinName="MainFuncBtnSkin"/>
+			<e:Button id="treasureBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_xunbao" x="291.67" y="198" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70"/>
+			<e:Button id="totemsDraw2Btn" skinName="MainFuncBtnSkin" icon="ui_zjm_bt_ttzp" x="311.67" y="218" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70"/>
+			<e:Button id="mysteryShopBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bm_shenmishangdian" x="311.67" y="218" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70"/>
+			<e:Button id="dailyChargeGiftBtn" width="70" height="70" x="79" y="595" skinName="MainFuncBtnSkin" icon="ui_zc_bt_mrhl"/>
+			<e:Button id="rechargeFeedbackBtn" icon="ui_zjm_bt_lchl" width="70" height="70" x="69" y="585" skinName="MainFuncBtnSkin2"/>
+			<e:layout>
+				<e:TileLayout horizontalGap="30" horizontalAlign="left" rowHeight="70" verticalGap="37"/>
+			</e:layout>
+	</e:Group>
+
+    <e:Group id="leftGp" x="4" y="491" touchThrough="true" height="434" touchEnabled="false" touchChildren="true" locked="true">
+			<e:Button skinName="MainFuncBtnSkin" id="btnMail" icon="ui_zc_bt_youjian"  x="15" y="255"/>
+			<e:Button id="friendBtn" label="Button" skinName="MainFuncBtnSkin" icon="ui_zc_bt_haoyou"  x="-4" y="-391"/>
+			<e:layout>
+				<e:TileLayout orientation="columns" verticalGap="1"/>
+			</e:layout>
+	</e:Group>
+	<e:Group id="rightGroup" y="391" touchThrough="true" right="-33" anchorOffsetX="0" width="208" locked="true">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="bottomGp" touchThrough="true" bottom="150" horizontalCenter="0" locked="true">
+		<e:layout>
+			<e:HorizontalLayout gap="14"/>
+		</e:layout>
+		<e:Button skinName="MainFuncBtnSkin" id="btnEquipSp" icon="ui_zc_bt_zbsd" x="4" y="-535" scaleX="1" scaleY="1"/>
+		<e:Button skinName="MainFuncBtnSkin" id="btnShop" icon="ui_zc_bt_sd" x="4" y="-536" scaleX="1" scaleY="1"/>
+		<e:Button id="auctionBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bt_pmh" x="4" y="-624" scaleX="1" scaleY="1"/>
+		<e:Button id="btnRelation" icon="ui_zc_bt_st" x="606" y="-624" skinName="MainFuncBtnSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="yingYue" icon="ui_zc_bt_yy" x="606" y="-624" skinName="MainFuncBtnSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="totemsBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bt_tt" x="222" y="-614" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Button id="destinyBtn" skinName="MainFuncBtnSkin" icon="ui_zc_bt_nm" x="232" y="-604" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Component id="xuannvCard" x="0" y="142" skinName="HavingCard" visible="false"/>
+	<e:Group width="169" height="322" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="87.5" verticalCenter="63">
+		<ns1:RoleShowPanel id="homeRoleShowPanel" width="4" scaleX="0.7" scaleY="0.7" horizontalCenter="0" verticalCenter="86.5"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+
+	<ns1:MainPlayerInfoView id="playerInfo" x="0" y="0" skinName="MainPlayerInfoSkin"/>
+	<e:Image source="zhucheng_json.ui_zc_jz_maoxian" x="692" y="608"/>
+</e:Skin>

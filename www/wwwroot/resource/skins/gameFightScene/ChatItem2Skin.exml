@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatItem2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="546" >
+	<e:Group x="0" y="0" width="546" >
+		<e:Component id="head" skinName="HeadSkin" y="0" x="446"/>
+		<e:Image y="7" source="ui_lt_bm_shijie" id="flagImg" x="367"/>
+		<e:Label id="roleNameTxt" text="Labela" y="11" textColor="0x6e330b" style="l_white" size="24" anchorOffsetX="0" anchorOffsetY="0" width="319" textAlign="right" x="39"/>
+		<e:Group y="45" right="99">
+			<e:Image id="contentImg" anchorOffsetX="58" anchorOffsetY="-1" left="-13" top="0" bottom="0" right="0" source="ui_wjxq_bm_qipao02" scaleX="-1"/>
+			<ns1:ChatLabel id="contentTxt"  maxWidth="400"   right="20" top="10" bottom="10"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

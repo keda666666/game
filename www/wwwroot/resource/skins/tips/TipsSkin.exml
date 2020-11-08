@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipsSkin" width="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="58">
+
+	<e:Group id="group" x="25" y="0" width="350" height="44" touchChildren="false" touchEnabled="false">
+		<e:Image id="bg" touchEnabled="false" alpha="0.9" y="0" horizontalCenter="0" width="397" source="ui_zd_bm_tishibg" height="58"/>
+		<e:Group height="44" y="7" horizontalCenter="0.5">
+			<e:Image id="icon" touchEnabled="false" alpha="0.9" anchorOffsetX="0" scaleX="0.5" scaleY="0.5" source=""/>
+			<e:Label id="lab" text="Tips" touchEnabled="false" size="25" scaleX="1" scaleY="1" verticalAlign="middle" bold="true" textColor="0xfff5e0"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

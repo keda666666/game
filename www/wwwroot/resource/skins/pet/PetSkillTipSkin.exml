@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetSkillTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<e:Image width="437" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="279" y="517" x="142" />
+	<e:Component id="skillIcon" y="547" skinName="PetSkillIconSkin" x="177"/>
+	<e:Label id="skillName" text="Label" x="289" y="564" size="24"/>
+	<e:Label id="skillType" text="类型：主动技能" x="288" y="600" size="24" style="l_yellow_2"/>
+	<e:Label text="技能说明" x="191" y="665" size="24" style="l_yellow_2"/>
+	<e:Label id="skillDesc" text="技能说明" x="237" y="699" size="24" style="l_white_1" width="291"/>
+	<e:Image y="652" source="ui_bm_shuomingfengexian" horizontalCenter="0.5"/>
+</e:Skin>

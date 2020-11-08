@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LastWeekRankItemSkin" width="640" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+<e:Image width="640" height="140" x="0" y="0" source="ui_bm_bg"/>
+
+
+
+
+	<e:Group x="376" width="0" height="0" y="70">
+		<e:Group scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="-1">
+			<e:Label id="nameLabel" text="狂拽酷炫叼去" textAlign="center" y="0" style="l_brown_1" size="22" horizontalCenter="0"/>
+			<e:Label id="winNum" text="100场" textAlign="left" y="50" style="l_brown_1" size="22" horizontalCenter="-2.5"/>
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="22"/>
+			</e:layout>
+		</e:Group>
+
+	</e:Group>
+
+
+
+	<ns1:ItemBaseNotName id="item1" x="514" y="18"  skinName="ItemSkin"/>
+
+
+
+
+
+
+
+	<ns1:LadderLevelIcon id="levelIcon" x="162" y="32"/>
+
+	<e:Image id="rankImg" x="23" source="ui_kfwz_bm_pmk01" y="40"/>
+	<e:Label id="rankLabel" text="第四名" x="1" y="60" style="l_brown_1" size="22" textAlign="center" width="108"/>
+
+ 
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDialog2Skin" width="720" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15bb4d0c9c4" ></w:Config>
+<e:Component skinName="BG2" id="dialogMask"  verticalCenter="0" height="1767" horizontalCenter="0"/>
+	<e:Image y="0" touchEnabled="false" scaleX="1" scaleY="1" height="100%" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="640" horizontalCenter="0"/>
+	<e:Group touchChildren="false" touchEnabled="false" top="9" x="50">
+		<e:Image scaleX="1" scaleY="1" y="-15" source="ui_sbm_003" horizontalCenter="0"/>
+		<e:BitmapLabel id="titleLabel" y="5" scaleX="1" scaleY="1" text="装备" font="font_ui_biaoti_fnt" textAlign="center" width="270" letterSpacing="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="dialogCloseBtn" icon="ui_common_gb02_btn_n" x="600" skinName="CloseBtn" top="3"/>
+	<e:Button id="dialogReturnBtn" touchEnabled="true" skinName="ReturnBtn" scaleX="1" scaleY="1" right="38" bottom="-2"/>
+</e:Skin>

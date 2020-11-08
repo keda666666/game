@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyResolveItemSkin" width="165" height="215" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="item,add
+" >
+	<e:Group id="pItem" horizontalCenter="0" verticalCenter="0" visible.add="false" height.item="210"  width="165" height="209">
+		<ns1:ItemBase id="item" y="29" x="27"/>
+		<e:Label id="lbNe" text="皮肤总战力" y="1" style="l_brown_2" horizontalCenter="0.5"  visible="false"/>
+		<e:Label id="lbInfo" text="银两:999999" y="183" style="l_brown_2" horizontalCenter="0" />
+		<e:Group x="0" y="134">
+			<e:TextInput id="countTxt" textColor="0x6e330b" text="1" maxChars="6" y="2" width="98" skinName="TextInputSkin2" x="33"/>
+			<e:Button id="decBtn" label="按钮" x="0" y="0" icon="ui_bt_jian" skinName="Btn0Skin"/>
+			<e:Button id="addBtn" label="按钮" x="123" y="0" skinName="Btn0Skin" icon="ui_bt_plue"/>
+		</e:Group>
+	</e:Group>
+	<e:Group includeIn="add" x="36" y="37">
+		<e:Image id="imgBg" source="ui_bm_icon001" y="0" includeIn="add" x="0"/>
+		<e:Image id="imgAdd" source="ui_bt_plue3" y="20" includeIn="add" x="22" touchEnabled="true"/>
+	</e:Group>
+	<e:Group id="effGroup" x="36" y="37" width="94" height="94" touchEnabled="false" touchChildren="false">
+	</e:Group>
+</e:Skin>

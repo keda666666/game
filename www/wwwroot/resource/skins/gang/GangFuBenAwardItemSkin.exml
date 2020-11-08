@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangFuBenAwardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="75" height="75">
+	<w:Config id="1586b362dfe"/>
+	<ns1:ItemIcon id="itemIcon" y="0" skinName="ItemIconSkin"  width="75" height="75" x="0" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="count" text="9" size="18"  touchEnabled="false" stroke="2" y="55" textAlign="right" anchorOffsetX="0" width="66" x="3"/>
+
+	<e:Image id="redPoint" width="32" height="31" x="39" y="6" source="ui_bm_reddot" visible="false"/>
+
+
+	<e:Label id="nameTxt" size="20"  horizontalCenter="0.5" text="" y="55" visible="false"/>
+</e:Skin>

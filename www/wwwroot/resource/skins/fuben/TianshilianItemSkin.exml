@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianshilianItemSkin" width="154" height="158" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="stateImg" x="57" y="83" source="ui_fb_bm_xiaodian01"/>
+	<e:Image id="boxImg" x="36" y="14" source="ui_fb_bm_baoxiang01"/>
+	<e:Image id="redImg" x="85" y="4" source="ui_bm_reddot"/>
+	<e:Image id="getImg" y="-4" source="ui_fb_bm_yilingqu" horizontalCenter="0"/>
+	<e:Label id="layerLabel" text="1层" y="127" textColor="0xd85524" size="22" width="70" x="38" textAlign="center"/>
+	<w:Config id="162ae571ad0"/>
+</e:Skin>

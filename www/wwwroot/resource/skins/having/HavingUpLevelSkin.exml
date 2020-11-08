@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingUpLevelSkin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" states="normal,full,none" width="720" height="1280">
+	<w:Config id="1628afab306" />
+	<e:Group width="652" height="873" x="34" y="126" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image width="602" height="562" x="0" y="48" source="ui_bm_jsbg" />
+		<e:Group width="649" height="642" x="1" y="2" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:PowerLabel id="powerLabel" y="8" x="119" scaleX="1" scaleY="1" skinName="PowerLabel3Skin" />
+			<e:Button id="btnAttrDrug" label="" x="13" y="0" icon="ui_bt_shuxingdan" scaleX="1" scaleY="1" skinName="Btn0TipSkin" />
+			<e:Button id="btnSkin" label="" x="13" y="101" icon="ui_bt_pifu" skinName="Btn0TipSkin" />
+			<e:Image x="481" y="111" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg" />
+			<e:Label id="lbLev" text="4阶" y="102" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center"
+			         anchorOffsetX="0" width="23" height="131" verticalAlign="middle" textColor="0xAA6A31" horizontalCenter="175"
+			         bold="true" />
+			<e:Image width="249" height="30" y="501" source="ui_bm_title1" anchorOffsetX="0" anchorOffsetY="0"
+			         horizontalCenter="-3" />
+			<e:Label text="技能" x="229" y="499.96" style="l_brown_2" anchorOffsetY="0" height="29.03" textAlign="center"
+			         verticalAlign="middle" size="20" anchorOffsetX="0" width="186" />
+			<ns1:PetShowPanel id="xingxiang" y="407" horizontalCenter="-12" />
+			<e:List id="skillList" anchorOffsetX="0" anchorOffsetY="0" y="540"
+			        itemRendererSkinName="HavingSkillIconSkin" horizontalCenter="-0.5">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object x="null" />
+						<e:Object x="null" />
+						<e:Object x="null" />
+						<e:Object x="null" />
+						<e:Object x="null" />
+						<e:Object x="null" />
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="12"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group x="5" y="697" anchorOffsetX="0" width="639">
+			<e:Image width="655" height="226" x="-6" y="-51" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" />
+			<e:Button id="btnCulture" x="69" y="93" icon="ui_btn_powup" skinName="BtnN3Skin" label="升阶" visible.full="false"
+			          visible.none="false" />
+			<e:Button id="btnAuto" x="408" y="93"   label="自动升阶" skinName="BtnN2Skin" visible.full="false"
+			          visible.none="false" />
+			<e:ProgressBar id="bar" y="0.52" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="599" height="24"
+			               visible.full="false" visible.none="false" x="24">
+				<e:Skin>
+					<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg" />
+					<e:Image id="thumb" x="2" y="2" width="591" height="17" anchorOffsetX="0" anchorOffsetY="0"
+					         source="ui_bm_zuoqijingyantiao" />
+					<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" />
+				</e:Skin>
+			</e:ProgressBar>
+			<e:CheckBox id="checkBox" y="36" label="自动购买" skinName="CheckBox0" horizontalCenter="200.5" visible.full="false"
+			            visible.none="false" />
+			<ns1:ConsumeTwoLabel id="consumeLabel" x="47" y="40" visible.full="false" visible.none="false" />
+		</e:Group>
+		<e:Group y="658" visible.full="false" visible.none="false" x="178">
+			<e:Image width="72" height="20" x="0" y="4" source="ui_guankia_wenli" />
+			<e:Image width="72" height="20" x="296" y="4" source="ui_guankia_wenli" scaleX="-1" />
+			<e:Label text="进阶进度" x="90" y="0" size="26" textColor="0x682f00" bold="true" />
+		</e:Group>
+		<e:Button id="btn_juexing" x="530" y="420" icon="ui_bt_jinjiejuli" scaleX="1" scaleY="1" skinName="Btn0TipSkin" />
+	</e:Group>
+	<e:Label id="lbFull" text="玄女已满阶" y="861" size="30" bold="true" horizontalCenter="0" includeIn="full,none"
+	         textColor="0xCC0000" text.none="未激活" text.full="玄女已满阶" />
+	<e:Image id="help" x="12" y="75" source="ui_ty_bt_wenhao" />
+</e:Skin>

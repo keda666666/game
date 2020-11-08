@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoBaseRecordSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="6.06" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" height="1280" anchorOffsetX="0" width="710.91"/>
+	<e:Button id="shopBtn" label="" x="9.01" y="61.69" icon="ui_bsyn_bt_shandian"/>
+	<e:Label id="challengeLabel" text="返回挑战" y="150" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="224" size="22" touchEnabled="true"/>
+
+
+	<e:Label text="协助他人通关副本收益次数，可获得协助奖励" y="1036.67" anchorOffsetX="0" anchorOffsetY="0" style="l_green" horizontalCenter="2.5" size="22" backgroundColor="0xffffff" borderColor="0xffffff" strokeColor="0x070606" height="20" textColor="0x70330b"/>
+	<e:Label text="每日协助次数" y="1076.66" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="0" horizontalCenter="-33" size="22" textColor="0x70330b"/>
+	<e:Label id="countLabel" text="(0/3)" y="1076.66" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="70" size="22" textColor="0x4eff00"/>
+	<e:Group x="34" y="666" height="369" width="654">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="337" width="647" x="0"/>
+		<e:Image x="190.69" y="42.98" source="ui_guankia_wenli" scaleX="1" scaleY="1"/>
+		<e:Image x="490.69" y="42.98" source="ui_guankia_wenli" scaleX="-1" scaleY="1"/>
+		<e:Label text="本服首杀记录" y="40.52" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="272.69"/>
+		<e:Label id="ranksLabel" text="暂 无" y="89.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="103.69"/>
+		<e:Label text="队伍：" y="89.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="34.69"/>
+		<e:Label text="回合：" y="129.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="34.69"/>
+		<e:Label id="roundLabel" text="暂 无" y="129.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" x="103.69" textColor="0x2dff42"/>
+		<e:Label text="时间：" y="129.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" x="362.77" textColor="0x70330b"/>
+		<e:Label id="timeLabel" text="暂 无" y="129.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" x="430.41" textColor="0x2DFF42"/>
+		<e:Label text="队伍：" y="239.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="34.69"/>
+		<e:Image source="ui_bm_yjfengexian" x="61.75" y="184.98"/>
+		<e:Image x="190.69" y="209.49" source="ui_guankia_wenli" scaleX="1" scaleY="1"/>
+		<e:Image x="490.69" y="209.49" source="ui_guankia_wenli" scaleX="-1" scaleY="1"/>
+		<e:Label id="ranksLabel1" text="暂 无" y="239.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="103.69"/>
+		<e:Label text="最少回合记录" y="207.96" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="272.69"/>
+		<e:Label text="回合：" y="279.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="34.69"/>
+		<e:Label id="roundLabel1" text="暂 无" y="279.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x2DFF42" x="103.69"/>
+		<e:Label text="时间：" y="279.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="362.77"/>
+		<e:Label id="timeLabel1" text="暂 无" y="279.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x2DFF42" x="430.41"/>
+	</e:Group>
+	<e:Group y="137" width="233" x="236">
+		<e:Image id="nameBg1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" x="0" width="234" scale9Grid="55,5,40,30"/>
+		<e:Label id="title0" text="青龙" y="9" size="24" width="233" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" anchorOffsetX="0" x="0"/>
+	</e:Group>
+	<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="529" height="87.33" itemRendererSkinName="GangFuBenAwardItemSkin" horizontalCenter="-10">
+		<e:layout>
+		<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="234" y="490">
+		<e:Image source="ui_bm_title1" y="0" x="0"/>
+		<e:Label id="recordLabel0" text="机率掉落" y="4.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="74.4"/>
+	</e:Group>
+	<e:Group x="234" y="628" height="28">
+		<e:Image source="ui_bm_title1" y="-1.5" x="0"/>
+		<e:Label id="title1" text="XXX" y="4.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="79.71"/>
+	</e:Group>
+	<ns1:TsumKoCheckItemList width="696.36" height="313.75" x="9.41" y="173" anchorOffsetX="0" anchorOffsetY="0" skinName="TsumKoCheckItemListSkin" id="checkpointPanel"/>
+	
+
+</e:Skin>

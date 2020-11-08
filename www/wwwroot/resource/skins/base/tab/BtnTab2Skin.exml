@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTab2Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="126" height="56">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" anchorOffsetX.up="0" source.down="ui_phb_bt_btn1"  source="ui_phb_bt_btn1" x="0" y="0" source.up="ui_phb_bt_btn2"/>
+
+	<e:Image id="redPoint" touchEnabled="false"  x="99" source="ui_bm_reddot" y="-4" visible="false"/>
+	<e:Label  id="labelDisplay"    size="24"  horizontalCenter="0" verticalAlign="middle" top="0" bottom="0"  textColor.down="0xae4212"  textColor.up="0x986d43" style="l_brown_1" text="{data.name}"/>
+</e:Skin>

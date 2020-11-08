@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossGuildCityItemSkin" width="220" height="284" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="stateImg" source="ui_bm_icombg1" x="13" y="63"/>
+	<e:Group x="26.5" y="15.5">
+		<e:Image source="ui_bm_star031" x="-2" y="0"/>
+		<e:Image id="s1" source="ui_bm_star032" x="-2" y="0"/>
+	</e:Group>
+	<e:Group x="69.5" y="7.5">
+		<e:Image source="ui_bm_star011" x="0" y="0"/>
+		<e:Image id="s2" source="ui_bm_star012" x="0" y="0"/>
+	</e:Group>
+	<e:Group x="114" y="17.5">
+		<e:Image source="ui_bm_star021" x="3" y="0"/>
+		<e:Image id="s3" source="ui_bm_star022" x="3" y="1"/>
+	</e:Group>
+	<e:Label id="tstate" text="战斗中" x="48" y="54" style="l_orange"/>
+	<e:Label id="tname" text="玩家：你是谁" x="24" y="183" style="l_red"/>
+	<e:Label id="tpower" text="战力：19999" x="24" y="216" style="l_orange"/>
+	<e:Label id="tscore" text="积分：1000" x="24" y="249" style="l_orange"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderLevelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="165">
+	<e:Group>
+		<e:Image id="img1" x="0" y="0" source="font_kfwz_jjqt02"/>
+		<e:Image id="img2" x="10" y="10" source="font_kfwz_jjqt001"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-34" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

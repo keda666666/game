@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleSuitSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Group id="showGroup" x="0" y="0" width="720" touchChildren="true" touchEnabled="false">
+		<e:Group id="group" width="720" height="1280" x="0" y="0" touchEnabled="false" touchChildren="true">
+		</e:Group>
+		<e:Image y="309" source="ui_bm_xuanxiangkabg" height="174" x="15" anchorOffsetY="0" scaleY="-1"/>
+		<e:Scroller width="585" height="170" x="68" y="136">
+		<e:List id="list" itemRendererSkinName="RoleSuitHeadSkin">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="leftBtn" label="Button" x="36" y="177" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+		<e:Button id="rightBtn" label="Button" x="688" y="177" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1"/>
+	</e:Group>
+	<e:Image y="214" x="38" source="ui_bm_jsbg"/>
+	<e:Image y="366" x="486" source="ui_zuoqidengjibg" height="148" width="36"/>
+	<e:Label id="nameLab" text="初级技能" y="370" size="20" lineSpacing="6" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="28" height="139" verticalAlign="middle" textColor="0xAA6A31" x="490"/>
+	<ns1:PowerLabel id="powerLabel" y="270" x="164" skinName="PowerLabel2Skin"/>
+
+	<e:Group width="0" height="0" y="574" horizontalCenter="0">
+		<ns1:RoleShowPanel id="roleShowPanel"/>
+
+
+
+	</e:Group>
+	<e:Component id="item1" x="46" y="614" skinName="RoleSuitItemSkin"/>
+	<e:Component id="item2" x="266" y="614" skinName="RoleSuitItemSkin"/>
+	<e:Component id="item3" x="486" y="614" skinName="RoleSuitItemSkin"/>
+	<e:Scroller y="764" maxWidth="593" height="248" width="634" x="44" scrollPolicyV="off">
+		<e:List id="itemList" itemRendererSkinName="RoleSuitEquipItemSkin" touchEnabled="true">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

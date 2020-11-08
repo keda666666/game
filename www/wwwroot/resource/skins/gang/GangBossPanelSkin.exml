@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangBossPanelSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetX="0" anchorOffsetY="0" title="帮会BOSS"/>
+	<e:Group x="0" y="150">
+		<e:Image source="ui_kf_bm_beijingBG" y="-18" x="0"/>
+		<e:Group x="66" y="597.34">
+			<e:Image x="33.32" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+			<e:Image x="376.64" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+			<e:Label id="title1Label" text="BOSS奖励" y="3" size="24" textAlign="center" style="l_brown_2" width="137" horizontalCenter="-159.5"/>
+			<e:Label id="title2Label" text="归属奖励" y="3" size="24" textAlign="center" style="l_brown_2" width="137" horizontalCenter="188.5"/>
+		</e:Group>
+		<e:Group x="20.64" y="631">
+			<e:Group x="422.93" y="0">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="87" width="254" x="0"/>
+			<e:List id="listHave" y="2" scaleY="0.8" scaleX="0.8" itemRendererSkinName="ItemSkin" horizontalCenter="-0.5">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="-8"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+			<e:Group x="0" y="0">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="87" width="414" x="0"/>
+			<e:List id="listBoss" y="2" scaleY="0.8" scaleX="0.8" itemRendererSkinName="ItemSkin" horizontalCenter="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="-9"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Group>
+		<e:Label id="labTimeText" text="挑战时间:" y="745.68" style="l_brown_1" x="217"/>
+		<e:Label id="lbTime" text="" x="338" y="746" style="l_green"/>
+		<ns1:DurationLabel id="counterLabel" x="338" y="747" skinName="DurationLabelSkin" visible="false"/>
+		<e:Button id="btnOpen" label="未开始" x="293.67" y="786.65" skinName="Btn2Skin"/>
+		<e:Group x="455.67" y="45">
+			<e:Image x="0" y="0" source="ui_kfbz_bm_diyimingBG"/>
+			<e:Label id="lbShowTitle" text="上次帮会胜者" y="17.65" size="20" textColor="0xbd7632" horizontalCenter="0"/>
+			<e:Label id="lbPlayerName" text="玩家名称名称.s999" x="19" y="52.99" size="20" textColor="0x894a0d"/>
+			<e:Label id="lbUnionName" text="帮会名称" x="19" y="82.99" textColor="0x894a0d" size="20"/>
+		</e:Group>
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="383" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btnInfo" label="Button" x="634" y="718" skinName="Btn0Skin" icon="ui_ty_bt_wenhao" visible="false"/>
+	<e:Group x="666" y="749" width="25" height="25" touchEnabled="false" touchChildren="true">
+		<e:Button id="btnShowAward" label="Button" skinName="Btn0Skin" right="0" bottom="0"/>
+	</e:Group>
+
+</e:Skin>

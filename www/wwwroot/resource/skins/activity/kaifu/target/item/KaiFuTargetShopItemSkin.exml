@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetShopItemSkin"  width="320" height="212" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163edfdc5f4" visible="false"/>
+	<e:Image width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ui_bm_shangchengbg"/>
+	<e:Image source="ui_bm_fengexian" y="39" horizontalCenter="0" width="300"/>
+	<e:Label id="name_txt" text="羽毛" y="6.5" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="24" style="l_brown_1" left="17"/>
+	<e:Label id="gainway_txt" text="(上古精怪套装)" y="6.5" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="24" right="5" style="l_green"/>
+	<e:Group x="116.5" y="43.5">
+		<e:Label text="原价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="22" style="l_brown_1" x="0"/>
+		<ns1:PriceIcon id="priceIcon1" horizontalCenter="41.5" verticalCenter="-10"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="116.5" y="73.51">
+		<e:Label text="现价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="22" x="0"/>
+		<ns1:PriceIcon id="priceIcon2" x="50" y="0"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="imgBuyEnd" x="178.01" y="152.69" scaleX="0.92" scaleY="0.92" source="ui_jjkh_bm_yigoumai" visible="false"/>
+	<ns1:ItemBase id="itemIcon" verticalCenter="-5" left="10" scaleX="0.92" scaleY="0.92"/>
+	<e:Button id="btn_buy" label="购 买" x="171" y="149" skinName="BtnN4Skin"/>
+	<e:Rect width="185" height="1" x="112" y="59"/>
+	<e:Label id="limit_txt" text="限购：0/1" y="112" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="22" x="115"/>
+	<e:Label id="look_txt" text="预览中" y="166.8" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="24" x="25.6"/>
+	<e:Button id="btn_look" label="预 览" x="15" y="149" skinName="BtnN4Skin" visible="false"/>
+</e:Skin>

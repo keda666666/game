@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldMapContentSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="4000"  height="840">
+	<w:Config id="163fd3a8b39"/>
+	<e:Group id="bgGroup" width="200" height="200" x="0" y="0">
+	</e:Group>
+	<e:Group id="itemGroup" x="0" y="0">
+		<e:Component id="item1" x="84.6" y="112.62" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item2" x="152.65" y="476.65" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item3" x="507.98" y="587.94" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item4" x="593.95" y="265.28" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item5" x="476.62" y="3.62" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item6" x="886.92" y="-1.78" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item7" x="1276.28" y="-9.72" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item8" x="1589.96" y="60.96" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item9" x="1135.46" y="220.45" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item10" x="961.98" y="438.64" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item11" x="1339.38" y="473.57" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item12" x="1601.71" y="318.45" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item13" x="1963.35" y="392.05" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item14" x="2241.66" y="604.77" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item15" x="2524.75" y="368.79" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item16" x="2293.43" y="162.5" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item17" x="2093.45" y="-2.51" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item18" x="2563.33" y="12.69" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item19" x="2763.13" y="244.24" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item20" x="2969.14" y="506.91" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item21" x="3066.96" y="30.54" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item22" x="3225.8" y="268.61" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item23" x="3297.47" y="576.26" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item24" x="3656.8" y="395.62" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+		<e:Component id="item25" x="3651.49" y="40.32" skinName="WorldMapIconSkin" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

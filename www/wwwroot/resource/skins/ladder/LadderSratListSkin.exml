@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LadderSratListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"          width="300" height="224" states="3,4,5" >
+	<e:Image id="bg" y="163" scale9Grid="78,3,36,23" anchorOffsetX="0" x="0" source="ui_zdsl_x_di" visible="true"/>
+
+
+
+
+
+	<e:Image id="dwImg" y="0" horizontalCenter="0" source="ui_zdsl_ht" visible="true"/>
+	<e:Image id="level" source="laddergradnum_5" y="168" horizontalCenter="0.5" scaleX="0.8" scaleY="0.8" visible="true" />
+
+	<e:DataGroup id="starGroup" y="189" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.7" scaleY="0.7" horizontalCenter="0" itemRendererSkinName="LadderSratTwoSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="6" gap.4="-7" gap.5="-14"/>
+		</e:layout>
+	</e:DataGroup>
+
+</e:Skin>

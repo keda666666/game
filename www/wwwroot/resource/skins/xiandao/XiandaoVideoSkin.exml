@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoVideoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1637280cb36"/>
+	<ns1:CommonWindowBg skinName="CommonWindowBg2Skin" title="对战信息"/>
+	<e:Image source="ui_xdh_bm_duizhan" x="299" y="241"/>
+	<e:Image y="531" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="467" width="649" horizontalCenter="0"/>
+	<e:Image source="ui_boss_bm_taizi" y="214" scaleX="1.1" scaleY="1.1" x="89"/>
+	<e:Image source="ui_boss_bm_taizi" y="214" scaleX="1.1" scaleY="1.1" x="459"/>
+	<e:Group id="att1" x="82" y="416">
+		<e:Group x="0" y="0">
+		<e:Image y="0" width="186" height="32" x="0" source="ui_boss_bm_wenbenbg"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="0" y="36">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="10" y="46">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="att2" x="458" y="416">
+		<e:Group x="0" y="0">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="0" y="36">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="10" y="46">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+	<ns1:RoleShowPanel id="role1" width="0" height="0" x="172" y="372"/>
+	<ns1:RoleShowPanel id="role2" width="0" height="0" x="541" y="372" scaleX="-1"/>
+	<ns1:CmLabel y="543" horizontalCenter="0" text="对战记录"/>
+	<e:Scroller width="638" height="425" x="43" y="572">
+			<e:List id="list"  itemRendererSkinName="XiandaoVideoItemSkin">
+				
+				<e:layout>
+					<e:VerticalLayout paddingLeft="2" gap="3"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+</e:Skin>

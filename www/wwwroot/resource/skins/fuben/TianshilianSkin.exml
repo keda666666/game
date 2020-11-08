@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianshilianSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162ae464630"/>
+	<e:Image x="23" y="147" source="ui_fb_bm_yongchuangtiantingbg"/>
+	<e:Group id="layerGroup" y="601" horizontalCenter="-62">
+		<e:Component id="pLayout1" width="20" height="20"  skinName="TianshilianPopSkin"/>
+		<e:Component id="pLayout2" width="20" height="20"  skinName="TianshilianPopSkin"/>
+		<e:Component id="pLayout3" width="20" height="20"  skinName="TianshilianPopSkin"/>
+		<e:layout>
+			<e:HorizontalLayout gap="184"/>
+		</e:layout>
+	</e:Group>
+	<e:Image width="649" height="308" y="690" source="ui_sbm_002" horizontalCenter="0"/>
+	<e:ProgressBar id="bar" y="776" skinName="bar0Skin" width="548" value="85" maximum="100" x="86"/>
+	<e:Group x="86" y="684" width="550">
+		<e:Component id="pItemReward1" skinName="TianshilianItemSkin" y="0" left="0"/>
+		<e:Component id="pItemReward2" skinName="TianshilianItemSkin" y="0" horizontalCenter="0"/>
+		<e:Component id="pItemReward3" skinName="TianshilianItemSkin" y="0" right="0"/>
+	</e:Group>
+	<e:Label id="maxLabel" text="最大通关：1层" x="108" y="863" style="l_brown_1"/>
+	<e:CheckBox id="checkBox" label="自动挑战关卡" x="420" y="854" skinName="CheckBox0"/>
+	<e:Button id="oneKeyBtn" label="一键扫荡" x="110" y="916" skinName="BtnN2Skin"/>
+	<e:Button id="challageBtn" label="挑战" x="448" y="916" skinName="BtnN3Skin"/>
+	<e:Button id="prevBtn" label="一键扫荡" x="21" y="745" skinName="BtnNextSkin"/>
+	<e:Button id="nextBtn" label="一键扫荡" x="698" y="745" skinName="BtnNextSkin" scaleX="-1"/>
+	<e:Group id="pGroupRewar" x="470" y="243">
+		<e:Image y="-20" source="ui_bm_taizi" horizontalCenter="0"/>
+		<e:Label id="lbPassLvReward" text="通关15层送" y="52" style="l_brown_2" size="22" textAlign="center" horizontalCenter="2"/>
+		<e:Label id="lbReName" text="精灵女" y="80" style="l_brown_2" size="22" textAlign="center" horizontalCenter="0"/>
+		<ns1:PetShowPanel id="showReward" width="0" height="0" bottom="87" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:FBRankCom id="item0" width="315" height="160" x="51" y="164" skinName="FbRankSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

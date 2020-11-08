@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoBaseSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="6.06" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" height="1280" anchorOffsetX="0" width="710.91"/>
+	<e:Button id="shopBtn" label="" x="9.01" y="61.69" icon="ui_bsyn_bt_shandian"/>
+	<e:Label id="recordLabel" text="查看记录" y="150" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="224" size="22" touchEnabled="true"/>
+
+
+	<e:Label text="协助他人通关副本收益次数，可获得协助奖励" y="1046.67" anchorOffsetX="0" anchorOffsetY="0" style="l_green" horizontalCenter="1" size="22" backgroundColor="0xffffff" borderColor="0xffffff" strokeColor="0x070606" height="20" textColor="0x70330b"/>
+	<e:Label text="每日协助次数" y="1078.66" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="0" horizontalCenter="-33" size="22" textColor="0x70330b"/>
+	<e:Label id="countLabel" text="(0/3)" y="1078.66" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="70" size="22" textColor="0x4eff00"/>
+	<ns1:TsumKoBaseMemberPanel id="teamPanel" width="646.33" height="335.33" x="34" y="666" anchorOffsetX="0" anchorOffsetY="0" skinName="TsumKoBaseMemberSkin"/>
+	
+	<ns1:TsumKoBaseMoppingUpPanel id="eliminatePanel" width="648" height="338" x="34" y="666" skinName="TsumKoBaseMoppingUpSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="baffleImg" x="34" y="666">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="337" width="647" x="0"/>
+		<e:Label text="通关上一关开启" x="212" y="151" textColor="0xff0000" anchorOffsetX="0" width="258"/>
+	</e:Group>
+	
+	<e:Group y="137" width="233" x="236">
+		<e:Image id="nameBg0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" x="0" width="234" scale9Grid="55,5,40,30"/>
+		<e:Label id="title0" text="青龙" y="9" size="24" width="233" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" anchorOffsetX="0" x="0"/>
+	</e:Group>
+	<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="529" height="87.33" itemRendererSkinName="GangFuBenAwardItemSkin" horizontalCenter="-10">
+		<e:layout>
+		<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="234" y="490">
+		<e:Image source="ui_bm_title1" y="0" x="0"/>
+		<e:Label id="recordLabel2" text="机率掉落" y="4.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="74.4"/>
+	</e:Group>
+	<e:Group x="234" y="628" height="28">
+		<e:Image source="ui_bm_title1" y="-1.5" x="0"/>
+		<e:Label id="title1" text="XXX" y="4.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="79.71"/>
+	</e:Group>
+	<ns1:TsumKoCheckItemList id="checkpointPanel" width="689.7" height="312.42" x="9.14" y="173" anchorOffsetX="0" anchorOffsetY="0" skinName="TsumKoCheckItemListSkin"/>
+	
+
+</e:Skin>

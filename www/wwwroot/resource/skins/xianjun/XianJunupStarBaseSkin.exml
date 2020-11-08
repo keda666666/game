@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunupStarBaseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="720" height="704.24" states="normal,inactive" >
+	<w:Config id="162950eee5e"/>
+	<e:Group id="group" x="26.67" y="0">
+		<e:Image y="-44" x="8" source="ui_bm_jsbg"/>
+		<e:Image y="506" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="191" width="650" x="9" visible="false"/>
+		<e:Image y="158" x="550.67" source="ui_cw_bm_weijihuo" visible.normal="false"/>
+		<e:Label id="lbPower" text="宠物总战力：999" x="65" y="535" size="24" fontFamily="Microsoft YaHei" textColor="0x835325" x.inactive="16" visible="false"/>
+		<e:Label id="lbActive" text="已激活：9" x="473" y="535" size="24" fontFamily="Microsoft YaHei" textColor="0x835325" textAlign="right" width="185" visible="false"/>
+		<e:Label id="lbActive0" text="已出战：0/2" x="363" y="535" size="24" fontFamily="Microsoft YaHei" textColor="0x835325" textAlign="right" visible="false"/>
+		<e:Button id="btnSC" x="57" y="58" icon="ui_bt_qiyuan" skinName="Btn0Skin" visible="false"/>
+		<e:Group id="btnGp" y="367" anchorOffsetX="0" anchorOffsetY="0" x="288" visible.inactive="false" visible="false">
+			<e:Button id="btnZZ" y="0" icon="ui_bt_xiuxi" x="159" skinName="Btn0Skin" width="82"/>
+			<e:layout>
+			<e:HorizontalLayout gap="9"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="547" y="356" width="94" visible="false">
+			<e:Component id="skillComp" x="0" y="8" skinName="PetSkillIconSkin"/>
+			<e:Label id="starNum" text="3" x="33" y="2" size="22" style="l_white" textColor="0xffffff" stroke="3" strokeColor="0x350909"/>
+			<e:Image x="47" y="0" source="ui_bm_star022" width="22" height="22"/>
+			<e:Image x="18" y="78" source="ui_bm_jineng"/>
+		</e:Group>
+		<e:Image x="527.67" y="157" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg" visible.inactive="false" visible="false"/>
+		<e:Label id="lbLev" text="20" x="520.67" y="145" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xAA6A31" visible.inactive="false" visible="false"/>
+		<e:Button id="allAttrBtn" x="0" y="501" icon="ui_bt_jiacheng" skinName="Btn0Skin" visible.inactive="false" visible="false"/>
+		<ns1:PowerLabel id="powerLabel" y="16" x="138" skinName="PowerLabel2Skin"/>
+		<e:Group id="starGroup" y="59" x="580.67" visible.inactive="false">
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="30" y="30" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="30" y="30" source="ui_bm_star022" width="30" height="30" scaleX="0.8" scaleY="0.8"/>
+			<e:layout>
+			<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="0" height="0" y="317" horizontalCenter="17">
+			<ns1:PetShowPanel id="petShowPanel"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="545" y="225" width="94" visible="false">
+		<e:Component id="skillComp1" x="0" y="8" skinName="PetSkillIconSkin"/>
+		<e:Label id="starNum1" text="3" x="33" y="2" size="22" style="l_white" textColor="0xFFFFFF" stroke="3" strokeColor="0x350909" visible="false"/>
+		<e:Image x="47" y="0" source="ui_bm_star022" width="22" height="22" visible="false"/>
+		<e:Image x="18" y="78" source="ui_bm_jineng"/>
+	</e:Group>
+	<e:Group x="47" y="343" width="94" visible="false">
+		<e:Component id="skillComp0" x="0" y="8" skinName="PetSkillIconSkin"/>
+		<e:Label id="starNum0" text="3" x="33" y="2" size="22" style="l_white" textColor="0xFFFFFF" stroke="3" strokeColor="0x350909" visible="false"/>
+		<e:Image x="47" y="0" source="ui_bm_star022" width="22" height="22" visible="false"/>
+		<e:Image x="-11" y="79" source="xingjun_json.ui_xj_bm_xingjunteji"/>
+	</e:Group>
+</e:Skin>

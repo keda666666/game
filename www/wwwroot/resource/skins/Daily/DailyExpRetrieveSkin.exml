@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyExpRetrieveSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image width="664" height="870" x="28" y="150" source="ui_sbm_002"/>
+	<e:Scroller width="660" height="860" x="30" y="154">
+		<e:List id="list" itemRendererSkinName="DailyExpRetrieveItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnOneKey" x="285" y="1040"   label="一键找回" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleTeamItemSkin" width="640" height="224" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+
+	<e:Image width="100%" height="100%" x="0" y="2" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_shangchengbg"/>
+	<e:Image y="4" source="ui_hddt_bm_duiwumingchengBG" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="35" x="0"/>
+	<e:Label text="那我谢谢你哦的队伍（2/3）" x="53" y="10" style="l_green" size="20"/>
+
+	<e:List x="55" y="42" anchorOffsetY="0" itemRendererSkinName="CrossBattleItemSkin" anchorOffsetX="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object kk="null"/>
+				<e:Object kk="null"/>
+				<e:Object kk="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="leader_icon" x="27" y="56" source="ui_ico_bang_leader"/>
+	<e:Button label="加 入" x="452.68" y="109" skinName="BtnN2Skin"/>
+	<e:Label text="需战力30万" x="466.68" y="76" style="l_orange_2"/>
+</e:Skin>

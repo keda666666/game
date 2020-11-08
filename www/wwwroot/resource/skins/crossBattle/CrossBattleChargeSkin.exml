@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleChargeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<ns1:CommonDialog id="commonDialog" height="466.01" title="变身" verticalCenter="-50" anchorOffsetY="0" x="-1" skinName="CommonDialogSkin"/>
+	<e:Image width="525" height="282" y="443" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group y="446" touchEnabled="false" touchChildren="true" anchorOffsetX="0" width="524" anchorOffsetY="0" height="357" horizontalCenter="0">
+
+
+
+
+
+
+
+
+
+
+		<e:Button y="283" label="变 身" id="sureBtn" skinName="BtnN1Skin" x="174"/>
+		<e:Label text="赤炎龙" x="296" y="90" style="l_orange_3" textColor="0x843a05"/>
+		<e:Label text="变身赤炎龙后，对城池攻击时，增加30%伤害" x="292.01" y="139" style="l_orange_3" size="20" anchorOffsetY="0" height="86" anchorOffsetX="0" width="227" textColor="0x843a05"/>
+		<e:Image x="94" y="106" source="tiekuang" visible="false"/>
+<ns1:PetShowPanel id="petShowPanel" y="162" x="118"/>
+
+
+	</e:Group>
+
+
+</e:Skin>

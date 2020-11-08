@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemSettingSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin"  anchorOffsetX="0" width="718.49"/>
+	<e:Image x="75.1" y="247.91" source="ui_sbm_002" anchorOffsetX="0" width="574.84" anchorOffsetY="0" height="651.09" alpha="1"/>
+	<e:Group width="572.72" height="142.42" x="74.06" y="250" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="声音设置" y="18.04" style="label01" size="30" left="21" textColor="0xfffdd2"/>
+		<e:CheckBox id="closeVoice" label="关闭声音" x="18.31" y="66" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox label="关闭音效" x="400.84" y="67.53" skinName="CheckBox0" id="closeVoice0" visible="false"/>
+		<e:Image y="132.25" source="ui_bm_yjfengexian" horizontalCenter="0.3050000000000068"/>
+	</e:Group>
+	<e:Group width="569.69" height="287.88" x="74.94" y="396.36" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="显示设置" y="8.91" style="label01" size="30" left="21" textColor="0xfffdd2"/>
+		<e:CheckBox id="hideWing" label="隐藏翅膀" x="18" y="53.48" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideCH" label="隐藏称号" x="213" y="53.48" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideTX" label="隐藏守护" x="402.96" y="53.48" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideXW" label="隐藏仙位" x="18" y="115" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideFZ" label="隐藏法阵" x="213" y="115" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideTL" label="隐藏通灵" x="402.96" y="115" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideSH" label="隐藏兽魂" x="18" y="174.48" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="hideOtherPaler" label="隐藏其他玩家" x="213" y="174.48" skinName="CheckBox0" scaleX="1" scaleY="1" anchorOffsetX="0" width="212.12"/>
+		<e:Label text="(游戏运行较慢时，将自动勾选)" x="250.95" y="228.09" style="l_gray" size="22" textColor="0x682f00"/>
+		<e:Image y="274.68" source="ui_bm_yjfengexian" horizontalCenter="0.3050000000000068"/>
+	</e:Group>
+	<e:Group width="574.23" height="212.12" x="74.94" y="687.27" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="战斗设置" y="7.4" style="label01" size="30" left="22" textColor="0xfffdd2"/>
+		<e:CheckBox id="combat1" label="x1" x="210.72" y="63" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="combat2" label="x2" x="405.4" y="63" skinName="CheckBox0"/>
+		<e:Label text="切换战斗速度" x="25.44" y="73.13" size="28" textColor="0x682f00"/>
+		<e:Label text="当游戏运行卡顿时，请尝试关闭低电量模式" x="28.48" y="132.56" size="26" textColor="0x682f00"/>
+	</e:Group>
+</e:Skin>

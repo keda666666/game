@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodListItemSkin" 
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="180" width="648">
+	<e:Image width="645" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" height="180" source="ui_lyb_bg_5"/>
+
+	<e:Scroller id="scroller" y="39" x="14" width="395">
+	<e:List id="list" x="22" y="42.5" itemRendererSkinName="ItemSkin" anchorOffsetY="0" anchorOffsetX="0" width="406">
+		<e:layout>
+		<e:HorizontalLayout gap="-5"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	</e:Scroller>
+	<e:Group id="buyGroup" x="452" y="42" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchChildren="true" scaleX="1" scaleY="1">
+		<e:Label id="contion" text="充值" y="-29" size="20" x="-427" textAlign="center" verticalAlign="middle"/>
+		<e:Group y="0" width="271" height="110" x="-64">
+		<e:Button id="send" label="" y="0" skinName="Btn1TipSkin" x="0"/>
+		<e:Label id="consumeLabel" text="10元宝购买" y="62" size="20" textColor="0x09C709" x="26" verticalAlign="middle" textAlign="center"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="3" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="geted" y="41" source="ui_qt_ylq" x="453"/>
+
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoRankSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636cebf862" y="168" anchorOffsetY="0" height="824"/>
+	<e:Image y="183" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="613" width="647" horizontalCenter="0"/>
+	<e:Image y="803" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="195" width="647" horizontalCenter="0"/>
+	<ns1:CmLabel id="titleLabel" y="147" width="365" skinName="CmLabelSkin" x="178"/>
+	<e:Scroller width="653" height="571" y="224" horizontalCenter="-0.5">
+		<e:List id="list" itemRendererSkinName="XiandaoRankItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0" paddingLeft="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="653" height="150" y="847" horizontalCenter="-0.5">
+		<e:List id="list2" itemRendererSkinName="XiandaoRankItem2Skin">
+		<e:layout>
+			<e:VerticalLayout paddingLeft="13" gap="-3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="myRank" text="我的排名：未上榜" x="260" y="816" style="l_brown_1" size="22"/>
+	<e:Label text="我的对战信息" x="45" y="816" style="l_brown_1" size="22"/>
+	<e:Label id="myScore" text="我的积分：0" x="501" y="816" style="l_brown_1" size="22" width="174" textAlign="right"/>
+	<e:Group x="98" y="189">
+		<e:Label text="排名" x="-9" y="0" style="l_brown_1"/>
+		<e:Label text="名字" x="206" y="0" style="l_brown_1"/>
+		<e:Label text="积分" x="431" y="0" style="l_brown_1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangModifyNoticeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" height="485" title="提  示" anchorOffsetY="0" x="0" y="355" skinName="CommonDialogSkin"/>
+	<e:Group x="51" y="445">
+		<e:Button id="btnComfirn" x="126" y="311"   label="确 认" skinName="Btn2Skin" scaleX="1" scaleY="1"/>
+		<e:Button id="btnCancel" x="376" y="310"   label="取 消" skinName="Btn2Skin" scaleX="1" scaleY="1"/>
+		<e:Image width="620" height="280" x="0" y="0" source="ui_sbm_002" scaleX="1" scaleY="1"/>
+		<e:Label id="labInput" text="输入公告" x="11" y="11" style="l_brown_1" width="600" anchorOffsetY="0" height="223"/>
+		<e:Label id="labNumTip" text="限150字" x="519" y="248" style="l_green" size="22"/>
+	</e:Group>
+</e:Skin>

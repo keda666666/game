@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetZizhiSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,full" >
+	<w:Config id="16293b4f687"/>
+    	<ns1:CommonWindowBg id="commonWindowBg" skinName="CommonWindowBg2Skin" title="资质"/>
+	<e:Image y="205" x="35" source="ui_bm_jsbg"/>
+	<ns1:PowerLabel id="powerLabel" y="151" skinName="PowerLabel2Skin" horizontalCenter="0"/>
+	<e:Image x="236" y="669" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+	<e:Label id="title1Label" text="资质属性" y="672" size="24" textAlign="center" x="288" style="l_brown_2" width="137"/>
+	<e:Label id="attrLabel" text="生命" y="715" size="24" horizontalCenter="0"/>
+	<e:Image y="758" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="251" width="650" x="35"/>
+	<e:Group x="61" y="772" visible.full="false">
+		<e:Button id="btnAdd" x="50.66" y="155" icon="ui_btn_powup" skinName="BtnN3Skin" label="提升"/>
+		<e:Button id="btnCulture" x="385" y="155"   label="自动提升" skinName="BtnN2Skin"/>
+		<e:ProgressBar id="bar" y="0" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" x="0">
+			<e:Skin>
+			<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="434" text="0" x="85"/>
+			</e:Skin>
+		</e:ProgressBar>
+        <ns1:NeedItemView id="needItemView" x="185" y="41"/>
+	</e:Group>
+	<e:Image id="wuxingImg" x="495" y="340" source="ui_bm_huo"/>
+	<e:Label text="已满级" y="872" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" horizontalCenter="0" visible.normal="false"/>
+	<e:Component id="lbName" skinName="PetNameSkin" horizontalCenter="0" x="-2" y="233" scaleX="1" scaleY="1"/>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="564" horizontalCenter="0"/>
+	<e:Group id="starGroup" y="610" horizontalCenter="1">
+		<e:Image x="0" y="0" source="ui_bm_jsstar04" width="50" height="49"/>
+		<e:Image x="0" y="0" source="ui_bm_jsstar04" width="50" height="49"/>
+		<e:Image x="10" y="10" source="ui_bm_jsstar04" width="50" height="49"/>
+		<e:Image x="10" y="10" source="ui_bm_jsstar04" width="50" height="49"/>
+		<e:Image x="20" y="20" source="ui_bm_jsstar04" width="50" height="49"/>
+		<e:layout>
+		<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

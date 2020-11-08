@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="warnFrameSkin" width="720" height="1280" currentState="sure" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,sure,reward,checkBox" >
+	<e:Group id="animGroup" width="720" height="1280" touchChildren="true" touchEnabled="false" anchorOffsetX="360" anchorOffsetY="640" x="360" y="640">
+		<ns1:CommonDialog id="commonDialog" verticalCenter="22" height="360" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialogSkin" height.reward="440" y="482" scaleX="1" scaleY="1"/>
+		<e:Group id="group" width="720" height="330" x="0" verticalCenter="18" touchChildren="true" touchEnabled="false" height.reward="354" verticalCenter.reward="52.5" y="493" scaleX="1" scaleY="1">
+			<e:Button id="sureBtn" label="确定" x.normal="118" scaleX="1" scaleY="1" bottom="0" horizontalCenter.sure="0.5" horizontalCenter="-153.5" skinName="BtnN1Skin" horizontalCenter.reward="0" bottom.reward="11" width="170"/>
+			<e:Button id="notBtn" label="取消" visible.sure="false" x.normal="436" scaleX="1" scaleY="1" bottom="0" horizontalCenter="153.5" skinName="BtnN1Skin" visible.reward="false" width="170"/>
+			<e:Image id="bg" anchorOffsetX="0" width="610" anchorOffsetY="0" scaleX="1" scaleY="1" x.sure="53" x.normal="53" top.sure="90" top.normal="90" bottom.sure="89" bottom.normal="89" source="ui_sbm_002" height.reward="205" y.reward="54" width.reward="560" horizontalCenter.reward="0" x="53" height="153" y="69"/>
+			<e:Label id="warnLabel" text="提示" width="534" textAlign="center" verticalAlign="middle" lineSpacing="5" anchorOffsetY="0" anchorOffsetX="0" size="23" x="91" scaleX="1" scaleY="1" verticalCenter="0.5" style="l_brown_1" verticalCenter.reward="-141.5" textAlign.reward="left"  verticalCenter.checkBox="-15.5"/>
+			<e:List id="itemList" y="74" height="140" itemRendererSkinName="ItemSkin" anchorOffsetX="0" y.reward="89" horizontalCenter.reward="3" visible.normal="false" visible.sure="false" horizontalCenter="5" visible.checkBox="false">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+			<e:CheckBox id="checkBox" label="不再显示" y="203" skinName="CheckBox0" scaleX="0.8" scaleY="0.8" horizontalCenter="0" visible.normal="false" visible.sure="false" visible.reward="false"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+	
+
+
+
+
+
+	>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoBetTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16382e3a1bd"/>
+	<e:Component skinName="BG2" x="0" y="0"/>
+	<e:Group x="145" y="638">
+		<e:Image source="ui_cm_bm_bg" width="430" height="240" horizontalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="押注成功奖励" x="25" y="22" style="l_brown_1" textColor="0xFFDCAA" size="24"/>
+		<e:Image source="ui_bm_fengexian" y="118" horizontalCenter="0" width="415"/>
+		<e:Label text="押注失败奖励" x="25" y="131" style="l_brown_1" textColor="0xffdcaa" size="24"/>
+		<e:Label id="loseDesc" text="押注成功奖励" x="43" y="166" style="l_white" size="24" width="373"/>
+		<e:Label id="winDesc" text="押注成功奖励" x="43" y="57" size="24" style="l_white" width="373"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangRecordListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660"  height="55">
+	<e:Group x="3" y="1">
+		<e:Image id="bg_image" scale9Grid="20,20,28,28" x="0" y="0" width="660" height="54" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+		<e:Label id="desc_txt" text="可增加xxx" x="24" y="14" style="l_brown_1" size="22"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+    <ns1:CommonWindowBg id="commonWindowBg" title="帮会"/>
+</e:Skin>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRolSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  xmlns:ns1="*" >
+	<w:Config id="161130e04f7"/>
+	<e:Group width="0" height="0" y="0" horizontalCenter="0">
+		<e:Image y="0"  source="ui_cjjs_bm_ditu" x="-360"/>
+		<e:Image y="1021"  horizontalCenter="0" source="ui_bm_mingzibg"/>
+		<e:Button id="gotBtn" skinName="Btn0Skin" y="1105"  icon="ui_bt_kaishiyouxi" x="-176"/>
+		<e:Group id="roleGroup0" width="0" height="0"  x="0" y="808">
+			<e:Image id="roleImg0" source=""  horizontalCenter="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="roleGroup1" width="0" height="0"  x="10" y="818">
+			<e:Image id="roleImg1" source=""  horizontalCenter="0" bottom="0"/>
+		</e:Group>
+		<e:EditableText id="nameLabel" width="195" height="52" text="" y="1032" anchorOffsetX="0" anchorOffsetY="0"  verticalAlign="middle" textAlign="center" size="24" textColor="0x682f00" x="-96"/>
+		<e:Button id="randomName" skinName="Btn0Skin" y="1025"  icon="ui_bm_touzi" x="78"/>
+		<e:Image y="812"  horizontalCenter="0" source="ui_cjjs_bm_wenbenbg"/>
+
+		<e:Group id="selGroup" y="872" horizontalCenter="0" width="0">
+			<e:Button skinName="Btn0Skin" y="-4"  icon="ui_icon_renzhu" x="-202"/>
+			<e:Button skinName="Btn0Skin" y="-4" icon="ui_icon_xianzhu"  x="-63"/>
+			<e:Button skinName="Btn0Skin" y="-4" icon="ui_icon_mozhu"  x="77"/>
+		</e:Group>
+		<e:Group id="selGroupImg" y="882" width="0" x="0" touchEnabled="false" touchChildren="false">
+			<e:Image source="ui_cjjs_bm_xuanzhongxiaoguo" y="-48"   x="-243"/>
+			<e:Image source="ui_cjjs_bm_xuanzhongxiaoguo" y="-48"   x="-105"/>
+			<e:Image source="ui_cjjs_bm_xuanzhongxiaoguo" y="-48"   x="35"/>
+		</e:Group>
+		<e:Label text="请选择种族" y="830.0000000000001" textColor="0x5a2611" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="0" width="229" textAlign="center" size="26" x="-114.00000000000003" />
+		<e:Label id="time" text="60s后自动进入服务器" y="1224" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="0" width="342" textAlign="center" size="26" textColor="0xf23737" x="-171.00000000000006" />
+		<e:Button skinName="Btn0Skin" id="sex1" y="1015"  x="173" icon="ui_bt_nan"/>
+		<e:Button skinName="Btn0Skin" id="sex2" y="1015"  x="269" icon="ui_bt_nv"/>
+		<e:Image id="sel1" y="1058.0000000000002"  x="206" source="ui_cjjs_bm_gou"/>
+		<e:Image id="sel2" y="1058.0000000000002"  source="ui_cjjs_bm_gou" x="303"/>
+		<e:Button id="leftBtn" label="Button" y="618" skinName="Btn0Skin" icon="ui_bt_jiantou" x="-341" />
+		<e:Button id="rightBtn" label="Button" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1" y="618" x="340" scaleY="1"/>
+		<e:Image x="-169" y="982" source="ui_cjjs_bm_renzu" />
+		<e:Image x="-28" y="982"  source="ui_cjjs_bm_xianzu"/>
+		<e:Image x="109" y="982"  source="ui_cjjs_bm_mozu"/>
+	</e:Group>
+</e:Skin>

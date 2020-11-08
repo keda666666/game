@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGiveGoldItem" width="646" height="123" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image id="bg1" source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="0" anchorOffsetX="0" width="646" anchorOffsetY="0" height="124.67"/>
+		<e:Label id="addDayLaberl" text="累计登陆2天" x="8" y="48" textColor="0x6e330b" size="21" fontFamily="Microsoft YaHei"/>
+		<e:Button id="receiveBtn" label="领取" y="28.98" anchorOffsetX="0" anchorOffsetY="0" x="515" width="124" height="65" skinName="BtnN4Skin" visible="false"/>
+		<e:Label id="dayLabel" text="2000000天/3000天" y="45" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" height="33" right="13"/>
+		<e:Image id="itemGetImg" width="124" height="89" x="505.99" y="17.32" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="16" x="165" width="348.43" height="87.33" itemRendererSkinName="GangFuBenAwardItemSkin">
+			<e:layout>
+			<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<w:Config id="163ee5be3d1"/>
+</e:Skin>

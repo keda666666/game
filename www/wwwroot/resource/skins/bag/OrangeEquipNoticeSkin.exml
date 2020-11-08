@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OrangeEquipNoticeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="471" height="151">
+	<e:Image x="0" y="0"  source="ui_sc_bm_huodezhuangbeiBG" width="471" height="151" anchorOffsetY="0"/>
+
+	<e:Label id="itemName" text="橙色装备名称" x="298"  style="l_yellow_4" size="26" y="63"/>
+	<e:Label id="desc" text="恭喜获得 ——" x="124"   y="63" size="26"/>
+	<ns1:ItemBaseNotName id="item" x="12" y="24"  skinName="ItemSkin"/> 
+</e:Skin>

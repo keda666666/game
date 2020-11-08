@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingMagicSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="1628afab306"/>
+	<e:Group width="652" height="873" x="34" y="126" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image y="48" source="ui_bm_jsbg"/>
+		<e:Group width="649" height="752" x="1" y="2" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:PowerLabel id="powerLabel" y="10" x="120" scaleX="1" scaleY="1" skinName="PowerLabel2Skin"/>
+			<e:Image width="495" height="171" x="65" y="154" source="ui_tn_bm_xian" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:PetShowPanel id="showPanel" y="398" horizontalCenter="-14"/>
+			<e:Group id="skillAttr1" width="144" height="102" x="96" y="84">
+				<e:Image x="15" y="0" source="ui_tn_bm_shuxingbg"/>
+				<e:Label id="attrsLabel1" text="" x="17" y="2" anchorOffsetX="0" width="160" anchorOffsetY="0" height="98" size="20" lineSpacing="4" style="l_blue_2"/>
+			</e:Group>
+			<e:Group id="skillAttr2" width="144" height="102" x="390" y="84">
+				<e:Image x="130" y="0" source="ui_tn_bm_shuxingbg" scaleX="-1"/>
+				<e:Label id="attrsLabel2" text="" x="-32" y="2" anchorOffsetX="0" width="160" anchorOffsetY="0" height="98" size="20" textAlign="right" lineSpacing="4" style="l_blue_2"/>
+			</e:Group>
+			<e:Group id="skillAttr3" width="144" height="102" x="96" y="298">
+				<e:Image x="15" y="0" source="ui_tn_bm_shuxingbg"/>
+				<e:Label id="attrsLabel3" text="" x="17" y="2" anchorOffsetX="0" width="160" anchorOffsetY="0" height="98" size="20" lineSpacing="4" style="l_blue_2"/>
+			</e:Group>
+			<e:Group id="skillAttr4" width="144" height="102" x="390" y="298">
+				<e:Image x="130" source="ui_tn_bm_shuxingbg" scaleX="-1"/>
+				<e:Label id="attrsLabel4" text="" x="-32" y="2" anchorOffsetX="0" width="160" anchorOffsetY="0" height="98" size="20" textAlign="right" lineSpacing="4" style="l_blue_2"/>
+			</e:Group>
+			<ns1:HavingSkillItem id="HavingSkillItem1" y="34" skinName="HavingSkillItemSkin"/>
+			<ns1:HavingSkillItem id="HavingSkillItem2" x="518" y="34" skinName="HavingSkillItemSkin"/>
+			<ns1:HavingSkillItem id="HavingSkillItem3" y="216" skinName="HavingSkillItemSkin"/>
+			<ns1:HavingSkillItem id="HavingSkillItem4" x="518" y="236" skinName="HavingSkillItemSkin"/>
+		</e:Group>
+		<e:Group width="644" height="309" x="3" y="443" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true" touchEnabled="true">
+			<e:Image width="647" height="307" x="-5.6" y="1" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Group x="174" y="9">
+				<e:Image width="72" height="20" x="0" y="5" source="ui_guankia_wenli" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="72" height="20" x="296" y="5" source="ui_guankia_wenli" scaleX="-1"/>
+				<e:Label text="法器洗练" x="97" y="0" size="26" textColor="0x682f00"/>
+			</e:Group>
+			<e:Label text="当前属性" x="107.32" y="40.65" size="20" textColor="0x682f00"/>
+			<e:Label text="洗练属性" x="479.99" y="41.31" size="20" textColor="0x682f00"/>
+			<e:Group width="642.66" height="145.33" x="2.67" y="66.67" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image width="210.67" height="32" x="39" y="1.67" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="39" y="39.01" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="39" y="74.34" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="39" y="111.01" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="412" y="39.67" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="412" y="75.01" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="412" y="111.67" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="210.67" height="32" x="412" y="3" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label text="锁定消耗" x="285.33" y="46.63" size="22" textColor="0x682f00"/>
+				<e:Label id="curAttackLabel" text="" x="41" y="4" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="curDefenseLabel" text="" x="41" y="41" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="curCritLabel" text="" x="41" y="76" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+				<e:Label id="xilianAttackLabel3" text="" x="413" y="4" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="xilianDefenseLabel" text="" x="413" y="41" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="xilianCritLabel" text="" x="413" y="76" anchorOffsetX="0" width="208" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+				<e:Image id="curIconImg" width="28" height="28" x="43" y="113" source="skill_0_3"/>
+				<e:Image id="nextIconImg" width="28" height="28" x="416" y="113" source="skill_0_3"/>
+				<e:Label id="curSkill" text="" x="74" y="109" size="20" anchorOffsetY="0" height="35" anchorOffsetX="0" width="170" textAlign="center" verticalAlign="middle" style="l_green"/>
+				<e:Label id="xilianSkill" text="" x="447" y="109" size="20" anchorOffsetY="0" height="35" anchorOffsetX="0" width="170" textAlign="center" verticalAlign="middle" style="l_green"/>
+				<ns1:PriceIcon id="priceIcon1" x="288" y="74"/>
+				<e:Label id="curSkillDes" text="" x="40" y="146" anchorOffsetX="0" width="218" anchorOffsetY="0" height="90" size="20" textColor="0x682f00" style="l_red"/>
+				<e:Label id="xilianSkillDes" text="" x="414" y="146" anchorOffsetX="0" width="218" anchorOffsetY="0" height="90" size="20" textColor="0x682F00" style="l_red"/>
+			</e:Group>
+			<e:Group id="starGroup" y="274" horizontalCenter="-4">
+				<e:Image width="28" height="28" x="0" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="28.65" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="59.35" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="88.68" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="118" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="148.68" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:Image width="28" height="28" x="178.68" y="0" source="ui_bm_star021" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+			<ns1:HavingLockItem id="lock0" width="20" height="20" x="20" y="72" skinName="HavingLockItemSkin"/>
+			<ns1:HavingLockItem id="lock1" width="20" height="20" x="20" y="110" skinName="HavingLockItemSkin"/>
+			<ns1:HavingLockItem id="lock2" width="20" height="20" x="20" y="144" skinName="HavingLockItemSkin"/>
+			<ns1:HavingLockItem id="lock3" width="20" height="20" x="20" y="182" skinName="HavingLockItemSkin"/>
+		</e:Group>
+		<e:Group x="34" y="776" visible.full="false">
+			<e:Button id="btnXiLian" x="0" y="34" icon="ui_btn_powup" skinName="BtnN3Skin" label="洗练"/>
+			<e:Button id="btnAdvXilian" x="213" y="35" icon="ui_btn_powup" skinName="BtnN3Skin" label="高级洗练"/>
+			<e:Button id="btnChange" x="422" y="36"   label="更换" skinName="BtnN2Skin"/>
+			<ns1:PriceIcon id="priceIcon2" x="25.4" y="0"/>
+			<ns1:PriceIcon id="priceIcon3" x="241.46" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="法器洗练次数已满级" y="922" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" horizontalCenter="15.5" visible.normal="false"/>
+	<e:Image id="help" x="12" y="75" source="ui_ty_bt_wenhao"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShouDaoXianHuaSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<e:Image source="ui_yy_bm_qiuhuenBG" x="89" y="403"/>
+	<e:Label id="text" text="玩家名字六字" y="538" anchorOffsetX="0" width="369.33" x="182" textColor="0x6e330b" textAlign="center" size="22" style="l_brown_1"/>
+	<e:Label id="text0" text="玩家名字六字" y="611" anchorOffsetX="0" width="369.33" x="182" textColor="0x6e330b" textAlign="center" size="22" style="l_brown_1"/>
+	<e:Button id="jieshou" label="回 赠" skinName="BtnN4Skin" y="800" x="105.67"/>
+	<e:Button id="jujue" label="聊 天" skinName="BtnN4Skin" y="800" x="297"/>
+	<e:Button id="next" label="下一条" skinName="BtnN4Skin" y="800" x="479.67"/>
+</e:Skin>

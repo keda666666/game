@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGoldTreeItemSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162681bec84"/>
+	<ns1:CommonDialog id="commonDialog" height="454.49" title="提  示" anchorOffsetY="0" x="0" y="366.9" anchorOffsetX="0" width="720" alpha="1" skinName="CommonDialogSkin"/>
+	<e:Image width="584" height="258" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="452.08" x="52.12"/>
+	<e:List id="itemList" height="103" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="523.16" horizontalCenter="33.5">
+	
+		<e:layout>
+		<e:TileLayout requestedColumnCount="4" verticalGap="0" requestedRowCount="4" paddingBottom="20" paddingTop="0" paddingRight="10" horizontalGap="35" paddingLeft="4"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="describeLabel" text="提升" y="461.53" anchorOffsetX="0" size="26" textColor="0x6e330b" fontFamily="Microsoft YaHei" x="88.96"/>
+	<e:Label id="describeLabel2" text="已领取完宝箱" y="667.53" anchorOffsetX="0" size="26" textColor="0x6E330B" fontFamily="Microsoft YaHei" x="88.96"/>
+	<e:Button id="okBtn" label="确  定" y="727" x="282.77" skinName="BtnN1Skin"/>
+</e:Skin>

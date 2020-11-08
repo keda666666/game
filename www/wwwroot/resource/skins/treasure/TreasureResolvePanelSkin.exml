@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureResolvePanelSkin" width="720" height="870" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="681" height="870" source="ui_sbm_002" horizontalCenter="0" verticalCenter="0"/>
+	<e:CheckBox id="checkBox5" label="传说" skinName="CheckBox0" verticalCenter="231.5" left="25" x="479"/>
+	<e:CheckBox id="checkBox4" label="完美" skinName="CheckBox0" verticalCenter="231.5" x="138.6"/>
+	<e:CheckBox id="checkBox3" label="卓越" skinName="CheckBox0" verticalCenter="231.5" x="252.39999999999998"/>
+	<e:CheckBox id="checkBox2" label="稀有" skinName="CheckBox0" verticalCenter="231.5" x="365.6"/>
+	<e:CheckBox id="checkBox1" label="精良" skinName="CheckBox0" verticalCenter="231.5" x="479.80000000000007"/>
+	<e:CheckBox id="checkBox0" label="普通" skinName="CheckBox0" verticalCenter="231.5" right="25"/>
+	<e:Button id="btnDress" label="分解" y="789" skinName="BtnN1Skin" horizontalCenter="0"/>
+	<e:Label id="lbAccout" text="注:锁定的法宝不会被分解" x="35" y="11" style="l_brown_1"/>
+	<e:Label text="可获得法宝升阶石:" x="151.35" y="749" style="l_brown_1"/>
+	<e:Label text="法宝分解可获得法宝升阶石" x="32.35" y="702.69" style="l_blue_1" textColor="0x048fd0"/>
+	<e:Image width="120" height="30" x="393.33" y="747.33" source="ui_bm_jingyantiaobg"/>
+	<e:Label id="lbGet" text="70" y="750.68" size="24" horizontalCenter="96.5"/>
+	<e:Image source="ui_bm_shuomingfengexian" y="632" horizontalCenter="0.5"/>
+	<e:Scroller width="640" height="559" y="56" maxWidth="650" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="listView" itemRendererSkinName="TreasureHoldIconSkin" y="7" x="12">
+
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalAlign="center" horizontalGap="45"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

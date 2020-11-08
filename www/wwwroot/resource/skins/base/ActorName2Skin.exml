@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActorName2Skin" height="26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="title" anchorOffsetX="0" x="0" y="0" scaleX="1" scaleY="1" height="25">
+		<e:BitmapLabel id="lv" x="66" y="6" text="10" anchorOffsetX="0" verticalAlign="bottom" height="18" font="" letterSpacing="-6"/>
+		<e:layout>
+		<e:HorizontalLayout gap="-1" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

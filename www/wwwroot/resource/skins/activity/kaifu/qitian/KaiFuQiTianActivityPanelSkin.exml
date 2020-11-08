@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuQiTianActivityPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f38be4a9"/>
+
+	<e:Image x="8" y="161" source="ui_qtzx_bm_riliBG" width="496" height="140"/>
+	<e:Button id="sevenDay_btn" label="Button" x="503" y="159" skinName="Btn0TipSkin" icon="ui_qtzx_bt_btn03"/>
+	<ns1:PetShowPanel id="petShowPanel" xmlns:ns1="*" width="0" height="0" x="660" y="247"/>
+	<e:Button id="look_btn" label="Button" x="625" y="292" skinName="Btn0TipSkin" icon="ui_qtzx_bt_chakan"/>
+	<e:Image width="651" height="587" x="35" y="417" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:List id="dayList" width="459" height="111" x="27" y="186" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="DayBtnSkin">
+		<e:layout>
+		<e:TileLayout requestedRowCount="2" horizontalGap="1"/>
+		</e:layout>
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:TabBar id="tabBar" height="61" width="580" y="345" itemRendererSkinName="BtnTab4Skin" selectedIndex="0" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="37">
+		<e:layout>
+		<e:HorizontalLayout gap="1"/>
+		</e:layout>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+	</e:TabBar>
+	<e:Label id="time_label" text="倒计时:" x="41" y="314" anchorOffsetX="0" size="22" style="l_white_1" stroke="2"/>
+	<ns1:TabEuiView id="tabEuiView" width="720" height="1280" touchEnabled="false" touchChildren="true" locked="true">
+	</ns1:TabEuiView>
+	<e:Image id="seventhDaySelected_icon" x="528" y="213" source="ui_qtzx_bm_gou"/>
+</e:Skin>

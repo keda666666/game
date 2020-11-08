@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyItemSkin" width="126" height="149" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="0" horizontalCenter="0" width="126" height="149">
+		<e:Image id="imgBg" source="ui_bm_icon001" x="16" y="16"/>
+		<e:Image id="imgSelect" source="ui_bm_xuanzhongkuang" x="0" y="0"/>
+		<e:Image id="imgAdd" source="ui_bt_plue3" y="36" horizontalCenter="0"/>
+		<e:Label id="lbLv" text="Lv.10" y="116" style="l_brown_1" horizontalCenter="-1" size="22"/>
+		<e:Label id="lbLock" text="10阶解锁" y="37" width="90" style="l_brown_1" horizontalCenter="0.5" textAlign="center"/>
+		<e:Image id="imgIcon" y="29" horizontalCenter="0" source=""/>
+		<e:Image id="imgRed" source="ui_bm_reddot" x="91" y="9" visible="false"/>
+	</e:Group>
+</e:Skin>

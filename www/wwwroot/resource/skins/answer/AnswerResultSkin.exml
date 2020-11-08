@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnswerResultSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" height="730" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" title="科举名次" skinName="CommonDialogSkin"/>
+	<e:Image y="356" source="ui_dt_bm_mingciBG" x="259"/>
+	<e:BitmapLabel id="lbSort" y="421" font="font_ui_dati_fnt" text="1" horizontalCenter="0"/>
+	<e:Label id="lbScore" text="今日成绩:" y="577" style="l_brown_2" horizontalCenter="0"/>
+	<e:Image width="650" height="250" y="615" source="ui_sbm_002" horizontalCenter="0"/>
+	<e:Button id="btnSure" label="确定" y="891" skinName="BtnN1Skin" horizontalCenter="0"/>
+	<ns1:CmLabel text="科举奖励" y="629"  x="210"/>
+	<e:List id="listView" height="141" y="684" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="30"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+</e:Skin>

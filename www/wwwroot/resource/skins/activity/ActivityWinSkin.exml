@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActivityWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1636e0142eb"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" title="活动"/>
+	<e:Image y="144" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="858" width="654" x="34"/>
+	<e:Scroller height="844" x="40" y="151" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" x="1" itemRendererSkinName="ActivityItemSkin" useVirtualLayout="false">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="-2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

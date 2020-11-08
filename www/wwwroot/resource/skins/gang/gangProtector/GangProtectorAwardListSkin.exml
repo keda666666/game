@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangProtectorAwardListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1634939a91c"/>
+	<e:Component/>
+	<e:Image width="650" height="854" x="36" y="146" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="645" height="845.88" x="39" y="151" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" bounces="false">
+		<e:List id="awardList" itemRendererSkinName="GangProtectorAwarkListItemSkin" anchorOffsetX="0" anchorOffsetY="0" height="845.88">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

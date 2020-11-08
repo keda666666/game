@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetNameSkin" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" height="35">
+		<e:Image id="rarityImg" x="0" y="0" source="ui_cw_bm_sr"/>
+		<e:Label id="nameLabel" text="Label" x="101" y="0" size="25"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

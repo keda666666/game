@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanAddSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0"  skinName="CommonDialog2Skin"/>
+	<e:Image y="249" source="ui_sbm_002" anchorOffsetX="0" width="559" anchorOffsetY="0" height="656" alpha="1" horizontalCenter="0.5"/>
+	<e:Label text="请选择求婚对象" y="917.02" style="l_green_1" x="269"/>
+	<e:Scroller width="553" height="617" y="287" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:List id="list" x="0" y="0" width="100%" height="100%" itemRendererSkinName="YingYuanItemSkin">
+			</e:List>
+	</e:Scroller>
+	<e:Label text="名字" x="113" y="257" style="l_yellow_4" textColor="0x6e330b"/>
+	<e:Label text="等级" x="275" y="257" style="l_yellow_4" textColor="0x6e330b"/>
+	<e:Label text="战力" x="383" y="258" style="l_yellow_4" textColor="0x6e330b"/>
+</e:Skin>

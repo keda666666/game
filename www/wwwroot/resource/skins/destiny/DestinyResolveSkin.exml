@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyResolveSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonWindowBg id="commonWindowBg" touchEnabled="false" horizontalCenter="0" skinName="CommonWindowBg2Skin" title="分解"/>
+	<e:Group y="156" height="870" horizontalCenter="0">
+		<e:Image width="661" height="863" source="ui_sbm_002" y="0" horizontalCenter="0"/>
+		<e:Button id="btnDress" label="分解" y="784" skinName="BtnN1Skin" x="270"/>
+		<e:Image source="ui_bm_shuomingfengexian" y="708" horizontalCenter="0"/>
+		<e:Image source="ui_bm_shuomingfengexian" y="480.73" horizontalCenter="0"/>
+		<e:Image source="ui_bm_shuomingfengexian" y="238.12" horizontalCenter="0"/>
+		<e:Scroller width="640" height="700" y="10" maxWidth="650" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:List id="listView" y="-2" x="12" itemRendererSkinName="DestinyResolveItemSkin">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalAlign="center" horizontalGap="71" verticalGap="27"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+						<e:Object d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="lbAccout" text="温馨提示：点击【+】可手动添加命格进行分解，系统只自动筛选1级命格进行分解" y="1038.92" style="l_brown_1" width="441" size="20" x="93"/>
+	<e:Group x="50" y="884">
+		<e:CheckBox id="checkBox5" label="传说" skinName="CheckBox0" x="518" y="0"/>
+		<e:CheckBox id="checkBox4" label="完美" skinName="CheckBox0" x="388.1" y="0"/>
+		<e:CheckBox id="checkBox3" label="卓越" skinName="CheckBox0" x="259.4" y="0"/>
+		<e:CheckBox id="checkBox2" label="稀有" skinName="CheckBox0" x="129.1" y="0"/>
+		<e:CheckBox id="checkBox1" label="精良" skinName="CheckBox0" y="0" x="0"/>
+	</e:Group>
+</e:Skin>

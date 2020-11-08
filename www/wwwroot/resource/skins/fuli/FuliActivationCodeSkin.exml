@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliActivationCodeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163c9a5a7c8"/>
+	<e:Image id="logo" x="34" y="273" source="ui_fldt_bm_jihuomaBanner"/>
+	<e:Image id="bg" width="651" height="560" x="35" y="440" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label text="输入或粘贴激活码" x="235" y="527" textColor="0x6e330b" size="31" fontFamily="Microsoft YaHei"/>
+	<e:TextInput id="inputText" width="304" height="55" x="208" y="581" anchorOffsetX="0" anchorOffsetY="0" enabled="true" prompt="请输入激活码"/>
+	<e:Button id="receiveBtn" x="277.66" y="692.01"   label="领取" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+</e:Skin>

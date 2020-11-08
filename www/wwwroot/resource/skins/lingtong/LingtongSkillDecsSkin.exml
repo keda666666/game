@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingtongSkillDecsSkin" width="262" height="83.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="262" height="34" source="ui_bm_jingyantiaobg"/>
+	<e:Image id="iconImg" source="ui_skill_31" width="30" height="30" x="5" y="2"/>
+	<e:Label id="skillName" text="Label" y="6" size="22" style="l_brown_1" x="54"/>
+	<e:Label id="skillDesc" text="Label" y="39" size="22" style="l_brown_1" x="3" width="256"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DayBtnSkin" states="up,down,disabled"  currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x.disabled="0" x.up="0" y.disabled="0" y.up="0"
+	         horizontalCenter.disabled="0" horizontalCenter.up="0" verticalCenter.disabled="0" verticalCenter.up="0"   source="ui_qtzx_bt_btn02" source.down="ui_qtzx_bt_btn01" x.down="0" y.down="0" width="152" height="50"/>
+	<e:Label id="labelDisplay" verticalAlign="middle"
+	         textAlign="center" horizontalCenter.down="2"
+	         verticalCenter.down="2" text="" size="24" width="100%" horizontalCenter="0.5" textColor="0x6e330b" style="l_brown_1" verticalCenter="0"/>
+	<e:Image id="selected_icon" x="6" y="6" source="ui_qtzx_bm_gou" visible.disabled="false" visible.up="false"/>
+	<e:Image id="redPoint" source="ui_bm_reddot" touchEnabled="false" x="121" y="-3" visible="false"/>
+</e:Skin>

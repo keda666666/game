@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AcrossBossBoxSkin" width="185" height="184" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="dataGroup" x="12" y="12" width="161" height="170">
+		<e:Group x="21" y="52">
+			<e:Image id="img" source="cash2009" y="0" x="0"/>
+		</e:Group>
+			<e:Group id="barGroup" width="148" horizontalCenter="0" bottom="118" visible="false">
+				<e:Label text="采集中" y="0" style="l_white" stroke="2" size="22" width="148" textAlign="center" x="0"/>
+				<e:Group id="bar" x="0" y="28">
+                
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="jiLuitemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="634">
+	<w:Config id="1633e92cf14"/>
+	<e:Label id="text" text="" verticalCenter="0" left="0" size="26" width="628" style="l_brown_1"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeEquipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16271c914a9"/>
+
+
+	<e:Group y="451" height="128" width="316" x="207">
+		<e:Label id="text_1" text="生命: 25555" size="24" anchorOffsetX="0" lineSpacing="24" anchorOffsetY="0" textAlign="left" verticalAlign="middle" style="l_gray" textColor="0x505050" verticalCenter="-6" x="21"/>
+		<e:Image id="arrowImg" y="89" source="ui_bm_dz_jiantou" rotation="-90" horizontalCenter="0"/>
+		<e:Label id="text_2" text="生命: 25555" size="24" textAlign="left" lineSpacing="24" anchorOffsetY="0" verticalAlign="middle" style="l_green" textColor="0x4fcd4c" x="211" verticalCenter="-6"/>
+	</e:Group>
+
+</e:Skin>

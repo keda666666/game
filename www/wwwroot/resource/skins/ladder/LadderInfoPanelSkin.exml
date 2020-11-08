@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderInfoPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165140657f2" visible="false"/>
+	<e:Image width="651" height="853" y="147" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" x="34"/>
+	<e:Image width="645" height="514" y="150" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_005" horizontalCenter="-0.5"/>
+	<ns1:ItemBaseNotName id="item" y="751" x="510" anchorOffsetY="0"/>
+	<e:Label id="truceIng" text="比赛时间：周一10：00-周日22：00 (周日22:30结算)" y="626" textAlign="center" size="20" height="20" anchorOffsetY="0" anchorOffsetX="0"  horizontalCenter="0" style="l_orange"/>
+
+	<e:Label text="结算奖励预览" x="499" y="720" scaleX="1" scaleY="1" anchorOffsetY="0" height="23" style="l_brown_1" size="22"/>
+
+	<e:Label id="myName" text="我的昵称" x="22" y="551" size="22" width="283" textAlign="center"  style="l_brown_1"/>
+	<e:Image id="otherLevelIcon"  source="" y="747" scaleX="0.9" scaleY="0.9" x="67"/>
+	<e:Label id="otherName" text="" x="433" y="551"  width="246" textAlign="center" style="l_brown_1" size="22"/>
+	<e:Label id="enterTime" text="进入战斗倒计时 3 秒" y="591"  width="399"  textAlign="center" style="l_brown_1" x="162"/>
+	<e:Label  text="当前阶段" x="103" y="680" scaleX="1" scaleY="1" style="l_brown_1" size="22"/>
+	<e:Component id="levtxt" x="65" y="709" skinName="LadderLevelSkin"/>
+
+
+	<e:Group id="ingImg" y="581"    width="406" height="44" x="157">
+		<e:Image x="3" y="1" source="ui_bm_tishengzhanlibg"/>
+		<e:Label text="寻找对手" y="10" size="26" width="224" textAlign="center" x="91"/>
+
+	</e:Group>
+
+	<e:Group id="corssGroup" width="0" height="0" y="665" visible="false">
+		<e:Label text="周一0:00各服战力榜前10名有资格参赛" y="15" scaleX="1" scaleY="1" size="14" horizontalCenter="220" textColor="0xf5d061"/>
+		<e:Label text="跨服冠军奖励" y="110" scaleX="1" scaleY="1" size="14" horizontalCenter="76.5" textColor="0xF5D061"/>
+		<e:Label text="上周跨服冠军" y="110" scaleX="1" scaleY="1" size="14" horizontalCenter="361.5" textColor="0xF5D061"/>
+		<ns1:ItemBase id="corssWinItem" x="43" y="129"/>
+		<e:Component id="corssHeadComp" y="130" skinName="RoleHeadSkin" x="331"/>
+		<e:Label id="corssWinNameLabel" y="197" size="12" textAlign="center" text="" strokeColor="0x000000" horizontalCenter="363" textColor="0xFFFFFF" x="355" scaleX="1" scaleY="1"/>		
+	</e:Group>
+	<e:Group id="enterGroup" x="0" y="753" touchEnabled="false" touchChildren="true" width="680" anchorOffsetY="1" height="1044">
+		<e:Label id="wz_open_time" text="王者争霸结算中\n周一10：00开启" y="36" style="l_brown_1" width="278" textAlign="center" lineSpacing="10" x="221"/>
+		<e:Group id="stateGroup" width="680" height="940" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" x="0" y="103.71">
+			<e:Button id="flowPlayer" label="匹配对手" y="63" icon="ui_wzzb_ppds" x="278" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+			<e:Label id="buyTime" text="购买次数" scaleX="1" scaleY="1" x="477" y="85" style="l_green" size="24"/>
+			<e:Label id="lastNum" text="剩余次数：8/9" y="26" size="22" x="260" scaleX="1" scaleY="1" width="203" textAlign="center" style="l_brown_1"/>
+			<e:Label id="updatatimetext" text="( 回复倒计时：20:20:59 )" y="26" size="22" anchorOffsetX="0" x="442" scaleX="1" scaleY="1" style="l_brown_1"/>
+		</e:Group>
+		<e:DataGroup id="starGroup" y="0" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="LadderSratTwoSkin" horizontalCenter="20.5">
+			<e:layout>
+			<e:HorizontalLayout gap="-19"/>
+			</e:layout>
+			
+		</e:DataGroup>
+		<e:Label id="winNum" text="净胜场：100场" y="73" width="262" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" height="28" style="l_brown_1" x="229" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+	<e:Group width="251" height="322" scaleX="0.9" scaleY="0.9" x="55" y="250">
+		<e:Image x="-1" y="5" source="ui_kfwz_bm_bb" scaleX="1" scaleY="1"/>
+		<e:Scroller x="23" y="28" width="196" height="284" touchChildren="false" touchEnabled="false">
+			<e:Image id="myhead" source="ui_pp_tx_10"/>
+		</e:Scroller>
+		<e:Component id="myLevel" x="0" y="0" skinName="LadderLevelNameSkin"/>
+	</e:Group>
+	<e:Group id="winImg" x="253" y="258">
+		<e:Image source="ui_kfwz_bm_gs"/>
+		<e:Label text="连胜" x="8" y="71" size="18" width="19"/>
+	</e:Group>
+	<e:Group width="244" height="322" scaleX="0.9" scaleY="0.9" x="445" y="250">
+		<e:Image x="0" y="5" source="ui_kfwz_bm_bb"/>
+		<e:Scroller height="284" x="24" y="28" width="196" touchEnabled="false" touchChildren="false">
+			<e:List id="otherHeadList" itemRendererSkinName="LadderInfoHeadItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="0" paddingBottom="0" gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Component id="otherLevel" x="184" y="0" skinName="LadderLevelNameSkin"/>
+	</e:Group>
+	<e:Image x="263" y="272" source="ui_kfwz_bm_duizhan"/>
+	<e:Image y="711" source="ui_bm_fengexian" width="646" x="37"/>
+	<e:Label id="notEnterLabel" text="本周一0:00您未进入本服战力榜前20名，无法参加王者争霸" y="935" horizontalCenter="0" style="l_red" size="24" visible="false"/>
+	<e:Button id="rankBtn" label="排名" y="157" skinName="Btn0TipSkin" icon="ui_kfwz_bt_pm" x="130"/>
+	<e:Button id="preBtn" label="上周" y="157" skinName="Btn0TipSkin" icon="ui_kfwz_bt_szpm" x="320"/>
+	<e:Button id="winnerBtn" label="跨服王者" y="157" skinName="Btn0TipSkin" icon="ui_kfwz_bt_kfwz" x="510"/>
+
+</e:Skin>

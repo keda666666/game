@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoApplySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16368f00848"/>
+	<e:Image y="55" scaleX="1" scaleY="1" source="ui_bm_jsbg" x="48"/>
+	<e:Image y="736" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="170" width="631" horizontalCenter="0"/>
+	<ns1:CmLabel y="748" text="赛制介绍" horizontalCenter="0" width="294"/>
+	<ns1:CmLabel y="147" text="上届冠军" horizontalCenter="0" width="297"/>
+	<ns1:CmLabel y="580" text="奖励预览" x="241" skinName="CmLabel2Skin"/>
+	<ns1:CmLabel id="firstLabel" y="176" text="奖励预览" skinName="CmLabel3Skin" horizontalCenter="0" width="242"/>
+	<e:List id="list" y="620" horizontalCenter="0" itemRendererSkinName="ItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="11"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="goBtn" label="报名" x="280" y="922" skinName="BtnN2Skin" visible="false"/>
+	<e:Label text="开战条件：周一到周五晚21：00\n报名条件：角色达到120级\n报名时间：每周一20：55前" x="53" y="778" style="l_brown_1" size="22" lineSpacing="9"/>
+	<e:Label id="stateLabel" text="预选赛正在进行中" x="456" y="947" style="l_brown_1" size="22" lineSpacing="9"/>
+	<e:Label id="closeLabel" text="仙道会已经关闭" y="947" style="l_brown_1" size="24" lineSpacing="9" width="278" textAlign="center" x="222"/>
+	<e:Label id="ruleLabel" text="查看详细规则" x="54" y="869" size="22"  style="l_green"/>
+	<e:Group id="firstGroup" width="0" height="0" y="416" horizontalCenter="0">
+		<e:Component id="head1" width="20" height="20" x="-172" y="56" skinName="HeadSkin"/>
+		<e:Component id="head2" width="20" height="20" x="75" y="56" skinName="HeadSkin"/>
+		<e:Image source="ui_xdh_bm_duizhan" x="-63" y="14" scaleX="1" scaleY="1"/>
+		<e:Label id="videoLabel" text="对战录像" x="-46" y="127" size="22" style="l_green" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<ns1:RoleShowPanel id="roleShowPanel" y="414" x="358"/>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMapExchangeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="780" title="提  示" anchorOffsetY="0" x="0" y="245" skinName="CommonDialog2Skin"/>
+	<e:Group x="83" y="875">
+		<e:Label text="刷新倒计时:" x="0" y="0" style="l_brown_1" size="22"/>
+		<e:Label text="可刷新次数:" x="247" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="labCount" text="18" x="380" y="0" size="22" style="l_green_1"/>
+		<ns1:DurationLabel id="durationLab" x="128" y="0" skinName="DurationLabelSkin"/>
+	</e:Group>
+	<e:Button id="btnRefresh" label="刷新" x="289" y="922" skinName="BtnN1Skin"/>
+	<ns1:PriceIcon id="priceicon" x="441" y="943"/>
+	<e:List id="list" itemRendererSkinName="GangMapExchangItemSkin" x="76" y="328">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout orientation="columns" horizontalGap="10" verticalGap="10"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

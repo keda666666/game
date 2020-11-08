@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanEnAiWupingSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"   states="one,two" >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" height="591.12" anchorOffsetY="0" x="0"  skinName="CommonDialogSkin" verticalCenter="0"/>
+	<e:Image y="444.66" source="ui_sbm_002" anchorOffsetX="0" width="601.67" anchorOffsetY="0" height="344" alpha="1" x="59"/>
+	<e:Button id="bnt" label="确定" y="819.34" skinName="BtnN2Skin" x="110.66"/>
+	<e:Button id="bnt0" label="取消" y="819.34" x="440.66" skinName="BtnN3Skin"/>
+	<ns1:ItemBase id="base" x="301.34" y="487" visible.two="false"/>
+	<e:Label text="是否确认消耗道具回复满当前可操作次数？" y="691.65" style="l_brown_1" x="118.33" visible.two="false"/>
+	<e:Label text="获得途径：" x="245.34" y="647.98" style="l_brown_1" visible.two="false"/>
+	<e:Label id="shop" text="商城活动" x="381" y="646.64" style="l_green_1" visible.two="false"/>
+	<e:Label text="需消耗物品名称：" x="167.34" y="617.98" style="l_brown_1" visible.two="false"/>
+	<e:Label id="shop0" text="商城活动" x="382" y="616.64" style="l_green_1" visible.two="false"/>
+	<ns1:PriceIcon id="priceicon" x="283.64" y="581" visible.one="false"/>
+	<e:Label text="是否确认消耗                    道具回复满当前可操作次数？" x="106.33" y="581.67" anchorOffsetY="0" height="91.33" anchorOffsetX="0" width="494.67" style="l_brown_1" visible.one="false"/>
+</e:Skin>

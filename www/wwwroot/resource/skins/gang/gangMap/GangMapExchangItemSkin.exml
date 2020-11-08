@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMapExchangItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="280"  height="264">
+	<w:Config id="163d49ce5f3"/>
+	<e:Group x="0" y="0">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="264" width="280" x="0"/>
+		<e:Button id="btnExchange" label="兑 换" x="75" y="195" skinName="Btn1Skin" width="130" height="62"/>
+		<ns1:ItemBase id="itemIcon" x="84" y="11"/>
+		<e:Image y="151" source="ui_bm_shuomingfengexian" width="210" x="37"/>
+		<e:Label id="labMaterial1" text="水晶" x="36" y="161" style="l_brown_1" size="22"/>
+		<e:Label id="labMaterial2" text="水晶" x="159" y="161" style="l_brown_1" size="22"/>
+	</e:Group>
+</e:Skin>

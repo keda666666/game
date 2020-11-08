@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuQiTianShopPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Scroller id="scroller" width="567.45" height="389.33" anchorOffsetY="0" y="508" anchorOffsetX="0" horizontalCenter="18.5" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="list" left="0" right="-2.5499999999999545" top="0" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="KaiFuQiTianShopItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="43"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

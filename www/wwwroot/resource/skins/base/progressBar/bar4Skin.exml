@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bar4Skin" minWidth="30" minHeight="12" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="200">
+<e:Image source="ui_boss_bm_jingyantiao02"  verticalCenter="0" left="0" right="0"/>
+	<e:Image id="thumb" source="ui_boss_bm_jingyantiao01"  left="1" right="1" verticalCenter="0"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"
+			 size="15"
+			 horizontalCenter="0" verticalCenter="0" textColor="0xffffff" stroke="1" visible="false"/>
+</e:Skin>

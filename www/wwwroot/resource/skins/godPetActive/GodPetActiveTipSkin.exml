@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodPetActiveTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1644987894a"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="491" title="提  示" anchorOffsetY="0" x="0" y="356" skinName="CommonDialog2Skin"/>
+	<e:Group x="74" y="445">
+		<e:Image width="573" height="262" x="0" y="0" source="ui_sbm_002" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBaseNotName id="item" x="177" y="18"/>
+		<e:Label id="labName" text="神兽之灵" x="289" y="37" style="l_brown_1"/>
+		<e:Image y="137" source="ui_bm_shuomingfengexian" x="100"/>
+		<ns1:CmLabel id="cmlabText" x="135" y="165"/>
+		<e:Label id="labGoto1" text="每日首充" x="26" y="213" style="l_green_1" size="24" visible="false"/>
+		<e:Label id="labGoto2" text="神兽降临" x="243" y="213" style="l_green_1" size="24" visible="false"/>
+		<e:Label id="labGoto3" text="师门任务" x="448" y="213" style="l_green_1" size="24" visible="false"/>
+	</e:Group>
+	<e:Button id="btnConfirm" label="确 认" x="280" y="741" skinName="BtnN2Skin"/>
+</e:Skin>

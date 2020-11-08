@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodPetActiveLotterySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1644055d273"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image x="35" y="152" source="ui_ssjl_bm_tupian01"/>
+	<e:Image source="ui_ssjl_bm_bg" x="35" y="361"/>
+	<e:Group x="58" y="384">
+		<e:Image source="ui_ssjl_bm_jiluBG" x="94" y="156"/>
+		<e:Group x="5" y="0">
+			<ns1:GodPetActiveLotteryIcon id="item0" x="0" y="0" scaleX="1.2" scaleY="1.2" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon x="169" y="10" id="item1" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon x="316" y="10" id="item2" scaleX="1" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon id="item3" x="464" y="1" scaleX="1.2" scaleY="1.2" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon x="483" y="209" id="item4" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon id="item5" x="464" y="394" scaleX="1.2" scaleY="1.2" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon id="item7" x="169" y="407" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon id="item6" x="316" y="407" scaleX="1" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon id="item8" x="0" y="394" scaleX="1.2" scaleY="1.2" skinName="GodPetActiveLotteryIconSkin"/>
+			<ns1:GodPetActiveLotteryIcon x="8" y="209" id="item9" skinName="GodPetActiveLotteryIconSkin"/>
+		</e:Group>
+		<e:Label id="labGain" text="获取神兽之灵" x="450" y="562" style="l_green"/>
+		<ns1:ConsumeLabel id="consumeLabel" x="0" y="567" scaleX="0.9" scaleY="0.9"/>
+		<e:Button id="btnLottery" label="降 服" x="224" y="542" skinName="BtnN2Skin"/>
+		<e:Scroller width="400" height="150" x="106" y="197" scaleX="1" scaleY="1">
+			<e:List id="list" itemRendererSkinName="GodPetActiveLotteryItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

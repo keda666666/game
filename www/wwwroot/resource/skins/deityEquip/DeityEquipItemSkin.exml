@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeityEquipItemSkin" width="110" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:ItemBaseNotName id="item" x="0" y="0"/>
+	<e:Image id="redPoint" width="32" height="31" x="77" y="1" source="ui_bm_reddot" visible="false"/>
+	<e:Label id="labLv" text="Lv.5" y="105" style="l_brown_1" size="22" horizontalCenter="0"/>
+	<e:Label id="labDesc" text="" y="129" style="l_brown_1" size="22" horizontalCenter="0"/>
+</e:Skin>

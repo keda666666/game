@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodPetActiveAwardItemSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="179">
+	<w:Config id="1586b1383e3" />
+	<e:Image width="636" height="175" x="1" y="2" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_shangchengbg"/>
+	<e:Image y="3" source="ui_hddt_bm_duiwumingchengBG" anchorOffsetX="0" width="636" anchorOffsetY="0" height="35" x="2"/>
+
+	<e:Label id="labText" text="累计消费：1000元宝" x="13" y="10" style="l_orange" size="20" textColor="0x6e330b"/>
+
+	<e:Button id="btnGain" label="领 取" x="488" y="81" skinName="BtnN2Skin" height="60" width="140"/>
+
+
+
+	<e:List id="list" width="462" height="128" x="7" y="47" anchorOffsetY="0" itemRendererSkinName="ItemSkin" anchorOffsetX="0">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="imgGained" source="ui_xyll_bm_yilingqu" y="73" horizontalCenter="241"/>
+
+
+
+
+</e:Skin>

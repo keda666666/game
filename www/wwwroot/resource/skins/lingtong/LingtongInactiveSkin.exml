@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingtongInactiveSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163de20c1f9"/>
+	<e:Image y="145" x="34" source="ui_bm_jsbg"/>
+	<e:Image y="759.48" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" horizontalCenter="0" height="242.52" width="650"/>
+	<e:Image source="ui_lt_bm_wenben" x="75" y="783"/>
+	<e:CheckBox id="check0" label="男童" x="276" y="773" skinName="CheckBox0"/>
+	<e:CheckBox id="check1" label="女童" x="446" y="773" skinName="CheckBox0"/>
+	<e:Label text="温馨提示：选择性别可预览灵童，选择激活后无法变更性别" x="75" y="832" style="l_green" size="22" visible="false"/>
+	<e:Group y="860" x="116">
+		<e:Label id="info2Label" text="需要佩戴6个橙色品质的命格才能激活灵童" y="0" size="22" x="0" style="l_brown_1"/>
+		<e:Label text="（" y="0" size="22" x="0" style="l_brown_1"/>
+		<e:Label id="infoLabel" text="0/6" y="10" size="22" x="10" style="l_brown_1"/>
+		<e:Label text="）" y="20" size="22" x="20" style="l_brown_1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="goLabel" text="前往获取命格" y="936" style="l_green" size="26" horizontalCenter="0" visible="false"/>
+	<e:Button id="actBtn" label="激 活" y="913" skinName="BtnN2Skin" horizontalCenter="-1"/>
+	<e:Image x="486" y="344" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Label text="未激活" x="486" y="332" size="20" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="36" height="139" verticalAlign="middle" textColor="0xAA6A31" bold="true"/>
+	<e:Scroller y="640" horizontalCenter="0.5" maxWidth="593">
+		<e:List id="skillList" itemRendererSkinName="PetSkillIconSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="7" paddingLeft="15" paddingRight="15" paddingTop="15"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group width="0" height="0" y="507" horizontalCenter="0">
+		<ns1:RoleShowPanel id="petShowPanel"/>
+	</e:Group>
+	<ns1:PowerLabel id="powerLabel" y="140" x="164" skinName="PowerLabel2Skin"/>
+	<e:Group id="itemGroup" y="230" horizontalCenter="-2">
+		<ns1:DestinySItem  skinName="DestinyItemSkin"  />
+		<ns1:DestinySItem   skinName="DestinyItemSkin" />
+		<ns1:DestinySItem  skinName="DestinyItemSkin"  />
+		<ns1:DestinySItem  skinName="DestinyItemSkin"  />
+		<ns1:DestinySItem   skinName="DestinyItemSkin" />
+		<ns1:DestinySItem  skinName="DestinyItemSkin"  />
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" horizontalGap="350" verticalGap="-13"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BottomSelectPanelSkins" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="anim">
+			<tween:TweenItem target="{conGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" rotation="{-20}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200" ease="backOut">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15f94526f62"/>
+	<e:Group id="conGroup" width="0" height="0" x="540" y="1150">
+		<e:Image source="ui_zjm_bm_icombg-sanjiaoxing" scaleX="1" scaleY="1" x="-14" y="-13"/>
+		<e:Group id="btnGroup" y="-140" x="-449">
+		<e:Image touchEnabled="false" anchorOffsetY="0" scaleX="1" scaleY="1" source="ui_bm_icombg2-46" y="0" width="100%" x="0"/>
+		<e:Group y="0" scaleX="1" scaleY="1" x="0">
+
+
+			<e:ToggleButton id="lingtongBtn" icon="ui_bm_lingtong" skinName="MainBottomBtnSkin" x="253" y="14" width="122" height="122"/>
+
+
+					<e:Image id="lingtongBtnline" x="263" y="992" source="ui_bm_icombg-fengexian"/>
+					<e:ToggleButton id="xiannvBtn0" icon="ui_bm_xianlv" skinName="MainBottomBtnSkin" x="123" y="4" width="122" height="122"/>
+					<e:Image id="tianvBtnline" x="243" y="972" source="ui_bm_icombg-fengexian"/>
+					<e:ToggleButton id="tianvBtn" icon="ui_bm_xuannv" skinName="MainBottomBtnSkin" x="2" y="4" width="122" height="122"/>
+					<e:Image id="tianshenBtnline" x="253" y="982" source="ui_bm_icombg-fengexian"/>
+					<e:ToggleButton id="tianshenBtn" icon="ui_bm_tianshen" skinName="MainBottomBtnSkin" x="243" y="4" width="122" height="122"/>
+			<e:Image id="xingjunBtnline" x="253" y="982" source="ui_bm_icombg-fengexian"/>
+			<e:ToggleButton id="xingxiuBtn" icon="zjm_6_459_json.ui_bm_xingjun" skinName="MainBottomBtnSkin" x="243" y="4" width="122" height="122"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+	
+
+	
+
+</e:Skin>

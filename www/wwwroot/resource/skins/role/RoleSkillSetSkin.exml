@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkillSetSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" skinName="CommonWindowBgSkin" y="-1" x="-1" title="技能配置"/>
+	<ns1:TabView id="viewStack" width="640" height="860" selectedIndex="1" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="148" touchThrough="true" horizontalCenter="0"/>
+</e:Skin>

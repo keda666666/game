@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMemberListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660" states="up,down"  height="120">
+	<e:Group x="3" y="1">
+		<e:Image source="ui_sbm_005" x="0" y="0" width="654" height="118" />
+		<e:Image source="ui_bm_icon001" x="16" y="12"/>
+		<e:Image id="imgFace" x="21" y="18" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+		<e:Label id="labOfficeName" text="【帮主】" x="123" y="31" size="22" textAlign="center" width="132" style="l_green"/>
+		<e:Label id="labPlayerName" text="玩家名字六字" y="64" style="l_brown_1" size="22" textAlign="center" horizontalCenter="-138"/>
+		<e:Label id="labContribute" text="12345678" y="48" style="l_brown_1" size="22" textAlign="center" horizontalCenter="25"/>
+		<e:Label id="labPower" text="1234567" y="48" style="l_brown_1" size="22" textAlign="center" horizontalCenter="152"/>
+		<e:Label id="labLogoutTime" text="离线23小时" y="90" size="20" textAlign="right" style="l_red" right="12"/>
+		<e:Button id="btnAffair" x="550" y="32.6" icon="ui_bt_qiuzhubtn" label="事 务" scaleX="1" scaleY="1" skinName="Btn2Skin" width="90" height="50"/>
+	</e:Group>
+</e:Skin>

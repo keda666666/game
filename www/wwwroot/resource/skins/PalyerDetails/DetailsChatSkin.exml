@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailsChatSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="436"               states="other,self" >
+	<ns1:ItemIcon id="playerAvatar" y="0" anchorOffsetX="0" anchorOffsetY="1" x="0" x.self="340"/>
+	<e:Label id="roleNameTxt" text="Labela" y="6" textColor="0x6e330b" style="l_white" size="24" anchorOffsetX="0" anchorOffsetY="0" x="100" right.self="100" left.other="100"/>
+	<e:Group y="45" x="100" right.self="100" left.other="100" anchorOffsetX="0">
+		<e:Image id="contentImg" source="ui_wjxq_bm_qipao01" anchorOffsetX="58" anchorOffsetY="-1" left="0" top="0" bottom="0" right="0" scaleX.self="-1" source.self="ui_wjxq_bm_qipao02"/>
+		<ns1:ChatLabel id="contentTxt" left="25" top="10" bottom="10" right="10" right.self="25" left.self="10" anchorOffsetX="0" maxWidth="300"/>
+	</e:Group>
+</e:Skin>

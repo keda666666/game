@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TheFirstPlayerTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163ee08c25d"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="825" title="提  示" anchorOffsetY="0" x="0" y="176" skinName="CommonDialog2Skin"/>
+	<e:Group x="66" y="660">
+		<e:Image width="588" height="237" x="0" y="0" source="ui_sbm_002" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBaseNotName id="itemNormal" x="99" y="14"/>
+		<ns1:ItemBaseNotName id="itemCost" x="368" y="14"/>
+		<ns1:PriceIcon id="price" x="371" y="119" skinName="PriceIconSkin"/>
+		<e:Button id="btnNormal" x="75" y="153"   label="膜 拜" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnN2Skin"/>
+		<e:Button id="btnCost" x="352" y="157"   label="绑元膜拜" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+		<e:Image id="imgNormal" source="ui_zjm_bm_yimobai" x="95" y="164"/>
+		<e:Image id="imgCost" source="ui_zjm_bm_yimobai" x="375" y="167"/>
+	</e:Group>
+	<e:Image source="ui_zjm_mobaiBG" x="72" y="250"/>
+	<ns1:PowerLabel id="powerLabel" y="248" x="160" skinName="PowerLabel2Skin"/>
+	<e:Label id="labName" text="玩家名六个字" y="612" style="l_white" size="30" horizontalCenter="-4" stroke="1"/>
+	<e:Label text="魅力:" x="88" y="621" style="l_white" stroke="1" size="24"/>
+	<e:Label id="labCharm" text="25600" x="153" y="621" size="24" style="l_green"/>
+	<ns1:RoleShowPanel id="roleShowPanel" y="580" width="4" x="360" scaleX="1" scaleY="1"/>
+	<e:Button id="btnHelp" x="53" y="190.64" touchEnabled="true" skinName="HelpBtn" scaleX="1" scaleY="1"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopResolveItemSkin" width="544" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image  verticalCenter="0.5" width="100%" height="100%" horizontalCenter="0" source="ui_sbm_005"/>
+	<e:Group x="245" y="64">
+		<e:Image source="ui_sbm_002"  width="128" height="36" x="0" y="0"/>
+		<ns1:PriceIcon id="priceIcon" x="9" y="3" skinName="PriceIconSkin"/>
+	</e:Group>
+	<e:Button id="buy" label="分解" x="396" skinName="Btn2Skin" verticalCenter="0.5"/>
+	<e:Label id="nameLabel" text="红龙盔甲(lv.30)" y="22" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="26" style="l_brown_1" x="129"/>
+	<e:Label text="分解获得:" x="129" y="71" style="l_brown_1" size="22"/>
+	<ns1:ItemBaseNotName id="itemIcon" x="12" y="5"/>
+</e:Skin>

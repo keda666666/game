@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GainGoodsItemSkin" width="600" height="110" xmlns:e="http://ns.egret.com/eui">
+
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" bottom="0" top="0" source="ui_lyb_bg_2" width="643" horizontalCenter="0"/>
+
+	<e:Label id="desc" y="45" text="熔炼装备" x="144" touchEnabled="false" style="l_orange_3"/>
+	<e:Group x="30" y="13">
+		<e:Image id="imgBg" touchEnabled="false" source="ui_common_icon_bg01" x="0" y="0" width="82" height="82"/>
+		<e:Image id="imgIcon" source="" maxHeight="55" maxWidth="55" width="78" height="78" x="2" y="2"/>
+		<e:Image x="0" y="2" source="ui_icon_qtbx"/>
+	</e:Group>
+</e:Skin>

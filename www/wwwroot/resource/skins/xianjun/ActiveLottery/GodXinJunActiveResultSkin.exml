@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodXinJunActiveResultSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163fd575bc1"/>
+	<e:Component id="bg" skinName="BG2"/>
+	<e:Image y="227" touchEnabled="false" source="ui_xb_bm_huodejiangli" horizontalCenter="0"/>
+	<e:Image y="368.18" touchEnabled="false" scaleX="1" scaleY="1" height="539.82" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="642" horizontalCenter="0.5"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="566" horizontalCenter="0.5" source="ui_sbm_002" height="289" y="449"/>
+	<e:Group touchChildren="false" touchEnabled="false" x="0" width="720" y="377">
+		<e:Image scaleX="1" scaleY="1" y="-15"  source="ui_sbm_003" horizontalCenter="0"/>
+		<e:BitmapLabel id="titleLabel0" y="3" scaleX="1" scaleY="1" text="获得奖励" font="font_ui_biaoti_fnt" horizontalCenter="0" textAlign="center" width="270" letterSpacing="10"/>
+	</e:Group>
+	<e:Button id="btn1" label="购买1个" y="777" skinName="BtnN2Skin" x="434"/>
+	<e:Button id="btn0" label="确定" y="777" x="121" skinName="BtnN3Skin"/>
+	<ns1:PriceIcon id="priceIcon" y="743.8" horizontalCenter="149"/>
+	<e:Label id="timeLabel" text="点击任意区域关闭" x="266" y="859" style="l_brown_1" size="20"/>
+
+	<e:Scroller x="85" y="463" width="581" height="271" scrollPolicyH="off">
+	<e:DataGroup id="group" x="85" y="463" itemRendererSkinName="ItemSkin" scaleX="0.95" scaleY="0.95" width="581">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5" horizontalGap="8"/>
+		</e:layout>
+	</e:DataGroup>
+	</e:Scroller>
+</e:Skin>

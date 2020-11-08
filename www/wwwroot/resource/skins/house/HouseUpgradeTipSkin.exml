@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseUpgradeTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="835" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" verticalCenter="-57"/>
+	<e:Image y="242" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="623" width="564" x="78"/>
+	<e:Scroller width="560" height="620" x="80" y="243">
+		<e:List id="list" itemRendererSkinName="HouseUpgradeTipItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="234" y="878">
+		<e:Label text="累计可领取进度：" x="0" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="labCount" text="9999点" x="170" size="22" y="0" style="l_green_1"/>
+	</e:Group>
+	<e:Button id="btnGain" x="282" y="906"   label="一键领取" skinName="BtnN2Skin"/>
+</e:Skin>

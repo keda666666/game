@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangPangTaoHuiSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162760c9e8e"/>
+	<e:Image y="142" source="ui_bh_bm_pantaohuiyuanhua" horizontalCenter="0"/>
+	<e:Button id="bnt0" label="百年桃" x="39" y="701" skinName="BtnN2Skin">
+	</e:Button>
+	<e:Button id="bnt1" label="万年桃" x="279" y="700" skinName="BtnN2Skin"/>
+	<e:Button id="bnt2" label="千年桃" x="517" y="701" skinName="BtnN2Skin"/>
+	<e:Image width="649" height="172" x="37" y="829" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002"/>
+	<e:Image width="202" height="44" x="484" y="454" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002"/>
+	<e:Label id="exp" text="今日进度123/60" x="488" y="463" style="l_brown_1" textAlign="center" verticalAlign="middle" width="192" height="26" size="20"/>
+	<ns1:PriceIcon id="PriceIcon0" width="20" height="20" x="66" y="787"/>
+	<ns1:PriceIcon id="PriceIcon1" width="20" height="20" x="311" y="787"/>
+	<ns1:PriceIcon id="PriceIcon2" width="20" height="20" x="544" y="787"/>
+	<e:Label id="attr0" text="1" x="57" y="604" size="26" textAlign="left" style="l_green"/>
+	<e:Label id="attr1" text="2" x="292" y="604" style="l_red" textAlign="left"/>
+	<e:Label id="attr2" text="3" y="604" x="528" textAlign="left" style="l_orange_3"/>
+	<e:Scroller width="646" height="149" x="39" y="841" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" width="646" height="200" x="65" y="34" itemRendererSkinName="GangPanTanHuiListItemSkin" anchorOffsetX="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+	</e:Scroller>
+	<e:ProgressBar id="pro" width="502.67" height="31.33" x="88.32" y="529.35" anchorOffsetX="0" anchorOffsetY="0" skinName="bar4Skin"/>
+	<e:Image id="baoXian0" x="140.33" y="512.99" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_baoxiang01"/>
+	<e:Image id="baoXian1" x="359.99" y="510.33" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_baoxiang01"/>
+	<e:Image id="baoXian2" x="571" y="510.34" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_baoxiang01"/>
+	<e:Image id="redPoint0" source="ui_bm_reddot" horizontalCenter="-157" verticalCenter="-76"/>
+	<e:Image id="redPoint1" source="ui_bm_reddot" horizontalCenter="62" verticalCenter="-76"/>
+	<e:Image id="redPoint2" source="ui_bm_reddot" horizontalCenter="270" verticalCenter="-76"/>
+	<e:Image id="qd0" x="111.67" y="497.68" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_yilingqu" visible="false"/>
+	<e:Image id="qd1" x="335.01" y="497.02" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_yilingqu" visible="false"/>
+	<e:Image id="qd2" x="542.34" y="495.03" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_yilingqu" visible="false"/>
+</e:Skin>

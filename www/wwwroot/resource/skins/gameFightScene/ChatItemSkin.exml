@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="546"  minHeight="32">
+	<e:Component id="content3" width="546"/>
+	<e:Component id="content2" width="546"/>
+	<e:Component id="content1" width="546"/>
+</e:Skin>

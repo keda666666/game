@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonWindowBg id="commonWindowBg" touchEnabled="false" touchChildren="true" skinName="CommonWindowBgSkin"/>
+	<e:Group y="149" horizontalCenter="0">
+		<e:Image id="uiBg1" source="ui_sbm_002" y="0" width="650" height="865" x="0"/>
+		<e:Image id="uiBg2" anchorOffsetX="0" width="629" anchorOffsetY="0" height="845" source="ui_bm_xinzhi" x="11" top="10"/>
+	</e:Group>
+	<ns1:TabView id="viewStack" width="720" height="1280" selectedIndex="1" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="0" touchThrough="true" horizontalCenter="0">
+	</ns1:TabView>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanZhengShuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="108.5" height="591.12" anchorOffsetY="0" x="0"  skinName="CommonDialogSkin"/>
+	<e:Image y="546.33" source="ui_sbm_002" anchorOffsetX="0" width="601.67" anchorOffsetY="0" height="344" alpha="1" x="59"/>
+	<e:Label text="温馨提示：离婚后将保留房屋的品阶，但是无法升阶，只有处于結婚的状态下才可正常升阶" y="902.33" style="l_orange_2" size="20" anchorOffsetY="0" height="44" anchorOffsetX="0" width="578.67" x="71" textColor="0x6e330b" visible="false"/>
+	<e:Label text="结婚申请，符合《天宫婚姻法》规定予以登记，发给此证。" y="695.32" style="l_orange_2" anchorOffsetY="0" height="112.01" anchorOffsetX="0" width="428.67" verticalAlign="middle" textAlign="center" textColor="0xfc2c0c" x="146"/>
+	<e:Button id="bnt" label="确定" y="955" skinName="BtnN2Skin" x="279"/>
+	<e:Label id="marryTime" text="登记日期：2018年5月20日" y="816" horizontalCenter="0" style="l_brown_1" size="20"/>
+	<e:Image x="543" y="772" source="ui_yybm_yinzhang"/>
+	<e:List id="list" y="577" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" height="118" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout gap="50"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

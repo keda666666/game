@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TeacherGetReItemSkin" width="650" height="58" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96"/>
+
+	<e:Image id="imgBg" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" height="58" width="650" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Label id="lbNe" text="任务名称" style="l_brown_1" verticalCenter="0" horizontalCenter="-250"/>
+
+	<e:Label id="lbVl" text="1/1" style="l_green" verticalCenter="0" horizontalCenter="-104"/>
+
+
+
+	<e:Image id="imgGet" source="ui_st_bm_yilingqu" x="496" verticalCenter="0"/>
+	<e:Button id="brnGet" label="领 取" x="492" skinName="BtnN4Skin" y="1" visible="false"/>
+	<e:Button id="brnGo" label="前往" x="492" skinName="BtnN6Skin" verticalCenter="0"/>
+	<ns1:ItemBase id="item" x="344" y="2" scaleX="0.5" scaleY="0.5"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

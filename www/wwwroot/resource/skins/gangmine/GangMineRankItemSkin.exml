@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GangMineRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="634" height="166">
+	<w:Config id="1586b1383e3" />
+	<e:Image source="ui_sbm_005" width="634" height="166"/>
+	<e:Group scaleX="1" scaleY="1" horizontalCenter="18" y="12">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="296" scaleX="-1"/>
+		<e:Label id="trank" text="第1名" y="0" size="24" textAlign="center" x="72" style="l_brown_2" anchorOffsetX="0" width="152"/>
+	</e:Group>
+
+
+	<e:Label id="tname" text="帮派名六个字.S999" size="20" x="12" y="73" style="l_brown_1" textAlign="center" width="180"/>
+
+	<e:Label id="tscore" text="9999分" size="20" textAlign="center" x="42" y="103" style="l_brown_1" width="120"/>
+	<e:List id="list" anchorOffsetY="0" x="194" itemRendererSkinName="ItemSkin" y="47">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-2"/>
+		</e:layout>
+	</e:List>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

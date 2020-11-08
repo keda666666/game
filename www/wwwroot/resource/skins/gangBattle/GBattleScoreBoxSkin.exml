@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleScoreBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="348"  height="100">
+	<e:Image id="imgBox" touchEnabled="true" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_renwu" x="0" y="0"/>
+	<e:Group id="groupScore" x="100" y="4" width="240" height="90" touchEnabled="true">
+		<e:Label text="积分目标" x="10" y="10" scaleX="1" scaleY="1" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" name="taskTraceName" size="24" style="l_orange_3"/>
+		<e:Label id="labCurScore" text="2000/8000" x="113" y="11" scaleX="1" scaleY="1" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" style="l_white" name="taskTraceName" size="24"/>
+		<e:Label id="labItem" text="奖励物品" x="9" y="52" scaleX="1" scaleY="1" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" name="taskTraceName" size="24" style="l_orange_3"/>
+		<ns1:PriceIcon id="priceIcon" x="116" y="46" scaleX="1" scaleY="1" name="priceicon0"/>
+	</e:Group>
+</e:Skin>

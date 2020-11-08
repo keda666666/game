@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActivityRewardShowItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="164">
+	<w:Config id="16380ba1ada" />
+	<e:Group>
+		<e:Image source="ui_sbm_005" width="636" height="168" x="0" y="0"/>
+		<e:Label id="labText" text="第1名" size="22" textAlign="left" x="18" style="l_brown_2" anchorOffsetX="0" width="600" verticalCenter="-59.5"/>
+
+
+
+		<e:List id="list" anchorOffsetY="0" itemRendererSkinName="ItemSkin" y="57" x="17">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

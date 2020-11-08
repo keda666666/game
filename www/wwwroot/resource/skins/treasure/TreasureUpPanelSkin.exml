@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureUpPanelSkin" width="720" height="870" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group y="3" horizontalCenter="0">
+		<e:Image y="0" source="ui_bm_jsbg" horizontalCenter="0"/>
+		<ns1:PowerLabel id="powerLabel" y="4" skinName="PowerLabel2Skin" horizontalCenter="0.5"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="343" horizontalCenter="0"/>
+		<ns1:TreasureHaveIcon id="pDress1" x="91" y="71" skinName="TreasureHoldIconSkin"/>
+		<ns1:TreasureHaveIcon id="pDress2" x="348" y="71" skinName="TreasureHoldIconSkin"/>
+		<ns1:TreasureHaveIcon id="pDress3" x="47" y="297" skinName="TreasureHoldIconSkin"/>
+		<ns1:TreasureHaveIcon id="pDress4" x="437" y="297" skinName="TreasureHoldIconSkin"/>
+	</e:Group>
+	<e:Group id="gpUp" x="35" y="492">
+		<e:Image width="650" height="255" y="0" source="ui_sbm_002" x="0"/>
+		<e:Component id="pArrInfo0" y="0" skinName="TreasureArrRectInfo" x="1"/>
+		<e:Component y="0" skinName="TreasureArrRectInfo" id="pArrInfo1" x="400"/>
+		<e:Image y="162" rotation="-90" source="ui_bm_dz_jiantou" x="293"/>
+		<e:Button id="btnDress" label="升 级" y="304" skinName="BtnN1Skin" x="255"/>
+		<ns1:ConsumeLabel id="consumeLabel" horizontalCenter="0" y="269" skinName="ConsumeLabelSkin"/>
+		<e:CheckBox id="checkBox" label="自动购买" skinName="CheckBox0" x="445" y="306"/>
+	</e:Group>
+	<e:Group id="gpHave" x="35" y="531" visible="false">
+		<e:Image width="650" height="300" source="ui_sbm_002" x="0" y="35"/>
+		<e:Label id="lbAccount" text="注:双击即可佩戴或更换法宝,不可配带同类型的法宝" y="6" style="l_brown_1" size="22" horizontalCenter="0"/>
+		<e:Scroller width="640" height="297" y="35" x="6" maxWidth="650" scaleX="1" scaleY="1">
+			<e:List id="listView" itemRendererSkinName="TreasureHoldIconSkin" y="-1" x="1">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalAlign="center" horizontalGap="45"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

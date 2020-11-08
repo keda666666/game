@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingSkillTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<e:Image width="403" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="64" y="545" x="160" />
+	<e:Label id="descTxt" text="被动技能是由玄女法宝洗出技能后获得" y="564" size="20" style="l_yellow_2" x="192"/>
+</e:Skin>

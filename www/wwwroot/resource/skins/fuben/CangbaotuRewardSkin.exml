@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CangbaotuRewardSkin" width="315" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_bm_title1" x="33" y="0"/>
+		<e:Image source="ui_sbm_002" width="315" height="105" x="0" y="39"/>
+		<e:Scroller width="305" height="105" y="38" scrollPolicyV="off" horizontalCenter="-3">
+			<e:List id="listView" itemRendererSkinName="ItemSkin" y="-1">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object ddd="null"/>
+						<e:Object ddd="null"/>
+						<e:Object ddd="null"/>
+						<e:Object ddd="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="-10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="lbNe" text="首通奖励" y="2" style="l_brown_1" x="105"/>
+		<e:Image id="imgGet" source="ui_fb_bm_yilingqu" x="94" y="38"/>
+	</e:Group>
+</e:Skin>

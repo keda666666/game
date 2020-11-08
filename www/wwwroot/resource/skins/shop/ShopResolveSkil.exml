@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopFenjieSkil" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" title="技能配置" skinName="CommonDialog2Skin" horizontalCenter="0" verticalCenter="0" height="825"/>
+</e:Skin>

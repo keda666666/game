@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commondialog" y="172" anchorOffsetY="0" height="684" skinName="CommonDialog2Skin"/>
+	<e:Image x="74" y="250" source="ui_xncz_bm_tupian"/>
+	<e:Image x="68" y="354" source="ui_xncz_bm_renwu"/>
+	<e:Image x="384" y="672" source="ui_xncz_bm_wenben"/>
+	<e:Button id="btn" label="提升VIP" x="432" y="712" skinName="BtnN2Skin"/>
+	<e:Label text="我出战后" x="152" y="384" style="l_brown_2" size="28" bold="true"/>
+	<e:Label text="超级厉害" x="152" y="420" style="l_brown_2" size="28" bold="true"/>
+	<e:List id="list" x="353" y="446" anchorOffsetX="0" width="304" itemRendererSkinName="ItemSkin">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object 啊="null"/>
+			<e:Object 啊="null"/>
+			<e:Object 啊="null"/>
+			<e:Object 啊="null"/>
+			<e:Object 啊="null"/>
+			<e:Object 啊="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:TileLayout requestedRowCount="2" horizontalGap="-8" verticalGap="-26"/>
+		</e:layout>
+	</e:List>
+	<w:Config id="1646e75f0d7"/>
+</e:Skin>

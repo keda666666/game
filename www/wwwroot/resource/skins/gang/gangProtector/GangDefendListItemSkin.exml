@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangDefendListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="650" states="up,down"  height="67">
+	<e:Group x="3" y="1">
+		<e:Image id="bg" scale9Grid="20,20,28,28" x="0" y="0" width="646" height="65" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+		<e:Label id="itemName" text="4级石头" x="33" y="23" style="l_brown_1" size="22"/>
+		<e:Label id="exp_txt" text="可增加xxx" y="23" style="l_brown_1" size="22" horizontalCenter="68"/>
+		<e:Label id="time_txt" text="可增加xxx" y="23" size="22" horizontalCenter="-66" style="l_green"/>
+		<e:Button id="go_btn" x="520" y="8.6" icon="ui_bt_qiuzhubtn" label="前 往" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnN2Skin" width="153.43"/>
+	</e:Group>
+</e:Skin>

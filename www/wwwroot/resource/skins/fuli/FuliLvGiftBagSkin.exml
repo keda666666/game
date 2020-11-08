@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLvGiftBagSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9c3feea"/>
+	<e:Image width="652.82" height="560.36" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" y="441.82" horizontalCenter="-0.5"/>
+	<e:Image source="ui_fldt_bm_shengjiBanner" x="33.48" y="272.48"/>
+	<e:Scroller id="scroller" width="645.45" height="551.33" anchorOffsetY="0" y="445.76" anchorOffsetX="0" horizontalCenter="1.5" scrollPolicyH="off">
+		<e:List id="list" left="0" right="0.4500000000000455" top="0" bottom="4.389999999999986" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="FuliSignBoardItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

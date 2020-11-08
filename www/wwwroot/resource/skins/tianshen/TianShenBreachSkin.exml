@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShenBreachSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="1628afab306"/>
+	<e:Group id="group" x="0" y="0">
+		<e:Image y="214" x="34" source="ui_bm_jsbg"/>
+		<e:Group x="516" y="428">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="lbLev" text="20级" x="5" y="10" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" height="100" verticalAlign="middle" textColor="0xAA6A31" width="26" style="l_orange"/>
+		</e:Group>
+		<ns1:PowerLabel id="powerLabel" y="322" skinName="PowerLabel2Skin" horizontalCenter="11.5"/>
+		<ns1:PetShowPanel id="petShowPanel" y="589" horizontalCenter="12"/>
+		<e:Group x="250" y="384">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" scaleX="1" scaleY="1" width="210" x="0"/>
+			<e:Label id="tname" text="666" y="9" size="20" style="l_blue" anchorOffsetX="0" width="176" textAlign="center" x="17"/>
+		</e:Group>
+		<e:Group x="34" y="596">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="294" width="650" x="0"/>
+			<e:Image y="131.67" anchorOffsetX="0" anchorOffsetY="0" x="291.33" source="ui_bm_xianlvjiantou" visible.full="false"/>
+			<e:Group x="177" y="7">
+				<e:Image width="72" height="20" x="0" y="5" source="ui_guankia_wenli" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="72" height="20" x="296" y="5" source="ui_guankia_wenli" scaleX="-1"/>
+				<e:Label text="突破属性" x="97" y="0" size="26" textColor="0x682F00" style="l_purple_1" bold="true"/>
+			</e:Group>
+			<e:Label id="tpower" text="战力+555" x="274" y="94" size="22" textColor="0x682F00" visible.full="false"/>
+			<e:Group x="34" y="38" y.full="90" x.full="220">
+				<e:Label id="tcurName" text="圣*李靖+1" x="54" y="0" size="20" style="l_blue"/>
+				<e:Image x="0" y="29" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0" width="212" height="32"/>
+				<e:Image width="212" height="32" x="0" y="66" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="212" height="32" x="0" y="102" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="curProLabel1" text="" x="0" y="31" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="curProLabel2" text="" x="0" y="68" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="curProLabel3" text="" x="0" y="104" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+			</e:Group>
+			<e:Group x="407" y="38" visible.full="false">
+				<e:Label id="tnextName" text="神*李靖+1" x="58" y="0" size="20" style="l_red"/>
+				<e:Image width="212" height="32" x="0" y="29" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="212" height="32" x="0" y="66" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image width="212" height="32" x="0" y="102" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="nextProLabel1" text="" x="0" y="31" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="nextProLabel2" text="" x="0" y="68" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+				<e:Label id="nextProLabel3" text="" x="0" y="104" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+			</e:Group>
+			<e:Group id="newSkillGroup" x="406" y="176" visible.full="false">
+				<e:Image width="212" height="32" x="1" y="0" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="nextProLabel4" text="" x="36" y="0" anchorOffsetX="0" width="176" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+				<e:Label text="解锁天赋" x="-120" y="15" anchorOffsetX="0" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" style="l_red"/>
+				<e:Label id="tskillName" text="吸血技能" x="-120" y="45" anchorOffsetX="0" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" style="l_green"/>
+				<e:Image id="skillIcon" width="28" height="28" x="4" y="2" source="ui_skill_31"/>
+				<e:Label id="breachSkillDes" text="" x="0" y="36" anchorOffsetX="0" width="218" anchorOffsetY="0" height="40" size="20" textColor="0x682F00" style="l_red"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="26" y="898" visible.full="false">
+			<ns1:NeedItemView id="needItemView0" x="0" y="0" scaleX="1" scaleY="1"/>
+			<ns1:NeedItemView id="needItemView1" x="228" y="0" scaleX="1" scaleY="1"/>
+			<e:Button id="breachBtn" label="突 破" x="470" y="2" skinName="BtnN2Skin"/>
+			<e:Label id="tcondition" text="需求1/20级" y="78" size="22" fontFamily="Microsoft YaHei" textColor="0xCC0000" x="478" style="l_red" anchorOffsetX="0" width="152" textAlign="center"/>
+		</e:Group>
+		<e:Label text="已突破至最高级" y="934" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" horizontalCenter="15.5" visible.normal="false" x="271" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

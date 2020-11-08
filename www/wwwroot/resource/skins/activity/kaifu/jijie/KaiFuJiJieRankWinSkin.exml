@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuJiJieRankWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component y="168"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0"/>
+	<e:Group y="152" width="638" horizontalCenter="0" height="855">
+		<e:Image width="100%" height="100%" x="0" y="0" source="ui_sbm_002"/>
+		<e:Group id="rankTitle_group" x="18" y="5">
+			<e:Label text="排名" x="0" y="0" style="l_brown_1"/>
+			<e:Label text="名字" x="139" y="0" style="l_brown_1"/>
+			<e:Label id="rankTitleTxt" text="翅膀阶数" y="0" style="l_brown_1" x="488"/>
+			<e:Label id="powerTxt" text="翅膀战力" style="l_brown_1" x="304" size="26"/>
+		</e:Group>
+		<e:Label id="noRank_label" text="暂无活动排名" y="420" horizontalCenter="0" style="l_brown_1" visible="false"/>
+	</e:Group>
+	<e:Scroller width="638" height="810" y="191" horizontalCenter="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" itemRendererSkinName="KaiFuJiJieRankItemSkin" height="811">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="myInfo" text="我的排名：未上榜         我的战力：0" y="1047" style="l_brown_1" horizontalCenter="0"/>
+</e:Skin>

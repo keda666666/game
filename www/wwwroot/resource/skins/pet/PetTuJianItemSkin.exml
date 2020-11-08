@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetTuJianItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0">
+		<w:Config id="16382950fca"/>
+		<e:Image x="10" y="0" source="ui_tj_bm_wenbenBG" anchorOffsetX="0" width="636.88"/>
+		<e:List id="List" width="648" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" x="0" y="40" itemRendererSkinName="PetTuJianItemIconSkin">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="数据1"/>
+				<e:Object label="数据2"/>
+				<e:Object label="数据3"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:TileLayout requestedColumnCount="5" verticalGap="13" paddingBottom="6" paddingTop="6" horizontalGap="16" paddingLeft="14" paddingRight="14"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="getThroughTxt" text="宠物捕捉获得" x="17" y="4" size="26" style="l_yellow_4"/>
+	</e:Group>
+	<e:Group y="7.04" right="5">
+		<e:Label text="获得途径:" x="0" y="0" size="25" style="l_brown_1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="getwaylabel" text="获得道具" x="220" y="-2" size="24" style="l_green"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

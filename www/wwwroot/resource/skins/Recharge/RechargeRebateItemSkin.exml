@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeRebateItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,other" >
+	<w:Config id="1633e92cf14"/>
+	<e:Image source="ui_cz_bm_wupingdiban" horizontalCenter="0" verticalCenter="0" width="213" height="270"/>
+	<ns1:ItemBaseNotName id="item" y="40" horizontalCenter="0"/>
+	<e:Button id="rechargeBtn" label="充值" y="180" anchorOffsetX="0" width="93" anchorOffsetY="0" height="42" skinName="Btn2Skin" horizontalCenter="0"/>
+	<e:Label id="tipsTxt" text="单笔充值" y="148" style="l_green" horizontalCenter="0.5" size="22"/>
+	<e:Label id="countTxt" text="每日限购次数" y="230" style="l_green" horizontalCenter="0.5" size="22"/>
+	<e:Group x="126" y="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_czfl_bm_jiaobiao"/>
+		<e:Label id="percentTxt" text="100%" y="3" style="l_white" verticalAlign="middle" scaleX="1" scaleY="1" textAlign="center" rotation="0" anchorOffsetX="0" anchorOffsetY="0" size="19" x="23"/>
+		<e:Label text="返利" x="47" y="27" style="l_white" size="19"/>
+	</e:Group>
+</e:Skin>

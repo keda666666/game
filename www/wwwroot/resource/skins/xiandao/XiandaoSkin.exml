@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<!--<e:Group id="group" width="720" height="1280" x="0" y="0"/>-->
+	<ns1:TabEuiView id="group"/>
+	<e:Button id="shopBtn" x="14" y="71" skinName="Btn0Skin" icon="ui_xdh_bt_xiandaoshangdian"/>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyShowRectSkin" width="580" currentState="nor" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="nor,show" >
+	<e:Scroller width="560" y="117" horizontalCenter="0" horizontalCenter.nor="0" y.nor="99">
+		<e:List id="listView" itemRendererSkinName="DestinyShowInfoSkin">
+		</e:List>
+	</e:Scroller>
+	<e:Group x="0" y="0">
+		<e:Image width="580" height="120" source="ui_sbm_005" x="0" y="0"/>
+		<e:Label id="nameLabel" text="羽毛" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="26" x="128" verticalCenter="-7" style="l_brown_1"/>
+		<e:Image source="ui_bm_icon001" verticalCenter="0" left="20"/>
+		<e:Image id="imgIcon" source="ui_mg_dj_sm" x="33" verticalCenter="0"/>
+		<e:Image id="imgArrow" source="ui_zd_bt_shousuo" x="520" anchorOffsetX="22" anchorOffsetY="22" rotation="90" verticalCenter="-2" rotation.nor="270"/>
+	</e:Group>
+</e:Skin>

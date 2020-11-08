@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMemberInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="839" title="提  示" anchorOffsetY="0" x="0" y="200" skinName="CommonDialog2Skin"/>
+	<e:Group x="2" y="200" touchEnabled="false">
+		<e:Group x="54" y="85">
+			<e:Image y="0" x="0" source="ui_bm_jsbg" scaleX="1" scaleY="1"/>
+			<ns1:PowerLabel id="powerLabel" y="0" x="95.5" scaleX="1" scaleY="1" skinName="PowerLabel2Skin"/>
+			<ns1:RoleShowPanel id="roleShowPanel" y="340" width="4" x="333" scaleX="1" scaleY="1"/>
+			<e:Image id="imgVIp" source="ui_bh_icon_VIP" x="14" y="349"/>
+			<e:Image id="imgMouthVip" source="mouth2001" x="98" y="354"/>
+		</e:Group>
+		<e:Group x="61" y="515">
+			<e:Image width="590" height="220" x="0" y="0" source="ui_sbm_002" scaleX="1" scaleY="1"/>
+			<e:Group x="29" y="45" scaleX="1" scaleY="1">
+				<e:Image source="ui_bm_icon001" x="0" y="0"/>
+				<e:Image id="imgFace" x="5" y="6" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+			</e:Group>
+			<e:Group x="150" y="40">
+				<e:Label id="labPlayerName" text="昵称：玩家名字六字" x="0" y="0" style="l_brown_1" size="22"/>
+				<e:Label id="labSex" text="性别：女" x="250" y="0" style="l_brown_1" size="22"/>
+				<e:Label id="labLevel" text="等级：303" x="0" y="40" style="l_brown_1" size="22"/>
+				<e:Label id="labOffice" text="职位：帮主" x="250" y="40" style="l_brown_1" size="22"/>
+				<e:Label id="labContribute" text="帮贡：123456789" x="0" y="80" style="l_brown_1" size="22"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="106" y="674">
+			<e:Button id="btnChat" x="0" y="0" icon="ui_bt_qiuzhubtn" label="聊 天" skinName="Btn2Skin" width="108" height="51.2"/>
+			<e:Button id="btnConcern" x="130" y="0" icon="ui_bt_qiuzhubtn" label="关 注" skinName="Btn2Skin" width="108" height="51.2"/>
+			<e:Button id="btnOffice" x="260" y="0" icon="ui_bt_qiuzhubtn" label="升 职" skinName="Btn2Skin" width="108" height="51.2"/>
+			<e:Button id="btnKickOut" x="390" y="0" icon="ui_bt_qiuzhubtn" label="踢 出" skinName="Btn2Skin" width="108" height="51.2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

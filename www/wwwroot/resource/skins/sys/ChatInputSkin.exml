@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatInputSkin" width="441" height="61" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="50" y="3.88" source="ui_bm_icomliaotian" anchorOffsetX="0" anchorOffsetY="0"  left="0" right="123"/>
+	<e:TextInput id="input" height="48" y="4.54" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" prompt="点击输入聊天内容" textColor="0x682f00" left="7" right="180">
+		<e:Skin states="normal,disabled,normalWithPrompt,disabledWithPrompt" currentState="normalWithPrompt" xmlns:ns1="*">
+		<e:EditableText id="textDisplay" verticalCenter="2" left="5" right="10" textColor="0x755e4f"  width="100%" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+		<e:Label id="promptDisplay" verticalCenter="2" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26" textAlign="center" verticalAlign="middle" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt"/>
+		</e:Skin>
+	</e:TextInput>
+	<e:Button id="biaoQingBtn" label="" y="-1.46" anchorOffsetX="0" width="59" anchorOffsetY="0" height="55" icon="ui_bt_face" skinName="Btn0Skin" right="121"/>
+	<e:Button id="sendBtn" label="" skinName="BtnChatSendSkin" anchorOffsetX="0" width="122" anchorOffsetY="0" height="61" y="0" right="1"/>
+	<e:Group id="faceGroup" width="0" height="0" y="-4" right="151"/>
+</e:Skin>

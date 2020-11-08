@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliForeverCardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163c9a5a7c8"/>
+	<e:Image x="34" y="273" source="ui_fldt_bm_zskbanner"/>
+	<e:Image width="651" height="569" x="35" y="438" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group x="40" y="441.88">
+		<e:Image source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="0" anchorOffsetX="0" width="640" anchorOffsetY="0" height="200"/>
+		<e:Image source="ui_fldt_bm_yuanbao" x="19" y="0"/>
+		<e:Label text="元宝领不停" x="19" y="13.12" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Group x="319" y="5.92">
+			<e:Group x="4" y="0" visible="false">
+			<e:Image source="ui_fldt_bm_wenbenBG" x="0" y="0"/>
+			<e:Label id="labDesc0" text="购买立即获得" y="9.7" size="22" textColor="0x6e330b" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group x="4" y="48.6">
+			<e:Image source="ui_fldt_bm_wenbenBG" x="0" y="0"/>
+			<e:Label id="labDesc1" text="购买立即获得" y="10.1" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group x="4" y="98.4">
+			<e:Image source="ui_fldt_bm_wenbenBG" y="0" horizontalCenter="0"/>
+			<e:Label id="labDesc2" text="购买立即获得" y="9.3" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group x="4" y="149.33" visible="false">
+			<e:Image source="ui_fldt_bm_wenbenBG" x="0" y="0"/>
+			<e:Label id="labDesc3" text="购买立即获得" y="9.3" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group x="40" y="641" scaleX="1" scaleY="1" height="180">
+		<e:Image source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="0" anchorOffsetX="0" width="640" anchorOffsetY="0" height="182"/>
+		<e:Image x="21" y="-29" source="ui_fldt_bm_yinliangtisheng"/>
+		<e:Label text="成长加速" x="19" y="13" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Group x="322" y="43.75">
+		<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="0"/>
+		<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="48.6"/>
+		<e:Label id="labUpDesc1" text="购买立即获得" y="9.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+		<e:Label id="labUpDesc2" text="购买立即获得" y="59.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="40" y="823" height="180">
+		<e:Image source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="0" y="1" anchorOffsetX="0" width="640" anchorOffsetY="0" height="182"/>
+		<e:Image x="21" y="-28" source="ui_fldt_bm_beibaokuozhan"/>
+		<e:Label text="背包扩展" x="19" y="14" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Group x="322" y="20.42">
+		<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="30"/>
+		<e:Label id="labBagDesc1" text="购买立即获得" y="39.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0"/>
+		<e:Image source="ui_fldt_bm_wenbenBG" x="4" y="78.6" visible="false"/>
+		<e:Label id="labBagDesc2" text="购买立即获得" y="88.7" size="22" textColor="0x6E330B" anchorOffsetX="0" textAlign="right" horizontalCenter="0" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="labTip" text="已永久激活" x="296" y="1048" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="27" anchorOffsetX="0"/>
+	<e:Button id="btnBuy" x="277.66" y="1028.01"   label="购买" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+</e:Skin>

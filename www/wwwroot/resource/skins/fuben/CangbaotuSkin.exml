@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CangbaotuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162d8de2d70"/>
+	<e:Group x="0" y="150" touchEnabled="false" touchChildren="true">
+		<e:Image source="ui_fb_bm_cangbaotubg" y="0" x="0"/>
+		<e:Group x="42" y="67">
+			<e:Component id="pPop1" x="0" y="182" skinName="CangbaotuPopSkin"/>
+			<e:Component id="pPop2" x="45" y="0" skinName="CangbaotuPopSkin"/>
+			<e:Component id="pPop3" x="164" y="145" skinName="CangbaotuPopSkin"/>
+			<e:Component id="pPop4" x="332" y="9" skinName="CangbaotuPopSkin"/>
+			<e:Component id="pPop5" x="428" y="196" skinName="CangbaotuPopSkin"/>
+			<e:Component id="pPop6" x="506" y="20" skinName="CangbaotuPopSkin"/>
+		</e:Group>
+		<e:Image source="ui_fb_bm_cangbaotuchengshubg" y="375" x="265"/>
+		<e:Image source="ui_fb_bm_cangbaotuchengshubg" y="26" x="264"/>
+		<e:Label id="lbTitle" text="藏宝图1" y="32" style="l_brown_1" x="313"/>
+		<e:Label id="lbLv" text="17关" y="380" style="l_brown_1" width="147" textAlign="center" x="287"/>
+		<e:Button id="prevBtn" label="一键扫荡" x="21" skinName="BtnNextSkin" verticalCenter="0"/>
+		<e:Button id="nextBtn" label="一键扫荡" x="698" skinName="BtnNextSkin" scaleX="-1" verticalCenter="0"/>
+		<e:Button id="btnHard" label="困难" x="556" y="10" touchEnabled="true" skinName="BtnN1Skin" visible="false"/>
+	</e:Group>
+	<e:Group y="588" horizontalCenter="0">
+		<e:Component id="pReward1" x="0" y="0" skinName="CangbaotuRewardSkin"/>
+		<e:Component id="pReward2" x="339" y="0" skinName="CangbaotuRewardSkin"/>
+	</e:Group>
+	<e:Group x="36" y="733">
+		<e:Image width="649" height="280" y="0" source="ui_sbm_002" x="0"/>
+		<e:Label id="lbVip" text="vip7开启" x="102" y="158" style="l_green"/>
+		<e:Label id="lbCondi" text="3星通过可一键挖宝" x="43" y="117" style="l_brown_2"/>
+		<e:Label id="lbLock" text="解锁" x="19" y="35" style="l_brown_2"/>
+		<e:CheckBox id="checkBox" label="自动挑战关卡" x="384" y="135" skinName="CheckBox0"/>
+		<e:Button id="oneKeyBtn" label="一键挖宝" x="74" y="197" skinName="BtnN2Skin"/>
+		<e:Button id="challageBtn" label="挖宝" x="412" y="197" skinName="BtnN3Skin" width="160" height="74"/>
+		<e:Group x="87" y="7">
+			<e:ProgressBar id="bar1" x="0" y="31" skinName="bar0Skin" width="133"/>
+			<e:ProgressBar id="bar2" x="189" y="31" skinName="bar0Skin" width="133"/>
+			<e:ProgressBar id="bar3" x="362" y="31" skinName="bar0Skin" width="133"/>
+			<e:Group id="itemGroup" y="0" x="2" width="546">
+			<e:Component id="pItem1" skinName="CangbaotuItemSkin"/>
+			<e:Component id="pItem2" skinName="CangbaotuItemSkin" x="117" y="76"/>
+			<e:Component id="pItem3" skinName="CangbaotuItemSkin"/>
+			<e:layout>
+				<e:HorizontalLayout gap="53" paddingLeft="95"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="pGroupRewar" x="569" y="449" scaleX="0.8" scaleY="0.8">
+		<e:Image x="0" y="0" source="ui_fb_bm_yongchuangtiantingjianglibg" width="182" height="190"/>
+		<ns1:ItemBase id="itemBaee" horizontalCenter="0" verticalCenter="8"/>
+		<e:Label id="lbPassLvReward" text="通关15层送" y="13.41" style="l_brown_2" size="22" textAlign="center" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

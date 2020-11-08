@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1633e75292c"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0"/>
+	<e:Image width="652" height="537.09" x="34" y="460.91" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="itemScroller" width="654.55" height="525.14" anchorOffsetY="0" y="466.46" anchorOffsetX="0" horizontalCenter="0.5" scrollPolicyH="off">
+		<e:List id="itemList" left="0" right="-0.4500000000000455" top="0" bottom="17" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="RechargeItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="数据3"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" verticalGap="3" paddingBottom="11" paddingTop="0" paddingRight="8" horizontalGap="3" paddingLeft="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image x="35.24" y="146.57" anchorOffsetY="0" source="ui_yyhd_bm_shuangbeishouchongBG"/>
+	<e:Label id="nextVIPTxt" text="再充值40元可成为VIP5" y="167.63" size="26" style="label01" textColor="0xe6f7e5" anchorOffsetX="0" verticalAlign="justify" textAlign="center" fontFamily="Arial" horizontalCenter="12"/>
+	<e:Label text="     首充不同数额，获得2倍返利    " y="1032.05" anchorOffsetX="0" textColor="0x6c310a" size="22" style="l_orange_2" horizontalCenter="-3"/>
+	<e:Label text="充值完所有档次后，重置双倍返利" y="1064.86" anchorOffsetX="0" textColor="0x6C310A" style="l_orange_2" size="22" horizontalCenter="0"/>
+	<e:Button id="vipTeQuanBtn" label="Button" x="579.12" y="151.92" skinName="Btn0Skin" icon="ui_cz_bt_viptequan"/>
+	<e:ProgressBar id="bar" y="206.78" anchorOffsetY="0" height="24" skinName="RechargeProgressBarSkin" horizontalCenter="7"/>
+	<e:Group x="40.48" y="152.73">
+		<e:Image x="0" y="0" source="ui_vip_bm_jidengBG"/>
+		<e:BitmapLabel id="curVipTxt" y="19.68" font="font_ui_dati_fnt" text="4" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

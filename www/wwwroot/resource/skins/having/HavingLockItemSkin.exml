@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingLockItemSkin" width="20" height="24" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="lockImg" source="ui_tn_icon_suo01"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bar1Skin" minWidth="30" minHeight="11" xmlns:e="http://ns.egret.com/eui" width="300" height="19">
+	<e:Image anchorOffsetX="0" fillMode="scale" left="1" bottom="1" right="1" width="272" top="1" source="ui_bm_loadingbg" scale9Grid="6,6,1,1"/>
+	<e:Image id="thumb" anchorOffsetX="0" anchorOffsetY="0" left="1" right="1" top="1" bottom="1" source="ui_bm_loadingbg1" scale9Grid="1,3,1,1"/>
+	<e:Label id="labelDisplay" textAlign="center"
+	         stroke="1" strokeColor="0x000000" 
+	         horizontalCenter="0" verticalAlign="middle" text="100/100" verticalCenter="0" size="20" style="l_white"/>
+</e:Skin>

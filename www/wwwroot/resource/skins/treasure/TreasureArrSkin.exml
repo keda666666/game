@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureArrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+<e:Group id="animGroup" width="720" height="1280" touchChildren="true" touchEnabled="false" anchorOffsetX="360" anchorOffsetY="640" x="360" y="640">
+	<e:Component id="bg" y="1" skinName="BG2"/>
+	<e:Group id="gRect" width="442" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Component id="background" anchorOffsetX="0" anchorOffsetY="0" skinName="LittleBg3" width="468" x="-13" top="-49" bottom="-24"/>
+		<e:Group id="group" x="0" y="15" width="443">
+		<e:Group width="100%" y="49">
+			<e:Image id="imgTipRect" source="ui_bm_blue" y="-51" x="0"/>
+			<e:Label id="score" y="-40" text="评分：6789" textAlign="right" style="l_yellow_4" x="305"/>
+			<e:Label id="type" y="12" text="部位：武器" x="127" style="l_yellow_3"/>
+			<e:Label id="lv" y="41" text="等级：100级" x="127" style="l_yellow_3"/>
+			<e:Label id="nameLabel" text="屠龙 " y="-42" style="l_yellow_3" size="26" x="9"/>
+			<ns1:BaseCricleIcon id="baseCricle" x="14" y="-1" skinName="TreasureBaseIconSkin"/>
+			<ns1:PowerLabel id="powerLabel" x="14" y="108"/>
+		</e:Group>
+			<e:Group x="0" y="199">
+				<e:Label id="attTitleLabel" y="11" text="基础属性:" x="31" style="l_yellow_4" scaleX="1" scaleY="1"/>
+				<e:Label id="attr" y="40.379999999999995" text="：100攻击\n：100攻击\n100攻击" x="32" verticalAlign="justify" style="l_yellow_3" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="gSkill" x="0" y="319" touchEnabled="false" touchChildren="false">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="gDown" x="0" y="428">
+				<e:Button id="btnShow" label="展示" x="62" y="13" skinName="BtnN1Skin"/>
+				<e:Button id="btnDress" label="佩戴" x="241" y="13" skinName="BtnN1Skin"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="12"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyTeamSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<e:Group x="26" y="129">
+		<e:Group x="0" y="0">
+			<e:Image source="ui_xyll_bm_kuafuzudui" x="0" y="0"/>
+			<e:Group x="6" y="560">
+			<e:Label text="跨服组队副本剩余收益次数：" x="0" y="0" size="22" style="l_white" stroke="2" strokeColor="0x4c4141"/>
+			<e:Label id="labCount" text="30/30" x="284" y="2" style="l_green" size="22"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="57" y="601" width="555">
+			<e:Label id="labAmbitionTip" text="完成10次任意组队副本可获得以下额外奖励" y="0" style="l_brown_1" size="22" x="67"/>
+			<e:Label id="labTip" text="11:00-13:00和22:00-24:00跨服组队银两和经验双倍收益" y="31" size="22" style="l_green" horizontalCenter="0"/>
+			<e:Group x="42" y="60">
+			<ns1:ItemBaseNotName id="item1" x="0" y="0" scaleX="1" scaleY="1"/>
+			<ns1:ItemBaseNotName id="item2" x="120" y="0" scaleX="1" scaleY="1" visible="false"/>
+			<ns1:ItemBaseNotName id="item3" x="240" y="0" scaleX="1" scaleY="1" visible="false"/>
+			<ns1:ItemBaseNotName id="item4" x="360" y="0" scaleX="1" scaleY="1" visible="false"/>
+			</e:Group>
+			<e:ProgressBar id="prog" y="172" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="500" x="27">
+			<e:Skin>
+				<e:Image x="0" y="0" width="500" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="500" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<e:Button id="btnOneKey" x="49" y="218"   label="一键完成" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+			<e:Button id="btnGoTo" x="356" y="218"   label="前往完成" scaleX="1" scaleY="1" height="60" width="150" skinName="BtnN3Skin"/>
+			<e:Image id="imgDouble" source="ui_qj_bm_shuangbei" x="471" y="199"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

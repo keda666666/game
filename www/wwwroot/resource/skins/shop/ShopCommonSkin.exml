@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopCommonSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164c695aaa6"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" skinName="CommonWindowBgSkin" y="0" x="0"/>
+	<e:Label id="tipsTxt" text="小雷音寺通关关数: 14" x="49" y="164" style="l_brown_1" textAlign="left"/>
+	<e:Label id="goPrice" text="获取材料" y="164" textAlign="center" style="l_green" right="242"/>
+	<e:Group x="500" y="154">
+		<e:Image source="ui_sbm_002" width="175" height="50" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:PriceIcon id="priceIcon" xmlns:ns1="*" y="10" left="4"/>
+	</e:Group>
+	<e:Group x="250" y="212">
+		<e:Image id="bgbg" y="3" width="440" height="797" source="ui_sbm_002" x="0" anchorOffsetY="0"/>
+		<e:Scroller width="435" height="787.42" x="3" y="7" anchorOffsetY="0">
+		<e:List id="listView" scaleX="1" scaleY="1" top="0" left="0" anchorOffsetX="0" itemRendererSkinName="ShopCommonItemSkin" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object qwe="null"/>
+					<e:Object qwe="null"/>
+					<e:Object qwe="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Scroller width="214" height="793.46" x="29" y="216" anchorOffsetY="0">
+		<e:List id="listTitle" top="0" left="0" itemRendererSkinName="ShopEquipTitleSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<ns1:DurationLabel id="counterLabel" x="52" y="166.61" skinName="DurationLabelSkin"/>
+</e:Skin>

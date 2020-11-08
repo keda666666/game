@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyFomalhautTaskSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="6.06" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" height="1280" anchorOffsetX="0" width="710.91"/>
+	<e:Group x="30" y="145" anchorOffsetX="0" width="628" anchorOffsetY="0" height="321.01">
+		<e:Group x="59.32" y="13.99">
+			<e:Image source="ui_smrw_bm_bg" x="0" y="0"/>
+			<e:Label text="BOSS" x="66.67" y="41.34" fontFamily="Microsoft YaHei" textColor="0x6e330b" size="26"/>
+			<e:Label text="经验妖魔" x="58.69" y="5.33" textColor="0x019704" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Label id="positionLaber" text="召唤师峡谷" x="418.7" y="6.35" fontFamily="Microsoft YaHei" size="22" textColor="0x019704"/>
+			<e:Label id="roundLaber" text="5回合击败妖兽" x="430.68" y="198.67" size="22" fontFamily="Microsoft YaHei" textColor="0x019704"/>
+			<e:Label text="所在地" x="411.02" y="41.34" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="26"/>
+			<e:Label text="目标" x="475.67" y="232" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="26"/>
+			<e:Label text="奖励" x="15.68" y="226.68" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="26"/>
+			<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="167.66" x="275.31"/>
+		</e:Group>
+		<e:Group x="21.67" y="289.35" scaleX="1" scaleY="1" anchorOffsetX="0" width="330" anchorOffsetY="0" height="294">
+			<e:Image source="ui_smrw_bm_xjjl" x="0" y="0"/>
+			<e:Label text="消耗" x="0.66" y="30.99" fontFamily="Microsoft YaHei" textColor="0x6e330b" size="22"/>
+			<e:Label text="可提高到:" x="113" y="31" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Label text="50绑元" x="45" y="32" size="22" fontFamily="Microsoft YaHei" textColor="0x019704"/>
+			<e:Label text="七星奖励" x="221" y="31" size="22" fontFamily="Microsoft YaHei" textColor="0xf96000"/>
+			<e:Label id="X1" text="一星奖励:" x="1" y="65" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="二星奖励:" x="1" y="99" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="三星奖励:" x="0" y="133" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="四星奖励:" x="1" y="166" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="五星奖励:" x="1" y="199" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="六星奖励:" x="0" y="234" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label text="七星奖励:" x="1" y="267" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15"/>
+			<e:Label id="X2" text="100%奖励" x="113" y="66" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103" anchorOffsetY="0" height="31" lineSpacing="15" textColor="0x019704"/>50
+			<e:Label text="115%奖励" x="112" y="100" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+			<e:Label text="130%奖励" x="112" y="134" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+			<e:Label text="145%奖励" x="111" y="167" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+			<e:Label text="160%奖励" x="111" y="201" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+			<e:Label text="180%奖励" x="113" y="234" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+			<e:Label text="200%奖励" x="111" y="266" textColor="0x019704" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102" anchorOffsetY="0" height="28" lineSpacing="15"/>
+		</e:Group>
+		<e:Group x="43.68" y="586.33" anchorOffsetX="0" width="627" anchorOffsetY="0" height="278.67">
+			<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="94.26" x="60.1" width="448.1" height="90" itemRendererSkinName="GangFuBenAwardItemSkin">
+				<e:layout>
+				<e:HorizontalLayout paddingRight="0" paddingLeft="0" gap="20"/>
+				</e:layout>
+			</e:List>
+			<e:Image source="ui_bm_title1" y="56" x="159.98"/>
+			<e:Label id="recordLabel1" text="任务奖励" y="60.98" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="234.38"/>
+			<e:Button id="challengeBtn" x="200" y="201"   label="挑战" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="69.34" width="163.34" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="addBtn" label="" x="467.67" y="0.01" skinName="Btn0Skin" icon="ui_bt_plue"/>
+		</e:Group>
+		<e:Group id="starGroup" y="594" x="169" anchorOffsetX="0" width="338">
+			<e:Image id="starImg0" x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg1" x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg2" x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg3" x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg4" x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg5" x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image id="starImg6" x="206" y="-2" source="ui_bm_star022" width="30" height="30"/>
+			<e:layout>
+			<e:HorizontalLayout gap="18.5"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

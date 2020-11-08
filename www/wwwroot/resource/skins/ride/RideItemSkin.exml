@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RideItemSkin" width="130" height="156" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group y="1" horizontalCenter="0" width="109">
+	<e:Component id="item" skinName="ItemIconSkin" width="96" height="96" y="14" x="7"/>
+		<e:Image id="selectImg" source="ui_bm_xuanzhongkuang" y="-2" x="-8"/>
+		<e:Label id="lvLabel" text="Lv.3" y="120" style="l_brown_2" size="22" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

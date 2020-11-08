@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTab4Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_st_bt_btn" source.down="ui_st_bt_btn" source.up="ui_bh_bt01" source.disabled="ui_bh_bt01"/>
+
+	<e:Image id="redPoint" touchEnabled="false"  x="117.67" source="ui_bm_reddot" y="-4.67" visible="false"/>
+	<e:Label  id="labelDisplay" size="26" anchorOffsetX.up="0" anchorOffsetY.up="0" horizontalCenter="0" verticalAlign="middle" top="0" bottom="0" textColor="0x755e4f"  textColor.disabled="0x755e4f" text="{data}" textColor.down="0xae4212"  textColor.up="0x986d43"/>
+</e:Skin>

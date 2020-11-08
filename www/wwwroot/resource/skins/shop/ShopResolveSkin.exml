@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopResolveSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" skinName="CommonDialog2Skin" anchorOffsetY="0" height="754" horizontalCenter="0" verticalCenter="0" title="金装分解"/>
+	<e:Group y="353.32" x="83" anchorOffsetY="0" height="557" touchEnabled="false" touchChildren="true">
+		<e:Image anchorOffsetX="0" width="555" anchorOffsetY="0" scaleX="1" scaleY="1" source="ui_sbm_002" height="500" y="61" x="0"/>
+		<e:Group x="374" y="0">
+			<e:Image source="ui_sbm_002" width="175" height="50" horizontalCenter="0" verticalCenter="0"/>
+			<ns1:PriceIcon id="priceIcon" verticalCenter="0" left="7"/>
+		</e:Group>
+		<e:Group x="20" y="575" visible="false">
+			<e:Image source="ui_bm_dz_wenbenbg" y="0" x="134"/>
+			<e:Label id="lbAccount" text="其他获取途径" y="3" style="l_brown_1" x="179"/>
+			<e:Label id="lbGoleft" text="获取锻造石" x="0" y="51" style="l_green"/>
+			<e:Label id="lbGoMid" text="获取精炼石" y="51" style="l_green" x="192"/>
+			<e:Label id="lbGoRight" text="获取强化石" x="380" y="51" style="l_green"/>
+		</e:Group>
+		<e:Scroller width="545" height="490" y="66" x="5">
+			<e:List id="listView" itemRendererSkinName="ShopResolveItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object dd="null"/>
+				<e:Object dd="null"/>
+				<e:Object dd="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="labTip" text="分解橙装百分百返还金装碎片" y="14" style="l_brown_1" left="0"/>
+		<e:Group y="588" horizontalCenter="0">
+			<e:Label id="gainWayLabel0" text="玲珑宝塔" scaleX="1" scaleY="1" width="140" textAlign="center" style="l_green_1"/>
+			<e:Label text="个人BOSS" scaleX="1" scaleY="1" width="140" textAlign="center" style="l_green_1" id="gainWayLabel1" x="10" y="10"/>
+			<e:Label text="野外BOSS" scaleX="1" scaleY="1" width="140" textAlign="center" style="l_green_1" id="gainWayLabel2" x="20" y="20"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

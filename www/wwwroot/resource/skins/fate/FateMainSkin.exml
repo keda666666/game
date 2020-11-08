@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FateMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f357d208"/>
+	<ns1:CommonDialog id="commonDialog" height="633" title="提  示" anchorOffsetY="0" x="0" y="309" anchorOffsetX="0" width="720" skinName="CommonDialog2Skin" touchEnabled="false"/>
+	<e:Label id="describeLab1" text="角色40級開啟" y="580.79" anchorOffsetX="0" anchorOffsetY="0" height="37.58" fontFamily="Microsoft YaHei" textColor="0x6e330b" size="27" horizontalCenter="3.5" visible="false"/>
+	<e:Button id="exchangeBtn" label="确定" y="836.66" skinName="BtnN2Skin" x="279.19"/>
+	<e:Group x="235.98" y="623.67">
+		<e:Image source="ui_bm_title1" y="0" x="0"/>
+		<e:Label id="recordLabel1" text="开启条件" y="22.31" anchorOffsetX="16" anchorOffsetY="17.33" style="l_green" size="22" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="90.4"/>
+	</e:Group>
+	<e:Group x="63.34" y="638">
+		<e:Image width="589.76" height="141.33" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="28" x="0"/>
+		<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="55.67" itemRendererSkinName="GangFuBenAwardItemSkin" height="88" horizontalCenter="2">
+			<e:layout>
+			<e:HorizontalLayout gap="15"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<ns1:FateModelItemPanel id="fateModelItem" width="181" height="153" x="270" y="388" anchorOffsetX="0" anchorOffsetY="0" skinName="FateModelItemSkin"/>
+	<e:BitmapLabel id="describeLab" y="581" text="" height="27.6" font="font_ui_fuben_fnt" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1"/>
+</e:Skin>

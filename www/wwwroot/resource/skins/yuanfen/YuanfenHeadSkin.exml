@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YuanfenHeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="112"  height="145">
+	<ns1:ItemIcon id="item" horizontalCenter="0" y="12"/>
+	<e:Label id="lbName" text="" y="115" size="22"  horizontalCenter="0"/>
+	<e:Group width="0" height="0" y="96" x="56">
+		<e:DataGroup id="starGroup" y="0" itemRendererSkinName="StarSkin" horizontalCenter="0" scaleX="0.7" scaleY="0.7" x="-3">
+			<e:layout>
+			<e:HorizontalLayout gap="-8"/>
+			</e:layout>
+		</e:DataGroup>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineMyTeamPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Component/>
+	<ns1:CommonDialog id="CommonDialog" y="340" skinName="CommonDialog2Skin" height="608"/>
+	<e:Image y="414" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="304" width="616" x="51"/>
+	<e:Scroller x="55" y="418" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" x="1" itemRendererSkinName="GangMineTeamRoleItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="5"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="662" horizontalCenter="15.5">
+		<e:Label text="玩家战力>=" y="4" size="24" textAlign="center" x="0" style="l_brown_2" anchorOffsetX="0"/>
+		<e:Image x="136" y="4" width="120" anchorOffsetY="0" source="ui_bm_jingyantiaobg" height="28"/>
+		<e:Label id="tpower" text="0" y="8" size="20" x="136" anchorOffsetX="0" style="label01" width="120" textAlign="center" type="input" height="20"/>
+		<e:Button id="setUpBtn" label="招 募" x="261" y="0" skinName="Btn0Skin" icon="ui_hddt_bt_gai" scaleX="1" scaleY="1"/>
+		<e:Label text="的玩家可加入" y="4" size="24" textAlign="center" x="303" style="l_brown_2" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Button id="zaomuBtn" label="招 募" x="428" y="744" skinName="BtnN2Skin"/>
+	<e:Button id="exitBtn" label="退出队伍" x="123" y="743" skinName="BtnN3Skin"/>
+	<e:Label text="组队后只有队长能进行操作" y="872" size="24" textAlign="center" x="215" style="l_brown_2" anchorOffsetX="0"/>
+</e:Skin>

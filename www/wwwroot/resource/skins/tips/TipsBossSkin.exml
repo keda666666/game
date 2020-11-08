@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipsBossSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1280">
+
+	<e:Group id="group" width="350" height="317" x="185" y="618" anchorOffsetY="0">
+		<e:Image id="bg" touchEnabled="false" scale9Grid="14,14,3,3" alpha="0.9" y="0" horizontalCenter="0" source="ui_zjm_zjmst_bossts"/>
+		<e:Label id="lab" text="Tips" textColor="0xdfd1b5" touchEnabled="false" size="20" y="24" horizontalCenter="0.5"/>
+		<e:Button id="close" label="" x="269" y="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_zjm_zjmst_x" source.down="ui_zjm_zjmst_x"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="74" source="ui_p_yuandi" horizontalCenter="0"/>
+		<e:CheckBox label="本次登陆不在提示" x="79" y="214" skinName="CheckBox0"/>
+		<e:Button label="" y="250" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_allbutton_tz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

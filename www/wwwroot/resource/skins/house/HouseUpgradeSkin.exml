@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseUpgradeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280">
+	<w:Config id="1628afab306"/>
+	<e:Group x="35" y="157">
+		<e:Button id="btnBuild" x="23" y="64" icon="ui_fw_bt_zhuangxiu" skinName="Btn0Skin"/>
+		<e:Group x="0" y="575">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="230" width="650" x="0" scaleX="1" scaleY="1"/>
+			<e:Group id="groupUpgrade" x="26" y="15">
+			<e:Button id="btnAdd" x="51" y="131" icon="ui_btn_powup" skinName="BtnN3Skin" label="升阶"/>
+			<e:Button id="btnCulture" x="386" y="131"   label="自动升阶" skinName="BtnN2Skin"/>
+			<e:ProgressBar id="bar" y="40" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" x="0">
+				<e:Skin>
+				<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:Label text="进阶进度" x="252" y="0" size="22" style="l_brown_1" bold="true"/>
+			<e:Image source="ui_guankia_wenli" x="170" y="3"/>
+			<e:Image source="ui_guankia_wenli" x="422" y="3" scaleY="1" scaleX="-1"/>
+			<e:Label text="消费亲密度：" x="176" y="90" style="l_brown_1" size="24"/>
+			<e:Label id="labCount" text="99/55" x="320" y="90" size="24" style="l_green"/>
+			</e:Group>
+			<e:Group id="groupMaxLv" x="200" y="102" visible="false">
+			<e:Label text="房屋已满阶" x="55" y="0" size="30" bold="true" style="l_red"/>
+			</e:Group>
+			<e:Group id="groupSingle" x="183" y="101" visible="false">
+				<e:Label text="结婚状态才能升阶房屋" y="0" size="30" style="l_red" bold="true" x="-5"/>
+			</e:Group>
+		</e:Group>
+		<ns1:PowerLabel id="powerLabel" skinName="PowerLabel3Skin" y="0" x="129"/>
+		<ns1:CmLabel id="cmLabName" x="236" y="86" skinName="CmLabel3Skin" width="180" scaleX="1" scaleY="1"/>
+		<e:Group id="groupLv" x="528" y="143" scaleX="1" scaleY="1">
+			<e:Image x="0" y="12" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+			<e:Label id="labLev" text="100" y="48" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" verticalAlign="middle" textColor="0xAA6A31" bold="true" horizontalCenter="0"/>
+			<e:Label text="阶" y="79" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" verticalAlign="middle" textColor="0xAA6A31" x="9" bold="true"/>
+		</e:Group>
+		<e:Image id="imgIcon" source="ui_fw_bm_fangzi05" scaleX="1" scaleY="1" horizontalCenter="-7" bottom="342"/>
+		<e:Label text="温馨提示：结婚期间，升阶多少进度，伴侣就能获得相同进度" x="7" y="810" size="20" scaleX="1" scaleY="1" style="l_brown_2"/>
+	</e:Group>
+</e:Skin>

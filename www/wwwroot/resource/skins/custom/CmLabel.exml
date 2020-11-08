@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CmLabelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="300">
+	<e:Group height="24" width="100%">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" left="0"/>
+		<e:Label id="label" text="" y="0" size="24" textAlign="center" style="l_brown_2" minWidth="160" width="100%" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" scaleX="-1" right="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

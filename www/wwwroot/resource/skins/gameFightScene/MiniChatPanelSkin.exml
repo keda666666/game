@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MiniChatPanelSkin" width="720" height="280" currentState="simple" xmlns:e="http://ns.egret.com/eui" xmlns:ce="ceui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  states="all,simple"  height.simple="280">
+	    <e:Image id="bg" x="0" y="0" width="100%" height="280"  anchorOffsetY="0" source="ui_bm_loadingbg" scale9Grid="1,2,12,11" height.simple="120" y.simple="158"/>
+    <ce:CScroller id="canvas" height="210" height.all="210" anchorOffsetX="0" anchorOffsetY="0" y="7" left="71" right="5" left.simple="71" right.simple="5" height.simple="107" y.simple="165">
+
+    <e:List id="list" scaleX="1" scaleY="1" itemRendererSkinName="MiniChatItemSkin" width="100%" x="0" y="0"  height="210" height.all="210" anchorOffsetY.simple="0" height.simple="107" touchThrough="true">
+
+
+			</e:List>
+
+    </ce:CScroller>
+    <e:Button id="btnClip" y="6"  anchorOffsetX="0" anchorOffsetY="0" x="9"  skinName="Btn0Skin" icon="ui_bt_shangfan2" icon.simple="ui_bt_shangfan3" y.simple="163" x.simple="10"/>
+		<e:Image y="196" anchorOffsetX="0" scaleX="1" scaleY="1" source="ui_bt_anniubg2" x="10" visible.all="false" x.simple="10" y.simple="210" width.simple="45"/>
+	<e:Label text="全部" x="22" y="206" size="22" textColor="0x805813" width="20" visible.all="false" y.simple="222" x.simple="21"/>
+
+	<e:TabBar id="btnGp" x="9" y="58" itemRendererSkinName="BtnChatTypeSkin" visible.simple="false">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object name="全部"/>
+				<e:Object name="世界"/>
+				<e:Object name="帮会"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group y="54" y.simple="182" right="48" touchChildren="true" touchEnabled="false">
+		<e:Button id="msgBtn" label="Button" x="4" y="0" skinName="Btn0Skin" icon="ui_bt_xiaoxitixing" visible="false"/>
+		<e:Image id="redPoint" y="-10" anchorOffsetX="0" scaleX="1" scaleY="1" source="ui_bm_reddot" x="42" touchEnabled="false" visible="false"/>
+	</e:Group>
+	<ns1:ChatInputView id="input" skinName="ChatInputSkin" y="217" anchorOffsetX="0" visible.simple="false" left="65" right="6"/>
+
+</e:Skin>

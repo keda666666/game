@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipUserTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b3502a7"/>
+	<e:Component skinName="BG2" x="1"/>
+	<e:Group width="442" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Component id="background" anchorOffsetX="0" anchorOffsetY="0" skinName="LittleBg3" width="469" height="300" x="-13" y="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="group" width="100%" x="0" y="15">
+			<e:Group width="100%" y="-22">
+				<e:Image id="imgTipRect" source="ui_bm_blue" y="-3" x="0"/>
+				<e:Label id="score" y="8" text="评分：6789" textAlign="right" style="l_yellow_4" right="5"/>
+				<e:Label id="type" y="60" text="部位：武器" x="127" style="l_yellow_3"/>
+				<e:Label id="lv" y="89" text="等级：100级" x="127" style="l_yellow_3"/>
+				<e:Label id="career" y="117" text="职业：通用" x="127" style="l_yellow_3"/>
+				<e:Label id="nameLabel" text="屠龙 " y="6" style="l_yellow_3" size="26" x="9"/>
+				<ns1:ItemIcon id="itemIcon" x="14" y="46" skinName="ItemIconSkin" />
+				<ns1:PowerLabel id="powerLabel" x="24" y="153" text="9988" />
+			</e:Group>
+			<e:Group y="63.66" width="100%" horizontalCenter="0">
+				<e:Label id="attTitleLabel" y="8" text="基础属性:" x="31" style="l_yellow_4"/>
+				<e:Label id="attr" y="40.38" text="攻击：100 +100" x="32" verticalAlign="justify" style="l_yellow_3"/>
+			</e:Group>
+			<e:Group id="forgeGroup" width="100%" y="116.65" x="4">
+				<e:layout>
+					<e:VerticalLayout gap="12"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="375" touchThrough="true" bottom="23" width="49" height="61">
+			<e:Button id="btnShow" label="" x="-6" y="0" skinName="Btn0Skin" icon="ui_bm_zhanshi"/>
+			<e:Button id="orangeBtn" label="" x="-26" y="-72" icon="ui_tc_bt_dhcz" skinName="Btn0TipSkin"/>
+		</e:Group>
+	</e:Group>
+
+
+
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopIntegralItemSkin" width="310" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="310" height="160" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ui_bm_shangchengbg"/>
+	<e:Image source="ui_bm_fengexian" y="39" horizontalCenter="0" width="300"/>
+	<e:Image id="imgXiyou" source="ui_bm_xiyou" x="4" y="3" visible="false"/>
+	<e:Label id="nameLabel" text="羽毛" y="7" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="26" horizontalCenter="0" style="l_brown_1"/>
+	<e:Image id="imgSellOut" source="ui_bm_yishouqing" x="158" y="70" visible="false"/>
+	<ns1:ItemBase id="itemIcon" verticalCenter="32" left="11"/>
+	<e:Label id="needIntegralTxt" text="" x="148" y="65" style="l_brown_1"/>
+</e:Skin>

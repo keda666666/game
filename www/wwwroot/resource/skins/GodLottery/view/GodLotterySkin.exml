@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodLotterySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1644055d273"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image source="ui_ts_bm_tupian" x="34" y="148"/>
+	<e:Image source="ui_ts_bm_bg" x="34" y="316"/>
+	<e:Group x="49" y="327">
+		<ns1:ItemBaseNotName id="item0" x="20" y="0" scaleX="1.15" scaleY="1.2"/>
+		<ns1:ItemBaseNotName id="item1" x="174" y="0" scaleX="1.15" scaleY="1.15"/>
+		<ns1:ItemBaseNotName id="item2" x="326" y="0" scaleX="1.15" scaleY="1.15"/>
+		<ns1:ItemBaseNotName id="item3" x="480" y="0" scaleX="1.15" scaleY="1.15"/>
+		<ns1:ItemBaseNotName id="item4" x="0" y="208" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item5" x="122" y="208" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item6" x="394" y="208" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item7" x="517" y="208" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item8" x="3" y="383" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item9" x="131" y="383" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item10" x="261" y="383" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item11" x="391" y="383" scaleX="0.94" scaleY="0.94"/>
+		<ns1:ItemBaseNotName id="item12" x="520" y="384" scaleX="0.94" scaleY="0.94"/>
+	</e:Group>
+	<e:Group x="55" y="451" width="612" touchEnabled="false">
+		<e:Label id="labName0" text="道具名称" y="0" style="l_white" size="22" horizontalCenter="-228"/>
+		<e:Label id="labName1" text="道具名称" y="0" style="l_white" size="22" horizontalCenter="-71"/>
+		<e:Label id="labName2" text="道具名称" y="0" style="l_white" size="22" horizontalCenter="75"/>
+		<e:Label id="labName3" text="道具名称" y="0" style="l_white" size="22" horizontalCenter="229"/>
+		<e:Label id="labName4" text="道具名称" y="189" style="l_white" size="22" horizontalCenter="-261"/>
+		<e:Label id="labName5" text="道具名称" y="189" style="l_white" size="22" horizontalCenter="-140"/>
+		<e:Label id="labName6" text="道具名称" y="189" style="l_white" size="22" horizontalCenter="132"/>
+		<e:Label id="labName7" text="道具名称" y="189" style="l_white" size="22" horizontalCenter="255"/>
+		<e:Label id="labName8" text="道具名称" y="374" style="l_white" size="22" horizontalCenter="-262"/>
+		<e:Label id="labName9" text="道具名称" y="374" style="l_white" size="22" horizontalCenter="-127"/>
+		<e:Label id="labName10" text="道具名称" y="374" style="l_white" size="22" horizontalCenter="-1"/>
+		<e:Label id="labName11" text="道具名称" y="374" style="l_white" size="22" horizontalCenter="128"/>
+		<e:Label id="labName12" text="道具名称" y="374" style="l_white" size="22" horizontalCenter="262"/>
+	</e:Group>
+	<e:Group x="39" y="913.4">
+		<e:Button id="btnGoldOne" label="唤神一次" y="2" skinName="BtnN2Skin" x="241"/>
+		<e:Button id="btnGoldTen" label="唤神十次" y="2" skinName="BtnN2Skin" x="481"/>
+		<e:Button id="btnBindGoldTen" label="唤神十次" y="0" x="0" skinName="BtnN3Skin"/>
+		<ns1:PriceIcon id="piGoldOne" y="80" scaleX="0.9" scaleY="0.9" x="269"/>
+		<ns1:PriceIcon id="piBindGoldTen" y="78" scaleX="0.9" scaleY="0.9" x="29"/>
+		<ns1:PriceIcon id="piGoldTen" y="80" scaleX="0.9" scaleY="0.9" x="512"/>
+	</e:Group>
+	<e:Group id="groupFirst" width="0" height="0" x="602" y="915">
+		<e:Image x="-116" y="-169" source="ui_ts_bm_tanchuang"/>
+		<ns1:ItemBaseNotName id="firstItem" x="-45" y="-136.54" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="labDesc2" text="必得天神进阶丹*100" y="-49" scaleX="1" scaleY="1" size="20" horizontalCenter="-2" style="l_white"/>
+		<e:Label id="labDesc1" text="再抽5次" y="-159" scaleX="1" scaleY="1" size="20" horizontalCenter="-2" style="l_brown_1"/>
+	</e:Group>
+	<e:Button id="btnShop" label="Button" x="574" y="183" skinName="Btn0Skin" icon="ui_ts_bm_shangdian"/>
+</e:Skin>

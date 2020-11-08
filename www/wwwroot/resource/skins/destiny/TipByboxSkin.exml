@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TipByboxSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<ns1:CommonDialog id="commonDialog" height="485" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialogSkin" verticalCenter="0"/>
+	<e:Button id="sureBtn" label="确定" scaleX="1" scaleY="1" bottom="425" horizontalCenter="-153" skinName="BtnN1Skin" x="137" y="779"/>
+	<e:Button id="notBtn" label="取消" scaleX="1" scaleY="1" bottom="425" horizontalCenter="154" skinName="BtnN1Skin" x="444" y="779"/>
+	<e:Image id="bg" anchorOffsetX="0" width="610" anchorOffsetY="0" scaleX="1" scaleY="1" source="ui_sbm_002" x="53" height="260" y="501"/>
+	<e:Label id="warnLabel" text="您选择分解的命格中存在高品质命格，是否确认分解？" width="397" textAlign="center" verticalAlign="middle" lineSpacing="5" anchorOffsetY="0" anchorOffsetX="0" size="23" scaleX="1" scaleY="1" verticalCenter="-53.5" style="l_brown_1" y="635" horizontalCenter="0.5"/>
+
+	<e:Group y="656" x="228" touchEnabled="false" touchChildren="true">
+		<e:CheckBox id="checkBox1" label="" skinName="CheckBox0" y="0" x="0"/>
+		<e:Label id="lbBoxTip" text="本次登录不再提示" x="55.03" y="11" style="l_green_1"/>
+	</e:Group>
+
+
+
+
+
+	
+
+
+
+
+
+	>
+</e:Skin>

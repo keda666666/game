@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlotRightMsgSkin" width="413" height="243" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_zjm_bm_juqingBG" y="87" x="414" scaleX="-1"/>
+	<e:Image id="img" right="0" scaleX="-1" bottom="14" source=""/>
+	<e:Image source="ui_zjm_bm_juqingrenwumingchengBG" y="192" x="284"/>
+	<e:Label id="textLabel" text="Label" x="40" y="132" style="l_brown_1" width="248" height="92" size="24"/>
+	<e:Label text="" y="200" style="l_brown_1" size="24" id="nameLabel" textAlign="center" horizontalCenter="110"/>
+</e:Skin>

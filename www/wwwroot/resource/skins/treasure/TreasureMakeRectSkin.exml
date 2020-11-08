@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureMakeRectSkin" width="302" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,perfit" >
+	<e:Image scale9Grid="60,0,54,122" horizontalCenter="0" verticalCenter="0" source="ui_fb_bm_bg"/>
+	<e:Label id="lbName" text="普通打造" y="17" style="l_brown_1" horizontalCenter="0"/>
+	<e:List id="listView" height="141" y="64" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1">
+		<e:layout>
+			<e:HorizontalLayout gap="30"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Label id="lbAddup" text="已累计: 15次" y="216" style="l_brown_1" horizontalCenter="0.5" visible.normal="false" includeIn="perfit"/>
+	<e:CheckBox id="checkBox" label="自动购买" skinName="CheckBox0" verticalCenter="192" horizontalCenter="0" visible.normal="false"/>
+	<e:Label id="lbCome" text="来源:" includeIn="normal" x="30" style="l_brown_1" y="434"/>
+	<e:Button id="btnBuild" label="Button" x="70" y="252" icon="ui_fb_bt_wanmeidazao" skinName="Btn0Skin"/>
+	<e:Label id="lNe" text="个字" includeIn="normal" y="434" style="l_green_1" horizontalCenter="-3"/>
+	<e:Label id="rNe" text="个字" includeIn="normal" y="434" style="l_green_1" horizontalCenter="91"/>
+</e:Skin>

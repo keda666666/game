@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660" states="up,down"  height="120">
+	<e:Group x="3" y="1">
+		<e:Image source="ui_sbm_005" x="0" y="0" width="654" height="118"/>
+		<e:Label id="labListNo" text="1" x="12" y="44" style="l_brown_1"/>
+		<e:Image source="ui_bm_icon001" x="32" y="12"/>
+		<e:Image id="imgFace" x="39" y="18" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+		<e:Label id="labBangName" text="帮会名称（Lv.5）" x="141" y="31" style="l_brown_1" size="22"/>
+		<e:Label id="labBangMaster" text="帮主：玩家名字六字" x="141" y="64" style="l_brown_1" size="22"/>
+		<e:Label id="labMemberCount" text="人数：33/50" x="377" y="48" style="l_brown_1" size="22"/>
+		<e:Label id="labPowerTip" text="需战力：3000万" y="9" style="l_brown_1" size="22" textAlign="right" right="9"/>
+		<e:Button id="btnApply" x="550" y="37.6" icon="ui_bt_qiuzhubtn" label="申 请" scaleX="1" scaleY="1" skinName="Btn2Skin" width="90" height="50"/>
+	</e:Group>
+</e:Skin>

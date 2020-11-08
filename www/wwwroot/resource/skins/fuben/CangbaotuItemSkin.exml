@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CangbaotuItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ui_fb_bm_baoxiang01" x="0" y="3"/>
+		<e:Image source="ui_fb_bm_xingxing" x="41" y="69"/>
+		<e:Label id="lbStar" text="12" x="14" y="69" textColor="0xff5900" size="22" textAlign="right"/>
+		<e:Image id="imgRed" source="ui_bm_reddot" x="45" y="1" visible="false"/>
+	</e:Group>
+	<e:Image id="imgGet" source="ui_fb_bm_yilingqu" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

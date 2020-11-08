@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image width="660" height="840" x="30" y="150" source="ui_sbm_002"/>
+	<e:Scroller width="660" height="820" x="30" y="160">
+		<e:List id="listGang" itemRendererSkinName="GangListItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnCreate" x="279" y="1030"   label="创建帮会" skinName="BtnN2Skin"/>
+</e:Skin>

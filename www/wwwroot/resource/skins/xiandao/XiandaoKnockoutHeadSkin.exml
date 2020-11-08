@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoKnockoutHeadSkin" width="120" height="104" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component id="head" skinName="HeadSkin" horizontalCenter="0" scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="nameLabel" text="name.S1" y="71" style="l_brown_1" horizontalCenter="0" size="22"/>
+</e:Skin>

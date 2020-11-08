@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" height="740" title="提  示" anchorOffsetY="0" x="0" y="260" skinName="CommonDialogSkin"/>
+	<e:Group x="50" y="350">
+		<e:Group x="97" y="147">
+			<e:Group x="120.5" y="0">
+			<ns1:CmLabel text="取经奖励" x="-25" y="0"  skinName="CmLabel2Skin"  />
+			</e:Group>
+			<e:Label id="labAward1" text="银两：1000" x="0" y="40" style="l_brown_1" size="24"/>
+			<e:Label id="labAward2" text="银两：1000" x="273" y="40" style="l_brown_1" size="24" visible="false"/>
+			<e:Label id="labAward3" text="银两：1000" x="0" y="75" style="l_brown_1" size="24" visible="false"/>
+			<e:Label id="labAward4" text="银两：1000" x="273" y="75" style="l_brown_1" size="24" visible="false"/>
+		</e:Group>
+		<e:Image width="620" height="280" x="0" y="253" source="ui_sbm_002" />
+		<e:Button id="btnAward" x="229" y="551"   label="领取奖励" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+		<e:Group x="184" y="0" scaleX="1" scaleY="1">
+			<e:Group x="0" y="4.5">
+			<e:Image source="ui_qj_bm_pingzhiBG" x="0" y="0"/>
+			<e:Label id="labName" text="白龙马" x="8" y="23.5" size="26" width="25"/>
+			</e:Group>
+			<e:Image id="imgIcon" source="ui_qj_bm_shashidi" x="58" bottom="0"/>
+		</e:Group>
+		<e:Group id="groupTip1" x="11" y="259" visible="false">
+			<e:Label id="labTip1" text="" x="0" y="0" size="24"/>
+			<e:Label id="labResult1" text="抵御成功" y="0" size="24" x="499"/>
+		</e:Group>
+		<e:Group id="groupTip2" x="11" y="292" visible="false">
+			<e:Label id="labTip2" text="" x="0" y="0" size="24"/>
+			<e:Label id="labResult2" text="抵御成功" y="0" size="24" x="499"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

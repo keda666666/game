@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianlvMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<ns1:CommonWindowBg id="commonWindowBg"/>
+	<ns1:TabView id="viewStack" y="0" selectedIndex="1" anchorOffsetX="0" width="720" anchorOffsetY="0" height="1280" x="0" touchChildren="true" touchEnabled="false"/>
+	<e:Group id="showGroup" x="0" y="0" touchEnabled="false" touchChildren="true">
+		<e:Image y="309" source="ui_bm_xuanxiangkabg" height="173" x="15" scaleY="-1" anchorOffsetY="0"/>
+		<e:Group id="group" width="720" height="1280" x="0" y="0" touchEnabled="false" touchChildren="true">
+		</e:Group>
+		<e:Scroller width="602" height="171" x="66" y="137">
+			<e:List id="list" itemRendererSkinName="PetHeadSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="leftBtn" label="Button" x="36" y="177" icon="ui_bt_jiantou" skinName="Btn0TipSkin"/>
+		<e:Button id="rightBtn" label="Button" x="688" y="177" icon="ui_bt_jiantou" scaleX="-1" skinName="Btn0TipSkin"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FormationInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="720" height="1280">
+	<w:Config id="1628afab306"/>
+	<e:Group id="group" x="26" y="305" touchEnabled="false" touchChildren="true">
+		<e:Image y="-23" x="8" source="ui_bm_jsbg"/>
+		<e:Image y="506" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="211" width="650" x="9"/>
+		<e:Label id="lbPower" text="阵型总战力：9999" x="65" y="475" size="24" fontFamily="Microsoft YaHei" textColor="0x835325"/>
+		<e:Button id="showAllAttr" x="0" y="441" skinName="Btn0Skin" icon="ui_bt_jiacheng"/>
+		<e:Button id="btnSC" x="57" y="58" icon="ui_bt_shuxingdan" skinName="Btn0Skin"/>
+		<e:Button id="btnFS" x="57" y="158" icon="ui_zx_bt_zhenhuen" skinName="Btn0Skin"/>
+		<e:Group width="0" height="0" y="244" x="330">
+			<ns1:PetShowPanel id="petShowPanel"/>
+		</e:Group>
+		<e:Group id="groupSkill" x="547" y="392">
+			<e:Component id="skillComp" x="0" y="0" skinName="PetSkillIconSkin"/>
+			<e:Image x="18" y="73" source="ui_bm_jineng"/>
+		</e:Group>
+		<e:Button id="btnUse" label="使 用" x="256.5" y="411" skinName="BtnN2Skin" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="imgUsed" y="415" source="ui_bm_yihuanhua" x="268.5" scaleX="1" scaleY="1"/>
+		<e:Group id="groupUnGain" x="224.5" y="520">
+			<ns1:NeedItemView id="needItemView" x="0" y="-3" scaleX="1" scaleY="1"/>
+			<e:Label id="getwayLabel" text="获取途径" y="140" size="24" textAlign="left" style="l_brown_2" x="5.5"/>
+			<e:Button id="btnActive" label="激 活" x="38.5" y="125" skinName="BtnN2Skin" scaleX="0.9" scaleY="0.9"/>
+		</e:Group>
+		<e:Group id="groupUplv" x="29" y="513">
+			<e:Group id="groupDuration" x="0" y="0">
+				<e:Button id="btnAdd" x="57" y="120" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级"/>
+				<e:Button id="btnCulture" x="392" y="120"   label="自动升级" skinName="BtnN2Skin"/>
+				<e:ProgressBar id="bar" y="27" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" x="6">
+				<e:Skin>
+					<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+					<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+					<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0"/>
+				</e:Skin>
+				</e:ProgressBar>
+				<ns1:ConsumeTwoLabel id="consumeLabel" x="0" y="72"/>
+				<e:CheckBox id="checkBox" x="395" y="64" label="自动购买" skinName="CheckBox0"/>
+				<e:Label text="升级进度" x="258" y="0" size="22" style="l_brown_1" bold="true"/>
+				<e:Image source="ui_guankia_wenli" x="176" y="3"/>
+				<e:Image source="ui_guankia_wenli" x="428" y="3" scaleY="1" scaleX="-1"/>
+			</e:Group>
+			<e:Group id="groupMaxLv" x="180" y="97" visible="false">
+				<e:Label text="已满级" x="82" y="0" size="22" style="l_brown_1" bold="true"/>
+				<e:Image source="ui_guankia_wenli" x="-20" y="3"/>
+				<e:Image source="ui_guankia_wenli" x="255" y="3" scaleY="1" scaleX="-1"/>
+			</e:Group>
+		</e:Group>
+		<ns1:PowerLabel id="powerLabel" skinName="PowerLabel3Skin" y="16" x="138"/>
+		<e:Group id="groupLv" x="477" y="182">
+			<e:Image x="0" y="12" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+			<e:Label id="lbLev" text="1级" y="0" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="23" height="139" verticalAlign="middle" textColor="0xAA6A31" x="6" bold="true"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

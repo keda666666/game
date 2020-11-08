@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingShowSkin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" states="normal,full,none" width="720" height="1280">
+	<w:Config id="1628afab306" />
+	<e:Component skinName="BG2"/>
+	<e:Image source="ui_xn_bm_db" x="30" y="315"/>
+	<e:Button id="closeBtn" x="524" y="332" skinName="Btn0Skin" icon="ui_xn_bt_gb"/>
+	<e:Group width="652" height="873" x="34" y="126" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false">
+		<e:Group width="649" height="642" x="1" y="2" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			<e:Image y="121" source="" horizontalCenter="0"/>
+			<ns1:PowerLabel id="powerLabel" y="8" x="119" scaleX="1" scaleY="1" skinName="PowerLabel3Skin"  visible="false"/>
+			<ns1:PetShowPanel id="xingxiang" y="515"  scaleX="-1" x="334"/>
+			<e:Group y="674.96" horizontalCenter="0">
+				<e:List id="skillList" anchorOffsetX="0" anchorOffsetY="0" y="-77.96" itemRendererSkinName="HavingSkillIconSkin" scaleX="0.8" scaleY="0.8" horizontalCenter="0">
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+					</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+					<e:HorizontalLayout gap="18"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Group>
+		<e:List id="list" y="724" anchorOffsetX="0" itemRendererSkinName="ItemSkin" scaleX="0.9" scaleY="0.9" x="49">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object 啊="null"/>
+					<e:Object 啊="null"/>
+					<e:Object 啊="null"/>
+					<e:Object 啊="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="btn" label="领取V9奖励" y="712" icon="ui_xn_bt_lqjl" height="102" width="101" x="520">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_xn_bt_lqjl" horizontalCenter.down="2" verticalCenter.down="2" horizontalCenter.up="0" verticalCenter.up="0"/>
+				<e:Label id="labelDisplay" verticalAlign="middle" textAlign="center" horizontalCenter.down="2" verticalCenter.down="2" text="确定" size="22" verticalCenter="0" width="79%" horizontalCenter="0.5" textColor.disabled="0xf7ece6" style="l_brown_1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="累计充值200元成为VIP9,立即出战玄女" y="694" style="l_brown_1" size="20" x="182"/>
+		<e:Label text="VIP 9 礼包" x="49.33" y="690" style="l_brown_2" anchorOffsetY="0" textAlign="center" verticalAlign="middle" size="24" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xca3f09"/>
+	</e:Group>
+</e:Skin>

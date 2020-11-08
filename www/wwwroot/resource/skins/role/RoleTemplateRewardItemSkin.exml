@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleTemplateRewardItemSkin" width="521" height="145" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="521" height="145" source="ui_bm_fuwuqibg"/>
+	<e:Label id="title" text="坐骑进阶到" x="9" y="14" style="l_brown_1" size="24"/>
+	<e:Button id="goBtn" label="领取" x="389" y="68" skinName="BtnN4Skin"/>
+	<e:List id="list" x="3" y="46" itemRendererSkinName="ItemSkin" scaleX="0.9" scaleY="0.9" height="107">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-5"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="getImg" source="ui_fb_bm_yilingqu" x="390" y="46" visible="false"/>
+	<w:Config id="163b540be31"/>
+</e:Skin>

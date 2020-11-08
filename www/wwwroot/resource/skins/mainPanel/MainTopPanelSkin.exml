@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainTopPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162615bd395" visible="false"/>
+<!-- 	<e:Image source="图层 55" x="0" y="0" width="0" height="0" touchEnabled="false" />
+	<e:Image source="图层 245" x="0" y="0" width="0" height="0" touchEnabled="false" />
+	<e:Image source="图层 112" x="0" y="0" width="0" height="0" touchEnabled="false" /> -->
+	<e:Image y="-2" width="100%" touchEnabled="false"  source="ui_bm_text_bg3-33" x="0"/>
+	<e:Group y="4" anchorOffsetX="0" anchorOffsetY="0" left="7" right="0">
+		<e:Button id="god" x="-41" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb2" label="0">
+		</e:Button>
+		<e:Button id="yb" x="202" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb1" label="0"/>
+		<e:Button id="byb" x="440" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb3" label="0"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" columnAlign="justifyUsingWidth"/>
+		</e:layout>
+
+	</e:Group>
+	
+</e:Skin>

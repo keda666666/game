@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnChatSendSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="110" height="51">
+	<e:Image source="ui_bt_anniubg1" width="100%" height="100%" alpha.disabled="0.5" scaleX.down="0.95" scaleY.down="0.95"  width.down="98%" height.down="98%"/>
+	<e:Label id="labelDisplay" text="发送" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" size="28" width="87"  textColor="0x755e4f"/>
+</e:Skin>

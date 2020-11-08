@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MiniMapSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="262" height="205">
+	<w:Config id="1633e92cf14"/>
+	<e:Image id="bg" horizontalCenter="0" width="262" height="205" source="" verticalCenter="0"/>
+	<ns1:MiniMapCityInfoItem id="city0" scaleX="0.5" scaleY="0.5" x="101" y="71"/>
+	<ns1:MiniMapCityInfoItem id="city3" scaleX="0.5" scaleY="0.5" x="154" y="33"/>
+	<ns1:MiniMapCityInfoItem id="city2" scaleX="0.5" scaleY="0.5" x="177" y="116"/>
+	<ns1:MiniMapCityInfoItem id="city1" scaleX="0.5" scaleY="0.5" x="29" y="117"/>
+	<e:Group anchorOffsetY="0" anchorOffsetX="0" width="100%" height="42" x="0" bottom="0">
+		<e:Image width="100%" height="100%" source="ui_hddt_bm_jifenBG"/>
+		<e:Image x="11" scaleX="1" scaleY="1" source="ui_hddt_bm_renzu" verticalCenter="0"/>
+		<e:Label text="人族" x="50" scaleX="1" scaleY="1" style="l_white" size="20" verticalCenter="0"/>
+		<e:Image x="96" source="ui_hddt_bm_mozu" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label text="魔族" x="133" scaleX="1" scaleY="1" style="l_white" size="20" verticalCenter="0"/>
+		<e:Image x="176" scaleX="1" scaleY="1" source="ui_hddt_bm_xianzu" verticalCenter="0"/>
+		<e:Label text="仙族" x="210" scaleX="1" scaleY="1" style="l_white" size="20" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="all" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="100%">
+	</e:Group>
+</e:Skin>

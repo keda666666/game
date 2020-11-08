@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="440" title="提  示" anchorOffsetY="0" x="0" y="407" skinName="CommonDialog2Skin"/>
+	<e:Label id="labText" text="活跃度达到100的奖励" x="87" y="502" style="l_brown_1" size="24"/>
+	<e:Group x="80" y="530">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="200" width="560" x="0"/>
+		<e:Group x="25" y="35">
+			<ns1:ItemBaseNotName id="item1" x="0" y="0" scaleX="1" scaleY="1"/>
+			<ns1:ItemBaseNotName id="item2" x="200" y="0" scaleX="1" scaleY="1" visible="false"/>
+			<ns1:ItemBaseNotName id="item3" x="400" y="0" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

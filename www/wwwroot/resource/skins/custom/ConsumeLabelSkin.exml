@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConsumeLabelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="24">
+	<w:Config id="15bb9208c8a" ></w:Config>
+	<e:Group x="0" y="0" height="24">
+		<e:Label text="消耗" x="0" y="0" width="100%" textAlign="center" verticalAlign="middle" style="l_brown_2" size="24"/>
+		<e:Group id="imgGroup" height="24" x="20" y="12" includeInLayout="false">
+			<e:Image id="typeImg" includeInLayout="true" maxHeight="30" maxWidth="30" scaleX="1" scaleY="1" verticalCenter="0" source=""/>
+		</e:Group>
+		<e:Label id="label" text="强化石：cur/need" x="20" y="20" textAlign="center" verticalAlign="middle" style="l_brown_2" size="24"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangSkillListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16342e2435d"/>
+	<e:Component/>
+	<!--<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" visible="false"/>-->
+	<ns1:PowerLabel id="powerLabel" y="129" skinName="PowerLabel2Skin" horizontalCenter="3.5"/>
+	<e:Group x="36" y="762">
+		<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="650" x="0" height="249" y="-16" source="ui_sbm_002"/>
+		<ns1:PriceIcon id="price" y="117" skinName="PriceIconSkin" horizontalCenter="-2.5"/>
+		<e:Label id="totalAttr0" text="经脉总属性" y="43" size="20" style="l_brown_2" width="153" x="35" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr1" text="经脉总属性" y="43" size="20" style="l_brown_2" width="150" x="189" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr2" text="防御+0" y="43" size="20" style="l_brown_2" width="145" x="340" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr3" text="速度+0" y="43" size="20" style="l_brown_2" width="145" x="486" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr4" text="暴击+0" y="75" size="20" style="l_brown_2" width="153" x="35" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr5" text="抗爆+0" y="74" size="20" style="l_brown_2" width="150" x="189" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr6" text="闪避+0" y="74" size="20" style="l_brown_2" width="145" x="340" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Label id="totalAttr7" text="命中+0" y="74" size="19" style="l_brown_2" width="145" x="486" anchorOffsetX="0" anchorOffsetY="0" height="30"/>
+		<e:Group x="176" y="8">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+			<e:Label text="总属性" y="0" size="24" textAlign="center" horizontalCenter="1.5" width="174" style="l_brown_1" bold="true"/>
+		</e:Group>
+		<e:Button id="btnUp" label="升级" y="152" skinName="BtnN2Skin" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="134" horizontalCenter="4.5" width="613" height="618">
+		<e:Image y="28.4" scale9Grid="28,20,2,3" anchorOffsetY="0" source="ui_bm_jinengwenli" horizontalCenter="0"/>
+		<e:Component id="g0" skinName="RoleSkillItemSkin" y="46.45" x="243"/>
+		<e:Component id="g1" skinName="RoleSkillItemSkin" y="107" x="377"/>
+		<e:Component id="g2" skinName="RoleSkillItemSkin" y="252" x="448"/>
+		<e:Component id="g3" skinName="RoleSkillItemSkin" y="394.5" x="384"/>
+		<e:Component id="g4" skinName="RoleSkillItemSkin" y="456.6" x="243"/>
+		<e:Component id="g5" skinName="RoleSkillItemSkin" y="402.5" x="95.5"/>
+		<e:Component id="g6" skinName="RoleSkillItemSkin" y="251" x="31"/>
+		<e:Component id="g7" skinName="RoleSkillItemSkin" y="102" x="94.5"/>
+	</e:Group>
+	<e:Group id="curSkill_group" anchorOffsetX="0" width="385" y="368" horizontalCenter="0.5" anchorOffsetY="0" height="151">
+		<e:Image x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" height="151" source="ui_bm_zhangjiebg"/>
+		<e:Image id="nextImage" width="50" height="50" rotation="359.91" horizontalCenter="-1.5" y="52" source="ui_bm_dz_jiantou"/>
+		<e:Label id="curAttr_label" text="Label" y="10" anchorOffsetX="0" horizontalCenter="0.5" style="l_brown_2" x="159" scaleX="1" scaleY="1"/>
+		<e:Label id="nextAttrs_label" text="Label" y="112" anchorOffsetX="0" horizontalCenter="0.5" style="l_brown_2" x="159" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label text="等级上限:" x="517" y="187" style="l_brown_1" size="22"/>
+	<e:Label id="lvMax_label" text="200/200" y="187" size="22" style="l_green" left="616"/>
+</e:Skin>

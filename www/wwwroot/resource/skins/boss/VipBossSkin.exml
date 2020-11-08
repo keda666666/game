@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipBossSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162a9fdc967"/>
+	<e:Image width="656" height="856" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="144" x="32"/>
+	<e:Scroller x="34" y="144" width="657" height="853">
+		<e:List id="list" itemRendererSkinName="VipBossItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="7" paddingTop="7"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

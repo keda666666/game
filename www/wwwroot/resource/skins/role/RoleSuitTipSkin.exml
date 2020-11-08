@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSuitTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="active,none,full" >
+	<e:Component width="100%" horizontalCenter="0" skinName="BG2" height="100%"/>
+	<e:Group x="137" y="433">
+		<e:Component skinName="LittleBg3" width="447" x="0" top="0" bottom="-50"/>
+		<e:Group width="380" x="33" y="16">
+			<e:Group x="50" y="58">
+			<e:Image id="img" x="144" y="0" source="ui_bt_taozhuangdaren"/>
+			</e:Group>
+			<e:Group x="10" y="150" includeInLayout.none="false" visible.none="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label text="当前效果：" x="0" y="10" style="l_yellow_4" size="22"/>
+			<e:Label id="curTipLabel" text="全身强化\n55" x="108" y="10" style="l_white_1" size="22" width="280" height="50" lineSpacing="6"/>
+			<e:Label id="curLabel" text="当前效果：" x="0" y="64" style="l_white_1" size="22"/>
+			<e:Label id="activeLabel" text="已激活" x="312" y="64" size="22" style="l_green" text.none="未激活" style.none="l_white_1"/>
+			</e:Group>
+			<e:Group x="20" y="162" includeInLayout.full="false" visible.full="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label text="下级效果：" x="0" y="10" style="l_yellow_4" size="22"/>
+			<e:Label id="nextLabel" text="当前效果：" x="0" y="64" size="22" style="l_gray"/>
+			<e:Label id="nextTipLabel" text="全身强化\n55" x="108" y="10" size="22" width="280" height="50" lineSpacing="6" style="l_gray"/>
+			<e:Label id="activeLabel2" text="已激活" x="312" y="64" size="22" style="l_green" text.none="未激活" style.none="l_white_1"/>
+			</e:Group>
+			<e:Group x="30" y="172" includeInLayout.full="false" visible.full="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label id="effLabel" text="可提升战斗" x="0" y="10" style="l_yellow_4" size="22"/>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout gap="23"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

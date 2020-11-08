@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ce="ceui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163b61d448b"/>
+	<ns1:CommonWindowBg skinName="CommonWindowBg2Skin" title="聊天"/>
+	<e:Image y="150.6" anchorOffsetX="0" anchorOffsetY="0" height="852.41" width="554.33" x="132" source="ui_sbm_004"/>
+	<ce:CScroller id="scroller" height="783.33" x="136" y="151" width="549" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off">
+		<e:List id="list" x="49" y="1001" itemRendererSkinName="ChatItemSkin">
+		
+		</e:List>
+	</ce:CScroller>
+	<e:Scroller height="690" x="22" y="147" width="110" anchorOffsetY="0">
+		<e:TabBar id="bar" x="49" y="1001" itemRendererSkinName="BtnTab3Skin">
+		<e:layout>
+			<e:VerticalLayout paddingLeft="4" gap="4" paddingTop="4"/>
+		</e:layout>
+			
+		</e:TabBar>
+	</e:Scroller>
+	<ns1:ChatInputView id="input" x="136" y="939"  skinName="ChatInputSkin" width="548"/>
+</e:Skin>

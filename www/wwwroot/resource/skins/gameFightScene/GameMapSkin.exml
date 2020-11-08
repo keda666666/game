@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16369412bb8"/>
+	<e:Group id="group" width="100%" height="0" y="1005" x="0">
+		<e:Button id="returnBtn" y="-100" scaleX="1" scaleY="1" skinName="ReturnBtn" right="-3"/>
+	</e:Group>
+	<e:Button skinName="Btn0Skin" id="helpBtn" icon="ui_hddt_bt_shuoming" x="15" y="75" visible="false"/>
+</e:Skin>

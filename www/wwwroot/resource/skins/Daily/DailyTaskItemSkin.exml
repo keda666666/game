@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyTaskItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660"  height="60">
+	<e:Image id="imgBg" scale9Grid="20,20,28,28" x="0" y="0" width="660" height="60" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+	<e:Label id="labTaskName" text="师门任务" y="18" style="l_brown_1" horizontalCenter="-252" size="24"/>
+	<e:Label id="labCount" text="0/20" y="18" style="l_brown_1" size="24" horizontalCenter="-113.5"/>
+	<e:Label id="labActiveTip" text="1点/次" y="18" style="l_brown_1" size="24" horizontalCenter="46.5"/>
+	<e:Button id="btnGoto" x="520" y="5"   label="前 往" skinName="BtnN2Skin" height="54" width="113.4"/>
+	<e:Label id="labTip" text="已完成" y="18" size="24" horizontalCenter="243" visible="false"/>
+</e:Skin>

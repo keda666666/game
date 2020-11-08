@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleMainSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="162615bd395" visible="false"/>
+	<e:Group width="275" height="157" x="2" y="59" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="100%" height="100%" source="ui_hddt_bm_jifenBG" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="123.34" source="ui_hddt_bm_jifenxiantiao" horizontalCenter="0"/>
+		<e:Label id="time" text="结束活动倒计时" y="11" scaleX="1" scaleY="1" style="l_yellow_3" horizontalCenter="0"/>
+		<e:Group width="273" height="125.67" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="title1" text="人族正营  王城积分:125" x="7" y="46" scaleX="1" scaleY="1" style="l_yellow_3"/>
+			<e:Label id="title2" text="人族正营  王城积分:125" x="7" y="70" style="l_yellow_3" scaleX="1" scaleY="1"/>
+			<e:Label id="title3" text="人族正营  王城积分:125" x="7" y="95" style="l_yellow_3" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="mydata" text="我的个人积分：125" x="7" y="131" style="l_yellow_3"/>
+	</e:Group>
+	<ns1:MiniMap id="miniMap" y="59" anchorOffsetX="0" width="262" anchorOffsetY="0" height="205" right="1" skinName="MiniMapSkin"/>
+	<e:Group id="groupAdaptation" width="100%" height="200" x="1" y="1001" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group height="81" y="117" scaleX="1" scaleY="1" left="0" right="99" touchEnabled="false" touchChildren="true">
+			<e:List id="list" width="621" height="81" y="0" anchorOffsetX="0" itemRendererSkinName="CityTypeSkin" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+				<e:layout>
+				<e:HorizontalLayout gap="6"/>
+				</e:layout>
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+		<e:Group id="taskTraceBtn" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="true" x="1.67" scaleX="1" scaleY="1" y="19.67">
+			<e:Image touchEnabled="false" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_renwu"/>
+			<e:Label id="taskTraceText" text="123" x="171" height="33" size="24" scaleX="1" scaleY="1" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" style="l_yellow_2" name="taskTraceName" verticalCenter="15.5" width="146" textAlign="left" verticalAlign="middle" textColor="0x32ff00"/>
+			<e:Label text="争 霸 奖 励" x="106" y="18" style="l_yellow_3" size="24"/>
+			<e:Label text="积 分" x="108" y="51" style="l_yellow_3" size="24"/>
+		</e:Group>
+		<e:Button id="change" label="Button" y="-231.34000000000003" skinName="MainFuncBtnSkin" icon="ui_hddt_bt_bianshen" scaleX="1" scaleY="1" right="3"/>
+		<e:Button id="shouChen" label="Button" y="-223.34" skinName="MainFuncBtnSkin" icon="ui_hddt_bt_zhengzaishoucheng" scaleX="1" scaleY="1" left="0" visible="false"/>
+		<e:Button id="team" label="Button" y="-137.33000000000004" skinName="MainFuncBtnSkin" icon="ui_hddt_bt_zudui" scaleX="1" scaleY="1" right="3" visible="false"/>
+	</e:Group>
+	<e:Group width="200" height="66.67" y="268" anchorOffsetY="0" right="0">
+		<e:Image id="buf1" x="27.649999999999864" y="0.9900000000000091" source="ui_hddt_bm_renzubuff" scaleX="1" scaleY="1"/>
+		<e:Image id="buf2" x="86.33000000000004" y="2.329999999999984" scaleX="1" scaleY="1" source="ui_hddt_bm_xianzubuff"/>
+		<e:Image id="buf3" x="144.31999999999994" y="1.669999999999959" scaleX="1" scaleY="1" source="ui_hddt_bm_mozibuff"/>
+	</e:Group>
+	
+</e:Skin>

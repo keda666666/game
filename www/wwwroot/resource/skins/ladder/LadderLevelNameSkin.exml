@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderLevelNameSkin" width="55" height="217" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,full" >
+	<e:Image horizontalCenter="0" y="28" source="ui_kfwz_bm_bb02"/>
+	<e:Label id="levelLabel" text="青铜二阶" scaleX="1" scaleY="1" size="20" anchorOffsetY="0" anchorOffsetX="0" width="37" y="58" textAlign="center" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Image id="rankImg" y="3.5" horizontalCenter="0" source="" scaleX="0.9" scaleY="0.9"/>
+</e:Skin>

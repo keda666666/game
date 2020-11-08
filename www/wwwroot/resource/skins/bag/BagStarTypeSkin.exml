@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagStarTypeSkin" width="656" height="917" xmlns:e="http://ns.egret.com/eui">
+<e:Group id="starGroup" name="星灵" height="916" anchorOffsetY="0" anchorOffsetX="0" width="655" y="0" x="0">
+		<e:Image height="833" anchorOffsetX="0" width="100%" anchorOffsetY="0" y="0" source="ui_lyb_bg_4" horizontalCenter="0"/>
+		<e:Scroller id="itemStarScroller" anchorOffsetY="0" height="815" width="605" x="33">
+		<e:List id="itemListStar" itemRendererSkinName="ItemSkin" scrollEnabled="true" left="0" right="0" top="0" bottom="18" anchorOffsetY="0" width="418">
+			<e:ArrayCollection>
+					<e:Array>
+						<e:Object label="数据1"/>
+						<e:Object label="数据2"/>
+						<e:Object label="数据3"/>
+						<e:Object label="null"/>
+						<e:Object label="null"/>
+						<e:Object label="null"/>
+						<e:Object label="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			<e:layout>
+			<e:TileLayout requestedColumnCount="5" horizontalGap="25" verticalGap="25" requestedRowCount="4" paddingBottom="20" paddingLeft="10" paddingTop="20" paddingRight="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		
+		<e:Button id="starSmeltBtn" label="分  解" y="850" scaleX="1" scaleY="1" skinName="Btn1TipSkin" horizontalCenter="0"/>
+	</e:Group>
+
+</e:Skin>

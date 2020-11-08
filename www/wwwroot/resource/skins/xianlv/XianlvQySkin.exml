@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianlvQySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162a53d894c"/>
+	<e:Component skinName="BG2"  anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group width="404" y="312" horizontalCenter="0">
+		<e:Image width="100%" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" top="0" bottom="0"/>
+		<e:Label text="仙侣仙缘" x="28" y="21" style="l_yellow_2"/>
+		<e:Label id="levelLabel" text="等级：1" x="29" y="63" style="l_white" size="22"/>
+		<e:Group x="31" y="110">
+			<e:Group id="curGroup" width="266" x="0" y="0">
+				<e:Image x="-53" y="-10" source="ui_bm_tipsfengexian"/>
+				<e:Label text="当前效果" x="-3" y="0" style="l_yellow_2" scaleX="1" scaleY="1" size="24"/>
+				<e:Label id="curValue" text="当前效果" x="45" y="33" scaleX="1" scaleY="1" size="22" style="l_white"/>
+			</e:Group>
+			<e:Group id="nextGroup" width="266" x="0" y="109">
+				<e:Image x="-53" y="-10" source="ui_bm_tipsfengexian"/>
+				<e:Label text="下级效果" x="-3" y="0" style="l_yellow_2" scaleX="1" scaleY="1" size="24"/>
+				<e:Label id="nextValue" text="当前效果" x="45" y="33" scaleX="1" scaleY="1" size="22" style="l_gray"/>
+			</e:Group>
+			<e:Group id="infoGroup" width="266" x="0" y="219" height="100">
+				<e:Image x="-53" y="-10" source="ui_bm_tipsfengexian"/>
+				<e:Label id="conLabel" text="当前效果" x="0" y="0" style="l_yellow_2" scaleX="1" scaleY="1" size="24"/>
+				<e:Label id="curAllLevel" text="当前效果" x="0" y="33" style="l_white" scaleX="1" scaleY="1" size="22"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="21"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

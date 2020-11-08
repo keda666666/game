@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliPracticeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9a5a7c8"/>
+	<e:Image id="logo" x="34" y="273" source="ui_fldt_bm_fuliBanner"/>
+	<e:Image id="bg" width="648.32" height="384" x="35" y="616" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="receiveBtn" x="279" y="1029.34"   label="领取" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+	<ns1:PHBShowPanel id="top3Panel" x="52.33" y="247.68" skinName="ShowPanelSkin"/>
+	<ns1:PHBShowPanel id="top2Panel" x="485.65" y="250.35" skinName="ShowPanelSkin"/>
+	<ns1:PHBShowPanel id="top1Panel" x="268.98" y="301.68" skinName="ShowPanelSkin"/>
+	<ns1:ItemBaseNotName id="item" x="305.33" y="826.67" scaleX="1" scaleY="1"/>
+	<e:Image id="itemGetImg" width="124" height="89" x="291.66" y="830.33" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label text="今日西游历练活跃度:" x="51" y="629" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label id="score" text="80" x="302.99" y="632.33" fontFamily="Microsoft YaHei" size="25" textColor="0x019704"/>
+	<e:Label id="gotoLab" text="前往" x="365.66" y="629" textColor="0x019704" size="26" fontFamily="Microsoft YaHei"/>
+	<e:Label text="世界等级:" x="464.5" y="561" size="23" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+	<e:Label id="worldClassLab" text="999" x="577" y="564.5" size="21" fontFamily="Microsoft YaHei" textColor="0x019704"/>
+	<e:Button id="questionBtn" label="Button" x="621" y="545" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+	<e:Group x="113.67" y="717">
+		<e:ProgressBar id="progressBar" y="22.99" anchorOffsetX="0" anchorOffsetY="0" width="500" x="0">
+			<e:Skin>
+			<e:Image x="0" y="0" width="500" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="500" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Image id="boxImg0" x="118.33" y="1" source="ui_xyll_bm_xiangzi01"/>
+		<e:Image id="selectBoxImg0" source="ui_fldt_bm_baoxiaongtexiao" x="98.85" y="-23.66"/>
+		<e:Image id="gainedImg0" source="ui_fb_bm_yilingqu" y="0" scaleX="0.7" scaleY="0.7" x="110.99" touchEnabled="false"/>
+		<e:Image id="boxImg1" x="261.33" y="1" source="ui_xyll_bm_xiangzi03"/>
+		<e:Image source="ui_fldt_bm_baoxiaongtexiao" x="238.85" y="-22.66" id="selectBoxImg1"/>
+		<e:Image id="gainedImg1" source="ui_fb_bm_yilingqu" y="0" scaleX="0.7" scaleY="0.7" x="253.99" touchEnabled="false"/>
+		<e:Image id="boxImg2" source="ui_xyll_bm_xiangzi05" x="456.33" y="1"/>
+		<e:Image source="ui_fldt_bm_baoxiaongtexiao" x="433.85" y="-19.66" id="selectBoxImg2"/>
+		<e:Image id="gainedImg2" source="ui_fb_bm_yilingqu" y="0" scaleX="0.7" scaleY="0.7" x="448.51" touchEnabled="false"/>
+		<e:Label text="30" x="139.66" y="64.98" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="26" anchorOffsetX="0" width="33"/>
+		<e:Label text="60" x="290.66" y="64.98" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="26" anchorOffsetX="0" width="33"/>
+		<e:Label text="100" x="468.66" y="64.98" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="26" anchorOffsetX="0" width="53"/>
+	</e:Group>
+</e:Skin>

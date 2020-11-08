@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Button id="btnResolve" label="Button" y="146" skinName="Btn0Skin" icon="ui_mg_bt_fenjie" right="30"/>
+	<e:Button id="btnShow" label="Button" y="146" skinName="Btn0Skin" icon="ui_bt_tujian" left="30"/>
+	<e:Image id="uiBg1" source="ui_sbm_002" y="655" width="650" height="370" x="36"/>
+	<ns1:PowerLabel id="powerLabel" y="149" horizontalCenter="0.5" skinName="PowerLabel3Skin"/>
+	<e:Group x="120" y="270">
+		<ns1:DestinyItem y="0" skinName="DestinyItemSkin" id="item0" x="5"/>
+		<ns1:DestinyItem x="177" y="0" skinName="DestinyItemSkin" id="item1"/>
+		<ns1:DestinyItem y="0" skinName="DestinyItemSkin" id="item2" x="349"/>
+		<ns1:DestinyItem y="191" skinName="DestinyItemSkin" id="item3" x="0"/>
+		<ns1:DestinyItem x="174.5" y="191" skinName="DestinyItemSkin" id="item4"/>
+		<ns1:DestinyItem y="191" skinName="DestinyItemSkin" id="item5" x="349"/>
+	</e:Group>
+	<e:Label id="lbGoto1" text="前往获取命格" y="614" style="l_green" x="520"/>
+	<e:Group id="gRect1" x="100" y="695">
+		<ns1:DestinyInfoRect id="info0" y="0" skinName="DestinyRectInfoSkin" x="0"/>
+		<ns1:DestinyInfoRect id="info1" y="0" skinName="DestinyRectInfoSkin" x="310"/>
+		<e:Image source="ui_bm_dz_jiantou" x="230" y="99" anchorOffsetX="0" rotation="270"/>
+		<e:Button id="btnUp" label="升级" x="2.02" y="193" skinName="BtnN2Skin"/>
+		<e:Button id="btnEquip" label="装备" x="355.99" y="193" skinName="BtnN2Skin"/>
+		<e:Label id="lbGetItemNe" text="消耗: 道具名称" x="4.02" y="279.33" style="l_brown_1"/>
+	</e:Group>
+	<e:Group id="gRect0" x="204" y="667.33" visible="false">
+		<e:Button id="goToEquip" label="装备命格" y="276.64" skinName="BtnN2Skin" x="75"/>
+		<e:Label text="点击下方按钮进行装备命格" style="l_brown_1" x="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="gRect2" x="255" y="759.34" visible="false">
+		<ns1:DestinyInfoRect id="info2" y="0" skinName="DestinyRectInfoSkin" x="0"/>
+		<e:Label text="命格已满级" y="167.66" style="l_brown_1" x="40"/>
+	</e:Group>
+</e:Skin>

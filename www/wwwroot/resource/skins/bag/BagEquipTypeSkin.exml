@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagEquipTypeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162681508cb" y="133"/>
+		<e:Group name="装备" height="916" anchorOffsetY="0" anchorOffsetX="0" width="656" horizontalCenter="0" touchEnabled="false" touchChildren="true">
+			<e:Image  width="656" height="872.73" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="140"/>
+			<e:Image scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" y="925" x="10" source="ui_bm_fengexian"/>
+			<e:Scroller id="itemScroller" width="635" height="776" anchorOffsetY="0" y="145" anchorOffsetX="0" horizontalCenter="7.5">
+			<e:List id="itemList" height="432" width="418" left="0" right="0" top="0" bottom="11" itemRendererSkinName="ItemSkin" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:TileLayout requestedColumnCount="5" verticalGap="0" requestedRowCount="4" paddingBottom="20" paddingTop="0" paddingRight="10" horizontalGap="15" paddingLeft="4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="smeltBtn" label="熔炼" y="934" x="510" scaleX="1" scaleY="1" skinName="BtnN1Skin"/>
+			<e:Image x="86" y="948" scaleX="1" scaleY="1" width="129" source="ui_bm_bg"/>
+			<e:Label id="itemCount" text="999/999" x="66" y="954" width="157" height="25" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" style="l_brown_2"/>
+			<e:Button id="addBtn" y="947" icon="ui_bt_plue2" skinName="Btn0Skin" x="202" scaleX="1" scaleY="1"/>
+			<e:Label text="容量：" x="21" y="954" scaleX="1" scaleY="1" width="60" anchorOffsetX="0"  anchorOffsetY="0" height="25"  style="l_brown_2"/>
+		</e:Group>
+</e:Skin>

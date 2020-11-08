@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RideMiniItem1Skin" width="78" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+<ns1:ItemBaseNotName id="item" skinName="ItemSkin" scaleX="0.75" scaleY="0.75" x="-3" y="-1"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingSkillIconSkin" width="94" height="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconImg" width="91" height="91" x="3" y="1" source="ui_icon_jineng00"/>
+	<e:Image id="iconBg" source="ui_cw_bm_zi"/>
+	<e:Image id="useTypeImg" anchorOffsetX="0" anchorOffsetY="0" x="-1" y="0" source="ui_tn_bm_bei"/>
+</e:Skin>

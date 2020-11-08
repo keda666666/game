@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossComeToAttackSkin" width="720" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations>
+		<tween:TweenGroup id="startTween">
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{813}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="450" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{1}" x="{-120}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object alpha="{0.92}" x="{-120}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300" ease="circIn">
+					<tween:props>
+						<e:Object alpha="{0}" x="{-300}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-297}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="450" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{1}" x="{35}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object alpha="{0.81}" x="{35}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300" ease="sineIn">
+					<tween:props>
+						<e:Object x="{214}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+
+	<ns1:CImage id="image0" source="ui_battleMvFront"/>
+	<ns1:CImage id="image2" source="ui_battleMvRole"/>
+</e:Skin>

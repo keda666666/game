@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ItemTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*"
+	xmlns:ns1="*">
+	<w:Config id="1586b36a128"/>
+	<e:Component id="colorCanvas" skinName="BG2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="group1" x="106" width="508" height="296" minHeight="323" anchorOffsetY="0" verticalCenter="0">
+		<e:Component id="BG" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" skinName="LittleBg3" y="0" x="0"/>
+		<e:Group id="group2" y="0" width="100%">
+			<e:Group x="1" y="36" width="100%" height="160">
+				<ns1:ItemIcon id="itemIcon" x="30" y="40" skinName="ItemIconSkin"/>
+				<e:Label id="nameLabel" x="37" y="4"  bold="true" text="道具名称" style="l_brown_1"/>
+
+				<e:Label id="num" y="44" text="数量：9" x="137"  bold="true" style="l_yellow_3"/>
+
+				<e:Label id="lv" y="75" text="等级：1级" x="137" bold="true"  style="l_yellow_3"/>
+
+				<e:Label id="jobLabel1" y="106" text="职业：1级" x="137" bold="true"  style="l_yellow_3"/>
+
+				<e:Label id="power" text="评分：0" y="2" size="24" right="28" style="l_yellow_4"/>
+				<e:BitmapLabel id="powerLabel" text="战斗力 0" letterSpacing="-5" anchorOffsetX="0" anchorOffsetY="0" font="" scaleX="1" scaleY="1" x="29" y="135"/>
+				<e:Image id="lineImg" y="179"  anchorOffsetX="0" anchorOffsetY="0" height="3" source="" x="0"/>
+			</e:Group>
+			<e:Image source="ui_bm_tipsfengexian" x="25" scale9Grid="83,1,4,1" width="501" y="137"/>
+			<e:Group x="0" y="284" scaleX="1" scaleY="1" width="100%">
+				<e:Label id="description" text="使用后获得1000万角色经验值" size="20" fontFamily="Microsoft YaHei" bold="true" width="431" lineSpacing="10" textColor="0xb3eaff" scaleX="1" scaleY="1" multiline="true" x="45"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="16" paddingLeft="0" paddingTop="37" paddingBottom="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

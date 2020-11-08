@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeityEquipMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonWindowBg id="commonWindowBg" />
+	<e:Button id="btnDetail" x="8" y="71" icon="ui_sz_bt_shenzhuanggongming" skinName="Btn0Skin" scaleX="1" scaleY="1"/>
+</e:Skin>

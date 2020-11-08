@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankingKeyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width="126" height="56">
+	<w:Config id="16342ff4f84"/>
+	<e:Image source="ui_phb_bt_btn1" x="0" y="0" visible.up="false"/>
+	<e:Image source="ui_phb_bt_btn2" x="0" y="0" visible.down="false"/>
+	<e:Label id="itemNameTxt" text="战力榜" textColor="0x6c2f0a" size="25" style="l_green" horizontalCenter="0.5" verticalCenter="-1.5" x="26" y="14" fontFamily="Microsoft YaHei"/>
+	<e:Image id="redPointImg" source="ui_bm_reddot" x="96" y="0"/>
+</e:Skin>

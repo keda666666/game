@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" skinName="CommonDialog2Skin" verticalCenter="-53.5" anchorOffsetY="0" height="832.66" x="0"/>
+	<e:Group width="0" height="0" y="242" horizontalCenter="0">
+		<e:Image anchorOffsetX="0" width="562" anchorOffsetY="0" scaleX="1" scaleY="1" source="ui_sbm_002" x="-281" height="643" y="0"/>
+		<e:Label text="BOSS" size="24" style="l_brown_2" y="10.01" x="-218" bold="true"/>
+		<e:Label text="等级" size="24" style="l_brown_2" y="10.01" x="-28" bold="true"/>
+		<e:Label text="复活是否提醒" size="24" style="l_brown_2" y="10.01" x="108" bold="true"/>
+		<e:Scroller height="597" x="-279" y="42">
+		<e:List id="list" y="17" horizontalCenter="0" x="-223" height="597" itemRendererSkinName="BossTipsItemSkin">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		
+	</e:Group>
+	<w:Config id="162aaf6644c"/>
+</e:Skin>

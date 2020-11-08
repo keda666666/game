@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CaiLiaoItemSkin" width="639" height="166" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162d1b66e40"/>
+	<e:Group id="group" width="640" height="170" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="638" height="167" x="0" y="0" source="ui_sbm_005"/>
+		<e:Image width="299" height="32" x="21" y="15" source="ui_fb_bm_cailiaofubenleixingbg"/>
+		<e:Group id="group1" x="342" y="28">
+			<e:Button id="saodangBtn" label="扫荡" x="105" y="42" enabled="true" skinName="BtnN2Skin" scaleX="1" scaleY="1"/>
+			<e:Label id="tipstxt1" text="今日可扫荡次数：0" y="0" scaleX="1" scaleY="1" style="l_brown_2" size="22" x="75"/>
+			<e:Image id="redPoint" x="239" y="35" source="ui_bm_reddot"/>
+			<ns1:PriceIcon id="moneyTxt" width="100" height="20" x="1" y="63"/>
+		</e:Group>
+		<e:List id="itemList" anchorOffsetX="0" y="53" anchorOffsetY="0" height="100" scaleX="1" scaleY="1" itemRendererSkinName="ItemSkin" horizontalCenter="-150">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="top" gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object s="null"/>
+					<e:Object s="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Label id="tipsTxt2" text="角色等级120级开启" x="382" y="72" scaleX="1" scaleY="1" style="l_brown_2" size="26"/>
+		<e:BitmapLabel id="titleName" width="123" height="36" x="113" y="11" font="font_ui_fuben_fnt" anchorOffsetX="0" anchorOffsetY="0" text="锻炼副本"/>
+	</e:Group>
+</e:Skin>

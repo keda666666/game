@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmeltMainViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b3b43d7"/>
+
+	<e:Component/>
+
+	<ns1:CommonWindowBg id="commonWindowBg" skinName="CommonWindowBg2Skin"/>
+
+	<ns1:TabView id="viewStack" touchEnabled="false" touchChildren="true"/>
+
+</e:Skin>

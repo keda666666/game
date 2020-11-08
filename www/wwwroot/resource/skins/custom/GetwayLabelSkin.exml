@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetwayLabelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="102">
+	<w:Config id="15bdce4eb95" ></w:Config>
+	<e:Label id="label" text="获得道具" touchEnabled="false" style="l_green_2" stroke="2" size="24"  />
+	<e:Image id="redPoint" y="-15" x="87" source="ui_bm_reddot" visible="false"/>
+</e:Skin>

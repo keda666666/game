@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClearanceAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" height="480" title="提  示" anchorOffsetY="0" x="0" y="350" skinName="CommonDialogSkin"/>
+	<e:Image y="440" horizontalCenter="5" anchorOffsetY="0" height="260" source="ui_sbm_002" width="620"/>
+	<e:Label id="tips" text="通关长安城奖励" x="269" y="465" size="24" style="l_brown_up" textAlign="left"/>
+	<e:Label id="goodsName" text="玉兔精碎片" x="330" y="536" size="24" style="l_brown_up" textAlign="left"/>
+	<e:Label id="goodsCount" text="数量*50" x="330" y="579" size="24" style="l_brown_up" textAlign="left"/>
+	<ns1:ItemBaseNotName id="gchapreward" x="207" y="513" skinName="ItemSkin"/>
+	<e:Button id="btnGain" width="124" height="54" x="301.7" y="726" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn1Skin" label="领 取"/>
+	<e:Label id="hasGainTip" text="已领取" x="318.67" y="737" size="28" style="l_brown_up" textAlign="left" visible="false"/>
+</e:Skin>

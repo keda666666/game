@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyRectInfoSkin" width="210" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group y="0" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02" y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr0" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="36.33" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02" y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr1" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="71.67" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02" y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr2" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="108" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02" y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr3" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xFFFFFF"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

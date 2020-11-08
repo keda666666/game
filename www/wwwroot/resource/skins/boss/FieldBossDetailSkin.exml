@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FieldBossDetailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" skinName="CommonDialog2Skin" verticalCenter="-2.5" anchorOffsetY="0" height="935.32" x="0"/>
+	<e:Group width="0" height="0" y="242" horizontalCenter="0">
+		<e:Image x="27" y="12" source="ui_fb_bm_cengshubg" scale9Grid="42,5,65,30" width="181" scaleX="1" scaleY="1"/>
+		<e:Label id="bossName" text="BOSS" x="25" y="21" style="l_brown_2" width="187" textAlign="center" size="24" scaleX="1" scaleY="1"/>
+		<e:Image x="-244" y="7" source="ui_boss_bm_taizi"/>
+		<e:ProgressBar id="bar" x="-238" y="171" width="140">
+			<e:Skin>
+			<e:Image source="ui_boss_bm_jingyantiao02" verticalCenter="0" width="100%"/>
+			<e:Image id="thumb" source="ui_boss_bm_jingyantiao01" left="1" right="1" y="1"/>
+			<e:Label id="labelDisplay" width="100" textAlign="center" verticalAlign="middle" size="15" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" stroke="1"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Group y="71">
+			<e:Image width="190" height="30" source="ui_boss_bm_wenbenbg" scaleX="1" scaleY="1" x="98" y="-4"/>
+			<e:Label text="挑战等级:" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="-6"/>
+			<e:Label id="challengeLabel" text="40" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="102"/>
+		</e:Group>
+		<e:Group y="117" x="0">
+			<e:Image width="190" height="30" source="ui_boss_bm_wenbenbg" scaleX="1" scaleY="1" x="98" y="-4"/>
+			<e:Label text="进入条件:" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="-6"/>
+			<e:Label id="enterLabel" text="40" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="102"/>
+		</e:Group>
+		<e:Group y="164" x="0">
+			<e:Image width="190" height="30" source="ui_boss_bm_wenbenbg" scaleX="1" scaleY="1" x="98" y="-4"/>
+			<e:Label text="逃跑时间:" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="-6"/>
+			<e:Label id="runLabel" text="40" size="22" style="l_brown_2" scaleX="1" scaleY="1" x="102"/>
+		</e:Group>
+		<e:Image x="-124" y="211" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+		<e:Label text="固定掉落" y="214" size="24" textAlign="center" x="-72" style="l_brown_2" width="137"/>
+		<e:Image x="-124" y="358" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+		<e:Label text="稀有掉落" y="361" size="24" textAlign="center" x="-72" style="l_brown_2" width="137"/>
+		<e:List id="list1" y="259" itemRendererSkinName="ItemSkin" horizontalCenter="0" scaleX="0.8" scaleY="0.8">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="32"/>
+			</e:layout>
+		</e:List>
+		<e:List id="list2" y="405" itemRendererSkinName="ItemSkin" horizontalCenter="0" scaleX="0.8" scaleY="0.8">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="32"/>
+			</e:layout>
+		</e:List>
+		<e:Image y="500" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" horizontalCenter="0" height="215" width="559"/>
+		<e:Component id="headComp" x="-269" y="559" skinName="HeadSkin"/>
+		<e:Label id="bossOwnerLabel" text="BOSS当前归属：xx（0s）" y="515" size="22" textAlign="center" style="l_brown_2" horizontalCenter="0"/>
+		<e:Label text="1.击杀BOSS后，掉落属于拥有归属权的玩家\n2.击败当前守关玩家可抢占BOSS\n3.玩家拥有BOSS归属权3分钟后即算击杀BOSS\n4.守关过程中可重复挑战BOSS\n5.重复挑战BOSS不需要再消耗挑战令" y="559" size="20" textAlign="left" style="l_brown_2" x="-161" lineSpacing="10"/>
+		<e:Image y="549" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_fengexian" horizontalCenter="0"/>
+		<e:Button id="goBtn" label="挑  战" y="748" skinName="BtnN2Skin" horizontalCenter="0"/>
+		<e:Group id="challengeCardGroup" x="-298" y="760">
+			<e:Image y="4" anchorOffsetX="0" anchorOffsetY="0" height="37" width="122" x="15" source="ui_sbm_002"/>
+			<e:Label id="challengeCard_txt" text="7/15" x="30" y="12" style="l_green" size="20" width="91" textAlign="center"/>
+			<e:Image y="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/image/item_single/2000018.png" x="0" scaleX="0.6" scaleY="0.6"/>
+			<e:Button id="addBtn" label="" icon="ui_bt_plue" y="0" x="114" skinName="Btn0Skin"/>
+		</e:Group>
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="-170" y="168"/>
+	</e:Group>
+	<w:Config id="162aaf6644c"/>
+</e:Skin>

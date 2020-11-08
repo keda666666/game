@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingLongTaItemSkin" width="300" height="295" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="group1" width="300" height="296" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="225" height="182" y="39" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" source="ui_fb_bm_taizi"/>
+		<e:Image width="288" height="152" y="141" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Image width="273" height="15" y="164" source="ui_fb_bm_wenli" horizontalCenter="0.5"/>
+		<e:Label id="lvTxt" text="第12层" y="156" style="l_yellow_4" anchorOffsetX="0" width="153" anchorOffsetY="0" height="28" verticalAlign="middle" textAlign="center" size="24" horizontalCenter="0.5"/>
+		<e:List id="itemList" y="192" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" itemRendererSkinName="ItemSkin" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="92" horizontalCenter="0"/>
+		<e:Image id="pass_img" width="124" height="89" x="86" y="56" anchorOffsetX="0" anchorOffsetY="0" source="ui_fb_bm_yitongguang"/>
+	</e:Group>
+</e:Skin>

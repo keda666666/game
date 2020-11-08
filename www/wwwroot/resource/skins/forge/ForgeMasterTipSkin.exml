@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeMasterTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="active,none,full" >
+	<e:Component width="100%" horizontalCenter="0" skinName="BG2" height="100%"/>
+	<e:Group x="137" y="433">
+		<e:Component skinName="LittleBg3" width="447" x="0" top="0" bottom="-50"/>
+		<e:Group width="380" x="33" y="62">
+			<e:Group height="74" x="50" y="58">
+			<e:Component id="masterBtn" skinName="ForgeMasterBtnSkin" y="-37" anchorOffsetY="0" x="-8" scaleX="1" scaleY="1"/>
+			<e:Label id="effName" text="全身强化" x="105" y="-5" style="l_white_1" size="22" text.none="无"/>
+			<e:Label id="activeLabel" text="已激活" x="105" y="35" size="22" text.none="未激活" style.none="l_white_1" style="l_green_2"/>
+			</e:Group>
+			<e:Group x="10" y="152" includeInLayout.none="false" visible.none="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label text="当前效果：" x="0" y="8" style="l_yellow_4" size="22"/>
+			<e:Label id="curLabel" text="当前效果：" x="0" y="37" style="l_white_1" size="22"/>
+			</e:Group>
+			<e:Group x="20" y="162" includeInLayout.full="false" visible.full="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label text="下级效果：" x="0" y="8" style="l_yellow_4" size="22"/>
+			<e:Label id="nextLabel" text="当前效果：" x="0" y="37" style="l_white_1" size="22"/>
+			</e:Group>
+			<e:Group x="30" y="172" includeInLayout.full="false" visible.full="false">
+			<e:Image x="0" y="0" source="ui_bm_tipsfengexian" width="381"/>
+			<e:Label id="effLabel" text="可提升战斗" x="0" y="8" style="l_yellow_4" size="22"/>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout gap="23"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

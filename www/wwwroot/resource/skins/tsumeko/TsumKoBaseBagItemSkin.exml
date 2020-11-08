@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoBaseBagItemSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162681bec84"/>
+	<ns1:CommonDialog id="commonDialog" height="809.1" title="提  示" anchorOffsetY="0" x="0" y="242.42" skinName="CommonDialog2Skin" anchorOffsetX="0" width="720"/>
+<e:Group name="道具" height="918" anchorOffsetY="0" anchorOffsetX="0" width="656" horizontalCenter="0" touchEnabled="false">
+			<e:Image  width="567" height="562.73" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="368" x="40"/>
+			<e:Scroller id="itemGoodsScroller" width="556" height="534" anchorOffsetY="0" y="382" anchorOffsetX="0" x="44" scrollPolicyH="off">
+			<e:List id="itemListGoods" height="432" width="418" left="0" right="4" top="0" bottom="0" itemRendererSkinName="ItemSkin" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:TileLayout requestedColumnCount="4" verticalGap="0" requestedRowCount="4" paddingBottom="20" paddingTop="0" paddingRight="10" horizontalGap="35" paddingLeft="4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+	<e:Label text="打开宝箱可随机获得以下道具" x="51" y="327" anchorOffsetX="0" width="504" size="24" textColor="0x6e330b" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	<e:Button id="openBtn" label="开启宝箱" y="946" skinName="BtnN2Skin" x="278.52"/>
+	<ns1:PriceIcon id="priceicon" x="447" y="962"/>
+</e:Skin>

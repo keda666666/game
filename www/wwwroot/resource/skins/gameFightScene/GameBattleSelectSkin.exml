@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBattleSelectSkin" width="80" height="153" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="0" height="0" y="153" x="40">
+		<e:Image source="ui_bm_jiantou" x="-23" y="-152" scaleX="1" scaleY="1"/>
+		<e:Group width="80" height="80" y="-80" anchorOffsetX="0" anchorOffsetY="0" x="-40" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

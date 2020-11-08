@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+
+
+
+
+
+
+
+	<ns1:CommonWindowBg id="commonWindowBg" touchEnabled="false" touchChildren="true" skinName="CommonWindowBgSkin"/>
+	<e:Group x="35" y="149" width="650">
+		<e:Image source="ui_sbm_002" y="4" width="660" height="861" horizontalCenter="0" anchorOffsetY="0"/>
+
+	</e:Group>
+	<ns1:TabView id="viewStack" width="640" height="945" selectedIndex="1" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0" y="160" touchThrough="true" horizontalCenter="0"/>
+
+
+
+
+
+	
+</e:Skin>

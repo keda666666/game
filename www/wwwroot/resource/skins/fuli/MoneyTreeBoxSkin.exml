@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoneyTreeBoxSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog"  verticalCenter="18" height="395.67" anchorOffsetY="0"/>
+	<e:Image y="566" anchorOffsetX="0" width="603" anchorOffsetY="0" height="155.67" source="ui_lyb_bg_9gongditu01" x="56"/>
+
+
+
+	<e:Label id="desc" y="529" text="今日使用聚宝盆5次，可额外获得：" textAlign="center" verticalAlign="middle" horizontalCenter="0"  style="l_yellow_3"/>
+
+
+	<e:Button id="sure" label="领 取" y="748" skinName="Btn1Skin" x="283"/>
+
+	<e:Scroller y="585" horizontalCenter="0" skinName="Btn0Skin">
+			<e:List id="list" height="113" y="5" itemRendererSkinName="ItemSkin" x="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object label="数据1"/>
+						<e:Object label="数据2"/>
+						<e:Object label="数据3"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="10" paddingLeft="0"/>
+				</e:layout>
+			</e:List>
+	</e:Scroller>
+
+</e:Skin>

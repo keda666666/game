@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityEndAwardIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="164f95f1b58"/>
+	<e:Label id="titleNameTxt" text="伤害第一玩家" y="0" style="l_brown_1" size="28" horizontalCenter="0"/>
+	<e:Label id="nameTxt" text="玩家名称名称" y="38" size="22" horizontalCenter="0" style="l_blue_2" x="18"/>
+	<e:Image id="icon" y="71" horizontalCenter="0" source="ui_bh_bm_qizi" x="8"/>
+	<e:Image id="iconbg" y="71" horizontalCenter="0" x="84"/>
+	<e:Label id="banghuiTxt" text="" y="104" style="l_white" size="62" horizontalCenter="0"/>
+</e:Skin>

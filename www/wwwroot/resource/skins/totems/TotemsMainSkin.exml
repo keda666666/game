@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16488f18f6a" ></w:Config>
+	<e:Image source="ui_tt_bm_yuanquan" x="93.74" y="180.62"/>
+	<e:Image id="totemsImg" width="234" height="188" x="175.52" y="283.33" anchorOffsetX="0" anchorOffsetY="0" source="ui_vip_bm_xuannv" scaleX="1.5" scaleY="1.5" touchEnabled="false"/>
+	<ns1:PowerLabel id="totalPower" text="战 0" y="579.6" horizontalCenter="11" x="183" skinName="PowerLabel2Skin" anchorOffsetX="0" width="273.67"/>
+	<e:Group id="totemsGroup" x="52.17" y="190.71">
+		<ns1:TotemsItemCom id="Item0" width="126" height="126" x="49" y="-15" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin"/>
+		<ns1:TotemsItemCom width="126" height="126" x="-15" y="111" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item1"/>
+		<ns1:TotemsItemCom width="126" height="126" x="-17" y="237" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item2"/>
+		<ns1:TotemsItemCom width="126" height="126" x="50" y="362" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item3"/>
+		<ns1:TotemsItemCom width="126" height="126" x="457" y="-15" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item4"/>
+		<ns1:TotemsItemCom width="126" height="126" x="516" y="111" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item5"/>
+		<ns1:TotemsItemCom width="126" height="126" x="518" y="237" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item6"/>
+		<ns1:TotemsItemCom width="126" height="126" x="457" y="362" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsItemComSkin" id="Item7"/>
+	</e:Group>
+	<e:Group x="265" y="216">
+		<e:Image y="-1" source="ui_bm_jinengmingchenbg02" x="-10"/>
+		<e:Button skinName="Btn0Skin" id="checkAttr" y="-0.46" scaleX="1" scaleY="1" icon="ui_bt_fangdajing" x="156.95"/>
+		<e:Label id="nameLabel" text="青龙" y="9" size="24" width="176" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" x="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="LvGroup" x="480.32" y="333.34">
+		<e:Image x="6" y="12" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="LvLabel" text="100级" x="13.67" y="22" size="19" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="20.67" verticalAlign="middle" textColor="0xAA6A31" fontFamily="Microsoft YaHei" height="100.34"/>
+	</e:Group>
+	<e:Image id="noImg" y="339.3" x="478.58" source="ui_cw_bm_weijihuo" visible="false"/>
+	<e:Label text="图腾总战力:" x="38" y="152.5" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+	<e:Label text="已激活:" x="573.67" y="151.82" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+	<e:Label id="powerLabel" text="" x="168" y="151" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00ad00"/>
+	<e:Label id="activationLabel" text="" x="659.22" y="150.22" textColor="0x00AD00" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei"/>
+	<e:Image y="680.26" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="322" width="652" x="33.34"/>
+	<ns1:TotemsActivationModelPanel id="totemsActivation" width="652" height="322" x="34" y="682" anchorOffsetX="0" anchorOffsetY="0" skinName="TotemsActivationModelSkin"/>
+	<ns1:TotemsMainModelPanel id="totemsMain" width="652" height="322" x="33" y="682" skinName="TotemsMainModelSkin" visible="false"/>
+	<e:Label id="LvMaxLabel" text="已满级" x="299.67" y="798.34" anchorOffsetX="0" width="97.99" anchorOffsetY="0" height="44.67" fontFamily="Microsoft YaHei" size="30" textColor="0xfc0000" visible="false"/>
+</e:Skin>

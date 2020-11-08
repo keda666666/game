@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TeacherShowReItemSkin" width="650" height="58" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1586b13ea96"/>
+
+	<e:Image id="imgBg" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" height="58" width="650" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Label id="lbNe" text="任务名称" style="l_brown_1" verticalCenter="0" horizontalCenter="-250"/>
+
+	<e:Label id="lbVl" text="已完成" style="l_green" verticalCenter="0" horizontalCenter="-18"/>
+
+
+	<ns1:ItemBase id="item" x="527" y="2" scaleX="0.5" scaleY="0.5"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

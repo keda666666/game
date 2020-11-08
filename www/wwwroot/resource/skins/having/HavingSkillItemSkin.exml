@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingSkillItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="112" states="up,down"  height="214">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0"  horizontalCenter="0" y="47" includeIn="down" source="ui_bm_jinengxuanzhekuang"/>
+	<e:Label id="skillUpName" text="紫金甲" x="3" y="27" style="l_purple_1" anchorOffsetX="0" width="106" textAlign="center" verticalAlign="middle" visible="false"/>
+	<e:Label id="skillBottomName" text="紫金甲" x="3" y="159" style="l_purple_1" anchorOffsetX="0" width="106" textAlign="center" verticalAlign="middle" size="26" visible="false"/>
+	<e:Image id="skillIcon" width="83" height="83" y="68" horizontalCenter="0.5" source="ui_icon_jineng00"/>
+	<e:Image width="96" height="96" y="62" source="ui_bm_jinengkuang" horizontalCenter="0"/>
+</e:Skin>

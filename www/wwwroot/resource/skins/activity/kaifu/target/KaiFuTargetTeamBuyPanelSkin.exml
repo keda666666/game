@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetTeamBuyPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163ef6f166b" source="ui_kfhd_bm_kaifutuangouBanner" visible="false"/>
+	<e:Image x="34" y="273" source="ui_kfhd_bm_kaifutuangouBanner"/>
+
+	<e:Image width="651" height="485.33" x="35" y="511.76" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="645.45" height="479.33" anchorOffsetY="0" y="516" anchorOffsetX="0" scrollPolicyH="off" horizontalCenter="1.5">
+		<e:List id="list" left="0" right="0." top="0" bottom="4." scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="KaiFuJiJieAwardItemSkin">
+
+		<e:layout>
+			<e:VerticalLayout gap="6" paddingTop="9"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="time_txt" text="活动倒计时：12:25:01" y="402" size="22" stroke="1" style="l_white" left="44"/>
+	<e:Label id="people_txt" text="123" y="361" size="22" horizontalCenter="-204.5" style="l_brown_1" visible="false"/>
+	<e:Label id="getwayLabel" text="前往充值" x="572" y="399" size="24" textAlign="left" lineSpacing="24" anchorOffsetY="0" verticalAlign="middle" style="l_green" textColor="0x1ed821" stroke="1"/>
+	<e:TabBar id="tabBar" x="33.18" y="435.34" itemRendererSkinName="BtnTab1Skin" width="660">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+			<e:Object d="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout columnWidth="131" horizontalGap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Label id="allReCharge_label" text="今日充值：" x="331" y="400" size="24" style="l_red"/>
+</e:Skin>

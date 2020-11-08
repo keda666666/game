@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangCreateItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="340"  height="330">
+	<e:Image source="ui_bm_fuwuqibg" x="11" y="11" width="320" height="310" scale9Grid="55,51,64,17"/>
+	<e:Image id="imgChoose" x="0" y="0" source="ui_bm_xuanzhongkuang" scale9Grid="55,51,14,17" width="341" height="331"/>
+	<e:Group x="80" y="20">
+		<e:Image source="ui_fb_bm_cengshubg" x="0" y="0" scale9Grid="26,14,91,13" width="180"/>
+		<e:Label id="labTitle" text="1级帮会" x="45" y="8" style="l_brown_1"/>
+	</e:Group>
+	<e:Label id="labMaxMemTip" text="帮会成员上限：20人" x="20" y="85" style="l_brown_1" size="22"/>
+	<e:Label id="labCopyTip" text="开启2级副本" x="20" y="115" style="l_brown_1" size="22"/>
+	<e:Label text="创建条件：" x="20" y="175" style="l_brown_1" size="22"/>
+	<e:Label id="labLevelTip" text="1.等级达到52级" x="60" y="205" style="l_brown_1" size="22"/>
+	<e:Label id="labVipLevelTip" text="2.Vip等级达到3级" x="60" y="235" style="l_brown_1" size="22"/>
+	<e:Group x="60" y="265">
+		<e:Label text="3.消耗" style="l_brown_2" size="22" x="0" y="0"/>
+		<ns1:PriceIcon id="priceIcon" x="64" y="-4"/>
+	</e:Group>
+	<e:Image id="imgDouble" source="ui_bh_bm_fl" x="11" y="11"/>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GBattleScoreListSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<w:Config id="1586b1383e3" />
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="165" source="ui_sbm_002" anchorOffsetX="0" width="671" anchorOffsetY="0" height="846" x="25"/>
+	<e:Scroller anchorOffsetY="0" height="837" x="30" y="171.67">
+		<e:List id="list" width="660" height="674" y="3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" itemRendererSkinName="GBattleScoreItemSkin"/>
+	</e:Scroller>
+
+
+
+</e:Skin>

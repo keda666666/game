@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CmLabel3Skin" width="144" height="40" xmlns:e="http://ns.egret.com/eui">
+	<e:Image scale9Grid="49,0,37,40" width="100%" source="ui_fb_bm_cengshubg"/>
+	<e:Label id="label" text="" size="24" textAlign="center" x="0" style="l_brown_2" width="100%" y="8"/>
+</e:Skin>

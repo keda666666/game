@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameCatchSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="160b67b7861"/>
+
+	<e:Group id="groupAdaptation" width="100%" height="0" y="838" horizontalCenter="0" touchEnabled="false">
+		<e:Group  x="0" y="-204" height="201" touchEnabled="false" width="100%">
+			<e:Button id="catchPet" label="捕捉" icon="ui_bm_zhuabu" scaleX="1" scaleY="1" y="77" skinName="Btn2Skin" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

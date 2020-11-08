@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossBattleTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Component width="100%" horizontalCenter="0" skinName="BG2" height="100%"/>
+	<e:Group x="137" y="433" anchorOffsetY="0" height="132">
+		<e:Component skinName="LittleBg3" width="447" x="0" top="0" bottom="-50"/>
+		<e:Group width="380" x="33" y="62">
+			<e:Label id="text" text="Label" x="7" y="7" style="l_white_1" size="20" anchorOffsetX="0" width="361"/>
+
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyFriendSkin" width="720" height="1280" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="normal,delete" >
+	<w:Config id="163a5ecf475"/>
+	<e:Image width="651" height="852.03" x="35" y="151" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="scroller" width="645.45" height="732.34" anchorOffsetY="0" y="152.59" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="off" x="37">
+		<e:List id="list" left="0" right="0" top="-174" bottom="174" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="FriendItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="数据3"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout orientation="columns" horizontalGap="0" rowHeight="116" requestedRowCount="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="allGiveBtn" label="一键赠送" x="86" y="904" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN4Skin" label.delete="退出"/>
+	<ns1:PageButton id="pageBtn" y="916" skinName="PageButtonSkin" horizontalCenter="0"/>
+	<e:Button id="deleteBtn" label="删除" x="502" y="902" anchorOffsetY="0" height="62" anchorOffsetX="0" width="126" skinName="BtnN3Skin" visible.delete="false"/>
+	<e:Group x="166" y="970">
+		<e:Label text="赠送次数：" x="0" y="0" style="l_brown_1" size="20"/>
+		<e:Label id="giveCountTxt" text="50/50" x="106" style="l_brown_1" size="20" textAlign="left"/>
+		<e:Label text="我的关注：" x="230" style="l_brown_1" size="20"/>
+		<e:Label id="friendsTxt" text="50/50" x="336" style="l_brown_1" size="20" textAlign="left"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetGodQualitySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1628b2b543e"/>
+	<e:Group id="group" x="35" y="312">
+		<e:Image y="300" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="280.3" width="650" x="0"/>
+		<e:Group x="179.6" y="317.12">
+			<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="294.32" scaleX="-1"/>
+			<e:Label text="宠物被动技能" y="0" style="l_brown_2" x="70.44" size="25"/>
+		</e:Group>
+		<e:Group x="177.46" y="586.2">
+			<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="297.36" scaleX="-1"/>
+			<e:Label text="永久属性加成" y="0" style="l_brown_2" x="73.48" size="25"/>
+			<e:Label text="获得途经:" y="78.18" style="l_brown_2" x="36.51"/>
+			<e:Label id="attr0Txt" text="生命" y="39.72" style="l_brown_2" x="-156.51" size="20"/>
+			<ns1:GetwayLabel id="getwayLabel" width="20" height="20" x="158.92" y="78.96" skinName="GetwayLabelSkin"/>
+		</e:Group>
+		<e:Scroller width="602" height="217.97" x="24.92" y="349.23" anchorOffsetY="0">
+			<e:List id="skillGroup" x="177.27" y="75.76" itemRendererSkinName="PetSkillIcon2Skin" scaleX="1" scaleY="1">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalGap="133" verticalGap="7" paddingLeft="25" paddingRight="2" paddingTop="11" paddingBottom="2"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image y="64" anchorOffsetX="0" anchorOffsetY="0" x="40" source="ui_cw_bm_wenli"/>
+		<e:Component id="skillIcon" x="424" y="117" skinName="PetSkillIcon2Skin"/>
+		<e:Image y="173" anchorOffsetX="0" anchorOffsetY="0" x="418" source="ui_bm_zhu"/>
+		<e:Image id="img01" y="56" anchorOffsetX="0" anchorOffsetY="0" x="22" source="ui_bm_huo"/>
+		<e:Label id="label01" text="100" x="79" y="72" style="l_brown_2" visible="false"/>
+		<e:Label id="skillDesc" text="100" x="314" y="248" style="l_brown_2" size="22" width="315" textAlign="center"/>
+		<ns1:PowerLabel id="powerLabel" y="0" x="129" skinName="PowerLabel2Skin"/>
+		<e:Component id="lbName" skinName="PetNameSkin" horizontalCenter="-184" x="-2" y="265" scaleX="1" scaleY="1"/>
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="144" y="261"/>
+	</e:Group>
+	<e:Group id="showGroup" x="0" y="0" width="720" touchChildren="true" touchEnabled="false">
+		<e:Group id="group0" width="720" height="1280" x="0" y="0" touchEnabled="false" touchChildren="true" name="获得途经">
+			<e:Image x="281" y="403" source="ui_tj_bm_shenchong"/>
+		</e:Group>
+		<e:Image y="309" source="ui_bm_xuanxiangkabg" height="173" x="15" scaleY="-1" anchorOffsetY="0"/>
+		<e:Scroller width="602" height="171" x="66" y="137">
+		<e:List id="petList" itemRendererSkinName="PetHeadSkin" anchorOffsetX="0" width="586.85">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="leftBtn" label="Button" x="36" y="177" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+		<e:Button id="rightBtn" label="Button" x="688" y="177" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RideDressItemSkin" states="up,down,disabled" width="109" height="344" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_bm_cb_wenbenbg" x="14" width="81" height="331"/>
+	<e:Image id="stateImg" y="293" source="ui_yuan" horizontalCenter="0"/>
+	<e:Image source="ui_bm_chibangxuanzhetai" visible.down="true" width="109" height="344" visible="false"/>
+	<e:Label id="nameLabel" text="飞天之一升龙精神健康" y="99" textColor="0xfffaaf" size="30" width="30" textAlign="center" x="40" height="180"/>
+	<e:Image id="imgRed" source="ui_bm_reddot" y="10" x="70"/>
+</e:Skin>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleJingMaiSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="178" x="84" source="ui_jm_bm_jingmai"/>
+	<ns1:PowerLabel id="powerLabel" y="138" skinName="PowerLabel2Skin" horizontalCenter="-0.5"/>
+	<e:Group x="95" y="200">
+		<e:Image y="0" x="0" source="ui_zuoqidengjibg" height="140"/>
+		<e:Label id="stepLabel" text="二十五重" y="12.66" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="28" height="114" verticalAlign="middle" textColor="0xAA6A31" x="4" style="l_orange" size="20" lineSpacing="6"/>
+	</e:Group>
+
+
+
+
+	<e:Group x="493" y="214">
+		<e:Image x="0" y="4" source="ui_jm_bm_wenli"/>
+		<e:Label text="经脉属性" x="43" y="0" size="24" style="l_green"/>
+		<e:Label id="tattr" text="生命" x="43" y="32" style="l_red" size="22"/>
+	</e:Group>
+	<e:Group x="184" y="268">
+		<e:Label id="tname1" text="督脉" x="274" y="434"  size="24" style="l_gray"/>
+		<e:Label id="tname11" text="督脉" y="0"  size="24" style="l_gray" textAlign="right" x="203"/>
+		<e:Label text="督脉" x="34" y="374" size="24" style="l_gray" id="tname2"/>
+		<e:Label text="督脉" x="286" y="334" size="24" style="l_gray" id="tname3"/>
+		<e:Label text="督脉" x="66" y="294"  size="24" style="l_gray" id="tname4"/>
+		<e:Label text="督脉" x="276" y="238"  size="24" style="l_gray" id="tname5"/>
+		<e:Label text="督脉" x="0" y="198" size="24" style="l_gray" id="tname6"/>
+		<e:Label text="督脉" x="6" y="104"  size="24" style="l_gray" id="tname7"/>
+		<e:Label text="督脉" x="182" y="145"  size="24" style="l_gray" id="tname8"/>
+		<e:Label text="督脉" x="354" y="160" size="24"  id="tname9" style="l_green_2"/>
+		<e:Label text="督脉" x="180" y="62"  size="24" style="l_gray" id="tname10"/>
+	</e:Group>
+
+	<e:Group id="conGroup" x="234" y="262">
+		<e:Image y="436" x="184" source="ui_jm_bm_tupo02"/>
+		<e:Image y="374" x="34" source="ui_jm_bm_tupo02"/>
+		<e:Image y="334" x="198" source="ui_jm_bm_tupo02"/>
+		<e:Image y="296" x="66" source="ui_jm_bm_tupo02"/>
+		<e:Image y="238" x="186" source="ui_jm_bm_tupo02"/>
+		<e:Image y="198" x="0" source="ui_jm_bm_tupo02"/>
+		<e:Image y="106" x="4" source="ui_jm_bm_tupo02"/>
+		<e:Image y="176" x="138" source="ui_jm_bm_tupo02"/>
+		<e:Image y="158" x="262" source="ui_jm_bm_tupo02"/>
+		<e:Image y="60" x="182" source="ui_jm_bm_tupo02"/>
+		<e:Image y="-4" x="104" source="ui_jm_bm_tupo02" scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="selectEff" x="175.5" y="428" source="ui_jm_bm_guangquan" scaleX="1" scaleY="1" touchEnabled="false"/>
+	</e:Group>
+	<e:Group width="0" height="0" x="72" y="776">
+		<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="650" source="ui_sbm_002" x="-36" height="230" y="-8"/>
+		<e:Group x="140.00000000000003" y="0" scaleX="1" scaleY="1">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+			<e:Label text="经脉总属性" y="0" size="24" textAlign="center" style="l_brown_2" horizontalCenter="1.5" width="174"/>
+		</e:Group>
+		<e:Label id="totalAttr0" text="经脉总属性" y="34" size="24" style="l_brown_2" width="153" x="0" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr1" text="经脉总属性" y="34" size="24" style="l_brown_2" width="150" x="154" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr2" text="经脉总属性" y="34" size="24" style="l_brown_2" width="145" x="305.00000000000006" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr3" text="经脉总属性" y="34" size="24" style="l_brown_2" width="145" x="451" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr4" text="经脉总属性" y="70" size="24" style="l_brown_2" width="153" x="0" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr5" text="经脉总属性" y="70" size="24" style="l_brown_2" width="150" x="154" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr6" text="经脉总属性" y="70" size="24" style="l_brown_2" width="145" x="305.00000000000006" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Label id="totalAttr7" text="经脉总属性" y="70" size="24" style="l_brown_2" width="145" x="451" anchorOffsetX="0" anchorOffsetY="0" height="30" scaleX="1" scaleY="1"/>
+		<e:Image y="103.99999999999989" source="ui_bm_tipsfengexian" width="500" x="43.000000000000014" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+	<e:Group id="attGroup" x="72" y="776">
+
+
+
+
+
+
+
+
+
+
+
+		<ns1:NeedItemView id="needItemView" x="56" y="110" scaleX="1" scaleY="1"/>
+		<e:Button id="btnUp" label="激 活" x="338" y="128" skinName="BtnN2Skin"/>
+	</e:Group>
+	<e:Label id="fullLabel" text="已满级" y="921" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" width="319" textAlign="center" x="201"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

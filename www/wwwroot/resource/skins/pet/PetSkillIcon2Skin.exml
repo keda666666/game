@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetSkillIcon2Skin" width="94" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image id="iconImg" source="ui_skill_31" width="91" height="91" x="2" y="2"/>
+	<e:Image id="iconBg" source="ui_cw_bm_zi" width="94" height="94"/>
+	<e:Label id="skillName" text="Label" y="101" size="22" horizontalCenter="0" style="l_brown_1"/>
+	<e:Image id="iconType" y="54" anchorOffsetX="0" anchorOffsetY="0" x="-3" source="ui_bm_zhu" visible="false"/>
+</e:Skin>

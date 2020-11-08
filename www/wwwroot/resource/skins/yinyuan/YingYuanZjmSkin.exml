@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanZjmSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<e:Image y="907.67" anchorOffsetX="0" width="171" anchorOffsetY="0" height="213.33" alpha="1" horizontalCenter="261.5" source="ui_cm_bm_bg"/>
+	<e:Label text="您的伴侣上线了！" y="1021.02" style="l_green_1" x="544.98" size="20" textColor="0xffffff"/>
+	<e:Component id="face" y="919.66" x="573.67" skinName="HeadSkin2"/>
+	<e:Button id="closeBtn" y="1048.33" icon="" anchorOffsetX="0" anchorOffsetY="0" label="退出(5)" horizontalCenter="260" skinName="BtnN4Skin"/>
+</e:Skin>

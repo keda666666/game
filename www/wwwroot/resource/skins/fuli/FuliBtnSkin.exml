@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliBtnSkin" states="up,down,disabled" width="126" height="126" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_bm_jinengkuang" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="icon" horizontalCenter="0" verticalCenter="6.5" source="ui_fldt_bt_fuli"/>
+	<e:Image source="ui_bm_jinengxuanzhekuang" visible.down="true" visible.up="false"/>
+    <e:Image id="redPoint" source="ui_bm_reddot" touchEnabled="false" x="76" y="17" visible="false"/>
+</e:Skin>

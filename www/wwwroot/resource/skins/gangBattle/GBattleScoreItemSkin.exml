@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GBattleScoreItemSkin" width="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="179">
+	<w:Config id="1586b1383e3" />
+	<e:Image width="100%" height="100%" x="0" y="2" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_shangchengbg"/>
+	<e:Image y="4" source="ui_hddt_bm_duiwumingchengBG" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="35" x="0"/>
+
+	<e:Label id="labText" text="积分礼包" x="13" y="10" style="l_orange" size="20" textColor="0x6e330b"/>
+	<e:Image id="imgGained" x="504" y="86" anchorOffsetX="0" anchorOffsetY="0" source="ui_vip_bm_yilingqu"/>
+	<e:Button id="btnGain" label="领 取" x="482" y="81" skinName="BtnN2Skin"/>
+	<e:Label id="labScore" text="1000/1000" y="54" size="20" textColor="0x32ff00" textAlign="center" width="103" height="20" right="47" verticalAlign="middle" style="l_green"/>
+	<e:Label id="labUndone" text="未达成" x="524" y="96" style="l_red"/>
+
+	<e:List id="list" width="462" height="128" x="7" y="47" anchorOffsetY="0" itemRendererSkinName="ItemSkin" anchorOffsetX="0">
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:List>
+
+
+
+
+</e:Skin>

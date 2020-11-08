@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ActivityItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" width="638" height="200">
+	<w:Config id="1586b1383e3" />
+	<e:Image id="typeImg" source="ui_hddt_bm_kszdBG" y="1"/>
+	<e:Image id="titleImg" x="0" y="0" source="ui_hddt_bm_ksdz"/>
+	<e:Group id="descGroup" x="314" y="52">
+		<e:Image x="0" y="0" source="shuoming"/>
+		<e:Label id="tipTxt" text="说明" size="20" textAlign="center" x="26" y="0" style="l_green_2"/>
+	</e:Group>
+	<e:Label id="timeDesc0" text="活动时间：20:00-20:20" size="20" textAlign="center" x="108" style="label01" y="18" stroke="2"/>
+
+	<e:Label id="timeDesc1" text="每周三、五、日开启" size="22" textAlign="center" x="108" style="label01" y="50" stroke="2"/>
+	<e:List id="list" anchorOffsetY="0" x="98" itemRendererSkinName="ItemSkin" y="82">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="ranKBtn" label="Button" x="538" y="28" skinName="Btn0Skin" icon="ui_hddt_bt_paihang"/>
+	<e:Label id="goTxt" text="马上前往" size="22" textAlign="center" x="535" y="139" stroke="2" style="l_green_2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

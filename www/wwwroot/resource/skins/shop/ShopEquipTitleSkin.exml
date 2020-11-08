@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopEquipTitleSkin" width="214" height="76" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.down="214" height.down="76">
+	<e:Image id="imgBg" horizontalCenter="0" verticalCenter="0" source.down="ui_bt_fuwuqi0" source.up="ui_bt_fuwuqi02" source="ui_bt_fuwuqi02"/>
+	<e:Label id="lbNe" verticalAlign="middle" textAlign="center" text="确定" style="l_brown_up" style.down="l_brown_down" size="26" size.down="26" textAlign.down="center" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

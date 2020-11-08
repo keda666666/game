@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FbRankSkin" width="310" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162ae48e599"/>
+	<e:Image source="ui_fb_bm_paimingbg" width="310" height="152"/>
+	<e:Label text="关卡排名" x="55" y="14" style="l_yellow_2" size="20"/>
+	<e:Label id="rankBtn" text="查看排名" x="165" y="14" size="20" style="l_green" name="btn"/>
+	<e:Group width="0" height="0" x="12" y="50">
+		<e:Label text="1" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0xd27702"/>
+		<e:Label id="name01" text="暂无" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="center" textColor="0xd27702"/>
+		<e:Label id="ca01" text="0关" x="202" y="0" size="20" scaleX="1" scaleY="1" width="86" textAlign="right" textColor="0xd27702"/>
+	</e:Group>
+	<e:Group width="0" height="0" x="12" y="88">
+		<e:Label text="2" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0xc500ff"/>
+		<e:Label id="name02" text="暂无" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="center" textColor="0xc500ff"/>
+		<e:Label id="ca02" text="0关" x="202" y="0" size="20" scaleX="1" scaleY="1" width="86" textAlign="right" textColor="0xc500ff"/>
+	</e:Group>
+
+    <e:Group width="0" height="0" x="12" y="122">
+		<e:Label text="3" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0x1147ff"/>
+		<e:Label id="name03" text="暂无" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="center" textColor="0x1147ff"/>
+		<e:Label id="ca03" text="0关" x="202" y="0" size="20" scaleX="1" scaleY="1" width="86" textAlign="right" textColor="0x1147ff"/>
+	</e:Group>
+</e:Skin>

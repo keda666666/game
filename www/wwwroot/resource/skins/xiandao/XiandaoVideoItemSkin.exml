@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoVideoItemSkin" width="630" height="89" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1637286cb9e" visible="false"/>
+	<e:Image id="bg" height="90" width="630" source="ui_sbm_005"/>
+	<e:Label id="turn" text="第一局" style="l_brown_1" x="27" verticalCenter="0" size="22" width="100"/>
+	<e:Group y="42" height="30" x="205" width="0">
+		<e:Image id="retImg1" y="5" source="ui_xdh_bm_icon_sheng" horizontalCenter="0"/>
+		<e:Label id="nameLabel1" text="name" style="l_brown_1" textAlign="center" y="-36" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="42" height="30" x="462" width="0">
+		<e:Image id="retImg2" y="5" source="ui_xdh_bm_icon_sheng" horizontalCenter="0"/>
+		<e:Label id="nameLabel2" text="name" style="l_brown_1" textAlign="center" y="-36" horizontalCenter="0"/>
+	</e:Group>
+	<e:Label id="scoreLabel" text="VS" x="323" textAlign="right" style="l_green" y="11" size="24"/>
+	<e:Label id="videoLabel" text="对战记录" x="292" textAlign="right" style="l_green" y="51" size="24"/>
+</e:Skin>

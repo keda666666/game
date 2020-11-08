@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUpLevelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="1628afab306"/>
+	<e:Group id="group" x="26" y="305" touchEnabled="false" touchChildren="true">
+		<e:Image y="-53" x="8" source="ui_bm_jsbg" locked="true"/>
+		<e:Image y="506" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="191" width="650" x="9"/>
+		<e:Group y="88" horizontalCenter="0" height="37">
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="30" paddingLeft="65"/>
+			</e:layout>
+			<e:Component id="lbName" skinName="PetNameSkin" horizontalCenter="0" x="-2" y="-94" scaleX="1" scaleY="1"/>
+			<e:Button id="btnRename" x="150" y="-10" skinName="Btn0Skin" icon="ui_bt_gaiming" scaleX="1" scaleY="1" width="32" height="37"/>
+		</e:Group>
+		<e:Label id="lbPower" text="宠物总战力：999" x="65" y="475" size="24" fontFamily="Microsoft YaHei" textColor="0x835325"/>
+		<e:Label id="lbActive" text="已激活：9" x="473" y="475" size="24" fontFamily="Microsoft YaHei" textColor="0x835325" textAlign="right" width="185"/>
+		<e:Button id="btnSC" x="57" y="57.52" icon="ui_bt_tujian" skinName="Btn0Skin"/>
+		<e:Button id="btnYuanfen" x="57" y="158" icon="ui_sj_bt_yuanfen" scaleX="1" scaleY="1" skinName="Btn0TipSkin"/>
+		<e:Button id="btnZizhi" x="57" y="259" icon="ui_bt_zizhi" scaleX="1" scaleY="1" skinName="Btn0TipSkin"/>
+		<e:Label text="宠物已满级" y="588" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" x="259" visible.normal="false"/>
+		<e:Group id="btnGp" y="367" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Button id="btnFeis" y="0" icon="ui_bt_feisheng" x="90" skinName="Btn0TipSkin" width="82"/>
+			<e:Button id="btnShow" y="10" icon="ui_bt_zhanshi" x="90" skinName="Btn0TipSkin" width="82"/>
+			<e:Button id="btnZZ" y="0" icon="ui_bt_xiuxi" x="159" skinName="Btn0TipSkin" width="82"/>
+			<e:layout>
+			<e:HorizontalLayout gap="9"/>
+			</e:layout>
+		</e:Group>
+		<e:Component id="skillComp" x="547" y="361" skinName="PetSkillIconSkin"/>
+		<e:Image x="565" y="434" source="ui_bm_jineng"/>
+		<e:Group x="29" y="519" visible.full="false">
+			<e:Button id="btnAdd" x="57" y="93" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级"/>
+			<e:Button id="btnCulture" x="392" y="93"   label="自动升级" skinName="BtnN2Skin"/>
+			<e:ProgressBar id="bar" y="0" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" x="6">
+			<e:Skin>
+				<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<ns1:ConsumeTwoLabel id="consumeLabel" x="0" y="45"/>
+			<e:CheckBox id="checkBox" x="395" y="37" label="自动购买" skinName="CheckBox0"/>
+		</e:Group>
+		<e:Image x="477" y="204" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="lbLev" text="1\n级" y="192" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" height="139" verticalAlign="middle" textColor="0xAA6A31" horizontalCenter="165.5"/>
+		<e:Button id="showAllAttr" x="0" y="441" skinName="Btn0Skin" icon="ui_bt_jiacheng"/>
+		<e:Image id="wuxingImg" x="468" y="136" source="ui_bm_huo"/>
+		<ns1:PowerLabel id="powerLabel" skinName="PowerLabel3Skin" y="16" x="138"/>
+		<e:Group width="0" height="0" y="310" horizontalCenter="4">
+			<ns1:PetShowPanel id="petShowPanel"/>
+		</e:Group>
+		<e:Image id="imgShen" source="ui_tj_bm_shenchong" x="147" y="193"/>
+	</e:Group>
+</e:Skin>

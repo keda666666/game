@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleEnterTempleTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="530" title="提  示" anchorOffsetY="0" x="0" y="357" skinName="CommonDialog2Skin"/>
+	<e:Image y="472" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="270" width="560" x="80"/>
+	<e:Image source="ui_kfbz_bm_banshenxiang" x="82" y="473"/>
+	<e:Button id="btnEnter" x="290" y="786"   label="进 入" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" width="140" anchorOffsetY="0" height="70"/>
+	<e:Label id="labGangName1" text="帮派名字六字.s999" y="495" style="l_brown_1" size="22" horizontalCenter="154.5"/>
+	<e:Label id="labGangName2" text="帮派名字六字.s999" y="525" style="l_brown_1" size="22" horizontalCenter="154.5"/>
+	<e:Label id="labGangName3" text="帮派名字六字.s999" y="555" style="l_brown_1" size="22" horizontalCenter="154.5"/>
+	<e:Label text="以上帮会获得龙殿进入资格龙殿占领神龙鼎时长最久的帮会获得胜利" y="604" style="l_brown_1" size="22" horizontalCenter="145" width="265" height="90" textAlign="center"/>
+	<e:Group id="groupDuration" x="218" y="758">
+		<e:Label text="龙殿开战倒计时：" y="0" style="l_brown_1" size="22" textAlign="center" x="0"/>
+		<ns1:DurationLabel id="durationLab" x="174" y="0" skinName="DurationLabelSkin"/>
+	</e:Group>
+</e:Skin>

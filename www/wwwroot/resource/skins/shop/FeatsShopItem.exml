@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FeatsShopItem" width="435" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bdea66d"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group x="0" y="0">
+		<e:Image width="435" height="120" source="ui_sbm_005" x="0" y="0"/>
+		<e:Image source="ui_sbm_002" width="148" height="36" x="114" y="68"/>
+		<ns1:PriceIcon id="priceIcon" x="124" y="71" skinName="PriceIconSkin"/>
+		<e:Label id="lbInfo" text="限购(0/2)" y="17" size="20" verticalAlign="middle" textAlign="center" style="l_green_1" horizontalCenter="132.5"/>
+		<e:Button id="buy" label="购买" x="288" y="50" skinName="Btn2Skin"/>
+		<e:Label id="nameLabel" text="羽毛" y="9" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_yellow_3" size="26" x="114"/>
+		<e:Image id="imgSellOut" source="ui_bm_yishouqing" x="292" y="26" visible="false"/>
+		<e:Image id="imgXiyou" source="ui_bm_xiyou" x="4" y="3" visible="false"/>
+
+		<ns1:ItemBase id="itemIcon" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Group x="114" y="41">
+			<e:Label id="lbLv" text="Lv.1" x="0" y="0" style="l_brown_1" size="20"/>
+			<e:Label id="LvTipsTxt" text="(等级不足)" x="44" y="0" style="l_red" size="20"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+ 
+	<!--<ns1:BaseComponent id="itemIcon" x="18" skinName="ItemIconSkin" className="ItemIcon" y="16"/>-->
+
+
+</e:Skin>

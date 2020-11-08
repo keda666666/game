@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureArrRectInfo" width="250" height="255" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="20" y="74">
+		<e:Group x="0" y="0">
+			<e:Image source="ui_boss_bm_jingyantiao02"  y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr0" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group y="39.5" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02"  y="0" width="210" height="32" horizontalCenter="0"/>
+			<e:Label id="lbArr1" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group y="79" x="0">
+			<e:Image source="ui_boss_bm_jingyantiao02"  y="0" width="210" height="32" x="0"/>
+			<e:Label id="lbArr2" text="属性" y="6" style="l_brown_1" size="20" verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xffffff"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lbTitle" text="当前属性" y="19" horizontalCenter="0" style="l_brown_1"/>
+	<e:Label id="lbBaseAtt" text="基础属性" y="39" horizontalCenter="0" style="l_blue" visible="false"/>
+	<e:Label id="lbSkillInfo" text="害伤害伤害伤害伤害伤害害伤害伤害伤害伤害伤害" y="190" width="208" textAlign="left" horizontalCenter="0" style="l_brown_1" size="20"/>
+</e:Skin>

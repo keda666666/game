@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangPanTanHuiListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="629"   height="36">
+	<e:Label id="info" text="2018-03-27" x="16" y="8" style="l_brown_1" size="20" verticalAlign="middle"/>
+</e:Skin>

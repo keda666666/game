@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingRecordListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="680" states="up,down"  height="145">
+	<e:Image source="ui_qj_bm_bg" scale9Grid="60,0,82,144" x="3" y="0.5" width="674"/>
+	<e:Label id="labTip" text="" x="15" y="9" size="22"/>
+	<e:Image source="ui_qj_bm_fuchoujiangli" x="26" y="67"/>
+	<e:Button id="btnRevenge" x="510" y="60"   label="复  仇" scaleX="1" scaleY="1" skinName="BtnN2Skin" width="150" height="60"/>
+	<e:Label id="labRevenge" text="复仇成功" x="521" y="76"/>
+	<e:List id="list" y="35" anchorOffsetY="0" itemRendererSkinName="ItemSkin" anchorOffsetX="0" left="78">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="-3"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

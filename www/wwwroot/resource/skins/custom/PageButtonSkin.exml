@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="187">
+	<w:Config id="15b6cf3fa10" ></w:Config>
+	<e:Group x="37">
+		<e:Button id="leftBtn" label="Button" skinName="Btn0Skin" icon="ui_phb_bt_qieye" rotation="180" y="36"/>
+		<e:Image height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="2" x="6" width="100"/>
+		<e:Label id="pageTxt" text="1/16" x="6" y="8" size="19" style="l_white" width="100" textAlign="center"/>
+		<e:Button id="rightBtn" label="Button" x="112" y="0" skinName="Btn0Skin" icon="ui_phb_bt_qieye"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyShowSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<ns1:CommonDialog id="commonDialog" height="730" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" skinName="CommonDialog2Skin" title="命格图鉴"/>
+	<e:Group x="65" y="353">
+		<e:Image width="590" height="566" y="0" source="ui_sbm_002" horizontalCenter="0"/>
+		<e:Scroller width="580" height="554" y="6.01" x="5">
+			<e:List id="listView" itemRendererSkinName="DestinyShowRectSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

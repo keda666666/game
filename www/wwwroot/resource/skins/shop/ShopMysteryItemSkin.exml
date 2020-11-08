@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopMysteryItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="320" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_shangchengbg" x="1" y="0" scale9Grid="62,59,192,46" height="167"/>
+	<e:Image source="ui_bm_fengexian" y="39" horizontalCenter="0" width="300"/>
+	<e:Label id="name_txt" text="羽毛" y="6.5" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="24" style="l_brown_1" horizontalCenter="0"/>
+	<e:Group x="116.5" y="46.5">
+		<e:Label text="原价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="22" style="l_brown_1" x="-1" borderColor="0x020202" backgroundColor="0x000000"/>
+		<ns1:PriceIcon xmlns:ns1="*" id="priceIcon0" horizontalCenter="24" verticalCenter="0"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="116.5" y="76.51">
+		<e:Label text="现价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="22" x="-1"/>
+		<ns1:PriceIcon xmlns:ns1="*" id="priceIcon1" x="49" y="0"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<ns1:ItemBase id="itemIcon" left="11" scaleX="0.92" scaleY="0.92" y="39" anchorOffsetY="0"/>
+	<e:Rect width="185" height="1" x="113" y="59"/>
+	<e:Label id="limit_txt" text="限购：0/1" y="115" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="22" x="116"/>
+	<e:Image id="imgSellOut" source="ui_bm_yishouqing" x="158" y="70"/>
+	<e:Image id="discountImg" x="-3" y="-4" touchEnabled="false" source=""/>
+</e:Skin>

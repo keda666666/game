@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGoldTreeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9a5a7c8"/>
+	<e:Image id="bg" width="654" height="232" y="768.96" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5"/>
+	<ns1:ConsumeTwoLabel id="consumeLabel" y="824.9" horizontalCenter="0"/>
+	<e:Image x="35" y="274.13" source="ui_fldt_bt_bj"/>
+	<e:Label id="acquisitionLabel" text="" y="788" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="30" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Label id="nowCountLabel" text="" y="966" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" textColor="0x00ad00" anchorOffsetY="0" height="23.97" width="260" textAlign="center" x="230"/>
+	<e:Label id="countLabel" text="5次" x="97" y="358" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" anchorOffsetY="0" height="23.97" textColor="0x00fd00"/>
+	<e:Label id="surplusCountLabel" text="" y="359" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" textColor="0x00FD00" anchorOffsetY="0" height="23.97" horizontalCenter="267"/>
+	<e:Label id="vipCountLabel" text="" y="966" textColor="0x6E330B" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" right="60"/>
+	<e:Button id="goBtn" y="878.08"   label="摇一摇" scaleX="1" scaleY="1" skinName="BtnN2Skin" x="280"/>
+	<e:Group id="playerEffGroup" x="282.98" y="321.34">
+		<e:Image id="playerLogoImg" scaleY="1" y="166" x="80" anchorOffsetX="78" anchorOffsetY="169" source=""/>
+	</e:Group>
+	<e:Group x="31.8" y="726.56">
+		<e:Image id="ImgBg" y="1.33" scaleX="1" scaleY="1" x="0" height="57" source="ui_bm_zhanlibg" anchorOffsetX="0" width="650.09"/>
+		<e:Image id="describeImg0" source="" bottom="15" right="236" height="32"/>
+		<e:Image id="describeImg1" bottom="14" left="414" source=""/>
+	</e:Group>
+	<e:Group x="182.22" y="434.67" width="342">
+		<e:Image id="describeImg2" source="" bottom="0" right="103"/>
+		<e:Image id="describeImg3" left="239" bottom="0" source=""/>
+	</e:Group>
+	<e:Button id="boxImg" skinName="Btn0TipSkin" icon="ui_xyll_bm_xiangzi05" horizontalCenter="-271" verticalCenter="-321" scaleX="-1" width="75" height="64"/>
+	<e:Image x="144.35" y="266.35" scaleX="-1" touchEnabled="false" source=""/>
+	<e:Image source="ui_fldt_bt_jindutiao" x="596" y="294"/>
+	<e:Label id="ReceiveLabel" text="可领取" x="57" y="387" size="22" textColor="0xdefc64" fontFamily="Microsoft YaHei"/>
+	<e:Label id="label2" text="再摇" x="46" y="358" size="21" textColor="0xDEFC64" fontFamily="Microsoft YaHei"/>
+	<e:Label id="addLabel" text="" y="384" size="22" textColor="0xDEFC64" fontFamily="Microsoft YaHei" horizontalCenter="269.5"/>
+	<e:Label id="freeLabel" text="本次免费" y="833" anchorOffsetX="0" anchorOffsetY="0" height="34" textColor="0x6e330b" fontFamily="Microsoft YaHei" size="26" x="308"/>
+	<e:Group id="effGroup" width="331" height="146" x="189.82" y="535.84" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyRetrieveCountSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="420" title="提  示" anchorOffsetY="0" x="0" y="415" skinName="CommonDialog2Skin"/>
+	<e:Button id="btnRetrieve" x="295" y="720"   label="确 定" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group x="120" y="585.67">
+		<e:Button id="btnMinues" label="最小" x="0" y="0" skinName="Btn0Skin" icon="ui_bt_jian"/>
+		<e:Button id="btnAdd" label="最大" x="460" y="0.33" skinName="Btn0Skin" icon="ui_bt_plue"/>
+		<e:HSlider id="sliderRetrieve" width="400" height="25" x="53" y="9.33">
+		<e:Skin>
+			<e:Image id="track" scale9Grid="1,1,4,4" width="400" height="25" source="ui_bm_zuoqijingyantiao"/>
+			<e:Image id="thumb" verticalCenter="0" source="ui_xyll_bt_yuan" scaleX="1" scaleY="1"/>
+		</e:Skin>
+		</e:HSlider>
+	</e:Group>
+	<e:Label id="labNameTip" text="师门任务（可找回3次）" y="519" style="l_brown_1" horizontalCenter="0"/>
+	<e:Label id="labCostTip" text="总价：1000元宝(找回5次)" y="674" style="l_brown_1" horizontalCenter="0"/>
+</e:Skin>

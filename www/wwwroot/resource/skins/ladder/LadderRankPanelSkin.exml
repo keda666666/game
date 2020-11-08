@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderRankPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15fcde644c6"/>
+	<e:Image width="651" height="768" y="147" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" x="34"/>
+	<e:Scroller width="680" height="707" y="207" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" horizontalCenter="0">
+		<e:List id="list" x="-3" y="30" itemRendererSkinName="TiantiRankItem" anchorOffsetX="0">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="3" paddingLeft="22" paddingTop="3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="我的战绩：" y="948" x="37" style="l_brown_1" size="22"/>
+	<e:Label id="myRank" text="排名：100" y="947" x="296" style="l_brown_1" size="22"/>
+	<e:Label id="WinNum" text="净胜场：100场" y="948" x="495" style="l_brown_1" size="22"/>
+	<ns1:LadderLevelIcon id="levelIcon" x="149" y="926"/>
+	<e:Group width="200" height="47" x="43" y="156">
+		<e:Label text="排名" x="30" y="9" style="l_brown_1"/>
+		<e:Label text="段位" x="173" y="9" style="l_brown_1"/>
+		<e:Label text="名称" x="348" y="9" style="l_brown_1"/>
+		<e:Label text="净胜场" x="526" y="9" style="l_brown_1"/>
+	</e:Group>
+</e:Skin>
+

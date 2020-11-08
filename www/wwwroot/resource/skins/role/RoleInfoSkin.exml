@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RoleInfoSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<w:Config id="1586b1383e3" />
+
+	<e:Group width="720" height="0" y="68" x="0" touchEnabled="false" touchChildren="true">
+
+
+		<e:Button id="dressBtn"  x="147.16" y="168" icon="ui_bt_shizhuang" skinName="Btn0TipSkin"/>
+		<e:Button id="roleTitle" y="168" icon="ui_bt_chenhao" x="252.53" skinName="Btn0TipSkin"/>
+		<e:Button id="btnDeityEquip" x="359" y="168" icon="ui_bt_shenzhuang" skinName="Btn0TipSkin"/>
+		<e:Button id="bless" x="464.91" y="168" icon="ui_bt_fabao" skinName="Btn0TipSkin"/>
+		<e:Image y="84" scaleX="1" scaleY="1" source="ui_bm_jingyanbg" x="53" height="57"/>
+		<e:Image y="293" scaleX="1" scaleY="1" source="ui_bm_zhanlibg" horizontalCenter="18" height="63"/>
+		<ns1:PowerLabel id="totalPower" text="战 0" y="310" horizontalCenter="0"/>
+		<e:Button skinName="Btn0Skin" id="checkAttr" y="300" scaleX="1" scaleY="1" icon="ui_bt_fangdajing" x="457"/>
+		<e:Image y="349" scaleX="1" scaleY="1" source="ui_bm_jsbg" x="34"/>
+		<e:Label text="等级：" x="79" y="98" textColor="0x6e330b" size="26"/>
+		<e:Label id="levelLabel" text="1" x="151" y="98" textColor="0x019704" size="26"/>
+		<e:Label id="expLabel" text="0/100" x="279" y="98" textColor="0x019704" size="26"/>
+		<e:Label text="经验：" x="205" y="98" textColor="0x6E330B" size="26"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="685" horizontalCenter="0" width="4"/>
+
+		<e:Button id="oneKeyChange" label="一键装备" y="738" horizontalCenter="0.5" skinName="BtnN2Skin" x="280" scaleX="1" scaleY="1"/>
+		<e:Button id="upgreadBtn" label="升 级" y="79" x="528" scaleX="1" scaleY="1" skinName="BtnN1Skin"/>
+		<e:Group y="158" anchorOffsetX="0" width="641" anchorOffsetY="0" height="497" x="32" scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false">
+			<ns1:RoleItem id="item0" y="13" x="10" skinName="RoleItemSkin" scaleX="1" scaleY="1" touchEnabled="true" width="110" height="105"/>
+			<ns1:RoleItem id="item1" y="16" x="530" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item2" y="98" x="10" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item3" y="101" x="362" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item4" y="183" x="10" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item5" y="186" x="362" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item6" y="268" x="10" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item7" y="271" x="362" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item8" y="271" x="362" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<ns1:RoleItem id="item9" y="271" x="362" skinName="RoleItemSkin" scaleX="1" scaleY="1" width="110" height="105"/>
+			<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="0" requestedColumnCount="2" columnAlign="justifyUsingGap" rowHeight="123"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="leftBtn" x="43" y="855" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+		<e:Button id="rightBtn" x="676" y="855" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1"/>
+		<e:Scroller y="808" anchorOffsetX="0" horizontalCenter="-1" width="500" height="120" anchorOffsetY="0">
+			<e:DataGroup id="list" itemRendererSkinName="RoleInfoItemSkin" width="500" height="100" useVirtualLayout="false">
+				<e:layout>
+					<e:HorizontalLayout gap="5" paddingTop="17"/>
+				</e:layout>
+			</e:DataGroup>
+		</e:Scroller>
+
+	</e:Group>
+
+</e:Skin>

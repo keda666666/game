@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeRebateSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163c9b90924"/>
+	<e:Image width="652" height="730.42" x="34" y="270" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="654.55" height="718.47" anchorOffsetY="0" y="275" anchorOffsetX="0" horizontalCenter="0" scrollPolicyH="off">
+		<e:List id="list" left="0" right="-0.4500000000000455" top="0" bottom="-199.86" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="RechargeRebateItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="数据3"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" verticalGap="3" paddingBottom="11" paddingTop="0" paddingRight="8" horizontalGap="3" paddingLeft="5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="提示：活动期间每日0点重置限购次数" y="1045" style="l_green" horizontalCenter="0"/>
+	<e:Label id="countDownTxt" text="剩余时间：" y="1010" style="l_green" horizontalCenter="0"/>
+</e:Skin>

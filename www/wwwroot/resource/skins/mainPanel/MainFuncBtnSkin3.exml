@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainFuncBtnSkin3" states="up,down,disabled" width="160" height="80"
+        currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" includeIn="down">
+	<e:Image id="bg" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:Image id="selectIcon" x="2" y="4" visible.disabled="false" visible.up="false" pixelHitTest="true" horizontalCenter="0" verticalCenter="3" source="" width="60" height="52"/>
+	<e:Image id="iconDisplay" alpha.disabled="0.5" pixelHitTest="true" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="-2" source=""/>
+	<e:Image id="redPoint" horizontalCenter="-64" verticalCenter="-28" source="ui_bm_reddot"/>
+	
+</e:Skin>

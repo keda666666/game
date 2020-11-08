@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildLobbySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="infoBtn" label="查看信息" x="296" y="582" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="donateBtn" label="查看信息" x="454" y="592" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="listBtn" label="查看信息" x="454" y="681" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="memBtn" label="查看信息" x="307" y="681" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="activeBtn" label="帮会活跃" x="68" y="850" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="shopBtn" label="帮会商店" x="326" y="860" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="mapBtn" label="帮会地图" x="86" y="995" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="warBtn" label="帮会战" x="326" y="995" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="renameBtn" label="改" x="571" y="141" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Button id="callBtn" label="召" x="571" y="267" anchorOffsetX="0" width="172" anchorOffsetY="0" height="98"/>
+	<e:Label id="fundsLabel" text="Label" x="458" y="374"/>
+	<e:Label id="levelLabel" text="Label" x="468" y="447"/>
+	<e:Label id="numberLabel" text="Label" x="468" y="304"/>
+	<e:Label id="masterLabel" text="Label" x="468" y="241"/>
+	<e:Label id="guildNameLabel" text="Label" x="468" y="167"/>
+	<e:Label id="noticeLabel" text="Label" x="154" y="167"/>
+	<e:Label id="recordLabel" text="帮会记录" x="53" y="460"/>
+	<e:Label id="modifiedLabel" text="修改公告" x="234" y="460"/>
+</e:Skin>

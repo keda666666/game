@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MoneyTreeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CImage x="0" source="ui_jbp_bg_show"/>
+
+
+	<e:Button id="goUpBtn" label="摇一摇" y="695" icon="" horizontalCenter="167" skinName="Btn2Skin"/>
+	<e:Label id="depictLabel1" y="648" text="消耗：" lineSpacing="10" x="428" style="l_white" anchorOffsetX="0" width="61" anchorOffsetY="0" height="24"/>
+	<e:Image id="mc_img" x="125" y="724" source="ui_jbp_qiu_b" fillMode="clip" rotation="180" height="76"/>
+
+
+
+
+	<e:ProgressBar id="bar" y="41" value="10" maximum="50" anchorOffsetX="0" width="622" x="22" skinName="bar13Skin"/>
+	<e:Image id="image1" x="70" y="17" scaleX="0.8" scaleY="0.8" source="ui_jbp_p_5c"/>
+	<e:Image id="image3" x="520" y="17" scaleX="0.8" scaleY="0.8" source="ui_jbp_p_50c"/>
+	<e:Image id="image2" x="230" y="17" scaleX="0.8" scaleY="0.8" source="ui_jbp_p_20c"/>
+
+
+
+	<e:Label id="playNum" text="（今日使用：50/50）" y="673" style="l_blue" anchorOffsetX="0" width="175" size="18" anchorOffsetY="0" height="22" x="416"/>
+
+
+
+
+
+	<e:Label id="add" text="加成：20%" y="739" x="40" textAlign="center" style="l_yellow_3"/>
+
+
+
+
+
+
+	<ns1:PriceIcon id="cost" x="479" y="642" skinName="PriceIconSkin" anchorOffsetX="0" width="79"/>
+	<e:Image id="depictLabel2" x="450" y="529" source="ui_jbp_btn_vip"/>
+	<e:BitmapLabel id="getNum" height="111" y="646" text="立即获得\n0金币" anchorOffsetX="0" anchorOffsetY="0" font="font_jbp_zl_fnt" letterSpacing="-10" verticalAlign="middle" x="166"/>
+
+
+
+	<e:Image x="42" y="642" source="ui_jbp_qiu_u"/>
+	<e:Group width="103" height="29" x="34" y="668" anchorOffsetX="0" anchorOffsetY="0">
+		<e:BitmapLabel id="addPoint" x="23" y="2" font="font_lyb_fl_0_fnt" text="10/10" letterSpacing="-10" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+	
+</e:Skin>

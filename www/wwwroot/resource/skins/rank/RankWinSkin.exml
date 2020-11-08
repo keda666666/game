@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="three,four" >
+	<w:Config id="1586b13ea96"/>
+	<e:Component y="168" horizontalCenter="0"/>
+	<ns1:CommonDialog id="commonDialogBg" skinName="CommonDialog2Skin" height="832" y="168" horizontalCenter="0"/>
+	<e:Group x="85.32" y="242">
+		<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="560" source="ui_sbm_002" x="0" height="643" y="0"/>
+
+
+
+
+
+	</e:Group>
+	<e:Group x="93.32" y="249">
+		<e:Label text="排名" x="0" y="0" style="l_brown_1" x.three="20"/>
+		<e:Label text="名字" x="124" y="0" style="l_brown_1" x.three="215.21"/>
+		<e:Label id="tValue1" text="战力" x="276" y="0" style="l_brown_1" x.three="410.71"/>
+		<e:Label id="tValue2" text="奖励" x="444" y="0" style="l_brown_1" visible.three="false"/>
+	</e:Group>
+	<e:Label text="我的排名:" x="90" y="897" style="l_brown_1"/>
+	<e:Label id="tRank" text="44" x="220" y="899" size="24" style="l_green"/>
+	<e:Group id="gScore" x="360" y="897" visible.four="false">
+		<e:Label id="lbExNe" text="我的积分:" x="0" y="0" style="l_brown_1"/>
+		<e:Label id="tScore" text="44" x="128" y="0" size="24" style="l_green"/>
+	</e:Group>
+
+
+
+	<e:Scroller id="pScr" width="553" height="603" x="88.32" y="281" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="itemList" itemRendererSkinName="RankDataItemSkin"/>
+
+	</e:Scroller>
+	<e:Group id="gReBg" x="0" y="0" visible="false">
+		<e:Component id="bg" skinName="BG2" x="0" y="0"/>
+		<e:Group id="gReward" x="178" y="317">
+			<e:Image source="ui_cm_bm_bg"  y="0" width="365" height="170" x="0"/>
+			<e:Label text="科举奖励" y="19" style="l_yellow_2" x="130"/>
+			<e:List id="listView" y="52" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:layout>
+				<e:HorizontalLayout gap="0"/>
+				</e:layout>
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object k="null"/>
+					<e:Object k="null"/>
+					<e:Object k="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+	</e:Group>
+
+
+
+</e:Skin>

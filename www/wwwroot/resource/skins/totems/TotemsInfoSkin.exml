@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162681bec84"/>
+	<ns1:CommonDialog id="commonDialog" height="720" title="提  示" anchorOffsetY="0" x="0" y="171" skinName="CommonDialog2Skin" anchorOffsetX="0" width="720"/>
+	<e:Group x="183" y="238.09">
+		<ns1:PowerLabel id="totalPower" text="战 0" y="0.51" x="80" anchorOffsetX="0" width="170.66" anchorOffsetY="0" height="45.33" skinName="PowerLabel3Skin"/>
+	</e:Group>
+	<e:Image source="ui_bm_jsbg" x="37.79" y="206.25" touchEnabled="false"/>
+	<e:Label id="totemsName" text="" y="641.01" anchorOffsetX="0" horizontalCenter="3.5" fontFamily="Microsoft YaHei" size="26" stroke="1.5" textColor="0xf70707"/>
+	<e:Image id="noImg" y="391.27" x="502.59" source="ui_cw_bm_weijihuo"/>
+	<e:Group id="LvGroup" x="504.57" y="381.84">
+		<e:Image x="6" y="12" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="LvLabel" text="20級" x="9.68" y="13.34" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="28.67" height="115" verticalAlign="middle" textColor="0xAA6A31"/>
+	</e:Group>
+	<e:Group x="238.56" y="700.73" height="28">
+		<e:Image source="ui_bm_title1" y="-1.5" x="0"/>
+		<e:Label id="title0" text="图腾属性" y="2.29" anchorOffsetX="0" anchorOffsetY="0" style="l_green" size="24" backgroundColor="0xFFFFFF" borderColor="0xFFFFFF" strokeColor="0x070606" height="20" textColor="0x70330B" x="74.36"/>
+	</e:Group>
+	<e:Label text="生命" x="88" y="743.14" textColor="0x6E330B" size="26" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="label0" text="" x="90.69" y="746.51" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00" anchorOffsetY="0" height="24"/>
+	<e:Label text="攻击" x="287" y="745.14" textColor="0x6E330B" size="26" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="label1" text="" x="289.69" y="746.51" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00"/>
+	<e:Label text="防御" x="486" y="743.14" textColor="0x6E330B" size="26" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="label2" text="" x="483.69" y="746.51" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00"/>
+	<e:Image id="totemsImg" width="234" height="188" x="178.18" y="315.32" anchorOffsetX="0" anchorOffsetY="0" source="ui_vip_bm_xuannv" scaleX="1.5" scaleY="1.5"/>
+</e:Skin>

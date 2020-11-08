@@ -1,0 +1,4 @@
+<e:Skin class="MainTop2PanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="720" height="1280">
+	<w:Config id="162615fe13c"/>
+	<ns1:MainPlayerInfoView id="playerInfo" x="0" y="0" skinName="MainPlayerInfoSkin"/>
+</e:Skin>

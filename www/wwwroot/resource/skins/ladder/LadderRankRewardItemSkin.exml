@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderRankRewardItemSkin" width="640" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="640" height="140" x="0" y="0" source="ui_bm_bg"/>
+	<e:Image id="img1" x="36" y="0" source="" scaleX="0.7" scaleY="0.7"/>
+	<e:Image id="img2" x="207" source="font_kfwz_jjqt" y="37"/>
+	<ns1:ItemBaseNotName id="item"  x="517" y="18"/>
+	<w:Config id="16513c4b0a1"/>
+</e:Skin>

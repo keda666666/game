@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyPeaceItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660"  height="160">
+	<e:Image source="ui_sbm_005" x="2" y="1" width="656" height="158" />
+	<e:Label id="labText" text="100波奖励" x="30" y="10" style="l_brown_1"/>
+	<e:Group x="15" y="46">
+		<ns1:ItemBaseNotName id="item1" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:ItemBaseNotName id="item2" x="105" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBaseNotName id="item3" x="210" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBaseNotName id="item4" x="315" y="0" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Button id="btnGain" x="480" y="44"   label="领 取" skinName="BtnN2Skin"/>
+	<e:Image id="imgGained" source="ui_fb_bm_yilingqu" y="34" scaleX="1" scaleY="1" x="499" visible="false"/>
+</e:Skin>

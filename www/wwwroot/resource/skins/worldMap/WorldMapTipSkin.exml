@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldMapTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" height="480" title="提  示" anchorOffsetY="0" x="0" y="350" skinName="CommonDialogSkin"/>
+	<e:Image y="440" horizontalCenter="5" anchorOffsetY="0" height="260" source="ui_sbm_002" width="620"/>
+	<e:Label id="mapName" text="长安城" x="121" y="465" size="28" style="l_brown_up" textAlign="left"/>
+	<e:Label id="clearanceTIp" text="已通关" x="305" y="566" size="28" textAlign="left" style="l_green"/>
+	<e:Group id="groupTip" x="303" y="508">
+		<e:Label text="进入条件：" x="-180" y="0" size="24" style="l_brown_up" textAlign="left"/>
+		<e:Label id="levelTip" text="角色等级达到20级" x="-62" y="45" size="24" style="l_brown_up" textAlign="left"/>
+		<e:Label id="bossTip" text="击败高老庄所有BOSS" x="-62" y="85" size="24" style="l_brown_up" textAlign="left"/>
+	</e:Group>
+	<e:Button id="btnEnter" width="124" height="54" x="301.7" y="726" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn1Skin" label="确 定"/>
+</e:Skin>

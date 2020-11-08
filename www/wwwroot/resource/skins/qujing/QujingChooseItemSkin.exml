@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingChooseItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="680" states="up,down"  height="140">
+	<e:Image source="ui_sbm_005" x="2" y="1" width="676" height="138" />
+	<e:Group x="14" y="7.5">
+		<e:Image source="ui_qj_bm_pingzhiBG" x="0" y="0"/>
+		<e:Label id="labName" text="白龙马" x="8" size="26" width="25" verticalCenter="0.5"/>
+	</e:Group>
+	<e:Image id="imgIcon" horizontalCenter="-171" source="ui_qj_bm_shashidi" bottom="4"/>
+	<e:Group x="260" y="5">
+		<ns1:ItemBase id="item1" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase id="item2" x="102" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBase id="item3" x="204" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBase id="item4" x="306" y="0" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Image id="imgChoose" x="0" y="0" source="ui_bm_xuanzhongkuang" width="680" height="140"  scale9Grid="50,51,20,22"/>
+</e:Skin>

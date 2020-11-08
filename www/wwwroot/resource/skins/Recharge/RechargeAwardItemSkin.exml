@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeAwardItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="98" height="98">
+	<w:Config id="163c9b90924" visible="false"/>
+	<ns1:ItemBaseNotName id="item" x="-6" y="-4"/>
+	<e:Image id="tipsImg" x="-3" y="-2" touchEnabled="false" source="ui_jchd_bm_zhenxi"/>
+
+</e:Skin>

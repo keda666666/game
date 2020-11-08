@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangProtectorJinJieAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="400" title="提  示" anchorOffsetY="0" x="0" y="427" skinName="CommonDialog2Skin"/>
+	<e:Image width="476" height="202" x="116" y="512" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+
+	<e:Scroller width="344" height="100" y="584" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off" bounces="false" horizontalCenter="0">
+		<e:List id="list" itemRendererSkinName="ItemSkin" anchorOffsetX="0" x="1" y="-1">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="8"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	<e:Label id="desc_text" text="Label" y="735" horizontalCenter="0" style="l_brown_1"/>
+</e:Skin>

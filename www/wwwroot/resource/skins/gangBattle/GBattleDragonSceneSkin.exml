@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleDragonSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16369412bb8"/>
+	<e:Group y="63" right="5">
+		<e:Image source="ui_hddt_bm_shijianBG" x="18" y="0"/>
+		<e:Label text="结束倒计时" x="71" y="11" style="l_white" size="22" stroke="1"/>
+		<ns1:DurationLabel id="durationLab" width="20" height="20" x="185" y="11" skinName="DurationLabelSkin"/>
+		<e:Image source="ui_kfbz_bm_bantoumingBG" x="0" y="44" width="244" height="120"/>
+		<e:ProgressBar y="78" anchorOffsetX="0" anchorOffsetY="0" maximum="3" value="2" width="210" x="12">
+		<e:Skin width="210" height="13">
+			<e:Image x="0" y="0" width="210" height="12" anchorOffsetY="0" source="ui_kfbz_bm_jingyantiao01"/>
+			<e:Image id="thumb" x="1" y="1" width="208" anchorOffsetX="0" anchorOffsetY="0" source="ui_kfbz_bm_jingyantiao02"/>
+			<e:Label id="labelDisplay" y="-5" size="18" textAlign="center" text="0" horizontalCenter="0.5" visible="false"/>
+		</e:Skin>
+		</e:ProgressBar>
+		<e:Label text="城门" x="0" y="46" style="l_white" size="20" stroke="1"/>
+		<e:Image x="5" y="71" source="ui_kfbz_bm_dian01"/>
+		<e:Label text="殿前" x="65" y="46" style="l_white" size="20" stroke="1"/>
+		<e:Image x="70" y="71" source="ui_kfbz_bm_dian01"/>
+		<e:Label text="神龙" x="130" y="46" style="l_white" size="20" stroke="1"/>
+		<e:Image x="135" y="71" source="ui_kfbz_bm_dian01"/>
+		<e:Label text="神龙殿" x="184" y="46" style="l_white" size="20" stroke="1"/>
+		<e:Image source="ui_kfbz_bm_dian02" x="200" y="71"/>
+		<e:Label id="labCount" text="同帮人数：11" y="137" style="l_white" size="20" stroke="1" right="0"/>
+		<e:Image source="ui_kfbz_bm_jiantou" x="141" y="105"/>
+	</e:Group>
+	<e:Group x="0" y="71">
+		<e:Image source="ui_kfbz_bm_bantoumingBG" x="0" y="0" width="360" height="175"/>
+		<e:Label id="labView" text="查看" x="217" y="5" size="20" stroke="1" style="l_green_2"/>
+		<e:Label text="神龙伤害排名" x="6" y="2" style="l_white" size="20" stroke="1"/>
+		<e:Group x="6" y="32">
+			<e:Label text="排名" x="0" y="0" style="l_white" size="20" stroke="1"/>
+			<e:Label text="帮会名称" x="89" y="0" style="l_white" size="20" stroke="1"/>
+			<e:Label text="伤害" x="276" y="0" style="l_white" size="20" stroke="1"/>
+		</e:Group>
+		<e:Group x="4" y="60" width="350">
+			<e:Label id="labNum1" text="1" x="0" y="0" size="19" style="l_red" stroke="2"/>
+			<e:Label id="labName1" text="玩家名字六名.s64" y="0" size="19" style="l_red" horizontalCenter="-42" stroke="2"/>
+			<e:Label id="labData1" text="2000" y="0" size="19" style="l_red" horizontalCenter="123.5" stroke="2"/>
+		</e:Group>
+		<e:Group x="4" y="90" width="350">
+			<e:Label id="labNum2" text="2" x="0" y="0" size="19" style="l_orange" stroke="2"/>
+			<e:Label id="labName2" text="玩家名字六名.s64" y="0" size="19" style="l_orange" horizontalCenter="-42" stroke="2"/>
+			<e:Label id="labData2" text="20000" y="0" size="19" style="l_orange" horizontalCenter="123" stroke="2"/>
+		</e:Group>
+		<e:Group x="4" y="120" width="350">
+			<e:Label id="labNum3" text="3" x="0" y="0" size="19" style="l_purple_1" stroke="2"/>
+			<e:Label id="labName3" text="玩家名字六名.s64" y="0" size="19" style="l_purple_1" horizontalCenter="-42" stroke="2"/>
+			<e:Label id="labData3" text="501" y="0" size="19" style="l_purple_1" horizontalCenter="125" stroke="2"/>
+		</e:Group>
+		<e:Image source="ui_kfbz_bm_fengexian" x="6" y="145" scaleX="0.75"/>
+		<e:Label id="labRange" text="我的排名：1     4561258000" x="4" y="153" style="l_white" size="19" stroke="2"/>
+	</e:Group>
+	<e:Button id="btnArr" skinName="Btn0Skin" icon="ui_zd_bt_shousuo" y="258.68" scaleX="-1" scaleY="1" right="2"/>
+	<e:Group id="groupRank" y="311" right="6">
+		<e:Label text="个人伤害排名" x="0" y="0" style="l_white" size="20" stroke="1"/>
+		<ns1:GBRoleHead id="roleHead1" x="2" y="27" skinName="GBRoleHeadSkin" visible="false"/>
+		<ns1:GBRoleHead id="roleHead2" x="2" y="138" skinName="GBRoleHeadSkin" visible="false"/>
+		<ns1:GBRoleHead id="roleHead3" x="2" y="250" skinName="GBRoleHeadSkin" visible="false"/>
+		<e:Label id="labViewRank" text="查看排名" x="42" y="370" style="l_green_2" size="20"/>
+	</e:Group>
+	<e:Button id="btnEnter" skinName="MainFuncBtnSkin" icon="ui_kfbz_bt_jinrulongdian" y="253" x="9"/>
+	<e:Group id="groupAdaptation" x="2" y="590" touchEnabled="false" width="100%" touchChildren="true">
+		<e:Button id="btnReturn" y="95" touchEnabled="true" skinName="ReturnBtn" scaleX="1" scaleY="1" right="5"/>
+		<e:Button id="btnTeam" skinName="MainFuncBtnSkin" icon="ui_hddt_bt_zudui" y="0" right="13"/>
+		<e:Button id="btnFight" skinName="MainFuncBtnSkin" icon="ui_bm_tiaozhan" y="6" left="9"/>
+		<e:Group id="groupBossBlood" x="0" y="200">
+			<e:ProgressBar id="progDef" y="-5" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="600" x="114">
+			<e:Skin width="600">
+				<e:Image x="0" y="0" width="600" height="30" anchorOffsetY="0" source="ui_boss_bm_xuetiao02"/>
+				<e:Image id="thumb" x="2" y="1" width="596" height="28" anchorOffsetX="0" anchorOffsetY="0" source="ui_kf_bm_lansetiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<e:ProgressBar id="progBlood" y="33" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="600" x="113">
+			<e:Skin width="600">
+				<e:Image x="0" y="0" width="600" height="30" anchorOffsetY="0" source="ui_boss_bm_xuetiao02"/>
+				<e:Image id="thumb" x="2" y="1" width="596" height="28" anchorOffsetX="0" anchorOffsetY="0" source="ui_boss_bm_xuetiao01"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+			</e:ProgressBar>
+			<e:Image x="3" y="-3" source="ui_kfbz_bm_huduen"/>
+			<e:Image x="2" y="35" source="ui_kfbz_bm_bossxue"/>
+			<e:Label id="progDefNum" text="95%" y="-3" style="l_white" size="24" horizontalCenter="57"/>
+			<e:Label id="progBloodNum" text="95%" y="36" style="l_white" size="24" horizontalCenter="55"/>
+			<ns1:DurationLabel id="durationDefCD" y="-1" skinName="DurationLabelSkin" scaleX="1" scaleY="1" horizontalCenter="57" x="368"/>
+		</e:Group>
+		<ns1:GBattleBoxItem id="boxItem" x="-2" y="95" skinName="GBattleScoreBoxSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

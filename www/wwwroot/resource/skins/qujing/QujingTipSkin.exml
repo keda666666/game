@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" height="480" title="提  示" anchorOffsetY="0" x="0" y="350" skinName="CommonDialogSkin"/>
+	<e:Image y="440" horizontalCenter="5" anchorOffsetY="0" height="260" source="ui_sbm_002" width="620"/>
+	<e:Label text="是否确定在非双倍时间内东归" x="191" y="538" size="26" style="l_brown_up" textAlign="left"/>
+	<e:Label id="labTip" text="11:30-12:30奖励翻倍" y="578" size="26" textAlign="left" horizontalCenter="6" style="l_green"/>
+	<e:Button id="btnCancel" x="105" y="726"   label="取   消" scaleX="1" scaleY="1" height="60" width="150" skinName="BtnN3Skin"/>
+	<e:Button id="btnEnter" x="435" y="726"   label="确   认" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+</e:Skin>

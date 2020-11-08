@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerChatSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ce="ceui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1635da99029"/>
+	<ns1:CommonWindowBg id="commonWindowBg" y="-1"/>
+	<e:Image y="145.66" anchorOffsetX="0" width="438.33" anchorOffsetY="0" height="864.67" alpha="1" horizontalCenter="98" source="ui_sbm_004"/>
+	<ce:CScroller id="chatScroller" width="436" height="797" anchorOffsetY="0" y="148" anchorOffsetX="0" scrollPolicyH="off" x="239.27">
+		<e:List id="chatList" anchorOffsetX="0" x="0" y="1.52" anchorOffsetY="0" height="795.48">
+		</e:List>
+	</ce:CScroller>
+	<e:Scroller id="chatUserScroller" width="217.55" height="797" anchorOffsetY="0" y="148" anchorOffsetX="0" scrollPolicyH="off" x="17.88">
+		<e:List id="chatUserList" anchorOffsetX="0" x="0" y="-1.52" itemRendererSkinName="ChatUeseItem">
+		<e:layout>
+			<e:VerticalLayout gap="-2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:ChatInputView id="input" x="243.65" y="946.46" width="431.01" skinName="ChatInputSkin" anchorOffsetX="0"/>
+</e:Skin>

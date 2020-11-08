@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingtongSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163de0456fc"/>
+	<e:Group id="group" x="35" y="312">
+		<e:Image y="295" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="405" width="650" x="0"/>
+		<e:Button id="btnInfo" label="Button" x="443.55" y="590" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+		<e:Image y="314" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="172"/>
+		<e:Image y="314" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="480" scaleX="-1"/>
+		<e:Image y="-127" anchorOffsetX="0" anchorOffsetY="0" x="216" source="ui_cw_bm_wenli"/>
+		<e:Label text="被动技能" y="308" style="l_brown_2" x="273"/>
+		<e:Component id="skillIcon" x="282" y="121" skinName="PetSkillIcon2Skin"/>
+		<e:Image y="177" anchorOffsetX="0" anchorOffsetY="0" x="276" source="ui_bm_zhu"/>
+		<e:Label id="skillDesc" text="100" y="262" style="l_brown_2" size="22" textAlign="center" horizontalCenter="0"/>
+		<e:Group id="starGroup" y="604" x="214">
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+			<e:Image x="30" y="30" source="ui_bm_star022" width="30" height="30"/>
+			<e:layout>
+			<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="goBtn" label="洗练" y="636" skinName="BtnN2Skin" scaleX="0.9" scaleY="0.9" x="252"/>
+		<e:List id="skillGroup" width="200" height="200" x="50" y="345" itemRendererSkinName="PetSkillIcon2Skin" scaleX="1" scaleY="1">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalGap="120" verticalGap="5"/>
+			</e:layout>
+		</e:List>
+		<ns1:RoleShowPanel id="petShowPanel" width="0" height="0" y="73" x="325"/>
+	</e:Group>
+	<e:Image id="nameBg" y="145" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" horizontalCenter="0" width="230" scale9Grid="45,5,55,30"/>
+	<e:Label id="lbName" text="青龙" y="154" size="24" width="176" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" horizontalCenter="0"/>
+</e:Skin>

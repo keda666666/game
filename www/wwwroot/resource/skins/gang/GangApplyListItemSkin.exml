@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangApplyListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660" states="up,down"  height="150">
+	<e:Image source="ui_sbm_005" x="3" y="1" width="654" height="148" />
+	<e:Group x="30" y="29.5">
+		<e:Image source="ui_bm_icon001" x="0" y="0"/>
+		<e:Image id="imgFace" x="7" y="6" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	</e:Group>
+	<e:Group x="140" y="31">
+		<e:Label id="labRoleName" text="玩家名字" x="0" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="labLevel" text="等级：122" x="0" y="33" style="l_brown_1" size="22"/>
+		<e:Label id="labPower" text="战斗力：10045652" x="0" y="66" style="l_brown_1" size="22"/>
+	</e:Group>
+	<e:Label id="labLogoutTime" text="离线时间" y="9" size="22" textAlign="right" textColor="0xffffff" right="13"/>
+	<e:Button id="btnAgree" x="557" y="93" icon="ui_bt_qiuzhubtn" label="同 意" scaleX="1" scaleY="1" width="90" height="50" skinName="BtnN2Skin"/>
+	<e:Button id="btnRefuse" x="464" y="93" icon="ui_bh_bt01" label="拒 绝" scaleX="1" scaleY="1" skinName="BtnN3Skin" width="90" height="50"/>
+</e:Skin>

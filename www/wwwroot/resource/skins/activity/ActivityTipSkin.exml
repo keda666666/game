@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162a53d894c"/>
+	<e:Component skinName="BG2"  anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group x="70" verticalCenter="0">
+		<e:Image source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="580" top="0" bottom="-36"/>
+		<e:Group y="16" x="142">
+			<e:Image width="72" height="20" x="0" y="5" source="ui_guankia_wenli" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="72" height="20" x="296" y="5" source="ui_guankia_wenli" scaleX="-1"/>
+			<e:Label id="title" text="玩法说明" y="0" size="26" style="l_yellow_2" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="32" y="54">
+			<e:Label id="tdesc" text="当前效果" x="0" y="0" scaleX="1" scaleY="1" size="22" width="520" style="label01" lineSpacing="12"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultFailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16267fb128c"/>
+	<e:Component skinName="BG2"/>
+	<e:Image id="titleImg" y="226" horizontalCenter="0" source=""/>
+
+<e:Image y="368.18" touchEnabled="false" scaleX="1" scaleY="1" height="558.79" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="708" horizontalCenter="0"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="605" horizontalCenter="0.5" source="ui_sbm_002" top="449" bottom="459"/>
+
+	<e:Group id="gpGuanqia" width="450" height="352" x="136" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" visible="false">
+		<e:Label text="当前地图可以求助其他玩家:" y="217" size="24"  horizontalCenter="0" textColor="0x806346"/>
+		<e:Button id="helpBtn" skinName="Btn0Skin" x="193" y="262" icon="ui_bt_qiuzhu"/>
+	</e:Group>
+		<e:Group id="gp" y="535" horizontalCenter="0">
+			<e:Image id="img0" x="0" y="0" source="ui_bm_shouchong"/>
+			<e:Image id="img1" x="20" y="0" source="ui_bm_chongwu"/>
+			<e:Image id="img2" x="30" y="10" source="ui_bm_fuli"/>
+			<e:Image id="img3" x="40" y="20" source="ui_bt_jinengpeizhi"/>
+			<e:layout>
+			<e:HorizontalLayout gap="25" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	<e:Group touchChildren="false" touchEnabled="false" x="0" width="720" y="217">
+		<e:BitmapLabel id="titleLabel" y="176" scaleX="1" scaleY="1" text="我要变强" font="font_ui_biaoti_fnt" horizontalCenter="0" textAlign="center" width="270" letterSpacing="10"/>
+		<e:Label text="您可以尝试通过以下方式变强：" y="260" size="24" horizontalCenter="0" textColor="0x806346" x="193" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+	<e:Button id="closeBtn" y="835" icon="" anchorOffsetX="0" anchorOffsetY="0" label="退出(5)"  skinName="BtnN2Skin" horizontalCenter="0" width="180"/>
+	<e:Button id="gifBtn" skinName="Btn0Skin" icon="ui_bm_shouchong" x="315" y="721.33"/>
+</e:Skin>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultFailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16267fb128c"/>
+	<e:Component skinName="BG2"/>
+	<e:Image id="titleImg2" touchEnabled="false" bottom="333" x="53" source=""/>
+	<e:Image id="titleImg" y="186" horizontalCenter="0" source=""/>
+
+
+	<e:Group id="gpGuanqia" width="450" height="352" x="136" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+		<e:Label text="当前地图可以求助其他玩家:" y="217" size="24"  horizontalCenter="0"  style="l_brown_1"/>
+		<e:Button id="helpBtn" skinName="Btn0Skin" x="193" y="262" icon="ui_bt_qiuzhu"/>
+	</e:Group>
+		<e:Group id="gp" y="535" horizontalCenter="0">
+			<e:Image id="img0" x="0" y="0" source="ui_bm_shouchong"/>
+			<e:Image id="img1" x="20" y="0" source="ui_bm_chongwu"/>
+			<e:Image id="img2" x="30" y="10" source="ui_bm_fuli"/>
+			<e:Image id="img3" x="40" y="20" source="ui_bt_jinengpeizhi"/>
+			<e:layout>
+			<e:HorizontalLayout gap="25" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	<e:Group touchChildren="false" touchEnabled="false" x="0" width="720" y="217">
+		<e:BitmapLabel id="titleLabel" y="176" scaleX="1" scaleY="1" text="我要变强" font="font_ui_biaoti_fnt" horizontalCenter="0" textAlign="center" width="270" letterSpacing="10" visible="false"/>
+		<e:Label text="您可以尝试通过以下方式变强：" y="260" size="24" horizontalCenter="0"  x="193" scaleX="1" scaleY="1" style="l_brown_1"/>
+	</e:Group>
+
+	<e:Button id="closeBtn" y="835" icon="" anchorOffsetX="0" anchorOffsetY="0" label="退出(5)"  skinName="BtnN2Skin" horizontalCenter="0" width="180"/>
+
+
+	
+	<e:Button id="gifBtn" skinName="Btn0Skin" icon="ui_bm_shouchong" x="315" y="721.33"/>
+	
+</e:Skin>-->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AttrLabelSkin" width="680" height="123" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15bb7e19646" ></w:Config>
+	<e:Image id="attrBg" width="680" anchorOffsetY="0" scale9Grid="0,10,340,4" touchEnabled="false" x="0" source="ui_lyb_bg_1" top="0" bottom="0"/>
+	<e:Group id="attrGroup" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="attrLabel" y="0" height="100%" text="攻击:0000\n攻击:00000\n攻击:00000\n攻击:00000" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" touchEnabled="false" style="l_white" textAlign="left" x="0" lineSpacing="5"/>
+		<e:Image id="arrows" touchEnabled="false" source="ui_btn_p_jt" x="148" y="43"/>
+		<e:Label id="nextAttrLabel" y="0" height="100%" text="攻击:00000\n攻击:00000\n攻击:00000\n攻击:0000" anchorOffsetY="0" verticalAlign="middle" touchEnabled="false" style="l_green" x="236" lineSpacing="5"/>
+		<e:layout>
+			<e:HorizontalLayout gap="31" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

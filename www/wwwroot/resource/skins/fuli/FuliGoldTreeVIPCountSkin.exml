@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGoldTreeVIPCountSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162681bec84"/>
+	<ns1:CommonDialog id="commonDialog" height="457.53" title="提  示" anchorOffsetY="0" x="0" y="363.67" anchorOffsetX="0" width="723.03" skinName="CommonDialogSkin" alpha="1"/>
+<e:Group name="道具" height="440" anchorOffsetY="0" anchorOffsetX="0" width="656" horizontalCenter="0" touchEnabled="false" y="388">
+			<e:Image  width="584" height="258" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="60" x="23"/>
+	<e:Label id="describeLabel" text="提升" x="25.23" y="169.22" anchorOffsetX="0" width="579" size="30" textColor="0x6e330b" fontFamily="Microsoft YaHei" textAlign="center"/>
+		</e:Group>
+	<e:Button id="okBtn" label="确定" y="729" x="150.45" skinName="BtnN1Skin"/>
+	<e:Button id="goBtn" label="提升VIP" y="729" skinName="BtnN1Skin" x="434.69"/>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetHeadSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="112" states="up,down"  height="171">
+	<ns1:ItemIcon id="item" horizontalCenter="0" y="12"/>
+	<e:Image id="imgBattle" x="10" y="15" source=""/>
+	<e:Image id="imgNotice" source="ui_bm_reddot" x="76" y="8" visible="false"/>
+	<e:Image id="imgType" x="68" y="14" source=""/>
+	<e:Label id="lbName" text="白骨精" y="115" size="22"  horizontalCenter="0"/>
+	<e:Label id="lbLev" text="99阶" y="141" size="22"  horizontalCenter="0" textColor="0xffff00" strokeColor="0x68470c" stroke="2"/>
+	<e:Label id="lbLev2" text="" size="22" strokeColor="0x68470C" stroke="2" style="l_white" verticalCenter="3.5" horizontalCenter="0"/>
+	<e:Image id="jicon" source="cm_6_459_json.ui_jchd_bm_jueban" horizontalCenter="33.5" verticalCenter="0.5" visible="false"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" includeIn="down"  source="ui_bm_xuanzhongkuang" horizontalCenter="0" y="-3" locked="true"/>
+	<e:Image id="imgShen" source="ui_cw_bm_shen" x="71" y="16" visible="false"/>
+	<e:Image id="redPoint" y="7" x="77" source="ui_bm_reddot" visible="false"/>
+	<e:Group width="0" height="0" y="96" x="56">
+		<e:DataGroup id="starGroup" y="0" itemRendererSkinName="StarSkin" horizontalCenter="0" scaleX="0.7" scaleY="0.7" x="-3">
+			<e:layout>
+			<e:HorizontalLayout gap="-8"/>
+			</e:layout>
+		</e:DataGroup>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureBaseIconSkin" width="96" height="96" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_jn_bm_jinengbg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="imgIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:Image id="imgBg" source="ui_bm_jinengkuang" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

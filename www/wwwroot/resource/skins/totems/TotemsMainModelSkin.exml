@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsMainModelSkin" width="652" height="322" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164897c87d1" ></w:Config>
+	<e:Group x="3.9" y="8.5">
+		<ns1:PriceIcon id="priceicon" x="520.31" y="4.22"/>
+		<e:Label text="当前效果" x="110" y="35" anchorOffsetX="0" width="117" size="24" style="l_brown_1"/>
+		<e:Label id="currentLabel" text="" y="70.48" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00" horizontalCenter="-169"/>
+		<e:Group x="350.34" y="35" anchorOffsetX="0" width="278.09" anchorOffsetY="0" height="70.85">
+			<e:Label text="升级效果" x="0" y="0" anchorOffsetX="0" width="117" size="24" style="l_brown_1"/>
+			<e:Label id="openlvLabel" text="" x="101.33" y="0" anchorOffsetX="0" size="24" style="l_brown_1"/>
+			<e:Label id="upLabel" text="" y="35.48" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00" horizontalCenter="-23.544999999999987"/>
+		</e:Group>
+		<e:Label id="describeLabel" text="" y="106.42" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xfc0000" horizontalCenter="-3.5"/>
+		<e:ProgressBar id="bar" y="139.67" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="0" width="622" x="18.19">
+			<e:Skin>
+			<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="479" text="0" x="63"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Button id="addBtn" x="18.49" y="229.94" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级"/>
+		<e:Button id="addTenBtn" x="235.15" y="227.93" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级10次"/>
+		<e:Button id="addFiftyBtn" x="449.49" y="228.6" label="升级50次" skinName="BtnN2Skin"/>
+		<ns1:ConsumeTwoLabel id="consumeLabel" x="29.48" y="179.27"/>
+		<e:CheckBox id="checkBox" x="443.17" y="173.94" label="自动购买" skinName="CheckBox0" visible="false"/>
+		<e:Image source="ui_tt_bm_wenzi" x="4" y="2"/>
+	</e:Group>
+</e:Skin>

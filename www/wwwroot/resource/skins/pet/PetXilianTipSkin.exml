@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetXilianTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<e:Image width="445" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="140" y="545" x="139" />
+	<e:Label id="petName" text="Label" x="168" y="559" size="24"/>
+	<e:Label id="descTxt" text="宠物技能已累计刷新：" x="168" y="599" size="20" style="l_yellow_2"/>
+	<e:Label id="refreshCount" text="220次" x="368" y="599" size="20" style="l_green"/>
+	<e:Label text="刷新的次数越多，获得高品质技能概率越大" x="168" y="641" size="20" style="l_white"/>
+</e:Skin>

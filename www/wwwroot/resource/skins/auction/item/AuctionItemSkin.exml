@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AuctionItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Group x="0" y="0">
+		<e:Image width="644" height="170" source="ui_bm_fuwuqibg" x="0" y="0"/>
+		<e:Image id="selfImg" source="ui_pmh_bm_jiaobiao"/>
+		<ns1:ItemBase id="itemIcon" y="6" skinName="ItemSkin" x="52"/>
+		<e:Label id="linkTxt" text="可激活" size="20" y="138" x="76" style="l_orange" textAlign="center"/>
+		<e:Label id="playNameTxt" text="玩家名六个字" size="22" y="12" x="248" width="160" textAlign="center" style="l_blue"/>
+		<ns1:PriceIcon id="priceicon" y="44" x="264"/>
+		<e:Label id="descTxt" text="展示阶段" size="22" y="82" x="248" width="160" textAlign="center" style="l_green"/>
+		<e:Label id="timeTxt" text="02:00后结束" size="22" y="116" x="248" style="l_orange" width="160" textAlign="center"/>
+
+		<e:Group x="456" y="8">
+			<e:Group id="priceGroup" x="0" y="0">
+				<e:Button id="priceBtn" icon="" anchorOffsetX="0" anchorOffsetY="0" label="" x="0" skinName="BtnN2Skin" y="0"/>
+				<e:Label text="一口价" x="54" y="6" size="20" style="l_brown_1" touchEnabled="false"/>
+				<ns1:PriceIcon id="priceicon0" y="31" touchEnabled="false" horizontalCenter="1.5"/>
+			</e:Group>
+			<e:Group id="offerGroup" x="0" y="80">
+				<e:Button id="offerBtn" icon="" anchorOffsetX="0" anchorOffsetY="0" label="" x="0" y="0" skinName="BtnN3Skin"/>
+				<e:Label text="竞 价" x="62" y="6" size="20" style="l_brown_1" touchEnabled="false"/>
+				<ns1:PriceIcon id="priceicon1" y="31" touchEnabled="false" horizontalCenter="2.5"/>
+			</e:Group>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

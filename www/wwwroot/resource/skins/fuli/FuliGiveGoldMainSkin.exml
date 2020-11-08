@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGiveGoldMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163ee5454e3"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="6.06" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" height="1280" anchorOffsetX="0" width="710.91" visible="false"/>
+	<e:Image source="ui_yyhd_bm_songshiwanyuanbaoBG" x="36.27" y="273"/>
+	<e:Image id="bg" width="650" height="567.36" x="36" y="433.64" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="646" height="562.88" x="38.34" y="436.06" anchorOffsetY="0">
+		<e:List id="itemList"  itemRendererSkinName="FuliGiveGoldItem">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout  gap="0"/>
+		</e:layout>
+		
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleFlyAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16294836fbc" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-54.5" height="839.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" title="详细属性"/>
+	<e:Image y="265" source="ui_bm_jsbg" x="34"/>
+    <e:Image y="703" horizontalCenter="0" source="ui_bm_fengexian" width="531"/>
+	<e:Group width="627" height="200" y="723" horizontalCenter="0">
+		<e:Group width="100%">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="飞升属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="levelAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="10" y="10">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="技能属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="skillAttr" text="攻击" y="49" horizontalCenter="0" size="22" width="467" textAlign="center"/>
+		</e:Group>
+
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+	</e:Group>
+	<e:Image x="503" y="468" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Label id="lbLev" text="20" x="496" y="466" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xAA6A31"/>
+
+	<ns1:PowerLabel id="powerLabel" y="233" skinName="PowerLabel2Skin" horizontalCenter="0"/>
+
+	<ns1:RoleShowPanel width="0" height="0" y="623" horizontalCenter="0" id="roleShowPanel"/>
+</e:Skin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PublicBossItemSkin" width="640" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	
+	<e:Image width="637" height="208" source="ui_sbm_005" anchorOffsetY="0" anchorOffsetX="0" x="0" y="1"/>
+	<e:Image x="17" y="13" source="ui_boss_bm_taizi"/>
+	<e:Image x="6" y="12" source="ui_fb_bm_cengshubg" scale9Grid="42,5,65,30" width="181"/>
+	<e:Label id="bossName" text="BOSS" x="4" y="19" width="187" textAlign="center" size="24" style="l_blue_2"/>
+	<e:Label id="people_txt" text="争夺人数:   1" x="188" y="23" size="22" style="l_green"/>
+	<e:Label id="record_txt" text="查看击杀记录" x="188" y="23" size="22" style="l_green"/>
+	<e:Label text="几率掉落:" x="188" y="83" size="22" style="l_brown_2"/>
+	<e:Label id="rebirthTime_txt" text="02:00:00后复活" x="457" y="23" size="22" style="l_brown_2"/>
+	<e:Label id="rebirthTimes_txt" text="剩余复活次数：3" y="51" size="22" style="l_brown_2" horizontalCenter="216"/>
+	<e:Label id="enterInfoLabel" text="主角100级可进入" y="113" right="21" style="l_red" width="170" visible="false"/>
+	<e:Button id="goBtn" label="挑  战" x="454" y="118" skinName="BtnN2Skin"/>
+	<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="90" y="180"/>
+	
+	<e:ProgressBar id="bar" x="23" y="179" width="143" slideDuration="0">
+		<e:Skin >
+		<e:Image source="ui_boss_bm_jingyantiao02" verticalCenter="0" width="100%"/>
+		<e:Image id="thumb" source="ui_boss_bm_jingyantiao01" left="1" right="1" y="1"/>
+		<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" stroke="1"/>
+		</e:Skin>
+	</e:ProgressBar>
+	<e:Group id="goodsGroup" x="498" y="73">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_boss_icon_tiaozhanling" scaleX="0.6" scaleY="0.6"/>
+		<e:Label id="goodsNum_txt" text="x1" x="42" y="15" size="22" style="l_brown_2"/>
+	</e:Group>
+	<ns1:PriceIcon id="priceIcon" y="81" skinName="PriceIconSkin" horizontalCenter="215.5"/>
+	<e:List id="list" x="181" y="111" itemRendererSkinName="ItemSkin" scaleX="0.8" scaleY="0.8">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

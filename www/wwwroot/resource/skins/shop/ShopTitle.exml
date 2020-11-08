@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopTitle" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162a85696cf"/>
+	<e:Label id="account" text="小雷音寺通关关数: 14" x="49" y="162" style="l_brown_1" textAlign="left"/>
+	<e:Group id="priceGoup" x="374" y="152">
+		<e:Group x="126" y="0">
+			<e:Image source="ui_sbm_002" width="175" height="50" horizontalCenter="0" verticalCenter="0"/>
+			<ns1:PriceIcon id="priceIcon" y="10" left="3"/>
+		</e:Group>
+		<e:Label id="goPrice" text="获取材料" x="0" y="10" textAlign="center" style="l_green"/>
+	</e:Group>
+	<e:Image id="bgbg" y="209" width="640" height="760" source="ui_sbm_002" x="40"/>
+	<e:Scroller width="627" height="750" y="214" x="47">
+		<e:List id="listView" itemRendererSkinName="ShopRectItemSkin" scaleX="1" scaleY="1" top="1" left="0">
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			<e:Object dd="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

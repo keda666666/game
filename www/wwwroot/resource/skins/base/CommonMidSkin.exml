@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonMidSkin" width="720" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2" id="dialogMask" verticalCenter="0" height="1767" horizontalCenter="0"/>
+	<e:Group height="350" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="imgBg" width="450" height="345" y="4" horizontalCenter="0" source="ui_cm_bm_bg"/>
+		<e:Button id="btnClose" label="" x="384" y="0" skinName="CloseBtn" visible="false"/>
+		<e:Button id="btnReturn" label="Button" x="370" y="425" skinName="ReturnBtn" visible="false"/>
+	</e:Group>
+</e:Skin>

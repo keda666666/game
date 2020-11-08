@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  states="other,self" >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-7.5" height="925.12" anchorOffsetY="0" x="0"  skinName="CommonDialog2Skin"/>
+	<e:Image y="296" source="ui_bm_jsbg" x="34"/>
+	<e:Image x="64" y="727" source="ui_sbm_002" anchorOffsetX="0" width="590" anchorOffsetY="0" height="242" alpha="1"/>
+	<ns1:PowerLabel id="powerLabel" y="247" x="164" skinName="PowerLabel2Skin"/>
+	<e:Button id="vipCard" label="Button" x="85.33" y="638.32" skinName="Btn0Skin" icon="ui_bh_icon_VIP" visible="false"/>
+	<e:Button id="monthCard" label="Button" x="85.33" y="638.02" skinName="Btn0Skin" icon="mouth2001"/>
+	<e:Group width="588" height="238" x="68" y="730" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Component id="playerAvatar" x="17" y="40" anchorOffsetX="0" anchorOffsetY="0" skinName="HeadSkin"/>
+		<e:Label id="nickName" text="昵称: " x="126" y="41" anchorOffsetX="0" anchorOffsetY="0" height="28.49" style="l_brown_1" size="24"/>
+		<e:Label id="levelTxt" text="等级: " x="126" y="84" anchorOffsetX="0" anchorOffsetY="0" height="28.49" style="l_brown_1" size="24"/>
+		<e:Label id="sexTxt" text="性别: " x="364" y="84" anchorOffsetX="0" anchorOffsetY="0" height="28.49" style="l_brown_1" size="24"/>
+		<e:Label id="partnerTxt" text="伴侣: " x="126" y="122" anchorOffsetX="0" anchorOffsetY="0" height="28.49" style="l_brown_1" size="24"/>
+		<e:Label id="gangTxt" text="帮会: " x="364" y="124" anchorOffsetX="0" anchorOffsetY="0" height="26.97" style="l_brown_1" size="24"/>
+		<ns1:GetwayLabel id="copyName" width="0" height="0" skinName="GetwayLabelSkin" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="359" y="39" textColor="0x05930d"/>
+		<ns1:VipIcon id="vipIcon" skinName="VipIconSkin" x="17" y="140"/>
+	</e:Group>
+	<e:Group y="901" horizontalCenter="0">
+		<e:Group x="0" y="0" horizontalCenter.self="0">
+			<e:Button id="infoBtn1" label="开始聊天" x="0" y="0" anchorOffsetY="0" height="52" anchorOffsetX="0" width="123" skinName="Btn1Skin" label.self="修改昵称"/>
+			<e:Button id="infoBtn2" label="加为好友" x="131.32" y="0" anchorOffsetY="0" height="52" anchorOffsetX="0" width="123" skinName="Btn1Skin" label.self="系统设置"/>
+		</e:Group>
+		<e:Button id="infoBtn3" label="收徒" x="262.67" y="0" anchorOffsetY="0" height="52" anchorOffsetX="0" width="123" skinName="Btn1Skin" visible.self="false"/>
+	</e:Group>
+	<ns1:GetwayLabel id="blacklist" y="691" skinName="GetwayLabelSkin" text="拉黑" textColor="0x05930d" right="69" visible.self="false"/>
+	<ns1:RoleShowPanel id="roleShowPanel" width="20" height="20" x="342" y="657"/>
+</e:Skin>

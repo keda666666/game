@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyPeaceSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<e:Group x="30" y="119">
+		<e:Image source="ui_xyll_bm_pingdinganbang" x="9" y="0"/>
+		<e:Group x="0" y="294">
+			<e:Image width="660" height="580" x="0" y="0" source="ui_sbm_002"/>
+			<e:Scroller width="660" height="480" x="0" y="7">
+			<e:List id="list" itemRendererSkinName="DailyPeaceItemSkin">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="btnOneKey" x="249" y="500"   label="一键完成" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+			<e:Label text="当前波数:" x="4" y="493" style="l_brown_1" size="22"/>
+			<e:Label id="labWaveCount" text="175/300" x="108" y="494" style="l_brown_1" size="22"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

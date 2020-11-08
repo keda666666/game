@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="briberySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163d5405eef"/>
+	<e:Component id="com" skinName="BG2" alpha="0" touchEnabled="false"/>
+	<e:Group x="192" y="406">
+		<e:Image source="ui_hb_bm_hongbao01" x="0" y="8"/>
+		<e:Image id="closeImg" source="ui_hb_bt_guanxi" x="286" y="0"/>
+		<e:Label id="lab" text="" x="42" y="22" anchorOffsetX="0" width="251" anchorOffsetY="0" height="56" size="22" fontFamily="Microsoft YaHei" scaleX="1" textColor="0xffffff"/>
+		<e:Button id="okBtn" label="抢抢抢" scaleX="1" scaleY="1" x="96.03" y="252.65" skinName="BtnN2Skin"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeFeedbackItemSkin" states="up,down,disabled"  currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="140" height="90">
+
+	<e:Image x.disabled="0" x.up="0" y.disabled="0" y.up="0"
+	         horizontalCenter="0" verticalCenter="0"  width="145" height="92" verticalCenter.down="0" horizontalCenter.down="0"  source.down="ui_st_bt_btn" source.up="ui_bh_bt01" source.disabled="ui_bh_bt01" source="ui_bh_bt01"/>
+			<e:Image id="redPoint" source="ui_bm_reddot" right="-1" top="-1" touchEnabled="false" visible="false"/>
+	<e:Label id="labDesc" text="累充100元" style="l_brown_1" size="24" horizontalCenter="0.5" verticalCenter="0" textAlign="center"/>
+</e:Skin>

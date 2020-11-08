@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpLvWayViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164cb8b00b5"/>
+	<e:Image y="145" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="854" width="652" horizontalCenter="0"/>
+	<e:Image width="638" height="173" y="820" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Scroller id="scroller" width="642" height="667" anchorOffsetY="0" y="149" anchorOffsetX="0" horizontalCenter="0" scrollPolicyH="off">
+		<e:List id="list" left="0" right="0" top="-1" bottom="1.42999999999995" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="UpLvWayItemSkin2">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object label="数据1"/>
+			<e:Object label="数据2"/>
+			<e:Object label="null"/>
+			<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="6"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="63.69" y="898">
+		<e:ProgressBar id="rewardBar" y="32" anchorOffsetX="0" anchorOffsetY="0" value="100" width="541" x="47">
+			<e:Skin xmlns:ns1="*">
+			<e:Image x="0" y="0" width="100%" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" y="2" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao" left="2" right="0"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Image x="-8.69" y="5" source="ui_xyll_bt_yuan" scaleX="1" scaleY="1"/>
+		<e:Label id="scoreLabel" text="0" y="30"   style="l_white" width="74" textAlign="center" x="-11"/>
+		<e:Label text="当前积分" x="-1" y="-51"  style="l_brown_2" textColor="0x6E330B" anchorOffsetX="0" width="66" anchorOffsetY="0"/>
+		<e:Label text="100" x="526" y="62"   size="22" style="l_orange_2"/>
+		<e:Label text="75" x="389" y="62"   size="22" style="l_orange_2"/>
+		<e:Label text="50" x="247" y="62"   size="22" style="l_orange_2"/>
+		<e:Label text="25" x="108.35" y="62"   size="22" style="l_orange_2"/>
+		<e:Group id="group0" x="74.99" y="-59">
+			<ns1:ItemBaseNotName id="item0" x="8" y="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="receiveImg0" width="124" height="89" x="0" y="0" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group id="group1" x="214" y="-59">
+			<ns1:ItemBaseNotName id="item1" x="8" y="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="receiveImg1" width="124" height="89" x="0" y="0" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group id="group2" x="355" y="-59">
+			<ns1:ItemBaseNotName id="item2" x="7" y="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="receiveImg2" width="124" height="89" x="0" y="0" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group id="group3" x="497" y="-59">
+			<ns1:ItemBaseNotName id="item3" x="7" y="0" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="receiveImg3" width="124" height="89" x="0" y="0" source="ui_fb_bm_yilingqu" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Image id="img01" x="103" y="27" scaleX="1" scaleY="1" source="ui_fb_bm_xiaodian01"/>
+		<e:Image id="img02" x="243" y="27" scaleX="1" scaleY="1" source="ui_fb_bm_xiaodian01"/>
+		<e:Image id="img03" x="386" y="27" scaleX="1" scaleY="1" source="ui_fb_bm_xiaodian01"/>
+		<e:Image id="img04" x="525" y="27" scaleX="1" scaleY="1" source="ui_fb_bm_xiaodian01"/>
+	</e:Group>
+</e:Skin>

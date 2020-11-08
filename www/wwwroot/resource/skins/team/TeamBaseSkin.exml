@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamBaseSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<e:Image y="48" x="39" source="ui_bm_jsbg" visible="false"/>
+	<e:Group x="353" y="391" visible="false">
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" y="0" x="0"/>
+	</e:Group>
+	<e:Group y="138" width="233" x="244" visible="false">
+		<e:Image id="nameBg" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" x="0" width="234" scale9Grid="55,5,40,30"/>
+		<e:Label id="lbName" text="青龙" y="9" size="24" width="233" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" anchorOffsetX="0" x="0"/>
+	</e:Group>
+	<e:Group id="addPowerGroup" y="572" width="351" x="195" anchorOffsetX="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_tishengzhanlibg" x="1" width="348"/>
+		<e:Label id="lbAlert" text="8级副本" y="8" size="26" textAlign="center" width="308" style="l_brown_2" textColor="0x6e330b" x="13"/>
+	</e:Group>
+	<e:Button id="btnPrev" x="100" y="282" skinName="BtnNextSkin" visible="false"/>
+	<e:Button id="btnNext" y="283" x="630" skinName="BtnNextSkin" scaleX="-1" visible="false"/>
+	<e:Group y="446" anchorOffsetX="0" width="663" x="34">
+		<e:Image y="39" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="85" width="166" x="1" visible="false"/>
+		<e:Image y="39" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="85" width="479" x="85"/>
+		<e:Group x="0" y="1" visible="false">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1" width="167"/>
+			<e:Label id="title1Label" text="首通奖励" y="3" size="24" textAlign="center" x="14" style="l_brown_2" width="137"/>
+		</e:Group>
+		<e:Group y="0" x="231" width="202">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1" width="202" x="0"/>
+			<e:Label id="title2Label" text="几率掉落" y="3" size="24" textAlign="center" style="l_brown_2" width="137" x="33"/>
+		</e:Group>
+		<e:Scroller width="159" height="80" x="4" y="44" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:List id="list1" itemRendererSkinName="GangFuBenAwardItemSkin" anchorOffsetX="0" x="1" y="-1" width="159">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Scroller width="472" height="77" x="89" y="44" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list2" itemRendererSkinName="GangFuBenAwardItemSkin" anchorOffsetX="0" x="1" y="-1" width="470">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="3.5"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="noneInfoLabel" text="" y="795" anchorOffsetX="0" width="617" size="28" textAlign="center" horizontalCenter="0" style="l_red"/>
+
+	<ns1:TeamBaseMemberView id="teamBaseMemberView" skinName="TeamBaseMemberSkin" x="39" y="639"/>
+
+	<e:Group id="powerGroup" x="34" y="144" visible="false">
+		<e:Label text="推荐战力" x="0" y="0" style="l_brown_1" size="22"/>
+		<e:Label id="power_label" text="Label" x="92" y="1" style="l_green" size="22"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="infoLabel" text="协助他人通关副本收益次数，可获得协助奖励，每天协助次数（0/3）" y="616" anchorOffsetX="0" width="703" style="l_brown_1" size="20" textAlign="center" horizontalCenter="2.5"/>
+	<ns1:TeamCheckItemList id="teamCheckItemView" width="699.67" height="304.33" x="12.66" y="132.56" anchorOffsetX="0" anchorOffsetY="0" skinName="TeamCheckItemListSkin"/>
+
+</e:Skin>

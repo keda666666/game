@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShenHeChengSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1628b0a96f5" visible="false"/>
+	<e:Image y="144" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="858" width="654" x="34"/>
+	<e:Scroller width="646" height="850" x="38" y="150" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" itemRendererSkinName="TianShenHeChengItemSkin" x="1">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

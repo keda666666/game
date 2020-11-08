@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailListSkin" width="640" height="945" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<e:Image id="bgbg" x="0" y="0" width="640" height="844" source="ui_sbm_002" visible="false"/>
+
+
+
+
+	<e:Scroller id="mailScroller" height="840" width="645" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyV="on" scrollPolicyH="off" top="0" horizontalCenter="0">
+		<e:List id="mailList" x="0" y="2" width="660" itemRendererSkinName="MailItemSkin"  anchorOffsetY="0" anchorOffsetX="0" height="839">
+			<e:layout>
+				<e:VerticalLayout gap="1" paddingLeft="5" paddingTop="2"/>
+			</e:layout>
+			
+		</e:List>
+	</e:Scroller>
+	<e:Label id="noMailTip" text="暂无邮件" textAlign="left" verticalAlign="justify" y="421" style="l_brown_1" textColor="0x6e330b" horizontalCenter="0"/>
+	<e:Button label="一键领取" id="allReceiveBtn" scaleX="1" scaleY="1" skinName="BtnN2Skin" y="753" x="239"/>
+
+
+
+
+	
+</e:Skin>

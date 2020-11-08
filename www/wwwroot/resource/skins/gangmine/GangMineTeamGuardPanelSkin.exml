@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineTeamGuardPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,myState" >
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Component/>
+	<ns1:CommonDialog id="CommonDialog" y="340" skinName="CommonDialog2Skin" height="608"/>
+	<e:Image y="414" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="304" width="616" x="51"/>
+	<e:Group x="212" y="434">
+		<e:Image y="4" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="4" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="294" scaleX="-1"/>
+		<e:Label text="守矿玩家" y="0" size="24" textAlign="center" x="72" style="l_brown_2" anchorOffsetX="0" width="152"/>
+	</e:Group>
+	<e:Scroller x="55" y="482" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="list" anchorOffsetY="0" x="1" itemRendererSkinName="GangMineTeamRoleItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="5"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="守矿玩家被攻击后气血不回复" y="872" size="24" textAlign="center" x="215" style="l_brown_2" anchorOffsetX="0"/>
+	<e:Button id="cancelBtn" label="放 弃" x="428" y="748" skinName="BtnN2Skin" visible.myState="false"/>
+	<e:Button id="sureBtn" label="抢 夺" x="123" y="747" skinName="BtnN3Skin" visible.myState="false"/>
+	<e:Button id="exitBtn" label="离开矿脉" y="748" skinName="BtnN2Skin" horizontalCenter="-3" visible.normal="false"/>
+</e:Skin>

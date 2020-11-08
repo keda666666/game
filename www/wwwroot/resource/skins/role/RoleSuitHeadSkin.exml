@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSuitHeadSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="113" states="up,down"  height="150">
+	<e:Image id="icon" source="tz01" horizontalCenter="0" y="9"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" includeIn="down"  source="ui_bm_jinengxuanzhekuang" horizontalCenter="0.5"/>
+	<e:Image id="redPoint" y="7" x="77" source="ui_bm_reddot" visible="false"/>
+</e:Skin>

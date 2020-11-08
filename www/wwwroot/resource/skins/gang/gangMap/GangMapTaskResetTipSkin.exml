@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMapTaskResetTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="400" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" verticalCenter="-5"/>
+	<e:Button id="btnConfirm" label="确 定" x="153" y="733" skinName="BtnN2Skin"/>
+	<e:Button id="btnCancel" label="取 消" x="397" y="734" skinName="BtnN3Skin"/>
+	<e:Group x="80" y="520">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="200" width="560" x="0"/>
+		<e:Group y="20" horizontalCenter="0">
+			<e:Label text="是否" x="0" y="0" style="l_brown_1" size="26"/>
+			<e:Label id="labTip" text="重置帮会采集任务？" x="160" y="0" style="l_brown_1" size="26"/>
+			<ns1:PriceIcon id="priceicon" x="54" y="0"/>
+		</e:Group>
+		<e:Group x="182" y="75">
+			<e:Label text="可重置次数：" x="0" y="0" style="l_brown_1" size="26"/>
+			<e:Label id="labCount" text="7次" x="153" y="0" size="26" style="l_green"/>
+		</e:Group>
+		<e:Group id="groupVip" x="110" y="129">
+			<e:Label id="labVipTip" text="VIPM可再购买1次" x="0" y="0" style="l_brown_1" size="26"/>
+			<e:Label id="labToVIp" text="(成为VIP)" x="229" y="0" style="l_green" size="26"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

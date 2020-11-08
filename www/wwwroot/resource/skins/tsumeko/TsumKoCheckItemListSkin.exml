@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoCheckItemListSkin" width="691" height="318.82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="beforeBtn" x="0" y="122" skinName="BtnNextSkin"/>
+	<e:Button id="nextBtn" y="122" x="692" skinName="BtnNextSkin" scaleX="-1"/>
+	<e:Scroller width="614" height="300" y="9.08" anchorOffsetX="0" anchorOffsetY="0" x="41" scrollPolicyV="off">
+		<e:List id="checkpointList" anchorOffsetX="0" anchorOffsetY="0" x="2" y="1" itemRendererSkinName="TsumKoCheckpointItemSkin" width="629" height="300">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout paddingTop="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

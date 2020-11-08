@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunSkillTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162fc104f5d"/>
+	<e:Component skinName="BG2"/>
+	<e:Group id="mainGroup" x="142" y="250" anchorOffsetY="0" height="374">
+		<e:Image id="bgImg" width="437" height="377" x="0" y="0" source="ui_cm_bm_bg"  anchorOffsetY="0"/>
+		<e:Component id="skillIcon" y="14" x="35" skinName="PetSkillIconSkin"/>
+		<e:Group x="143" y="42" anchorOffsetY="0" height="31">
+			<e:Label id="skillName" text="技能名字" x="3" y="0" size="24" style="l_yellow_2" textColor="0xac42ce"/>
+			<e:Label id="skillType" text="类型：主动技能" x="0" y="38" size="24" textColor="0xffddab"/>
+			<e:Label id="starNum" text="2" x="70" y="38" size="24" style="l_white" stroke="3" strokeColor="0x350909" visible="false"/>
+			<e:Image width="24" height="23" x="88" y="38" source="ui_bm_star022" visible="false"/>
+		</e:Group>
+		<e:Image y="112" source="ui_bm_shuomingfengexian" x="32"/>
+		<e:Group id="curGroup" x="46" y="157" anchorOffsetY="0" height="182">
+			<e:Label text="技能说明" x="0" y="0" size="24" style="l_yellow_2"/>
+			<e:Label id="skillDesc" text="技能说明" x="44" y="44" size="24" style="l_white_1" width="291"/>
+		</e:Group>
+		<e:Group id="nextGroup" x="32" y="214" visible="false">
+			<e:Image y="0" source="ui_bm_shuomingfengexian" x="0"/>
+			<e:Group x="13" y="12" visible="false">
+			<e:Label id="nextEff" text="下一级效果" x="0" y="0" size="24" style="l_yellow_2"/>
+			<e:Label id="nextSkillDesc" text="下一级技能说明" x="48" y="34" size="24" style="l_white_1" width="291" textColor="0x94999b"/>
+			</e:Group>
+			<e:Image y="135" source="ui_bm_shuomingfengexian" x="0"/>
+			<e:Group x="11" y="155" visible="false">
+			<e:Label id="condition" text="升级条件" x="0" y="0" size="24" style="l_yellow_2"/>
+			<e:Label id="condiDesc" text="条件说明" x="2" y="31" size="24" style="l_white_1" width="291"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

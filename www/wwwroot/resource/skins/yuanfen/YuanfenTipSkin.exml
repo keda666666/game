@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YuanfenTipSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<e:Group x="142" y="530">
+		<e:Image width="437" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="230" y="0" x="0" />
+		<e:Label id="labName" text="名字xxx" x="147" y="52" size="24"/>
+		<e:Label id="labPower" text="获得提升战力 6000" x="146" y="98" size="24" style="l_yellow_2"/>
+		<e:Label text="获取途径" x="27" y="167" size="24" style="l_yellow_2"/>
+		<e:Label id="labGain1" text="宠物商店" x="144" y="167" size="24" style="l_green_1"/>
+		<e:Label id="labGain2" text="元宝商店" x="290" y="167" size="24" style="l_green_1"/>
+		<e:Image y="148" source="ui_bm_shuomingfengexian" x="32"/>
+		<e:Component id="compHead" x="24" y="23" skinName="YuanfenHeadSkin" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

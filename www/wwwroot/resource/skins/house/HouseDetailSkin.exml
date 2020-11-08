@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseDetailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="163ee08c25d"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" />
+	<e:Group x="61" y="630">
+		<e:Image y="52" source="ui_bm_fengexian" width="598" x="0"/>
+		<e:Group width="100%" x="0" y="-70">
+			<ns1:CmLabel text="进阶属性加成" x="185" y="0"  skinName="CmLabel2Skin"  />
+			<e:Label id="labCurAttr" text="" y="67" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group id="groupUnMax" width="100%" x="0" y="90">
+			<ns1:CmLabel text="下阶属性加成" x="185" y="0"  skinName="CmLabel2Skin"  />
+			<e:Label id="labNextAttr" text="" y="67" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Image id="imgIcon" source="ui_fw_bm_fangzi05" x="136" y="-370" scaleX="1" scaleY="1"/>
+		<e:Label id="labMaxLv" text="房屋已满阶" x="233" y="148" style="l_red" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyEquipDlgSkin" width="720" height="1280" currentState="have" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  states="have,kong" >
+	<ns1:CommonDialog id="commonDialog" height="867" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" title="命格" skinName="CommonDialog2Skin"/>
+	<e:Group x="65" y="353" touchEnabled.have="false" touchChildren.have="true">
+		<e:Image width="590" height="670.33" y="-56.06" source="ui_sbm_002" x="0" anchorOffsetY="0"/>
+		<e:Scroller id="scroller" width="580" height="491" y="-47.99" x="5" visible.kong="false">
+			<e:List id="listView" itemRendererSkinName="DestinyEquipItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="equipGroup" x="0" y="445" visible.kong="false">
+			<e:Image width="590" height="166" y="0" source="ui_sbm_002" x="0"/>
+			<e:Group x="123" y="12">
+			<e:Label text="当前装备的命格" y="0" style="l_brown_2" x="81"/>
+			<e:Image source="ui_guankia_wenli" x="0" y="5"/>
+			<e:Image source="ui_guankia_wenli" x="347" y="5" scaleX="-1"/>
+			</e:Group>
+			<e:Component id="cEquip" x="4" y="43" skinName="DestinyEquipItemSkin"/>
+		</e:Group>
+		<e:Group y="19.72" x="0" visible.have="false">
+			<e:Label text="当前没有命格可装备" y="175.28" style="l_brown_1" size="35" x="138"/>
+		</e:Group>
+		<e:Label id="lbGo" text="前往获取命格" y="646.17" style="l_green_1" x="217" scaleX="1" scaleY="1" y.kong="267"/>
+	</e:Group>
+</e:Skin>

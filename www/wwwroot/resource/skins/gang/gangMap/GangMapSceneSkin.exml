@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMapSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16369412bb8"/>
+	<e:Group id="groupTask" y="368" right="-10">
+		<ns1:GangMapTaskItem id="item1" x="0" y="0" skinName="GangMapTaskItemSkin"/>
+		<ns1:GangMapTaskItem id="item2" x="0" y="228" skinName="GangMapTaskItemSkin"/>
+		<e:CheckBox id="cbAuto" x="36" y="475" label="" skinName="CheckBox0"/>
+		<e:Label text="自动完成任务" x="83" y="486" style="l_white" stroke="1"/>
+	</e:Group>
+	<e:Button id="btnArr" skinName="Btn0Skin" icon="ui_zd_bt_shousuo" y="362.68" scaleX="-1" scaleY="1" right="2"/>
+	<e:Group id="groupAdaptation" x="0" y="841" touchEnabled="false" width="100%">
+		<e:Button id="btnExchange" skinName="MainFuncBtnSkin" icon="ui_bh_bt_banghuiduihuan" x="17" y="0"/>
+		<e:Image scale9Grid="20,20,28,28" x="0" y="105" width="100%" height="60" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+		<e:Label id="labTip" text="召集时间： 12-13点在帮会期间进行任务可获得多倍经验" x="7" y="123" size="22" stroke="2" style="l_white"/>
+	</e:Group>
+	<e:Group id="groupPick" y="274" horizontalCenter="-9">
+		<e:ProgressBar id="bar" y="32" anchorOffsetX="0" anchorOffsetY="0" maximum="5" value="0" width="200" x="0">
+			<e:Skin width="200">
+			<e:Image x="0" y="0" width="198" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="194" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" text="0" horizontalCenter="0" visible="false"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Label text="采集中..." y="5" horizontalCenter="0" style="l_white" size="22"/>
+	</e:Group>
+</e:Skin>

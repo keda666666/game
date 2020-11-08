@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DestinyEquipItemSkin" width="580" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image width="580" height="120" source="ui_sbm_005" x="0" y="0"/>
+		<e:Label id="lbFight" text="战力+99999" y="11" size="20" verticalAlign="middle" textAlign="center" right="20" style="l_brown_1"/>
+		<e:Button id="buy" label="装 备" y="44" right="20" skinName="BtnN4Skin"/>
+		<e:Label id="nameLabel" text="羽毛" y="9" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_yellow_3" size="26" x="114"/>
+		<ns1:ItemBase id="itemIcon" xmlns:ns1="*" y="6" x="0" skinName="ItemSkin"/>
+		<e:Label id="lbInfo0" text="属性" x="114" y="44" style="l_brown_1"/>
+		<e:Label id="lbInfo1" text="属性" x="114" y="78" style="l_brown_1"/>
+	</e:Group>
+</e:Skin>

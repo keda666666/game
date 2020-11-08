@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBattleDragonItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="120" states="up,down"  height="150">
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image source="ui_bm_icon001" x="0" y="0"/>
+		<e:Image id="imgFace" x="5" y="6" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	</e:Group>
+	<e:Label id="labName" text="玩家名字六字" y="99" horizontalCenter="0" size="20" style="l_brown_1"/>
+	<e:Label id="labDesc" text="帮会名啦啦啦" y="124" horizontalCenter="0.5" size="20" x="10" style="l_brown_1"/>
+	<e:Image id="imgLeader" source="ui_bh_bm_duizhang" x="-5" y="-7" visible="false"/>
+</e:Skin>

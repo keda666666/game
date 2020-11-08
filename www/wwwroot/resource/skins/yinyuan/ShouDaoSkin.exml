@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShouDaoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<e:Image source="ui_yy_bm_qiuhuenBG" x="89" y="403"/>
+	<e:Image id="hunType" y="522.66" source="ui_yy_bm_pthl" horizontalCenter="0"/>
+	<e:Label id="text" text="玩家名字六字" y="677" anchorOffsetX="0" width="369.33" x="175" textColor="0x6e330b" textAlign="center" size="22" style="l_brown_1"/>
+	<e:Label text="向您求婚，是否接受?" y="703.98" textColor="0x6e330b" textAlign="center" horizontalCenter="0.5" size="22" style="l_brown_1"/>
+	<e:Button id="jieshou" label="接 受" skinName="BtnN4Skin" y="800" x="105.67"/>
+	<e:Button id="jujue" label="拒 绝" skinName="BtnN4Skin" y="800" x="297"/>
+	<e:Button id="next" label="下一位" skinName="BtnN4Skin" y="800" x="479.67"/>
+	<e:List id="list0" y="563.03" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" x="235">
+		<e:layout>
+		<e:HorizontalLayout gap="30"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Component id="face" y="420.66" x="310.67" skinName="HeadSkin2"/>
+	<e:Label id="DayTimes" text="今日还可结婚" y="730.04" scaleX="1" scaleY="1" size="20" style="l_green_1" x="300"/>
+</e:Skin>

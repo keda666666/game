@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MiniChatItemSkin" currentState="info" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Image y="0" id="flagImg" x="0" source="ui_lt_bm_xitong"/>
+	<ns1:ChatLabel id="roleNameTxt" width="553" textColor="0xfff5e0" x="75"/>
+</e:Skin>

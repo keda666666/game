@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetFightPanelSkin" width="720" height="1280" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163ef6f166b" source="ui_kfhd_bm_kaifutuangouBanner" visible="false"/>
+
+	<e:Image width="651" height="169.33" x="35" y="270.76" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image y="367" source="ui_bm_jsbg" horizontalCenter="0"/>
+	<e:Image width="374" height="90" x="175" y="834.76" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	
+	<e:Label id="time_txt" text="剩余时间：12:25:01" y="494" size="22" style="l_brown_1" horizontalCenter="0"/>
+	<ns1:GetwayLabel id="getwayLabel" text="查看属性" x="36" y="445.34"  enabled="true" skinName="GetwayLabelSkin"/>
+	<e:Image id="hasGet_img" x="326" y="901" source="ui_fb_bm_yilingqu" rotation="25"/>
+
+	<e:Button id="challenge_btn" label="挑 战" x="282" y="936" skinName="Btn2Skin" anchorOffsetX="0" width="161" anchorOffsetY="0" height="66"/>
+	<ns1:PowerLabel id="powerLabel" y="726" horizontalCenter="0" skinName="PowerLabel2Skin"/>
+	<e:Group x="77" y="269" anchorOffsetX="0" width="566">
+		<e:Scroller width="566" height="141" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off" scrollPolicyH="off">
+			<e:List id="list" itemRendererSkinName="KaiFuTargetGuanQiaItmeSkin" anchorOffsetX="0" width="569" x="-8" y="0" anchorOffsetY="0" height="137">
+			<e:layout>
+				<e:HorizontalLayout gap="-2" paddingLeft="0"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:ProgressBar id="bar" y="149" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" x="64" width="450" skinName="bar0Skin" height="11" scaleY="0.7"/>
+	</e:Group>
+	<ns1:CmLabel x="237" y="791" text="通关奖励" skinName="CmLabel2Skin"/>
+	<ns1:CmLabel id="guanQia_label" y="444" text="通关奖励" skinName="CmLabel3Skin" width="184" x="268"/>
+	<e:Group x="534" y="450" anchorOffsetY="0" height="160">
+		<e:Image y="-3" source="ui_bm_wenbenbg" horizontalCenter="0"/>
+		<ns1:ItemBaseNotName id="awardPetIcon" y="34" skinName="ItemSkin" horizontalCenter="0"/>
+		<e:Label id="awardPetName_label" text="sssr 齐天大圣" y="142" style="l_brown_1" horizontalCenter="0" size="24"/>
+		<e:Label text="第十关送神兽" y="5" horizontalCenter="0" style="l_brown_1" size="20"/>
+	</e:Group>
+	<e:Button id="leftBtn" x="40" y="302" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+	<e:Button id="rightBtn" x="680" y="303" skinName="Btn0Skin" icon="ui_bt_jiantou" scaleX="-1"/>
+
+	<e:Scroller width="367" height="80" x="177" y="839" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off">
+			<e:List id="awardList" itemRendererSkinName="ItemSkin" anchorOffsetX="0" width="485" x="0" y="0" anchorOffsetY="0" height="128" scaleX="0.8" scaleY="0.8">
+			<e:layout>
+				<e:HorizontalLayout gap="7"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	<ns1:RoleShowPanel id="roleShowpanel" y="708" horizontalCenter="0"/>
+	<e:Group id="progressIconGroup" x="129" y="410">
+		<e:Image width="20" height="20" x="0" y="0" source="ui_yuan_quse" scaleX="1.2" scaleY="1.2"/>
+		<e:Image width="20" height="20" x="10" y="10" source="ui_yuan_quse" scaleX="1.2" scaleY="1.2"/>
+		<e:Image width="20" height="20" x="20" y="20" source="ui_yuan_quse" scaleY="1.2" scaleX="1.2"/>
+		<e:Image width="20" height="20" x="30" y="30" source="ui_yuan_quse" scaleX="1.2" scaleY="1.2"/>
+		<e:Image width="20" height="20" x="40" y="40" source="ui_yuan_quse" scaleY="1.2" scaleX="1.2"/>
+		<e:layout>
+			<e:HorizontalLayout gap="87"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

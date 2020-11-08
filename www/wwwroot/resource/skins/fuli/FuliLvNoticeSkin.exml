@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLvNoticeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9c3feea"/>
+	<e:Image width="652.82" height="560.36" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" y="441.82" horizontalCenter="-0.5"/>
+	<e:Image x="33.48" y="272.48" source="ui_fldt_bm_gonggaoBanner"/>
+	<e:Scroller width="635" height="495" y="474" horizontalCenter="0.5">
+		<e:Label id="lbNotice" text="dd" style="l_brown_1"/>
+	</e:Scroller>
+</e:Skin>

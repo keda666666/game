@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AcitivityAdvanceTips" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<w:Config id="164f5dbbe2e"/>
+	<e:Component id="bg" skinName="BG2"/>
+	<e:Image id="iconBg" y="287" horizontalCenter="0" source="ui_yg_bm_jct"/>
+	<e:Image id="iocn" x="149" y="313"/>
+	<e:Group x="277" y="325">
+		<e:Label text="开启时间：" x="-32" y="-12" style="l_white" size="24"/>
+		<e:Label id="tips1Txt" text="九重天" x="0" y="0" style="l_green" size="24"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="277" y="359">
+		<e:Label text="开启周期：" x="17" y="30" style="l_white" size="24"/>
+		<e:Label id="tips2Txt" text="九重天" x="17" y="72" style="l_brown_1"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="584" anchorOffsetX="0" horizontalCenter="0.5" width="463">
+		<e:Label text="玩法简介" x="22" y="-161" size="21" style="l_white"/>
+		<e:Label id="detailsTxt" text="" x="19" y="-119" anchorOffsetX="0" width="425" anchorOffsetY="0" height="106" size="18" style="l_white" lineSpacing="2"/>
+	</e:Group>
+	<e:Group id="auctionGroup" y="584" width="720" horizontalCenter="0">
+		<e:Label id="gainWayTxt" text="(奖励进入拍卖行)" x="302" y="5" style="l_green_2" textColor="0xfcc558"/>
+		<e:Label text="归属拍卖奖励" x="144" y="1" style="l_white" size="24"/>
+		<e:List id="auctionList" y="36" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"  scaleX="0.8" scaleY="0.8" itemRendererSkinName="ItemSkin1">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object adsasd="null"/>
+				<e:Object adsasd="null"/>
+				<e:Object adsasd="null"/>
+				<e:Object adsasd="null"/>
+				<e:Object adsasd="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-1"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="awardGroup" y="584" width="720" horizontalCenter="0">
+		<e:Label text="奖品预览" x="138" y="6" style="l_white" size="24"/>
+		<e:List id="awardList" y="38" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" horizontalCenter="0" itemRendererSkinName="ItemSkin1">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object adsasd="null"/>
+			<e:Object adsasd="null"/>
+			<e:Object adsasd="null"/>
+			<e:Object adsasd="null"/>
+			<e:Object adsasd="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="-1"/>
+		</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Button id="btn" label="确认" y="736" skinName="Btn2Skin" horizontalCenter="0"/>
+</e:Skin>

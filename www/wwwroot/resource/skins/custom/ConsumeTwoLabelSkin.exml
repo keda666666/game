@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConsumeTwoLabelSkin" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+			<e:Group height="41">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="6" horizontalAlign="center"/>
+			</e:layout>
+			<e:Label text="消耗：" style="l_brown_2" size="24"/>
+			<ns1:PriceIcon id="priceicon" x="63"/>
+				<e:Component width="5" x="180" y="12"/>
+			<e:Image id="typeImg" source="" maxHeight="30" maxWidth="30"/>
+			<e:Label id="priceLabel" text="" x="20" y="20" textAlign="center" verticalAlign="middle" style="l_brown_2" size="24"/>
+			</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderWinnerSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="ui_kfwz_bm_bj" x="17" y="77"/>
+	<ns1:CmLabel x="234" y="649" text="膜拜奖励" skinName="CmLabel2Skin"/>
+	<ns1:CmLabel id="noneLabel" y="248" text="虚位以待" skinName="CmLabel2Skin" x="241"/>
+	<ns1:CmLabel id="nameLabel" y="574" text="虚位以待" horizontalCenter="0.5" skinName="CmLabel3Skin" width="209"/>
+	<e:Image x="1" y="703" source="ui_bh_bm_dikuang" height="123"/>
+	<e:List id="list" y="719" itemRendererSkinName="ItemSkin" horizontalCenter="0" scaleX="0.9" scaleY="0.9">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Button id="goBtn" label="膜拜" x="280" y="845" skinName="BtnN2Skin"/>
+	<e:Label id="infoLabel" text="xxxx年x月x日登上" y="932" style="l_brown_1" horizontalCenter="0" size="28"/>
+	<ns1:RoleShowPanel id="roleShowPanel" width="0" height="0" x="354" y="534"/>
+	<w:Config id="16513e881ab"/>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9b90924" visible="false"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" title="福利大厅"/>
+	<e:Button id="leftBtn" x="23" y="183" icon="ui_bt_jiantou" skinName="Btn0TipSkin"/>
+	<e:Button id="rightBtn" x="692" y="183" icon="ui_bt_jiantou" scaleX="-1" skinName="Btn0TipSkin"/>
+	<ns1:TabEuiView id="tabEuiView" width="720" height="1280" touchEnabled="false" touchChildren="true"/>
+	<e:Scroller width="581" height="133" x="68" y="141" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="FuliBtnSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="-11"/>
+			</e:layout>
+			
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

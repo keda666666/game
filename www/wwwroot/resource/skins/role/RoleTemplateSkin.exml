@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleTemplateSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full,none" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<e:Image y="173" x="34" source="ui_bm_jsbg"/>
+    <ns1:PowerLabel id="powerLabel" skinName="PowerLabel3Skin" y="140" x="164"/>
+	<e:Image id="nameBg" y="218" anchorOffsetX="0" anchorOffsetY="0"  source="ui_bm_zuoqimingzibg" x="288"/>
+	<e:Image x="502" y="332"  anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Image x="66" y="640" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+	<e:Image x="396" y="640" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+	<e:Image y="678"  anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="86" width="322" horizontalCenter="-162.5"/>
+	<e:Image y="678" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="86" width="322" horizontalCenter="163.5"/>
+	<e:Image y="769" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" horizontalCenter="0" height="233" width="650"/>
+	<e:Group x="221" y="292" width="143" height="234">
+		<e:Group id="petSoul" x="33.45" y="45" scaleX="2.5" scaleY="2.5">
+		</e:Group>
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="230" x="139"/>
+		<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="230" x="139"/>
+		<ns1:RideShowPanel id="ridePanel" width="0" height="0" y="230" x="139"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="230" width="4" x="139" scaleX="1" scaleY="1"/>
+		<e:Image id="imgXianw" y="-24" source="" horizontalCenter="67"/>
+	</e:Group>
+	<e:Image id="imgHuanHua" y="541" source="ui_bm_yihuanhua" x="299"/>
+    			<e:ProgressBar id="bar" y="824" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" horizontalCenter="0" visible.full="false" visible.none="false">
+			<e:Skin>
+				<e:Image x="0" y="0"  width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2"  width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="479" text="0" x="63"/>
+			</e:Skin>
+			</e:ProgressBar>
+	<e:Label id="lbName" text="青龙" y="227" size="24"  width="176" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" horizontalCenter="0"/>
+	<e:Label id="lbLev" text="20" x="495" y="320" size="20"  lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xaa6a31"/>
+	<e:Group id="addPowerGroup" y="552" width="476" x="150" visible="false">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_tishengzhanlibg" x="16"/>
+		<e:Label id="lbAlert" text="可提升999战斗力" y="8" size="26" textAlign="center" width="308" style="l_brown_2" x="48" textColor="0xffda6b"/>
+	</e:Group>
+	<e:Group x="212" y="785" visible.full="false" visible.none="false">
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+		<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+		<e:Label text="进阶进度" y="0" size="24" textAlign="center" x="100" style="l_brown_2"/>
+	</e:Group>
+	<e:Label id="title1Label" text="技能" y="643" size="24" textAlign="center" x="118" style="l_brown_2" width="137"/>
+	<e:Label id="title2Label" text="装备" y="643" size="24" textAlign="center" x="452" style="l_brown_2" width="137"/>
+	<e:Label id="lbFull" text="已满阶" y="861" size="30" bold="true"  horizontalCenter="0" includeIn="full,none" textColor="0xcc0000" text.none="未激活"/>
+	<e:Button id="btnSkin" x="48" y="229" icon="ui_bt_pifu" skinName="Btn0TipSkin"/>
+	<e:Button id="btnAttrDrug" x="48" y="128" icon="ui_bt_shuxingdan" skinName="Btn0TipSkin"/>
+	<e:Button id="btnUpLevel" x="40" y="508" icon="ui_zq_bm_zhishengyijie" skinName="Btn0TipSkin"/>
+	<e:Button id="btnPrev" x="94" y="392" skinName="BtnNextSkin"/>
+	<e:Button id="btn_juexing" x="585" y="516" icon="ui_bt_jinjiejuli" skinName="Btn0TipSkin"/>
+	<e:Button id="btnNext" y="391" x="625" skinName="BtnNextSkin" scaleX="-1"/>
+	<e:Image id="btnNextIcon" y="428" source="ui_bt_yulan" x="583" />
+	<e:Button id="btnHuanHua" y="542" icon="" label="幻化"  horizontalCenter="0"  skinName="BtnN2Skin" visible="false"/>
+	<e:Button id="btnPutOn" width="162" height="58" x="450"   label="一键穿戴"  y="592"  visible="false"/>
+	<e:Button id="btnCulture" x="109" y="915"    label="升阶" includeIn="normal"  skinName="BtnN3Skin"/>
+	<e:Button id="btnAuto" x="445" y="915" icon=""  label="自动升阶" includeIn="normal"  skinName="BtnN2Skin"/>
+	<e:Group x="40" y="682">
+		<e:Component id="skill0" x="0" y="2" skinName="RideMiniItemSkin"/>
+		<e:Component id="skill1" x="80" y="0" skinName="RideMiniItemSkin"/>
+		<e:Component id="skill2" x="160" y="0" skinName="RideMiniItemSkin"/>
+		<e:Component id="skill3" x="240" y="0" skinName="RideMiniItemSkin"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="682" x="366">
+		<e:Component id="equip0" x="0" y="0" skinName="RideMiniItemSkin" width="78" height="78"/>
+		<e:Component id="equip1" x="80" y="0" skinName="RideMiniItemSkin" width="78" height="78"/>
+		<e:Component id="equip2" x="160" y="0" skinName="RideMiniItemSkin" width="78" height="78"/>
+		<e:Component id="equip3" x="240" y="0" skinName="RideMiniItemSkin" width="78" height="78"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+	</e:Group>
+	<e:CheckBox id="checkBox" x="450" y="861"   label="自动购买"  skinName="CheckBox0" visible.full="false" visible.none="false"/>
+	<e:Button id="onekeyEquip" label="一键穿戴" x="455" y="604" skinName="BtnN1Skin"/>
+	<ns1:ConsumeTwoLabel id="consumeLabel" x="54" y="864" visible.full="false" visible.none="false"/>
+	<ns1:GetwayLabel id="jijie_link" text="查看属性" x="526" y="785.34" enabled="true" skinName="GetwayLabelSkin"/>
+</e:Skin>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleRideDrugSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1628677c2fa"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" title="属性丹"/>
+	<e:Group x="243" y="278">
+		<e:Label id="matLabel" text="下级效果" y="9" size="24" textAlign="left" style="l_brown_2" x="108"/>
+		<e:Label id="useCountLabel" text="拥有：0" y="50" size="24" textAlign="left" style="l_brown_2" x="108"/>
+		<ns1:ItemBaseNotName id="item" x="-3" y="0"/>
+	</e:Group>
+	<e:Group x="236" y="411">
+		<e:Image x="0" y="0" source="ui_bm_title1"/>
+		<e:Label id="labTip" text="为角色加成属性" y="4" size="24" textAlign="center" style="l_brown_2" x="40"/>
+	</e:Group>
+	<e:Group x="236" y="840">
+		<e:Image x="0" y="0" source="ui_bm_title1"/>
+		<e:Label text="其他获得途径" y="4" size="24" textAlign="center" style="l_brown_2" x="30" width="190"/>
+	</e:Group>
+	<e:Label id="attrLabel" text="生命：0 攻击：0 防御：0" y="476" size="24" textAlign="center" style="l_brown_2" horizontalCenter="0"/>
+	<e:Image y="532" horizontalCenter="0" source="ui_bm_fengexian" width="488"/>
+	<e:Image y="603" horizontalCenter="0" width="559" source="ui_sbm_002" height="200"/>
+	<e:Label id="countLabel" text="拥有：0" y="557" size="24" textAlign="left" style="l_brown_2" horizontalCenter="0"/>
+	<e:Group id="add" height="40" scaleX="1" scaleY="1" horizontalCenter="0" y="646" width="353">
+		<e:TextInput id="numLabel" text="1" maxChars="6" width="183" height="36" skinName="TextInputSkin2" anchorOffsetX="0" y="2" horizontalCenter="0"/>
+		<e:Button id="minBtn" label="最小" x="67" y="-1.33" skinName="Btn0Skin" icon="ui_bt_jian"/>
+		<e:Button id="maxBtn" label="最大" x="245.68" y="-1" skinName="Btn0Skin" icon="ui_bt_plue"/>
+		<e:Button id="btnLessTen" label="Button" x="-9.99" y="-1" skinName="Btn0Skin" icon="ui_bt_jianshi"/>
+		<e:Button id="btnAddTen" label="Button" x="298.34" y="-2" skinName="Btn0Skin" icon="ui_bt_jiashi"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="useBtn" label="使 用" scaleX="1" scaleY="1" horizontalCenter="0" y="720" skinName="BtnN2Skin"/>
+	<ns1:GainLabel id="getwayLabel"  y="900"  horizontalCenter="0" skinName="GainLabel2Skin"/>
+</e:Skin>

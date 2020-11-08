@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuaQiaRankSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163b94259b5" />
+	<ns1:CommonDialog id="commonDialog" x="0" y="165" anchorOffsetY="0" height="839" skinName="CommonDialog2Skin" />
+	<e:Image x="79" y="243" width="561" height="640" source="ui_sbm_002" anchorOffsetX="0"
+	         anchorOffsetY="0" />
+	<e:Scroller x="81" y="285" anchorOffsetX="0" anchorOffsetY="0" height="597" width="559"
+	            scrollPolicyH="off">
+		<e:List id="list" itemRendererSkinName="GuaQiaRankItemSkin" anchorOffsetY="0" height="596" anchorOffsetX="0"
+		        width="558" x="-2">
+			<e:layout>
+				<e:VerticalLayout gap="2" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object q="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="排名" x="97" y="249" style="l_gray" textColor="0x6c310a" />
+	<e:Label text="名字" x="224" y="250" style="l_gray" textColor="0x6C310A" />
+	<e:Label text="战力" x="408" y="250" style="l_gray" textColor="0x6C310A" />
+	<e:Label text="关卡" x="543" y="250" style="l_gray" textColor="0x6C310A" />
+	<e:Label text="我的排名:" x="84" y="897" style="l_gray" textColor="0x6C310A" />
+	<e:Label text="我的关卡数:" x="365" y="897" style="l_gray" textColor="0x6C310A" />
+	<e:Label id="isMeTxt" text="未上榜" x="214" y="897" style="l_green" />
+	<e:Label id="guanQiaTxt" text="50" x="520" y="897" style="l_green" />
+</e:Skin>

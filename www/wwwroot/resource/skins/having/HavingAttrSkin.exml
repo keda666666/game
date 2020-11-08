@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-52.5" height="835.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" />
+	<e:Image y="173" source="ui_bm_jsbg" x="34"/>
+	<ns1:PowerLabel id="powerLabel" y="240" x="164" skinName="PowerLabel2Skin"/>
+	<e:Group width="627" height="200" y="625" horizontalCenter="0">
+		<e:Group width="100%">
+			<e:Label text="进阶属性加成" y="0" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="levelAttr" text="" y="34" horizontalCenter="0" size="22"/>
+			<e:Image y="72" source="ui_bm_fengexian" width="598" x="15"/>
+		</e:Group>
+		<e:Group width="100%" x="20" y="20" includeInLayout="false" visible="false">
+			<e:Label text="皮肤属性加成" y="0" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="skinAttr" text="" y="34" horizontalCenter="0" size="22"/>
+			<e:Image y="72" source="ui_bm_fengexian" width="598" x="15"/>
+		</e:Group>
+		<e:Group width="100%" x="30" y="30">
+			<e:Label text="属性丹属性加成" y="0" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="drugAttr" text="" y="34" horizontalCenter="0" size="22"/>
+			<e:Image y="72" source="ui_bm_fengexian" width="598" x="15"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+	</e:Group>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="532" horizontalCenter="0"/>
+</e:Skin>

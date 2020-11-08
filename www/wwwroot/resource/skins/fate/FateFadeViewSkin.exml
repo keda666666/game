@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FateFadeViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Component id="com" skinName="BG2" alpha="0"/>
+	<e:Group id="group" x="262.08" y="325" width="200" height="200">
+		<e:Image id="pointImg" x="100" y="100" source=""/>
+	</e:Group>
+	<e:Image x="209" y="455" source="ui_zd_bm_taizi"/>
+	<e:Group x="189" y="292" visible="false">
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="256" x="171"/>
+		<ns1:RideShowPanel id="ridePanel" width="0" height="0" y="256" x="171"/>
+		<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="256" x="171"/>
+		<e:Image id="imgXianw" width="143" height="54" x="87" y="26" source=""/>
+		<e:Image id="imgSoul" width="60" height="60" x="48.45" y="71" source="" scaleX="1.5" scaleY="1.5"/>
+		<ns1:PetShowPanel id="showTianx" width="0" height="0" y="34" x="49" scaleX="1" scaleY="1"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="256" width="4" x="171" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group x="165" y="671.67">
+		<e:Image scaleX="1" scaleY="1" source="ui_bm_zhanlibg" height="63" x="0" y="0"/>
+		<e:Label id="describeLabel" text="解锁新外形" style="l_white" size="30" horizontalCenter="0.5" y="16"/>
+	</e:Group>
+	<e:Button id="enterBtn" width="124" height="54" x="306.62" y="741.35" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn1Skin" label="确定(5s)"/>
+	<ns1:FateModelItemPanel id="fateModelItem" width="179.09" height="170" skinName="FateModelItemSkin" anchorOffsetX="0" anchorOffsetY="0" bottom="750" horizontalCenter="-1.5"/>
+	<e:List id="itemList" anchorOffsetY="0" anchorOffsetX="0" y="590.99" itemRendererSkinName="GangFuBenAwardItemSkin" height="64" horizontalCenter="4">
+		<e:layout>
+		<e:HorizontalLayout gap="15"/>
+		</e:layout>
+	</e:List>
+	
+</e:Skin>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RmbGiftPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f2b25cf9"/>
+	<e:Component skinName="BG2" id="dialogMask" verticalCenter="0" height="1767" horizontalCenter="0"/>
+	<e:Group x="0" y="182">
+		<e:Group x="0" y="0">
+			<e:Image y="3" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="652" height="661" x="35"/>
+			<e:Image y="17" x="49" source="ui_yyhd_bm_shiyuanlibaoBG"/>
+			<e:Group touchChildren="false" touchEnabled="false" x="46" y="1">
+			<e:Image scaleX="1" scaleY="1" y="0"  source="ui_sbm_003" x="4"/>
+			<e:BitmapLabel id="titleLabel" y="19" scaleX="1" scaleY="1" text="10元礼包" font="font_ui_biaoti_fnt" textAlign="center" width="270" x="180"/>
+			</e:Group>
+			<e:Button id="dialogCloseBtn" icon="ui_common_gb02_btn_n" x="600" skinName="CloseBtn" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="376" y="421">
+			<e:Label text="倒计时：" y="0" size="24" x="-2" style="label01" stroke="2"/>
+			<e:Label id="timeTxt" text="23:59:59" y="0" size="24" x="100" style="l_yellow_1" stroke="2"/>
+		</e:Group>
+		<e:Image id="titleImg" x="120" y="84" source="ui_yyhd_bm_shiyuanlibaowenben0"/>
+		<e:Image id="showImg" y="234" source="" horizontalCenter="-177.5"/>
+		<ns1:RideShowPanel id="rideShowPanel" y="380" x="166"/>
+		<ns1:RoleShowPanel id="roleShowPanel" x="166" y="380"/>
+		<e:Group id="nextGroup" x="52" y="526" scaleX="0.8" scaleY="0.8" height="151" width="165">
+			<e:Image id="nextShowImg" source="" horizontalCenter="11.5" y="31"/>
+			<ns1:RideShowPanel id="nextRideShowPanel" x="105.25" scaleX="0.7" scaleY="0.7" y="139.75"/>
+			<ns1:RoleShowPanel id="nextRoleShowPanel" x="105.25" y="119.75" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="labNextPower" text="战力直升 10000" x="16.25" y="129" style="l_yellow_4" size="22"/>
+			<e:BitmapLabel y="-6.25" text="下个礼包" font="font_ui_fuben_fnt" anchorOffsetX="0" anchorOffsetY="0" x="-1.25" width="30"/>
+		</e:Group>
+		<e:Scroller width="350" x="296" y="277" height="104" scrollPolicyV="off">
+			<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" y="463" x="300" itemRendererSkinName="ItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="11"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="chargeBtn" y="526"   label="立即购买" skinName="BtnN2Skin" horizontalCenter="118.5"/>
+		<e:Label id="labTip" text="明天可购买" y="550" horizontalCenter="120.5" stroke="2" bold="true" style="l_white"/>
+		<e:Group x="269" y="463">
+			<e:Image y="0" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_yyhd_zhanlizhisheng" x="0"/>
+			<e:BitmapLabel id="power" x="202" y="19" font="font_ui_zl_fnt" text="999"/>
+		</e:Group>
+		<e:Label id="valueTxt" text="今日已充值：99元" y="233" size="24" stroke="2" style="l_green_2" x="377"/>
+		<e:Label id="nameTxt" text="直升一阶丹" y="419" size="20" stroke="2" style="l_yellow_1" x="96" width="120" textAlign="center"/>
+	</e:Group>
+</e:Skin>

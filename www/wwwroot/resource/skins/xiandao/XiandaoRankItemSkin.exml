@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoRankItemSkin" width="650" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="ui_bm_xilianbg01" scale9Grid="20,0,10,106" height="60" width="650"/>
+	<e:Label id="rankLabel" text="1" style="l_brown_1" x="67" verticalCenter="0"/>
+	<e:Label id="nameLabel" text="1" style="l_brown_1" verticalCenter="0" width="368" textAlign="center" x="106"/>
+	<e:Label id="scoreLabel" text="10" x="452" verticalCenter="0" width="105" textAlign="right" style="l_green"/>
+</e:Skin>

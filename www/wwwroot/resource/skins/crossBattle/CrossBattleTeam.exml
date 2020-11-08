@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleTeam" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<ns1:CommonWindowBg id="CommonWindowBg" height="466.01" title="王城情况" anchorOffsetY="0" skinName="CommonWindowBgSkin"/>
+	<e:Image y="166" source="ui_sbm_002" anchorOffsetX="0" width="643" anchorOffsetY="0" height="846" x="39"/>
+	<e:List height="838" y="167.34" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" itemRendererSkinName="CrossBattleTeamItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Button label="创建队伍" skinName="BtnN2Skin" horizontalCenter="0" y="1035"/>
+
+
+
+
+</e:Skin>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ConsumptionItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<w:Config id="1586b1383e3" />
+	<e:Group x="0" y="0">
+		<e:Image width="644" height="140" source="ui_bm_fuwuqibg" x="0" y="0"/>
+		<e:Label id="descTxt" text="消费2000元宝" size="20" x="30" style="l_brown_1" textAlign="center" y="8"/>
+		<e:List id="rewardList" anchorOffsetY="0" x="20" itemRendererSkinName="ItemSkin" y="30" height="104">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="rewardBtn" x="490"   label="领 取" skinName="BtnN4Skin" verticalCenter="-2"/>
+		<e:Label id="levelTxt" text="未达成" style="l_brown_2" size="22" x="520" verticalCenter="-3" visible="false"/>
+		<e:Image id="rewardImg" x="490" source="ui_fb_bm_yilingqu" verticalCenter="-5.5" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

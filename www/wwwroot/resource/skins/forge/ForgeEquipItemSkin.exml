@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeEquipItemSkin" width="96" height="96" xmlns:e="http://ns.egret.com/eui">
+<e:Image id="imgBg" left="-2" right="-2" top="-2" bottom="-2" source="ui_bm_icon001"/>
+	<e:Image id="imgIcon" left="6" right="6" top="6" bottom="6" x="2" y="2" scaleX="1" scaleY="1"/>
+
+	<e:Image id="Etext" bottom="3" horizontalCenter="0" source=""/>
+	<e:Label id="starLevel" text="+0" size="20" textAlign="right" bold="true" fontFamily="Microsoft YaHei" right="8" top="6" textColor="0xc6ff00"/>
+	<e:Image id="selectImg" verticalCenter="0" horizontalCenter="0" source="ui_bm_xuanzhongkuang"/>
+</e:Skin>

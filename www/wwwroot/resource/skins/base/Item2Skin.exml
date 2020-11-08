@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Item2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="87" height="109">
+	<w:Config id="1586b362dfe"/>
+	<ns1:ItemIcon id="itemIcon" y="5" skinName="ItemIconSkin"  width="72" height="75" x="7" anchorOffsetX="0" anchorOffsetY="0"/>
+
+	<e:Image id="imgChoose" source="ui_bm_xuanzhongkuang" width="129" height="127" scale9Grid="55,51,14,17" x="-9" y="-11" visible="false"/>
+
+	<e:Image id="redPoint" width="32" height="31" x="79" y="1" source="ui_bm_reddot" visible="false"/>
+
+
+	<e:Label id="nameTxt" size="20"  horizontalCenter="-0.5" text="道具名称" y="89"/>
+	<e:Label id="count" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="58" scaleX="1" scaleY="1" horizontalCenter="-0.5" verticalCenter="14.5"/>
+</e:Skin>

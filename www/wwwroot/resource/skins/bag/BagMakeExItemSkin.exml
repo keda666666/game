@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BagMakeExItemSkin" width="315" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586bdea66d"/>
+	<e:Group id="group" x="0" y="0">
+		<e:Image source="ui_bm_fuwuqibg" width="315" x="0" y="0"/>
+		<e:Label id="nameLabel" text="羽毛" y="17" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_yellow_3" size="26" x="114"/>
+		<e:Label id="lbPower" text="战力: " x="114" y="53.4" style="l_brown_1"/>
+		<e:CheckBox id="checkBox" label="" skinName="CheckBox0" x="261" y="0"/>
+		<ns1:ItemIcon id="itemIcon" x="9" skinName="ItemIconSkin" scaleX="1" scaleY="1" y="13"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	<!--<ns1:BaseComponent id="itemIcon" x="18" skinName="ItemIconSkin" className="ItemIcon" y="16"/>-->
+
+
+</e:Skin>

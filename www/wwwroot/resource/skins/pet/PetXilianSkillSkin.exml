@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetXilianSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonWindowBg id="commonWindowBg" skinName="CommonWindowBg2Skin" title="洗练"/>
+	<e:Group x="35" y="151">
+		<e:Image width="322" height="679" x="0" y="0" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image y="15" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="11"/>
+		<e:Image y="15" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="309" scaleX="-1"/>
+		<e:Label text="当前技能" y="8" style="l_brown_2" x="109"/>
+		<e:Group id="group01" width="200" height="200" x="2" y="40">
+			<e:Component skinName="PetXilianItemSkin"/>
+			<e:Component skinName="PetXilianItemSkin" x="10" y="10"/>
+			<e:Component skinName="PetXilianItemSkin" x="20" y="20"/>
+			<e:Component skinName="PetXilianItemSkin" x="30" y="30"/>
+			<e:Component skinName="PetXilianItemSkin" x="40" y="40"/>
+			<e:Component skinName="PetXilianItemSkin" x="50" y="50"/>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group x="365" y="151">
+		<e:Image width="322" height="679" x="0" y="0" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image y="15" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="11"/>
+		<e:Image y="15" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="309" scaleX="-1"/>
+		<e:Label text="洗练技能" y="8" style="l_brown_2" x="109"/>
+		<e:Group id="group02" width="200" height="200" x="2" y="40">
+		<e:Component skinName="PetXilianItemSkin"/>
+		<e:Component skinName="PetXilianItemSkin" x="10" y="10"/>
+		<e:Component skinName="PetXilianItemSkin" x="20" y="20"/>
+		<e:Component skinName="PetXilianItemSkin" x="30" y="30"/>
+		<e:Component skinName="PetXilianItemSkin" x="40" y="40"/>
+		<e:Component skinName="PetXilianItemSkin" x="50" y="50"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image y="1010" source="ui_bm_xuanxiangkabg" height="108" x="15" touchEnabled="false"/>
+	<e:Button id="btn01" label="洗 练" x="68" y="930" skinName="BtnN3Skin"/>
+	<e:Button id="btn02" label="高级洗练" x="282" y="930" skinName="BtnN3Skin"/>
+	<e:Button id="btnchage" label="更换" x="488" y="930" skinName="BtnN2Skin"/>
+	<e:CheckBox id="checkBox" x="490" y="878" label="自动购买" skinName="CheckBox0"/>
+	<e:Group height="39" y="838" horizontalCenter="0">
+		<e:Image x="1" y="1" source="ui_bt_suo"/>
+		<e:Label text="锁定" x="2" style="l_brown_2" size="20"/>
+		<e:Label id="curSelCount" text="0个" x="2" size="20" style="l_orange_2"/>
+		<e:Label text="技能，洗练时需要消耗" x="2" style="l_brown_2" size="20"/>
+		<e:Label id="needYbLabel" text="0元宝" x="2" size="20" style="l_orange_2"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<ns1:ConsumeLabel id="consume01" height="20" y="895" horizontalCenter="-210"/>
+	<ns1:ConsumeLabel id="consume02" height="20" y="895" horizontalCenter="3"/>
+	<e:Label text="注：洗练\n    【被动】触发技能同类型仅会出现一种\n    【固定】属性技能最多可出现2个同类型" x="92" style="l_brown_2" size="24" y="1020" lineSpacing="5"/>
+	<e:Button id="btnInfo" label="Button" x="37" y="79.7" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+	<w:Config id="1628b357c05"/>
+</e:Skin>

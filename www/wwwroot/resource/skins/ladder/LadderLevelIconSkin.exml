@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LadderLevelIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group x="-1" y="0" width="98" height="83">
+		<e:Image id="myRank" y="0" source="ui_kfwz_hz_jjqt02" x="16"/>
+		<e:Component id="level" y="45" skinName="LadderLevelSkin" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

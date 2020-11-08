@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineTeamRoleItemSkin" width="200" height="232" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image x="0" y="0" source="ui_sj_bm_diban" height="232" width="200"/>
+	<e:Image id="iconImg" x="59" y="14" source="ui_head_icon_10"/>
+	<e:Image x="54" y="8" source="ui_bm_touxiangkuang"/>
+	<e:Image id="teamImg" x="7" y="1" source="ui_bh_bm_duizhang" visible="false"/>
+	<e:Button id="kickBtn" skinName="Btn0Skin" x="142" y="-6" icon="ui_bh_bt_ti" visible="false"/>
+	<e:Image x="6" y="107" width="188" anchorOffsetY="0" source="ui_bm_jingyantiaobg" height="18"/>
+	<e:Image id="bloodBar" x="6" y="107" width="188" anchorOffsetY="0" height="18" source="ui_hddt_bm_xuetiao"/>
+	<e:Image source="ui_boss_bm_wenbenbg" x="6" y="130" width="188" anchorOffsetY="0" height="27"/>
+	<e:Image source="ui_boss_bm_wenbenbg" x="6" y="162" width="188" anchorOffsetY="0" height="27"/>
+	<e:Image source="ui_boss_bm_wenbenbg" x="6" y="194" width="188" height="27"/>
+	<e:Label id="tname" text="玩家名六个字.S999" y="165" size="20" x="6" width="188" textAlign="center" style="l_brown_2"/>
+	<e:Label id="tlevel" text="玩家帮会名字" y="133" size="20" x="6" width="188" textAlign="center" style="l_brown_2"/>
+	<e:Label id="tpower" text="9999999" y="197" size="20" x="69" style="l_orange"/>
+	<e:Label text="战力：" y="196" size="20" x="12" style="l_red"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunDetailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164c6bd4659"/>
+	<e:Component skinName="BG2"/>
+	<e:Group x="158" verticalCenter="-26.5">
+		<e:Image width="399" source="ui_cm_bm_bg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" top="-1" bottom="-15"/>
+		<ns1:ItemBaseNotName id="item" x="13" y="16" scaleX="1" scaleY="1"/>
+		<e:Label id="labItemName" text="虚日鼠激活卡" x="125" y="33" size="26"/>
+		<e:Label id="labItemDesc" text="可用于激活星君【虚日鼠】" x="123" y="77" style="l_yellow_2" size="20" width="260"/>
+		<e:Image y="129" source="ui_bm_shuomingfengexian" x="16"/>
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="381" scaleX="1" scaleY="1" horizontalCenter="2.5"/>
+		<e:Label id="labName" text="虚日鼠" y="413" size="26" horizontalCenter="-4.5"/>
+		<e:Image y="450" source="ui_bm_shuomingfengexian" x="16"/>
+		<e:Label text="简介" x="30" y="463" style="l_yellow_3" size="24"/>
+		<e:Label id="labDesc" text="虚日鼠" x="30" y="501" size="22" style="l_yellow_2" width="350"/>
+	</e:Group>
+</e:Skin>

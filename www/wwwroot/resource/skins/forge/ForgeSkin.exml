@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16271c33c42" visible="false"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0"/>
+	<e:Component id="equipComp" skinName="ForgeEquipListSkin"/>
+	<ns1:TabView id="viewStack" y="0" selectedIndex="1" anchorOffsetX="0" width="720" anchorOffsetY="0" height="1280" x="0" touchChildren="true" touchEnabled="false"/>
+
+
+</e:Skin>

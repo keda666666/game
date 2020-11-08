@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBattleManualSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bottomGroup" width="100%" height="0" x="0" y="1010">
+		<e:Group id="autoSkillGroup" y="-100" right="12" width="84">
+		<e:Button id="autoBtn" skinName="Btn0Skin" icon="ui_bm_zidong"/>
+		<e:Group id="autoBtnGroup" y="8" right="87" visible="false">
+			<e:Button id="petBtn" label="Button" x="78" y="0" skinName="GameBattleBtnSkin"/>
+			<e:Button id="roleBtn" label="Button" x="0" y="0" skinName="GameBattleBtnSkin"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+		<e:Group width="0" height="0" y="0" scaleX="1" scaleY="1" x="360">
+		<e:Group id="selSkillGroup" width="439" x="-218" scaleX="1" scaleY="1" bottom="0" visible="false">
+			<e:Image width="483" anchorOffsetX="0" anchorOffsetY="0" source="ui_cm_bm_bg" horizontalCenter="0" top="-50" bottom="0"/>
+			<e:Label id="label" horizontalCenter="0" top="-35" textColor="0xFDDCAB" text="技能" size="24"/>
+			<e:Image horizontalCenter="0" top="-32" source="ui_bm_wenli"/>
+			<e:DataGroup id="skillList" itemRendererSkinName="GameBattleBtn2Skin" width="421" horizontalCenter="0" bottom="16">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout horizontalGap="15"/>
+			</e:layout>
+			</e:DataGroup>
+		</e:Group>
+		</e:Group>
+		<e:BitmapLabel id="timeLabel" text="2" y="-143" font="font_ui_daoshu_fnt" width="155" textAlign="center" x="586" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+</e:Skin>

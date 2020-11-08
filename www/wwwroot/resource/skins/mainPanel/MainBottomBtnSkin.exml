@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainBottomBtnSkin" states="up,down,disabled" width="106" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="light" x="-22" y="-21" source="" visible="false"/>
+            <e:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0" source="ui_bm_juese" scaleX.down="0.95" scaleY.down="0.95"/>
+            <e:Image id="jjkh_img" source="ui_jjkh_bm_kuanghuan" touchEnabled="false" x="7" y="3.5" visible="false"/>
+            <e:Image id="redPoint" y="-1" x="85" source="ui_bm_reddot" visible="false"/>
+</e:Skin>

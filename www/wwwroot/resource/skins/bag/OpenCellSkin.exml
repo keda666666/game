@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="OpenCellSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b38ac83"/>
+	<ns1:CommonDialog id="commonDialog" height="466.01" title="开启背包" verticalCenter="-51" anchorOffsetY="0" x="0" skinName="CommonDialogSkin"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group y="528" touchEnabled="false" touchChildren="true" x="138">
+		<e:Image y="-3" x="173" width="167" source="ui_bm_bg"/>
+		<ns1:PriceIcon id="price" x="176" y="0" skinName="PriceIconSkin"/>
+		<e:Image y="55" x="196" width="168" source="ui_bm_bg"/>
+
+		<e:Button id="decBtn" label="按钮" x="171" y="51" skinName="Btn0Skin" icon="ui_bt_jian"/>
+		<e:Button id="addBtn" label="按钮" x="350" y="51" skinName="Btn0Skin" icon="ui_bt_plue"/>
+
+		<e:Label id="count" text="1" x="204" y="61" width="153" textAlign="center" style="l_brown_2" fontFamily="Microsoft YaHei"/>
+		<e:Label text="消耗元宝：" x="27" y="1" width="153" textAlign="right" style="l_brown_2" fontFamily="Microsoft YaHei"/>
+		<e:Label text="开启数量：" x="26" y="61" width="153" textAlign="right" style="l_brown_2"/>
+		<e:Button y="203" label="确  定" id="sureBtn" x="13" skinName="BtnN1Skin"/>
+		<e:Button y="203" label="取  消" id="cancelBtn" x="292.01" skinName="BtnN1Skin"/>
+
+	</e:Group>
+
+
+</e:Skin>

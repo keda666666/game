@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainPlayFunTipBtnSkin" width="60" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" horizontalCenter="-1" verticalCenter="0.5" touchEnabled="false" source="ui_zjm_kuang"/>
+	<e:Label id="time" text="" y="43" horizontalCenter="0" size="20"/>
+</e:Skin>

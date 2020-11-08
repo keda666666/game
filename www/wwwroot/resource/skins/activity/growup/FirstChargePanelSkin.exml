@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargePanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1636837e484" visible="false"/>
+	<e:Group y="144" horizontalCenter="0">
+		<e:Image x="4" y="0" source="ui_bm_jsbg"/>
+		<e:Image id="titleImg" y="16" horizontalCenter="5" source=""/>
+		<e:Image id="showImg" y="196" horizontalCenter="-15.5" source=""/>
+		<ns1:RoleShowPanel id="roleShowPanel" x="330" y="368"/>
+		<e:Image x="442" y="209" source="ui_yyhd_bm_jueban"/>
+		<e:Group y="424" x="132">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_tishengzhanlibg"/>
+			<e:Label id="powerTxt" text="战力直升12500" y="6" size="26" textAlign="center" style="l_brown_2" textColor="0x6E330B" bold="true" horizontalCenter="-12"/>
+		</e:Group>
+		<e:Group x="192" y="590">
+			<e:Image source="ui_bm_title1" x="0" y="0"/>
+			<e:Label id="titleTxt" text="价值9999元宝" y="4" style="l_brown_2" size="22" horizontalCenter="1"/>
+		</e:Group>
+		<e:Group x="0" y="632">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="112" width="636" x="0"/>
+			
+			<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" y="2" itemRendererSkinName="ItemSkin" horizontalCenter="1">
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+				<e:HorizontalLayout gap="-6" horizontalAlign="center"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Button id="chargeBtn" x="236" y="756"   label="立即充值" skinName="BtnN2Skin"/>
+		<e:Image id="rewardImg" x="258" source="ui_fb_bm_yilingqu" y="744" visible="false"/>
+		<e:Label id="chargeTxt" text="已充值99元" y="834" style="l_orange" size="22" horizontalCenter="-16"/>
+		<e:Scroller width="603" height="104" y="475" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off" horizontalCenter="0">
+			<e:List id="tabList" itemRendererSkinName="BtnTab5Skin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="6"/>
+				</e:layout>
+			</e:List>
+		
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="leftBtn" label="Button" x="24" y="643" skinName="Btn0Skin" icon="ui_bt_jiantou"/>
+	<e:Button id="rightBtn" label="Button" x="665" y="643" skinName="Btn0Skin" icon="ui_bt_jiantou" rotation="180" anchorOffsetX="34" anchorOffsetY="45"/>
+</e:Skin>

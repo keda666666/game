@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GodPieWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"  xmlns:w="http://ns.egret.com/wing" >
+
+
+
+	<ns1:CImage anchorOffsetX="0" anchorOffsetY="0" source="ui_pf_bg_show" y="43"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Scroller id="menuScroller" width="667" height="191" y="115" anchorOffsetY="0" x="27" scrollPolicyH="auto" scrollPolicyV="off">
+		<e:List id="menuList" y="-1" height="94" width="360" scaleX="1" scaleY="1" horizontalCenter="0" itemRendererSkinName="FuliBtnSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="5" horizontalAlign="left" paddingTop="5"/>
+		</e:layout>
+		</e:List>
+		<e:skinName>
+		<e:Skin minWidth="20" minHeight="20">
+			<e:HScrollBar id="horizontalScrollBar" width="100%" bottom="0" visible="false"/>
+			<e:VScrollBar id="verticalScrollBar" height="100%" right="0" visible="false"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	<e:Image id="titleIamge" y="54.67" horizontalCenter="0.5" source="ui_fldt_tgcff"/>
+
+
+
+
+
+	<e:Group id="activityGroup" width="668" height="122" x="25" y="327" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:CImage x="1" anchorOffsetY="0" source="ui_tjhl_show" anchorOffsetX="0"/>
+		<e:Scroller anchorOffsetY="0" height="119" y="503" anchorOffsetX="0" width="596" x="35" scrollPolicyV="off">
+			<e:List id="list" itemRendererSkinName="ItemSkin" x="43.5" y="162" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout verticalGap="10" paddingLeft="3" paddingBottom="10" horizontalGap="15" requestedRowCount="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="buyGroup" x="4" y="97" anchorOffsetX="0" width="665" anchorOffsetY="0" height="673" touchEnabled="false" touchChildren="true" scaleX="1" scaleY="1">
+			<e:Group y="527" width="235" horizontalCenter="0" height="110">
+			<e:Button id="btnSend" label="购 买" y="0" x="0" skinName="BtnN1Skin"/>
+			<e:Label id="contion" text="充值" y="86" size="20" x="58"/>
+			<e:Label id="consumeLabel" text="10元宝购买" y="62" size="20" textColor="0x09c709" x="26"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="3" verticalAlign="middle"/>
+			</e:layout>
+			</e:Group>
+
+		</e:Group>
+		<e:Image id="geted" y="660" horizontalCenter="0" source="ui_qt_ylq" visible="false"/>
+
+
+
+
+
+	</e:Group>
+	<e:Group id="listGroup" width="668" height="0" x="25" y="453" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller scrollPolicyH="off" width="665" height="629.8" touchChildren="true" touchEnabled="true" anchorOffsetY="0" x="0" y="1.2">
+		<e:List id="list2" x="12" y="-118" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="GodListItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="10" paddingBottom="20"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="timeGroup" width="668" height="122" x="24" y="329" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:CImage x="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_pf_bg_1"/>
+		<e:Label y="44" text="活动说明：" fontFamily="黑体" size="20" x="11" lineSpacing="10" scaleX="1" scaleY="1" textColor="0xFFBF00"/>
+		<e:Label id="desc" y="44" fontFamily="黑体" size="20" x="109" lineSpacing="0" text="" width="520" height="62" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xFFFFFF"/>
+		<e:Label y="16" text="剩余时间：" fontFamily="黑体" size="20" x="11" lineSpacing="10" scaleX="1" scaleY="1" textColor="0xFFBF00"/>
+		<e:Label id="date" y="15" text="" fontFamily="黑体" size="20" x="109" lineSpacing="10" textColor="0x23CA23" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+	<e:Group y="1068" horizontalCenter="0">
+		<e:CheckBox id="btnSet" label="" y="0" x="-11" anchorOffsetX="0" skinName="CheckBox0"/>
+		<e:Label text="勾选后下次登录不在自动弹出" y="15" size="20" textColor="0xffbf26" x="31.5"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

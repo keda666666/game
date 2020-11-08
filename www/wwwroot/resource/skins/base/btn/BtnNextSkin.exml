@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnNextSkin" states="up,down,disabled" minHeight="25" minWidth="25" xmlns:e="http://ns.egret.com/eui" width="34" height="45">
+	<e:Image
+	         source="ui_bt_jiantou"  scaleX.down="0.95" scaleY.down="0.95"  width.down="98%" height.down="98%" verticalCenter.down="0" horizontalCenter.down="0" horizontalCenter="0" verticalCenter="0" source.disabled="ui_bt_jiantou_quse"/>
+
+			 <e:Image id="redPoint" source="ui_bm_reddot" touchEnabled="false" x="10" y="-5" visible="false"/>
+
+</e:Skin>

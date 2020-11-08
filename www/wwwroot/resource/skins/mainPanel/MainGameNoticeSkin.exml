@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainGameNoticeSkin" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="-1" minWidth="369">
+		<e:Image source="ui_dt_bm_tishiBG" scale9Grid="30,0,8,117" y="0" width="100%" x="0"/>
+		<e:Image id="icon" source="ui_xdh_bt_xiandaohui" horizontalCenter="-128" verticalCenter="-2"/>
+		<e:Label id="typeLabel" text="仙道会预选赛" y="25" style="l_brown_1" size="24" left="103" right="79"/>
+		<e:Label id="lbAnswerInfo" text="将在30s开始" y="65" style="l_brown_1" horizontalCenter="12"/>
+		<e:Label id="gotoLabel" text="点击前往" y="65" style="l_green" horizontalCenter="0" visible="false"/>
+		<e:Button id="imgAnswerClose" skinName="Btn0Skin" icon="ui_bt_008_up" y="1" right="0"/>
+	</e:Group>
+</e:Skin>

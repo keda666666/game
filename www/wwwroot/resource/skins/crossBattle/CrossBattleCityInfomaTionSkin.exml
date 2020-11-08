@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleCityInfomaTionSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" >
+	<w:Config id="1586b38ac83"/>
+	<ns1:CommonWindowBg id="CommonWindowBg" title="王城情况" anchorOffsetY="0" x="-1" top="0" skinName="CommonWindowBg4Skin"/>
+	<e:Image x="40" y="166.68" source="ui_sbm_002" anchorOffsetX="0" width="643" anchorOffsetY="0" height="289.33"/>
+	<e:Image x="40" y="480" source="ui_sbm_002" anchorOffsetX="0" width="643" anchorOffsetY="0" height="406.66"/>
+	<e:Group touchEnabled="false" touchChildren="true" anchorOffsetX="0" width="524" anchorOffsetY="0" height="284.33" horizontalCenter="0" top="175">
+
+
+		<e:List id="list" y="0" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" width="612" height="166" x="-44">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:List id="list0" y="0" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" width="612" height="166" x="-44">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:ProgressBar id="pro" y="178.33" skinName="bar0Skin" anchorOffsetX="0" width="620.67" anchorOffsetY="0" height="24.33" horizontalCenter="0"/>
+		<e:Label id="scsjText" text="守城时间：56分（已抵御260人进攻）" x="-51.99" y="212.34" style="l_orange_3" textAlign="left" size="20" textColor="0x843a05"/>
+		<e:Label id="wcljText" text="累计王城积分：56分（5/分）在坚持3:05秒后可获得" x="-53.32" y="244" style="l_orange_3" textAlign="left" size="20" textColor="0x843a05"/>
+
+		<e:Label id="lvse" text="【王城积分奖励】" y="246" x="419" size="20"  style="l_green_1"/>
+
+		<e:Image x="-73.34" y="-75.98" source="ui_hddt_bm_diaoxuebuff"/>
+	</e:Group>
+	<e:Scroller y="520" anchorOffsetX="0" anchorOffsetY="0" width="635" height="351" x="43">
+	<e:List id="jilulist"   itemRendererSkinName="jiLuitemSkin" >
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		
+	</e:List>
+	</e:Scroller>
+	<e:Image x="212.02" y="488" source="ui_guankia_wenli"/>
+	<e:Image x="507.34" y="488" source="ui_guankia_wenli" scaleX="-1"/>
+	<e:Label text="攻守记录" x="306.33" y="485.99" size="26" textColor="0x843a05"/>
+</e:Skin>

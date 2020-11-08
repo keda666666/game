@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomServicePanelSkin" width="647" height="848" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group x="-5" y="0" width="647">
+		<e:Image width="647" height="554" x="0" y="295" source="ui_sbm_005" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image width="625.17" height="405" x="12" y="348" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="sendBtn" label="提交" x="243" y="763" skinName="BtnN2Skin"/>
+		<e:Image x="4" y="0" source="ui_fk_banner"/>
+		<e:Label text="咨询内容：（不超过150个文字）" x="16" y="311" style="l_brown_2" size="22" verticalAlign="top"/>
+		<e:Label id="qqLabel" text="QQ:" y="311" style="l_brown_2" size="22" verticalAlign="top" x="584"/>
+		<e:TextInput id="input" width="584" height="374" x="33" y="363" anchorOffsetX="0" anchorOffsetY="0" enabled="true" prompt="请输入内容" touchEnabled="true" touchChildren="true">
+			<e:Skin states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:EditableText id="textDisplay" textColor="0x755e4f"  fontFamily="Microsoft YaHei"  size="26" y="4" verticalAlign="top" textAlign="left" x="5" width="572" height="360"/>
+		<e:Label id="promptDisplay" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%" fontFamily="Microsoft YaHei"  size="26" textAlign="left" verticalAlign="top" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" y="6"/>
+			</e:Skin>
+		</e:TextInput>
+	</e:Group>
+</e:Skin>

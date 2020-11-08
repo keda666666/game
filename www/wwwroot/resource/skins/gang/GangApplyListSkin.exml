@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangApplyListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image width="660" height="840" x="30" y="150" source="ui_sbm_002"/>
+	<e:Scroller width="660" height="820" x="30" y="160">
+		<e:List id="listApply" itemRendererSkinName="GangApplyListItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="groupSetting" x="40" y="1050">
+		<e:CheckBox id="checkBox" x="0" y="0" label="自动同意加入帮会，战力>=" skinName="CheckBox0"/>
+		<e:Group x="350" y="10">
+			<e:Image width="120" height="30" x="5" y="1" source="ui_sbm_002"/>
+			<e:TextInput id="input" height="30" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" prompt="1234567" horizontalCenter="0">
+				<e:Skin states="normal,disabled,normalWithPrompt,disabledWithPrompt" currentState="normalWithPrompt">
+				<e:EditableText id="textDisplay" verticalCenter="2" left="5" right="10" textColor="0xffffff" textColor.disabled="0xff0000" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+				<e:Label id="promptDisplay" verticalCenter="2" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26" textAlign="center" verticalAlign="middle" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt"/>
+				</e:Skin>
+			</e:TextInput>
+		</e:Group>
+		<e:Button id="btnSet" x="480" y="1" icon="ui_bt_qiuzhubtn" label="设 置" scaleX="1" scaleY="1" skinName="BtnN2Skin" width="90" height="50"/>
+	</e:Group>
+</e:Skin>

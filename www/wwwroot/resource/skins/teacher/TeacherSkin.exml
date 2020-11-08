@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Button id="btnShop" label="Button" x="11" y="68" skinName="Btn0Skin" icon="ui_st_bt_weiwangshangdian"/>
+	<e:Component width="720" height="850" y="163" horizontalCenter="0"/>
+	<e:Image source="ui_st_bm_bg" y="164" horizontalCenter="0.5"/>
+	<e:Image width="650" height="550" y="475.72" x="30"/>
+	<e:Label text="有赠师徒令" x="556" y="283" style="l_green_2" stroke="2"/>
+	<e:Label text="每人限收两人为徒,拜一人为师" x="376" y="320" style="l_green_2" stroke="2"/>
+	<e:Label text="徒弟出师后,师徒双方可获得极品道具:" x="223" y="358" style="l_green_2" stroke="2"/>
+	<e:Label id="lbVip" text="VIP6" x="494" y="285.66" style="l_yellow_4" stroke="2"/>
+	<e:Label id="lbGd" text="突破丹" y="358" style="l_yellow_4" stroke="2" horizontalCenter="274"/>
+	<e:Button id="btnInfo" label="Button" x="123" y="80" skinName="Btn0Skin" icon="ui_ty_bt_wenhao"/>
+	<e:TabBar id="tabBar" x="33.18" y="401.34" itemRendererSkinName="BtnTab1Skin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<ns1:TeacherFirstView id="firstView" y="475" skinName="TeacherFirstSkin" x="35" visible="false"/>
+	<ns1:TeacherSecondView id="secendView" y="475" skinName="TeacherSecendSkin" x="36" visible="false"/>
+	<ns1:TeacherThirdView id="thirdView" y="475" skinName="TeacherThird" horizontalCenter="0" visible="false"/>
+	<ns1:TabEuiView id="group" x="35" y="475"/>
+</e:Skin>

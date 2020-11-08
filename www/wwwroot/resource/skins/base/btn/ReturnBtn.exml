@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReturnBtn" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui">
+
+        <e:Image width="100%" height="100%" source="ui_bt_007_up" source.down="ui_bt_007_up" horizontalCenter.down="0" verticalCenter.down="0" scaleX.down="0.9" scaleY.down="0.9"/>
+
+
+</e:Skin>

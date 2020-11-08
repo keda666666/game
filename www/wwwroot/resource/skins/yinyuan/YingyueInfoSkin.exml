@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingyueInfoSkin" width="720" height="1280" currentState="unmarried" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="married,unmarried" >
+	<w:Config id="163c8ed18ab"/>
+	<e:Button id="helpBtn" x="14" y="77.64" touchEnabled="true" skinName="HelpBtn" scaleX="1" scaleY="1"/>
+	<e:Group x="0" y="59" visible.married="false" width="100%" height="100%" touchEnabled="false" touchChildren="true">
+		<e:Image width="650.67" height="253.33" y="684.01" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" x="35"/>
+		<e:Image x="90" y="86.68" source="ui_yy_bm_qiuhuenBG" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="girl" label="妻子" x="438.97" y="744.15" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:CheckBox id="box" label="夫君" x="167.34" y="744.35" skinName="CheckBox0" scaleX="1" scaleY="1"/>
+		<e:Group x="91.66999999999999" y="594.35" scaleX="1" scaleY="1">
+			<e:Image id="imgIcon0" source="ui_yy_bm_shhl" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnPrev0" x="3" y="0" skinName="BtnNextSkin" scaleX="1" scaleY="1"/>
+			<e:Button id="btnNext0" y="0" x="265" skinName="BtnNextSkin" scaleX="-1"/>
+		</e:Group>
+		<e:Label text="请选择婚礼模式" x="140.34" y="549.04" scaleX="1" scaleY="1" size="24" textColor="0x6e330b"/>
+		<e:Label id="DayTimes" text="今日还可结婚" y="874.04" scaleX="1" scaleY="1" size="24" horizontalCenter="0" style="l_green_1"/>
+		<ns1:PriceIcon id="priceicon" x="482.33" y="543.67"/>
+		<e:Image x="250.99" y="697.35" source="ui_yy_bm_wenben" scaleX="1" scaleY="1"/>
+		<e:Label text="注：婚礼模式越高档，婚后收益就越高；求婚不成功系统将放还货币" x="42.32" y="908.33" style="l_yellow_4" size="20" scaleX="1" scaleY="1" textColor="0x6e330b"/>
+		<e:Button id="jieHunBtn" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_icon_" scaleX="1" scaleY="1" x="316" y="791"/>
+		<e:Button id="chage" label="求婚对象" x="297" y="361.68" skinName="BtnN4Skin"/>
+		<e:List id="list" y="217.36" anchorOffsetX="0" anchorOffsetY="0" height="118" itemRendererSkinName="RoleHead1Skin" horizontalCenter="0" visible="false">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:List id="list0" y="575.03" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" height="118" x="415">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<ns1:YingYuanHeadItem id="head" y="222" skinName="RoleHead1Skin" anchorOffsetY="0" height="121" x="254"/>
+	</e:Group>
+	<e:Group width="100%" height="100%" x="0" y="59" visible.unmarried="false" touchEnabled="false" touchChildren="true">
+		<e:Image y="88.05" source="ui_yy_bm_huenliBG" x="35"/>
+		<e:Image width="601" height="144" y="786.01" source="ui_bh_bm_dikuang" anchorOffsetX="0" anchorOffsetY="0" x="60"/>
+		<e:Button id="xianHuaBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_zsxh" scaleX="1" scaleY="1" x="126.59" y="821.01"/>
+		<e:Button id="jieHunBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_jhzs" scaleX="1" scaleY="1" x="319.92" y="821.01"/>
+		<e:Button id="liHunBnt" label="Button" skinName="MainFuncBtnSkin" icon="ui_yy_btn_xiushu" scaleX="1" scaleY="1" x="513.29" y="821.01"/>
+		<ns1:RoleShowPanel id="roleShowPanel1" width="4" y="400" scaleX="1" x="430"/>
+				<ns1:RoleShowPanel id="roleShowPanel0" width="4" y="480" x="266"/>
+		<e:Group x="44" y="372" visible="false">
+			<e:Label text="甜蜜值" y="187.61" x="0" size="26" textColor="0xfcddb5"/>
+			<e:Group y="152.14" x="169">
+				<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+				<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+				<e:Label id="qingLv" text="亲投以和(LV.1)" y="0" size="22" textAlign="center" style="l_brown_2" width="174" textColor="0xffd7bc" horizontalCenter="0"/>
+			</e:Group>
+			<e:ProgressBar id="bar" y="172.62" anchorOffsetX="0" anchorOffsetY="0" width="351.52" height="57.88" x="147.6" skinName="bar4Skin"/>
+			<e:Button id="Bnt" label="选择" x="503.19" y="173.53" skinName="BtnN4Skin" label.married="升 级"/>
+			<e:Button id="wenHao" label="选择" x="72" y="158.38" skinName="MainFuncBtnSkin" icon="ui_ty_bt_wenhao"/>
+			<e:Image y="232.49" source="ui_bm_title1" x="192"/>
+			<e:Label text="升级奖励" y="237.7" x="274.65" size="22" textColor="0x6e330b"/>
+			<e:List id="list1" itemRendererSkinName="ItemSkin" y="272.23" anchorOffsetX="0" x="321">
+				<e:layout>
+				<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:List>
+			<e:Label id="pro" text="" x="295" y="193" style="l_white" size="16"/>
+			<e:Group id="pGroupRewar" x="494" y="0" scaleX="0.8" scaleY="0.8">
+				<e:Image x="0" y="0" source="ui_fb_bm_yongchuangtiantingjianglibg" width="182" height="190"/>
+				<ns1:ItemBase id="itemBaee" horizontalCenter="0" verticalCenter="8"/>
+				<e:Label id="lbPassLvReward" text="通关15层送" y="13.41" style="l_brown_2" size="22" textAlign="center" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="154">
+		<e:Group x="68" y="1">
+			<e:Group x="0" y="0">
+				<e:Label text="帮会名称:" x="0" y="3" style="l_brown_1" size="24"/>
+				<e:Image width="180" height="30" x="105" y="1" source="ui_boss_bm_wenbenbg"/>
+				<e:Label id="labGangName" text="名称啦啦啦" x="110" y="3" style="l_brown_1" size="24"/>
+				<e:Button id="btnRename" x="290" y="-1" skinName="Btn0Skin" icon="ui_bt_gaiming" scaleX="1" scaleY="1" width="32" height="37"/>
+			</e:Group>
+			<e:Group x="0" y="50">
+				<e:Label text="帮       主:" x="0" y="2" style="l_brown_1" size="24"/>
+				<e:Image width="180" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+				<e:Label id="labRoleName" text="玩家名字六字" x="110" y="2" style="l_brown_1" size="24"/>
+			</e:Group>
+			<e:Group x="0" y="100">
+				<e:Label text="人       数:" x="0" y="4" style="l_brown_1" size="24"/>
+				<e:Image width="180" height="30" x="105" y="2" source="ui_boss_bm_wenbenbg"/>
+				<e:Label id="labMemberCount" text="30/40" x="110" y="4" size="24" style="l_green"/>
+				<e:Image id="imgRecruit" source="ui_bh_bt_zhao" x="290" y="-1"/>
+			</e:Group>
+			<e:Group x="0" y="150">
+				<e:Label text="资       金:" x="0" y="2" style="l_brown_1" size="24"/>
+				<e:Image width="180" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+				<e:Label id="labCapital" text="5000/8000" x="110" y="2" size="24" style="l_brown_1"/>
+			</e:Group>
+			<e:Group x="0" y="200">
+				<e:Label text="等       级:" x="0" y="2" style="l_brown_1" size="24"/>
+				<e:Image width="180" height="30" x="105" y="0" source="ui_boss_bm_wenbenbg"/>
+				<e:Label id="labGangLevel" text="4" x="110" y="2" style="l_brown_1" size="24"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="462" y="0">
+			<e:Image source="ui_bh_bm_qizi" x="0" y="0"/>
+			<e:Label id="labAbbreviated" text="名" size="58" horizontalCenter="0" verticalCenter="-8.5"/>
+		</e:Group>
+		<e:Label id="labRecord" text="" x="570" y="200" style="l_green"/>
+		<e:Group id="groupBtn" x="45" y="244">
+			<e:Button id="btnMember" x="-2" y="0" icon="ui_bh_bt01" label="成员信息" scaleX="1" scaleY="1" skinName="BtnN3Skin" height="55" width="150"/>
+			<e:Button id="btnDonation" x="160" y="0" icon="ui_bh_bt01" label="帮会捐献" scaleX="1" scaleY="1" skinName="BtnN3Skin" height="55" width="150"/>
+			<e:Button id="btnList" x="320" y="0" icon="ui_bh_bt01" label="帮会列表" scaleX="1" scaleY="1" skinName="BtnN3Skin" height="55" width="150"/>
+			<e:Button id="btnApplyList" x="480" y="0" icon="ui_bh_bt01" label="查看申请" scaleX="1" scaleY="1" skinName="BtnN3Skin" height="55" width="150"/>
+		</e:Group>
+		<e:Group x="0" y="660">
+			<e:Image source="ui_bh_bm_dikuang" x="0" y="0" width="720" height="152"/>
+			<e:Scroller width="645" height="110" x="39" y="30" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="auto" scrollPolicyV="off">
+				<e:List id="iconList" anchorOffsetX="0" anchorOffsetY="0" x="-1" y="1" height="116" itemRendererSkinName="GangIconBtnSkin">
+				<e:ArrayCollection>
+					<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+					<e:layout>
+						<e:HorizontalLayout gap="15"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<!--<e:Button id="btnGuard" label="" x="78" y="22.5" icon="ui_bh_bt_shouhu"/>
+			<e:Button id="btnShop" label="" x="225" y="22.5" icon="ui_bh_bt_shangdian"/>
+			<e:Button id="btnMap" label="" x="375" y="22.5" icon="ui_bh_bt_ditu"/>
+			<e:Button id="btnFight" label="" x="525" y="22.5" icon="ui_bh_bt_bangzhan"/>-->
+		</e:Group>
+		<e:Group x="30" y="323">
+			<e:Image width="660" height="290" x="0" y="0" source="ui_sbm_002"/>
+			<e:Group x="202.5" y="10">
+			<e:Label text="公 告" x="95.5" y="0" size="24" style="l_brown_1" bold="true"/>
+			<e:Image source="ui_guankia_wenli" x="-1" y="3"/>
+			<e:Image source="ui_guankia_wenli" x="255" y="3" scaleY="1" scaleX="-1"/>
+			</e:Group>
+			<e:Label id="labText" text="公告不管写什么。反正就是要长！！公告不管写什么。反正就是要长！！公告不管写什么。反正就是要长！！公告不管写什么。反正就是要长！！公告不管写什么。反正就是要长！！公告不管写什么。反正就是要长！！" x="20" y="50" style="l_brown_1" size="24" width="620"/>
+			<e:Label id="labModify" text="" x="540" y="255" style="l_green"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

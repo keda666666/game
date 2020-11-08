@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangJuanXianListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1634939a91c"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image width="650" height="804" x="36" y="146" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="645" height="758" x="39" y="151" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="listGang" itemRendererSkinName="GangJuanXianListItemSkin" anchorOffsetX="0" anchorOffsetY="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="addPowerGroup" y="972" width="244" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0" height="37">
+		<e:Image anchorOffsetX="0" x="1" width="244" source="ui_bm_title1" y="5" anchorOffsetY="0"/>
+		<e:Label id="lbAlert0" text="获得途径" y="8" size="26" textAlign="center" width="203" style="l_brown_2" textColor="0x6E330B" x="22" anchorOffsetX="0"/>
+	</e:Group>
+	<ns1:GetwayLabel id="get_txt1" x="172" y="1034" skinName="GetwayLabelSkin"/>
+	<ns1:GetwayLabel id="get_txt2" x="441" y="1034" skinName="GetwayLabelSkin"/>
+</e:Skin>

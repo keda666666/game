@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendTipsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" y="350" x="0" anchorOffsetY="0" height="536"/>
+	<e:Image width="617" height="295.03" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" y="442" horizontalCenter="0"/>
+	<ns1:ItemIcon id="playerAvatar" y="488.32" anchorOffsetX="0" anchorOffsetY="1" x="215"/>
+	<e:Label id="nameTxt" text="奥巴驴" x="403.01" y="494.33" style="l_brown_1" size="22" textAlign="left"/>
+	<e:Label text="等级:" x="320" y="528" style="l_brown_1" size="22"/>
+	<e:Label id="lvTxt" text="25" x="383" y="528" style="l_brown_1" size="20" textAlign="left"/>
+	<e:Label text="帮会:" x="320" y="560" style="l_brown_1" size="22"/>
+	<e:Label id="gangNameTxt" text="帮会" x="383" y="560" style="l_brown_1" size="22" textAlign="left"/>
+	<e:Label id="tipsTxt" text="确认要取消对" y="642.99" style="l_brown_1" size="22" textAlign="left" horizontalCenter="0"/>
+	<e:Label id="vipTxt" text="【VIP】" x="324.34" y="496.64" anchorOffsetX="0" anchorOffsetY="0" style="l_orange_2" size="22"/>
+	<e:Button id="affirmBtn" label="确认" x="116" y="764" anchorOffsetY="0" anchorOffsetX="0" width="160" height="74" skinName="BtnN2Skin"/>
+	<e:Button id="cancelBtn" label="取消" x="448" y="764" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN3Skin"/>
+	<w:Config id="163abd259c5"/>
+</e:Skin>

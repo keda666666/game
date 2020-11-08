@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GBRoleHeadSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="120" states="up,down"  height="105">
+	<e:Group x="27" y="0">
+		<e:Image source="ui_bm_icon001" x="0" y="0" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="imgFace" x="5" y="6" anchorOffsetX="0" anchorOffsetY="0" source="" scaleX="0.7" scaleY="0.7"/>
+	</e:Group>
+	<e:Image source="ui_kfbz_bm_mingciBG" x="72" y="-1"/>
+	<e:Label id="labNo" text="1" x="83" y="2" style="l_purple_1" size="24"/>
+	<e:Label id="labName" text="玩家名字六字" y="66" style="l_white" horizontalCenter="0" size="20"/>
+	<e:Label id="labServer" text="S666" y="88" style="l_white" horizontalCenter="0.5" size="20" x="10"/>
+</e:Skin>

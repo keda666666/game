@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingyueEnAiSkin" width="720" height="1280" currentState="unmarried" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163c8ed18ab"/>
+	<e:List id="list" anchorOffsetX="0" anchorOffsetY="0" height="731.34" y="150" itemRendererSkinName="YingyueEnAiItemSkin" width="660" x="30">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+
+	</e:List>
+	<e:Label text="我的甜蜜值：" x="45.34" y="969.36" style="l_brown_1" size="26"/>
+	<e:Label id="num" text="9999" x="199" y="969.7" style="l_green"/>
+</e:Skin>

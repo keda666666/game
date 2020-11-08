@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+
+
+    <e:Image width="580" y="201" anchorOffsetX="0" height="784" horizontalCenter="0" source="ui_cm_bm_bg" anchorOffsetY="0"/>
+	<e:Image y="226" anchorOffsetX="0" horizontalCenter="0" source="ui_bm_jinengmingchenbg02"/>
+	<e:Label text="人物属性" y="234" size="24" style="l_brown_2" horizontalCenter="0"/>
+
+
+
+
+
+
+	<e:Group id="attr" width="533" height="682" y="282" anchorOffsetX="0" anchorOffsetY="0" x="94">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" columnWidth="281" rowHeight="38"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="closeBtn" label="Button" x="580" y="920" skinName="ReturnBtn"/>
+</e:Skin>

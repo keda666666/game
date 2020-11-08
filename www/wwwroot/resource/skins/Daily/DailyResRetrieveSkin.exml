@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyResRetrieveSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="28" y="150">
+		<e:Image width="664" height="870" x="0" y="0" source="ui_sbm_002"/>
+		<e:Scroller width="660" height="861" x="2" y="4" anchorOffsetY="0">
+			<e:List id="list" itemRendererSkinName="DailyResRetrieveItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

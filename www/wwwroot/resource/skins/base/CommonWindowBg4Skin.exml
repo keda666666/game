@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonWindowBg4Skin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="15b6cf3fae9" ></w:Config>
+	<e:Image y="59" touchEnabled="false" scaleX="1" scaleY="1"  height="960" anchorOffsetY="0" source="ui_sbm_001" anchorOffsetX="0" width="717" horizontalCenter="0.5"/>
+	<e:Group horizontalCenter="0.5" touchChildren="false" touchEnabled="false" y="54.64">
+		<e:Image scaleX="1" scaleY="1" y="0"  source="ui_sbm_003" horizontalCenter="0"/>
+		<e:BitmapLabel id="nameIcon" y="20" scaleX="1" scaleY="1" text="装备" font="font_ui_biaoti_fnt" horizontalCenter="0" textAlign="center" width="270"/>
+	</e:Group>
+	<ns1:TabView id="viewStack" width="720" height="886" y="0" selectedIndex="0" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="0" touchChildren="true"/>
+	<e:Button id="returnBtn" x="606" y="905.99" touchEnabled="true" skinName="ReturnBtn" scaleX="1" scaleY="1"/>
+	<e:Button id="closeBtn" icon="ui_btn_guanbi" x="641" y="54" touchEnabled="true" skinName="CloseBtn" scaleX="1" scaleY="1"/>
+	<e:Button id="helpBtn" icon="ui_btn_xunwen" x="14" y="77.64" touchEnabled="true" skinName="HelpBtn" scaleX="1" scaleY="1" visible="false"/>
+</e:Skin>

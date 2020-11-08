@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyExpRetrieveItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660"  height="60">
+	<e:Image id="imgBg" scale9Grid="20,20,28,28" x="0" y="0" width="660" height="60" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"/>
+	<e:Label id="labName" text="师门任务" y="18" style="l_brown_1" horizontalCenter="-263" size="24"/>
+	<e:Label id="labCount" text="可找回10次" y="18" size="24" horizontalCenter="-106.5" style="l_green"/>
+	<e:Label id="labPerTip" text="1点" y="18" size="24" horizontalCenter="37.5" style="l_blue_2"/>
+	<e:Label id="labCost" text="200元宝" y="18" size="24" horizontalCenter="136.5" style="l_yellow_4"/>
+	<e:Button id="btnRetrieve" x="540" y="5"   label="找 回" skinName="BtnN2Skin" height="54" width="113.4"/>
+</e:Skin>

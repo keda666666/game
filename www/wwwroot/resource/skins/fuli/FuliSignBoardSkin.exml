@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliSignBoardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163c9c3feea"/>
+	<e:Image width="648.82" height="728.36" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" y="273.82" horizontalCenter="1.5"/>
+	<e:Image x="37" y="274" source="ui_fldt_bm_qiandaoBanner"/>
+	<e:Scroller id="scroller" width="645.45" height="468" anchorOffsetY="0" y="530.59" anchorOffsetX="0" horizontalCenter="1.5" scrollPolicyH="off">
+		<e:List id="list" left="0" right="0.4500000000000455" top="4" bottom="-4" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="FuliSignBoardItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="null"/>
+					<e:Object label="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="459" y="283">
+		<e:Label id="awardTxt" text="累计登陆" y="0" style="l_white" size="21" horizontalCenter="0"/>
+		<e:Label id="signDayTxt" text="累计登陆" y="203" style="l_white" size="21" horizontalCenter="0"/>
+		<e:Button id="btn" label="领取" y="137.65" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN2Skin" width="131" height="60" horizontalCenter="0"/>
+		<ns1:ItemBaseNotName id="awardIcon" y="32" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

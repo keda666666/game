@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HavingCard" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="ui_bm_zjm_songxuannv"/>
+	<e:Button label="领取奖励" y="208" horizontalCenter="-0.5" anchorOffsetX="0" width="120" anchorOffsetY="0" height="45" skinName="BtnN6Skin"/>
+</e:Skin>

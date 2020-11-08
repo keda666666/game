@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeFeedbackSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16518d50aed"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="273" x="34" source="ui_lchk_bm_bj"/>
+	<e:Group x="26" y="169">
+		<e:Scroller width="595" height="95" x="36" y="0">
+		<e:List id="list" itemRendererSkinName="RechargeFeedbackItemSkin">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="leftBtn" label="Button" x="0" y="24" icon="ui_bt_jiantou" skinName="Btn0TipSkin"/>
+		<e:Button id="rightBtn" label="Button" x="668" y="23" icon="ui_bt_jiantou" scaleX="-1" skinName="Btn0TipSkin"/>
+	</e:Group>
+	<e:Group x="60" y="462">
+		<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" y="0" x="358" itemRendererSkinName="ItemSkin">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="4" verticalGap="-20"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="btnBuy" x="389" y="327" label="点击领取" skinName="BtnN2Skin"/>
+		<e:Label text="已充值:" x="370" y="410" style="l_brown_1" size="24"/>
+		<e:Label id="labCharge" text="99999元" x="469" y="410" style="l_green_1" size="24"/>
+		<e:Label text="剩余时间:" x="189" y="495" style="l_yellow_3" size="24"/>
+		<ns1:DurationLabel id="duration" x="314" y="497" skinName="DurationLabelSkin"/>
+	</e:Group>
+</e:Skin>

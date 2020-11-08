@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SmeltItemMainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3b34b9"/>
+	<e:Image y="138" horizontalCenter="0.5" source="ui_sbm_002" width="651" anchorOffsetY="0" height="873.03"/>
+	<e:Image y="152" horizontalCenter="0" source="ui_bm_shuoming_2"/>
+
+
+
+	<e:List id="itemList" width="597" y="512" itemRendererSkinName="Item2Skin" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" height="393" horizontalCenter="3.5">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="数据1"/>
+				<e:Object label="数据2"/>
+				<e:Object label="数据3"/>
+				<e:Object label="数据4"/>
+				<e:Object label="数据5"/>
+				<e:Object label="数据6"/>
+				<e:Object label="数据7"/>
+				<e:Object label="数据8"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+				<e:Object label="数据9"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+				<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+
+
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5"  horizontalGap="41" orientation="rows" rowHeight="90" verticalGap="47"/>
+		</e:layout>
+	</e:List>
+
+
+
+	<e:Button id="smeltBtn2" y="933" label="回收所有" x="430" skinName="BtnN2Skin"/>
+	<e:Button id="smeltBtn" y="933" label="回收" x="133" icon="ui_bt_03" skinName="BtnN3Skin"/>
+	<e:Label id="lbTips" text="容量超过上限百分之八十自动熔炼" y="1078" style="l_red" horizontalCenter="0" width="461" textAlign="center" visible="false"/>
+	<e:Label text="多余的物品可以进行回收" x="340" y="250" anchorOffsetX="0" width="281" size="20" style="l_brown_1"/>
+	<e:Label text="请您放心回收！" x="340" y="410" anchorOffsetX="0" width="280" size="20" style="l_brown_1"/>
+	<e:Label text="回收时只能回收特定的进阶丹" x="340" y="330" anchorOffsetX="0" width="281" size="20" style="l_blue"/>
+	<e:Label text="一个进阶丹等于100元宝" x="340" y="370" anchorOffsetX="0" width="281" size="20" style="l_red"/>
+	<e:Label text="回收可获得" x="340" y="290" anchorOffsetX="0" width="103" size="20" style="l_brown_1"/>
+	<e:Label text="元宝" x="440.5" y="290" anchorOffsetX="0" width="103" size="20" style="l_orange_3"/>
+
+	
+</e:Skin>

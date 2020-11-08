@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatFaceSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163b68061a4"/>
+	<e:Group id="posGroup" width="0" height="0" x="298" y="176" touchEnabled="false" touchChildren="true">
+		<e:Group id="bg" width="2000" height="2000" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group x="-297" y="-177" scaleX="1" scaleY="1" touchEnabled="false" touchChildren="true">
+			<e:Image source="ui_wjxq_bm_biaoqingBG" x="0" y="0" width="324" height="177"/>
+			<e:Group id="faceGroup" x="4" y="1" touchEnabled="false" touchChildren="true">
+			<e:Image x="-27" y="-83.67" source="ui_fc01" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-17" y="-73.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-7" y="-63.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-17" y="-73.67" scaleX="1" scaleY="1"/>
+
+			<e:Image source="ui_fc01" x="-7" y="-63.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="13" y="-43.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-7" y="-63.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+
+			<e:Image source="ui_fc01" x="13" y="-43.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="23" y="-33.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-17" y="-73.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-7" y="-63.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+
+			<e:Image source="ui_fc01" x="13" y="-43.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="-7" y="-63.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="13" y="-43.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="23" y="-33.67" scaleX="1" scaleY="1"/>
+
+			<e:Image source="ui_fc01" x="3" y="-53.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="13" y="-43.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="23" y="-33.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="33" y="-23.67" scaleX="1" scaleY="1"/>
+			<e:Image source="ui_fc01" x="33" y="-23.67" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:TileLayout requestedColumnCount="7" verticalGap="10" horizontalGap="15"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

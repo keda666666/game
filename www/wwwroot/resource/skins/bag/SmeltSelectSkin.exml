@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SmeltSelectSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586b3cc8ef"/>
+	<ns1:CommonDialog id="commonDialog" title="选择装备" anchorOffsetY="0" anchorOffsetX="0" height="1032" skinName="CommonDialogSkin" x="0" width="680" verticalCenter="0"/>
+	<e:Image width="656" height="849" x="31" y="177" source="ui_lyb_bg_4" anchorOffsetX="0" anchorOffsetY="0"/>
+
+
+
+
+
+
+
+
+	<e:Button skinName="Btn0Skin" y="607" icon="" x="391" label="按钮" id="closeBtn" visible="false"/>
+	<e:Button skinName="Btn0Skin" y="78" icon="" x="421" label="按钮" id="closeBtn0" visible="false"/>
+	<e:Scroller id="itemScroller" width="656" height="838" x="31" y="182" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="itemList" y="-1" height="566" width="414" itemRendererSkinName="SmeltSeletctItemSkin" useVirtualLayout="false" x="1" anchorOffsetY="0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据4"/>
+					<e:Object label="数据5"/>
+					<e:Object label="数据6"/>
+					<e:Object label="数据7"/>
+					<e:Object label="数据8"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+					<e:Object label="数据9"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout verticalGap="15" paddingLeft="0" paddingTop="20" requestedColumnCount="5" horizontalGap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button y="1051" label="确 定" id="sureBtn" horizontalCenter="0" skinName="Btn2Skin"/>
+	<e:Label id="countLabel" text="（0/9）" x="440" y="1073" style="l_yellow_2"/>
+</e:Skin>

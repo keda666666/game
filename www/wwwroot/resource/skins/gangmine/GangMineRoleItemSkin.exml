@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineRoleItemSkin" width="200" height="150" currentState="state3" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="state1,state2,state3"  height.state3="180">
+	<e:Group id="group" y="0" horizontalCenter="2">
+		<e:Group id="imgGroup" y="12" visible.state2="false" horizontalCenter="0" x.state3="50" y.state3="25">
+			<e:Image id="roleImg" x="5" y="5" source="ui_head_icon_10" scaleX="1" scaleY="1" width="61" height="61"/>
+			<e:Image source="ui_bm_touxiangkuang" scaleX="1" scaleY="1" width="72" height="72"/>
+		</e:Group>
+		<e:Label id="tname" text="玩家名六个字.S999" y="70" size="20" horizontalCenter="0" visible.state3="false" stroke="2" style="l_purple_2"/>
+		<e:Label id="tguild" text="玩家帮会名字" y="96" size="20" stroke="2" horizontalCenter="0" visible.state3="false" style="l_green_2"/>
+		<e:Label id="tnum" text="0/3" y="122" size="20" stroke="2" horizontalCenter="-1.5" visible.state3="false" style="l_green_2"/>
+		<e:Label text="开采中" y="122" size="20" stroke="2" horizontalCenter="0" visible.state1="false" visible.state2="false" style="l_green_2"/>
+		<e:ProgressBar id="bar" y.state2="170" y.state1="170" anchorOffsetX="0" anchorOffsetY="0" maximum.state2="10" maximum.state1="10" value.state2="5" value.state1="5" y.state3="170" y="170" includeIn="state3" horizontalCenter="3" maximum="30">
+			<e:Skin>
+			<e:Image x="0" y="0" width="114" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="110" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="114" text="0" visible="false"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Label id="timeTxt" text="" y="172" size="20" style="l_green_2" textAlign="center" width="114" x="32" visible.state1="false" visible.state2="false"/>
+	</e:Group>
+	<e:Group id="fightingGroup" x="66" y="56">
+		<e:Image scaleX="1" scaleY="1" width="72" height="72" source="ui_hddt_bm_zhandouzhong" y="0" x="0" visible.state3="false"/>
+	</e:Group>
+</e:Skin>

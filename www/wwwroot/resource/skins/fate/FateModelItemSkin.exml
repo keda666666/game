@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FateModelItemSkin" width="173" height="159" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image id="logoImg" scaleX="1" scaleY="1" x="0" y="0" source=""/>
+	<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="143.66" x="102.31" scaleX="1" scaleY="1"/>
+	<ns1:RideShowPanel id="rideShowPanel" width="20" height="20" x="88" y="135"/>
+	<ns1:RoleShowPanel id="roleShowPanel" y="152" width="4" x="94" scaleX="1" scaleY="1"/>
+	<ns1:PetShowPanel id="petShowPanel" width="0" height="0" y="152" x="94" scaleX="1" scaleY="1"/>
+	<ns1:PetShowPanel id="petShowPanel2" width="0" height="0" y="152" x="94" scaleX="1" scaleY="1"/>
+	<e:Image id="soulImg" width="60" height="60" x="14.45" y="43" source="" scaleX="1.5" scaleY="1.5"/>
+	<e:Image id="immortalPositionImg" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0.5" y="93"/>
+</e:Skin>

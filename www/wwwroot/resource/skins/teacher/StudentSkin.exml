@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StudentSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="itemScroller" height="852" y="155" anchorOffsetX="0" width="638" enabled="true" skinName="ActorName2Skin" scrollPolicyH="off" scrollPolicyV="on" horizontalCenter="0">
+		<e:List id="itemList" itemRendererSkinName="CaiLiaoItem" width="638" height="852" x="2" anchorOffsetY="0" y="2">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="cailiaoShop" label="Button" x="11" y="68" skinName="Btn0Skin" icon="ui_fb_bt_cailiaoshangdian"/>
+</e:Skin>

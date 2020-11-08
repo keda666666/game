@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShenBaseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="656" height="759" states="normal,inactive" >
+	<w:Config id="162950eee5e"/>
+	<e:Group id="group" x="0" y="0">
+		<e:Image y="0" x="2" source="ui_bm_jsbg"/>
+		<e:Image y="539" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="220" width="650" x="0"/>
+		<e:Image id="noActivity" y="180" x="476" source="ui_cw_bm_weijihuo" visible.normal="false"/>
+		<e:Button id="btnSXD" x="34" y="96" icon="ui_bt_shuxingdan" visible.inactive="false" skinName="Btn0TipSkin"/>
+		<e:Button id="btnJJDL" x="550" y="78" icon="ui_bt_shuxingdan" skinName="Btn0Skin" visible="false"/>
+		<e:Button id="btnYF" x="34" y="196" icon="ui_sj_bt_yuanfen" skinName="Btn0Skin" y.inactive="96" visible="false"/>
+		<e:Group id="btnGp" y="307" anchorOffsetX="0" anchorOffsetY="0" x="461" visible.inactive="false">
+			<e:Button id="btnFeis" y="10" icon="ui_bt_feisheng" x="169" skinName="Btn0TipSkin"/>
+		<e:Button id="btnZZ" y="0" icon="ui_bt_xiuxi" x="159" visible.inactive="false" skinName="Btn0TipSkin"/>
+		<e:layout>
+			<e:HorizontalLayout gap="9"/>
+		</e:layout>
+		</e:Group>
+		<e:Group x="482" y="184" visible.inactive="false">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="lbLev" text="20级" x="5" y="10" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" height="100" verticalAlign="middle" textColor="0xAA6A31" width="26" style="l_orange"/>
+		</e:Group>
+		<ns1:PowerLabel id="powerLabel" y="78" x="130" skinName.inactive="PowerLabel2Skin" skinName="PowerLabel3Skin"/>
+		<ns1:PetShowPanel id="petShowPanel" y="384" x="326"/>
+		<e:Image y="140" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" x="224" scaleX="1" scaleY="1" width="210"/>
+		<e:Label id="tname" text="天神已满级" y="150" size="20" x="240" style="l_blue" anchorOffsetX="0" width="176" textAlign="center" text.inactive=""/>
+		<e:List id="skillList" y="438" itemRendererSkinName="HavingSkillIconSkin" horizontalCenter="2">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="15" horizontalAlign="center"/>
+		</e:layout>
+		</e:List>
+		<e:Group y="394" horizontalCenter="-7.5">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+		<e:Label text="技能" y="3" size="24" textAlign="center" x="52" style="l_brown_2" width="137"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

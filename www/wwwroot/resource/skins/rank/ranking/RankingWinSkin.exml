@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankingWinSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1586b13ea96"/>
+	<e:Component y="168" locked="true"/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0"/>
+
+	<e:Group x="35.96" y="476.7" anchorOffsetY="0" height="536">
+		<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="517" source="ui_sbm_002" x="0" height="537" y="0"/>
+
+
+
+
+		<e:Group x="3" y="58">
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" x="0" y="0" height="58" width="510"/>
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" x="0" y="120" height="58" width="510"/>
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" x="0" y="240" height="58" width="510"/>
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01" x="0" y="360" height="58" width="510"/>
+		</e:Group>
+	</e:Group>
+
+
+	<e:Group x="123.31" y="1051.66">
+		<e:Label text="我的排名:" x="17.34" y="4" style="l_red" textColor="0x6c2f0a" size="22"/>
+		<e:Label id="rankTxt" text="16" x="128.67" y="4.66" size="20" style="l_green"/>
+		<e:Label id="zhanliTxt" text="战力:" x="216" y="4" style="l_red" textColor="0x6C2F0A" size="22"/>
+		<e:Label id="selfPowerTxt" text="2654万" x="284.02" y="3.98" style="l_green" size="20"/>
+	</e:Group>
+
+
+
+
+	<e:Group x="36.66" y="478">
+		<e:Scroller id="scroller" x="0" y="3" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off" height="478" width="517" scrollPolicyH="off">
+			<e:List id="valueList" width="517" height="478" x="22" y="2" anchorOffsetY="0" itemRendererSkinName="RankingValueItemSkin">
+
+				<e:layout>
+					<e:TileLayout verticalGap="2" orientation="columns" horizontalGap="517" rowHeight="58" columnWidth="0" requestedRowCount="8"/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+		<e:Scroller x="525.34" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" height="530" verticalCenter="-16">
+			<e:List id="keyList" x="1" y="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="RankingKeyItemSkin">
+
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+
+	<e:Group id="top1ItemGroup" x="32.79" y="401">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_phb_bm_diyiBG" x="0" y="0" width="512" height="71"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+	<ns1:PHBShowPanel id="top2Panel" x="495" y="110" skinName="ShowPanelSkin"/>
+	<ns1:PHBShowPanel id="top3Panel" x="54" y="108" skinName="ShowPanelSkin"/>
+	<ns1:PHBShowPanel id="top1Panel" x="275" y="149" skinName="ShowPanelSkin"/>
+	<ns1:PageButton id="pageBtn" x="207.94" y="968.38" skinName="PageButtonSkin"/>
+	<e:Button id="worshipBtn" label="Button" x="570.75" y="383.76" icon="ui_phb_bt_mobai01" skinName="Btn0Skin"/>
+
+
+
+</e:Skin>

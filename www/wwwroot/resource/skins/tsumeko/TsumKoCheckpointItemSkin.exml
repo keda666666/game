@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoCheckpointItemSkin" width="201" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="up,down" >
+	<e:Group x="0" y="0" includeIn="up,down" width="198" height="297">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" width="201" height="300" source="ui_sj_bm_diban" x="0" y="0"/>
+		<e:Image id="imgChoose" x="-5" y="-5" source="ui_bm_xuanzhongkuang" width="210" height="306" scale9Grid="55,51,14,17" anchorOffsetX="0" anchorOffsetY="0" includeIn="down" rotation="359.83"/>
+		<e:Label id="title" text="XXX" y="18.2" size="20" textAlign="center" width="127" style="l_brown_1" x="39"/>
+		<e:Image source="ui_bsyn_bm_moxingBG" x="14.35" y="35.66" scaleX="1" scaleY="1"/>
+		<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="151" x="101"/>
+		<e:Image id="clearanceImg" source="ui_bsyn_bm_yitongguang" x="40" y="162"/>
+		<e:List id="itemList" height="68" y="215" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="GangFuBenAwardItemSkin" horizontalCenter="4">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="openBtn" x="32" y="227" icon="" label="打开宝箱" anchorOffsetX="0" width="135" anchorOffsetY="0" height="44" skinName="BtnN4Skin"/>
+		<e:Label id="recordLabel" text="首通奖励" y="174" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="-4" size="25" backgroundColor="0xf4f4f4" borderColor="0xffffff" strokeColor="0x2d9600" textColor="0xffffff"/>
+		<e:Label id="notAdoptLabel" text="通关上一关开启" y="181" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="0.5" textColor="0xff0000" strokeColor="0xffffff" size="25"/>
+	</e:Group>
+</e:Skin>

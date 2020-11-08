@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangDefendPanelSkin" width="720" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full,none" >
+	<w:Config id="162760c9e8e" source="ui_bm_jsbg"/>
+	<e:Image y="28" x="39" source="ui_bm_jsbg" touchEnabled="false"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="650" x="37" height="306" y="701" source="ui_sbm_002"/>
+	<e:Group x="359" y="503">
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" y="0" x="0"/>
+	</e:Group>
+	<e:Group x="197" y="147" anchorOffsetX="0" width="327" anchorOffsetY="0" height="41">
+		<e:Image id="nameBg" y="-3" anchorOffsetX="0" anchorOffsetY="0" source="ui_bh_bm_shouhuwenbenBG" width="331" horizontalCenter="0"/>
+		<e:Label id="lbName" text="青龙" y="7" size="24" width="208" anchorOffsetY="0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" x="59" style="l_white"/>
+	</e:Group>
+	<e:Button id="challenge_btn" x="521" y="592" icon="" label="升级" includeIn="normal" skinName="BtnN2Skin"/>
+	<e:Button id="btnPrev" x="131" y="345" skinName="BtnNextSkin" visible="false"/>
+	<e:Button id="btnNext" y="345" x="592" skinName="BtnNextSkin" scaleX="-1" visible="false"/>
+	<e:Image width="650" height="300.58" x="36" y="698.42" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Scroller width="648" height="259" x="37" y="746" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="renWuList" itemRendererSkinName="GangDefendListItemSkin" anchorOffsetX="0" anchorOffsetY="0" x="0" y="1" height="260" width="645">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="-2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="任务" x="112" y="712" style="l_brown_1" size="22"/>
+	<e:Label text="次数" x="275" y="713" style="l_brown_1" size="22"/>
+	<e:Label text="单次经验" x="387" y="713" style="l_brown_1" size="22"/>
+	<e:Group id="curSkill_group" anchorOffsetX="0" width="385" y="472" horizontalCenter="0.5" anchorOffsetY="0" height="105">
+		<e:Image x="0" y="0" anchorOffsetY="0" source="ui_sbm_images005" anchorOffsetX="0" height="104"/>
+		<e:Image id="nextImage" source="ui_bm_dz_jiantou" rotation="271.07" horizontalCenter="-8.5" y="86"/>
+		<e:Label id="curAttr_label" text="Label" y="9" anchorOffsetX="0" style="l_brown_2" scaleX="1" scaleY="1" size="24" left="13" lineSpacing="8"/>
+		<e:Label id="nextAttrs_label" text="Label" y="9" anchorOffsetX="0" scaleX="1" scaleY="1" size="24" style="l_green" left="239" lineSpacing="8"/>
+	</e:Group>
+	<e:ProgressBar id="exp_bar" x="44" y="616" skinName="bar1Skin" anchorOffsetX="0" width="465" anchorOffsetY="0" height="21"/>
+	<e:Image id="protectAward_btn" x="43" y="150" source="ui_bh_bt_shouhujuli"/>
+	<e:Image y="668" source="ui_bh_bm_wenli" horizontalCenter="0"/>
+	<e:Image id="defendImg" y="184" horizontalCenter="0" source="ui_bh_bm_shouhushou"/>
+	<e:Image source="ui_zuoqidengjibg" x="521" y="262"/>
+	<e:Label id="labLv" text="111" y="293" style="l_brown_1" size="22" horizontalCenter="179.5"/>
+	<e:Label text="级" y="326" style="l_brown_1" size="22" horizontalCenter="179.5"/>
+
+</e:Skin>

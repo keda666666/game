@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuJiJieShopItemSkin" width="320" height="172" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163edfdc5f4" visible="false"/>
+	<e:Image width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ui_bm_shangchengbg"/>
+	<e:Image source="ui_bm_fengexian" y="39" horizontalCenter="0" width="300"/>
+	<e:Label id="name_txt" text="羽毛" y="7.5" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="24" horizontalCenter="0" style="l_brown_1"/>
+	<e:Group id="mark" x="259" y="3">
+		<e:Image x="0" y="0" source="ui_jjkh_bm_jiaobiao"/>
+		<e:Label id="disPirce_txt" text="3折" y="2.5" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="22" style="l_white" rotation="48" x="36"/>
+	</e:Group>
+	<e:Group x="117.5" y="49">
+		<e:Label text="原价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" size="22" style="l_brown_1" x="0"/>
+		<ns1:PriceIcon id="priceIcon1" horizontalCenter="41.5" verticalCenter="-10"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="117.5" y="79.01">
+		<e:Label text="现价" y="1" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="22" x="0"/>
+		<ns1:PriceIcon id="priceIcon2" x="50" y="0"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="info" text="通关15关解锁" y="138.5" textAlign="center" style="l_red" horizontalCenter="53" size="20"/>
+	<e:Image id="imgBuyEnd" x="178.01" y="116.69" scaleX="0.92" scaleY="0.92" source="ui_jjkh_bm_yigoumai"/>
+	<ns1:ItemBase id="itemIcon" verticalCenter="15" left="11" scaleX="0.92" scaleY="0.92"/>
+	<e:Button id="buy" label="购 买" x="149" y="110" skinName="BtnN4Skin"/>
+	<e:Rect width="185" height="1" x="112" y="67"/>
+	<e:Label id="times_txt" text="限时（0/5）" y="140" textAlign="left" verticalAlign="justify" scaleX="1" scaleY="1" anchorOffsetX="0" style="l_brown_1" size="20" horizontalCenter="-96.5"/>
+</e:Skin>

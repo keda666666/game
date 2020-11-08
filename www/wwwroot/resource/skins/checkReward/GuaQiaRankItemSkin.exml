@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuaQiaRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="state1,state2">
+	<w:Config id="163b9480ead" />
+	<e:Group width="559" height="58" x="0" y="0">
+		<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_bm_xilianbg01"
+		         x="0" y="0" height="58" width="559" source.state2="ui_bm_xilianbg02" />
+		<e:Label id="rankTxt" text="1" y="18" size="22" style="l_green" textAlign="center" fontFamily="Arial"
+		         textColor="0x6C310A"  left="37"/>
+		<e:Label id="nameTxt" text="大大" y="14" size="26" style="l_green" textAlign="center" fontFamily="Arial"
+		         textColor="0x6C310A"  left="142"/>
+		<e:Label id="guanQiaTxt" text="99关" size="22" fontFamily="Arial" textAlign="center" y="18" style="l_green"  right="46"/>
+		<e:Label id="powerTxt" text="10" y="18" size="22" style="l_green_2" textAlign="left" fontFamily="Arial"
+		         textColor="0xC93F08"  horizontalCenter="69"/>
+	</e:Group>
+</e:Skin>

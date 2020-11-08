@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuangPanPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16446aa3487"/>
+	<e:Image y="263.11" source="ui_sbm_002" anchorOffsetX="0" width="656.34" anchorOffsetY="0" height="727.71" alpha="1" horizontalCenter="0"/>
+
+
+	<e:Group y="278.25" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image id="zhuangPanBg" scale9Grid="5,6,37,8" source="ui_jchd_bm_zhuanpan02" scaleX="1" scaleY="1"/>
+		<e:Label id="lastTime" text="活动倒计时:20:56:59" y="423.32" size="20" textColor="0x70470a" horizontalCenter="0"/>
+		<e:Label id="times" text="次数:99" y="388.33" size="20" textColor="0xff0000" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="barText" text="在充值2500元可获得抽奖1次" y="624.82" size="26" textColor="0x70470A" textAlign="center" horizontalCenter="0"/>
+		<e:ProgressBar id="bar" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="598" y="663" x="20">
+			<e:Skin>
+			<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="354" text="0" x="125"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<e:Group id="items" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:ZhuangPanitem y="54.68" scaleX="0.7" scaleY="0.7" x="230" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="55.68" scaleX="0.7" scaleY="0.7" x="332" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="122.68" scaleX="0.7" scaleY="0.7" x="420" anchorOffsetX="0" anchorOffsetY="0" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="217.68" scaleX="0.7" scaleY="0.7" x="468" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="308.68" scaleX="0.7" scaleY="0.7" x="470" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="397.77" scaleX="0.7" scaleY="0.7" x="417.64" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="468.68" scaleX="0.7" scaleY="0.7" x="335" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="468.68" scaleX="0.7" scaleY="0.7" x="229" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="412.82" scaleX="0.7" scaleY="0.7" x="128.39" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="311.68" scaleX="0.7" scaleY="0.7" x="73" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="207.68" scaleX="0.7" scaleY="0.7" x="79" skinName="ItemZhuangPanSkin"/>
+			<ns1:ZhuangPanitem y="108.68" scaleX="0.7" scaleY="0.7" x="114" skinName="ItemZhuangPanSkin"/>
+		</e:Group>
+		<e:Image id="bnt" y="298.34" x="317.64" anchorOffsetX="58" anchorOffsetY="100" source="ui_jchd_bm_zhizhen"/>
+		<e:Image id="cj" y="281" source="ui_jchd_bm_choujiang" horizontalCenter="0"/>
+	</e:Group>
+	<e:Label id="say" text="活动结束 您还有一次抽奖请尽快使用" y="1029" horizontalCenter="0" style="l_red" textAlign="center"/>
+</e:Skin>

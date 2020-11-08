@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendBlacklistSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163a5ecf475"/>
+	<e:Image width="651" height="852.03" x="35" y="151" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller id="scroller" width="645.45" height="732.34" anchorOffsetY="0" y="152.59" anchorOffsetX="0" horizontalCenter="-0.5" scrollPolicyH="off">
+		<e:List id="list" left="4" right="-3.5499999999999545" top="98" bottom="-97.65999999999997" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="FriendItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/><e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/><e:Object label="数据1"/>
+					<e:Object label="数据2"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+					<e:Object label="数据3"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout requestedRowCount="6" rowHeight="116" orientation="columns" horizontalGap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="970" horizontalCenter="0">
+		<e:Label text="黑名单：" x="0" y="0" style="l_brown_1" size="20"/>
+		<e:Label id="blacklistTxt" text="50/50" x="106" y="0" style="l_brown_1" size="20"/>
+	</e:Group>
+	<ns1:PageButton id="pageBtn" y="916" skinName="PageButtonSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+</e:Skin>

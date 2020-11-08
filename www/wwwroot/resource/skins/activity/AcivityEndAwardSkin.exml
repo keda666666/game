@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AcivityEndAwardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<ns1:CommonDialog id="commonDialog" anchorOffsetY="0" height="893" y="168" x="0"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" width="649" source="ui_sbm_002" x="36" height="654" y="254"/>
+	<e:Image id="whiteBgshort" width="649" height="263" x="36" y="645" source="ui_sbm_005" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image y="614" source="ui_bh_bm_wenli" horizontalCenter="0.5"/>
+	<e:Image id="rankBg" y="547" horizontalCenter="4.5" source="ui_js_bm_db02"/>
+	<e:Label id="rankTxt" text="" y="568" style="l_brown_1" horizontalCenter="0"/>
+	<e:Image id="whiteBglength" width="649" height="424" x="36" y="484" source="ui_sbm_005" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="awardGroup" y="500" horizontalCenter="0" anchorOffsetY="0" height="189">
+		<e:Image y="4" source="ui_bm_title1" horizontalCenter="0.5"/>
+		<e:Label text="我的奖励" y="7" style="l_brown_1" size="24" horizontalCenter="0"/>
+		<e:Label text="已通过邮件发送，请注意查收" y="46" style="l_brown_1" horizontalCenter="0" size="22"/>
+		<e:Group y="4" horizontalCenter="0">
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_sbm_002" height="108" y="75" left="0" right="0"/>
+			<e:Scroller maxWidth="566" y="76" horizontalCenter="0">
+				<e:Group>
+				<e:List id="awardList" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" itemRendererSkinName="ItemSkin1" x="0">
+					<e:layout>
+					<e:HorizontalLayout gap="38"/>
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object q="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="auctionGroup" y="702" horizontalCenter="0">
+		<e:Image y="3" horizontalCenter="0.5" source="ui_bm_title1"/>
+		<e:Label text="拍卖奖励" y="4" style="l_brown_1" horizontalCenter="0" size="24"/>
+		<e:Group y="50" horizontalCenter="0">
+			<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_sbm_002" height="108" y="0" left="0" right="0"/>
+			<e:Scroller y="3" maxWidth="566" horizontalCenter="0">
+				<e:Group y="1">
+				<e:List id="auctionList" y="-2" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="292" scaleX="1" scaleY="1" itemRendererSkinName="ItemSkin1">
+					<e:layout>
+					<e:HorizontalLayout gap="36"/>
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object w="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Label text="拍卖奖励已进入拍卖行" y="164" style="l_brown_1" horizontalCenter="0" size="22"/>
+	</e:Group>
+	<e:Component id="icon1" y="260" skinName="ActivityEndAwardIconSkin" x="276"/>
+	<e:Component id="icon2" x="439" y="261" skinName="ActivityEndAwardIconSkin"/>
+	<e:Button id="closeBtn" y="925" label="退出" skinName="BtnN2Skin" horizontalCenter="0"/>
+	<e:Group id="cloudNineGroup" y="266" horizontalCenter="0">
+		<ns1:RoleShowPanel id="roleShowPanel" width="20" height="20" y="284" horizontalCenter="0"/>
+		<e:Label text="本届九重天仙道至尊" y="0" style="l_brown_1" horizontalCenter="0" size="28"/>
+		<e:Label id="cloudNineNameTxt" text="Label" y="311" style="l_blue_2" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

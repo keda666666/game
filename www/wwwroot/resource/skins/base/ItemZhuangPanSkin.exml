@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemZhuangPanSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="110" height="130">
+	<w:Config id="1586b362dfe"/>
+	<ns1:ItemBaseNotName id="item" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Image id="quality" source="ui_jchd_bm_zhenping"/>
+
+
+</e:Skin>

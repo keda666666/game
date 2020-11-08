@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TiantiRankItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="635" height="80" >
+	<e:Image width="635" height="80" x="0" y="0" source="ui_bm_bg"/>
+
+
+
+	<e:Label id="nameLabel" text="" textAlign="right" x="317" verticalCenter="0" style="l_brown_1"/>
+	<e:Label id="winNum" text="100场" textAlign="right" verticalCenter="0" width="164" x="428" style="l_brown_1"/>
+
+
+	<ns1:LadderLevelIcon id="levelIcon" x="162" y="6" scaleX="0.85" scaleY="0.85"/>
+	<e:Image id="rankImg" x="23" y="10" source="ui_kfwz_bm_pmk01"/>
+	<e:Label id="rankLabel" text="第四名" x="1" y="30" style="l_brown_1" size="22" textAlign="center" width="108"/>
+
+
+
+
+
+	
+</e:Skin>

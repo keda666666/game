@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherFirstSkin" width="650" height="550" currentState="teacher" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="null,teacher,depart" >
+	<e:Image id="uiBg1" source="ui_sbm_002" y="0" width="650" height="550" x="0"/>
+	<e:Group includeIn="teacher" horizontalCenter="0" top="144">
+		<ns1:CmLabel id="lbNe" text="师徒任务" y="0"  horizontalCenter="0" />
+	</e:Group>
+	<e:Group x="157" y="254">
+		<e:Label text="寻求名师" includeIn="null" x="0" style="l_green" y="8"/>
+		<e:Label id="lbSend" text="发送广播" includeIn="null" x="147" style="l_green" y="8"/>
+		<e:Image id="imgSend" source="ui_st_bt_shoutu" includeIn="null" x="260.35" y="0"/>
+	</e:Group>
+	<e:Label text="任务" includeIn="teacher" x="47" y="182" style="l_brown_1"/>
+	<e:Label text="次数" includeIn="teacher" x="196" y="182" style="l_brown_1"/>
+	<e:Label text="奖励" includeIn="teacher" x="345" y="182" style="l_brown_1"/>
+	<e:Scroller width="650" height="325" includeIn="teacher" y="220" horizontalCenter="0">
+		<e:List id="listView" itemRendererSkinName="TeacherGetReItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="ui_bm_fengexian" y="120" horizontalCenter="0.5" visible.null="false"/>
+	<ns1:TeacherInfoItem id="infoItem" skinName="TeacherItemInfoSkin" left="0"  top="0" visible.null="false"/>
+	<e:Image source="ui_bm_fengexian" includeIn="depart" y="338" horizontalCenter="0.5"/>
+	<ns1:TeacherDepartItem id="depart1" includeIn="depart" y="122" skinName="TeacherItemDepart" horizontalCenter="2.5"/>
+	<ns1:TeacherDepartItem id="depart2" includeIn="depart" y="339" skinName="TeacherItemDepart" horizontalCenter="2.5"/>
+</e:Skin>

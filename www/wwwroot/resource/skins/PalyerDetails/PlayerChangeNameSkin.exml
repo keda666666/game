@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerChangeNameSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16342cee4fd"/>
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" height="465.33" title="提  示" anchorOffsetY="0" x="0" y="361.67" skinName="CommonDialog2Skin"/>
+	<e:Image y="443.66" source="ui_sbm_002" anchorOffsetX="0" width="555.33" anchorOffsetY="0" height="248.67" alpha="1" horizontalCenter="0"/>
+	<e:Group x="175.04" y="602.01">
+		<e:Label id="costTxt" text="首次改名不消耗元宝" x="137" y="2" style="l_green_1" size="23"/>
+		<ns1:PriceIcon id="price" x="137" y="0" skinName="PriceIconSkin"/>
+		<e:Label text="消      耗：" x="0" y="1" width="136" textAlign="left" style="l_brown_2" fontFamily="Microsoft YaHei" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group x="171.04" y="502.01">
+		<e:Label id="lbname" text="名      称:" x="5" y="8" style="l_brown_2" size="24"/>
+		<e:Image width="240" height="36" x="129.34" y="3.34" source="ui_bm_icomliaotian" anchorOffsetX="0" anchorOffsetY="0" />
+		<e:Label id="lbTips" text="（改名最多可输入6个字）" x="119" y="49" style="l_brown_2" size="24"/>
+		<e:TextInput id="input" height="30" y="4" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" prompt="玩家名字" textColor="0x682f00" x="132" width="240">
+		<e:Skin states="normal,disabled,normalWithPrompt,disabledWithPrompt" currentState="normalWithPrompt">
+			<e:EditableText id="textDisplay" verticalCenter="2" left="5" right="10" textColor="0xffffff" textColor.disabled="0xff0000" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+			<e:Label id="promptDisplay" verticalCenter="2" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26" textAlign="center" verticalAlign="middle" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt"/>
+		</e:Skin>
+		</e:TextInput>
+	</e:Group>
+	<e:Button id="btnRename" x="149.7" y="729.33"   label="确 定" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" width="140" anchorOffsetY="0" height="70"/>
+	<e:Button id="btnCancel" x="434.32" y="731.98"   label="取 消" skinName="Btn2Skin" scaleX="1" scaleY="1"/>
+</e:Skin>

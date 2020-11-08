@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QujingChooseSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image width="680" height="840" x="20" y="150" source="ui_sbm_002"/>
+	<e:Group x="25" y="865">
+		<e:Label id="labTip" text="" x="0" y="0" size="22"/>
+		<ns1:PriceIcon id="piRefresh" x="125" y="28"/>
+		<e:Button id="btnRefresh" x="105" y="60"   label="刷新品质" scaleX="1" scaleY="1" height="60" width="150" skinName="BtnN3Skin"/>
+		<ns1:PriceIcon id="piOneKey" x="455" y="28"/>
+		<e:Button id="btnOneKey" x="435" y="60"   label="一键刷橙" scaleX="1" scaleY="1" skinName="BtnN2Skin" height="60" width="150"/>
+	</e:Group>
+	<e:Group x="79" y="1030">
+		<e:Label text="取经次数：" x="0" y="20" size="22" style="l_brown_1"/>
+		<e:Label id="labCount" text="1/3" x="111" y="22" size="22" style="l_green"/>
+		<e:Button id="btnGoto" x="206" y="0"   label="前往取经" scaleX="1" scaleY="1" skinName="BtnN2Skin" width="150" height="60"/>
+	</e:Group>
+	<e:Group width="680" height="700" x="20" y="160">
+		<ns1:QujingChooseItem id="chooseItem1" x="6" y="3" skinName="QujingChooseItemSkin"/>
+		<ns1:QujingChooseItem id="chooseItem2" x="16" y="13" skinName="QujingChooseItemSkin"/>
+		<ns1:QujingChooseItem id="chooseItem3" x="26" y="23" skinName="QujingChooseItemSkin"/>
+		<ns1:QujingChooseItem id="chooseItem4" x="36" y="33" skinName="QujingChooseItemSkin"/>
+		<ns1:QujingChooseItem id="chooseItem5" x="46" y="43" skinName="QujingChooseItemSkin"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

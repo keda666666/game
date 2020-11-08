@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleHead1Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="213" height="178">
+	<w:Config id="1633e92cf14"/>
+	<e:Image id="typeImg" y="140" source="" horizontalCenter="0"/>
+	<e:Image id="head" x="18" y="15" source="shuoming" visible="false"/>
+	<e:Component id="face" y="9" x="59" skinName="HeadSkin3"/>
+	<e:Label id="typeName" text="" y="143" style="l_brown_2" size="20" horizontalCenter="0"/>
+	<e:Label id="username" text="" y="112" style="l_brown_1" size="20" horizontalCenter="0"/>
+	<e:Label id="deal" text="已阵亡" x="79" y="75" style="l_red" visible="false"/>
+</e:Skin>

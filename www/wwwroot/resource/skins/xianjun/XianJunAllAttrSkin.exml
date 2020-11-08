@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunAllAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16294836fbc" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-54.5" height="839.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" title="星君属性"/>
+	<e:Image y="205" source="ui_bm_jsbg" x="34"/>
+    <e:Image y="643" horizontalCenter="0" source="ui_bm_fengexian" width="496"/>
+	<e:Group width="627" height="200" y="659" horizontalCenter="0">
+		<e:Group width="100%">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="激活总属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="levelAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="10" y="10">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="仙侣奇缘属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="zizhiAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+	</e:Group>
+	<ns1:PowerLabel id="powerLabel" y="233" skinName="PowerLabel2Skin" horizontalCenter="0"/>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="564" x="360"/>
+</e:Skin>

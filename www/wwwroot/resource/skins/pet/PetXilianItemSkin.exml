@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetXilianItemSkin" width="322" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" width="322" height="106" source="ui_bm_xilianbg01"/>
+	<e:Label id="skillName" text="二级法术吸血" x="99" y="7" size="26"/>
+	<e:Label id="skillDesc" text="二级法术吸血" x="102" y="38" style="l_brown_2" size="20" width="204"/>
+	<e:Group id="lockGroup" width="0" height="0" horizontalCenter="-115" verticalCenter="0">
+		<e:Image source="ui_bm_weikaifang" x="-46" y="-48" width="96" height="96" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="skillGroup" width="0" height="0" horizontalCenter="-114" verticalCenter="0">
+		<e:Image width="84" height="84" source="ui_jn_bm_jinengbg" x="-40" y="-42" scaleX="1" scaleY="1"/>
+		<e:Image id="skillImg" width="89" height="89" scaleX="1" scaleY="1" source="ui_skill_31" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="qImg" verticalCenter="0" source="ui_cw_bm_lan" horizontalCenter="0" x="-46" y="-47" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="lockImg" x="1" y="1" source="ui_bt_weisuo"/>
+</e:Skin>

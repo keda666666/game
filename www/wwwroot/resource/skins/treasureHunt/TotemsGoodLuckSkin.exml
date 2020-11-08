@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsGoodLuckSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1646eaf75b8"/>
+	<e:Image source="ui_xb_bm_wupinBG" y="246.85" horizontalCenter="-1" anchorOffsetY="0" height="631.94" anchorOffsetX="0" width="650.48"/>
+	<e:Image source="ui_xb_bm_tupian" y="149" horizontalCenter="0"/>
+	<e:Button id="btn1" label="购买1个" y="914.02" skinName="BtnN2Skin" x="280"/>
+	<e:Button id="btn2" label="购买10个" y="914.02" skinName="BtnN2Skin" x="520"/>
+	<e:Button id="btn0" label="购买10个" y="912.02" x="39" skinName="BtnN3Skin"/>
+    <ns1:PriceIcon id="priceIcon1" y="884.02" horizontalCenter="0.5" scaleX="0.9" scaleY="0.9"/>
+	<ns1:PriceIcon id="priceIcon0" y="882.02" horizontalCenter="-239.5" scaleX="0.9" scaleY="0.9"/>
+	<ns1:PriceIcon id="priceIcon2" y="884.02" horizontalCenter="243.5" scaleX="0.9" scaleY="0.9"/>
+	<ns1:PriceIcon id="rewardIcon1" y="990.62" horizontalCenter="0.5" scaleX="0.9" scaleY="0.9"/>
+	<ns1:PriceIcon id="rewardIcon0" y="990.62" horizontalCenter="-239.5" scaleX="0.9" scaleY="0.9" x="10"/>
+	<ns1:PriceIcon id="rewardIcon2" y="990.62" horizontalCenter="243.5" scaleX="0.9" scaleY="0.9" x="10"/>
+	<e:Group id="group" y="282.58" width="0" height="0" x="360">
+		<ns1:ItemBaseNotName y="-16" scaleX="1.1" scaleY="1.1" x="184"/>
+		<ns1:ItemBaseNotName x="195" y="141" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="191" y="284" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="184" scaleX="1.1" scaleY="1.1" y="446"/>
+		<ns1:ItemBaseNotName x="32" y="462" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="-128" y="461.88" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName y="446" scaleX="1.1" scaleY="1.1" x="-313"/>
+		<ns1:ItemBaseNotName x="-299" y="284" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="-299" y="141" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="-313" y="-16" scaleX="1.1" scaleY="1.1"/>
+		<ns1:ItemBaseNotName x="-128" y="-10" scaleX="0.9" scaleY="0.9"/>
+		<ns1:ItemBaseNotName x="32" y="-10" scaleX="0.9" scaleY="0.9"/>
+	</e:Group>
+	<e:Image source="ui_xb_bm_jiluBG" y="425.58" x="162" width="411" height="277"/>
+	<e:Image source="ui_xb_bm_sssr" x="294" y="702.42" visible="false"/>
+	<e:Image y="368.26" source="ui_xb_bm_zuiqiangxianlv" x="300" visible="false"/>
+	<e:Scroller width="357" height="238" y="457.58" horizontalCenter="-0.5">
+		<e:List id="list" itemRendererSkinName="TreasureLabelSkin" x="8" y="47"/>
+	</e:Scroller>
+    <ns1:GetwayLabel id="getway" text="寻宝说明" x="578" y="254.58" visible="false"/>
+	<e:Label text="寻宝记录" y="419.58" style="l_brown_1" horizontalCenter="0"/>
+	<e:Group id="fristGet" width="0" height="0" x="604" y="878" visible="false">
+		<e:Image source="ui_xb_bm_bg" x="-74" y="-169"/>
+		<ns1:ItemBaseNotName id="fristGetItem" x="-56" y="-155.54"/>
+		<e:Label text="首抽必中" x="-46" y="-49" scaleX="1" scaleY="1" style="l_brown_1" size="23"/>
+	</e:Group>
+	<e:BitmapLabel text="幸运值" x="81" y="1021" font="font_ui_fuben_fnt"  visible="false"/>
+	<e:Label id="luckLabel" text="幸运值：" x="176" y="1055" style="l_brown_1" size="18" lineSpacing="5" visible="false"/>
+<e:Image id="selectImg"  source="ui_bm_xuanzhongkuang"  x="417" y="298" scaleX="0.85" scaleY="0.85" visible="false"/>
+	<e:ProgressBar id="luckbar" width="398" height="20" x="179" y="1025" skinName="bar0Skin" visible="false"/>
+</e:Skin>

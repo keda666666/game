@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeLinerSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163ee08c25d"/>
+	<ns1:CommonDialog id="commonDialog" height="632" title="提  示" anchorOffsetY="0" x="0" y="308" skinName="CommonDialog2Skin"/>
+	<e:Image width="588" height="416" x="65" y="390" source="ui_sbm_002" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label text="我所在的线路" x="176" y="432" style="l_brown_1"/>
+	<e:Button id="btnChange" x="282" y="833"   label="切换" scaleX="1" scaleY="1" skinName="BtnN2Skin"/>
+	<e:Image y="496" source="ui_bm_shuomingfengexian" horizontalCenter="0.5"/>
+	<e:Scroller width="542" height="264" x="99" y="531" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="LinerItemSkin" y="1">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+			<e:layout>
+				<e:TileLayout horizontalGap="17"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="imgBg" horizontalCenter="86" verticalCenter="-196.5" source="ui_bh_bt01"/>
+	<e:Label id="labLine" verticalAlign="middle" textAlign="center" text="1线" size="22" verticalCenter="-197" horizontalCenter="87" textColor="0x6E330B" style="l_brown_1"/>
+	<e:Image id="imgPoint" x="395" y="434" source="ui_zc_bm_xian_lv"/>
+</e:Skin>

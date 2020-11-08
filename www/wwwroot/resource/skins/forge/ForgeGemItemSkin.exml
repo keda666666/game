@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeGemItemSkin" width="183.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="30">
+		<e:Image id="img" x="3" source="" width="25" height="30"/>
+		<e:Label id="attName" text="Label" x="57" y="19" size="22" textColor="0x909090"/>
+		<e:Label id="attValue" text="未激活" x="67" y="29" size="22" textColor="0x909090"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="13"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherItemDepart" width="645" height="215" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0.5" top="10">
+		<ns1:CmLabel id="lbNe" text="科举奖励" y="0" />
+	</e:Group>
+	<e:Label text="师傅奖励" x="63" y="59" style="l_brown_1" size="26"/>
+	<e:Label text="徒弟奖励" x="298" y="59" style="l_brown_1" size="26"/>
+	<e:Button id="btnDepart" label="出师" x="492" y="126" skinName="BtnN4Skin"/>
+	<e:Label id="lbFree" text="免费" x="530" y="90" style="l_brown_1" size="26"/>
+	<ns1:PriceIcon  skinName="PriceIconSkin" id="mPriceIcon" x="493" y="89"/>
+	<e:Scroller width="220" height="128" x="4" y="87">
+		<e:Group>
+			<e:List id="listViewL" height="141" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" scaleX="1" scaleY="1">
+				<e:layout>
+				<e:HorizontalLayout gap="0"/>
+				</e:layout>
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller width="220" height="128" x="239" y="88">
+		<e:Group>
+			<e:List id="listViewR" height="141" itemRendererSkinName="ItemSkin" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" scaleX="1" scaleY="1">
+				<e:layout>
+				<e:HorizontalLayout gap="0"/>
+				</e:layout>
+				<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

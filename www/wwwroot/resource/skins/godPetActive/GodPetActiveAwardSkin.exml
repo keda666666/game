@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodPetActiveAwardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1644055d273"/>
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image width="644" height="646" x="38" y="360" source="ui_sbm_002"/>
+	<e:Scroller width="640" height="645" x="40" y="360">
+		<e:List id="list" itemRendererSkinName="GodPetActiveAwardItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="35" y="152">
+		<e:Image source="ui_ssjl_bm_tupian02" x="0" y="0"/>
+		<e:Label text="剩余时间：" x="8" y="169" size="22" style="l_white" stroke="1"/>
+		<e:Label id="labTime" text="" x="118" y="170" size="22" style="l_white" stroke="1"/>
+		<e:Label text="累计消费：" x="409" y="169" size="22" style="l_white" stroke="1"/>
+		<e:Label id="labCostNum" text="1400000元宝" y="170" size="22" style="l_green" stroke="1" textColor="0x29d82c" left="512"/>
+		<e:Label id="labGoto" text="前往降服神兽" x="514" y="10" size="22" style="l_green" stroke="1" textColor="0x29d82c"/>
+	</e:Group>
+</e:Skin>

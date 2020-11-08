@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoListItemSkin" width="650" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="ui_bsyn_bm_ditu01" x="7" y="3"/>
+	<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="134" x="125"/>
+	<e:Button id="goBtn" label="进 入" y="51.98" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnN2Skin" x="437"/>
+	<e:Group x="27" y="22.5">
+		<e:Image source="ui_qj_bm_pingzhiBG" x="-3" y="0"/>
+		<e:Label id="checkpointNameLabel" text="第一关" x="5" size="22" width="25" verticalCenter="0.5"/>
+	</e:Group>
+	<e:Image id="adoptImg" source="ui_bsyn_bm_yitongguang" x="237" y="31"/>
+	<e:Label id="recordLabel" text="查看记录" y="102" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="-24" size="25" touchEnabled="true"/>
+	<e:Label id="notAdoptLabel" text="上章未通过" y="78" anchorOffsetX="0" anchorOffsetY="0" style="l_green_2" stroke="1.5" horizontalCenter="199" textColor="0xf70c0c"/>
+</e:Skin>

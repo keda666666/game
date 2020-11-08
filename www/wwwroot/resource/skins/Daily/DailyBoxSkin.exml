@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyBoxSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="72" states="up,down"  height="84">
+	<e:Image id="imgBox" source="ui_xyll_bm_xiangzi05" horizontalCenter="0" verticalCenter="-10"/>
+	<e:Label id="labActiveNum" text="20" y="62" style="l_brown_1" size="22" horizontalCenter="0"/>
+	<e:Image id="imgGained" source="ui_fb_bm_yilingqu" y="3" scaleX="0.7" scaleY="0.7" x="-7"/>
+	<e:Image id="redPoint" source="ui_bm_reddot" horizontalCenter="27" verticalCenter="-35" visible="false"/>
+</e:Skin>

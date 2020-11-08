@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RideDressSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1628ab41336"/>
+    <ns1:CommonWindowBg id="commonWindowBg" touchEnabled="false" skinName="CommonWindowBg2Skin"/>
+	<e:Image y="115" source="ui_bm_jsbg" x="32"/>
+	<ns1:PowerLabel id="powerLabel" y="143" x="164" skinName="PowerLabel2Skin"/>
+	<e:Image width="647" height="330" y="672" source="ui_sbm_002" horizontalCenter="0"/>
+	<e:Image y="212" source="ui_bm_shuxingwenli" x="466.37"/>
+	<e:Scroller width="633" height="334" y="663" anchorOffsetX="0" anchorOffsetY="0" x="45" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="RideDressItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="leftBtn" label="Button" x="10" y="817" icon="ui_bt_jiantou" skinName="Btn0TipSkin"/>
+	<e:Button id="rightBtn" label="Button" x="712" y="817" icon="ui_bt_jiantou" scaleX="-1" skinName="Btn0TipSkin"/>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="475" x="360"/>
+	<ns1:RideShowPanel id="ridePanel" width="0" height="0" y="475" x="360"/>
+	<e:Label id="allPowerLabel" text="皮肤总战力" x="36" y="632" style="l_brown_2"/>
+	<e:Label id="activeCountLabel" text="皮肤总战力" x="404" y="632" style="l_brown_2" width="279" textAlign="right"/>
+	<e:Label text="激活属性加成" x="497.37" y="212" style="l_brown_2" textAlign="left" size="24"/>
+	<e:Label id="attrLabel" text="激活属性加成" x="497.37" y="243" textAlign="left" style="l_gray" size="22" textColor="0x50c0ed"/>
+	<e:Group id="groupItem" x="221" y="520">
+		<e:Label id="nameLabel" text="皮肤总战力" x="106" y="8" style="l_brown_2"/>
+		<e:Label id="getLabel" text="帮派福利商店" x="106" y="49" style="l_green"/>
+		<ns1:ItemBase id="item" x="-6" y="-1"/>
+	</e:Group>
+	<e:Group id="gaoupHave" x="279" y="538" visible="false">
+		<e:Button id="changeBtn" label="幻化" y="0" icon="ui_bt_jiantou" skinName="BtnN2Skin" x="0"/>
+		<e:Image id="imgHave" source="ui_bm_yihuanhua" y="2" x="20"/>
+	</e:Group>
+	<e:Image id="imgStyle" y="374" horizontalCenter="0" source=""/>
+	<ns1:RoleShowPanel id="roleShowPanel" x="365" y="475"/>
+	<e:Button id="activeBtn" label="激活" y="528" icon="ui_bt_jiantou" skinName="BtnN2Skin" x="510"/>
+	<e:Group id="timeGroup" x="72" y="225" width="166" height="36" visible="false">
+		<e:Label text="剩余有效时间" y="0" style="l_green" horizontalCenter="0"/>
+		<e:Label id="timeLabel" text="00:00:00" y="35" style="l_green" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

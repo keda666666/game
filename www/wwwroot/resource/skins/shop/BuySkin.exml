@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuySkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*">
+	<w:Config id="1586bde6cc9"/>
+	<e:Group id="animGroup" width="720" height="1280" touchChildren="true" touchEnabled="false" anchorOffsetX="360" anchorOffsetY="640" x="360" y="640">
+		<ns1:CommonDialog id="commonDialog" height="620" title="购买" anchorOffsetY="0" verticalCenter="0" skinName="CommonDialog2Skin" x="0" y="330" scaleX="1" scaleY="1"/>
+		<e:Image width="565" height="400" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-23" source="ui_sbm_002" x="78" y="417" scaleX="1" scaleY="1"/>
+		<e:Label id="itemName" text="商品名称占位" y="462" x="342" style="l_brown_1" textAlign="left" scaleX="1" scaleY="1"/>
+		<e:Label id="used" text="限购（0/2）" y="502" x="342" style="l_green" textAlign="left" scaleX="1" scaleY="1"/>
+		<e:Image source="ui_bm_fengexian" width="500" horizontalCenter="0" top="672" x="110" y="672" scaleX="1" scaleY="1"/>
+		<e:Group id="goodsGroup0" touchEnabled="false" width="491" anchorOffsetX="0" anchorOffsetY="0" height="245" y="688" horizontalCenter="0.5" x="115" scaleX="1" scaleY="1">
+			<e:Label y="78" text="总价：" x="151" style="l_brown_1"/>
+			<e:TextInput id="numLabel" textColor="0x6e330b" text="1" maxChars="6" y="27" anchorOffsetX="0" skinName="TextInputSkin2" width="125" horizontalCenter="-5"/>
+			<e:Button id="sub1Btn" label="按钮" x="153" y="25" skinName="Btn0Skin" icon="ui_bt_jian"/>
+			<e:Button id="add1Btn" label="按钮" x="282" y="25" skinName="Btn0Skin" icon="ui_bt_plue"/>
+			<e:Button id="add10Btn" label="+10" x="335" y="26" icon="ui_bt_jiashi" skinName="Btn0Skin"/>
+			<e:Button id="sub10Btn" label="-10" x="78" y="28" icon="ui_bt_jianshi" anchorOffsetY="0" height="38" skinName="Btn0Skin"/>
+			<ns1:PriceIcon id="totalPrice" x="219" y="76" skinName="PriceIconSkin"/>
+			<e:Button id="buyBtn" label="购  买" y="160" skinName="BtnN1Skin" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label id="lbItemAccount" text="可用于翅膀升级可用于翅膀升级可用于翅膀升级可用于翅膀升级" y="561" style="l_brown_1" textAlign="center" horizontalCenter="0" width="365" x="178" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase id="itemIcon" x="221" y="449" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

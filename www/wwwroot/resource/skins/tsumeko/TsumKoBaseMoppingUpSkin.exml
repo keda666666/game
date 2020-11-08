@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoBaseMoppingUpSkin" width="647" height="337" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="337" width="647" x="0"/>
+	<e:Group id="teamInfoGroup"  touchChildren="true" touchEnabled="false" width="647" height="337">
+		<e:Group x="60" y="218" touchChildren="true" touchEnabled="false" width="571">
+			<e:Button id="onceBtn" x="-40" y="40"   label="扫 荡" skinName="BtnN3Skin"/>
+			<e:Button id="allBtn" x="404" y="40" icon="" label="一键扫荡" skinName="BtnN2Skin"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="noneInfoLabel" text="" y="141" anchorOffsetX="0" width="617" size="28" textAlign="center" horizontalCenter="0" style="l_red"/>>
+</e:Skin>

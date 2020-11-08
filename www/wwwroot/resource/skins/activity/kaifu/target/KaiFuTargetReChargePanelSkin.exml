@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetReChargePanelSkin" width="720" height="1280" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163ef6f166b"/>
+
+	<e:Image x="34" y="270.76" source="ui_kfhd_bm_lianxuchongzhiBanner"/>
+
+	<e:Image width="651" height="560.33" x="35" y="439.76" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="640" height="552.33" anchorOffsetY="0" y="444" anchorOffsetX="0" scrollPolicyH="off" horizontalCenter="0">
+		<e:List id="list" left="0" right="0.4500000000000455" top="-67" bottom="0.32999999999992724" scrollEnabled="true" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="KaiFuJiJieAwardItemSkin">
+		
+		<e:layout>
+			<e:VerticalLayout gap="6" paddingTop="2" paddingBottom="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="time_txt" text="活动倒计时：12:25:01" y="402" size="22" stroke="1" style="l_white" left="44"/>
+	<ns1:GetwayLabel id="getwayLabel" text="前往充值" x="572" y="400"  enabled="true" skinName="GetwayLabelSkin"/>
+</e:Skin>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuanqiajiangliSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162678cb66d"/>
+	<e:Group x="26" y="68"  width="672" touchEnabled="false">
+		<e:Image y="244" source="ui_bm_diwen" horizontalCenter="0"/>
+		<e:Image x="68" y="276" source="ui_bm_icon"/>
+		<e:Image x="142" y="695" source="ui_bm_zhangjiebg" height="65"/>
+		<e:Button id="challengeBtn" x="253" y="963" anchorOffsetX="0" anchorOffsetY="0" label="挑 战" skinName="BtnN2Skin"/>
+		<e:Group x="394" y="90">
+			<e:Image x="0" y="0" width="256" height="175" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label text="关卡求助" x="75" y="9" style="l_brown_1"/>
+			<e:Image x="250" y="14" source="ui_guankia_wenli" scaleX="-1" scaleY="1"/>
+			<e:Image x="5" y="14" source="ui_guankia_wenli" scaleY="1"/>
+			<e:Button id="btn_help" width="97" height="54" x="79" y="113" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn1Skin" label="求 助"/>
+			<e:Label id="lb_beHelpNum" text="已协助他人次数：0/5" x="17" y="81" size="22" textColor="0x6e330b" style="l_gray"/>
+			<e:Label id="lb_helpNum" text="已求助次数：0/3" x="17" y="45" size="22" textColor="0x6e330b" style="l_green"/>
+		</e:Group>
+		<e:Label id="showRankTxt" text="查看排行" x="105" y="273" style="l_green"/>
+		<e:Label id="mapNameTxt" text="火云洞3-2" x="187" y="715" size="26" anchorOffsetX="0" width="293" textAlign="center" textColor="0x6e330b" style="l_blue_2"/>
+		<e:Label id="needWave" text="击败X波后即可挑战BOSS" y="986" size="28" textColor="0x52361a" bold="true" width="488" textAlign="center" x="97"/>
+		<e:Group x="10" y="114">
+			<e:Image y="0" x="0" width="301" height="149" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="lb_r0" text="1 暂无 0关" x="10" y="47" size="22" style="l_green" textColor="0xd27702"/>
+			<e:Label id="lb_r1" text="2 暂无 0关" x="10" y="83" size="22" style="l_brown_2" textColor="0xc500ff"/>
+			<e:Label id="lb_r2" text="3 暂无 0关" x="10" y="118" size="22" style="l_brown_1" textColor="0x1147ff"/>
+			<e:Label text="关卡排行" x="98" y="10"  style="l_brown_1"/>
+			<e:Image x="11" y="14" scaleX="1" scaleY="1" source="ui_guankia_wenli"/>
+			<e:Image x="287" y="14" source="ui_guankia_wenli" scaleX="-1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="517" y="529">
+			<e:Image x="0" y="0" scale9Grid="52,20,3,2" source="ui_bm_wenbenbg"/>
+			<e:Label text="通章奖励" x="28" y="7" style="l_brown_1" size="24"/>
+			<ns1:ItemBaseNotName id="gchapreward" x="22" y="36" skinName="ItemSkin"/>
+			<e:ProgressBar id="bar" x="15" y="142" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="10">
+			<e:Skin>
+				<e:Image x="9" y="0"  width="108" height="22" source="ui_sbm_002" anchorOffsetY="0"/>
+				<e:Image id="thumb" x="10.75" y="1.8"  width="103.5" height="18.5" source="ui_bm_jingyantiao" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="labelDisplay" x="11.2" y="3" size="18" textAlign="center" width="98" text="0"/>
+			</e:Skin>
+			</e:ProgressBar>
+		</e:Group>
+		<e:Group y="781.67" horizontalCenter="-1" width="652">
+			<e:Image x="0" y="0"  width="651.34" height="150.67" source="ui_sbm_002" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Image x="177" y="14" source="ui_guankia_wenli" scaleX="1" scaleY="1"/>
+			<e:Image x="472" y="14" source="ui_guankia_wenli" scaleX="-1" scaleY="1"/>
+			<e:Label text="BOSS掉落" x="270.67" y="12" size="24" style="l_gray" textColor="0x6e330b"/>
+			<e:Group id="itemGroup" y="41.33" anchorOffsetX="0" horizontalCenter="1">
+				<ns1:ItemBaseNotName id="item0" y="377" skinName="ItemSkin"/>
+				<ns1:ItemBaseNotName id="item1" y="-1" skinName="ItemSkin"/>
+				<ns1:ItemBaseNotName id="item2" y="-74" skinName="ItemSkin"/>
+				<ns1:ItemBaseNotName y="387" id="item3" skinName="ItemSkin"/>
+				<ns1:ItemBaseNotName y="-95" id="item4" skinName="ItemSkin"/>
+				<e:layout>
+				<e:HorizontalLayout gap="16" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<ns1:PetShowPanel id="showPanel" width="0" height="0" y="550" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

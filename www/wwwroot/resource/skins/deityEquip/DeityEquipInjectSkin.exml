@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DeityEquipInjectSkin" width="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" height="1280">
+	<w:Config id="1586b1383e3" />
+	<e:Group x="32" y="174">
+		<ns1:DeityEquipItem id="item0" y="0" x="0" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1" touchEnabled="true"/>
+		<ns1:DeityEquipItem id="item1" y="0" x="548" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item2" y="129" x="0" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item3" y="129" x="548" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item4" y="258" x="0" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item5" y="258" x="548" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item6" y="387" x="0" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item7" y="387" x="548" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item8" y="516" x="0" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:DeityEquipItem id="item9" y="516" x="548" skinName="DeityEquipItemSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image width="419" height="252" x="151" y="390" source="ui_sbm_002" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="groupCur" x="164" y="402">
+		<e:Label id="labCurProp" text="+5 当前属性" y="4" style="l_brown_1" size="22" scaleX="1" scaleY="1" horizontalCenter="1"/>
+		<e:Group x="0" y="32">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+		<e:Label id="labCurAttr1" text="未觉醒" y="4" style="l_white" size="22" horizontalCenter="-1"/>
+		</e:Group>
+		<e:Group x="0" y="70">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+		<e:Label id="labCurAttr2" text="未觉醒" y="4" style="l_white" size="22" horizontalCenter="-1"/>
+		</e:Group>
+		<e:Group x="0" y="107">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+		<e:Label id="labCurAttr3" text="未觉醒" y="4" style="l_white" size="22" horizontalCenter="-1"/>
+		</e:Group>
+		<e:Group id="groupCurSpecial" x="2" y="148" scaleX="1" scaleY="1">
+		<e:Label text="特殊属性" y="0" style="l_brown_1" size="22" horizontalCenter="-0.5"/>
+		<e:Label id="labCurSpecAttr" text="PVE伤害+10%" y="32" style="l_brown_1" size="22" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image y="829" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="169" width="650" x="35"/>
+
+
+
+
+
+	<e:Group id="groupUpgrade" x="52" y="402" width="0" height="0">
+		<e:Group x="353" y="0">
+			<e:Label id="labNextProp" text="+6 下级属性" y="4" size="22" scaleX="1" scaleY="1" style="l_red" horizontalCenter="-1"/>
+			<e:Group x="0" y="32">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+			<e:Label id="labNextAttr1" text="未觉醒" y="4" size="22" style="l_yellow_4" horizontalCenter="-1"/>
+			</e:Group>
+			<e:Group x="0" y="70">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+			<e:Label id="labNextAttr2" text="未觉醒" y="4" size="22" horizontalCenter="-1" style="l_yellow_4"/>
+			</e:Group>
+			<e:Group x="0" y="107">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" height="32.33" width="152" source="ui_bm_jingyantiaobg" y="0" scaleX="1" scaleY="1" x="0"/>
+			<e:Label id="labNextAttr3" text="未觉醒" y="4" size="22" horizontalCenter="-1" style="l_yellow_4"/>
+			</e:Group>
+			<e:Group id="groupNextSpecial" x="5" y="148" scaleX="1" scaleY="1">
+			<e:Label text="特殊属性" y="0" style="l_brown_1" size="22" horizontalCenter="-0.5"/>
+			<e:Label id="labNextSpecAttr" text="PVE伤害+10%" y="32" style="l_brown_1" size="22" horizontalCenter="0"/>
+			</e:Group>
+			<e:Image source="ui_bm_dz_jiantou" x="-74" y="113" scaleX="1" scaleY="1" rotation="270"/>
+		</e:Group>
+		<e:Group x="0" y="450">
+			<ns1:NeedItemView id="needItemView" x="0" y="0" scaleX="1" scaleY="1"/>
+
+			<e:Button id="btnInject" label="注 灵" x="433.5" y="33" skinName="BtnN2Skin" scaleX="0.9" scaleY="0.9"/>
+			<ns1:GainLabel id="getwayLabel" y="98" x="108" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="groupProg" x="188" y="252" width="242">
+			<e:Label id="labRateInfo" text="当前有较低概率直接升阶" y="0" style="l_brown_1" size="22" horizontalCenter="0"/>
+			<e:Image source="ui_sz_bm_shuiqiu03" x="48" y="25"/>
+
+
+		</e:Group>
+		<e:Image source="ui_sz_bm_shuiqiu01" scaleX="1.15" scaleY="1.15" x="258" y="299"/>
+	</e:Group>
+	<e:Group x="236" y="136">
+		<e:Image source="ui_sz_bm_dawenli" x="0" y="0"/>
+		<ns1:DeityEquipItem id="showItem" x="71" y="74" skinName="DeityEquipItemSkin"/>
+	</e:Group>
+	<e:Label id="labMax" text="当前已是最高级" y="900" horizontalCenter="0" style="l_red" size="30" visible="false"/>
+
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatUeseItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="up,down" >
+	<w:Config id="16362cfaf7d"/>
+	<e:Group>
+		<e:Image source="ui_sbm_002" anchorOffsetX="0" width="204.33" anchorOffsetY="0" height="76.67" alpha="1" x="9" y="7"/>
+		<e:Image y="0" anchorOffsetX="0" width="220.33" anchorOffsetY="0" height="89.67" alpha="1" x="0" visible.up="false" source="ui_dt_bm_xuanzekuang"/>
+		<ns1:ItemIcon id="playerAvatar" y="14.44" anchorOffsetX="0" anchorOffsetY="0.65" x="15" width="61" height="62"/>
+		<e:Label id="nameTxt" text="我哈" x="84" y="19.34" size="20" style="label01" textColor="0x6e330b"/>
+		<e:Label id="onLineTxt" text="在线" x="83" y="50.34" style="l_green" size="20"/>
+		<e:Image id="redPointImg" x="178" y="47.34" source="ui_bm_reddot"/>
+		<e:Button id="closeBtn" label="Button" x="4" y="6" skinName="Btn0Skin" icon="ui_wjxq_bt_guanbi" anchorOffsetX="0" width="35" anchorOffsetY="0" height="36"/>
+	</e:Group>
+</e:Skin>

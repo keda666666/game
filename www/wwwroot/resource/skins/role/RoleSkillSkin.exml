@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Group id="grpUpOper" width="519" height="161" y="884" anchorOffsetX="0" anchorOffsetY="0" x="101">
+		<ns1:PriceIcon id="priceicon1" y="20" horizontalCenter="-138"/>
+		<ns1:PriceIcon id="priceicon2" y="20" horizontalCenter="155"/>
+		<e:Button id="oneKeyUp" x="329" y="54" icon=""  label="一键升级"  scaleX="1" scaleY="1" skinName="BtnN2Skin" width="162" height="72"/>
+		<e:Button id="onup" x="39" y="54"   label="升级"  skinName="BtnN3Skin"/>
+		<e:Label id="lbMaxLv" text="已满级" x="371.34" y="22.73" style="l_brown_1" visible="false"/>
+	</e:Group>
+	<e:Group x="35" y="152">
+		<e:Image y="0" width="650" height="730" source="ui_sbm_002" x="0"/>
+		<e:Image y="26.4" scale9Grid="28,20,2,3" anchorOffsetY="0" source="ui_bm_jinengwenli" x="19"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g0" y="22.45" x="263"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g1" y="100" x="443"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g2" y="277" x="508"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g3" y="438.5" x="443"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g4" y="507.6" x="263"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g5" y="438.5" x="80.5"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g6" y="277" x="20"/>
+		<e:Component skinName="RoleSkillItemSkin" id="g7" y="100" x="80.5"/>
+		<e:Image y="265" source="ui_bm_jinengmingchenbg02" x="221"/>
+		<e:Button id="skillSettingBtn" width="102" height="100" x="31" y="621.5" icon="ui_bt_jinengpeizhi" skinName="skins.ButtonSkin"/>
+		<e:Label id="skillDes" text="效果: 对单体造成30%伤害,并" y="311.5" fontFamily="Microsoft YaHei" lineSpacing="8" width="280" anchorOffsetY="0" height="80" verticalAlign="middle" anchorOffsetX="0" style="l_brown_1" size="22" x="185"/>
+		<e:Label id="skillLv" text="100级" x="347" y="275" size="22" fontFamily="Microsoft YaHei" textAlign="right" anchorOffsetX="0" textColor="0x6e330b"/>
+		<e:Label id="skillName" text="剑气破霄" x="232.95" y="273" bold="true" fontFamily="Microsoft YaHei" textAlign="center" width="130" style="l_brown_1" textColor="0x6e330b" size="22"/>
+	</e:Group>
+	<e:Label id="limitLabel" text="解锁当前技能需要到达11级" y="929" bold="true" fontFamily="Microsoft YaHei" size="28" width="500" textAlign="center" textColor="0xcc0000" scaleX="1" scaleY="1" horizontalCenter="0"/>
+</e:Skin>

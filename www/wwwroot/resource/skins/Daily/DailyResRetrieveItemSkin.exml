@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyResRetrieveItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="660"  height="160">
+	<e:Image source="ui_sbm_005"  x="2" y="1" width="656" height="158"/>
+	<e:Label id="labText" text="师门任务（可找回20次）" x="30" y="10" style="l_brown_1"/>
+	<e:Group x="15" y="46">
+		<ns1:ItemBaseNotName id="item1" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:ItemBaseNotName id="item2" x="105" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBaseNotName id="item3" x="210" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBaseNotName id="item4" x="315" y="0" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Button id="btnRetrieve" x="480" y="43"   label="找 回" skinName="BtnN2Skin" width="137.7" height="61.2"/>
+	<ns1:PriceIcon id="priceIcon" x="496" y="106"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YingYuanXiuShuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="16340107d06"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="108.5" height="591.12" anchorOffsetY="0"  skinName="CommonDialogSkin" horizontalCenter="0"/>
+	<e:Image y="546.33" source="ui_sbm_002" anchorOffsetX="0" width="601.67" anchorOffsetY="0" height="344" alpha="1" x="59"/>
+	<e:Label text="温馨提示：离婚后将保留房屋的品阶，但是无法升阶，只有处于結婚的状态下才可正常升阶" y="902.33" style="l_orange_2" size="20" anchorOffsetY="0" height="44" anchorOffsetX="0" width="578.67" x="71" textColor="0x6e330b"/>
+	<e:Label text="一夜夫妻百日恩 \n \n 您真的确定要结束和Ta姻缘吗？" y="660.32" style="l_orange_2" anchorOffsetY="0" height="112.01" anchorOffsetX="0" width="578.67" x="71.67" verticalAlign="middle" textAlign="center" textColor="0xfc2c0c"/>
+	<e:Button id="bnt" label="确定" y="955" skinName="BtnN2Skin" x="279"/>
+	<e:Label id="DayTimes" text="今日还可结婚" y="840.04" scaleX="1" scaleY="1" size="24" horizontalCenter="0" style="l_green_1"/>
+</e:Skin>

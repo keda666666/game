@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CrossBattleCityInfoSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:euiextension="euiextension.*" xmlns:ns1="*" states="shou,gong" >
+	<w:Config id="1586b38ac83"/>
+	<ns1:CommonDialog id="commonDialog" height="466.01" title="" verticalCenter="-50" anchorOffsetY="0" x="-1" skinName="CommonDialogSkin"/>
+	<e:Image y="448" source="ui_sbm_002" anchorOffsetX="0" width="643" anchorOffsetY="0" height="272" x="39" visible="false"/>
+	<e:Group y="446" touchEnabled="false" touchChildren="true" anchorOffsetX="0" width="524" anchorOffsetY="0" height="357" horizontalCenter="0">
+
+		<e:Button y="284.34" label="" id="sureBtn" skinName="BtnN1Skin" x="194.01" label.gong="攻 城" label.shou="协助守城"/>
+		<e:List id="list" y="0" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" x="-57">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:List id="GwHeadItem" y="0" itemRendererSkinName="RoleHeadSkin" anchorOffsetX="0" anchorOffsetY="0" x="-57">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:ProgressBar id="pro" y="185" skinName="bar0Skin" anchorOffsetX="0" width="551" anchorOffsetY="0" height="21.67" horizontalCenter="-3.5" slideDuration="0"/>
+		<e:Label id="title" text="防守玩家王城积分：3/分" x="-13.33" y="213.68" style="l_orange_3" textAlign="left"  textColor="0x843a05" size="24"/>
+		<e:Label id="title0" text="同阵营玩家贡献：1/分" x="-12.33" y="245.68" style="l_orange_3" textAlign="left" textColor="0x843A05" size="24" visible="false"/>
+		<e:Group width="147" height="83" x="417.04" y="279.67" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="typeImg" x="1" y="31" source="ui_hddt_bm_mozu"/>
+			<e:Label text="占领方" y="6" x="47" style="l_orange_2" size="20" textColor="0x843a05"/>
+			<e:Label id="typeName" text="仙族阵营" y="37.34" horizontalCenter="7.5" style="l_orange_2" textColor="0x843a05" size="20"/>
+		</e:Group>
+		<e:Label id="all" text="守城人员已满" y="307" style="l_brown_1" x="184" visible="false"/>
+
+
+
+	</e:Group>
+	<e:Group width="200" height="64" x="43" y="737" anchorOffsetY="0">
+		<e:Image id="typeBuff" x="0" y="0" source="ui_hddt_bm_renzubuff" scaleX="1" scaleY="1"/>
+		<e:Image id="bloom" x="0" y="0" source="ui_hddt_bm_diaoxuebuff" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:BitmapLabel id="text" width="157" height="45" x="317" y="373" anchorOffsetX="0" anchorOffsetY="0" font="font_ui_biaoti_fnt" text="装备"/>
+
+
+</e:Skin>

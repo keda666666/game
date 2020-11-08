@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16294836fbc" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-54.5" height="839.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" title="星君属性"/>
+	<e:Image y="205" source="ui_bm_jsbg" x="34"/>
+    <e:Image y="643" horizontalCenter="0" source="ui_bm_fengexian" width="496"/>
+	<e:Group width="627" height="200" y="659" horizontalCenter="0">
+		<e:Group width="100%">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="为角色加成属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="levelAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+	</e:Group>
+	<ns1:PowerLabel id="powerLabel" y="233" skinName="PowerLabel2Skin" horizontalCenter="0"/>
+	<e:Group id="starGroup" y="586" horizontalCenter="0">
+		<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="0" y="0" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="10" y="10" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="20" y="20" source="ui_bm_star022" width="30" height="30"/>
+		<e:Image x="30" y="30" source="ui_bm_star022" width="30" height="30"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image x="503" y="387" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Label id="lbLev" text="20" x="496" y="375" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xAA6A31"/>
+	<ns1:PetShowPanel id="showPanel" width="0" height="0" y="564" x="360"/>
+</e:Skin>

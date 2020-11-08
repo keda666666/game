@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JsFlyupSkillSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1627603db56" width="720"/>
+	<ns1:CommonDialog id="commonDialog"  verticalCenter="-56.5" height="823" anchorOffsetY="0" x="1" skinName="CommonDialog2Skin"/>
+	<e:Group height="0" y="239" width="634" x="43">
+		<e:List id="itemList" y="24" itemRendererSkinName="RideItemSkin" x="8">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+					<e:Object x="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+
+			<e:layout>
+				<e:HorizontalLayout gap="-9" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Image y="192" source="ui_bm_title1" anchorOffsetX="0" width="371" horizontalCenter="0"/>
+		<e:Image y="442" horizontalCenter="0" source="ui_bm_fengexian" width="488"/>
+		<e:Image id="noneImg" y="474" horizontalCenter="0" source="ui_bm_weijihuo" visible="false"/>
+		<e:Label id="skillName" text="坐骑技能" y="195" size="24" textAlign="center" style="l_brown_2" width="305" horizontalCenter="-0.5" anchorOffsetX="0"/>
+		<e:Label id="curLabel" text="当前效果" y="247" size="24" textAlign="center" style="l_brown_2" width="137" horizontalCenter="0"/>
+		<e:Label id="curAttrLabel" text="下级效果" y="288" textAlign="center" style="l_gray_attr" horizontalCenter="0" size="24"/>
+		<e:Label id="nextLabel" text="下级效果" y="333" size="24" textAlign="center" style="l_brown_2" width="137" horizontalCenter="0"/>
+		<e:Label id="nextAttrLabel" text="下级效果" y="375" size="24" textAlign="center" style="l_gray_attr" horizontalCenter="0"/>
+
+		<e:Group id="upGroup" y="482" horizontalCenter="0">
+			<e:Label text="消耗修为：" y="15" size="24" textAlign="center" style="l_brown_2" width="132" anchorOffsetX="0" x="260" visible="false"/>
+			<e:Label id="needExp" text="消耗修为：" y="15" size="24" textAlign="left" style="l_brown_2" width="240" anchorOffsetX="0" x="265"/>
+			<e:Label text="拥有修为：" y="55" size="24" textAlign="center" style="l_brown_2" width="132" anchorOffsetX="0" x="260" visible="false"/>
+			<e:Label id="haveExp" text="拥有修为：" y="60" size="24" textAlign="left" style="l_brown_2" width="240" anchorOffsetX="0" x="265"/>
+			<e:Button id="upBtn" label="升级" y="150" skinName="BtnN2Skin" horizontalCenter="0"/>
+			<ns1:NeedItemView id="needItemView" x="-8" y="-5" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+    
+</e:Skin>

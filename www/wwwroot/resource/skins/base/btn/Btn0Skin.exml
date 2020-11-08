@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Btn0Skin" states="up,down,disabled" minHeight="25" minWidth="25" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="iconDisplay" width="100%" height="100%" alpha.disabled="0.5"
+	         source=""  scaleX.down="0.95" scaleY.down="0.95"  width.down="98%" height.down="98%" verticalCenter.down="0" horizontalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="redPoint" source="ui_bm_reddot" right="-6" top="-8" touchEnabled="false" visible="false"/>
+</e:Skin>

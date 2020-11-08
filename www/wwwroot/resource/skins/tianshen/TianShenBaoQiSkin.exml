@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShenBaoQiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="162950eee5e"/>
+	<e:Group x="0" y="0">
+		<e:Image y="328" x="208" source="ui_sj_bm_wenli"/>
+		<e:Image id="showImg" y="382" x="273" source=""/>
+		<e:Group x="516" y="418">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+		<e:Label id="lbLev" text="20级" x="5" y="10" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" height="100" verticalAlign="middle" textColor="0xAA6A31" width="26" style="l_orange"/>
+		</e:Group>
+		<ns1:PowerLabel id="powerLabel" y="290" skinName="PowerLabel2Skin" horizontalCenter="26"/>
+		<e:Group x="34" y="596">
+			<e:Label id="tpower" text="战力+555" x="274" y="78" size="22" textColor="0x682F00" visible.full="false"/>
+		<e:Image y="114.67" anchorOffsetX="0" anchorOffsetY="0" x="291.33" source="ui_bm_xianlvjiantou" visible.full="false"/>
+			<e:Group y="2" x="202" scaleX="1" scaleY="1">
+				<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_title1"/>
+				<e:Label text="宝器属性" y="3" size="22" textAlign="center" x="52" style="l_brown_2" width="137"/>
+			</e:Group>
+		<e:Group x="34" y="40" x.full="219">
+			<e:Label id="tcurName" text="圣*李靖+1" x="54" y="0" size="20" style="l_blue"/>
+			<e:Image x="0" y="29" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0" width="212" height="32"/>
+			<e:Image width="212" height="32" x="0" y="66" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="212" height="32" x="0" y="102" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="curProLabel0" text="" x="0" y="31" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+			<e:Label id="curProLabel1" text="" x="0" y="68" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+			<e:Label id="curProLabel2" text="" x="0" y="104" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+		</e:Group>
+		<e:Group x="407" y="40" visible.full="false">
+			<e:Label id="tnextName" text="神*李靖+1" x="58" y="0" size="20" style="l_red"/>
+			<e:Image width="212" height="32" x="0" y="29" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="212" height="32" x="0" y="66" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="212" height="32" x="0" y="102" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="nextProLabel0" text="" x="0" y="31" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+			<e:Label id="nextProLabel1" text="" x="0" y="68" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="label01"/>
+			<e:Label id="nextProLabel2" text="" x="0" y="104" anchorOffsetX="0" width="212" textAlign="center" verticalAlign="middle" size="20" anchorOffsetY="0" height="30" style="l_purple_2"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Image y="780" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="220" width="650" x="34" scaleX="1" scaleY="1"/>
+		<e:Label id="tdesc" text="宝器已满级" y="886" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" visible.normal="false" horizontalCenter="15.5" text.full="宝器已满级"/>
+		<e:Group x="60" y="824" visible.full="false">
+			<e:Button id="btnCulture" x="53" y="92" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级"/>
+			<e:Button id="btnAuto" x="385" y="92"   label="自动升级" skinName="BtnN2Skin"/>
+			<e:ProgressBar id="bar" y="0" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" x="0">
+				<e:Skin>
+				<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" x="253.2" y="3" size="18" textAlign="center" width="98" text="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<ns1:ConsumeTwoLabel id="consumeLabel" x="23" y="38"/>
+			<e:CheckBox id="checkBox" x="418" y="35" label="自动购买" skinName="CheckBox0"/>
+		</e:Group>
+		<e:Group y="788" scaleX="1" scaleY="1" horizontalCenter="30.5">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+			<e:Label text="进阶进度" y="0" size="24" textAlign="center" x="100" style="l_brown_2" text.full="进阶进度"/>
+		</e:Group>
+	</e:Group>
+	<ns1:TianShenBaoQiHeadItem id="baoQiItem1" x="78" y="138" scaleX="1" scaleY="1" skinName="PetHeadSkin"/>
+	<ns1:TianShenBaoQiHeadItem x="228" y="138" scaleX="1" scaleY="1" skinName="PetHeadSkin" id="baoQiItem2"/>
+	<ns1:TianShenBaoQiHeadItem x="378" y="138" scaleX="1" scaleY="1" skinName="PetHeadSkin" id="baoQiItem3"/>
+	<ns1:TianShenBaoQiHeadItem id="baoQiItem4" x="528" y="138" scaleX="1" scaleY="1" skinName="PetHeadSkin"/>
+	<e:Button id="btnGM" x="58" y="370" icon="ui_sj_bt_gongming" skinName="Btn0Skin"/>
+	<e:Label id="tpreview" text="将印预览" y="318" size="26" bold="true" fontFamily="Microsoft YaHei" x="552" style="l_orange" visible="false"/>
+</e:Skin>

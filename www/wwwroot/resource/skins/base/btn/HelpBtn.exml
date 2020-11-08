@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpBtn" states="up,down,disabled"  xmlns:e="http://ns.egret.com/eui">
+<e:Image width="100%" height="100%" source="ui_ty_bt_wenhao" source.down="ui_ty_bt_wenhao"/>
+</e:Skin>

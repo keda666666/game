@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetTuJianItemIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<ns1:ItemIcon id="item" horizontalCenter="0" y="0"/>
+	<e:Label id="lbName" text="白骨精" y="101" size="22"  horizontalCenter="0" style="l_orange"/>
+	<e:Image id="godImg" x="61" y="6" source="ui_cw_bm_shen"/>
+</e:Skin>

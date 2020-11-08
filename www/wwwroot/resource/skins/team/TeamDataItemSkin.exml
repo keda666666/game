@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamDataItemSkin" width="207" height="236" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" width="207" height="236" source="ui_sj_bm_diban"/>
+	<e:Label id="name_txt" text="队长名字 " y="53.2" size="20"  textAlign="center" width="127" horizontalCenter="0" style="l_brown_1"/>
+	<e:Label id="num_txt" text="队伍人数：3/3" y="90" size="20" width="175" textAlign="center" horizontalCenter="0"  style="l_brown_2"/>
+	<e:Button id="goBtn" skinName="Btn0Skin" y="129" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" icon="ui_bh_bt_jiaru"/>
+</e:Skin>

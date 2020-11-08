@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PersonBossItemSkin" width="640" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162a9e5f3e8" style="l_blue" size="24" width="181" textAlign="center"/>
+	<e:Image width="637" height="208" source="ui_sbm_005" anchorOffsetY="0" anchorOffsetX="0" x="0" y="1"/>
+	<e:Image x="17" y="13" source="ui_boss_bm_taizi"/>
+	<e:Image x="6" y="12" source="ui_fb_bm_cengshubg" scale9Grid="42,5,65,30" width="181"/>
+	<e:Label id="bossName" text="BOSS" x="4" y="19" style="l_brown_2" width="187" textAlign="center" size="24"/>
+	<e:Label id="times_txt" text="剩余次数:   1" x="188" y="23" size="22" style="l_green"/>
+	<e:Label text="几率掉落:" x="188" y="83" size="22" style="l_brown_2"/>
+	<e:Label id="enterInfoLabel" text="主角100级可进入" y="65" right="24" style="l_red"/>
+	<e:Button id="goBtn" label="进  入" x="454" y="57" skinName="BtnN2Skin"/>
+	<e:Image id="dieImg" x="476" y="47" source="ui_boss_bm_yijisha"/>
+	<ns1:PetShowPanel id="petShowPanel" width="0" height="0" x="90" y="180"/>
+	<e:List id="list" x="181" y="111" itemRendererSkinName="ItemSkin" scaleX="0.8" scaleY="0.8">
+		<e:ArrayCollection>
+		<e:Array>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+			<e:Object x="null"/>
+		</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+		<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

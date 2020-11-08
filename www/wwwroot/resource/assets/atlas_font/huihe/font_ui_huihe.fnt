@@ -1,0 +1,115 @@
+﻿{
+	"file": "font_ui_huihe.png",
+	"frames": {
+		"/": {
+			"x": 101,
+			"y": 59,
+			"w": 32,
+			"h": 55,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 32,
+			"sourceH": 55
+		},
+		"0": {
+			"x": 105,
+			"y": 2,
+			"w": 48,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 48,
+			"sourceH": 55
+		},
+		"1": {
+			"x": 147,
+			"y": 112,
+			"w": 33,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 33,
+			"sourceH": 55
+		},
+		"2": {
+			"x": 50,
+			"y": 59,
+			"w": 49,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 49,
+			"sourceH": 55
+		},
+		"3": {
+			"x": 2,
+			"y": 114,
+			"w": 47,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 47,
+			"sourceH": 55
+		},
+		"4": {
+			"x": 54,
+			"y": 2,
+			"w": 49,
+			"h": 55,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 49,
+			"sourceH": 55
+		},
+		"5": {
+			"x": 99,
+			"y": 116,
+			"w": 46,
+			"h": 51,
+			"offX": 0,
+			"offY": 3,
+			"sourceW": 46,
+			"sourceH": 55
+		},
+		"6": {
+			"x": 51,
+			"y": 114,
+			"w": 46,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 46,
+			"sourceH": 55
+		},
+		"7": {
+			"x": 135,
+			"y": 57,
+			"w": 44,
+			"h": 53,
+			"offX": 0,
+			"offY": 1,
+			"sourceW": 44,
+			"sourceH": 55
+		},
+		"8": {
+			"x": 2,
+			"y": 2,
+			"w": 50,
+			"h": 53,
+			"offX": 0,
+			"offY": 2,
+			"sourceW": 50,
+			"sourceH": 55
+		},
+		"9": {
+			"x": 2,
+			"y": 57,
+			"w": 46,
+			"h": 55,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 46,
+			"sourceH": 55
+		}
+	}
+}

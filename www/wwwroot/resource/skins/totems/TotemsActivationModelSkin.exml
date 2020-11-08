@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsActivationModelSkin" width="652" height="322" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164897c87d1" ></w:Config>
+	<e:Group x="3.9" y="8.5" anchorOffsetX="0" width="641">
+		<e:Group id="currentGroup" x="79.5" y="43" anchorOffsetX="0" width="173" anchorOffsetY="0" height="63">
+			<e:Label text="当前效果" x="31.99" y="2.7" anchorOffsetX="0" width="117" size="24" style="l_brown_1"/>
+			<e:Label id="currentLabel" text="" y="37.5" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="upGroup" x="345.5" y="43" anchorOffsetX="0" width="173" anchorOffsetY="0" height="63">
+			<e:Label text="升级效果" x="38.65" y="2.7" anchorOffsetX="0" width="117" size="24" style="l_brown_1"/>
+			<e:Label id="openlvLabel" text="(160级激活)" x="134.65" y="3.7" anchorOffsetX="0" size="24" style="l_brown_1"/>
+			<e:Label id="upLabel" text="" y="37.5" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0x00AD00" horizontalCenter="49"/>
+		</e:Group>
+		<e:Label id="describeLabel" text="图腾突破条件" y="116.41" size="21" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xFC0000" x="252.02"/>
+		<e:Image source="ui_bm_yjfengexian" x="60.45" y="151.24"/>
+		<ns1:GainLabel id="gotoVipLabel" x="350" y="185"/>
+		<e:Label id="itemName" text="碎片" y="186.7" anchorOffsetX="0" size="25" style="l_brown_1" x="17.98"/>
+		<ns1:PriceIcon id="priceicon" x="147.81" y="183.67"/>
+		<e:Button id="addFiftyBtn" x="235.66" y="231.94" label="突破" skinName="BtnN2Skin"/>
+		<e:Image source="ui_tt_bm_wenzi" x="15.45" y="7.95"/>
+	</e:Group>
+</e:Skin>

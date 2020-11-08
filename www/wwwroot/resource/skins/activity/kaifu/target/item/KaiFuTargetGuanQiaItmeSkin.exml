@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuTargetGuanQiaItmeSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="up,down"  height="142" width.up="114">
+	<ns1:ItemIcon id="item" horizontalCenter="0" y="13" scaleX="0.9" scaleY="0.9"/>
+	<e:Label id="lbName" text="白骨精" y="115" size="22"  horizontalCenter="0" scaleX="0.9" scaleY="0.9"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" includeIn="down"  source="ui_bm_xuanzhongkuang" horizontalCenter="0" y="-1" scaleX="0.9" scaleY="0.9"/>
+	<e:Image id="redPoint" y="7" x="77" source="ui_bm_reddot" visible="false"/>
+	<e:Image id="hasGetAward_img" y="21" horizontalCenter="0" rotation="0" source="ui_fb_bm_yitongguang" scaleX="0.9" scaleY="0.9" visible="false"/>
+</e:Skin>

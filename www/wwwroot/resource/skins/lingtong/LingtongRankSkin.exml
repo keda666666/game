@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingtongRankSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163de7f7d6d"/>
+	<e:Image y="145" x="34" source="ui_bm_jsbg"/>
+	<e:Image y="720" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="279" width="650" x="35"/>
+	<ns1:PowerLabel id="powerLabel" y="140" x="164" skinName="PowerLabel2Skin"/>
+	<e:Image id="nameBg" y="218" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqimingzibg" horizontalCenter="0" width="230" scale9Grid="45,5,55,30"/>
+	<e:Label id="lbName" text="青龙" y="227" size="24" width="176" anchorOffsetY="0" textAlign="center" verticalAlign="middle" textColor="0x806346" horizontalCenter="0"/>
+	<e:Image x="502" y="332" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg"/>
+	<e:Label id="lbLev" text="初级" x="502" y="320" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="36" height="139" verticalAlign="middle" textColor="0xAA6A31"/>
+	<e:Component id="skillIcon" x="95" y="357" skinName="PetSkillIcon2Skin"/>
+	<e:Image y="357" anchorOffsetX="0" anchorOffsetY="0" x="90" source="ui_bm_zhu"/>
+	<e:Group width="720" y="529" horizontalCenter="0">
+		<ns1:CmLabel text="天赋属性加成" y="0"  skinName="CmLabel2Skin" horizontalCenter="0" width="250"/>
+		<e:Label id="skinAttr" text="" y="43" horizontalCenter="0" size="22"/>
+		<e:Image y="72" source="ui_bm_fengexian" width="598" x="15"/>
+	</e:Group>
+	<e:Group id="infoGroup" x="43" y="686">
+		<ns1:CmLabel text="天赋提升" y="47" width="297" skinName="CmLabelSkin" x="169" anchorOffsetY="0" height="21"/>
+		<e:ProgressBar id="bar" y="87" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" width="597" x="19">
+			<e:Skin>
+			<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+			<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+			<e:Label id="labelDisplay" y="3" size="18" textAlign="center" width="479" text="0" x="63"/>
+			</e:Skin>
+		</e:ProgressBar>
+		<ns1:NeedItemView id="needItemView" x="22" y="201" scaleX="1" scaleY="1"/>
+		<ns1:GainLabel id="getwayLabel"  y="258" x="268"/>
+		<e:Button id="btnCulture" x="66" y="127"   label="提升" skinName="BtnN3Skin"/>
+		<e:Button id="btnAuto" x="402" y="127" icon="" label="自动提升" skinName="BtnN2Skin"/>
+	</e:Group>
+	<e:Label id="lbFull" text="已满级" y="845" size="30" bold="true" horizontalCenter="0"  textColor="0xCC0000" visible="false"/>
+	<e:Group width="0" height="0" y="507" horizontalCenter="0">
+		<ns1:RoleShowPanel id="petShowPanel0"/>
+	</e:Group>
+	<e:Component id="leftComp" height="20" y="618" skinName="LingtongSkillDecsSkin" x="34"/>
+	<e:Component id="rightComp" width="20" height="20" x="422" y="618" skinName="LingtongSkillDecsSkin"/>
+	<e:Image id="arrImg" source="ui_bm_dz_jiantou" x="330" y="701" rotation="-90"/>
+</e:Skin>

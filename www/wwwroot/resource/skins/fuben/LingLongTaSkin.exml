@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingLongTaSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162d78662f5"/>
+	<e:Image width="648" height="852" y="150.04" source="ui_fb_bm_linglongbaotabg" horizontalCenter="0"/>
+	<e:Button id="tiaozhanBtn" label="挑战" y="920" anchorOffsetX="0" width="160" anchorOffsetY="0" height="66" horizontalCenter="0" skinName="BtnN2Skin"/>
+	<e:Button id="cailiaoShop" label="Button" x="11" y="68" skinName="Btn0Skin" icon="ui_fb_bt_baotashangdian"/>
+	<ns1:LingLongTaItemCom id="item3" width="300" height="340" x="382" y="236" skinName="LingLongTaItemSkin"/>
+	<ns1:LingLongTaItemCom id="item2" width="300" height="340" x="38" y="426" skinName="LingLongTaItemSkin"/>
+	<ns1:LingLongTaItemCom id="item1" width="300" height="340" x="382" y="616" skinName="LingLongTaItemSkin"/>
+	<ns1:FBRankCom id="item0" width="315" height="160" x="51" y="164" skinName="FbRankSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

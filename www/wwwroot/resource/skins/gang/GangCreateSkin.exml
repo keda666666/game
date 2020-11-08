@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangCreateSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonDialog id="commonDialog" height="700" title="提  示" anchorOffsetY="0" x="0" skinName="CommonDialogSkin" verticalCenter="-2.5"/>
+	<e:Group x="2" verticalCenter="28" height="614">
+		<e:Group x="50" y="4">
+			<e:Label text="帮会名称:" x="0" y="5" style="l_brown_2" size="24"/>
+			<e:Image width="240" height="36" x="109" y="0" source="ui_sbm_002" scaleX="1" scaleY="1"/>
+			<e:Label text="（帮会名称最多6个字）" x="346" y="6" style="l_brown_2" size="24"/>
+			<e:TextInput id="input" height="30" y="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" prompt="帮会名字" textColor="0x682f00" horizontalCenter="-70" width="220">
+				<e:Skin states="normal,disabled,normalWithPrompt,disabledWithPrompt" currentState="normalWithPrompt" xmlns:ns1="*">
+				<e:EditableText id="textDisplay" verticalCenter="2" left="5" right="10" textColor="0xffffff" textColor.disabled="0xff0000" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+				<e:Label id="promptDisplay" verticalCenter="2" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%" fontFamily="Microsoft YaHei" bold="true" size="26" textAlign="center" verticalAlign="middle" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt"/>
+				</e:Skin>
+			</e:TextInput>
+		</e:Group>
+		<ns1:GangCreateItemView id="item1" x="19" y="51" skinName="GangCreateItemSkin" scaleX="1" scaleY="1"/>
+		<ns1:GangCreateItemView id="item2" x="359" y="51" skinName="GangCreateItemSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="btnCreate" x="294" y="537"   label="创 建" skinName="Btn2Skin" scaleX="1" scaleY="1"/>
+		<e:Image width="660" height="140" x="28" y="380" source="ui_sbm_002" scaleX="1" scaleY="1"/>
+		<e:List id="list" y="413" anchorOffsetY="0" itemRendererSkinName="ItemSkin" anchorOffsetX="0" horizontalCenter="3" x="145" scaleX="1" scaleY="1">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+				<e:Object x="null"/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:HorizontalLayout gap="-3"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="labCount" text="数量：0/5" y="527" style="l_brown_1" right="29" size="22"/>
+		<e:Label id="labTip" text="开服前5个帮会，创建可获得额外奖励" y="386" style="l_brown_1" size="22" x="36"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBattleBtnSkin" states="up,down,disabled" width="72" height="77" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" x.down="3" y.down="3">
+		<e:Image id="iconDisplay" source="11001" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70" x="1" y="1"/>
+		<e:Image source="ui_bm_jinengbg" x="0" y="0"/>
+		<e:Image id="typeIcon" x="49" y="41" source="ui_bm_juesebiaoji"/>
+	</e:Group>
+</e:Skin>

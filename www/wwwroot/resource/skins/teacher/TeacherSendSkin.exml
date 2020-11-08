@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherSendSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CommonDialog id="commonDialog" height="484" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" title="传功" skinName="CommonDialog2Skin"/>
+	<e:Image source="ui_st_bm_chuangongBG" verticalCenter="24.5" horizontalCenter="0"/>
+	<e:ProgressBar id="bar" y="799.82" value="100" skinName="bar1Skin" width="560" horizontalCenter="0"/>
+	<ns1:RoleShowPanel id="roleShowPanelL" x="200" y="696"/>
+	<ns1:RoleShowPanel id="roleShowPanelR" x="519" y="696"/>
+</e:Skin>

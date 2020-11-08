@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMineKuangItemSkin" width="88" height="89" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="kuangImg" source="ui_hddt_bt_jinkuang"/>
+</e:Skin>

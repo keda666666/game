@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MailItemSkin" width="635" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="143" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_xinfeng" horizontalCenter="0" verticalCenter="0"/>
+
+
+	<e:Label id="nameLabel" text="杀戮排行奖励(未读)" x="30" y="31" style="l_brown_1"/>
+	<e:Label id="dateLabel" text="2015.9.30      9:30" x="32" y="78" style="l_brown_1"/>
+	<e:Group id="give" x="511" verticalCenter="0">
+		<e:Image source="ui_bm_icon001" x="0" y="0"/>
+		<e:Image id="treasure" x="17" source="ui_bm_baoxiang" y="16"/>
+	</e:Group>
+	<e:Image id="rate" x="30" y="0" source=""/>
+</e:Skin>

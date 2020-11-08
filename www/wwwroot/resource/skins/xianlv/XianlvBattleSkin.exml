@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianlvBattleSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16293d9f42f" anchorOffsetY="0" height="424" y="395"/>
+	<ns1:CommonDialog id="commonDialog" y="387" anchorOffsetY="0" height="442" title="出战设置"/>
+	<e:Group y="477" horizontalCenter="0">
+		<e:Group x="43" y="8">
+			<e:Component id="head1" skinName="PetHeadSkin" scaleX="1" scaleY="1" x="16"/>
+			<e:Button id="btn1" label="出战" y="179" skinName="BtnN1Skin"/>
+		</e:Group>
+		<e:Group x="53" y="18">
+			<e:Component id="head2" skinName="PetHeadSkin" scaleX="1" scaleY="1" x="16"/>
+			<e:Button id="btn2" label="出战" y="179" skinName="BtnN1Skin"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="102"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="1629529c48b"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="135.01" width="650" x="36.98" bottom="276"/>
+	<e:Group id="group" x="0" y="305" width="720">
+		<e:Component id="baseView" x="1" skinName="XianJunupStarBaseSkin"/>
+		<e:Label text="仙侣已满星" y="614.33" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" visible.normal="false" x="294.31"/>
+		<e:Group y="562" visible.full="false" x="58" anchorOffsetY="0" height="135">
+			<e:Button id="btnCulture" x="436.67" y="33.67"   label="升星" skinName="BtnN2Skin"/>
+			<ns1:NeedItemView id="needItemView" x="-0.66" y="5.3" scaleX="1" scaleY="1"/>
+			<e:Image x="451" y="23" source="ui_bm_xianlvjiantou" visible="false"/>
+			<e:Group width="94" height="94" x="350" y="-1">
+				<e:Component id="curSkill" x="0" y="0" skinName="PetSkillIconSkin" scaleX="1" scaleY="1"/>
+				<e:Label id="curStarNum" text="3" x="31" y="-7" size="22" style="l_white" textColor="0xFFFFFF" scaleX="1" scaleY="1" stroke="3" strokeColor="0x350909"/>
+				<e:Image x="44" y="-9" source="ui_bm_star022" width="22" height="22" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="94" height="94" x="526" y="-1" locked="true">
+				<e:Component id="nextSkill" x="0" y="0" skinName="PetSkillIconSkin" scaleX="1" scaleY="1"/>
+				<e:Label id="nextStarNum" text="3" x="31" y="-7" size="22" style="l_white" textColor="0xFFFFFF" scaleX="1" scaleY="1" stroke="3" strokeColor="0x350909"/>
+				<e:Image x="44" y="-9" source="ui_bm_star022" width="22" height="22" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

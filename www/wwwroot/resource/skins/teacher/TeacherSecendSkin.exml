@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeacherSecendSkin" width="650" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="uiBg1" source="ui_sbm_002" y="0" width="650" height="230" x="0"/>
+	<e:Image id="uiBg0" source="ui_sbm_002" width="650" height="239" horizontalCenter="0" bottom="0"/>
+	<e:List id="listView" width="650" y="-3" itemRendererSkinName="TeacherItemInfoSkin" horizontalCenter="0" visible="false">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Image source="ui_bm_fengexian" y="110" horizontalCenter="0.5"/>
+	<e:Label id="lbTip" text="仙君你" y="402" style="l_green" horizontalCenter="0"/>
+	<e:Group id="gReward" x="0" y="318.31">
+		<e:Group id="gNe" x="51" y="0">
+			<e:Label text="任务" x="0" y="0" style="l_brown_1"/>
+			<e:Label text="状态" x="231" y="0" style="l_brown_1"/>
+			<e:Label text="师傅奖励" x="450" y="0" style="l_brown_1"/>
+		</e:Group>
+		<e:Scroller id="scroller" width="650" height="190" y="33.69" x="0">
+			<e:List id="listReward" itemRendererSkinName="TeacherShowReItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:TabBar id="tabBar" x="3.85" y="233.36" itemRendererSkinName="BtnTab1Skin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<ns1:TeacherInfoItem id="infoItem0" skinName="TeacherItemInfoSkin" left="0" top="0"/>
+	<ns1:TeacherInfoItem id="infoItem1" skinName="TeacherItemInfoSkin" top="114" y="10" left="0"/>
+</e:Skin>

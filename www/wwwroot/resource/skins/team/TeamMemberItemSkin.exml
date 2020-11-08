@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamMemberItemSkin" width="207" height="236" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1634a5a6a73" />
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" width="207" height="236" source="ui_sj_bm_diban"/>
+	<e:Group id="memberGroup" x="1" y="1" anchorOffsetX="0" width="205" anchorOffsetY="0" height="240">
+		<e:Label id="power_txt" text="战力 999999" y="184" size="20"  textAlign="center" width="153" horizontalCenter="0" style="l_brown_1"/>
+		<e:Label id="name_txt" text="美国队长" y="148" size="20" width="156" textAlign="center"  horizontalCenter="0.5" style="l_brown_1"/>
+		<e:Label id="level_txt" text="80级" y="120" size="18" width="127" textAlign="center" horizontalCenter="0" style="l_brown_1"/>
+		<e:Image id="leader_icon" x="2" y="1" source="ui_bh_bm_duizhang"/>
+		<e:Button skinName="Btn0Skin" id="tiRen_btn" x="146" y="-6"  icon="ui_bh_bt_ti"/>
+		<e:Component id="head" y="15" skinName="HeadSkin" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

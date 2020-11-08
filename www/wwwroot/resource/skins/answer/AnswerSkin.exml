@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnswerSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1628ab41336"/>
+    <ns1:CommonWindowBg id="commonWindowBg" touchEnabled="false" title="科举比赛" skinName="CommonWindowBg3Skin" horizontalCenter="0"/>
+	<e:Group x="25" y="97.74">
+		<e:Image source="ui_dt_bm_bg" y="0" x="0"/>
+		<e:Image source="ui_bh_bm_fengexian" x="30" y="217"/>
+		<e:Group id="gRank" x="15" y="103">
+			<e:Label text="状元" x="0" y="0" size="22" textColor="0xff0000"/>
+			<e:Label text="榜眼" x="0" y="38" size="22" textColor="0xcc6a00"/>
+			<e:Label text="探花" x="0" y="78" size="22" textColor="0xff00f6"/>
+			<e:Label id="lbNe1" text="" y="0" size="22" textColor="0xFF0000" x="68"/>
+			<e:Label id="lbSc1" text="" y="0" size="22" textColor="0xFF0000" horizontalCenter="117.5"/>
+			<e:Label id="lbNe2" text="" y="38" size="22" textColor="0xCC6A00" x="68"/>
+			<e:Label id="lbNe3" text="" y="78" size="22" textColor="0xff00f6" x="68"/>
+			<e:Label id="lbSc2" text="" y="38" size="22" textColor="0xCC6A00" horizontalCenter="118"/>
+			<e:Label id="lbSc3" text="" y="78" size="22" textColor="0xff00f6" horizontalCenter="118"/>
+		</e:Group>
+		<e:Label id="lbMyRank" text="我的排名: 第8名" x="15" y="235" size="22" textColor="0x682f00"/>
+		<e:Label id="lbMyScore" text="4500" x="243" y="235" size="22" textColor="0x682F00"/>
+		<e:Label id="lbRank" text="查看排名" x="231" y="58" size="22" textColor="0x396427" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group x="35" y="475.36">
+		<e:Label id="lbTitleNums" text="共20题" x="0" y="8" size="22" textColor="0x682F00"/>
+		<ns1:CmLabel id="lbTitle" text="第16题" y="20"  x="177"/>
+		<e:Label id="lbQus" text="有关？铜雀春深锁有关？铜雀春深锁二乔”此句诗所述与人物有关？" style="l_brown_2" x="11" width="600" verticalAlign="middle" y="69.74"/>
+	</e:Group>
+	<e:Label id="lbTime" text="无" y="920.34" style="l_brown_2" horizontalCenter="0"/>
+	<e:Group x="45" y="616.7">
+		<e:Image id="imgSe1" source="ui_dt_bm_daanBG" scale9Grid="10,0,42,62" y="0" width="630" x="0"/>
+		<e:Image id="imgSe2" source="ui_dt_bm_daanBG" scale9Grid="10,0,42,62" y="68" width="630" x="0"/>
+		<e:Image id="imgSe3" source="ui_dt_bm_daanBG" scale9Grid="10,0,42,62" y="136" width="630" x="0"/>
+		<e:Image id="imgSe4" source="ui_dt_bm_daanBG" scale9Grid="10,0,42,62" y="204" width="630" x="0"/>
+		<e:Label id="lbAs1" text="雀春深锁二乔" y="18" style="l_brown_2" x="15"/>
+		<e:Label id="lbAs2" text="A: 位人物有关？" y="85" style="l_brown_2" x="15"/>
+		<e:Label id="lbAs3" text="雀春深锁二" y="154" style="l_brown_2" x="15"/>
+		<e:Label id="lbAs4" text="雀春深锁二乔" y="222" style="l_brown_2" x="15"/>
+		<e:Image id="imgAn1" source="ui_dt_bm_gou" x="552" y="10"/>
+		<e:Image id="imgAn2" source="ui_dt_bm_gou" x="552" y="79"/>
+		<e:Image id="imgAn3" source="ui_dt_bm_gou" x="552" y="145"/>
+		<e:Image id="imgAn4" source="ui_dt_bm_gou" x="552" y="213"/>
+		<e:Image id="imgSelect" y="0" width="630" height="62" x="0" source="ui_dt_bm_xuanzekuang"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FateItemViewSkin" width="186" height="268" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163f357d208"/>
+	<e:Group x="2" y="2">
+		<e:Image source="ui_bm_taizi" scaleX="1" scaleY="1" y="128" x="2"/>
+		<e:Label id="objectiveLabel1" text="召喚師峽谷" y="225" size="22" horizontalCenter="12" fontFamily="Microsoft YaHei" textColor="0x6e330b" visible="false"/>
+		<e:Label id="deficiencyLabel1" text="還差10级开启" y="202" size="22" horizontalCenter="9" fontFamily="Microsoft YaHei" textColor="0x6e330b" visible="false"/>
+		<e:Group x="0" y="197" anchorOffsetX="0" width="182.6">
+			<e:BitmapLabel id="objectiveLabel" y="28.4" text="" height="27.6" font="font_ui_fuben_fnt" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-2.299999999999997"/>
+			<e:BitmapLabel id="deficiencyLabel" y="0" text="" height="27.6" font="font_ui_fuben_fnt" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-2.299999999999997"/>
+		</e:Group>
+		<e:Image id="logoImg" scaleX="1" scaleY="1" x="0" y="0" source="" visible="false"/>
+		<ns1:PetShowPanel id="extraPanel" width="0" height="0" y="143.66" x="102.31" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:RideShowPanel id="rideShowPanel" width="20" height="20" x="88" y="135" visible="false"/>
+		<ns1:RoleShowPanel id="roleShowPanel" y="152" width="4" x="94" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:PetShowPanel id="petShowPanel" width="0" height="0" y="156" x="105" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:PetShowPanel id="petShowPanel2" width="0" height="0" y="156" x="105" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="soulImg" x="104" y="16" source="" scaleX="1.5" scaleY="1.5" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="immortalPositionImg" width="69.33" height="26" x="45.45" y="19" source="" scaleX="1.5" scaleY="1.5" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<ns1:FateModelItemPanel id="fateModelItem" width="181" height="153" x="1" y="12" anchorOffsetX="0" anchorOffsetY="0" skinName="FateModelItemSkin"/>
+	</e:Group>
+</e:Skin>

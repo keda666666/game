@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSuitEquipItemSkin" width="152" height="239" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" x="0" y="0" source="ui_tz_bm_wupingbg"/>
+	<ns1:ItemBaseNotName id="itemIcon" touchEnabled="true" touchChildren="false" y="50" horizontalCenter="1" skinName="ItemSkin"/>
+	<e:Label id="title" text="激活2件" y="24" size="22" horizontalCenter="0.5" textAlign="center" style="l_green"/>
+	<e:Label id="power" text="战力 2236" y="166" size="22" horizontalCenter="0" lineSpacing="4" style="l_orange"/>
+	<e:Label id="flag" text="未激活" y="193" size="22" horizontalCenter="0" lineSpacing="4" style="l_gray"/>
+	<e:Image id="flagImg" y="219" source="ui_yuan_quse" horizontalCenter="1.5"/>
+</e:Skin>

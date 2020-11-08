@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureRectIconSkin" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="324">
+	<e:Image source="ui_fb_bm_wenbenbg" right="20" y="0"/>
+	<e:Label id="lbName" text="名字" y="15" style="l_red" verticalAlign="justify" horizontalCenter="28"/>
+	<e:Label id="lbQuality" text="传说" y="55" style="l_red" verticalAlign="justify" textAlign="left" left="197"/>
+	<e:Label text="级别:" x="129" y="55" style="l_brown_1"/>
+	<ns1:BaseCricleIcon id="baseCricle" x="22" y="1" skinName="TreasureBaseIconSkin"/>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TianShenLevelUpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,full"  width="720" height="1280">
+	<w:Config id="162950eee5e"/>
+	<e:Group id="group" x="0" y="0">
+		<e:Component id="baseView" x="35" y="241" scaleX="1" scaleY="1" skinName="TianShenBaseSkin"/>
+		<e:Label text="天神已满级" y="886" size="30" bold="true" fontFamily="Microsoft YaHei" textColor="0xCC0000" visible.normal="false" horizontalCenter="15.5"/>
+		<e:Group x="60" y="824" visible.full="false">
+			<e:Button id="btnCulture" x="53" y="92" icon="ui_btn_powup" skinName="BtnN3Skin" label="升级"/>
+			<e:Button id="btnAuto" x="385" y="92"   label="自动升级" skinName="BtnN2Skin"/>
+			<e:ProgressBar id="bar" y="0" anchorOffsetX="0" anchorOffsetY="0" maximum="10" value="5" x="0">
+				<e:Skin>
+				<e:Image x="0" y="0" width="598" height="22" anchorOffsetY="0" source="ui_bm_jingyantiaobg"/>
+				<e:Image id="thumb" x="2" y="2" width="594" height="18" anchorOffsetX="0" anchorOffsetY="0" source="ui_bm_zuoqijingyantiao"/>
+				<e:Label id="labelDisplay" x="253.2" y="3" size="18" textAlign="center" width="98" text="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<ns1:ConsumeTwoLabel id="consumeLabel" x="23" y="38"/>
+			<e:CheckBox id="checkBox" x="418" y="35" label="自动购买" skinName="CheckBox0"/>
+		</e:Group>
+		<e:Group y="788" scaleX="1" scaleY="1" horizontalCenter="24">
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="0"/>
+			<e:Image y="3" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="295" scaleX="-1"/>
+			<e:Label text="进阶进度" y="0" size="24" textAlign="center" x="100" style="l_brown_2"/>
+		</e:Group>
+		<e:Button id="btnYuanfen" x="69" y="437" icon="ui_sj_bt_yuanfen" skinName="Btn0Skin" scaleX="1" scaleY="1"/>
+		<e:Button id="btnAttrDrug" x="69" y="535" icon="ui_sj_bt_yuanfen" skinName="Btn0Skin" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangJuanXianListItemSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="643" states="up,down"  height="126">
+	<e:Group x="3" y="1">
+		<e:Image source="ui_sbm_005"  x="0" y="0" width="637" height="124" anchorOffsetY="0" anchorOffsetX="0"/>
+		<ns1:ItemBase id="imgIcon" x="16" y="6"/>
+		<e:Label id="itemName" text="4级石头" x="141" y="31" style="l_brown_1" size="22"/>
+		<e:Label id="desc_txt" text="可增加xxx" x="141" y="64" style="l_brown_1" size="22"/>
+		<e:Button id="btnApply" x="461" y="32.6" icon="ui_bt_qiuzhubtn" label="捐 献" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0" skinName="BtnN2Skin"/>
+		<e:Label id="had_txt" text="拥有" y="87" style="l_green" size="20" horizontalCenter="202.5"/>
+	</e:Group>
+</e:Skin>

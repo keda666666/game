@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetRenameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2"/>
+	<ns1:CommonDialog id="commonDialog" skinName="CommonDialog2Skin" y="359"/>
+	<e:Button id="btnRename" x="149.7" y="580.33"   label="确 定" skinName="Btn2Skin" scaleX="1" scaleY="1" anchorOffsetX="0" width="140" anchorOffsetY="0" height="70"/>
+	<e:Button id="btnCancel" x="434.32" y="582.98"   label="取 消" skinName="Btn2Skin" scaleX="1" scaleY="1"/>
+	<e:Image y="441.66" source="ui_sbm_002" anchorOffsetX="0" width="555.33" anchorOffsetY="0" height="136.67" alpha="1" horizontalCenter="-0.5"/>
+	<e:Group y="485" horizontalCenter="0">
+		<e:TextInput id="input" width="243" height="35" skinName="TextInputSkin2" anchorOffsetX="0" y="0" x="88" prompt="宠物名字" maxChars="12"/>
+		<e:Label text="名称：" x="0" y="7" style="l_brown_2" size="24"/>
+		<e:Label text="（改名最多可输入6个汉字）" x="84" y="49" style="l_brown_2" size="20"/>
+	</e:Group>
+</e:Skin>

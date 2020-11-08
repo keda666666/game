@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GainLabel2Skin" height="24" xmlns:e="http://ns.egret.com/eui">
+    <e:Group id="getGroup" height="0" touchEnabled="false" touchChildren="true" x="0">
+		<e:Label text="获取途径" size="24" textAlign="left" scaleX="1" scaleY="1" style="l_green" includeInLayout="false" visible="false"/>
+		<e:Label text="获取途径" size="24" textAlign="left" style="l_green" scaleX="1" scaleY="1" x="10" y="10" includeInLayout="false" visible="false"/>
+		<e:Label text="获取途径" size="24" textAlign="left" style="l_green" scaleX="1" scaleY="1" x="20" y="20" includeInLayout="false" visible="false"/>
+		<e:Label text="获取途径" size="24" textAlign="left" style="l_green" scaleX="1" scaleY="1" x="30" y="30" includeInLayout="false" visible="false"/>
+		<e:layout>
+			<e:HorizontalLayout gap="22"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

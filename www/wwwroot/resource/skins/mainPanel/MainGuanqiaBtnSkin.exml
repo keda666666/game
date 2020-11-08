@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainGuanqiaBtnSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="170" height="210" states="s1,s2,s3,s0" >
+	<e:Image id="imgOpen" source="ui_bm_icombg1" x="13" y="46"/>
+	<e:Image id="goBossBtn" x="7" y="19" source="ui_bm_icombg3" visible="false"/>
+	<e:Group x="114" y="17.5" visible.s1="false" x.s2="99" visible.s0="false">
+		<e:Image source="ui_bm_star031" x="0" y="0"/>
+		<e:Image id="imgf2" source="ui_bm_star032" x="0" y="0"/>
+	</e:Group>
+	<e:Group x="74.5" y="7.5" visible.s2="false" visible.s0="false">
+		<e:Image source="ui_bm_star021" x="0" y="0"/>
+		<e:Image id="imgf1" source="ui_bm_star022" x="0" y="0"/>
+	</e:Group>
+	<e:Group x="34.5" y="18.5" visible.s1="false" x.s2="50" visible.s0="false">
+		<e:Image source="ui_bm_star011" x="0" y="0"/>
+		<e:Image id="imgf0" source="ui_bm_star012" x="0" y="0"/>
+	</e:Group>
+	<e:CheckBox id="cbAuto" x="19" y="148" >
+        <e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ui_bt_zidongzhandou_up" source.down="ui_bt_zidongzhandou_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+    </e:CheckBox>
+</e:Skin>

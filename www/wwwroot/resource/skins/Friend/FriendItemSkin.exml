@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="friend,fans,blacklist,referrer,delete" >
+	<w:Config id="163a60bf7b4"/>
+	<e:Image width="645.33" height="122.67" x="0" y="0" source="ui_bm_fuwuqibg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="giveTxt" text="已赠送" x="426.65" y="66.68" style="l_green" size="21" visible.delete="false" text.fans="已接收"/>
+	<e:Button id="deleteBtn" label="Button" x="568" y="61.31" skinName="Btn0Skin" icon="ui_hy_bt_shanchu" visible.fans="false" visible.blacklist="false" visible.referrer="false" visible.delete="false"/>
+	<e:Label id="nameTxt" text="奥巴驴" x="207.01" y="16.99" style="l_brown_1" size="22" textAlign="left"/>
+	<e:Label text="战力:" x="127" y="79" style="l_brown_1" size="22"/>
+	<e:Label text="等级:" x="127" y="49" style="l_brown_1" size="22"/>
+	<e:Label id="lvTxt" text="25" x="187" y="49" style="l_brown_1" size="20" textAlign="left"/>
+	<e:Label id="powerText" text="54" x="187" y="79" style="l_brown_1" size="20" textAlign="left"/>
+	<e:Label text="帮会:" x="124.34" y="80.99" style="l_brown_1" size="22" visible="false"/>
+	<e:Label id="gangNameTxt" text="帮会" x="187.66" y="80.99" style="l_brown_1" size="22" textAlign="left" visible="false"/>
+	<e:Label id="onLineTxt" text="在线" y="14.32" style="l_green" size="21" right="39"/>
+	<e:Button id="btn" label="赠送友币" x="391.01" y="49.65" anchorOffsetY="0" anchorOffsetX="0" label.fans="接受友币" label.blacklist="取消" label.referrer="关注" x.delete="517.01" label.delete="取消关注" skinName="BtnN2Skin" width="123" height="58"/>
+	<e:Label id="vipTxt" text="【VIP】" x="116.65" y="17.97" anchorOffsetX="0" anchorOffsetY="0" style="l_orange_2" size="22"/>
+	<e:Button id="btn0" label="赠送友币" x="517.01" y="49.65" anchorOffsetY="0" anchorOffsetX="0" skinName="BtnN2Skin" width="123" height="58" label.fans="关注"/>
+	<ns1:VipIcon id="vipIcon" skinName="VipIconSkin" verticalCenter="-31.5" x="113"/>
+	<e:Component id="playerAvatar" x="17" y="8" anchorOffsetX="0" anchorOffsetY="0" skinName="HeadSkin"/>
+</e:Skin>

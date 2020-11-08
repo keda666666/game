@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OfflineRewardSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163be57f6ce" x="-4" y="-36"/>
+	<ns1:CommonDialog id="commonDialog" height="559.59" title="提  示" anchorOffsetY="0" x="0" y="357.82" skinName="CommonDialog2Skin" anchorOffsetX="0" width="718"/>
+	<e:Image source="ui_lxsy_bm_biaotou" x="84" y="212"/>
+	<e:Group x="86.3" y="441.76">
+		<e:Image width="555.09" height="348" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" y="0" x="0"/>
+		<e:Label id="time" text="离线时间:" x="172.36" y="10.24" anchorOffsetX="0" width="367.67" textColor="0x6E330B" size="21" fontFamily="Microsoft YaHei"/>
+		<e:Label id="timeLabel" text="XXXXXX" x="277.7" y="11.58" anchorOffsetX="0" width="131" textColor="0x6E330B" size="21" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label text="(最多获得6小时离线收益)" x="161.01" y="40.9" anchorOffsetX="0" width="254.01" textColor="0x6E330B" size="21" fontFamily="Microsoft YaHei"/>
+		<e:Label text="获得以下资源" x="100.7" y="96.24" fontFamily="Microsoft YaHei" size="26" textColor="0x770000"/>
+		<e:Label text="月卡额外加成效果" x="314.7" y="96.24" fontFamily="Microsoft YaHei" size="26" textColor="0x770000"/>
+		<e:Image id="logo0" source="ui_common_res_004" x="25.31" y="135.28"/>
+		<e:Image width="214.66" height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="135.24" x="70.7"/>
+		<e:Image width="214.66" height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="135.24" x="314.7"/>
+		<e:Label id="label1" text="" x="72.7" y="136.24" anchorOffsetX="0" width="214" fontFamily="Microsoft YaHei" textAlign="center" size="22" anchorOffsetY="0" height="29" verticalAlign="middle"/>
+		<e:Label id="label3" text="" x="315.7" y="136.24" anchorOffsetX="0" width="214" fontFamily="Microsoft YaHei" textAlign="center" size="22" anchorOffsetY="0" height="29" verticalAlign="middle"/>
+		<e:Image id="logo1" source="ui_zjm_exp" x="19.7" y="178.24"/>
+		<e:Image width="214.66" height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="178.24" x="70.7"/>
+		<e:Image width="214.66" height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="178.24" x="314.7"/>
+		<e:Label id="label2" text="" x="72.7" y="180.24" anchorOffsetX="0" width="214" fontFamily="Microsoft YaHei" textAlign="center" size="22" anchorOffsetY="0" height="29" verticalAlign="middle"/>
+		<e:Label id="label4" text="" x="315.7" y="180.24" anchorOffsetX="0" width="214" fontFamily="Microsoft YaHei" textAlign="center" size="22" anchorOffsetY="0" height="29" verticalAlign="middle"/>
+		<e:Image id="logo3" source="ui_lxsy_bm_zhuangbei" x="26.7" y="217.24"/>
+		<e:Image width="214.66" height="32" source="ui_bm_jingyantiaobg" anchorOffsetX="0" anchorOffsetY="0"  y="220.24" x="70.7"/>
+		<e:Label id="label5" text="" x="72.7" y="221.24" anchorOffsetX="0" width="214" fontFamily="Microsoft YaHei" textAlign="center" size="22" anchorOffsetY="0" height="29" verticalAlign="middle"/>
+		<e:Label text="月卡增加6小时离线收益" x="307.7" y="224.24" anchorOffsetX="0" width="251" textColor="0x6E330B" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Button id="open" label="前往激活" y="266.24" skinName="BtnN2Skin" x="354.22" anchorOffsetX="0" width="130" anchorOffsetY="0" height="61"/>
+	</e:Group>
+	<e:Group x="216" y="800">
+		<e:Label id="bagFull" text="背包已满，自动出售" x="0" y="0" anchorOffsetX="0" width="404" textColor="0x6e330b" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Button id="okBtn" label="确定" y="30" skinName="BtnN2Skin" x="68.52"/>
+	</e:Group>
+</e:Skin>

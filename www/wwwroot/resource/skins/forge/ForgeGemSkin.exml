@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeGemSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16271f67ffa"/>
+
+
+	<e:Group id="attGroup" y="451" height="128" width="263" x="250">
+		<e:layout>
+			<e:VerticalLayout gap="14"/>
+		</e:layout>
+		<e:Component width="20" height="20" x="69" y="33" skinName="ForgeGemItemSkin"/>
+		<e:Component width="20" height="20" x="79" y="43" skinName="ForgeGemItemSkin"/>
+		<e:Component width="20" height="20" x="89" y="53" skinName="ForgeGemItemSkin"/>
+		<e:Component width="20" height="20" x="99" y="63" skinName="ForgeGemItemSkin"/>
+	</e:Group>
+
+</e:Skin>

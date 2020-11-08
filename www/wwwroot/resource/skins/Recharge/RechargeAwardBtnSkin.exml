@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeAwardBtnSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="95" width="212">
+	<w:Config id="163c9b90924" visible="false"/>
+	<e:Group y="10" horizontalCenter="0">
+		<e:Button id="rechargeBtn" label="充值" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn0Skin" icon="ui_thcz_bt_btn" horizontalCenter="0"/>
+		<e:Label id="tipsTxt" text="充值10元" y="11" size="29" touchEnabled="false" horizontalCenter="0" style="l_yellow_3" textColor="0xfdf1d2"/>
+		<e:Image id="tipsImg" y="0" touchEnabled="false" source="ui_bm_tuijian01" left="5"/>
+	</e:Group>
+	<e:Group y="70" horizontalCenter="0">
+		<e:BitmapLabel x="0" y="3" text="获得" font="font_ui_tehuichongzhiwenben01_fnt"/>
+		<e:BitmapLabel id="getTxt" x="33" y="9" text="5000" font="font_ui_tehuichongzhiwenben02_fnt"/>
+		<e:BitmapLabel x="89" y="0" text="元宝" font="font_ui_tehuichongzhiwenben01_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideHandSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="play">
+			<tween:TweenItem target="{handImg}">
+				<tween:Set/>
+				<tween:To duration="650" ease="quadInOut">
+					<tween:props>
+						<e:Object x="{30}" y="{35}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="550" ease="quadInOut">
+					<tween:props>
+						<e:Object x="{0}" y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="group" width="0" height="0" x="175" y="109">
+		<e:Image id="handImg" source="ui_zjm_bm_shouzho" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

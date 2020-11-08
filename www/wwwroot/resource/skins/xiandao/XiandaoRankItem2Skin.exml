@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoRankItem2Skin" width="630" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" height="52" width="630" source="ui_sbm_005"/>
+	<e:Label id="turn" text="第一局" style="l_brown_1" x="12" verticalCenter="0" size="22"/>
+	<e:Image id="retImg" source="ui_xdh_bm_icon_bai" x="82" verticalCenter="0"/>
+	<e:Group x="245" height="30" verticalCenter="0" width="257">
+    <e:Group  horizontalCenter="0">
+		<e:Group x="0" y="0" height="30" width="200">
+			<e:Image id="retImg1" x="0" y="0" source="ui_xdh_bm_icon_sheng" visible="false"/>
+			<e:Label id="nameLabel1" text="name" style="l_brown_1" textAlign="center" x="24" y="2"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" horizontalAlign="right"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="scoreLabel" text="VS" x="297" textAlign="right" style="l_green" y="2"/>
+		<e:Group x="0" y="0" width="200">
+			<e:Label id="nameLabel2" text="name" style="l_brown_1" textAlign="center" x="24" y="2"/>
+			<e:Image id="retImg2" x="0" y="0" source="ui_xdh_bm_icon_sheng" visible="false"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom" gap="25"/>
+		</e:layout>
+	</e:Group>
+	</e:Group>
+</e:Skin>

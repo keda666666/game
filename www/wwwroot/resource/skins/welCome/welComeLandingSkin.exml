@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="welComeLandingSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163d4bffb36"/>
+	<e:Component id="com" skinName="BG2"/>
+	<e:Group x="1.67" y="297.4">
+		<e:Image source="ui_xsyd_bg" x="0" y="0"/>
+		<e:Image x="295.93" y="102.27" source=""/>
+		<e:Group id="gotoImg" x="333" y="389" width="247" height="77" />
+		<ns1:ItemBaseNotName id="item0" x="397.6" y="233.81" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:ItemBaseNotName id="item1" x="525.78" y="234.72" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Group id="effGroup" width="331" height="146" x="308" y="510" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

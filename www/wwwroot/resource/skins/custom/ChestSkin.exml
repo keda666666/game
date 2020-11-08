@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChestSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="120" height="98">
+	<w:Config id="1633e92cf14"/>
+	<e:Image y="2" source="ui_bm_baoxiang" horizontalCenter="0"/>
+	<e:Label id="boxName" text="" y="47" style="l_white_1" horizontalCenter="0"/>
+	<e:Label id="title" text="" y="70" horizontalCenter="0" style="label01"/>
+</e:Skin>

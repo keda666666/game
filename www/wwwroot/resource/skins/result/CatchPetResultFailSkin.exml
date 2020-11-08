@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CatchPetResultFailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16267fb128c"/>
+	<e:Component skinName="BG2"/>
+
+<e:Image y="534" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="ui_zd_bm_taizi"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="ui_zd_bm_ku" y="364" x="260"/>
+	<e:Image touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="740" source="ui_zd_bm_wenbenbg" x="166"/>
+
+
+	<e:Button id="closeBtn" y="835" icon="" anchorOffsetX="0" anchorOffsetY="0" label="退出(5)"  skinName="BtnN2Skin" horizontalCenter="0" width="180"/>
+	<e:Label text="宠物宝宝逃走啦" y="756.04" x="255"/>
+	
+</e:Skin>

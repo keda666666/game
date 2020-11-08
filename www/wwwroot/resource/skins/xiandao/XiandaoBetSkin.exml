@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XiandaoBetSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CommonWindowBg skinName="CommonWindowBg2Skin" title="押   注"/>
+	<e:Image source="ui_xdh_bm_duizhan" x="299" y="228"/>
+	<e:Image y="603" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="396" width="649" horizontalCenter="0"/>
+	<ns1:CmLabel y="624" horizontalCenter="0" text="晋级竞猜"/>
+	<e:CheckBox id="check1" label="xxx" y="663" skinName="CheckBox0" horizontalCenter="-188.5"/>
+	<e:CheckBox id="check2" label="xxx" y="663" skinName="CheckBox0" horizontalCenter="183.5"/>
+	<e:Group id="group" y="757" horizontalCenter="0">
+		<e:Group x="0" y="0" width="233">
+			<ns1:ItemBaseNotName y="0" horizontalCenter="0" name="item"/>
+			<e:Button label="低级押注" y="149" skinName="BtnN2Skin" horizontalCenter="0" name="btn"/>
+			<ns1:PriceIcon y="112" horizontalCenter="0" name="price"/>
+			<e:Image source="ui_xdh_bm_yiyazhu" y="159" horizontalCenter="0" name="ya" visible="false"/>
+		</e:Group>
+		<e:Group x="10" y="10" width="233">
+			<ns1:ItemBaseNotName y="0" horizontalCenter="0" name="item"/>
+			<e:Button label="中级押注" y="149" skinName="BtnN2Skin" horizontalCenter="0" name="btn"/>
+			<ns1:PriceIcon y="112" horizontalCenter="0" name="price"/>
+			<e:Image source="ui_xdh_bm_yiyazhu" y="159" horizontalCenter="0" name="ya" visible="false"/>
+		</e:Group>
+		<e:Group x="20" y="20" width="233">
+			<ns1:ItemBaseNotName y="0" horizontalCenter="0" name="item"/>
+			<e:Button label="高级押注" y="149" skinName="BtnN2Skin" horizontalCenter="0" name="btn"/>
+			<ns1:PriceIcon y="112" horizontalCenter="0" name="price"/>
+			<e:Image source="ui_xdh_bm_yiyazhu" y="159" horizontalCenter="0" name="ya" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="-11"/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="ui_boss_bm_taizi" y="198" scaleX="1.1" scaleY="1.1" x="89"/>
+	<e:Image source="ui_boss_bm_taizi" y="198" scaleX="1.1" scaleY="1.1" x="459"/>
+	<e:Group id="att1" x="82" y="407">
+		<e:Group x="0" y="0">
+			<e:Image y="0" width="186" height="32" x="0" source="ui_boss_bm_wenbenbg"/>
+			<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="0" y="36">
+			<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+			<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="10" y="46">
+			<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+			<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="att2" x="458" y="407">
+		<e:Group x="0" y="0">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="0" y="36">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:Group x="10" y="46">
+		<e:Image source="ui_boss_bm_wenbenbg" y="0" width="186" height="32" x="0"/>
+		<e:Label text="name" x="10" style="l_brown_1" size="22" y="5"/>
+		</e:Group>
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+	<ns1:RoleShowPanel id="role1" width="0" height="0" x="172" y="356"/>
+	<ns1:RoleShowPanel id="role2" width="0" height="0" x="541" y="356" scaleX="-1"/>
+	<w:Config id="1636e81203e"/>
+</e:Skin>

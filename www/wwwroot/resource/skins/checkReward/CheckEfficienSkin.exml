@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CheckEfficienSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="720" height="1280">
+	<e:Image id="bgImg" anchorOffsetX="155" horizontalCenter="0" source="ui_zjm_zjmst_zdsyts" y="532"/>
+
+
+	<e:Group id="groupGold" width="0" height="0" x="109" y="269">
+
+
+
+		<e:Group x="276" y="342">
+			<e:Label id="nextMoney" y="0" text="5734285" x="0" textAlign="right" style="l_green" anchorOffsetX="0" stroke="1.5" size="24"/>
+			<e:Label y="0" text="/小时" x="112" style="l_green" stroke="1.5" size="24"/>
+			<e:layout>
+				<e:HorizontalLayout gap="1"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="79" y="343" source="ui_common_res_004"/>
+		<e:Label id="curMoney" y="342" text="5734285" x="118" textAlign="left" style="l_white" anchorOffsetX="0" stroke="1.5" size="24"/>
+
+	</e:Group>
+	<e:Group id="groupExp" width="0" height="0" x="109" y="274">
+
+
+
+		<e:Group x="276" y="371">
+			<e:Label id="nextExp" y="0" text="2373360" x="0" textAlign="right" style="l_green" anchorOffsetX="0" stroke="1.5" size="24"/>
+			<e:Label y="0" text="/小时" x="111" style="l_green" stroke="1.5" size="24"/>
+			<e:layout>
+				<e:HorizontalLayout gap="1"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="80" y="374" source="ui_zjm_exp"/>
+		<e:Label id="curExp" y="372" text="2373360" x="117" textAlign="left" style="l_white" anchorOffsetX="0" stroke="1.5" size="24"/>
+
+	</e:Group>
+
+	<e:Image y="624" source="ui_btn_p_jt" horizontalCenter="0"/>
+
+
+</e:Skin>

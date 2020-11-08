@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TsumKoPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16387315b47"/>
+	<e:Image y="148" anchorOffsetX="0" anchorOffsetY="0" source="ui_sbm_002" height="848" width="650" x="35"/>
+	<e:Scroller width="650" height="855" x="33.3" y="148.69">
+		<e:List id="list" itemRendererSkinName="TsumKoListItemSkin">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object x="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="shopBtn" label="" x="5.01" y="61.69" icon="ui_bsyn_bt_shandian"/>
+</e:Skin>

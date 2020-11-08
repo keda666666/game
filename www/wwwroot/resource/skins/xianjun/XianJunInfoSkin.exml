@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianJunInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="1280">
+	<w:Config id="16385ae75f1" x="1.33" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" anchorOffsetY="0" y="303.63" height="606" skinName="CommonDialog2Skin" horizontalCenter="0"/>
+	<e:Group id="group" y="375.36" horizontalCenter="0.5" touchEnabled="false">
+		<e:Group x="179.6" y="317.12">
+		</e:Group>
+		<e:Group x="7.82" y="339.53" anchorOffsetX="0" width="607" anchorOffsetY="0" height="116">
+		<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="154"/>
+		<e:Image y="6" anchorOffsetX="0" anchorOffsetY="0" source="ui_guankia_wenli" x="451.36" scaleX="-1"/>
+		<e:Label text="属性加成" y="0" style="l_brown_2" size="25" horizontalCenter="0"/>
+		<e:Label id="attr0Txt" text="生命" y="39.72" style="l_brown_2" x="26.47" size="20"/>
+		</e:Group>
+		<e:Image y="64" anchorOffsetX="0" anchorOffsetY="0" x="46.65" source="ui_cw_bm_wenli"/>
+		<e:Component id="skillIcon" x="402.72" y="114.34" skinName="PetSkillIcon2Skin"/>
+		<e:Image y="171.67" anchorOffsetX="0" anchorOffsetY="0" x="396.72" source="ui_bm_zhu"/>
+		<e:Image id="img" y="58.66" anchorOffsetX="0" anchorOffsetY="0" x="27.32" source="ui_bm_huo"/>
+		<e:Label id="label0" text="100" x="79" y="72" style="l_brown_2" visible="false"/>
+		<e:Label id="skillDesc" text="100" x="314" y="248" style="l_brown_2" size="22" width="315" textAlign="center"/>
+		<ns1:PowerLabel id="powerLabel" xmlns:ns1="*" y="0" x="129" skinName="PowerLabel2Skin"/>
+		<ns1:PetShowPanel id="petShowPanel" xmlns:ns1="*" width="0" height="0" x="153" y="261"/>
+		<e:Image y="323" horizontalCenter="0"/>
+		<e:Label id="name_label" text="Label" y="279" horizontalCenter="-162.5" style="l_red"/>
+		<e:Label id="starNum" text="3" x="429" y="108" size="22" style="l_white" textColor="0xFFFFFF" stroke="3" strokeColor="0x350909"/>
+		<e:Image x="443" y="106" source="ui_bm_star022" width="22" height="22"/>
+	</e:Group>
+</e:Skin>

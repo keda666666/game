@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GangMemberListSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Component/>
+	<ns1:CommonWindowBg id="commonWindowBg" x="0" y="0" skinName="CommonWindowBg2Skin"/>
+	<e:Image width="660" height="840" x="30" y="150" source="ui_sbm_002"/>
+	<e:Group x="190" y="155">
+		<e:Label text="名称" x="0" y="1" style="l_brown_1"/>
+		<e:Label id="labContributeTIp" text="" x="122" y="1" style="l_brown_1"/>
+		<e:Label id="labPowerTip" text="" x="278" y="1" style="l_brown_1"/>
+		<e:Image source="ui_bh_icon_jianotu" x="331" y="0"/>
+		<e:Label text="操作" x="412" y="1" style="l_brown_1"/>
+	</e:Group>
+	<e:Scroller width="660" height="790" x="30" y="190">
+		<e:List id="listMember" itemRendererSkinName="GangMemberListItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="63" y="1045">
+		<e:Label id="labOffice" text="我的职位：成员" x="0" y="0" style="l_brown_2"/>
+		<e:Label id="labContribute" text="历史贡献：2115" x="245" y="0" style="l_brown_2"/>
+		<e:Button id="btnExit" x="453" y="-9" icon="ui_bt_qiuzhubtn" label="退 出" scaleX="1" scaleY="1" skinName="Btn2Skin" width="90" height="46"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatTextInputSkin" states="normal,disabled,normalWithPrompt,disabledWithPrompt" xmlns:e="http://ns.egret.com/eui" height="40">
+	<e:Image y="0" height="100%" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" source="ui_bm_icomliaotian" />
+        <e:EditableText id="textDisplay" verticalCenter="2" left="5" right="10" textColor="0x755e4f"  width="100%"  bold="true" size="26"/>
+        <e:Label id="promptDisplay" verticalCenter="2" left="5" right="10" text="点击输入聊天内容" textColor="0x755e4f" width="100%"  size="26" textAlign="center" verticalAlign="middle"  touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" bold="true"/>
+</e:Skin>
